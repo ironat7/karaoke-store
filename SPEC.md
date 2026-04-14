@@ -150,10 +150,37 @@ defines:
 1. Fetch `manifest.json`, `setlist.json`, `overlay.js` (required). Fetch
    `parsed_lyrics.json`, `translations.json`, `plain_lyrics.json` tolerantly
    (404 ⇒ skip).
-2. Set `window.__setlist = setlist` and `Object.assign(window.__parsedLyrics, parsed)`.
-3. Inject `overlay.js` via Trusted Types.
-4. Wait one tick for the IIFE to register `__mergeTranslations`.
-5. If `translations.json` present: `window.__mergeTranslations(trans)`.
-6. If `plain_lyrics.json` present: for each key, set
+2. Read persisted offsets from `chrome.storage.sync` key `offsets_<videoId>`,
+   seed `window.__lyricOffsets` BEFORE injecting overlay.
+3. Set `window.__setlist = setlist` and `Object.assign(window.__parsedLyrics, parsed)`.
+4. Inject `overlay.js` via Trusted Types.
+5. Wait one tick for the IIFE to register `__mergeTranslations`.
+6. If `translations.json` present: `window.__mergeTranslations(trans)`.
+7. If `plain_lyrics.json` present: for each key, set
    `window.__plainLyrics[Number(k)] = v`.
-7. Call `window.__karaokeRebuild()`.
+8. Call `window.__karaokeRebuild()`.
+
+## Offset persistence
+
+The overlay's `[` / `]` / `\` key handler nudges `window.__lyricOffsets[lrcId]`
+in-page, then broadcasts via `window.postMessage`:
+
+```js
+window.postMessage({
+  __ko: true, type: 'offset',
+  videoId: '<id>', lrcId: <num>, offset: <seconds | null>
+}, location.origin);
+```
+
+The extension's content script (isolated world) listens for these and writes
+to `chrome.storage.sync` under key `offsets_<videoId>` with shape
+`{ [lrcId]: <seconds> }`. Offsets of `0` / `null` are deleted from storage.
+
+On next bundle load, the bootstrap reads that key and seeds
+`window.__lyricOffsets` before the overlay's IIFE runs. The IIFE preserves
+existing values via `window.__lyricOffsets || {}`, so the seed survives.
+
+`skeleton.js` emits the broadcast inside the key handler — every new bundle
+generated from the current skeleton has it for free. Older bundles missing
+the broadcast can be hot-patched in place (5-line addition after the
+`__lyricOffsets` write).

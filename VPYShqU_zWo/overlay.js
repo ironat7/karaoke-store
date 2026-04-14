@@ -1329,6 +1329,15 @@
     else if (e.key === ']')  window.__lyricOffsets[id] = cur + 0.5;
     else if (e.key === '\\') delete window.__lyricOffsets[id];
     curLineIdx = -2;
+    try {
+      const vid = new URL(location.href).searchParams.get('v');
+      window.postMessage({
+        __ko: true, type: 'offset',
+        videoId: vid, lrcId: id,
+        offset: Object.prototype.hasOwnProperty.call(window.__lyricOffsets, id)
+          ? window.__lyricOffsets[id] : null
+      }, location.origin);
+    } catch {}
     e.preventDefault();
     e.stopPropagation();
   };
