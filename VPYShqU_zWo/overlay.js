@@ -1334,8 +1334,7 @@
       window.postMessage({
         __ko: true, type: 'offset',
         videoId: vid, lrcId: id,
-        offset: Object.prototype.hasOwnProperty.call(window.__lyricOffsets, id)
-          ? window.__lyricOffsets[id] : null
+        offset: window.__lyricOffsets[id] ?? null
       }, location.origin);
     } catch {}
     e.preventDefault();
