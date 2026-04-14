@@ -1,8 +1,8 @@
 # karaoke-store bundle spec
 
 Contract between the **karaoke-mode skill** (which writes bundles) and the
-**karaoke-enabler extension** (which restores them). Do not drift — the
-extension only restores what this spec says.
+**karaoke-enabler extension** (which restores them). This file is authoritative:
+if the extension does something that isn't documented here, fix the extension.
 
 ## Repo layout
 
@@ -15,7 +15,7 @@ karaoke-store/
     ├── manifest.json           # REQUIRED
     ├── setlist.json            # REQUIRED (even single-song = 1-element array)
     ├── overlay.js              # REQUIRED
-    ├── parsed_lyrics.json      # optional — omit if no synced-LRC songs
+    ├── parsed_lyrics.json      # optional — omit if no song has an lrcId
     ├── translations.json       # optional — omit if no JP lyrics to translate
     └── plain_lyrics.json       # optional — omit if every song has an lrcId
 ```
@@ -26,26 +26,25 @@ no separate "single-song" schema.
 **Optional files are treated as `{}` / no-op when absent.** An English-only
 stream might ship no `translations.json`. A pure utawaku with every song in
 LRCLib might ship no `plain_lyrics.json`. A purely-sung-but-unindexed stream
-might ship no `parsed_lyrics.json`. The bootstrap must 404-tolerate all three.
-Always write every optional file you have data for — don't leave partial data
-on disk.
+might ship no `parsed_lyrics.json`. The bootstrap 404-tolerates all three.
 
 ## index.json
 
 ```json
 {
-  "version": 1,
   "videos": {
     "<videoId>": { "title": "...", "artist": "...", "savedAt": "YYYY-MM-DD" }
   }
 }
 ```
 
-## manifest.json (v2)
+Used by the extension to badge the browser action when a saved video is open.
+Nothing more.
+
+## manifest.json
 
 ```json
 {
-  "bundleVersion": 2,
   "videoId": "VPYShqU_zWo",
   "title": "<YouTube title>",
   "channel": "<channel name>",
@@ -55,17 +54,18 @@ on disk.
 }
 ```
 
-- `bundleVersion` — **always 2** for new bundles. Absent or 1 = legacy layout.
-- `skeletonVersion` — bumped when `skeleton.js` breaks compat (renamed state
-  fields, renamed DOM IDs the tick writes to, etc.). Extension does not need
-  to interpret this today — just carries it forward.
-- Top-level per-song fields (`songName`, `originalTitle`, `nameEn`, `artist`,
-  `lrcId`, `lang`) are NOT part of v2 — those live in `setlist.json`.
+All per-song fields (`songName`, `originalTitle`, `nameEn`, `artist`, `lrcId`,
+`lang`) live in `setlist.json` — never here, not even for single-song bundles.
+
+`skeletonVersion` is bumped when `skeleton.js` breaks compat with prior
+bundles (renamed state fields, renamed DOM IDs the tick writes to, etc.).
+Bundles tagged with an older `skeletonVersion` must be regenerated against
+the current skeleton.
 
 ## setlist.json
 
-JSON array of song objects. Each song shape is defined in the karaoke-mode
-skill's "Setlist data shape" section. All fields there are bundle-stable.
+JSON array of song objects. Shape defined in the karaoke-mode skill's
+"Setlist data shape" section. All fields there are bundle-stable.
 
 ```json
 [
@@ -75,7 +75,7 @@ skill's "Setlist data shape" section. All fields there are bundle-stable.
 ]
 ```
 
-- `year` is optional (used by stream-specific overlays for decade ribbons, etc.)
+- `year`, `nameEn` are optional (used by stream-specific overlays).
 - `lrcId: null` signals a song whose lyrics live in `plain_lyrics.json`
   (keyed by the song's `idx`).
 
@@ -84,7 +84,7 @@ skill's "Setlist data shape" section. All fields there are bundle-stable.
 ```json
 {
   "<lrcId>": [
-    { "t": 14.26, "text": "<lyric line as UTF-8>" },
+    { "t": 14.26, "text": "<lyric line>" },
     ...
   ]
 }
@@ -92,9 +92,9 @@ skill's "Setlist data shape" section. All fields there are bundle-stable.
 
 Keyed by LRCLib numeric id (string). Loaded straight into `window.__parsedLyrics`.
 
-## translations.json (v2)
+## translations.json
 
-**Always nested by lrcId**, even for single-song bundles:
+**Always nested by lrcId** — even for single-song bundles:
 
 ```json
 {
@@ -112,12 +112,11 @@ Keyed by LRCLib numeric id (string). Loaded straight into `window.__parsedLyrics
 ```
 
 - `<timestamp>` matches the line's `t` formatted as `t.toFixed(2)` (`"14.26"`).
-- Values may be strings (`"en line"`) OR objects with `{en, align}`.
-- Passed directly to `window.__mergeTranslations(trans)` — no wrapping.
+- Values may be strings (`"en line"`) or objects with `{en, align}`.
+- Passed directly to `window.__mergeTranslations(trans)` — no wrapping by the
+  extension.
 
-For single-song bundles, the top level has one key = the song's lrcId.
-
-## plain_lyrics.json (optional)
+## plain_lyrics.json
 
 ```json
 {
@@ -128,43 +127,33 @@ For single-song bundles, the top level has one key = the song's lrcId.
 }
 ```
 
-- Keys are the setlist entry's 1-based `idx` (as string).
+- Keys are the setlist entry's 1-based `idx` (stringified).
 - `jp` and `en` arrays MUST be parallel and blank-line-aligned. Empty string
   `""` at matching indices signals verse breaks.
-- Merged into `window.__plainLyrics` by number-casting the key.
-- If the file doesn't exist, extension treats it as `{}` — not an error.
+- Merged into `window.__plainLyrics[Number(idx)]` by the extension.
 
 ## overlay.js
 
-Self-contained IIFE. When injected it reads `window.__setlist`,
-`window.__parsedLyrics`, `window.__plainLyrics`, `window.__wordAlign`,
-`window.__transCache`, and defines:
+Self-contained IIFE. Generated from
+`C:\Users\Jerry\Desktop\Tools\karaoke-assets\skeleton.js` plus stream-specific
+customization. Each bundle ships its own copy — do not share.
 
-- `window.__mergeTranslations(obj)` — takes a v2-shape translations object
+When injected it reads `window.__setlist`, `window.__parsedLyrics`,
+`window.__plainLyrics`, `window.__wordAlign`, `window.__transCache`, and
+defines:
+
+- `window.__mergeTranslations(obj)` — merges a translations.json shape
 - `window.__karaokeRebuild()` — forces the tick to re-evaluate
-
-Generated from `C:\Users\Jerry\Desktop\tools\karaoke-assets\skeleton.js` plus
-stream-specific customization. Each bundle ships its own overlay.js.
 
 ## Bootstrap order (extension)
 
-1. Fetch `manifest.json`, `setlist.json`, `parsed_lyrics.json`,
-   `translations.json`, `overlay.js` in parallel. Fetch `plain_lyrics.json`
-   tolerantly (404 ⇒ `{}`).
-2. Set `window.__setlist = setlist`, `Object.assign(window.__parsedLyrics, parsed)`.
+1. Fetch `manifest.json`, `setlist.json`, `overlay.js` (required). Fetch
+   `parsed_lyrics.json`, `translations.json`, `plain_lyrics.json` tolerantly
+   (404 ⇒ skip).
+2. Set `window.__setlist = setlist` and `Object.assign(window.__parsedLyrics, parsed)`.
 3. Inject `overlay.js` via Trusted Types.
-4. Wait a tick for the IIFE to register `__mergeTranslations`.
-5. Call `window.__mergeTranslations(trans)` (v2 shape is passed through as-is).
-   Legacy v1 bundles (no bundleVersion, or bundleVersion=1): wrap trans under
-   `manifest.lrcId` before calling.
-6. For each key in plain_lyrics.json, set `window.__plainLyrics[Number(k)] = v`.
+4. Wait one tick for the IIFE to register `__mergeTranslations`.
+5. If `translations.json` present: `window.__mergeTranslations(trans)`.
+6. If `plain_lyrics.json` present: for each key, set
+   `window.__plainLyrics[Number(k)] = v`.
 7. Call `window.__karaokeRebuild()`.
-
-## Version history
-
-- **v2** (2026-04-14) — Unified single/multi-song. `translations.json` always
-  lrcId-nested. `plain_lyrics.json` added as optional file. Per-song fields
-  removed from manifest. Extension bootstrap updated.
-- **v1** (legacy) — Single-song only. `translations.json` was timestamp-keyed.
-  `manifest.json` carried per-song fields. No `plain_lyrics.json`. Extension
-  wrapped trans under `manifest.lrcId` at bootstrap.
