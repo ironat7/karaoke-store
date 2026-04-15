@@ -1,0 +1,2583 @@
+{
+  "14887146": {
+    "22.78": {
+      "en": "my pounding heartbeat, at dusk",
+      "align": {
+        "jp": [
+          [
+            "高鳴る鼓動は",
+            0
+          ],
+          [
+            " 夕暮れの",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "高鳴る",
+            0,
+            "pounding"
+          ],
+          [
+            "鼓動",
+            0,
+            "heartbeat"
+          ],
+          [
+            "は",
+            0,
+            "(topic)"
+          ],
+          [
+            " 夕暮れ",
+            1,
+            "dusk"
+          ],
+          [
+            "の",
+            1,
+            "'s"
+          ]
+        ],
+        "en": [
+          [
+            " at dusk's",
+            1
+          ],
+          [
+            "my pounding heartbeat",
+            0
+          ]
+        ]
+      }
+    },
+    "28.41": {
+      "en": "syncs with your figure",
+      "align": {
+        "jp": [
+          [
+            "君の",
+            0
+          ],
+          [
+            "姿に",
+            1
+          ],
+          [
+            "シンクする",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "君",
+            0,
+            "you"
+          ],
+          [
+            "の",
+            0,
+            "'s"
+          ],
+          [
+            "姿",
+            1,
+            "figure"
+          ],
+          [
+            "に",
+            1,
+            "with"
+          ],
+          [
+            "シンクする",
+            2,
+            "syncs"
+          ]
+        ],
+        "en": [
+          [
+            "syncs",
+            2
+          ],
+          [
+            " with your",
+            0
+          ],
+          [
+            " figure",
+            1
+          ]
+        ]
+      }
+    },
+    "33.96": {
+      "en": "a pride I don't show, a modest one",
+      "align": {
+        "jp": [
+          [
+            "見せない",
+            0
+          ],
+          [
+            "プライド",
+            1
+          ],
+          [
+            " ささやかな",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "見せ",
+            0,
+            "show"
+          ],
+          [
+            "ない",
+            0,
+            "(neg)"
+          ],
+          [
+            "プライド",
+            1,
+            "pride"
+          ],
+          [
+            " ささやかな",
+            2,
+            "modest"
+          ]
+        ],
+        "en": [
+          [
+            "a",
+            1
+          ],
+          [
+            " modest",
+            2
+          ],
+          [
+            ", unshown",
+            0
+          ],
+          [
+            " pride",
+            1
+          ]
+        ]
+      }
+    },
+    "39.45": {
+      "en": "swings with everything about you",
+      "align": {
+        "jp": [
+          [
+            "君の",
+            0
+          ],
+          [
+            "全てに",
+            1
+          ],
+          [
+            "スウィングする",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "君",
+            0,
+            "you"
+          ],
+          [
+            "の",
+            0,
+            "'s"
+          ],
+          [
+            "全て",
+            1,
+            "everything"
+          ],
+          [
+            "に",
+            1,
+            "with"
+          ],
+          [
+            "スウィングする",
+            2,
+            "swings"
+          ]
+        ],
+        "en": [
+          [
+            "swings",
+            2
+          ],
+          [
+            " with your",
+            0
+          ],
+          [
+            " everything",
+            1
+          ]
+        ]
+      }
+    },
+    "44.26": {
+      "en": "Do you know it? Bearing the moon's light on my back",
+      "align": {
+        "jp": [
+          [
+            "Do you know it? ",
+            0
+          ],
+          [
+            "月の",
+            1
+          ],
+          [
+            "明かりを",
+            2
+          ],
+          [
+            "背負い",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "Do you know it? ",
+            0,
+            "do you know it?"
+          ],
+          [
+            "月",
+            1,
+            "moon"
+          ],
+          [
+            "の",
+            1,
+            "'s"
+          ],
+          [
+            "明かり",
+            2,
+            "light"
+          ],
+          [
+            "を",
+            2,
+            "(obj)"
+          ],
+          [
+            "背負い",
+            3,
+            "bearing"
+          ]
+        ],
+        "en": [
+          [
+            "Do you know it? ",
+            0
+          ],
+          [
+            "bearing",
+            3
+          ],
+          [
+            " the moon's",
+            1
+          ],
+          [
+            " light",
+            2
+          ]
+        ]
+      }
+    },
+    "49.62": {
+      "en": "I chase fate's thread that wrapped itself around me",
+      "align": {
+        "jp": [
+          [
+            "絡んできた",
+            0
+          ],
+          [
+            "運命の",
+            1
+          ],
+          [
+            "糸を",
+            2
+          ],
+          [
+            "追う",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "絡んできた",
+            0,
+            "wrapped around"
+          ],
+          [
+            "運命",
+            1,
+            "fate"
+          ],
+          [
+            "の",
+            1,
+            "'s"
+          ],
+          [
+            "糸",
+            2,
+            "thread"
+          ],
+          [
+            "を",
+            2,
+            "(obj)"
+          ],
+          [
+            "追う",
+            3,
+            "chase"
+          ]
+        ],
+        "en": [
+          [
+            "I chase",
+            3
+          ],
+          [
+            " fate's",
+            1
+          ],
+          [
+            " thread",
+            2
+          ],
+          [
+            " that wrapped around me",
+            0
+          ]
+        ]
+      }
+    },
+    "55.45": {
+      "en": "my wish — I can't see its answer",
+      "align": {
+        "jp": [
+          [
+            "願い",
+            0
+          ],
+          [
+            " その答えは",
+            1
+          ],
+          [
+            "見えない",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "願い",
+            0,
+            "wish"
+          ],
+          [
+            " その",
+            1,
+            "that"
+          ],
+          [
+            "答え",
+            1,
+            "answer"
+          ],
+          [
+            "は",
+            1,
+            "(topic)"
+          ],
+          [
+            "見え",
+            2,
+            "see"
+          ],
+          [
+            "ない",
+            2,
+            "(neg)"
+          ]
+        ],
+        "en": [
+          [
+            "my wish —",
+            0
+          ],
+          [
+            " its answer",
+            1
+          ],
+          [
+            " I can't see",
+            2
+          ]
+        ]
+      }
+    },
+    "60.93": {
+      "en": "obstructing clouds are hiding it, what lies beyond",
+      "align": {
+        "jp": [
+          [
+            "じゃまな",
+            0
+          ],
+          [
+            "雲が",
+            1
+          ],
+          [
+            "かくすんだ",
+            2
+          ],
+          [
+            " その先は",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "じゃまな",
+            0,
+            "obstructing"
+          ],
+          [
+            "雲",
+            1,
+            "clouds"
+          ],
+          [
+            "が",
+            1,
+            "(subj)"
+          ],
+          [
+            "かくす",
+            2,
+            "hide"
+          ],
+          [
+            "んだ",
+            2,
+            "(emph)"
+          ],
+          [
+            " その先",
+            3,
+            "beyond that"
+          ],
+          [
+            "は",
+            3,
+            "(topic)"
+          ]
+        ],
+        "en": [
+          [
+            "obstructing",
+            0
+          ],
+          [
+            " clouds",
+            1
+          ],
+          [
+            " are hiding it,",
+            2
+          ],
+          [
+            " what lies beyond",
+            3
+          ]
+        ]
+      }
+    },
+    "67.02": {
+      "en": "if you were alone, I'd fly to you without hesitation",
+      "align": {
+        "jp": [
+          [
+            "もしも",
+            0
+          ],
+          [
+            "君が",
+            1
+          ],
+          [
+            "ひとりなら",
+            2
+          ],
+          [
+            " 迷わず",
+            3
+          ],
+          [
+            "飛んでいくさ",
+            4
+          ]
+        ],
+        "gloss": [
+          [
+            "もしも",
+            0,
+            "if"
+          ],
+          [
+            "君",
+            1,
+            "you"
+          ],
+          [
+            "が",
+            1,
+            "(subj)"
+          ],
+          [
+            "ひとり",
+            2,
+            "alone"
+          ],
+          [
+            "なら",
+            2,
+            "if"
+          ],
+          [
+            " 迷わず",
+            3,
+            "without hesitating"
+          ],
+          [
+            "飛んでいく",
+            4,
+            "fly off"
+          ],
+          [
+            "さ",
+            4,
+            "(!)"
+          ]
+        ],
+        "en": [
+          [
+            "if",
+            0
+          ],
+          [
+            " you",
+            1
+          ],
+          [
+            " were alone,",
+            2
+          ],
+          [
+            " I'd fly off",
+            4
+          ],
+          [
+            " without hesitation",
+            3
+          ]
+        ]
+      }
+    },
+    "74.84": {
+      "en": "(The one who secretly hints at my destiny, Honey!)",
+      "align": {
+        "jp": [
+          [
+            "(俺の",
+            0
+          ],
+          [
+            "行く末",
+            1
+          ],
+          [
+            "密かに",
+            2
+          ],
+          [
+            "暗示する",
+            3
+          ],
+          [
+            "人Honey!)",
+            4
+          ]
+        ],
+        "gloss": [
+          [
+            "(俺",
+            0,
+            "I"
+          ],
+          [
+            "の",
+            0,
+            "'s"
+          ],
+          [
+            "行く末",
+            1,
+            "destiny"
+          ],
+          [
+            "密かに",
+            2,
+            "secretly"
+          ],
+          [
+            "暗示する",
+            3,
+            "hints at"
+          ],
+          [
+            "人",
+            4,
+            "person"
+          ],
+          [
+            "Honey!)",
+            4,
+            "Honey!"
+          ]
+        ],
+        "en": [
+          [
+            "(the",
+            4
+          ],
+          [
+            " one who",
+            4
+          ],
+          [
+            " secretly",
+            2
+          ],
+          [
+            " hints at",
+            3
+          ],
+          [
+            " my",
+            0
+          ],
+          [
+            " destiny,",
+            1
+          ],
+          [
+            " Honey!)",
+            4
+          ]
+        ]
+      }
+    },
+    "78.31": {
+      "en": "when you're with someone else, I wonder if the magic breaks",
+      "align": {
+        "jp": [
+          [
+            "もしも",
+            0
+          ],
+          [
+            "誰かといた時は",
+            1
+          ],
+          [
+            " 解けるのかな",
+            2
+          ],
+          [
+            "魔法は",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "もしも",
+            0,
+            "if"
+          ],
+          [
+            "誰か",
+            1,
+            "someone"
+          ],
+          [
+            "と",
+            1,
+            "with"
+          ],
+          [
+            "いた",
+            1,
+            "were"
+          ],
+          [
+            "時",
+            1,
+            "time"
+          ],
+          [
+            "は",
+            1,
+            "(topic)"
+          ],
+          [
+            " 解ける",
+            2,
+            "breaks"
+          ],
+          [
+            "の",
+            2,
+            "(nom)"
+          ],
+          [
+            "かな",
+            2,
+            "I wonder"
+          ],
+          [
+            "魔法",
+            3,
+            "magic"
+          ],
+          [
+            "は",
+            3,
+            "(topic)"
+          ]
+        ],
+        "en": [
+          [
+            "if",
+            0
+          ],
+          [
+            " you're with someone else,",
+            1
+          ],
+          [
+            " I wonder if the",
+            2
+          ],
+          [
+            " magic",
+            3
+          ],
+          [
+            " breaks",
+            2
+          ]
+        ]
+      }
+    },
+    "86.70": {
+      "en": "the ache in my chest that feels like it'll burst...",
+      "align": {
+        "jp": [
+          [
+            "張り裂けそうな",
+            0
+          ],
+          [
+            "胸の",
+            1
+          ],
+          [
+            "痛みは...",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "張り裂けそうな",
+            0,
+            "about-to-burst"
+          ],
+          [
+            "胸",
+            1,
+            "chest"
+          ],
+          [
+            "の",
+            1,
+            "'s"
+          ],
+          [
+            "痛み",
+            2,
+            "ache"
+          ],
+          [
+            "は",
+            2,
+            "(topic)"
+          ],
+          [
+            "...",
+            2,
+            "..."
+          ]
+        ],
+        "en": [
+          [
+            "the",
+            2
+          ],
+          [
+            " chest's",
+            1
+          ],
+          [
+            " about-to-burst",
+            0
+          ],
+          [
+            " ache...",
+            2
+          ]
+        ]
+      }
+    },
+    "95.31": {
+      "en": "this painful feeling, I won't forget",
+      "align": {
+        "jp": [
+          [
+            "せつない",
+            0
+          ],
+          [
+            "思いは",
+            1
+          ],
+          [
+            " 忘れない",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "せつない",
+            0,
+            "painful"
+          ],
+          [
+            "思い",
+            1,
+            "feeling"
+          ],
+          [
+            "は",
+            1,
+            "(topic)"
+          ],
+          [
+            " 忘れ",
+            2,
+            "forget"
+          ],
+          [
+            "ない",
+            2,
+            "(neg)"
+          ]
+        ],
+        "en": [
+          [
+            "this",
+            1
+          ],
+          [
+            " painful",
+            0
+          ],
+          [
+            " feeling,",
+            1
+          ],
+          [
+            " I won't forget",
+            2
+          ]
+        ]
+      }
+    },
+    "100.92": {
+      "en": "linking up until the day we meet",
+      "align": {
+        "jp": [
+          [
+            "出会いの",
+            0
+          ],
+          [
+            "日まで",
+            1
+          ],
+          [
+            " リンクする",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "出会い",
+            0,
+            "meeting"
+          ],
+          [
+            "の",
+            0,
+            "'s"
+          ],
+          [
+            "日",
+            1,
+            "day"
+          ],
+          [
+            "まで",
+            1,
+            "until"
+          ],
+          [
+            " リンクする",
+            2,
+            "link up"
+          ]
+        ],
+        "en": [
+          [
+            "linking up",
+            2
+          ],
+          [
+            " until",
+            1
+          ],
+          [
+            " the day",
+            1
+          ],
+          [
+            " of our meeting",
+            0
+          ]
+        ]
+      }
+    },
+    "106.53": {
+      "en": "to me, waiting for a dawn that won't come",
+      "align": {
+        "jp": [
+          [
+            "来ない",
+            0
+          ],
+          [
+            "夜明けを",
+            1
+          ],
+          [
+            " 待つ",
+            2
+          ],
+          [
+            "俺に",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "来",
+            0,
+            "come"
+          ],
+          [
+            "ない",
+            0,
+            "(neg)"
+          ],
+          [
+            "夜明け",
+            1,
+            "dawn"
+          ],
+          [
+            "を",
+            1,
+            "(obj)"
+          ],
+          [
+            " 待つ",
+            2,
+            "wait for"
+          ],
+          [
+            "俺",
+            3,
+            "me"
+          ],
+          [
+            "に",
+            3,
+            "to"
+          ]
+        ],
+        "en": [
+          [
+            "to",
+            3
+          ],
+          [
+            " me",
+            3
+          ],
+          [
+            ", waiting for",
+            2
+          ],
+          [
+            " a dawn",
+            1
+          ],
+          [
+            " that won't come",
+            0
+          ]
+        ]
+      }
+    },
+    "111.99": {
+      "en": "that day's you winks",
+      "align": {
+        "jp": [
+          [
+            "あの日の",
+            0
+          ],
+          [
+            "君が",
+            1
+          ],
+          [
+            "ウィンクする",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "あの",
+            0,
+            "that"
+          ],
+          [
+            "日",
+            0,
+            "day"
+          ],
+          [
+            "の",
+            0,
+            "'s"
+          ],
+          [
+            "君",
+            1,
+            "you"
+          ],
+          [
+            "が",
+            1,
+            "(subj)"
+          ],
+          [
+            "ウィンクする",
+            2,
+            "winks"
+          ]
+        ],
+        "en": [
+          [
+            "that day's",
+            0
+          ],
+          [
+            " you",
+            1
+          ],
+          [
+            " winks",
+            2
+          ]
+        ]
+      }
+    },
+    "116.78": {
+      "en": "Don't you know it? If we could meet in dreams, that'd be enough",
+      "align": {
+        "jp": [
+          [
+            "Don't you know it? ",
+            0
+          ],
+          [
+            "夢で",
+            1
+          ],
+          [
+            "逢えれば",
+            2
+          ],
+          [
+            "まだいい",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "Don't you know it? ",
+            0,
+            "don't you know?"
+          ],
+          [
+            "夢",
+            1,
+            "dream"
+          ],
+          [
+            "で",
+            1,
+            "in"
+          ],
+          [
+            "逢えれば",
+            2,
+            "if could meet"
+          ],
+          [
+            "まだいい",
+            3,
+            "still good"
+          ]
+        ],
+        "en": [
+          [
+            "Don't you know it? ",
+            0
+          ],
+          [
+            "if we could meet",
+            2
+          ],
+          [
+            " in",
+            1
+          ],
+          [
+            " dreams,",
+            1
+          ],
+          [
+            " that'd be enough",
+            3
+          ]
+        ]
+      }
+    },
+    "122.47": {
+      "en": "\"give up\" — tonight too I tell myself",
+      "align": {
+        "jp": [
+          [
+            "\"あきらめる\"と",
+            0
+          ],
+          [
+            "今夜も",
+            1
+          ],
+          [
+            "言い聞かす",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "\"あきらめる\"",
+            0,
+            "\"give up\""
+          ],
+          [
+            "と",
+            0,
+            "(quote)"
+          ],
+          [
+            "今夜",
+            1,
+            "tonight"
+          ],
+          [
+            "も",
+            1,
+            "too"
+          ],
+          [
+            "言い聞かす",
+            2,
+            "tell myself"
+          ]
+        ],
+        "en": [
+          [
+            "\"give up\" —",
+            0
+          ],
+          [
+            " tonight too",
+            1
+          ],
+          [
+            " I tell myself",
+            2
+          ]
+        ]
+      }
+    },
+    "128.25": {
+      "en": "beloved — this feeling won't vanish",
+      "align": {
+        "jp": [
+          [
+            "愛しい",
+            0
+          ],
+          [
+            " この気持ちは",
+            1
+          ],
+          [
+            "消えない",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "愛しい",
+            0,
+            "beloved"
+          ],
+          [
+            " この",
+            1,
+            "this"
+          ],
+          [
+            "気持ち",
+            1,
+            "feeling"
+          ],
+          [
+            "は",
+            1,
+            "(topic)"
+          ],
+          [
+            "消え",
+            2,
+            "vanish"
+          ],
+          [
+            "ない",
+            2,
+            "(neg)"
+          ]
+        ],
+        "en": [
+          [
+            "beloved —",
+            0
+          ],
+          [
+            " this feeling",
+            1
+          ],
+          [
+            " won't vanish",
+            2
+          ]
+        ]
+      }
+    },
+    "133.40": {
+      "en": "so tomorrow too I'll keep hoping, for what lies ahead",
+      "align": {
+        "jp": [
+          [
+            "だから",
+            0
+          ],
+          [
+            "明日も",
+            1
+          ],
+          [
+            "期待するんだ",
+            2
+          ],
+          [
+            " この先を",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "だから",
+            0,
+            "so"
+          ],
+          [
+            "明日",
+            1,
+            "tomorrow"
+          ],
+          [
+            "も",
+            1,
+            "too"
+          ],
+          [
+            "期待する",
+            2,
+            "hope"
+          ],
+          [
+            "んだ",
+            2,
+            "(emph)"
+          ],
+          [
+            " この先",
+            3,
+            "what lies ahead"
+          ],
+          [
+            "を",
+            3,
+            "(obj)"
+          ]
+        ],
+        "en": [
+          [
+            "so",
+            0
+          ],
+          [
+            " tomorrow too",
+            1
+          ],
+          [
+            " I'll keep hoping,",
+            2
+          ],
+          [
+            " for what lies ahead",
+            3
+          ]
+        ]
+      }
+    },
+    "139.64": {
+      "en": "if it weren't you, I wouldn't be suffering like this",
+      "align": {
+        "jp": [
+          [
+            "もしも",
+            0
+          ],
+          [
+            "君じゃなかったら",
+            1
+          ],
+          [
+            " 苦しむことも",
+            2
+          ],
+          [
+            "ない",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "もしも",
+            0,
+            "if"
+          ],
+          [
+            "君",
+            1,
+            "you"
+          ],
+          [
+            "じゃなかったら",
+            1,
+            "weren't"
+          ],
+          [
+            " 苦しむ",
+            2,
+            "suffer"
+          ],
+          [
+            "こと",
+            2,
+            "thing"
+          ],
+          [
+            "も",
+            2,
+            "also"
+          ],
+          [
+            "ない",
+            3,
+            "(neg)"
+          ]
+        ],
+        "en": [
+          [
+            "if",
+            0
+          ],
+          [
+            " it weren't you,",
+            1
+          ],
+          [
+            " I wouldn't be suffering",
+            2
+          ],
+          [
+            " like this",
+            3
+          ]
+        ]
+      }
+    },
+    "147.54": {
+      "en": "(The one who secretly hints at my destiny, Honey!)",
+      "align": {
+        "jp": [
+          [
+            "(俺の",
+            0
+          ],
+          [
+            "行く末",
+            1
+          ],
+          [
+            "密かに",
+            2
+          ],
+          [
+            "暗示する",
+            3
+          ],
+          [
+            "人Honey!)",
+            4
+          ]
+        ],
+        "gloss": [
+          [
+            "(俺",
+            0,
+            "I"
+          ],
+          [
+            "の",
+            0,
+            "'s"
+          ],
+          [
+            "行く末",
+            1,
+            "destiny"
+          ],
+          [
+            "密かに",
+            2,
+            "secretly"
+          ],
+          [
+            "暗示する",
+            3,
+            "hints at"
+          ],
+          [
+            "人",
+            4,
+            "person"
+          ],
+          [
+            "Honey!)",
+            4,
+            "Honey!"
+          ]
+        ],
+        "en": [
+          [
+            "(the",
+            4
+          ],
+          [
+            " one who",
+            4
+          ],
+          [
+            " secretly",
+            2
+          ],
+          [
+            " hints at",
+            3
+          ],
+          [
+            " my",
+            0
+          ],
+          [
+            " destiny,",
+            1
+          ],
+          [
+            " Honey!)",
+            4
+          ]
+        ]
+      }
+    },
+    "150.86": {
+      "en": "saying \"if we hadn't met back then\" — that's a meaningless thing",
+      "align": {
+        "jp": [
+          [
+            "\"もしも",
+            0
+          ],
+          [
+            "あの時",
+            1
+          ],
+          [
+            "会わなけりゃ\"なんて",
+            2
+          ],
+          [
+            "意味ないこと",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "\"もしも",
+            0,
+            "\"if"
+          ],
+          [
+            "あの",
+            1,
+            "that"
+          ],
+          [
+            "時",
+            1,
+            "time"
+          ],
+          [
+            "会わ",
+            2,
+            "meet"
+          ],
+          [
+            "なけりゃ",
+            2,
+            "hadn't"
+          ],
+          [
+            "\"",
+            2,
+            "\""
+          ],
+          [
+            "なんて",
+            2,
+            "such as"
+          ],
+          [
+            "意味ない",
+            3,
+            "meaningless"
+          ],
+          [
+            "こと",
+            3,
+            "thing"
+          ]
+        ],
+        "en": [
+          [
+            "saying such as \"if",
+            2
+          ],
+          [
+            " back then",
+            1
+          ],
+          [
+            " we hadn't met\"",
+            2
+          ],
+          [
+            " — that's a meaningless thing",
+            3
+          ],
+          [
+            "",
+            0
+          ]
+        ]
+      }
+    },
+    "159.29": {
+      "en": "because I can see no one but you anymore",
+      "align": {
+        "jp": [
+          [
+            "君しか",
+            0
+          ],
+          [
+            "もう",
+            1
+          ],
+          [
+            "見えないんだから",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "君",
+            0,
+            "you"
+          ],
+          [
+            "しか",
+            0,
+            "nothing but"
+          ],
+          [
+            "もう",
+            1,
+            "anymore"
+          ],
+          [
+            "見え",
+            2,
+            "see"
+          ],
+          [
+            "ない",
+            2,
+            "(neg)"
+          ],
+          [
+            "んだ",
+            2,
+            "(emph)"
+          ],
+          [
+            "から",
+            2,
+            "because"
+          ]
+        ],
+        "en": [
+          [
+            "because I can see",
+            2
+          ],
+          [
+            " nothing but you",
+            0
+          ],
+          [
+            " anymore",
+            1
+          ]
+        ]
+      }
+    },
+    "161.99": {
+      "en": "Up to date, be my Baby! Come on Up to date, be my Baby"
+    },
+    "167.50": {
+      "en": "equally-divided love — that's long since gone!",
+      "align": {
+        "jp": [
+          [
+            "均等の",
+            0
+          ],
+          [
+            "愛なんて",
+            1
+          ],
+          [
+            "もうとうに",
+            2
+          ],
+          [
+            "ない!",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "均等",
+            0,
+            "equal"
+          ],
+          [
+            "の",
+            0,
+            "'s"
+          ],
+          [
+            "愛",
+            1,
+            "love"
+          ],
+          [
+            "なんて",
+            1,
+            "such as"
+          ],
+          [
+            "もうとうに",
+            2,
+            "long since"
+          ],
+          [
+            "ない",
+            3,
+            "(neg)"
+          ],
+          [
+            "!",
+            3,
+            "!"
+          ]
+        ],
+        "en": [
+          [
+            "such a thing as",
+            1
+          ],
+          [
+            " equally-divided",
+            0
+          ],
+          [
+            " love",
+            1
+          ],
+          [
+            " is long since",
+            2
+          ],
+          [
+            " gone!",
+            3
+          ]
+        ]
+      }
+    },
+    "169.79": {
+      "en": "trying to force myself to love someone else — no way, no way, no way, no way",
+      "align": {
+        "jp": [
+          [
+            "無理に",
+            0
+          ],
+          [
+            "誰かを",
+            1
+          ],
+          [
+            "愛そうなんて",
+            2
+          ],
+          [
+            "無理無理無理無理",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "無理に",
+            0,
+            "forcibly"
+          ],
+          [
+            "誰か",
+            1,
+            "someone"
+          ],
+          [
+            "を",
+            1,
+            "(obj)"
+          ],
+          [
+            "愛そう",
+            2,
+            "try to love"
+          ],
+          [
+            "なんて",
+            2,
+            "such as"
+          ],
+          [
+            "無理無理無理無理",
+            3,
+            "no way no way no way no way"
+          ]
+        ],
+        "en": [
+          [
+            "trying to",
+            2
+          ],
+          [
+            " forcibly",
+            0
+          ],
+          [
+            " love",
+            2
+          ],
+          [
+            " someone",
+            1
+          ],
+          [
+            " — no way, no way, no way, no way",
+            3
+          ]
+        ]
+      }
+    },
+    "173.16": {
+      "en": "this love's weight is super-extreme class",
+      "align": {
+        "jp": [
+          [
+            "この",
+            0
+          ],
+          [
+            "愛の",
+            1
+          ],
+          [
+            "重さは",
+            2
+          ],
+          [
+            "超ド級",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "この",
+            0,
+            "this"
+          ],
+          [
+            "愛",
+            1,
+            "love"
+          ],
+          [
+            "の",
+            1,
+            "'s"
+          ],
+          [
+            "重さ",
+            2,
+            "weight"
+          ],
+          [
+            "は",
+            2,
+            "(topic)"
+          ],
+          [
+            "超",
+            3,
+            "super"
+          ],
+          [
+            "ド級",
+            3,
+            "extreme class"
+          ]
+        ],
+        "en": [
+          [
+            "this",
+            0
+          ],
+          [
+            " love's",
+            1
+          ],
+          [
+            " weight",
+            2
+          ],
+          [
+            " is super-extreme class",
+            3
+          ]
+        ]
+      }
+    },
+    "175.24": {
+      "en": "thinking \"just right\" is nothing but damage, damage!",
+      "align": {
+        "jp": [
+          [
+            "ちょうどよくなんて",
+            0
+          ],
+          [
+            "考えじゃ",
+            1
+          ],
+          [
+            "ダメージダメージ!",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "ちょうどよく",
+            0,
+            "moderately"
+          ],
+          [
+            "なんて",
+            0,
+            "such as"
+          ],
+          [
+            "考え",
+            1,
+            "thinking"
+          ],
+          [
+            "じゃ",
+            1,
+            "is"
+          ],
+          [
+            "ダメージダメージ",
+            2,
+            "damage damage"
+          ],
+          [
+            "!",
+            2,
+            "!"
+          ]
+        ],
+        "en": [
+          [
+            "thinking",
+            1
+          ],
+          [
+            " \"just right\"",
+            0
+          ],
+          [
+            " is damage, damage!",
+            2
+          ]
+        ]
+      }
+    },
+    "178.79": {
+      "en": "now, with pounding chest calmed, I'll deliver to you a message of resolve!",
+      "align": {
+        "jp": [
+          [
+            "今高鳴る胸",
+            0
+          ],
+          [
+            "冷静に",
+            1
+          ],
+          [
+            " 君に",
+            2
+          ],
+          [
+            "届けよ",
+            3
+          ],
+          [
+            "決心のメッセージ!",
+            4
+          ]
+        ],
+        "gloss": [
+          [
+            "今",
+            0,
+            "now"
+          ],
+          [
+            "高鳴る",
+            0,
+            "pounding"
+          ],
+          [
+            "胸",
+            0,
+            "chest"
+          ],
+          [
+            "冷静に",
+            1,
+            "calmly"
+          ],
+          [
+            " 君",
+            2,
+            "you"
+          ],
+          [
+            "に",
+            2,
+            "to"
+          ],
+          [
+            "届けよ",
+            3,
+            "deliver"
+          ],
+          [
+            "決心",
+            4,
+            "resolve"
+          ],
+          [
+            "の",
+            4,
+            "'s"
+          ],
+          [
+            "メッセージ",
+            4,
+            "message"
+          ],
+          [
+            "!",
+            4,
+            "!"
+          ]
+        ],
+        "en": [
+          [
+            "now, pounding chest",
+            0
+          ],
+          [
+            " calmed,",
+            1
+          ],
+          [
+            " I'll deliver",
+            3
+          ],
+          [
+            " to you",
+            2
+          ],
+          [
+            " a message of resolve!",
+            4
+          ]
+        ]
+      }
+    },
+    "184.09": {
+      "en": "if it weren't you, I couldn't love this much",
+      "align": {
+        "jp": [
+          [
+            "もしも",
+            0
+          ],
+          [
+            "君じゃなかったら",
+            1
+          ],
+          [
+            " こんなに",
+            2
+          ],
+          [
+            "愛せない",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "もしも",
+            0,
+            "if"
+          ],
+          [
+            "君",
+            1,
+            "you"
+          ],
+          [
+            "じゃなかったら",
+            1,
+            "weren't"
+          ],
+          [
+            " こんなに",
+            2,
+            "this much"
+          ],
+          [
+            "愛せ",
+            3,
+            "can love"
+          ],
+          [
+            "ない",
+            3,
+            "(neg)"
+          ]
+        ],
+        "en": [
+          [
+            "if",
+            0
+          ],
+          [
+            " it weren't you,",
+            1
+          ],
+          [
+            " I couldn't love",
+            3
+          ],
+          [
+            " this much",
+            2
+          ]
+        ]
+      }
+    },
+    "191.73": {
+      "en": "(The one who secretly hints at my destiny, Honey!)",
+      "align": {
+        "jp": [
+          [
+            "(俺の",
+            0
+          ],
+          [
+            "行く末",
+            1
+          ],
+          [
+            "密かに",
+            2
+          ],
+          [
+            "暗示する",
+            3
+          ],
+          [
+            "人Honey!)",
+            4
+          ]
+        ],
+        "gloss": [
+          [
+            "(俺",
+            0,
+            "I"
+          ],
+          [
+            "の",
+            0,
+            "'s"
+          ],
+          [
+            "行く末",
+            1,
+            "destiny"
+          ],
+          [
+            "密かに",
+            2,
+            "secretly"
+          ],
+          [
+            "暗示する",
+            3,
+            "hints at"
+          ],
+          [
+            "人",
+            4,
+            "person"
+          ],
+          [
+            "Honey!)",
+            4,
+            "Honey!"
+          ]
+        ],
+        "en": [
+          [
+            "(the",
+            4
+          ],
+          [
+            " one who",
+            4
+          ],
+          [
+            " secretly",
+            2
+          ],
+          [
+            " hints at",
+            3
+          ],
+          [
+            " my",
+            0
+          ],
+          [
+            " destiny,",
+            1
+          ],
+          [
+            " Honey!)",
+            4
+          ]
+        ]
+      }
+    },
+    "195.30": {
+      "en": "if it's a dream I don't wake from, I'll reel this fate in",
+      "align": {
+        "jp": [
+          [
+            "もしも",
+            0
+          ],
+          [
+            "醒めない夢ならば",
+            1
+          ],
+          [
+            " この運命",
+            2
+          ],
+          [
+            "たぐりよせ",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "もしも",
+            0,
+            "if"
+          ],
+          [
+            "醒め",
+            1,
+            "wake"
+          ],
+          [
+            "ない",
+            1,
+            "(neg)"
+          ],
+          [
+            "夢",
+            1,
+            "dream"
+          ],
+          [
+            "ならば",
+            1,
+            "if"
+          ],
+          [
+            " この",
+            2,
+            "this"
+          ],
+          [
+            "運命",
+            2,
+            "fate"
+          ],
+          [
+            "たぐりよせ",
+            3,
+            "reel in"
+          ]
+        ],
+        "en": [
+          [
+            "if",
+            0
+          ],
+          [
+            " it's a dream I don't wake from,",
+            1
+          ],
+          [
+            " I'll reel in",
+            3
+          ],
+          [
+            " this fate",
+            2
+          ]
+        ]
+      }
+    },
+    "203.26": {
+      "en": "to where you are, delivering my feelings...",
+      "align": {
+        "jp": [
+          [
+            "君のもとへ",
+            0
+          ],
+          [
+            "思い",
+            1
+          ],
+          [
+            "届けに...",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "君",
+            0,
+            "you"
+          ],
+          [
+            "の",
+            0,
+            "'s"
+          ],
+          [
+            "もと",
+            0,
+            "side"
+          ],
+          [
+            "へ",
+            0,
+            "to"
+          ],
+          [
+            "思い",
+            1,
+            "feelings"
+          ],
+          [
+            "届け",
+            2,
+            "deliver"
+          ],
+          [
+            "に",
+            2,
+            "to"
+          ],
+          [
+            "...",
+            2,
+            "..."
+          ]
+        ],
+        "en": [
+          [
+            "to your side,",
+            0
+          ],
+          [
+            " delivering",
+            2
+          ],
+          [
+            " my feelings",
+            1
+          ],
+          [
+            "...",
+            2
+          ]
+        ]
+      }
+    },
+    "209.59": {
+      "en": "because I can see no one but you anymore...",
+      "align": {
+        "jp": [
+          [
+            "君しか",
+            0
+          ],
+          [
+            "もう",
+            1
+          ],
+          [
+            "見えないんだから...",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "君",
+            0,
+            "you"
+          ],
+          [
+            "しか",
+            0,
+            "nothing but"
+          ],
+          [
+            "もう",
+            1,
+            "anymore"
+          ],
+          [
+            "見え",
+            2,
+            "see"
+          ],
+          [
+            "ない",
+            2,
+            "(neg)"
+          ],
+          [
+            "んだ",
+            2,
+            "(emph)"
+          ],
+          [
+            "から",
+            2,
+            "because"
+          ],
+          [
+            "...",
+            2,
+            "..."
+          ]
+        ],
+        "en": [
+          [
+            "because I can see",
+            2
+          ],
+          [
+            " nothing but you",
+            0
+          ],
+          [
+            " anymore",
+            1
+          ],
+          [
+            "...",
+            2
+          ]
+        ]
+      }
+    }
+  }
+}
