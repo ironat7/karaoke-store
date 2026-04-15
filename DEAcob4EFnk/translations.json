@@ -1,0 +1,407 @@
+{
+  "11123587": {
+    "1.38": {
+      "en": "don't make my love into a tragic Juliet",
+      "align": {
+        "jp":    [["私の恋を", 0], [" 悲劇の", 1], [" ジュリエットにしないで", 2]],
+        "gloss": [["私", 0, "I"], ["の", 0, "'s"], ["恋", 0, "love"], ["を", 0, "(obj)"],
+                  [" 悲劇", 1, "tragedy"], ["の", 1, "'s"],
+                  [" ジュリエット", 2, "Juliet"], ["に", 2, "into"], ["しないで", 2, "don't make"]],
+        "en":    [["don't make ", 2], ["my love ", 0], ["into a tragic ", 1], ["Juliet", 2]]
+      }
+    },
+    "6.94": {
+      "en": "take me away from here...",
+      "align": {
+        "jp":    [["ここから", 0], [" 連れ出して...", 1]],
+        "gloss": [["ここ", 0, "here"], ["から", 0, "from"],
+                  [" 連れ出して", 1, "take (me) out"], ["...", 1, "..."]],
+        "en":    [["take me away ", 1], ["from here...", 0]]
+      }
+    },
+    "11.08": {
+      "en": "that's how I feel",
+      "align": {
+        "jp":    [["そんな", 0], [" 気分よ", 1]],
+        "gloss": [["そんな", 0, "that kind of"],
+                  [" 気分", 1, "feeling/mood"], ["よ", 1, "(!)"]],
+        "en":    [["that kind of", 0], [" feeling", 1]]
+      }
+    },
+    "14.04": {
+      "en": "good night to Papa and Mama",
+      "align": {
+        "jp":    [["パパと", 0], [" ママに", 1], [" おやすみなさい", 2]],
+        "gloss": [["パパ", 0, "Papa"], ["と", 0, "and"],
+                  [" ママ", 1, "Mama"], ["に", 1, "to"],
+                  [" おやすみなさい", 2, "good night"]],
+        "en":    [["good night ", 2], ["to Papa and ", 0], ["Mama", 1]]
+      }
+    },
+    "27.24": {
+      "en": "at best, have sweet dreams",
+      "align": {
+        "jp":    [["せいぜい", 0], [" いい夢を", 1], [" みなさい", 2]],
+        "gloss": [["せいぜい", 0, "at best"],
+                  [" いい", 1, "good"], ["夢", 1, "dream"], ["を", 1, "(obj)"],
+                  [" みなさい", 2, "see (imperative)"]],
+        "en":    [["at best ", 0], ["have ", 2], ["sweet dreams", 1]]
+      }
+    },
+    "29.69": {
+      "en": "it's already time for adults to sleep",
+      "align": {
+        "jp":    [["大人は", 0], [" もう", 1], [" 寝る時間よ", 2]],
+        "gloss": [["大人", 0, "adults"], ["は", 0, "(topic)"],
+                  [" もう", 1, "already"],
+                  [" 寝る", 2, "to sleep"], ["時間", 2, "time"], ["よ", 2, "(!)"]],
+        "en":    [["it's already ", 1], ["time to sleep ", 2], ["for adults", 0]]
+      }
+    },
+    "33.79": {
+      "en": "overwhelming, enchanting caramel",
+      "align": {
+        "jp":    [["咽返る", 0], [" 魅惑の", 1], [" キャラメル", 2]],
+        "gloss": [["咽返る", 0, "choking/overwhelming"],
+                  [" 魅惑", 1, "enchantment"], ["の", 1, "'s"],
+                  [" キャラメル", 2, "caramel"]],
+        "en":    [["overwhelming", 0], [" enchanting", 1], [" caramel", 2]]
+      }
+    },
+    "38.15": {
+      "en": "bashfully entwining my bare feet",
+      "align": {
+        "jp":    [["恥じらいの", 0], [" 素足を", 1], [" からめる", 2]],
+        "gloss": [["恥じらい", 0, "bashfulness"], ["の", 0, "'s"],
+                  [" 素足", 1, "bare feet"], ["を", 1, "(obj)"],
+                  [" からめる", 2, "entwine"]],
+        "en":    [["entwining ", 2], ["bashful ", 0], ["bare feet", 1]]
+      }
+    },
+    "40.94": {
+      "en": "how far can we go tonight?",
+      "align": {
+        "jp":    [["今夜は", 0], [" どこまで", 1], [" いけるの？", 2]],
+        "gloss": [["今夜", 0, "tonight"], ["は", 0, "(topic)"],
+                  [" どこ", 1, "where"], ["まで", 1, "until"],
+                  [" いける", 2, "can go"], ["の", 2, "(explan.)"], ["？", 2, "?"]],
+        "en":    [["how far ", 1], ["can we go ", 2], ["tonight?", 0]]
+      }
+    },
+    "45.61": {
+      "en": "don't bite me, be gentle",
+      "align": {
+        "jp":    [["噛みつかないで", 0], [" 優しくして", 1]],
+        "gloss": [["噛みつかないで", 0, "don't bite"],
+                  [" 優しくして", 1, "be gentle"]],
+        "en":    [["don't bite me", 0], [" be gentle", 1]]
+      }
+    },
+    "48.33": {
+      "en": "I still don't like bitter things",
+      "align": {
+        "jp":    [["苦いものは", 0], [" まだ", 1], [" 嫌いなの", 2]],
+        "gloss": [["苦い", 0, "bitter"], ["もの", 0, "things"], ["は", 0, "(topic)"],
+                  [" まだ", 1, "still"],
+                  [" 嫌い", 2, "disliked"], ["なの", 2, "(explan.)"]],
+        "en":    [["I still ", 1], ["don't like ", 2], ["bitter things", 0]]
+      }
+    },
+    "51.56": {
+      "en": "it's because I ate only the sweets Mama makes",
+      "align": {
+        "jp":    [["ママの作る", 0], [" お菓子ばかり", 1], [" 食べたせいね", 2]],
+        "gloss": [["ママ", 0, "Mama"], ["の", 0, "(subj)"], ["作る", 0, "makes"],
+                  [" お菓子", 1, "sweets"], ["ばかり", 1, "only"],
+                  [" 食べた", 2, "ate"], ["せい", 2, "because/fault"], ["ね", 2, "right?"]],
+        "en":    [["it's because I ate ", 2], ["only ", 1], ["the sweets Mama makes, right?", 0]]
+      }
+    },
+    "56.55": {
+      "en": "if there's something I don't know",
+      "align": {
+        "jp":    [["知らないことが", 0], [" あるのならば", 1]],
+        "gloss": [["知らない", 0, "don't know"], ["こと", 0, "thing"], ["が", 0, "(subj)"],
+                  [" ある", 1, "exists"], ["のならば", 1, "if"]],
+        "en":    [["something I don't know", 0], [" if there is", 1]]
+      }
+    },
+    "60.95": {
+      "en": "I want to know — that's normal, right?",
+      "align": {
+        "jp":    [["知りたいと思う", 0], [" 普通でしょ？", 1]],
+        "gloss": [["知りたい", 0, "want to know"], ["と思う", 0, "think/feel"],
+                  [" 普通", 1, "normal"], ["でしょ", 1, "right?"], ["？", 1, "?"]],
+        "en":    [["I want to know", 0], [" that's normal, right?", 1]]
+      }
+    },
+    "63.30": {
+      "en": "show me everything",
+      "align": {
+        "jp":    [["全部", 0], [" 見せてよ", 1]],
+        "gloss": [["全部", 0, "everything"],
+                  [" 見せて", 1, "show"], ["よ", 1, "(!)"]],
+        "en":    [["show me ", 1], ["everything", 0]]
+      }
+    },
+    "66.86": {
+      "en": "if it's you, I'll show you my...",
+      "align": {
+        "jp":    [["あなたにならば", 0], [" 見せてあげる", 1], [" 私の...", 2]],
+        "gloss": [["あなた", 0, "you"], ["に", 0, "to"], ["ならば", 0, "if it is"],
+                  [" 見せてあげる", 1, "will show (for you)"],
+                  [" 私", 2, "my"], ["の", 2, "'s"], ["...", 2, "..."]],
+        "en":    [["if it's you", 0], [" I'll show", 1], [" my...", 2]]
+      }
+    },
+    "70.60": {
+      "en": "long-yearning Cinderella",
+      "align": {
+        "jp":    [["ずっと", 0], [" 恋しくて", 1], [" シンデレラ", 2]],
+        "gloss": [["ずっと", 0, "all along"],
+                  [" 恋しくて", 1, "yearning (te-form)"],
+                  [" シンデレラ", 2, "Cinderella"]],
+        "en":    [["all along", 0], [" yearning", 1], [" Cinderella", 2]]
+      }
+    },
+    "73.19": {
+      "en": "I'll run away in just my school uniform",
+      "align": {
+        "jp":    [["制服だけで", 0], [" 駆けていくわ", 1]],
+        "gloss": [["制服", 0, "uniform"], ["だけ", 0, "only"], ["で", 0, "by/in"],
+                  [" 駆けていく", 1, "run off"], ["わ", 1, "(!)"]],
+        "en":    [["I'll run away ", 1], ["in just my uniform", 0]]
+      }
+    },
+    "75.97": {
+      "en": "magic — stop time for me!",
+      "align": {
+        "jp":    [["魔法よ", 0], [" 時間を", 1], [" 止めてよ", 2]],
+        "gloss": [["魔法", 0, "magic"], ["よ", 0, "(!)"],
+                  [" 時間", 1, "time"], ["を", 1, "(obj)"],
+                  [" 止めて", 2, "stop"], ["よ", 2, "(!)"]],
+        "en":    [["magic! ", 0], ["stop ", 2], ["time!", 1]]
+      }
+    },
+    "78.89": {
+      "en": "I'll end up getting interrupted by bad people",
+      "align": {
+        "jp":    [["悪い人に", 0], [" 邪魔されちゃうわ", 1]],
+        "gloss": [["悪い", 0, "bad"], ["人", 0, "people"], ["に", 0, "by"],
+                  [" 邪魔されちゃう", 1, "end up interrupted"], ["わ", 1, "(!)"]],
+        "en":    [["I'll end up interrupted ", 1], ["by bad people", 0]]
+      }
+    },
+    "81.67": {
+      "en": "I want to run away, Juliet",
+      "align": {
+        "jp":    [["逃げ出したいの", 0], [" ジュリエット", 1]],
+        "gloss": [["逃げ出したい", 0, "want to run away"], ["の", 0, "(explan.)"],
+                  [" ジュリエット", 1, "Juliet"]],
+        "en":    [["I want to run away", 0], [" Juliet", 1]]
+      }
+    },
+    "84.52": {
+      "en": "but don't call me by that name",
+      "align": {
+        "jp":    [["でも", 0], [" その名前で", 1], [" 呼ばないで", 2]],
+        "gloss": [["でも", 0, "but"],
+                  [" その", 1, "that"], ["名前", 1, "name"], ["で", 1, "by"],
+                  [" 呼ばないで", 2, "don't call"]],
+        "en":    [["but ", 0], ["don't call me ", 2], ["by that name", 1]]
+      }
+    },
+    "87.32": {
+      "en": "that's right — we have to be joined together, right?",
+      "align": {
+        "jp":    [["そうよね", 0], [" 結ばれなくちゃね", 1]],
+        "gloss": [["そう", 0, "so"], ["よね", 0, "right?"],
+                  [" 結ばれなくちゃ", 1, "must be joined"], ["ね", 1, "right?"]],
+        "en":    [["that's right", 0], [" we have to be joined, right?", 1]]
+      }
+    },
+    "90.17": {
+      "en": "otherwise it wouldn't be fun",
+      "align": {
+        "jp":    [["そうじゃないと", 0], [" 楽しくないわ", 1]],
+        "gloss": [["そう", 0, "so"], ["じゃないと", 0, "if not"],
+                  [" 楽しくない", 1, "not fun"], ["わ", 1, "(!)"]],
+        "en":    [["if it's not like that", 0], [" it's not fun", 1]]
+      }
+    },
+    "92.86": {
+      "en": "hey — will you live with me?",
+      "align": {
+        "jp":    [["ねえ", 0], [" 私と", 1], [" 生きてくれる？", 2]],
+        "gloss": [["ねえ", 0, "hey"],
+                  [" 私", 1, "me"], ["と", 1, "with"],
+                  [" 生きてくれる", 2, "live (for me)"], ["？", 2, "?"]],
+        "en":    [["hey ", 0], ["will you live ", 2], ["with me?", 1]]
+      }
+    },
+    "110.54": {
+      "en": "won't you peek softly into my heart?",
+      "align": {
+        "jp":    [["私の心", 0], [" そっと", 1], [" 覗いてみませんか", 2]],
+        "gloss": [["私", 0, "my"], ["の", 0, "'s"], ["心", 0, "heart"],
+                  [" そっと", 1, "softly"],
+                  [" 覗いてみませんか", 2, "won't you try peeking?"]],
+        "en":    [["won't you peek ", 2], ["softly ", 1], ["into my heart?", 0]]
+      }
+    },
+    "113.06": {
+      "en": "isn't it overflowing with only the things I want?",
+      "align": {
+        "jp":    [["欲しいものだけ", 0], [" あふれかえっていませんか", 1]],
+        "gloss": [["欲しい", 0, "wanted"], ["もの", 0, "things"], ["だけ", 0, "only"],
+                  [" あふれかえっていませんか", 1, "isn't it overflowing?"]],
+        "en":    [["isn't it overflowing ", 1], ["with only things I want?", 0]]
+      }
+    },
+    "115.51": {
+      "en": "there's still a separate stomach — pack in more and more, tightly",
+      "align": {
+        "jp":    [["まだ別腹よ", 0], [" もっともっと", 1], [" ぎゅっと詰め込んで", 2]],
+        "gloss": [["まだ", 0, "still"], ["別腹", 0, "separate stomach"], ["よ", 0, "(!)"],
+                  [" もっと", 1, "more"], ["もっと", 1, "more"],
+                  [" ぎゅっと", 2, "tightly"], ["詰め込んで", 2, "pack in"]],
+        "en":    [["still room for more", 0], [" more and more", 1], [" pack it in tight", 2]]
+      }
+    },
+    "119.66": {
+      "en": "shall I just fill up your place too?",
+      "align": {
+        "jp":    [["いっそ", 0], [" あなたの居場所までも", 1], [" 埋めてしまおうか", 2]],
+        "gloss": [["いっそ", 0, "rather/just"],
+                  [" あなた", 1, "you"], ["の", 1, "'s"], ["居場所", 1, "place (to be)"], ["までも", 1, "even up to"],
+                  [" 埋めてしまおう", 2, "shall fill up completely"], ["か", 2, "(?)"]],
+        "en":    [["shall I just ", 0], ["fill up ", 2], ["even your place too?", 1]]
+      }
+    },
+    "124.48": {
+      "en": "but that would be meaningless",
+      "align": {
+        "jp":    [["でも", 0], [" それじゃ", 1], [" 意味ないの", 2]],
+        "gloss": [["でも", 0, "but"],
+                  [" それ", 1, "that"], ["じゃ", 1, "if so"],
+                  [" 意味ない", 2, "no meaning"], ["の", 2, "(explan.)"]],
+        "en":    [["but", 0], [" if so", 1], [" there's no meaning", 2]]
+      }
+    },
+    "126.96": {
+      "en": "rather than a big box",
+      "align": {
+        "jp":    [["大きな", 0], [" 箱より", 1]],
+        "gloss": [["大きな", 0, "big"],
+                  [" 箱", 1, "box"], ["より", 1, "than"]],
+        "en":    [["rather than ", 1], ["a big ", 0], ["box,", 1]]
+      }
+    },
+    "133.35": {
+      "en": "they say happiness is in a smaller box",
+      "align": {
+        "jp":    [["小さな箱に", 0], [" 幸せは", 1], [" あるらしい", 2]],
+        "gloss": [["小さな", 0, "small"], ["箱", 0, "box"], ["に", 0, "in"],
+                  [" 幸せ", 1, "happiness"], ["は", 1, "(topic)"],
+                  [" ある", 2, "exists"], ["らしい", 2, "seems/it's said"]],
+        "en":    [["apparently ", 2], ["happiness ", 1], ["is in a small box", 0]]
+      }
+    },
+    "135.74": {
+      "en": "what should I do — at this rate I...",
+      "align": {
+        "jp":    [["どうしよう", 0], [" このままじゃ", 1], [" 私は", 2]],
+        "gloss": [["どうしよう", 0, "what shall I do"],
+                  [" このまま", 1, "as is"], ["じゃ", 1, "if"],
+                  [" 私", 2, "I"], ["は", 2, "(topic)"]],
+        "en":    [["what shall I do", 0], [" at this rate", 1], [" I...", 2]]
+      }
+    },
+    "138.64": {
+      "en": "I'll end up being hated by you",
+      "align": {
+        "jp":    [["あなたに", 0], [" 嫌われちゃうわ", 1]],
+        "gloss": [["あなた", 0, "you"], ["に", 0, "by"],
+                  [" 嫌われちゃう", 1, "end up hated"], ["わ", 1, "(!)"]],
+        "en":    [["I'll end up hated ", 1], ["by you", 0]]
+      }
+    },
+    "143.40": {
+      "en": "but Papa and Mama, greedier than me, are unchanged today too",
+      "align": {
+        "jp":    [["でも私より", 0], [" 欲張りな", 1], [" パパとママは", 2], [" 今日も変わらず", 3]],
+        "gloss": [["でも", 0, "but"], ["私", 0, "me"], ["より", 0, "than"],
+                  [" 欲張り", 1, "greedy"], ["な", 1, "(adj)"],
+                  [" パパ", 2, "Papa"], ["と", 2, "and"], ["ママ", 2, "Mama"], ["は", 2, "(topic)"],
+                  [" 今日", 3, "today"], ["も", 3, "also"], ["変わらず", 3, "unchanged"]],
+        "en":    [["but ", 0], ["Papa and Mama, ", 2], ["greedier ", 1], ["than me, ", 0], ["are unchanged today", 3]]
+      }
+    },
+    "147.19": {
+      "en": "that's right — it's good to be obedient",
+      "align": {
+        "jp":    [["そうよね", 0], [" 素直で", 1], [" いいのね", 2]],
+        "gloss": [["そう", 0, "so"], ["よね", 0, "right?"],
+                  [" 素直", 1, "obedient/honest"], ["で", 1, "(te)"],
+                  [" いい", 2, "good"], ["のね", 2, "isn't it?"]],
+        "en":    [["that's right", 0], [" obedient", 1], [" is good, isn't it?", 2]]
+      }
+    },
+    "150.54": {
+      "en": "what I dropped was the golden axe",
+      "align": {
+        "jp":    [["落としたのは", 0], [" 金の斧でした", 1]],
+        "gloss": [["落とした", 0, "dropped"], ["の", 0, "one"], ["は", 0, "(topic)"],
+                  [" 金", 1, "gold"], ["の", 1, "'s"], ["斧", 1, "axe"], ["でした", 1, "was"]],
+        "en":    [["what I dropped", 0], [" was the golden axe", 1]]
+      }
+    },
+    "156.69": {
+      "en": "Cinderella who lied too much",
+      "align": {
+        "jp":    [["嘘つきすぎた", 0], [" シンデレラ", 1]],
+        "gloss": [["嘘", 0, "lie"], ["つき", 0, "telling"], ["すぎた", 0, "did too much"],
+                  [" シンデレラ", 1, "Cinderella"]],
+        "en":    [["Cinderella ", 1], ["who lied too much", 0]]
+      }
+    },
+    "160.13": {
+      "en": "apparently got eaten by the wolf",
+      "align": {
+        "jp":    [["オオカミに", 0], [" 食べられたらしい", 1]],
+        "gloss": [["オオカミ", 0, "wolf"], ["に", 0, "by"],
+                  [" 食べられた", 1, "was eaten"], ["らしい", 1, "apparently"]],
+        "en":    [["apparently got eaten ", 1], ["by the wolf", 0]]
+      }
+    },
+    "163.19": {
+      "en": "what should I do — at this rate, I too...",
+      "align": {
+        "jp":    [["どうしよう", 0], [" このままじゃ", 1], [" 私も", 2]],
+        "gloss": [["どうしよう", 0, "what shall I do"],
+                  [" このまま", 1, "as is"], ["じゃ", 1, "if"],
+                  [" 私", 2, "I"], ["も", 2, "also"]],
+        "en":    [["what shall I do", 0], [" at this rate", 1], [" I too...", 2]]
+      }
+    },
+    "167.71": {
+      "en": "someday I'll end up being eaten too",
+      "align": {
+        "jp":    [["いつかは", 0], [" 食べられちゃうわ", 1]],
+        "gloss": [["いつか", 0, "someday"], ["は", 0, "(topic)"],
+                  [" 食べられちゃう", 1, "end up eaten"], ["わ", 1, "(!)"]],
+        "en":    [["someday", 0], [" I'll end up eaten", 1]]
+      }
+    },
+    "170.46": {
+      "en": "before that, come rescue me",
+      "align": {
+        "jp":    [["その前に", 0], [" 助けに", 1], [" 来てね", 2]],
+        "gloss": [["その", 0, "that"], ["前", 0, "before"], ["に", 0, "at"],
+                  [" 助け", 1, "rescue"], ["に", 1, "for"],
+                  [" 来て", 2, "come"], ["ね", 2, "right?"]],
+        "en":    [["before that, ", 0], ["come ", 2], ["rescue me, okay?", 1]]
+      }
+    }
+  }
+}
