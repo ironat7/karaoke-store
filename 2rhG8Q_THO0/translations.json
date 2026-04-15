@@ -1,0 +1,2851 @@
+{
+  "11376653": {
+    "44.08": {
+      "en": "show me only a dream as we dance until morning",
+      "align": {
+        "jp": [
+          [
+            "朝まで",
+            0
+          ],
+          [
+            "踊る",
+            1
+          ],
+          [
+            " 夢だけ",
+            2
+          ],
+          [
+            "見せて",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "朝",
+            0,
+            "morning"
+          ],
+          [
+            "まで",
+            0,
+            "until"
+          ],
+          [
+            "踊る",
+            1,
+            "dance"
+          ],
+          [
+            " 夢",
+            2,
+            "dream"
+          ],
+          [
+            "だけ",
+            2,
+            "only"
+          ],
+          [
+            "見せて",
+            3,
+            "show me"
+          ]
+        ],
+        "en": [
+          [
+            "show me",
+            3
+          ],
+          [
+            " only a dream",
+            2
+          ],
+          [
+            " as we dance",
+            1
+          ],
+          [
+            " until morning",
+            0
+          ]
+        ]
+      }
+    },
+    "47.17": {
+      "en": "the magic that the tolling clock bell dispels",
+      "align": {
+        "jp": [
+          [
+            "時計の",
+            0
+          ],
+          [
+            "鐘が",
+            1
+          ],
+          [
+            "解く",
+            2
+          ],
+          [
+            "魔法",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "時計",
+            0,
+            "clock"
+          ],
+          [
+            "の",
+            0,
+            "of"
+          ],
+          [
+            "鐘",
+            1,
+            "bell"
+          ],
+          [
+            "が",
+            1,
+            "(subj)"
+          ],
+          [
+            "解く",
+            2,
+            "undoes/dispels"
+          ],
+          [
+            "魔法",
+            3,
+            "magic"
+          ]
+        ],
+        "en": [
+          [
+            "the magic",
+            3
+          ],
+          [
+            " that",
+            2
+          ],
+          [
+            " the",
+            1
+          ],
+          [
+            " tolling clock",
+            0
+          ],
+          [
+            " bell",
+            1
+          ],
+          [
+            " dispels",
+            2
+          ]
+        ]
+      }
+    },
+    "50.32": {
+      "en": "ambiguous fingers beckon, a staircase",
+      "align": {
+        "jp": [
+          [
+            "曖昧な",
+            0
+          ],
+          [
+            "指",
+            1
+          ],
+          [
+            " 誘う",
+            2
+          ],
+          [
+            "階段",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "曖昧な",
+            0,
+            "ambiguous"
+          ],
+          [
+            "指",
+            1,
+            "fingers"
+          ],
+          [
+            " 誘う",
+            2,
+            "beckon"
+          ],
+          [
+            "階段",
+            3,
+            "staircase"
+          ]
+        ],
+        "en": [
+          [
+            "ambiguous",
+            0
+          ],
+          [
+            " fingers",
+            1
+          ],
+          [
+            " beckon,",
+            2
+          ],
+          [
+            " a staircase",
+            3
+          ]
+        ]
+      }
+    },
+    "53.72": {
+      "en": "I go bounding up three steps at a time",
+      "align": {
+        "jp": [
+          [
+            "三段",
+            0
+          ],
+          [
+            "飛ばしに",
+            1
+          ],
+          [
+            " 跳ねていく",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "三段",
+            0,
+            "three steps"
+          ],
+          [
+            "飛ばし",
+            1,
+            "skipping"
+          ],
+          [
+            "に",
+            1,
+            "by [way of]"
+          ],
+          [
+            " 跳ねていく",
+            2,
+            "go bounding"
+          ]
+        ],
+        "en": [
+          [
+            "I go bounding",
+            2
+          ],
+          [
+            " skipping",
+            1
+          ],
+          [
+            " three steps",
+            0
+          ],
+          [
+            " at a time",
+            1
+          ]
+        ]
+      }
+    },
+    "58.27": {
+      "en": "inside the carriage, I was shivering",
+      "align": {
+        "jp": [
+          [
+            "馬車の",
+            0
+          ],
+          [
+            "中で",
+            1
+          ],
+          [
+            " 震えてた",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "馬車",
+            0,
+            "carriage"
+          ],
+          [
+            "の",
+            0,
+            "of"
+          ],
+          [
+            "中",
+            1,
+            "inside"
+          ],
+          [
+            "で",
+            1,
+            "at"
+          ],
+          [
+            " 震えてた",
+            2,
+            "was shivering"
+          ]
+        ],
+        "en": [
+          [
+            "I was shivering",
+            2
+          ],
+          [
+            " inside",
+            1
+          ],
+          [
+            " the carriage",
+            0
+          ]
+        ]
+      }
+    },
+    "63.56": {
+      "en": "in miserable old clothes",
+      "align": {
+        "jp": [
+          [
+            "みじめな",
+            0
+          ],
+          [
+            "古着",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "みじめな",
+            0,
+            "miserable"
+          ],
+          [
+            "古着",
+            1,
+            "old clothes"
+          ]
+        ],
+        "en": [
+          [
+            "in miserable",
+            0
+          ],
+          [
+            " old clothes",
+            1
+          ]
+        ]
+      }
+    },
+    "65.24": {
+      "en": "turn the pages and whirl — the night's ball",
+      "align": {
+        "jp": [
+          [
+            "めくり",
+            0
+          ],
+          [
+            "廻れ",
+            1
+          ],
+          [
+            " 夜の",
+            2
+          ],
+          [
+            "舞踏",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "めくり",
+            0,
+            "turn (pages)"
+          ],
+          [
+            "廻れ",
+            1,
+            "whirl!"
+          ],
+          [
+            " 夜",
+            2,
+            "night"
+          ],
+          [
+            "の",
+            2,
+            "of"
+          ],
+          [
+            "舞踏",
+            3,
+            "ball/dance"
+          ]
+        ],
+        "en": [
+          [
+            "turn the pages",
+            0
+          ],
+          [
+            " and whirl —",
+            1
+          ],
+          [
+            " the",
+            2
+          ],
+          [
+            " ball",
+            3
+          ],
+          [
+            " of the night",
+            2
+          ]
+        ]
+      }
+    },
+    "71.66": {
+      "en": "searching for an unknown face",
+      "align": {
+        "jp": [
+          [
+            "見知らぬ",
+            0
+          ],
+          [
+            "顔",
+            1
+          ],
+          [
+            "探す",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "見知らぬ",
+            0,
+            "unknown"
+          ],
+          [
+            "顔",
+            1,
+            "face"
+          ],
+          [
+            "探す",
+            2,
+            "search for"
+          ]
+        ],
+        "en": [
+          [
+            "searching for",
+            2
+          ],
+          [
+            " an unknown",
+            0
+          ],
+          [
+            " face",
+            1
+          ]
+        ]
+      }
+    },
+    "75.02": {
+      "en": "that whispering voice",
+      "align": {
+        "jp": [
+          [
+            "囁く",
+            0
+          ],
+          [
+            "あの",
+            1
+          ],
+          [
+            "声が",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "囁く",
+            0,
+            "whispering"
+          ],
+          [
+            "あの",
+            1,
+            "that"
+          ],
+          [
+            "声",
+            2,
+            "voice"
+          ],
+          [
+            "が",
+            2,
+            "(subj)"
+          ]
+        ],
+        "en": [
+          [
+            "that",
+            1
+          ],
+          [
+            " whispering",
+            0
+          ],
+          [
+            " voice",
+            2
+          ]
+        ]
+      }
+    },
+    "77.87": {
+      "en": "thrust in the blade you've gripped tight",
+      "align": {
+        "jp": [
+          [
+            "握り締めた",
+            0
+          ],
+          [
+            "刃",
+            1
+          ],
+          [
+            " 衝きたて",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "握り締めた",
+            0,
+            "gripped tight"
+          ],
+          [
+            "刃",
+            1,
+            "blade"
+          ],
+          [
+            " 衝きたて",
+            2,
+            "thrust in"
+          ]
+        ],
+        "en": [
+          [
+            "thrust in",
+            2
+          ],
+          [
+            " the blade",
+            1
+          ],
+          [
+            " you've gripped tight",
+            0
+          ]
+        ]
+      }
+    },
+    "82.18": {
+      "en": "take everything, it says",
+      "align": {
+        "jp": [
+          [
+            "全てを",
+            0
+          ],
+          [
+            "奪えと",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "全て",
+            0,
+            "everything"
+          ],
+          [
+            "を",
+            0,
+            "(obj)"
+          ],
+          [
+            "奪え",
+            1,
+            "take!"
+          ],
+          [
+            "と",
+            1,
+            "(quote)"
+          ]
+        ],
+        "en": [
+          [
+            "take",
+            1
+          ],
+          [
+            " everything",
+            0
+          ],
+          [
+            ", it says",
+            1
+          ]
+        ]
+      }
+    },
+    "84.76": {
+      "en": "a castle where orphans gather",
+      "align": {
+        "jp": [
+          [
+            "孤児",
+            0
+          ],
+          [
+            "集う",
+            1
+          ],
+          [
+            "城",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "孤児",
+            0,
+            "orphans"
+          ],
+          [
+            "集う",
+            1,
+            "gather"
+          ],
+          [
+            "城",
+            2,
+            "castle"
+          ]
+        ],
+        "en": [
+          [
+            "a castle",
+            2
+          ],
+          [
+            " where",
+            1
+          ],
+          [
+            " orphans",
+            0
+          ],
+          [
+            " gather",
+            1
+          ]
+        ]
+      }
+    },
+    "88.05": {
+      "en": "drawing a smile onto a mask",
+      "align": {
+        "jp": [
+          [
+            "笑み",
+            0
+          ],
+          [
+            "仮面に",
+            1
+          ],
+          [
+            " 描いて",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "笑み",
+            0,
+            "smile"
+          ],
+          [
+            "仮面",
+            1,
+            "mask"
+          ],
+          [
+            "に",
+            1,
+            "onto"
+          ],
+          [
+            " 描いて",
+            2,
+            "drawing"
+          ]
+        ],
+        "en": [
+          [
+            "drawing",
+            2
+          ],
+          [
+            " a smile",
+            0
+          ],
+          [
+            " onto a mask",
+            1
+          ]
+        ]
+      }
+    },
+    "91.13": {
+      "en": "even a feigned tenderness",
+      "align": {
+        "jp": [
+          [
+            "偽りの",
+            0
+          ],
+          [
+            "慈しみ",
+            1
+          ],
+          [
+            "さえ",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "偽り",
+            0,
+            "falsehood"
+          ],
+          [
+            "の",
+            0,
+            "of"
+          ],
+          [
+            "慈しみ",
+            1,
+            "tenderness"
+          ],
+          [
+            "さえ",
+            2,
+            "even"
+          ]
+        ],
+        "en": [
+          [
+            "even",
+            2
+          ],
+          [
+            " a feigned",
+            0
+          ],
+          [
+            " tenderness",
+            1
+          ]
+        ]
+      }
+    },
+    "95.24": {
+      "en": "a seraph wraps it with wings",
+      "align": {
+        "jp": [
+          [
+            "羽で",
+            0
+          ],
+          [
+            "包む",
+            1
+          ],
+          [
+            " 熾天使",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "羽",
+            0,
+            "wings"
+          ],
+          [
+            "で",
+            0,
+            "with"
+          ],
+          [
+            "包む",
+            1,
+            "wraps"
+          ],
+          [
+            " 熾天使",
+            2,
+            "seraph"
+          ]
+        ],
+        "en": [
+          [
+            "a seraph",
+            2
+          ],
+          [
+            " wraps it",
+            1
+          ],
+          [
+            " with wings",
+            0
+          ]
+        ]
+      }
+    },
+    "110.80": {
+      "en": "melting red within the ashes",
+      "align": {
+        "jp": [
+          [
+            "灰の",
+            0
+          ],
+          [
+            "中で",
+            1
+          ],
+          [
+            " 赤く",
+            2
+          ],
+          [
+            "溶けて",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "灰",
+            0,
+            "ash"
+          ],
+          [
+            "の",
+            0,
+            "of"
+          ],
+          [
+            "中",
+            1,
+            "inside"
+          ],
+          [
+            "で",
+            1,
+            "in"
+          ],
+          [
+            " 赤く",
+            2,
+            "red(ly)"
+          ],
+          [
+            "溶けて",
+            3,
+            "melting"
+          ]
+        ],
+        "en": [
+          [
+            "melting",
+            3
+          ],
+          [
+            " red",
+            2
+          ],
+          [
+            " within",
+            1
+          ],
+          [
+            " the ashes",
+            0
+          ]
+        ]
+      }
+    },
+    "117.48": {
+      "en": "mixing in, a glass slipper",
+      "align": {
+        "jp": [
+          [
+            "混じる",
+            0
+          ],
+          [
+            " 硝子の",
+            1
+          ],
+          [
+            "靴",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "混じる",
+            0,
+            "mixing in"
+          ],
+          [
+            " 硝子",
+            1,
+            "glass"
+          ],
+          [
+            "の",
+            1,
+            "of"
+          ],
+          [
+            "靴",
+            2,
+            "shoe"
+          ]
+        ],
+        "en": [
+          [
+            "mixing in,",
+            0
+          ],
+          [
+            " a glass",
+            1
+          ],
+          [
+            " slipper",
+            2
+          ]
+        ]
+      }
+    },
+    "124.04": {
+      "en": "now of all times you'd go home? are you trembling?",
+      "align": {
+        "jp": [
+          [
+            "今更",
+            0
+          ],
+          [
+            "帰る",
+            1
+          ],
+          [
+            " 震えているの",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "今更",
+            0,
+            "now of all times"
+          ],
+          [
+            "帰る",
+            1,
+            "go home"
+          ],
+          [
+            " 震えている",
+            2,
+            "trembling"
+          ],
+          [
+            "の",
+            2,
+            "(?)"
+          ]
+        ],
+        "en": [
+          [
+            "now of all times",
+            0
+          ],
+          [
+            " you'd go home?",
+            1
+          ],
+          [
+            " are you trembling?",
+            2
+          ]
+        ]
+      }
+    },
+    "127.29": {
+      "en": "the clock that you glance at",
+      "align": {
+        "jp": [
+          [
+            "貴方が",
+            0
+          ],
+          [
+            "目をやる",
+            1
+          ],
+          [
+            " 時計",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "貴方",
+            0,
+            "you"
+          ],
+          [
+            "が",
+            0,
+            "(subj)"
+          ],
+          [
+            "目をやる",
+            1,
+            "glance at"
+          ],
+          [
+            " 時計",
+            2,
+            "clock"
+          ]
+        ],
+        "en": [
+          [
+            "the clock",
+            2
+          ],
+          [
+            " that you",
+            0
+          ],
+          [
+            " glance at",
+            1
+          ]
+        ]
+      }
+    },
+    "130.53": {
+      "en": "I take off my shoes and dance, slipping through the slope",
+      "align": {
+        "jp": [
+          [
+            "靴",
+            0
+          ],
+          [
+            "脱ぎ",
+            1
+          ],
+          [
+            " 踊る",
+            2
+          ],
+          [
+            " スロープ",
+            3
+          ],
+          [
+            "抜けて",
+            4
+          ]
+        ],
+        "gloss": [
+          [
+            "靴",
+            0,
+            "shoes"
+          ],
+          [
+            "脱ぎ",
+            1,
+            "taking off"
+          ],
+          [
+            " 踊る",
+            2,
+            "dance"
+          ],
+          [
+            " スロープ",
+            3,
+            "slope"
+          ],
+          [
+            "抜けて",
+            4,
+            "slipping through"
+          ]
+        ],
+        "en": [
+          [
+            "I dance,",
+            2
+          ],
+          [
+            " taking off",
+            1
+          ],
+          [
+            " shoes",
+            0
+          ],
+          [
+            " slipping through",
+            4
+          ],
+          [
+            " the slope",
+            3
+          ]
+        ]
+      }
+    },
+    "133.78": {
+      "en": "at the tip of fingers reaching up to my throat",
+      "align": {
+        "jp": [
+          [
+            "喉まで",
+            0
+          ],
+          [
+            "伸びる",
+            1
+          ],
+          [
+            " 指の",
+            2
+          ],
+          [
+            "先で",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "喉",
+            0,
+            "throat"
+          ],
+          [
+            "まで",
+            0,
+            "up to"
+          ],
+          [
+            "伸びる",
+            1,
+            "reaching"
+          ],
+          [
+            " 指",
+            2,
+            "fingers"
+          ],
+          [
+            "の",
+            2,
+            "of"
+          ],
+          [
+            "先",
+            3,
+            "tip"
+          ],
+          [
+            "で",
+            3,
+            "at"
+          ]
+        ],
+        "en": [
+          [
+            "at",
+            3
+          ],
+          [
+            " the tip",
+            3
+          ],
+          [
+            " of fingers",
+            2
+          ],
+          [
+            " reaching",
+            1
+          ],
+          [
+            " up to my throat",
+            0
+          ]
+        ]
+      }
+    },
+    "138.01": {
+      "en": "kissing the droplets I scoop up",
+      "align": {
+        "jp": [
+          [
+            "すくう",
+            0
+          ],
+          [
+            "雫",
+            1
+          ],
+          [
+            " 口付けて",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "すくう",
+            0,
+            "scoop up"
+          ],
+          [
+            "雫",
+            1,
+            "droplets"
+          ],
+          [
+            " 口付けて",
+            2,
+            "kissing"
+          ]
+        ],
+        "en": [
+          [
+            "kissing",
+            2
+          ],
+          [
+            " the droplets",
+            1
+          ],
+          [
+            " I scoop up",
+            0
+          ]
+        ]
+      }
+    },
+    "143.46": {
+      "en": "a racing impulse",
+      "align": {
+        "jp": [
+          [
+            "走る",
+            0
+          ],
+          [
+            "衝動",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "走る",
+            0,
+            "racing"
+          ],
+          [
+            "衝動",
+            1,
+            "impulse"
+          ]
+        ],
+        "en": [
+          [
+            "a racing",
+            0
+          ],
+          [
+            " impulse",
+            1
+          ]
+        ]
+      }
+    },
+    "145.15": {
+      "en": "the instant it slips out through my spine",
+      "align": {
+        "jp": [
+          [
+            "背骨",
+            0
+          ],
+          [
+            "抜けていく",
+            1
+          ],
+          [
+            " 刹那",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "背骨",
+            0,
+            "spine"
+          ],
+          [
+            "抜けていく",
+            1,
+            "slips through and out"
+          ],
+          [
+            " 刹那",
+            2,
+            "instant"
+          ]
+        ],
+        "en": [
+          [
+            "the instant",
+            2
+          ],
+          [
+            " it slips through and out",
+            1
+          ],
+          [
+            " my spine",
+            0
+          ]
+        ]
+      }
+    },
+    "151.56": {
+      "en": "don't let the bell ring",
+      "align": {
+        "jp": [
+          [
+            "鐘は",
+            0
+          ],
+          [
+            "鳴らさないで",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "鐘",
+            0,
+            "bell"
+          ],
+          [
+            "は",
+            0,
+            "(topic)"
+          ],
+          [
+            "鳴らさないで",
+            1,
+            "don't ring"
+          ]
+        ],
+        "en": [
+          [
+            "don't let",
+            1
+          ],
+          [
+            " the bell",
+            0
+          ],
+          [
+            " ring",
+            1
+          ]
+        ]
+      }
+    },
+    "154.92": {
+      "en": "kneeling before you",
+      "align": {
+        "jp": [
+          [
+            "貴方に",
+            0
+          ],
+          [
+            "跪き",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "貴方",
+            0,
+            "you"
+          ],
+          [
+            "に",
+            0,
+            "to/before"
+          ],
+          [
+            "跪き",
+            1,
+            "kneeling"
+          ]
+        ],
+        "en": [
+          [
+            "kneeling",
+            1
+          ],
+          [
+            " before you",
+            0
+          ]
+        ]
+      }
+    },
+    "158.15": {
+      "en": "the right hand that screamed 'not yet!'",
+      "align": {
+        "jp": [
+          [
+            "まだダメと",
+            0
+          ],
+          [
+            "叫んだ",
+            1
+          ],
+          [
+            " 右手が",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "まだ",
+            0,
+            "not yet"
+          ],
+          [
+            "ダメ",
+            0,
+            "no good"
+          ],
+          [
+            "と",
+            0,
+            "(quote)"
+          ],
+          [
+            "叫んだ",
+            1,
+            "screamed"
+          ],
+          [
+            " 右手",
+            2,
+            "right hand"
+          ],
+          [
+            "が",
+            2,
+            "(subj)"
+          ]
+        ],
+        "en": [
+          [
+            "the right hand",
+            2
+          ],
+          [
+            " that screamed",
+            1
+          ],
+          [
+            " 'not yet!'",
+            0
+          ]
+        ]
+      }
+    },
+    "162.14": {
+      "en": "stabs through a farewell",
+      "align": {
+        "jp": [
+          [
+            "突き刺す",
+            0
+          ],
+          [
+            "さよなら",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "突き刺す",
+            0,
+            "stabs through"
+          ],
+          [
+            "さよなら",
+            1,
+            "farewell"
+          ]
+        ],
+        "en": [
+          [
+            "stabs through",
+            0
+          ],
+          [
+            " a farewell",
+            1
+          ]
+        ]
+      }
+    },
+    "164.82": {
+      "en": "the unerasable gunsmoke",
+      "align": {
+        "jp": [
+          [
+            "消せない",
+            0
+          ],
+          [
+            "硝煙を",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "消せない",
+            0,
+            "cannot erase"
+          ],
+          [
+            "硝煙",
+            1,
+            "gunsmoke"
+          ],
+          [
+            "を",
+            1,
+            "(obj)"
+          ]
+        ],
+        "en": [
+          [
+            "the unerasable",
+            0
+          ],
+          [
+            " gunsmoke",
+            1
+          ]
+        ]
+      }
+    },
+    "168.04": {
+      "en": "a princess cloaked in perfume",
+      "align": {
+        "jp": [
+          [
+            "香水に",
+            0
+          ],
+          [
+            "まとう",
+            1
+          ],
+          [
+            " 姫",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "香水",
+            0,
+            "perfume"
+          ],
+          [
+            "に",
+            0,
+            "in"
+          ],
+          [
+            "まとう",
+            1,
+            "cloaked"
+          ],
+          [
+            " 姫",
+            2,
+            "princess"
+          ]
+        ],
+        "en": [
+          [
+            "a princess",
+            2
+          ],
+          [
+            " cloaked",
+            1
+          ],
+          [
+            " in perfume",
+            0
+          ]
+        ]
+      }
+    },
+    "171.00": {
+      "en": "strong eyes — my frozen",
+      "align": {
+        "jp": [
+          [
+            "強い",
+            0
+          ],
+          [
+            "瞳",
+            1
+          ],
+          [
+            " 僕の",
+            2
+          ],
+          [
+            "凍った",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "強い",
+            0,
+            "strong"
+          ],
+          [
+            "瞳",
+            1,
+            "eyes"
+          ],
+          [
+            " 僕",
+            2,
+            "my/I"
+          ],
+          [
+            "の",
+            2,
+            "'s"
+          ],
+          [
+            "凍った",
+            3,
+            "frozen"
+          ]
+        ],
+        "en": [
+          [
+            "strong",
+            0
+          ],
+          [
+            " eyes —",
+            1
+          ],
+          [
+            " my",
+            2
+          ],
+          [
+            " frozen",
+            3
+          ]
+        ]
+      }
+    },
+    "175.20": {
+      "en": "shoot clean through, mask and all",
+      "align": {
+        "jp": [
+          [
+            "仮面",
+            0
+          ],
+          [
+            "ごと",
+            1
+          ],
+          [
+            " 撃ち抜く",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "仮面",
+            0,
+            "mask"
+          ],
+          [
+            "ごと",
+            1,
+            "along with"
+          ],
+          [
+            " 撃ち抜く",
+            2,
+            "shoot through"
+          ]
+        ],
+        "en": [
+          [
+            "shoot",
+            2
+          ],
+          [
+            " clean through,",
+            2
+          ],
+          [
+            " mask",
+            0
+          ],
+          [
+            " and all",
+            1
+          ]
+        ]
+      }
+    },
+    "184.41": {
+      "en": "even now your breath in my ear",
+      "align": {
+        "jp": [
+          [
+            "今も",
+            0
+          ],
+          [
+            "耳に",
+            1
+          ],
+          [
+            " 貴方の",
+            2
+          ],
+          [
+            "吐息が",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "今",
+            0,
+            "now"
+          ],
+          [
+            "も",
+            0,
+            "also/even"
+          ],
+          [
+            "耳",
+            1,
+            "ear"
+          ],
+          [
+            "に",
+            1,
+            "in"
+          ],
+          [
+            " 貴方",
+            2,
+            "you"
+          ],
+          [
+            "の",
+            2,
+            "'s"
+          ],
+          [
+            "吐息",
+            3,
+            "breath"
+          ],
+          [
+            "が",
+            3,
+            "(subj)"
+          ]
+        ],
+        "en": [
+          [
+            "even now",
+            0
+          ],
+          [
+            " your",
+            2
+          ],
+          [
+            " breath",
+            3
+          ],
+          [
+            " in my ear",
+            1
+          ]
+        ]
+      }
+    },
+    "190.72": {
+      "en": "pierces through — a distant dream",
+      "align": {
+        "jp": [
+          [
+            "突き刺さるの",
+            0
+          ],
+          [
+            " 遠い",
+            1
+          ],
+          [
+            "夢",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "突き刺さる",
+            0,
+            "pierces through"
+          ],
+          [
+            "の",
+            0,
+            "(emph)"
+          ],
+          [
+            " 遠い",
+            1,
+            "distant"
+          ],
+          [
+            "夢",
+            2,
+            "dream"
+          ]
+        ],
+        "en": [
+          [
+            "pierces through —",
+            0
+          ],
+          [
+            " a distant",
+            1
+          ],
+          [
+            " dream",
+            2
+          ]
+        ]
+      }
+    },
+    "197.33": {
+      "en": "the moon glowing through the stained glass",
+      "align": {
+        "jp": [
+          [
+            "ステンドグラス",
+            0
+          ],
+          [
+            "ごし",
+            1
+          ],
+          [
+            " 光る",
+            2
+          ],
+          [
+            "月が",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "ステンドグラス",
+            0,
+            "stained glass"
+          ],
+          [
+            "ごし",
+            1,
+            "through"
+          ],
+          [
+            " 光る",
+            2,
+            "glowing"
+          ],
+          [
+            "月",
+            3,
+            "moon"
+          ],
+          [
+            "が",
+            3,
+            "(subj)"
+          ]
+        ],
+        "en": [
+          [
+            "the moon",
+            3
+          ],
+          [
+            " glowing",
+            2
+          ],
+          [
+            " through",
+            1
+          ],
+          [
+            " the stained glass",
+            0
+          ]
+        ]
+      }
+    },
+    "203.89": {
+      "en": "the veil it draped over you",
+      "align": {
+        "jp": [
+          [
+            "君に",
+            0
+          ],
+          [
+            "かぶせた",
+            1
+          ],
+          [
+            " ベール",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "君",
+            0,
+            "you"
+          ],
+          [
+            "に",
+            0,
+            "over"
+          ],
+          [
+            "かぶせた",
+            1,
+            "draped"
+          ],
+          [
+            " ベール",
+            2,
+            "veil"
+          ]
+        ],
+        "en": [
+          [
+            "the veil",
+            2
+          ],
+          [
+            " it draped",
+            1
+          ],
+          [
+            " over you",
+            0
+          ]
+        ]
+      }
+    },
+    "210.58": {
+      "en": "tear the dress at the knee",
+      "align": {
+        "jp": [
+          [
+            "ドレス",
+            0
+          ],
+          [
+            "膝で",
+            1
+          ],
+          [
+            " 裂いて",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "ドレス",
+            0,
+            "dress"
+          ],
+          [
+            "膝",
+            1,
+            "knee"
+          ],
+          [
+            "で",
+            1,
+            "at"
+          ],
+          [
+            " 裂いて",
+            2,
+            "tear"
+          ]
+        ],
+        "en": [
+          [
+            "tear",
+            2
+          ],
+          [
+            " the dress",
+            0
+          ],
+          [
+            " at the knee",
+            1
+          ]
+        ]
+      }
+    },
+    "213.67": {
+      "en": "fling the tiara away",
+      "align": {
+        "jp": [
+          [
+            "ティアラは",
+            0
+          ],
+          [
+            " 投げ捨てて",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "ティアラ",
+            0,
+            "tiara"
+          ],
+          [
+            "は",
+            0,
+            "(topic)"
+          ],
+          [
+            " 投げ捨てて",
+            1,
+            "fling away"
+          ]
+        ],
+        "en": [
+          [
+            "fling",
+            1
+          ],
+          [
+            " the tiara",
+            0
+          ],
+          [
+            " away",
+            1
+          ]
+        ]
+      }
+    },
+    "216.75": {
+      "en": "eyes meeting eyes",
+      "align": {
+        "jp": [
+          [
+            "見つめあう",
+            0
+          ],
+          [
+            " 瞳と",
+            1
+          ],
+          [
+            "瞳が",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "見つめあう",
+            0,
+            "meeting gaze"
+          ],
+          [
+            " 瞳",
+            1,
+            "eyes"
+          ],
+          [
+            "と",
+            1,
+            "and"
+          ],
+          [
+            "瞳",
+            2,
+            "eyes"
+          ],
+          [
+            "が",
+            2,
+            "(subj)"
+          ]
+        ],
+        "en": [
+          [
+            "eyes",
+            1
+          ],
+          [
+            " meeting",
+            0
+          ],
+          [
+            " eyes",
+            2
+          ]
+        ]
+      }
+    },
+    "220.90": {
+      "en": "release sparks",
+      "align": {
+        "jp": [
+          [
+            "火花を",
+            0
+          ],
+          [
+            "放つ",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "火花",
+            0,
+            "sparks"
+          ],
+          [
+            "を",
+            0,
+            "(obj)"
+          ],
+          [
+            "放つ",
+            1,
+            "release"
+          ]
+        ],
+        "en": [
+          [
+            "release",
+            1
+          ],
+          [
+            " sparks",
+            0
+          ]
+        ]
+      }
+    },
+    "223.53": {
+      "en": "lonely souls",
+      "align": {
+        "jp": [
+          [
+            "孤独な",
+            0
+          ],
+          [
+            "魂が",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "孤独な",
+            0,
+            "lonely"
+          ],
+          [
+            "魂",
+            1,
+            "souls"
+          ],
+          [
+            "が",
+            1,
+            "(subj)"
+          ]
+        ],
+        "en": [
+          [
+            "lonely",
+            0
+          ],
+          [
+            " souls",
+            1
+          ]
+        ]
+      }
+    },
+    "226.74": {
+      "en": "raising flame, drawn to each other",
+      "align": {
+        "jp": [
+          [
+            "炎",
+            0
+          ],
+          [
+            "あげ",
+            1
+          ],
+          [
+            " 惹かれあう",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "炎",
+            0,
+            "flame"
+          ],
+          [
+            "あげ",
+            1,
+            "raising"
+          ],
+          [
+            " 惹かれあう",
+            2,
+            "drawn to each other"
+          ]
+        ],
+        "en": [
+          [
+            "raising",
+            1
+          ],
+          [
+            " flame,",
+            0
+          ],
+          [
+            " drawn to each other",
+            2
+          ]
+        ]
+      }
+    },
+    "229.86": {
+      "en": "if I cannot save those tears",
+      "align": {
+        "jp": [
+          [
+            "その",
+            0
+          ],
+          [
+            "涙",
+            1
+          ],
+          [
+            " 救えないなら",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "その",
+            0,
+            "those"
+          ],
+          [
+            "涙",
+            1,
+            "tears"
+          ],
+          [
+            " 救えない",
+            2,
+            "cannot save"
+          ],
+          [
+            "なら",
+            2,
+            "if"
+          ]
+        ],
+        "en": [
+          [
+            "if",
+            2
+          ],
+          [
+            " I cannot save",
+            2
+          ],
+          [
+            " those",
+            0
+          ],
+          [
+            " tears",
+            1
+          ]
+        ]
+      }
+    },
+    "233.89": {
+      "en": "it's just like playing alone",
+      "align": {
+        "jp": [
+          [
+            "まるで",
+            0
+          ],
+          [
+            " 一人",
+            1
+          ],
+          [
+            "遊び",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "まるで",
+            0,
+            "just like"
+          ],
+          [
+            " 一人",
+            1,
+            "alone"
+          ],
+          [
+            "遊び",
+            2,
+            "play"
+          ]
+        ],
+        "en": [
+          [
+            "it's just like",
+            0
+          ],
+          [
+            " playing",
+            2
+          ],
+          [
+            " alone",
+            1
+          ]
+        ]
+      }
+    },
+    "236.78": {
+      "en": "oh time, stop now",
+      "align": {
+        "jp": [
+          [
+            "時よ",
+            0
+          ],
+          [
+            " 止まれ",
+            1
+          ],
+          [
+            " 今は",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "時",
+            0,
+            "time"
+          ],
+          [
+            "よ",
+            0,
+            "(voc)"
+          ],
+          [
+            " 止まれ",
+            1,
+            "stop!"
+          ],
+          [
+            " 今",
+            2,
+            "now"
+          ],
+          [
+            "は",
+            2,
+            "(topic)"
+          ]
+        ],
+        "en": [
+          [
+            "oh time,",
+            0
+          ],
+          [
+            " stop",
+            1
+          ],
+          [
+            " now",
+            2
+          ]
+        ]
+      }
+    },
+    "239.90": {
+      "en": "drunk on you",
+      "align": {
+        "jp": [
+          [
+            "貴方に",
+            0
+          ],
+          [
+            " 酔いしれて",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "貴方",
+            0,
+            "you"
+          ],
+          [
+            "に",
+            0,
+            "on"
+          ],
+          [
+            " 酔いしれて",
+            1,
+            "drunk"
+          ]
+        ],
+        "en": [
+          [
+            "drunk",
+            1
+          ],
+          [
+            " on you",
+            0
+          ]
+        ]
+      }
+    },
+    "242.99": {
+      "en": "each and every trembling heartbeat",
+      "align": {
+        "jp": [
+          [
+            "揺れる",
+            0
+          ],
+          [
+            "鼓動",
+            1
+          ],
+          [
+            " 一つ一つを",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "揺れる",
+            0,
+            "trembling"
+          ],
+          [
+            "鼓動",
+            1,
+            "heartbeat"
+          ],
+          [
+            " 一つ一つ",
+            2,
+            "each and every"
+          ],
+          [
+            "を",
+            2,
+            "(obj)"
+          ]
+        ],
+        "en": [
+          [
+            "each and every",
+            2
+          ],
+          [
+            " trembling",
+            0
+          ],
+          [
+            " heartbeat",
+            1
+          ]
+        ]
+      }
+    },
+    "246.86": {
+      "en": "I want to engrave",
+      "align": {
+        "jp": [
+          [
+            "刻み付けてたい",
+            0
+          ]
+        ],
+        "gloss": [
+          [
+            "刻み付けて",
+            0,
+            "engrave"
+          ],
+          [
+            "たい",
+            0,
+            "want to"
+          ]
+        ],
+        "en": [
+          [
+            "I want to engrave",
+            0
+          ]
+        ]
+      }
+    },
+    "249.74": {
+      "en": "stay, hotly soaked",
+      "align": {
+        "jp": [
+          [
+            "とどまれ",
+            0
+          ],
+          [
+            " 熱く",
+            1
+          ],
+          [
+            " 濡れ",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "とどまれ",
+            0,
+            "stay!"
+          ],
+          [
+            " 熱く",
+            1,
+            "hotly"
+          ],
+          [
+            " 濡れ",
+            2,
+            "soaked"
+          ]
+        ],
+        "en": [
+          [
+            "stay,",
+            0
+          ],
+          [
+            " hotly",
+            1
+          ],
+          [
+            " soaked",
+            2
+          ]
+        ]
+      }
+    },
+    "253.09": {
+      "en": "pounding, at the peak of rising",
+      "align": {
+        "jp": [
+          [
+            "打ち付ける",
+            0
+          ],
+          [
+            " 昂まりに",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "打ち付ける",
+            0,
+            "pounding"
+          ],
+          [
+            " 昂まり",
+            1,
+            "rising/peak"
+          ],
+          [
+            "に",
+            1,
+            "at"
+          ]
+        ],
+        "en": [
+          [
+            "pounding,",
+            0
+          ],
+          [
+            " at",
+            1
+          ],
+          [
+            " the peak of rising",
+            1
+          ]
+        ]
+      }
+    },
+    "256.09": {
+      "en": "I can't move any further!",
+      "align": {
+        "jp": [
+          [
+            "これ以上は",
+            0
+          ],
+          [
+            " 動けないよ",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "これ以上",
+            0,
+            "any further"
+          ],
+          [
+            "は",
+            0,
+            "(topic)"
+          ],
+          [
+            " 動けない",
+            1,
+            "cannot move"
+          ],
+          [
+            "よ",
+            1,
+            "(!)"
+          ]
+        ],
+        "en": [
+          [
+            "I can't move",
+            1
+          ],
+          [
+            " any further",
+            0
+          ],
+          [
+            "!",
+            1
+          ]
+        ]
+      }
+    },
+    "260.03": {
+      "en": "just like a fairy tale",
+      "align": {
+        "jp": [
+          [
+            "まるで",
+            0
+          ],
+          [
+            " 御伽噺",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "まるで",
+            0,
+            "just like"
+          ],
+          [
+            " 御伽噺",
+            1,
+            "fairy tale"
+          ]
+        ],
+        "en": [
+          [
+            "just like",
+            0
+          ],
+          [
+            " a fairy tale",
+            1
+          ]
+        ]
+      }
+    }
+  }
+}
