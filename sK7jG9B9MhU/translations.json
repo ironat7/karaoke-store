@@ -1,0 +1,405 @@
+{
+  "29401537": {
+    "1.49": {
+      "en": "I'll roar — even covered in bloody sludge, I want to protect you",
+      "align": {
+        "jp": [["唸るぜ", 0], [" 血泥ついたって", 1], ["守りたい", 2]],
+        "gloss": [["唸る", 0, "roar"], ["ぜ", 0, "(!)"],
+                  [" 血泥", 1, "bloody sludge"], ["つい", 1, "got stuck"], ["た", 1, "(past)"], ["って", 1, "even if"],
+                  ["守り", 2, "protect"], ["たい", 2, "want to"]],
+        "en": [["I'll roar —", 0], [" even covered in bloody sludge,", 1], [" I want to protect you", 2]]
+      }
+    },
+    "7.72": {
+      "en": "Even mid-revolution, I'm crazy about you",
+      "align": {
+        "jp": [["革命道中だって", 0], ["君に", 1], ["夢中", 2]],
+        "gloss": [["革命", 0, "revolution"], ["道中", 0, "on the way/midst"], ["だって", 0, "even though (it is)"],
+                  ["君", 1, "you"], ["に", 1, "to/over"],
+                  ["夢中", 2, "absorbed/crazy"]],
+        "en": [["Even mid-revolution,", 0], [" I'm crazy", 2], [" about you", 1]]
+      }
+    },
+    "12.48": {
+      "en": "In a world steeped in darkness, I found it —",
+      "align": {
+        "jp": [["暗闇", 0], ["染み込む", 1], ["世界で", 2], ["見つけた", 3]],
+        "gloss": [["暗闇", 0, "darkness"],
+                  ["染み込む", 1, "seeps in"],
+                  ["世界", 2, "world"], ["で", 2, "in"],
+                  ["見つけ", 3, "find"], ["た", 3, "(past)"]],
+        "en": [["In a world", 2], [" steeped", 1], [" in darkness,", 0], [" I found it —", 3]]
+      }
+    },
+    "18.03": {
+      "en": "a sentimental love",
+      "align": {
+        "jp": [["センチメンタルな", 0], ["恋", 1]],
+        "gloss": [["センチメンタル", 0, "sentimental"], ["な", 0, "(adj)"],
+                  ["恋", 1, "love"]],
+        "en": [["a sentimental", 0], [" love", 1]]
+      }
+    },
+    "31.28": {
+      "en": "A sweetly muddied gaze",
+      "align": {
+        "jp": [["甘く", 0], ["ぬかるんだ", 1], ["眼差し", 2]],
+        "gloss": [["甘く", 0, "sweetly"],
+                  ["ぬかるん", 1, "muddied"], ["だ", 1, "(past/adj)"],
+                  ["眼差し", 2, "gaze"]],
+        "en": [["A sweetly", 0], [" muddied", 1], [" gaze", 2]]
+      }
+    },
+    "36.15": {
+      "en": "It's troubling because you've got a strange allure",
+      "align": {
+        "jp": [["変に", 0], ["色気あるから", 1], ["困った", 2]],
+        "gloss": [["変", 0, "strange"], ["に", 0, "(adv)"],
+                  ["色気", 1, "allure/sex-appeal"], ["ある", 1, "exists/have"], ["から", 1, "because"],
+                  ["困っ", 2, "troubled"], ["た", 2, "(past)"]],
+        "en": [["It's troubling", 2], [" because you've got", 1], [" a strange", 0], [" allure", 1]]
+      }
+    },
+    "41.33": {
+      "en": "I want to summon the courage to take your hand",
+      "align": {
+        "jp": [["手を", 0], ["繋ぐ", 1], ["勇気", 2], ["出したくて", 3]],
+        "gloss": [["手", 0, "hand"], ["を", 0, "(obj)"],
+                  ["繋ぐ", 1, "connect/take"],
+                  ["勇気", 2, "courage"],
+                  ["出し", 3, "put out"], ["たく", 3, "want to"], ["て", 3, "(and so)"]],
+        "en": [["I want to summon", 3], [" the courage", 2], [" to take", 1], [" your hand", 0]]
+      }
+    },
+    "46.57": {
+      "en": "If I stay knowing my place, I can't do it, can I",
+      "align": {
+        "jp": [["身の程", 0], ["わきまえてちゃ", 1], ["出来ないね", 2]],
+        "gloss": [["身の程", 0, "one's station/place"],
+                  ["わきまえて", 1, "knowing/minding"], ["ちゃ", 1, "if (I do)"],
+                  ["出来", 2, "can do"], ["ない", 2, "(neg)"], ["ね", 2, "right?"]],
+        "en": [["If I stay knowing", 1], [" my place,", 0], [" I can't do it,", 2], [" can I", 2]]
+      }
+    },
+    "51.27": {
+      "en": "On a dark tunnel's wall, a secret trickling down",
+      "align": {
+        "jp": [["暗いトンネルの壁", 0], [" したたり落ちる", 1], ["秘密", 2]],
+        "gloss": [["暗い", 0, "dark"], ["トンネル", 0, "tunnel"], ["の", 0, "'s"], ["壁", 0, "wall"],
+                  [" したたり", 1, "trickle"], ["落ちる", 1, "fall"],
+                  ["秘密", 2, "secret"]],
+        "en": [["On a dark tunnel's wall,", 0], [" a secret", 2], [" trickling down", 1]]
+      }
+    },
+    "57.05": {
+      "en": "A heart pounding solemnly",
+      "align": {
+        "jp": [["しめやかに", 0], ["高鳴る", 1], ["心", 2]],
+        "gloss": [["しめやか", 0, "solemn/hushed"], ["に", 0, "(adv)"],
+                  ["高鳴る", 1, "pound loudly"],
+                  ["心", 2, "heart"]],
+        "en": [["A heart", 2], [" pounding", 1], [" solemnly", 0]]
+      }
+    },
+    "62.56": {
+      "en": "No no... wait wait...",
+      "align": {
+        "jp": [["ダメダメ...", 0], [" 待て待て...", 1]],
+        "gloss": [["ダメ", 0, "no good"], ["ダメ", 0, "no good"], ["...", 0, "..."],
+                  [" 待て", 1, "wait"], ["待て", 1, "wait"], ["...", 1, "..."]],
+        "en": [["No no...", 0], [" wait wait...", 1]]
+      }
+    },
+    "64.96": {
+      "en": "Curse and sickness alike — I want to embrace them",
+      "align": {
+        "jp": [["呪いも", 0], ["病も", 1], ["抱きしめたい", 2]],
+        "gloss": [["呪い", 0, "curse"], ["も", 0, "also"],
+                  ["病", 1, "sickness"], ["も", 1, "also"],
+                  ["抱きしめ", 2, "embrace"], ["たい", 2, "want to"]],
+        "en": [["Curse", 0], [" and sickness alike —", 1], [" I want to embrace them", 2]]
+      }
+    },
+    "67.45": {
+      "en": "Would it be okay to go wild right about here?",
+      "align": {
+        "jp": [["ここらで", 0], ["暴れちゃっても", 1], ["いいかな", 2]],
+        "gloss": [["ここら", 0, "around here"], ["で", 0, "at"],
+                  ["暴れ", 1, "rampage"], ["ちゃって", 1, "(do without restraint)"], ["も", 1, "even"],
+                  ["いい", 2, "good/okay"], ["か", 2, "(?)"], ["な", 2, "(wondering)"]],
+        "en": [["Would it be okay", 2], [" to go wild", 1], [" right about here?", 0]]
+      }
+    },
+    "70.47": {
+      "en": "Ah — I'll roar — even covered in bloody sludge, I want to protect you",
+      "align": {
+        "jp": [["あぁ ", 0], ["唸るぜ", 1], [" 血泥ついたって", 2], ["守りたい", 3]],
+        "gloss": [["あぁ", 0, "ah"], [" ", 0, " "],
+                  ["唸る", 1, "roar"], ["ぜ", 1, "(!)"],
+                  [" 血泥", 2, "bloody sludge"], ["つい", 2, "got stuck"], ["た", 2, "(past)"], ["って", 2, "even if"],
+                  ["守り", 3, "protect"], ["たい", 3, "want to"]],
+        "en": [["Ah —", 0], [" I'll roar —", 1], [" even covered in bloody sludge,", 2], [" I want to protect you", 3]]
+      }
+    },
+    "77.42": {
+      "en": "Even mid-revolution, I'm crazy about you",
+      "align": {
+        "jp": [["革命道中だって", 0], [" 君に", 1], ["夢中", 2]],
+        "gloss": [["革命", 0, "revolution"], ["道中", 0, "on the way/midst"], ["だって", 0, "even though (it is)"],
+                  [" 君", 1, "you"], ["に", 1, "to/over"],
+                  ["夢中", 2, "absorbed/crazy"]],
+        "en": [["Even mid-revolution,", 0], [" I'm crazy", 2], [" about you", 1]]
+      }
+    },
+    "82.19": {
+      "en": "In a world steeped in darkness, I found it —",
+      "align": {
+        "jp": [["暗闇", 0], ["染み込む", 1], ["世界で", 2], ["見つけた", 3]],
+        "gloss": [["暗闇", 0, "darkness"],
+                  ["染み込む", 1, "seeps in"],
+                  ["世界", 2, "world"], ["で", 2, "in"],
+                  ["見つけ", 3, "find"], ["た", 3, "(past)"]],
+        "en": [["In a world", 2], [" steeped", 1], [" in darkness,", 0], [" I found it —", 3]]
+      }
+    },
+    "87.73": {
+      "en": "a sentimental love",
+      "align": {
+        "jp": [["センチメンタルな", 0], ["恋", 1]],
+        "gloss": [["センチメンタル", 0, "sentimental"], ["な", 0, "(adj)"],
+                  ["恋", 1, "love"]],
+        "en": [["a sentimental", 0], [" love", 1]]
+      }
+    },
+    "90.95": {
+      "en": "(No no... wait wait...)",
+      "align": {
+        "jp": [["（ダメダメ...", 0], [" 待て待て...）", 1]],
+        "gloss": [["（", 0, "("], ["ダメ", 0, "no good"], ["ダメ", 0, "no good"], ["...", 0, "..."],
+                  [" 待て", 1, "wait"], ["待て", 1, "wait"], ["...", 1, "..."], ["）", 1, ")"]],
+        "en": [["(No no...", 0], [" wait wait...)", 1]]
+      }
+    },
+    "92.94": {
+      "en": "Heedless of appearances, I want to be by your side",
+      "align": {
+        "jp": [["なりふり構わず", 0], ["側に", 1], ["いたい", 2]],
+        "gloss": [["なりふり", 0, "appearance"], ["構わず", 0, "without caring"],
+                  ["側", 1, "side"], ["に", 1, "at"],
+                  ["い", 2, "be"], ["たい", 2, "want to"]],
+        "en": [["Heedless of appearances,", 0], [" I want to be", 2], [" by your side", 1]]
+      }
+    },
+    "98.18": {
+      "en": "Even in clumsy you, I end up placing my hopes",
+      "align": {
+        "jp": [["不器用な", 0], ["君にも", 1], ["期待しちゃうよ", 2]],
+        "gloss": [["不器用", 0, "clumsy"], ["な", 0, "(adj)"],
+                  ["君", 1, "you"], ["に", 1, "in"], ["も", 1, "also"],
+                  ["期待し", 2, "hope/expect"], ["ちゃう", 2, "end up doing"], ["よ", 2, "(!)"]],
+        "en": [["Even in", 1], [" clumsy", 0], [" you,", 1], [" I end up placing my hopes", 2]]
+      }
+    },
+    "103.23": {
+      "en": "If I cling — to a flame about to vanish",
+      "align": {
+        "jp": [["しがみつけば", 0], [" 消えそうな", 1], ["火に", 2]],
+        "gloss": [["しがみつけ", 0, "can cling"], ["ば", 0, "if"],
+                  [" 消え", 1, "vanish"], ["そうな", 1, "looks like/about to"],
+                  ["火", 2, "flame"], ["に", 2, "to"]],
+        "en": [["If I cling —", 0], [" to a flame", 2], [" about to vanish", 1]]
+      }
+    },
+    "108.42": {
+      "en": "Is it okay to draw close, baring love's claws?",
+      "align": {
+        "jp": [["恋の爪", 0], ["立てて", 1], ["近づいても", 2], ["いい？", 3]],
+        "gloss": [["恋", 0, "love"], ["の", 0, "'s"], ["爪", 0, "claws"],
+                  ["立てて", 1, "raising/baring"],
+                  ["近づいて", 2, "draw close"], ["も", 2, "even"],
+                  ["いい", 3, "good/okay"], ["？", 3, "(?)"]],
+        "en": [["Is it okay", 3], [" to draw close,", 2], [" baring", 1], [" love's claws?", 0]]
+      }
+    },
+    "113.14": {
+      "en": "Entrusting myself, being embraced — it's okay even to lose everything",
+      "align": {
+        "jp": [["身を任せ", 0], [" 抱かれて", 1], [" 全て", 2], ["失ってもいい", 3]],
+        "gloss": [["身", 0, "body/self"], ["を", 0, "(obj)"], ["任せ", 0, "entrust"],
+                  [" 抱かれ", 1, "be embraced"], ["て", 1, "(and)"],
+                  [" 全て", 2, "everything"],
+                  ["失って", 3, "lose"], ["も", 3, "even"], ["いい", 3, "okay"]],
+        "en": [["Entrusting myself,", 0], [" being embraced —", 1], [" it's okay even to lose", 3], [" everything", 2]]
+      }
+    },
+    "118.90": {
+      "en": "A heart pounding solemnly",
+      "align": {
+        "jp": [["しめやかに", 0], ["高鳴る", 1], ["心", 2]],
+        "gloss": [["しめやか", 0, "solemn/hushed"], ["に", 0, "(adv)"],
+                  ["高鳴る", 1, "pound loudly"],
+                  ["心", 2, "heart"]],
+        "en": [["A heart", 2], [" pounding", 1], [" solemnly", 0]]
+      }
+    },
+    "124.48": {
+      "en": "No no... wait wait...",
+      "align": {
+        "jp": [["ダメダメ...", 0], [" 待て待て...", 1]],
+        "gloss": [["ダメ", 0, "no good"], ["ダメ", 0, "no good"], ["...", 0, "..."],
+                  [" 待て", 1, "wait"], ["待て", 1, "wait"], ["...", 1, "..."]],
+        "en": [["No no...", 0], [" wait wait...", 1]]
+      }
+    },
+    "126.77": {
+      "en": "Curse and sickness alike — if it's with you",
+      "align": {
+        "jp": [["呪いも", 0], ["病も", 1], ["君となら", 2]],
+        "gloss": [["呪い", 0, "curse"], ["も", 0, "also"],
+                  ["病", 1, "sickness"], ["も", 1, "also"],
+                  ["君", 2, "you"], ["と", 2, "with"], ["なら", 2, "if"]],
+        "en": [["Curse", 0], [" and sickness alike —", 1], [" if it's with you", 2]]
+      }
+    },
+    "129.52": {
+      "en": "Would it be okay to go wild right about here?",
+      "align": {
+        "jp": [["ここらで", 0], ["暴れちゃっても", 1], ["いいかな", 2]],
+        "gloss": [["ここら", 0, "around here"], ["で", 0, "at"],
+                  ["暴れ", 1, "rampage"], ["ちゃって", 1, "(do without restraint)"], ["も", 1, "even"],
+                  ["いい", 2, "good/okay"], ["か", 2, "(?)"], ["な", 2, "(wondering)"]],
+        "en": [["Would it be okay", 2], [" to go wild", 1], [" right about here?", 0]]
+      }
+    },
+    "132.33": {
+      "en": "Ah — it makes me cry — I won't leave, even till I'm speechless",
+      "align": {
+        "jp": [["あぁ ", 0], ["泣けるぜ", 1], [" 絶句しちゃうまで", 2], ["離れない", 3]],
+        "gloss": [["あぁ", 0, "ah"], [" ", 0, " "],
+                  ["泣ける", 1, "can/make cry"], ["ぜ", 1, "(!)"],
+                  [" 絶句し", 2, "be speechless"], ["ちゃう", 2, "end up"], ["まで", 2, "until"],
+                  ["離れ", 3, "leave/part"], ["ない", 3, "(neg)"]],
+        "en": [["Ah —", 0], [" it makes me cry —", 1], [" I won't leave,", 3], [" even till I'm speechless", 2]]
+      }
+    },
+    "139.42": {
+      "en": "Even mid-revolution, I'm crazy about you",
+      "align": {
+        "jp": [["革命道中だって", 0], ["君に", 1], ["夢中", 2]],
+        "gloss": [["革命", 0, "revolution"], ["道中", 0, "on the way/midst"], ["だって", 0, "even though (it is)"],
+                  ["君", 1, "you"], ["に", 1, "to/over"],
+                  ["夢中", 2, "absorbed/crazy"]],
+        "en": [["Even mid-revolution,", 0], [" I'm crazy", 2], [" about you", 1]]
+      }
+    },
+    "143.91": {
+      "en": "In the gap of a drifting journey, I found it —",
+      "align": {
+        "jp": [["揺蕩う", 0], ["旅の", 1], ["狭間で", 2], ["見つけた", 3]],
+        "gloss": [["揺蕩う", 0, "drift/sway"],
+                  ["旅", 1, "journey"], ["の", 1, "of"],
+                  ["狭間", 2, "gap"], ["で", 2, "in"],
+                  ["見つけ", 3, "find"], ["た", 3, "(past)"]],
+        "en": [["In the gap", 2], [" of a journey", 1], [" that drifts,", 0], [" I found it —", 3]]
+      }
+    },
+    "149.79": {
+      "en": "a sentimental love",
+      "align": {
+        "jp": [["センチメンタルな", 0], ["恋", 1]],
+        "gloss": [["センチメンタル", 0, "sentimental"], ["な", 0, "(adj)"],
+                  ["恋", 1, "love"]],
+        "en": [["a sentimental", 0], [" love", 1]]
+      }
+    },
+    "152.41": {
+      "en": "If we charge forward — let's do it together, the two of us",
+      "align": {
+        "jp": [["突き進むなら", 0], [" 二人で", 1]],
+        "gloss": [["突き進む", 0, "charge forward"], ["なら", 0, "if"],
+                  [" 二人", 1, "two people"], ["で", 1, "as/with"]],
+        "en": [["If we charge forward —", 0], [" the two of us together", 1]]
+      }
+    },
+    "157.63": {
+      "en": "Even mid-revolution, I'm mad-absorbed in the dream",
+      "align": {
+        "jp": [["革命道中だって", 0], ["夢に", 1], ["熱中", 2]],
+        "gloss": [["革命", 0, "revolution"], ["道中", 0, "on the way/midst"], ["だって", 0, "even though (it is)"],
+                  ["夢", 1, "dream"], ["に", 1, "in"],
+                  ["熱中", 2, "mad absorption"]],
+        "en": [["Even mid-revolution,", 0], [" I'm mad-absorbed", 2], [" in the dream", 1]]
+      }
+    },
+    "163.47": {
+      "en": "No no... wait wait...",
+      "align": {
+        "jp": [["ダメダメ...", 0], [" 待て待て...", 1]],
+        "gloss": [["ダメ", 0, "no good"], ["ダメ", 0, "no good"], ["...", 0, "..."],
+                  [" 待て", 1, "wait"], ["待て", 1, "wait"], ["...", 1, "..."]],
+        "en": [["No no...", 0], [" wait wait...", 1]]
+      }
+    },
+    "165.75": {
+      "en": "Curse and sickness alike — I want to embrace them",
+      "align": {
+        "jp": [["呪いも", 0], ["病も", 1], ["抱きしめたい", 2]],
+        "gloss": [["呪い", 0, "curse"], ["も", 0, "also"],
+                  ["病", 1, "sickness"], ["も", 1, "also"],
+                  ["抱きしめ", 2, "embrace"], ["たい", 2, "want to"]],
+        "en": [["Curse", 0], [" and sickness alike —", 1], [" I want to embrace them", 2]]
+      }
+    },
+    "168.22": {
+      "en": "It's okay to go wild right about here, right?",
+      "align": {
+        "jp": [["ここらで", 0], ["暴れちゃっても", 1], ["いいよね", 2]],
+        "gloss": [["ここら", 0, "around here"], ["で", 0, "at"],
+                  ["暴れ", 1, "rampage"], ["ちゃって", 1, "(do without restraint)"], ["も", 1, "even"],
+                  ["いい", 2, "good/okay"], ["よ", 2, "(!)"], ["ね", 2, "right?"]],
+        "en": [["It's okay", 2], [" to go wild", 1], [" right about here,", 0], [" right?", 2]]
+      }
+    },
+    "170.92": {
+      "en": "Even if I'm scared I'll roar — even covered in bloody sludge, I want to protect you",
+      "align": {
+        "jp": [["怖くたって", 0], ["唸るぜ", 1], [" 血泥ついたって", 2], ["守りたい", 3]],
+        "gloss": [["怖く", 0, "scared"], ["たって", 0, "even if"],
+                  ["唸る", 1, "roar"], ["ぜ", 1, "(!)"],
+                  [" 血泥", 2, "bloody sludge"], ["つい", 2, "got stuck"], ["た", 2, "(past)"], ["って", 2, "even if"],
+                  ["守り", 3, "protect"], ["たい", 3, "want to"]],
+        "en": [["Even if I'm scared", 0], [" I'll roar —", 1], [" even covered in bloody sludge,", 2], [" I want to protect you", 3]]
+      }
+    },
+    "178.38": {
+      "en": "Even mid-revolution, I'm crazy about you",
+      "align": {
+        "jp": [["革命道中だって", 0], [" 君に", 1], ["夢中", 2]],
+        "gloss": [["革命", 0, "revolution"], ["道中", 0, "on the way/midst"], ["だって", 0, "even though (it is)"],
+                  [" 君", 1, "you"], ["に", 1, "to/over"],
+                  ["夢中", 2, "absorbed/crazy"]],
+        "en": [["Even mid-revolution,", 0], [" I'm crazy", 2], [" about you", 1]]
+      }
+    },
+    "182.89": {
+      "en": "In a world steeped in darkness, I found it —",
+      "align": {
+        "jp": [["暗闇", 0], ["染み込む", 1], ["世界で", 2], ["見つけた", 3]],
+        "gloss": [["暗闇", 0, "darkness"],
+                  ["染み込む", 1, "seeps in"],
+                  ["世界", 2, "world"], ["で", 2, "in"],
+                  ["見つけ", 3, "find"], ["た", 3, "(past)"]],
+        "en": [["In a world", 2], [" steeped", 1], [" in darkness,", 0], [" I found it —", 3]]
+      }
+    },
+    "188.60": {
+      "en": "a sentimental love",
+      "align": {
+        "jp": [["センチメンタルな", 0], ["恋", 1]],
+        "gloss": [["センチメンタル", 0, "sentimental"], ["な", 0, "(adj)"],
+                  ["恋", 1, "love"]],
+        "en": [["a sentimental", 0], [" love", 1]]
+      }
+    }
+  }
+}
