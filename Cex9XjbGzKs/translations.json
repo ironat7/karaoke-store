@@ -1,0 +1,3080 @@
+{
+ "9484495": {
+  "38.93": {
+   "en": "\"I can't sleep.\"",
+   "align": {
+    "jp": [
+     [
+      "「眠れない",
+      0
+     ],
+     [
+      "んだ」",
+      1
+     ]
+    ],
+    "gloss": [
+     [
+      "「",
+      0,
+      "\""
+     ],
+     [
+      "眠れない",
+      0,
+      "can't sleep"
+     ],
+     [
+      "んだ",
+      1,
+      "(explanatory)"
+     ],
+     [
+      "」",
+      1,
+      "\""
+     ]
+    ],
+    "en": [
+     [
+      "\"I can't sleep",
+      0
+     ],
+     [
+      ".\"",
+      1
+     ]
+    ]
+   }
+  },
+  "39.88": {
+   "en": "on a night so windless it feels like it's boiling",
+   "align": {
+    "jp": [
+     [
+      "風もなく",
+      0
+     ],
+     [
+      "茹だりそうな",
+      1
+     ],
+     [
+      "夜に",
+      2
+     ]
+    ],
+    "gloss": [
+     [
+      "風",
+      0,
+      "wind"
+     ],
+     [
+      "も",
+      0,
+      "even"
+     ],
+     [
+      "なく",
+      0,
+      "without"
+     ],
+     [
+      "茹だりそうな",
+      1,
+      "seems to boil"
+     ],
+     [
+      "夜",
+      2,
+      "night"
+     ],
+     [
+      "に",
+      2,
+      "on"
+     ]
+    ],
+    "en": [
+     [
+      "on a night",
+      2
+     ],
+     [
+      " so windless",
+      0
+     ],
+     [
+      " it feels like it's boiling",
+      1
+     ]
+    ]
+   }
+  },
+  "42.12": {
+   "en": "your voice wavered by my ear",
+   "align": {
+    "jp": [
+     [
+      "君の",
+      0
+     ],
+     [
+      "声が",
+      1
+     ],
+     [
+      "耳元で",
+      2
+     ],
+     [
+      "揺らいだ",
+      3
+     ]
+    ],
+    "gloss": [
+     [
+      "君",
+      0,
+      "you"
+     ],
+     [
+      "の",
+      0,
+      "'s"
+     ],
+     [
+      "声",
+      1,
+      "voice"
+     ],
+     [
+      "が",
+      1,
+      "(subj)"
+     ],
+     [
+      "耳元",
+      2,
+      "by the ear"
+     ],
+     [
+      "で",
+      2,
+      "at"
+     ],
+     [
+      "揺らいだ",
+      3,
+      "wavered"
+     ]
+    ],
+    "en": [
+     [
+      "your",
+      0
+     ],
+     [
+      " voice",
+      1
+     ],
+     [
+      " wavered",
+      3
+     ],
+     [
+      " by my ear",
+      2
+     ]
+    ]
+   }
+  },
+  "44.80": {
+   "en": "just soaking in sentiment",
+   "align": {
+    "jp": [
+     [
+      "感傷に",
+      0
+     ],
+     [
+      "浸って",
+      1
+     ],
+     [
+      "ばっか",
+      2
+     ]
+    ],
+    "gloss": [
+     [
+      "感傷",
+      0,
+      "sentiment"
+     ],
+     [
+      "に",
+      0,
+      "in"
+     ],
+     [
+      "浸って",
+      1,
+      "soaking"
+     ],
+     [
+      "ばっか",
+      2,
+      "just / only"
+     ]
+    ],
+    "en": [
+     [
+      "just",
+      2
+     ],
+     [
+      " soaking",
+      1
+     ],
+     [
+      " in sentiment",
+      0
+     ]
+    ]
+   }
+  },
+  "46.26": {
+   "en": "these days where nothing changes and we can't laugh",
+   "align": {
+    "jp": [
+     [
+      "何も変わらない",
+      0
+     ],
+     [
+      " 笑えない",
+      1
+     ],
+     [
+      "日々を",
+      2
+     ]
+    ],
+    "gloss": [
+     [
+      "何",
+      0,
+      "nothing"
+     ],
+     [
+      "も",
+      0,
+      "even"
+     ],
+     [
+      "変わらない",
+      0,
+      "doesn't change"
+     ],
+     [
+      " 笑えない",
+      1,
+      "can't laugh"
+     ],
+     [
+      "日々",
+      2,
+      "days"
+     ],
+     [
+      "を",
+      2,
+      "(obj)"
+     ]
+    ],
+    "en": [
+     [
+      "these days",
+      2
+     ],
+     [
+      " where nothing changes",
+      0
+     ],
+     [
+      " and we can't laugh",
+      1
+     ]
+    ]
+   }
+  },
+  "48.58": {
+   "en": "let's break out of them",
+   "align": {
+    "jp": [
+     [
+      "抜け出そう",
+      0
+     ],
+     [
+      "ぜ",
+      1
+     ]
+    ],
+    "gloss": [
+     [
+      "抜け出そう",
+      0,
+      "let's break out"
+     ],
+     [
+      "ぜ",
+      1,
+      "(emph)"
+     ]
+    ],
+    "en": [
+     [
+      "let's break out of them",
+      0
+     ],
+     [
+      "",
+      1
+     ]
+    ]
+   }
+  },
+  "49.55": {
+   "en": "I grabbed you and took off",
+   "align": {
+    "jp": [
+     [
+      "君を",
+      0
+     ],
+     [
+      "連れ",
+      1
+     ],
+     [
+      "飛び出した",
+      2
+     ]
+    ],
+    "gloss": [
+     [
+      "君",
+      0,
+      "you"
+     ],
+     [
+      "を",
+      0,
+      "(obj)"
+     ],
+     [
+      "連れ",
+      1,
+      "taking along"
+     ],
+     [
+      "飛び出した",
+      2,
+      "dashed out"
+     ]
+    ],
+    "en": [
+     [
+      "I grabbed",
+      1
+     ],
+     [
+      " you",
+      0
+     ],
+     [
+      " and took off",
+      2
+     ]
+    ]
+   }
+  },
+  "51.17": {
+   "en": "the wind rushed past, mingling with the dark",
+   "align": {
+    "jp": [
+     [
+      "風が",
+      0
+     ],
+     [
+      "通り過ぎた",
+      1
+     ],
+     [
+      " 闇と",
+      2
+     ],
+     [
+      "混ざり合った",
+      3
+     ]
+    ],
+    "gloss": [
+     [
+      "風",
+      0,
+      "wind"
+     ],
+     [
+      "が",
+      0,
+      "(subj)"
+     ],
+     [
+      "通り過ぎた",
+      1,
+      "rushed past"
+     ],
+     [
+      " 闇",
+      2,
+      "dark"
+     ],
+     [
+      "と",
+      2,
+      "with"
+     ],
+     [
+      "混ざり合った",
+      3,
+      "mingled"
+     ]
+    ],
+    "en": [
+     [
+      "the wind",
+      0
+     ],
+     [
+      " rushed past",
+      1
+     ],
+     [
+      ", mingling",
+      3
+     ],
+     [
+      " with the dark",
+      2
+     ]
+    ]
+   }
+  },
+  "54.46": {
+   "en": "your laughter echoed faintly into the indigo sky",
+   "align": {
+    "jp": [
+     [
+      "君の",
+      0
+     ],
+     [
+      "笑い声が",
+      1
+     ],
+     [
+      "小さく",
+      2
+     ],
+     [
+      "藍の空に",
+      3
+     ],
+     [
+      "響いて",
+      4
+     ]
+    ],
+    "gloss": [
+     [
+      "君",
+      0,
+      "you"
+     ],
+     [
+      "の",
+      0,
+      "'s"
+     ],
+     [
+      "笑い声",
+      1,
+      "laughter"
+     ],
+     [
+      "が",
+      1,
+      "(subj)"
+     ],
+     [
+      "小さく",
+      2,
+      "faintly"
+     ],
+     [
+      "藍",
+      3,
+      "indigo"
+     ],
+     [
+      "の",
+      3,
+      "of"
+     ],
+     [
+      "空",
+      3,
+      "sky"
+     ],
+     [
+      "に",
+      3,
+      "into"
+     ],
+     [
+      "響いて",
+      4,
+      "echoed"
+     ]
+    ],
+    "en": [
+     [
+      "your",
+      0
+     ],
+     [
+      " laughter",
+      1
+     ],
+     [
+      " echoed",
+      4
+     ],
+     [
+      " faintly",
+      2
+     ],
+     [
+      " into the indigo sky",
+      3
+     ]
+    ]
+   }
+  },
+  "58.02": {
+   "en": "can you even live like that?",
+   "align": {
+    "jp": [
+     [
+      "そんなんで",
+      0
+     ],
+     [
+      "生きていけん",
+      1
+     ],
+     [
+      "のか",
+      2
+     ]
+    ],
+    "gloss": [
+     [
+      "そんなん",
+      0,
+      "like that"
+     ],
+     [
+      "で",
+      0,
+      "with"
+     ],
+     [
+      "生きていけん",
+      1,
+      "can live on"
+     ],
+     [
+      "のか",
+      2,
+      "(?)"
+     ]
+    ],
+    "en": [
+     [
+      "can you even live on",
+      1
+     ],
+     [
+      " like that",
+      0
+     ],
+     [
+      "?",
+      2
+     ]
+    ]
+   }
+  },
+  "59.55": {
+   "en": "there's no going back now, y'know?",
+   "align": {
+    "jp": [
+     [
+      "もう",
+      0
+     ],
+     [
+      "戻れない",
+      1
+     ],
+     [
+      "ぜ？",
+      2
+     ]
+    ],
+    "gloss": [
+     [
+      "もう",
+      0,
+      "already / now"
+     ],
+     [
+      "戻れない",
+      1,
+      "can't go back"
+     ],
+     [
+      "ぜ",
+      2,
+      "(emph)"
+     ],
+     [
+      "？",
+      2,
+      "(?)"
+     ]
+    ],
+    "en": [
+     [
+      "there's no going back",
+      1
+     ],
+     [
+      " now",
+      0
+     ],
+     [
+      ", y'know?",
+      2
+     ]
+    ]
+   }
+  },
+  "60.75": {
+   "en": "feelings like that, that threaten to waver — slam them into the gas pedal",
+   "align": {
+    "jp": [
+     [
+      "なんて",
+      0
+     ],
+     [
+      "揺らぎそうな",
+      1
+     ],
+     [
+      "想いは",
+      2
+     ],
+     [
+      "アクセルへ",
+      3
+     ]
+    ],
+    "gloss": [
+     [
+      "なんて",
+      0,
+      "such as"
+     ],
+     [
+      "揺らぎそうな",
+      1,
+      "seeming to waver"
+     ],
+     [
+      "想い",
+      2,
+      "feelings"
+     ],
+     [
+      "は",
+      2,
+      "(topic)"
+     ],
+     [
+      "アクセル",
+      3,
+      "the gas pedal"
+     ],
+     [
+      "へ",
+      3,
+      "toward"
+     ]
+    ],
+    "en": [
+     [
+      "feelings",
+      2
+     ],
+     [
+      " like that",
+      0
+     ],
+     [
+      ", that threaten to waver —",
+      1
+     ],
+     [
+      " slam them into the gas pedal",
+      3
+     ]
+    ]
+   }
+  },
+  "62.63": {
+   "en": "just like this, I'll overtake the horizon itself",
+   "align": {
+    "jp": [
+     [
+      "このまま",
+      0
+     ],
+     [
+      "地平線を",
+      1
+     ],
+     [
+      "追い越してやる",
+      2
+     ],
+     [
+      "んだ",
+      3
+     ]
+    ],
+    "gloss": [
+     [
+      "このまま",
+      0,
+      "just like this"
+     ],
+     [
+      "地平線",
+      1,
+      "horizon"
+     ],
+     [
+      "を",
+      1,
+      "(obj)"
+     ],
+     [
+      "追い越してやる",
+      2,
+      "will overtake"
+     ],
+     [
+      "んだ",
+      3,
+      "(explanatory)"
+     ]
+    ],
+    "en": [
+     [
+      "just like this",
+      0
+     ],
+     [
+      ", I'll overtake",
+      2
+     ],
+     [
+      " the horizon",
+      1
+     ],
+     [
+      " itself",
+      3
+     ]
+    ]
+   }
+  },
+  "64.24": {
+   "en": "race the front line — the ones of us",
+   "align": {
+    "jp": [
+     [
+      "最前線",
+      0
+     ],
+     [
+      "飛ばせ",
+      1
+     ],
+     [
+      " 僕たちは",
+      2
+     ]
+    ],
+    "gloss": [
+     [
+      "最前線",
+      0,
+      "front line"
+     ],
+     [
+      "飛ばせ",
+      1,
+      "race / floor it"
+     ],
+     [
+      " 僕たち",
+      2,
+      "we"
+     ],
+     [
+      "は",
+      2,
+      "(topic)"
+     ]
+    ],
+    "en": [
+     [
+      "race",
+      1
+     ],
+     [
+      " the front line —",
+      0
+     ],
+     [
+      " the ones of us",
+      2
+     ]
+    ]
+   }
+  },
+  "65.66": {
+   "en": "a starless night — we just head for the east",
+   "align": {
+    "jp": [
+     [
+      "星もない",
+      0
+     ],
+     [
+      "夜",
+      1
+     ],
+     [
+      " ただ",
+      2
+     ],
+     [
+      "東を",
+      3
+     ],
+     [
+      "目指して行く",
+      4
+     ]
+    ],
+    "gloss": [
+     [
+      "星",
+      0,
+      "stars"
+     ],
+     [
+      "も",
+      0,
+      "even"
+     ],
+     [
+      "ない",
+      0,
+      "without"
+     ],
+     [
+      "夜",
+      1,
+      "night"
+     ],
+     [
+      " ただ",
+      2,
+      "just"
+     ],
+     [
+      "東",
+      3,
+      "east"
+     ],
+     [
+      "を",
+      3,
+      "(obj)"
+     ],
+     [
+      "目指して行く",
+      4,
+      "head for"
+     ]
+    ],
+    "en": [
+     [
+      "a starless",
+      0
+     ],
+     [
+      " night —",
+      1
+     ],
+     [
+      " we just",
+      2
+     ],
+     [
+      " head for",
+      4
+     ],
+     [
+      " the east",
+      3
+     ]
+    ]
+   }
+  },
+  "68.94": {
+   "en": "even if we can't see 13 seconds ahead",
+   "align": {
+    "jp": [
+     [
+      "13秒先",
+      0
+     ],
+     [
+      "も",
+      1
+     ],
+     [
+      "わかんなくたって",
+      2
+     ]
+    ],
+    "gloss": [
+     [
+      "13秒先",
+      0,
+      "13 seconds ahead"
+     ],
+     [
+      "も",
+      1,
+      "even"
+     ],
+     [
+      "わかんなくたって",
+      2,
+      "even if unknown"
+     ]
+    ],
+    "en": [
+     [
+      "even if we can't see",
+      2
+     ],
+     [
+      " 13 seconds ahead",
+      0
+     ],
+     [
+      "",
+      1
+     ]
+    ]
+   }
+  },
+  "70.58": {
+   "en": "I'll live as myself with everything I've got",
+   "align": {
+    "jp": [
+     [
+      "精一杯",
+      0
+     ],
+     [
+      "僕を",
+      1
+     ],
+     [
+      "生きていく",
+      2
+     ]
+    ],
+    "gloss": [
+     [
+      "精一杯",
+      0,
+      "with all my might"
+     ],
+     [
+      "僕",
+      1,
+      "me"
+     ],
+     [
+      "を",
+      1,
+      "(obj)"
+     ],
+     [
+      "生きていく",
+      2,
+      "will live on"
+     ]
+    ],
+    "en": [
+     [
+      "I'll live on",
+      2
+     ],
+     [
+      " as myself",
+      1
+     ],
+     [
+      " with everything I've got",
+      0
+     ]
+    ]
+   }
+  },
+  "72.18": {
+   "en": "there's nothing to regret at all — face forward, yeah",
+   "align": {
+    "jp": [
+     [
+      "何も",
+      0
+     ],
+     [
+      "後悔なんてないさ",
+      1
+     ],
+     [
+      " 前を",
+      2
+     ],
+     [
+      "向け",
+      3
+     ],
+     [
+      " yeah",
+      4
+     ]
+    ],
+    "gloss": [
+     [
+      "何",
+      0,
+      "anything"
+     ],
+     [
+      "も",
+      0,
+      "even"
+     ],
+     [
+      "後悔",
+      1,
+      "regret"
+     ],
+     [
+      "なんて",
+      1,
+      "like"
+     ],
+     [
+      "ない",
+      1,
+      "none"
+     ],
+     [
+      "さ",
+      1,
+      "(emph)"
+     ],
+     [
+      " 前",
+      2,
+      "forward"
+     ],
+     [
+      "を",
+      2,
+      "(obj)"
+     ],
+     [
+      "向け",
+      3,
+      "face"
+     ],
+     [
+      " yeah",
+      4,
+      "yeah"
+     ]
+    ],
+    "en": [
+     [
+      "there's",
+      1
+     ],
+     [
+      " nothing",
+      0
+     ],
+     [
+      " to regret at all —",
+      1
+     ],
+     [
+      " face",
+      3
+     ],
+     [
+      " forward",
+      2
+     ],
+     [
+      ",",
+      1
+     ],
+     [
+      " yeah",
+      4
+     ]
+    ]
+   }
+  },
+  "75.36": {
+   "en": "we won't stop — surely toward where the light is waiting, yeah",
+   "align": {
+    "jp": [
+     [
+      "止まらないさ",
+      0
+     ],
+     [
+      " きっと",
+      1
+     ],
+     [
+      "光の待つ",
+      2
+     ],
+     [
+      "方へ",
+      3
+     ],
+     [
+      " yeah",
+      4
+     ]
+    ],
+    "gloss": [
+     [
+      "止まらない",
+      0,
+      "won't stop"
+     ],
+     [
+      "さ",
+      0,
+      "(emph)"
+     ],
+     [
+      " きっと",
+      1,
+      "surely"
+     ],
+     [
+      "光",
+      2,
+      "light"
+     ],
+     [
+      "の",
+      2,
+      "(subj)"
+     ],
+     [
+      "待つ",
+      2,
+      "waits"
+     ],
+     [
+      "方",
+      3,
+      "direction"
+     ],
+     [
+      "へ",
+      3,
+      "toward"
+     ],
+     [
+      " yeah",
+      4,
+      "yeah"
+     ]
+    ],
+    "en": [
+     [
+      "we won't stop —",
+      0
+     ],
+     [
+      " surely",
+      1
+     ],
+     [
+      " toward",
+      3
+     ],
+     [
+      " where the light is waiting",
+      2
+     ],
+     [
+      ",",
+      0
+     ],
+     [
+      " yeah",
+      4
+     ]
+    ]
+   }
+  },
+  "90.18": {
+   "en": "even a road that looks like it drops into darkness, where you can't see ahead",
+   "align": {
+    "jp": [
+     [
+      "暗闇に",
+      0
+     ],
+     [
+      "落ちた",
+      1
+     ],
+     [
+      " 先の見えないような",
+      2
+     ],
+     [
+      "道も",
+      3
+     ]
+    ],
+    "gloss": [
+     [
+      "暗闇",
+      0,
+      "darkness"
+     ],
+     [
+      "に",
+      0,
+      "into"
+     ],
+     [
+      "落ちた",
+      1,
+      "fell"
+     ],
+     [
+      " 先",
+      2,
+      "ahead"
+     ],
+     [
+      "の",
+      2,
+      "(subj)"
+     ],
+     [
+      "見えない",
+      2,
+      "can't see"
+     ],
+     [
+      "ような",
+      2,
+      "seeming"
+     ],
+     [
+      "道",
+      3,
+      "road"
+     ],
+     [
+      "も",
+      3,
+      "even"
+     ]
+    ],
+    "en": [
+     [
+      "even a road",
+      3
+     ],
+     [
+      " that looks like it fell",
+      1
+     ],
+     [
+      " into darkness",
+      0
+     ],
+     [
+      ", where you can't see ahead",
+      2
+     ]
+    ]
+   }
+  },
+  "93.33": {
+   "en": "once I got there, there was no darkness at all",
+   "align": {
+    "jp": [
+     [
+      "辿り着いたら",
+      0
+     ],
+     [
+      "闇なんて",
+      1
+     ],
+     [
+      "なかった",
+      2
+     ]
+    ],
+    "gloss": [
+     [
+      "辿り着いたら",
+      0,
+      "once arrived"
+     ],
+     [
+      "闇",
+      1,
+      "darkness"
+     ],
+     [
+      "なんて",
+      1,
+      "such as"
+     ],
+     [
+      "なかった",
+      2,
+      "didn't exist"
+     ]
+    ],
+    "en": [
+     [
+      "once I got there",
+      0
+     ],
+     [
+      ", there was no",
+      2
+     ],
+     [
+      " darkness at all",
+      1
+     ]
+    ]
+   }
+  },
+  "96.09": {
+   "en": "surely it's because I haven't completely believed in myself",
+   "align": {
+    "jp": [
+     [
+      "きっと",
+      0
+     ],
+     [
+      "僕は",
+      1
+     ],
+     [
+      "僕を",
+      2
+     ],
+     [
+      "信じ切っちゃいない",
+      3
+     ],
+     [
+      "から",
+      4
+     ]
+    ],
+    "gloss": [
+     [
+      "きっと",
+      0,
+      "surely"
+     ],
+     [
+      "僕",
+      1,
+      "I"
+     ],
+     [
+      "は",
+      1,
+      "(topic)"
+     ],
+     [
+      "僕",
+      2,
+      "me"
+     ],
+     [
+      "を",
+      2,
+      "(obj)"
+     ],
+     [
+      "信じ切っちゃいない",
+      3,
+      "haven't fully believed in"
+     ],
+     [
+      "から",
+      4,
+      "because"
+     ]
+    ],
+    "en": [
+     [
+      "surely",
+      0
+     ],
+     [
+      " it's because",
+      4
+     ],
+     [
+      " I",
+      1
+     ],
+     [
+      " haven't completely believed in",
+      3
+     ],
+     [
+      " myself",
+      2
+     ]
+    ]
+   }
+  },
+  "99.34": {
+   "en": "might as well head beyond that far side",
+   "align": {
+    "jp": [
+     [
+      "いっそ",
+      0
+     ],
+     [
+      "あの",
+      1
+     ],
+     [
+      "向こうへ",
+      2
+     ]
+    ],
+    "gloss": [
+     [
+      "いっそ",
+      0,
+      "might as well"
+     ],
+     [
+      "あの",
+      1,
+      "that"
+     ],
+     [
+      "向こう",
+      2,
+      "far side"
+     ],
+     [
+      "へ",
+      2,
+      "toward"
+     ]
+    ],
+    "en": [
+     [
+      "might as well head",
+      0
+     ],
+     [
+      " toward",
+      2
+     ],
+     [
+      " that",
+      1
+     ],
+     [
+      " far side",
+      2
+     ]
+    ]
+   }
+  },
+  "100.83": {
+   "en": "I walked on, believing in a dawn I still haven't seen",
+   "align": {
+    "jp": [
+     [
+      "未だ見ぬ",
+      0
+     ],
+     [
+      "夜明けを",
+      1
+     ],
+     [
+      "信じ",
+      2
+     ],
+     [
+      "歩いた",
+      3
+     ]
+    ],
+    "gloss": [
+     [
+      "未だ見ぬ",
+      0,
+      "yet unseen"
+     ],
+     [
+      "夜明け",
+      1,
+      "dawn"
+     ],
+     [
+      "を",
+      1,
+      "(obj)"
+     ],
+     [
+      "信じ",
+      2,
+      "believing"
+     ],
+     [
+      "歩いた",
+      3,
+      "walked"
+     ]
+    ],
+    "en": [
+     [
+      "I walked on",
+      3
+     ],
+     [
+      ", believing in",
+      2
+     ],
+     [
+      " a",
+      1
+     ],
+     [
+      " yet-unseen",
+      0
+     ],
+     [
+      " dawn",
+      1
+     ]
+    ]
+   }
+  },
+  "102.97": {
+   "en": "overtook, ran, hoped",
+   "align": {
+    "jp": [
+     [
+      "追い抜いた",
+      0
+     ],
+     [
+      " 走った",
+      1
+     ],
+     [
+      " 期待した",
+      2
+     ]
+    ],
+    "gloss": [
+     [
+      "追い抜いた",
+      0,
+      "overtook"
+     ],
+     [
+      " 走った",
+      1,
+      "ran"
+     ],
+     [
+      " 期待した",
+      2,
+      "hoped"
+     ]
+    ],
+    "en": [
+     [
+      "overtook",
+      0
+     ],
+     [
+      ", ran",
+      1
+     ],
+     [
+      ", hoped",
+      2
+     ]
+    ]
+   }
+  },
+  "104.44": {
+   "en": "fell down, got lost, stopped understanding",
+   "align": {
+    "jp": [
+     [
+      "転んだ",
+      0
+     ],
+     [
+      " 迷った",
+      1
+     ],
+     [
+      " わかんなくなった",
+      2
+     ]
+    ],
+    "gloss": [
+     [
+      "転んだ",
+      0,
+      "fell down"
+     ],
+     [
+      " 迷った",
+      1,
+      "got lost"
+     ],
+     [
+      " わかんなくなった",
+      2,
+      "stopped understanding"
+     ]
+    ],
+    "en": [
+     [
+      "fell down",
+      0
+     ],
+     [
+      ", got lost",
+      1
+     ],
+     [
+      ", stopped understanding",
+      2
+     ]
+    ]
+   }
+  },
+  "105.88": {
+   "en": "but just feel alive",
+   "align": {
+    "jp": [
+     [
+      "でも",
+      0
+     ],
+     [
+      " just feel alive",
+      1
+     ]
+    ],
+    "gloss": [
+     [
+      "でも",
+      0,
+      "but"
+     ],
+     [
+      " just feel alive",
+      1,
+      "just feel alive"
+     ]
+    ],
+    "en": [
+     [
+      "but",
+      0
+     ],
+     [
+      " just feel alive",
+      1
+     ]
+    ]
+   }
+  },
+  "107.24": {
+   "en": "Fear or light"
+  },
+  "107.95": {
+   "en": "we'll still keep walking on",
+   "align": {
+    "jp": [
+     [
+      "まだ",
+      0
+     ],
+     [
+      "僕らは",
+      1
+     ],
+     [
+      "歩いていく",
+      2
+     ]
+    ],
+    "gloss": [
+     [
+      "まだ",
+      0,
+      "still"
+     ],
+     [
+      "僕ら",
+      1,
+      "we"
+     ],
+     [
+      "は",
+      1,
+      "(topic)"
+     ],
+     [
+      "歩いていく",
+      2,
+      "will keep walking"
+     ]
+    ],
+    "en": [
+     [
+      "we",
+      1
+     ],
+     [
+      "'ll still",
+      0
+     ],
+     [
+      " keep walking on",
+      2
+     ]
+    ]
+   }
+  },
+  "109.43": {
+   "en": "at this rate, no matter how much time passes",
+   "align": {
+    "jp": [
+     [
+      "こんなんじゃ",
+      0
+     ],
+     [
+      "いつまで",
+      1
+     ],
+     [
+      "経っても",
+      2
+     ]
+    ],
+    "gloss": [
+     [
+      "こんなん",
+      0,
+      "like this"
+     ],
+     [
+      "じゃ",
+      0,
+      "if"
+     ],
+     [
+      "いつまで",
+      1,
+      "however long"
+     ],
+     [
+      "経っても",
+      2,
+      "even if passes"
+     ]
+    ],
+    "en": [
+     [
+      "at this rate",
+      0
+     ],
+     [
+      ", no matter how",
+      1
+     ],
+     [
+      " much time passes",
+      2
+     ]
+    ]
+   }
+  },
+  "110.92": {
+   "en": "we won't get anywhere at all",
+   "align": {
+    "jp": [
+     [
+      "何処にも",
+      0
+     ],
+     [
+      "行けやしない",
+      1
+     ],
+     [
+      "さ",
+      2
+     ]
+    ],
+    "gloss": [
+     [
+      "何処",
+      0,
+      "anywhere"
+     ],
+     [
+      "に",
+      0,
+      "to"
+     ],
+     [
+      "も",
+      0,
+      "even"
+     ],
+     [
+      "行けやしない",
+      1,
+      "can't go (emphatic)"
+     ],
+     [
+      "さ",
+      2,
+      "(emph)"
+     ]
+    ],
+    "en": [
+     [
+      "we won't get",
+      1
+     ],
+     [
+      " anywhere at all",
+      0
+     ],
+     [
+      "",
+      2
+     ]
+    ]
+   }
+  },
+  "111.85": {
+   "en": "feelings like that, which won't wipe away — slam them into the gas pedal too",
+   "align": {
+    "jp": [
+     [
+      "なんて",
+      0
+     ],
+     [
+      "拭えない",
+      1
+     ],
+     [
+      "想いも",
+      2
+     ],
+     [
+      "アクセルへ",
+      3
+     ]
+    ],
+    "gloss": [
+     [
+      "なんて",
+      0,
+      "such as"
+     ],
+     [
+      "拭えない",
+      1,
+      "can't wipe away"
+     ],
+     [
+      "想い",
+      2,
+      "feelings"
+     ],
+     [
+      "も",
+      2,
+      "also"
+     ],
+     [
+      "アクセル",
+      3,
+      "the gas pedal"
+     ],
+     [
+      "へ",
+      3,
+      "toward"
+     ]
+    ],
+    "en": [
+     [
+      "feelings",
+      2
+     ],
+     [
+      " like that",
+      0
+     ],
+     [
+      ", which won't wipe away —",
+      1
+     ],
+     [
+      " slam them into the gas pedal",
+      3
+     ],
+     [
+      " too",
+      2
+     ]
+    ]
+   }
+  },
+  "113.82": {
+   "en": "there's no way we could stop anyway",
+   "align": {
+    "jp": [
+     [
+      "どうせ",
+      0
+     ],
+     [
+      "止まれるはずない",
+      1
+     ],
+     [
+      "さ",
+      2
+     ]
+    ],
+    "gloss": [
+     [
+      "どうせ",
+      0,
+      "anyway"
+     ],
+     [
+      "止まれる",
+      1,
+      "can stop"
+     ],
+     [
+      "はずない",
+      1,
+      "no way"
+     ],
+     [
+      "さ",
+      2,
+      "(emph)"
+     ]
+    ],
+    "en": [
+     [
+      "there's no way we could stop",
+      1
+     ],
+     [
+      " anyway",
+      0
+     ],
+     [
+      "",
+      2
+     ]
+    ]
+   }
+  },
+  "115.19": {
+   "en": "even if we rot away in the night, we —",
+   "align": {
+    "jp": [
+     [
+      "夜に",
+      0
+     ],
+     [
+      "腐っていたって",
+      1
+     ],
+     [
+      " 僕たちは",
+      2
+     ]
+    ],
+    "gloss": [
+     [
+      "夜",
+      0,
+      "night"
+     ],
+     [
+      "に",
+      0,
+      "in"
+     ],
+     [
+      "腐っていたって",
+      1,
+      "even if rotting"
+     ],
+     [
+      " 僕たち",
+      2,
+      "we"
+     ],
+     [
+      "は",
+      2,
+      "(topic)"
+     ]
+    ],
+    "en": [
+     [
+      "even if we rot away",
+      1
+     ],
+     [
+      " in the night",
+      0
+     ],
+     [
+      ",",
+      1
+     ],
+     [
+      " we —",
+      2
+     ]
+    ]
+   }
+  },
+  "121.97": {
+   "en": "without a doubt, we're heading toward tomorrow",
+   "align": {
+    "jp": [
+     [
+      "間違いなく",
+      0
+     ],
+     [
+      "明日に",
+      1
+     ],
+     [
+      "向かっていく",
+      2
+     ]
+    ],
+    "gloss": [
+     [
+      "間違いなく",
+      0,
+      "without a doubt"
+     ],
+     [
+      "明日",
+      1,
+      "tomorrow"
+     ],
+     [
+      "に",
+      1,
+      "toward"
+     ],
+     [
+      "向かっていく",
+      2,
+      "are heading"
+     ]
+    ],
+    "en": [
+     [
+      "without a doubt",
+      0
+     ],
+     [
+      ", we're heading",
+      2
+     ],
+     [
+      " toward tomorrow",
+      1
+     ]
+    ]
+   }
+  },
+  "141.02": {
+   "en": "race the front line — the ones of us",
+   "align": {
+    "jp": [
+     [
+      "最前線",
+      0
+     ],
+     [
+      "飛ばせ",
+      1
+     ],
+     [
+      " 僕たちは",
+      2
+     ]
+    ],
+    "gloss": [
+     [
+      "最前線",
+      0,
+      "front line"
+     ],
+     [
+      "飛ばせ",
+      1,
+      "race / floor it"
+     ],
+     [
+      " 僕たち",
+      2,
+      "we"
+     ],
+     [
+      "は",
+      2,
+      "(topic)"
+     ]
+    ],
+    "en": [
+     [
+      "race",
+      1
+     ],
+     [
+      " the front line —",
+      0
+     ],
+     [
+      " the ones of us",
+      2
+     ]
+    ]
+   }
+  },
+  "142.62": {
+   "en": "the starry sky starting to pale — it sets my heart pounding",
+   "align": {
+    "jp": [
+     [
+      "白みだした",
+      0
+     ],
+     [
+      "星空",
+      1
+     ],
+     [
+      " 胸を",
+      2
+     ],
+     [
+      "鳴らしている",
+      3
+     ]
+    ],
+    "gloss": [
+     [
+      "白みだした",
+      0,
+      "started to pale"
+     ],
+     [
+      "星空",
+      1,
+      "starry sky"
+     ],
+     [
+      " 胸",
+      2,
+      "heart / chest"
+     ],
+     [
+      "を",
+      2,
+      "(obj)"
+     ],
+     [
+      "鳴らしている",
+      3,
+      "is making pound"
+     ]
+    ],
+    "en": [
+     [
+      "the starry sky",
+      1
+     ],
+     [
+      " starting to pale —",
+      0
+     ],
+     [
+      " it sets my heart",
+      2
+     ],
+     [
+      " pounding",
+      3
+     ]
+    ]
+   }
+  },
+  "145.83": {
+   "en": "taking along music cranked up so we won't fall asleep",
+   "align": {
+    "jp": [
+     [
+      "眠らないよう",
+      0
+     ],
+     [
+      " 上がる",
+      1
+     ],
+     [
+      "ミュージックと",
+      2
+     ]
+    ],
+    "gloss": [
+     [
+      "眠らないよう",
+      0,
+      "so as not to sleep"
+     ],
+     [
+      " 上がる",
+      1,
+      "rising / cranked up"
+     ],
+     [
+      "ミュージック",
+      2,
+      "music"
+     ],
+     [
+      "と",
+      2,
+      "and"
+     ]
+    ],
+    "en": [
+     [
+      "music",
+      2
+     ],
+     [
+      " cranked up",
+      1
+     ],
+     [
+      " so we won't fall asleep",
+      0
+     ],
+     [
+      " and",
+      2
+     ]
+    ]
+   }
+  },
+  "147.53": {
+   "en": "and water that's gone lukewarm — that's all we bring",
+   "align": {
+    "jp": [
+     [
+      "ぬるくなった",
+      0
+     ],
+     [
+      "水だけ",
+      1
+     ],
+     [
+      "持って行く",
+      2
+     ]
+    ],
+    "gloss": [
+     [
+      "ぬるくなった",
+      0,
+      "turned lukewarm"
+     ],
+     [
+      "水",
+      1,
+      "water"
+     ],
+     [
+      "だけ",
+      1,
+      "only"
+     ],
+     [
+      "持って行く",
+      2,
+      "will bring"
+     ]
+    ],
+    "en": [
+     [
+      "water",
+      1
+     ],
+     [
+      " that's gone lukewarm —",
+      0
+     ],
+     [
+      " that's all we bring",
+      2
+     ]
+    ]
+   }
+  },
+  "149.15": {
+   "en": "nothing we've got is wasted — face forward, yeah",
+   "align": {
+    "jp": [
+     [
+      "無駄なものは",
+      0
+     ],
+     [
+      "何もないさ",
+      1
+     ],
+     [
+      " 前を",
+      2
+     ],
+     [
+      "向け",
+      3
+     ],
+     [
+      " yeah",
+      4
+     ]
+    ],
+    "gloss": [
+     [
+      "無駄な",
+      0,
+      "wasted"
+     ],
+     [
+      "もの",
+      0,
+      "things"
+     ],
+     [
+      "は",
+      0,
+      "(topic)"
+     ],
+     [
+      "何もない",
+      1,
+      "there is nothing"
+     ],
+     [
+      "さ",
+      1,
+      "(emph)"
+     ],
+     [
+      " 前",
+      2,
+      "forward"
+     ],
+     [
+      "を",
+      2,
+      "(obj)"
+     ],
+     [
+      "向け",
+      3,
+      "face"
+     ],
+     [
+      " yeah",
+      4,
+      "yeah"
+     ]
+    ],
+    "en": [
+     [
+      "nothing",
+      1
+     ],
+     [
+      " we've got",
+      0
+     ],
+     [
+      " is wasted",
+      0
+     ],
+     [
+      " —",
+      1
+     ],
+     [
+      " face",
+      3
+     ],
+     [
+      " forward",
+      2
+     ],
+     [
+      ",",
+      1
+     ],
+     [
+      " yeah",
+      4
+     ]
+    ]
+   }
+  },
+  "152.21": {
+   "en": "because that way we'll surely be able to laugh",
+   "align": {
+    "jp": [
+     [
+      "その方が",
+      0
+     ],
+     [
+      "きっと",
+      1
+     ],
+     [
+      "笑えるさ",
+      2
+     ],
+     [
+      "って",
+      3
+     ]
+    ],
+    "gloss": [
+     [
+      "その方",
+      0,
+      "that way"
+     ],
+     [
+      "が",
+      0,
+      "(subj)"
+     ],
+     [
+      "きっと",
+      1,
+      "surely"
+     ],
+     [
+      "笑える",
+      2,
+      "can laugh"
+     ],
+     [
+      "さ",
+      2,
+      "(emph)"
+     ],
+     [
+      "って",
+      3,
+      "because / so"
+     ]
+    ],
+    "en": [
+     [
+      "because",
+      3
+     ],
+     [
+      " that way",
+      0
+     ],
+     [
+      " we'll surely",
+      1
+     ],
+     [
+      " be able to laugh",
+      2
+     ]
+    ]
+   }
+  },
+  "153.99": {
+   "en": "race the front line — the ones of us",
+   "align": {
+    "jp": [
+     [
+      "最前線",
+      0
+     ],
+     [
+      "飛ばせ",
+      1
+     ],
+     [
+      " 僕たちは",
+      2
+     ]
+    ],
+    "gloss": [
+     [
+      "最前線",
+      0,
+      "front line"
+     ],
+     [
+      "飛ばせ",
+      1,
+      "race / floor it"
+     ],
+     [
+      " 僕たち",
+      2,
+      "we"
+     ],
+     [
+      "は",
+      2,
+      "(topic)"
+     ]
+    ],
+    "en": [
+     [
+      "race",
+      1
+     ],
+     [
+      " the front line —",
+      0
+     ],
+     [
+      " the ones of us",
+      2
+     ]
+    ]
+   }
+  },
+  "155.18": {
+   "en": "the rising sun — we head for that light",
+   "align": {
+    "jp": [
+     [
+      "昇る",
+      0
+     ],
+     [
+      "太陽",
+      1
+     ],
+     [
+      " その光を",
+      2
+     ],
+     [
+      "目指して行く",
+      3
+     ]
+    ],
+    "gloss": [
+     [
+      "昇る",
+      0,
+      "rising"
+     ],
+     [
+      "太陽",
+      1,
+      "sun"
+     ],
+     [
+      " その",
+      2,
+      "that"
+     ],
+     [
+      "光",
+      2,
+      "light"
+     ],
+     [
+      "を",
+      2,
+      "(obj)"
+     ],
+     [
+      "目指して行く",
+      3,
+      "head for"
+     ]
+    ],
+    "en": [
+     [
+      "the",
+      1
+     ],
+     [
+      " rising",
+      0
+     ],
+     [
+      " sun —",
+      1
+     ],
+     [
+      " we head for",
+      3
+     ],
+     [
+      " that light",
+      2
+     ]
+    ]
+   }
+  },
+  "158.54": {
+   "en": "even if right now we don't know what happiness is",
+   "align": {
+    "jp": [
+     [
+      "幸せって",
+      0
+     ],
+     [
+      "今は",
+      1
+     ],
+     [
+      "わかんなくたって",
+      2
+     ]
+    ],
+    "gloss": [
+     [
+      "幸せ",
+      0,
+      "happiness"
+     ],
+     [
+      "って",
+      0,
+      "(quot)"
+     ],
+     [
+      "今",
+      1,
+      "now"
+     ],
+     [
+      "は",
+      1,
+      "(topic)"
+     ],
+     [
+      "わかんなくたって",
+      2,
+      "even if not understood"
+     ]
+    ],
+    "en": [
+     [
+      "even if",
+      2
+     ],
+     [
+      " right now",
+      1
+     ],
+     [
+      " we don't know",
+      2
+     ],
+     [
+      " what happiness is",
+      0
+     ]
+    ]
+   }
+  },
+  "160.41": {
+   "en": "I'll live as myself with everything I've got",
+   "align": {
+    "jp": [
+     [
+      "精一杯",
+      0
+     ],
+     [
+      "僕を",
+      1
+     ],
+     [
+      "生きていく",
+      2
+     ]
+    ],
+    "gloss": [
+     [
+      "精一杯",
+      0,
+      "with all my might"
+     ],
+     [
+      "僕",
+      1,
+      "me"
+     ],
+     [
+      "を",
+      1,
+      "(obj)"
+     ],
+     [
+      "生きていく",
+      2,
+      "will live on"
+     ]
+    ],
+    "en": [
+     [
+      "I'll live on",
+      2
+     ],
+     [
+      " as myself",
+      1
+     ],
+     [
+      " with everything I've got",
+      0
+     ]
+    ]
+   }
+  },
+  "161.81": {
+   "en": "there's nothing to regret at all — face forward, yeah",
+   "align": {
+    "jp": [
+     [
+      "何も",
+      0
+     ],
+     [
+      "後悔なんてないさ",
+      1
+     ],
+     [
+      " 前を",
+      2
+     ],
+     [
+      "向け",
+      3
+     ],
+     [
+      " yeah",
+      4
+     ]
+    ],
+    "gloss": [
+     [
+      "何",
+      0,
+      "anything"
+     ],
+     [
+      "も",
+      0,
+      "even"
+     ],
+     [
+      "後悔",
+      1,
+      "regret"
+     ],
+     [
+      "なんて",
+      1,
+      "like"
+     ],
+     [
+      "ない",
+      1,
+      "none"
+     ],
+     [
+      "さ",
+      1,
+      "(emph)"
+     ],
+     [
+      " 前",
+      2,
+      "forward"
+     ],
+     [
+      "を",
+      2,
+      "(obj)"
+     ],
+     [
+      "向け",
+      3,
+      "face"
+     ],
+     [
+      " yeah",
+      4,
+      "yeah"
+     ]
+    ],
+    "en": [
+     [
+      "there's",
+      1
+     ],
+     [
+      " nothing",
+      0
+     ],
+     [
+      " to regret at all —",
+      1
+     ],
+     [
+      " face",
+      3
+     ],
+     [
+      " forward",
+      2
+     ],
+     [
+      ",",
+      1
+     ],
+     [
+      " yeah",
+      4
+     ]
+    ]
+   }
+  },
+  "165.13": {
+   "en": "it won't end — for a lifetime, we march on living, yeah-yeah",
+   "align": {
+    "jp": [
+     [
+      "終わらないさ",
+      0
+     ],
+     [
+      " 一生",
+      1
+     ],
+     [
+      "僕らは",
+      2
+     ],
+     [
+      "生きて征け",
+      3
+     ],
+     [
+      " yeah-yeah",
+      4
+     ]
+    ],
+    "gloss": [
+     [
+      "終わらない",
+      0,
+      "won't end"
+     ],
+     [
+      "さ",
+      0,
+      "(emph)"
+     ],
+     [
+      " 一生",
+      1,
+      "a lifetime"
+     ],
+     [
+      "僕ら",
+      2,
+      "we"
+     ],
+     [
+      "は",
+      2,
+      "(topic)"
+     ],
+     [
+      "生きて征け",
+      3,
+      "march on living"
+     ],
+     [
+      " yeah-yeah",
+      4,
+      "yeah-yeah"
+     ]
+    ],
+    "en": [
+     [
+      "it won't end —",
+      0
+     ],
+     [
+      " for a lifetime",
+      1
+     ],
+     [
+      ", we",
+      2
+     ],
+     [
+      " march on living",
+      3
+     ],
+     [
+      ",",
+      0
+     ],
+     [
+      " yeah-yeah",
+      4
+     ]
+    ]
+   }
+  }
+ }
+}
