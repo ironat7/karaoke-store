@@ -1,0 +1,3488 @@
+{
+  "1884251": {
+    "1.19": {
+      "en": "Ah, a toast again today to this wonderful world",
+      "align": {
+        "jp": [
+          [
+            "あぁ",
+            0
+          ],
+          [
+            "素晴らしき世界に",
+            1
+          ],
+          [
+            "今日も",
+            2
+          ],
+          [
+            "乾杯",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "あぁ",
+            0,
+            "ah"
+          ],
+          [
+            "素晴らしき",
+            1,
+            "wonderful"
+          ],
+          [
+            "世界",
+            1,
+            "world"
+          ],
+          [
+            "に",
+            1,
+            "to"
+          ],
+          [
+            "今日",
+            2,
+            "today"
+          ],
+          [
+            "も",
+            2,
+            "also"
+          ],
+          [
+            "乾杯",
+            3,
+            "cheers/toast"
+          ]
+        ],
+        "en": [
+          [
+            "Ah,",
+            0
+          ],
+          [
+            "a toast",
+            3
+          ],
+          [
+            "again today",
+            2
+          ],
+          [
+            "to this wonderful world",
+            1
+          ]
+        ]
+      }
+    },
+    "4.74": {
+      "en": "The laughing voices flying around the streets too",
+      "align": {
+        "jp": [
+          [
+            "街に",
+            0
+          ],
+          [
+            "飛び交う",
+            1
+          ],
+          [
+            "笑い声",
+            2
+          ],
+          [
+            "も",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "街",
+            0,
+            "street/town"
+          ],
+          [
+            "に",
+            0,
+            "in"
+          ],
+          [
+            "飛び交う",
+            1,
+            "fly about"
+          ],
+          [
+            "笑い声",
+            2,
+            "laughing voices"
+          ],
+          [
+            "も",
+            3,
+            "also/too"
+          ]
+        ],
+        "en": [
+          [
+            "The laughing voices",
+            2
+          ],
+          [
+            "flying around",
+            1
+          ],
+          [
+            "the streets",
+            0
+          ],
+          [
+            "too",
+            3
+          ]
+        ]
+      }
+    },
+    "7.39": {
+      "en": "are just fakes that merely pretend not to see",
+      "align": {
+        "jp": [
+          [
+            "見て見ぬフリしてる",
+            0
+          ],
+          [
+            "だけの",
+            1
+          ],
+          [
+            "作りもん",
+            2
+          ],
+          [
+            "さ",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "見て見ぬフリしてる",
+            0,
+            "pretending not to see"
+          ],
+          [
+            "だけ",
+            1,
+            "only/merely"
+          ],
+          [
+            "の",
+            1,
+            "(rel)"
+          ],
+          [
+            "作りもん",
+            2,
+            "fake/fabrication"
+          ],
+          [
+            "さ",
+            3,
+            "(emph)"
+          ]
+        ],
+        "en": [
+          [
+            "are just",
+            1
+          ],
+          [
+            "fakes",
+            2
+          ],
+          [
+            "that merely pretend not to see",
+            0
+          ],
+          [
+            "",
+            3
+          ]
+        ]
+      }
+    },
+    "11.82": {
+      "en": "I feel like I'm going crazy",
+      "align": {
+        "jp": [
+          [
+            "気が",
+            0
+          ],
+          [
+            "触れ",
+            1
+          ],
+          [
+            "そうだ",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "気",
+            0,
+            "mind"
+          ],
+          [
+            "が",
+            0,
+            "(subj)"
+          ],
+          [
+            "触れ",
+            1,
+            "snap/go mad"
+          ],
+          [
+            "そうだ",
+            2,
+            "seems like"
+          ]
+        ],
+        "en": [
+          [
+            "I feel like",
+            2
+          ],
+          [
+            "I'm going crazy",
+            1
+          ],
+          [
+            "",
+            0
+          ]
+        ]
+      }
+    },
+    "13.24": {
+      "en": "A scent so good it makes me dizzy",
+      "align": {
+        "jp": [
+          [
+            "クラクラするほどの",
+            0
+          ],
+          [
+            "良い",
+            1
+          ],
+          [
+            "匂い",
+            2
+          ],
+          [
+            "が",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "クラクラする",
+            0,
+            "feel dizzy"
+          ],
+          [
+            "ほど",
+            0,
+            "to the extent"
+          ],
+          [
+            "の",
+            0,
+            "(rel)"
+          ],
+          [
+            "良い",
+            1,
+            "good"
+          ],
+          [
+            "匂い",
+            2,
+            "scent/smell"
+          ],
+          [
+            "が",
+            3,
+            "(subj)"
+          ]
+        ],
+        "en": [
+          [
+            "A",
+            3
+          ],
+          [
+            "scent",
+            2
+          ],
+          [
+            "so good",
+            1
+          ],
+          [
+            "it makes me dizzy",
+            0
+          ]
+        ]
+      }
+    },
+    "15.88": {
+      "en": "sharply pierced the back of my nose",
+      "align": {
+        "jp": [
+          [
+            "ツンと",
+            0
+          ],
+          [
+            "刺した",
+            1
+          ],
+          [
+            "鼻の奥",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "ツンと",
+            0,
+            "sharply/pungently"
+          ],
+          [
+            "刺した",
+            1,
+            "pierced (past)"
+          ],
+          [
+            "鼻",
+            2,
+            "nose"
+          ],
+          [
+            "の",
+            2,
+            "(poss)"
+          ],
+          [
+            "奥",
+            2,
+            "depths/back"
+          ]
+        ],
+        "en": [
+          [
+            "sharply",
+            0
+          ],
+          [
+            "pierced",
+            1
+          ],
+          [
+            "the back of my nose",
+            2
+          ]
+        ]
+      }
+    },
+    "18.25": {
+      "en": "Just as my instincts awaken",
+      "align": {
+        "jp": [
+          [
+            "目を覚ます",
+            0
+          ],
+          [
+            "本能の",
+            1
+          ],
+          [
+            "まま",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "目",
+            0,
+            "eyes"
+          ],
+          [
+            "を",
+            0,
+            "(obj)"
+          ],
+          [
+            "覚ます",
+            0,
+            "awaken"
+          ],
+          [
+            "本能",
+            1,
+            "instinct"
+          ],
+          [
+            "の",
+            1,
+            "(poss)"
+          ],
+          [
+            "まま",
+            2,
+            "just as / in the state of"
+          ]
+        ],
+        "en": [
+          [
+            "Just as",
+            2
+          ],
+          [
+            "my instincts",
+            1
+          ],
+          [
+            "awaken",
+            0
+          ]
+        ]
+      }
+    },
+    "20.13": {
+      "en": "whose turn is it today?",
+      "align": {
+        "jp": [
+          [
+            "今日は",
+            0
+          ],
+          [
+            "誰の",
+            1
+          ],
+          [
+            "番",
+            2
+          ],
+          [
+            "だ？",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "今日",
+            0,
+            "today"
+          ],
+          [
+            "は",
+            0,
+            "(topic)"
+          ],
+          [
+            "誰",
+            1,
+            "who"
+          ],
+          [
+            "の",
+            1,
+            "(poss)"
+          ],
+          [
+            "番",
+            2,
+            "turn"
+          ],
+          [
+            "だ",
+            3,
+            "is"
+          ],
+          [
+            "？",
+            3,
+            "?"
+          ]
+        ],
+        "en": [
+          [
+            "today",
+            0
+          ],
+          [
+            "whose",
+            1
+          ],
+          [
+            "turn",
+            2
+          ],
+          [
+            "is it",
+            3
+          ]
+        ]
+      }
+    },
+    "23.03": {
+      "en": "What can be done in this world,",
+      "align": {
+        "jp": [
+          [
+            "この世界で",
+            0
+          ],
+          [
+            "何が",
+            1
+          ],
+          [
+            "出来るのか",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "この",
+            0,
+            "this"
+          ],
+          [
+            "世界",
+            0,
+            "world"
+          ],
+          [
+            "で",
+            0,
+            "in"
+          ],
+          [
+            "何",
+            1,
+            "what"
+          ],
+          [
+            "が",
+            1,
+            "(subj)"
+          ],
+          [
+            "出来る",
+            2,
+            "can do"
+          ],
+          [
+            "のか",
+            2,
+            "(question)"
+          ]
+        ],
+        "en": [
+          [
+            "What",
+            1
+          ],
+          [
+            "can be done",
+            2
+          ],
+          [
+            "in this world,",
+            0
+          ]
+        ]
+      }
+    },
+    "26.88": {
+      "en": "what can I do?",
+      "align": {
+        "jp": [
+          [
+            "僕には",
+            0
+          ],
+          [
+            "何が",
+            1
+          ],
+          [
+            "出来るのか",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "僕",
+            0,
+            "I/me"
+          ],
+          [
+            "に",
+            0,
+            "for"
+          ],
+          [
+            "は",
+            0,
+            "(topic)"
+          ],
+          [
+            "何",
+            1,
+            "what"
+          ],
+          [
+            "が",
+            1,
+            "(subj)"
+          ],
+          [
+            "出来る",
+            2,
+            "can do"
+          ],
+          [
+            "のか",
+            2,
+            "(question)"
+          ]
+        ],
+        "en": [
+          [
+            "what",
+            1
+          ],
+          [
+            "can",
+            2
+          ],
+          [
+            "I",
+            0
+          ],
+          [
+            "do?",
+            2
+          ]
+        ]
+      }
+    },
+    "29.85": {
+      "en": "Just so that tears don't spill over from those pitch-black eyes",
+      "align": {
+        "jp": [
+          [
+            "ただ",
+            0
+          ],
+          [
+            "その",
+            1
+          ],
+          [
+            "真っ黒な目",
+            2
+          ],
+          [
+            "から",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "ただ",
+            0,
+            "just/merely"
+          ],
+          [
+            "その",
+            1,
+            "those"
+          ],
+          [
+            "真っ黒な",
+            2,
+            "pitch-black"
+          ],
+          [
+            "目",
+            2,
+            "eyes"
+          ],
+          [
+            "から",
+            3,
+            "from"
+          ]
+        ],
+        "en": [
+          [
+            "Just",
+            0
+          ],
+          [
+            "from",
+            3
+          ],
+          [
+            "those",
+            1
+          ],
+          [
+            "pitch-black eyes",
+            2
+          ]
+        ]
+      }
+    },
+    "32.55": {
+      "en": "so tears won't spill over",
+      "align": {
+        "jp": [
+          [
+            "涙",
+            0
+          ],
+          [
+            "溢れ落ちない",
+            1
+          ],
+          [
+            "ように",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "涙",
+            0,
+            "tears"
+          ],
+          [
+            "溢れ落ちない",
+            1,
+            "don't overflow and fall"
+          ],
+          [
+            "ように",
+            2,
+            "so that"
+          ]
+        ],
+        "en": [
+          [
+            "so",
+            2
+          ],
+          [
+            "tears",
+            0
+          ],
+          [
+            "won't spill over",
+            1
+          ]
+        ]
+      }
+    },
+    "35.57": {
+      "en": "Ah, toward the future I wish for, again and again, forever",
+      "align": {
+        "jp": [
+          [
+            "あぁ",
+            0
+          ],
+          [
+            "願う",
+            1
+          ],
+          [
+            "未来に",
+            2
+          ],
+          [
+            "何度でも",
+            3
+          ],
+          [
+            "ずっと",
+            4
+          ]
+        ],
+        "gloss": [
+          [
+            "あぁ",
+            0,
+            "ah"
+          ],
+          [
+            "願う",
+            1,
+            "wish for"
+          ],
+          [
+            "未来",
+            2,
+            "future"
+          ],
+          [
+            "に",
+            2,
+            "toward"
+          ],
+          [
+            "何度でも",
+            3,
+            "any number of times"
+          ],
+          [
+            "ずっと",
+            4,
+            "forever/continuously"
+          ]
+        ],
+        "en": [
+          [
+            "Ah,",
+            0
+          ],
+          [
+            "toward the future",
+            2
+          ],
+          [
+            "I wish for,",
+            1
+          ],
+          [
+            "again and again,",
+            3
+          ],
+          [
+            "forever",
+            4
+          ]
+        ]
+      }
+    },
+    "38.82": {
+      "en": "I'll bite in and cling",
+      "align": {
+        "jp": [
+          [
+            "喰らいつく",
+            0
+          ]
+        ],
+        "gloss": [
+          [
+            "喰らいつく",
+            0,
+            "bite into/cling to"
+          ]
+        ],
+        "en": [
+          [
+            "I'll bite in and cling",
+            0
+          ]
+        ]
+      }
+    },
+    "39.91": {
+      "en": "Inside this world full of mistakes",
+      "align": {
+        "jp": [
+          [
+            "この",
+            0
+          ],
+          [
+            "間違いだらけの",
+            1
+          ],
+          [
+            "世界の",
+            2
+          ],
+          [
+            "中",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "この",
+            0,
+            "this"
+          ],
+          [
+            "間違い",
+            1,
+            "mistakes"
+          ],
+          [
+            "だらけ",
+            1,
+            "full of"
+          ],
+          [
+            "の",
+            1,
+            "(rel)"
+          ],
+          [
+            "世界",
+            2,
+            "world"
+          ],
+          [
+            "の",
+            2,
+            "(poss)"
+          ],
+          [
+            "中",
+            3,
+            "inside"
+          ]
+        ],
+        "en": [
+          [
+            "Inside",
+            3
+          ],
+          [
+            "this",
+            0
+          ],
+          [
+            "world",
+            2
+          ],
+          [
+            "full of mistakes",
+            1
+          ]
+        ]
+      }
+    },
+    "44.11": {
+      "en": "because I want you to be able to smile",
+      "align": {
+        "jp": [
+          [
+            "君には",
+            0
+          ],
+          [
+            "笑って",
+            1
+          ],
+          [
+            "ほしい",
+            2
+          ],
+          [
+            "から",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "君",
+            0,
+            "you"
+          ],
+          [
+            "に",
+            0,
+            "for"
+          ],
+          [
+            "は",
+            0,
+            "(topic)"
+          ],
+          [
+            "笑って",
+            1,
+            "smile (te-form)"
+          ],
+          [
+            "ほしい",
+            2,
+            "want (someone to)"
+          ],
+          [
+            "から",
+            3,
+            "because"
+          ]
+        ],
+        "en": [
+          [
+            "because",
+            3
+          ],
+          [
+            "I want",
+            2
+          ],
+          [
+            "you",
+            0
+          ],
+          [
+            "to be able to smile",
+            1
+          ]
+        ]
+      }
+    },
+    "47.34": {
+      "en": "so that no one gets hurt anymore",
+      "align": {
+        "jp": [
+          [
+            "もう",
+            0
+          ],
+          [
+            "誰も",
+            1
+          ],
+          [
+            "傷付けない",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "もう",
+            0,
+            "anymore/already"
+          ],
+          [
+            "誰",
+            1,
+            "anyone"
+          ],
+          [
+            "も",
+            1,
+            "(even)"
+          ],
+          [
+            "傷付けない",
+            2,
+            "won't hurt"
+          ]
+        ],
+        "en": [
+          [
+            "so that",
+            2
+          ],
+          [
+            "no one",
+            1
+          ],
+          [
+            "gets hurt",
+            2
+          ],
+          [
+            "anymore",
+            0
+          ]
+        ]
+      }
+    },
+    "49.46": {
+      "en": "I want to become strong, so strong",
+      "align": {
+        "jp": [
+          [
+            "強く強く",
+            0
+          ],
+          [
+            "なりたい",
+            1
+          ],
+          [
+            "んだよ",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "強く強く",
+            0,
+            "strong, strong"
+          ],
+          [
+            "なりたい",
+            1,
+            "want to become"
+          ],
+          [
+            "んだよ",
+            2,
+            "(emph explanation)"
+          ]
+        ],
+        "en": [
+          [
+            "I want to become",
+            1
+          ],
+          [
+            "strong, so strong",
+            0
+          ],
+          [
+            "",
+            2
+          ]
+        ]
+      }
+    },
+    "52.12": {
+      "en": "so that I can keep being myself",
+      "align": {
+        "jp": [
+          [
+            "僕が",
+            0
+          ],
+          [
+            "僕で",
+            1
+          ],
+          [
+            "いられる",
+            2
+          ],
+          [
+            "ように",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "僕",
+            0,
+            "I"
+          ],
+          [
+            "が",
+            0,
+            "(subj)"
+          ],
+          [
+            "僕",
+            1,
+            "me/myself"
+          ],
+          [
+            "で",
+            1,
+            "as"
+          ],
+          [
+            "いられる",
+            2,
+            "can remain (potential)"
+          ],
+          [
+            "ように",
+            3,
+            "so that"
+          ]
+        ],
+        "en": [
+          [
+            "so that",
+            3
+          ],
+          [
+            "I",
+            0
+          ],
+          [
+            "can keep being",
+            2
+          ],
+          [
+            "myself",
+            1
+          ]
+        ]
+      }
+    },
+    "63.82": {
+      "en": "The wonderful world is peaceful again today",
+      "align": {
+        "jp": [
+          [
+            "素晴らしき世界は",
+            0
+          ],
+          [
+            "今日も",
+            1
+          ],
+          [
+            "安泰",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "素晴らしき",
+            0,
+            "wonderful"
+          ],
+          [
+            "世界",
+            0,
+            "world"
+          ],
+          [
+            "は",
+            0,
+            "(topic)"
+          ],
+          [
+            "今日",
+            1,
+            "today"
+          ],
+          [
+            "も",
+            1,
+            "also"
+          ],
+          [
+            "安泰",
+            2,
+            "peaceful/secure"
+          ]
+        ],
+        "en": [
+          [
+            "The wonderful world",
+            0
+          ],
+          [
+            "is peaceful",
+            2
+          ],
+          [
+            "again today",
+            1
+          ]
+        ]
+      }
+    },
+    "66.83": {
+      "en": "The nasty rumors swirling around the streets too",
+      "align": {
+        "jp": [
+          [
+            "街に",
+            0
+          ],
+          [
+            "渦巻く",
+            1
+          ],
+          [
+            "悪い話",
+            2
+          ],
+          [
+            "も",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "街",
+            0,
+            "street/town"
+          ],
+          [
+            "に",
+            0,
+            "in"
+          ],
+          [
+            "渦巻く",
+            1,
+            "swirl"
+          ],
+          [
+            "悪い",
+            2,
+            "bad/nasty"
+          ],
+          [
+            "話",
+            2,
+            "talk/rumor"
+          ],
+          [
+            "も",
+            3,
+            "also/too"
+          ]
+        ],
+        "en": [
+          [
+            "The nasty rumors",
+            2
+          ],
+          [
+            "swirling",
+            1
+          ],
+          [
+            "around the streets",
+            0
+          ],
+          [
+            "too",
+            3
+          ]
+        ]
+      }
+    },
+    "69.61": {
+      "en": "I looked away, pretending I didn't know, didn't know",
+      "align": {
+        "jp": [
+          [
+            "知らない知らないフリして",
+            0
+          ],
+          [
+            "目を",
+            1
+          ],
+          [
+            "逸らした",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "知らない知らない",
+            0,
+            "don't know, don't know"
+          ],
+          [
+            "フリして",
+            0,
+            "pretending"
+          ],
+          [
+            "目",
+            1,
+            "eyes"
+          ],
+          [
+            "を",
+            1,
+            "(obj)"
+          ],
+          [
+            "逸らした",
+            2,
+            "averted (past)"
+          ]
+        ],
+        "en": [
+          [
+            "I looked away,",
+            2
+          ],
+          [
+            "",
+            1
+          ],
+          [
+            "pretending I didn't know, didn't know",
+            0
+          ]
+        ]
+      }
+    },
+    "73.77": {
+      "en": "This isn't sane behavior at all",
+      "align": {
+        "jp": [
+          [
+            "正気の沙汰",
+            0
+          ],
+          [
+            "じゃないな",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "正気",
+            0,
+            "sanity"
+          ],
+          [
+            "の",
+            0,
+            "(poss)"
+          ],
+          [
+            "沙汰",
+            0,
+            "affair/behavior"
+          ],
+          [
+            "じゃない",
+            1,
+            "isn't"
+          ],
+          [
+            "な",
+            1,
+            "(emph)"
+          ]
+        ],
+        "en": [
+          [
+            "This",
+            0
+          ],
+          [
+            "isn't sane behavior",
+            0
+          ],
+          [
+            "at all",
+            1
+          ]
+        ]
+      }
+    },
+    "75.92": {
+      "en": "A march earnestly dressed up",
+      "align": {
+        "jp": [
+          [
+            "真面目に",
+            0
+          ],
+          [
+            "着飾った",
+            1
+          ],
+          [
+            "行進",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "真面目に",
+            0,
+            "earnestly/seriously"
+          ],
+          [
+            "着飾った",
+            1,
+            "dressed up (past)"
+          ],
+          [
+            "行進",
+            2,
+            "march/procession"
+          ]
+        ],
+        "en": [
+          [
+            "A march",
+            2
+          ],
+          [
+            "earnestly",
+            0
+          ],
+          [
+            "dressed up",
+            1
+          ]
+        ]
+      }
+    },
+    "78.13": {
+      "en": "the destination where the bouncing footsteps they ring out lead",
+      "align": {
+        "jp": [
+          [
+            "鳴らす",
+            0
+          ],
+          [
+            "足音が",
+            1
+          ],
+          [
+            "弾む",
+            2
+          ],
+          [
+            "行き先は",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "鳴らす",
+            0,
+            "ring out/sound"
+          ],
+          [
+            "足音",
+            1,
+            "footsteps"
+          ],
+          [
+            "が",
+            1,
+            "(subj)"
+          ],
+          [
+            "弾む",
+            2,
+            "bounce/be lively"
+          ],
+          [
+            "行き先",
+            3,
+            "destination"
+          ],
+          [
+            "は",
+            3,
+            "(topic)"
+          ]
+        ],
+        "en": [
+          [
+            "the destination",
+            3
+          ],
+          [
+            "where",
+            3
+          ],
+          [
+            "the bouncing",
+            2
+          ],
+          [
+            "footsteps",
+            1
+          ],
+          [
+            "they ring out",
+            0
+          ],
+          [
+            "lead",
+            3
+          ]
+        ]
+      }
+    },
+    "81.03": {
+      "en": "is soaked with a flavor that won't disappear, won't disappear",
+      "align": {
+        "jp": [
+          [
+            "消えない消えない",
+            0
+          ],
+          [
+            "味が",
+            1
+          ],
+          [
+            "染み付いている",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "消えない消えない",
+            0,
+            "won't disappear, won't disappear"
+          ],
+          [
+            "味",
+            1,
+            "flavor/taste"
+          ],
+          [
+            "が",
+            1,
+            "(subj)"
+          ],
+          [
+            "染み付いている",
+            2,
+            "is soaked in/ingrained"
+          ]
+        ],
+        "en": [
+          [
+            "is soaked with",
+            2
+          ],
+          [
+            "a flavor",
+            1
+          ],
+          [
+            "that won't disappear, won't disappear",
+            0
+          ]
+        ]
+      }
+    },
+    "85.18": {
+      "en": "the world on the flip side",
+      "align": {
+        "jp": [
+          [
+            "裏側の",
+            0
+          ],
+          [
+            "世界",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "裏側",
+            0,
+            "the flip side/other side"
+          ],
+          [
+            "の",
+            0,
+            "(poss)"
+          ],
+          [
+            "世界",
+            1,
+            "world"
+          ]
+        ],
+        "en": [
+          [
+            "the world",
+            1
+          ],
+          [
+            "on the flip side",
+            0
+          ]
+        ]
+      }
+    },
+    "98.05": {
+      "en": "To live purely and rightly,",
+      "align": {
+        "jp": [
+          [
+            "清く正しく",
+            0
+          ],
+          [
+            "生きる",
+            1
+          ],
+          [
+            "こと",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "清く",
+            0,
+            "purely"
+          ],
+          [
+            "正しく",
+            0,
+            "rightly/correctly"
+          ],
+          [
+            "生きる",
+            1,
+            "live"
+          ],
+          [
+            "こと",
+            2,
+            "(nominalizer)"
+          ]
+        ],
+        "en": [
+          [
+            "To",
+            2
+          ],
+          [
+            "live",
+            1
+          ],
+          [
+            "purely and rightly,",
+            0
+          ]
+        ]
+      }
+    },
+    "100.49": {
+      "en": "to live without making anyone sad,",
+      "align": {
+        "jp": [
+          [
+            "誰も",
+            0
+          ],
+          [
+            "悲しませずに",
+            1
+          ],
+          [
+            "生きる",
+            2
+          ],
+          [
+            "こと",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "誰",
+            0,
+            "anyone"
+          ],
+          [
+            "も",
+            0,
+            "(even)"
+          ],
+          [
+            "悲しませず",
+            1,
+            "without saddening"
+          ],
+          [
+            "に",
+            1,
+            "(adv)"
+          ],
+          [
+            "生きる",
+            2,
+            "live"
+          ],
+          [
+            "こと",
+            3,
+            "(nominalizer)"
+          ]
+        ],
+        "en": [
+          [
+            "to",
+            3
+          ],
+          [
+            "live",
+            2
+          ],
+          [
+            "without making",
+            1
+          ],
+          [
+            "anyone",
+            0
+          ],
+          [
+            "sad,",
+            1
+          ]
+        ]
+      }
+    },
+    "103.04": {
+      "en": "to live straight without sticking out,",
+      "align": {
+        "jp": [
+          [
+            "はみ出さず",
+            0
+          ],
+          [
+            "真っ直ぐに",
+            1
+          ],
+          [
+            "生きる",
+            2
+          ],
+          [
+            "こと",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "はみ出さず",
+            0,
+            "without sticking out"
+          ],
+          [
+            "真っ直ぐに",
+            1,
+            "straight"
+          ],
+          [
+            "生きる",
+            2,
+            "live"
+          ],
+          [
+            "こと",
+            3,
+            "(nominalizer)"
+          ]
+        ],
+        "en": [
+          [
+            "to",
+            3
+          ],
+          [
+            "live",
+            2
+          ],
+          [
+            "straight",
+            1
+          ],
+          [
+            "without sticking out,",
+            0
+          ]
+        ]
+      }
+    },
+    "105.99": {
+      "en": "is that what it means to live without mistakes?",
+      "align": {
+        "jp": [
+          [
+            "それが",
+            0
+          ],
+          [
+            "間違わないで",
+            1
+          ],
+          [
+            "生きる",
+            2
+          ],
+          [
+            "こと？",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "それ",
+            0,
+            "that"
+          ],
+          [
+            "が",
+            0,
+            "(subj)"
+          ],
+          [
+            "間違わないで",
+            1,
+            "without making mistakes"
+          ],
+          [
+            "生きる",
+            2,
+            "live"
+          ],
+          [
+            "こと",
+            3,
+            "(nominalizer)"
+          ],
+          [
+            "？",
+            3,
+            "?"
+          ]
+        ],
+        "en": [
+          [
+            "is",
+            0
+          ],
+          [
+            "that",
+            0
+          ],
+          [
+            "what it means to",
+            3
+          ],
+          [
+            "live",
+            2
+          ],
+          [
+            "without mistakes?",
+            1
+          ]
+        ]
+      }
+    },
+    "108.87": {
+      "en": "Is living as you are justice?",
+      "align": {
+        "jp": [
+          [
+            "ありのまま",
+            0
+          ],
+          [
+            "生きる",
+            1
+          ],
+          [
+            "ことが",
+            2
+          ],
+          [
+            "正義か",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "ありのまま",
+            0,
+            "as one is"
+          ],
+          [
+            "生きる",
+            1,
+            "live"
+          ],
+          [
+            "こと",
+            2,
+            "(nominalizer)"
+          ],
+          [
+            "が",
+            2,
+            "(subj)"
+          ],
+          [
+            "正義",
+            3,
+            "justice"
+          ],
+          [
+            "か",
+            3,
+            "(question)"
+          ]
+        ],
+        "en": [
+          [
+            "Is",
+            3
+          ],
+          [
+            "living",
+            1
+          ],
+          [
+            "as you are",
+            0
+          ],
+          [
+            "",
+            2
+          ],
+          [
+            "justice?",
+            3
+          ]
+        ]
+      }
+    },
+    "111.58": {
+      "en": "Is muddling through with deception justice?",
+      "align": {
+        "jp": [
+          [
+            "騙し騙し",
+            0
+          ],
+          [
+            "生きる",
+            1
+          ],
+          [
+            "のは",
+            2
+          ],
+          [
+            "正義か",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "騙し騙し",
+            0,
+            "deceiving (continuously)"
+          ],
+          [
+            "生きる",
+            1,
+            "live"
+          ],
+          [
+            "の",
+            2,
+            "(nominalizer)"
+          ],
+          [
+            "は",
+            2,
+            "(topic)"
+          ],
+          [
+            "正義",
+            3,
+            "justice"
+          ],
+          [
+            "か",
+            3,
+            "(question)"
+          ]
+        ],
+        "en": [
+          [
+            "Is",
+            3
+          ],
+          [
+            "muddling through",
+            1
+          ],
+          [
+            "with deception",
+            0
+          ],
+          [
+            "",
+            2
+          ],
+          [
+            "justice?",
+            3
+          ]
+        ]
+      }
+    },
+    "114.48": {
+      "en": "What is the form I ought to have?",
+      "align": {
+        "jp": [
+          [
+            "僕の",
+            0
+          ],
+          [
+            "在るべき",
+            1
+          ],
+          [
+            "姿とは",
+            2
+          ],
+          [
+            "なんだ",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "僕",
+            0,
+            "I/me"
+          ],
+          [
+            "の",
+            0,
+            "(poss)"
+          ],
+          [
+            "在るべき",
+            1,
+            "ought to be"
+          ],
+          [
+            "姿",
+            2,
+            "form/figure"
+          ],
+          [
+            "と",
+            2,
+            "(quote)"
+          ],
+          [
+            "は",
+            2,
+            "(topic)"
+          ],
+          [
+            "なんだ",
+            3,
+            "what is it"
+          ]
+        ],
+        "en": [
+          [
+            "What is",
+            3
+          ],
+          [
+            "the",
+            2
+          ],
+          [
+            "form",
+            2
+          ],
+          [
+            "I",
+            0
+          ],
+          [
+            "ought to have?",
+            1
+          ]
+        ]
+      }
+    },
+    "117.20": {
+      "en": "Who is the real me?",
+      "align": {
+        "jp": [
+          [
+            "本当の",
+            0
+          ],
+          [
+            "僕は",
+            1
+          ],
+          [
+            "何者",
+            2
+          ],
+          [
+            "なんだ",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "本当",
+            0,
+            "real/true"
+          ],
+          [
+            "の",
+            0,
+            "(poss)"
+          ],
+          [
+            "僕",
+            1,
+            "I/me"
+          ],
+          [
+            "は",
+            1,
+            "(topic)"
+          ],
+          [
+            "何者",
+            2,
+            "who/what kind of person"
+          ],
+          [
+            "なんだ",
+            3,
+            "is it"
+          ]
+        ],
+        "en": [
+          [
+            "Who",
+            2
+          ],
+          [
+            "is",
+            3
+          ],
+          [
+            "the real",
+            0
+          ],
+          [
+            "me?",
+            1
+          ]
+        ]
+      }
+    },
+    "119.83": {
+      "en": "Tell me, please",
+      "align": {
+        "jp": [
+          [
+            "教えて",
+            0
+          ],
+          [
+            "くれよ",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "教えて",
+            0,
+            "tell (te-form)"
+          ],
+          [
+            "くれ",
+            1,
+            "(give to me)"
+          ],
+          [
+            "よ",
+            1,
+            "(emph)"
+          ]
+        ],
+        "en": [
+          [
+            "Tell",
+            0
+          ],
+          [
+            "me, please",
+            1
+          ]
+        ]
+      }
+    },
+    "125.47": {
+      "en": "Tell me, please",
+      "align": {
+        "jp": [
+          [
+            "教えて",
+            0
+          ],
+          [
+            "くれよ",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "教えて",
+            0,
+            "tell (te-form)"
+          ],
+          [
+            "くれ",
+            1,
+            "(give to me)"
+          ],
+          [
+            "よ",
+            1,
+            "(emph)"
+          ]
+        ],
+        "en": [
+          [
+            "Tell",
+            0
+          ],
+          [
+            "me, please",
+            1
+          ]
+        ]
+      }
+    },
+    "131.16": {
+      "en": "Today too",
+      "align": {
+        "jp": [
+          [
+            "今日",
+            0
+          ],
+          [
+            "も",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "今日",
+            0,
+            "today"
+          ],
+          [
+            "も",
+            1,
+            "also/too"
+          ]
+        ],
+        "en": [
+          [
+            "Today",
+            0
+          ],
+          [
+            "too",
+            1
+          ]
+        ]
+      }
+    },
+    "131.96": {
+      "en": "inside a world with no answers",
+      "align": {
+        "jp": [
+          [
+            "答えのない",
+            0
+          ],
+          [
+            "世界の",
+            1
+          ],
+          [
+            "中で",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "答え",
+            0,
+            "answer"
+          ],
+          [
+            "の",
+            0,
+            "(subj-in-rel)"
+          ],
+          [
+            "ない",
+            0,
+            "not exist"
+          ],
+          [
+            "世界",
+            1,
+            "world"
+          ],
+          [
+            "の",
+            1,
+            "(poss)"
+          ],
+          [
+            "中",
+            2,
+            "inside"
+          ],
+          [
+            "で",
+            2,
+            "in"
+          ]
+        ],
+        "en": [
+          [
+            "inside",
+            2
+          ],
+          [
+            "a world",
+            1
+          ],
+          [
+            "with no answers",
+            0
+          ]
+        ]
+      }
+    },
+    "134.81": {
+      "en": "I'm wishing",
+      "align": {
+        "jp": [
+          [
+            "願ってる",
+            0
+          ],
+          [
+            "んだよ",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "願ってる",
+            0,
+            "am wishing"
+          ],
+          [
+            "んだよ",
+            1,
+            "(emph explanation)"
+          ]
+        ],
+        "en": [
+          [
+            "I'm wishing",
+            0
+          ],
+          [
+            "",
+            1
+          ]
+        ]
+      }
+    },
+    "136.44": {
+      "en": "Though I'm clumsy",
+      "align": {
+        "jp": [
+          [
+            "不器用",
+            0
+          ],
+          [
+            "だけれど",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "不器用",
+            0,
+            "clumsy/awkward"
+          ],
+          [
+            "だけれど",
+            1,
+            "though/but"
+          ]
+        ],
+        "en": [
+          [
+            "Though",
+            1
+          ],
+          [
+            "I'm clumsy",
+            0
+          ]
+        ]
+      }
+    },
+    "138.12": {
+      "en": "because I just want, forever, with you,",
+      "align": {
+        "jp": [
+          [
+            "いつまでも",
+            0
+          ],
+          [
+            "君と",
+            1
+          ],
+          [
+            "ただ",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "いつまでも",
+            0,
+            "forever/always"
+          ],
+          [
+            "君",
+            1,
+            "you"
+          ],
+          [
+            "と",
+            1,
+            "with"
+          ],
+          [
+            "ただ",
+            2,
+            "just/merely"
+          ]
+        ],
+        "en": [
+          [
+            "because I",
+            2
+          ],
+          [
+            "just",
+            2
+          ],
+          [
+            "want,",
+            2
+          ],
+          [
+            "forever,",
+            0
+          ],
+          [
+            "with you,",
+            1
+          ]
+        ]
+      }
+    },
+    "141.37": {
+      "en": "to keep laughing",
+      "align": {
+        "jp": [
+          [
+            "笑っていたい",
+            0
+          ],
+          [
+            "から",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "笑っていたい",
+            0,
+            "want to keep laughing"
+          ],
+          [
+            "から",
+            1,
+            "because"
+          ]
+        ],
+        "en": [
+          [
+            "to keep laughing",
+            0
+          ],
+          [
+            "",
+            1
+          ]
+        ]
+      }
+    },
+    "143.11": {
+      "en": "Ah, my leaping heart",
+      "align": {
+        "jp": [
+          [
+            "あぁ",
+            0
+          ],
+          [
+            "跳ねる",
+            1
+          ],
+          [
+            "心臓が",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "あぁ",
+            0,
+            "ah"
+          ],
+          [
+            "跳ねる",
+            1,
+            "leap/pound"
+          ],
+          [
+            "心臓",
+            2,
+            "heart"
+          ],
+          [
+            "が",
+            2,
+            "(subj)"
+          ]
+        ],
+        "en": [
+          [
+            "Ah,",
+            0
+          ],
+          [
+            "my",
+            2
+          ],
+          [
+            "leaping",
+            1
+          ],
+          [
+            "heart",
+            2
+          ]
+        ]
+      }
+    },
+    "145.45": {
+      "en": "shakes my body and screams",
+      "align": {
+        "jp": [
+          [
+            "体",
+            0
+          ],
+          [
+            "揺らし",
+            1
+          ],
+          [
+            "叫ぶ",
+            2
+          ],
+          [
+            "んだよ",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "体",
+            0,
+            "body"
+          ],
+          [
+            "揺らし",
+            1,
+            "shakes"
+          ],
+          [
+            "叫ぶ",
+            2,
+            "screams"
+          ],
+          [
+            "んだよ",
+            3,
+            "(emph explanation)"
+          ]
+        ],
+        "en": [
+          [
+            "shakes",
+            1
+          ],
+          [
+            "my body",
+            0
+          ],
+          [
+            "and screams",
+            2
+          ],
+          [
+            "",
+            3
+          ]
+        ]
+      }
+    },
+    "148.19": {
+      "en": "Now's the time to start moving!",
+      "align": {
+        "jp": [
+          [
+            "今こそ",
+            0
+          ],
+          [
+            "動き出せ",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "今",
+            0,
+            "now"
+          ],
+          [
+            "こそ",
+            0,
+            "(emph: exactly/the very)"
+          ],
+          [
+            "動き出せ",
+            1,
+            "start moving! (imperative)"
+          ]
+        ],
+        "en": [
+          [
+            "Now's the time",
+            0
+          ],
+          [
+            "to start moving!",
+            1
+          ]
+        ]
+      }
+    },
+    "151.13": {
+      "en": "Ah, my weak self, again and again, forever",
+      "align": {
+        "jp": [
+          [
+            "あぁ",
+            0
+          ],
+          [
+            "弱い",
+            1
+          ],
+          [
+            "自分を",
+            2
+          ],
+          [
+            "何度でも",
+            3
+          ],
+          [
+            "ずっと",
+            4
+          ]
+        ],
+        "gloss": [
+          [
+            "あぁ",
+            0,
+            "ah"
+          ],
+          [
+            "弱い",
+            1,
+            "weak"
+          ],
+          [
+            "自分",
+            2,
+            "self"
+          ],
+          [
+            "を",
+            2,
+            "(obj)"
+          ],
+          [
+            "何度でも",
+            3,
+            "any number of times"
+          ],
+          [
+            "ずっと",
+            4,
+            "forever/continuously"
+          ]
+        ],
+        "en": [
+          [
+            "Ah,",
+            0
+          ],
+          [
+            "my",
+            2
+          ],
+          [
+            "weak",
+            1
+          ],
+          [
+            "self,",
+            2
+          ],
+          [
+            "again and again,",
+            3
+          ],
+          [
+            "forever",
+            4
+          ]
+        ]
+      }
+    },
+    "154.49": {
+      "en": "I'll devour completely",
+      "align": {
+        "jp": [
+          [
+            "喰らい尽くす",
+            0
+          ]
+        ],
+        "gloss": [
+          [
+            "喰らい尽くす",
+            0,
+            "devour completely"
+          ]
+        ],
+        "en": [
+          [
+            "I'll devour completely",
+            0
+          ]
+        ]
+      }
+    },
+    "155.55": {
+      "en": "Inside this world full of mistakes",
+      "align": {
+        "jp": [
+          [
+            "この",
+            0
+          ],
+          [
+            "間違いだらけの",
+            1
+          ],
+          [
+            "世界の",
+            2
+          ],
+          [
+            "中",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "この",
+            0,
+            "this"
+          ],
+          [
+            "間違い",
+            1,
+            "mistakes"
+          ],
+          [
+            "だらけ",
+            1,
+            "full of"
+          ],
+          [
+            "の",
+            1,
+            "(rel)"
+          ],
+          [
+            "世界",
+            2,
+            "world"
+          ],
+          [
+            "の",
+            2,
+            "(poss)"
+          ],
+          [
+            "中",
+            3,
+            "inside"
+          ]
+        ],
+        "en": [
+          [
+            "Inside",
+            3
+          ],
+          [
+            "this",
+            0
+          ],
+          [
+            "world",
+            2
+          ],
+          [
+            "full of mistakes",
+            1
+          ]
+        ]
+      }
+    },
+    "159.86": {
+      "en": "because I want you to be able to smile",
+      "align": {
+        "jp": [
+          [
+            "君には",
+            0
+          ],
+          [
+            "笑って",
+            1
+          ],
+          [
+            "ほしい",
+            2
+          ],
+          [
+            "から",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "君",
+            0,
+            "you"
+          ],
+          [
+            "に",
+            0,
+            "for"
+          ],
+          [
+            "は",
+            0,
+            "(topic)"
+          ],
+          [
+            "笑って",
+            1,
+            "smile (te-form)"
+          ],
+          [
+            "ほしい",
+            2,
+            "want (someone to)"
+          ],
+          [
+            "から",
+            3,
+            "because"
+          ]
+        ],
+        "en": [
+          [
+            "because",
+            3
+          ],
+          [
+            "I want",
+            2
+          ],
+          [
+            "you",
+            0
+          ],
+          [
+            "to be able to smile",
+            1
+          ]
+        ]
+      }
+    },
+    "163.01": {
+      "en": "so that no one cries anymore",
+      "align": {
+        "jp": [
+          [
+            "もう",
+            0
+          ],
+          [
+            "誰も",
+            1
+          ],
+          [
+            "泣かない",
+            2
+          ],
+          [
+            "よう",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "もう",
+            0,
+            "anymore/already"
+          ],
+          [
+            "誰",
+            1,
+            "anyone"
+          ],
+          [
+            "も",
+            1,
+            "(even)"
+          ],
+          [
+            "泣かない",
+            2,
+            "won't cry"
+          ],
+          [
+            "よう",
+            3,
+            "so that"
+          ]
+        ],
+        "en": [
+          [
+            "so that",
+            3
+          ],
+          [
+            "no one",
+            1
+          ],
+          [
+            "cries",
+            2
+          ],
+          [
+            "anymore",
+            0
+          ]
+        ]
+      }
+    },
+    "165.38": {
+      "en": "I want to become strong, so strong",
+      "align": {
+        "jp": [
+          [
+            "強く強く",
+            0
+          ],
+          [
+            "なりたい",
+            1
+          ],
+          [
+            "んだよ",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "強く強く",
+            0,
+            "strong, strong"
+          ],
+          [
+            "なりたい",
+            1,
+            "want to become"
+          ],
+          [
+            "んだよ",
+            2,
+            "(emph explanation)"
+          ]
+        ],
+        "en": [
+          [
+            "I want to become",
+            1
+          ],
+          [
+            "strong, so strong",
+            0
+          ],
+          [
+            "",
+            2
+          ]
+        ]
+      }
+    },
+    "167.97": {
+      "en": "so that I can keep being myself",
+      "align": {
+        "jp": [
+          [
+            "僕が",
+            0
+          ],
+          [
+            "僕で",
+            1
+          ],
+          [
+            "いられる",
+            2
+          ],
+          [
+            "ように",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "僕",
+            0,
+            "I"
+          ],
+          [
+            "が",
+            0,
+            "(subj)"
+          ],
+          [
+            "僕",
+            1,
+            "me/myself"
+          ],
+          [
+            "で",
+            1,
+            "as"
+          ],
+          [
+            "いられる",
+            2,
+            "can remain (potential)"
+          ],
+          [
+            "ように",
+            3,
+            "so that"
+          ]
+        ],
+        "en": [
+          [
+            "so that",
+            3
+          ],
+          [
+            "I",
+            0
+          ],
+          [
+            "can keep being",
+            2
+          ],
+          [
+            "myself",
+            1
+          ]
+        ]
+      }
+    },
+    "182.19": {
+      "en": "Just in order to protect you",
+      "align": {
+        "jp": [
+          [
+            "ただ",
+            0
+          ],
+          [
+            "君を",
+            1
+          ],
+          [
+            "守る",
+            2
+          ],
+          [
+            "その",
+            3
+          ],
+          [
+            "ために",
+            4
+          ]
+        ],
+        "gloss": [
+          [
+            "ただ",
+            0,
+            "just/only"
+          ],
+          [
+            "君",
+            1,
+            "you"
+          ],
+          [
+            "を",
+            1,
+            "(obj)"
+          ],
+          [
+            "守る",
+            2,
+            "protect"
+          ],
+          [
+            "その",
+            3,
+            "that"
+          ],
+          [
+            "ために",
+            4,
+            "in order to"
+          ]
+        ],
+        "en": [
+          [
+            "Just",
+            0
+          ],
+          [
+            "in order to",
+            4
+          ],
+          [
+            "",
+            3
+          ],
+          [
+            "protect",
+            2
+          ],
+          [
+            "you",
+            1
+          ]
+        ]
+      }
+    },
+    "185.11": {
+      "en": "I run, run, run",
+      "align": {
+        "jp": [
+          [
+            "走る走る走る",
+            0
+          ],
+          [
+            "んだよ",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "走る走る走る",
+            0,
+            "run, run, run"
+          ],
+          [
+            "んだよ",
+            1,
+            "(emph explanation)"
+          ]
+        ],
+        "en": [
+          [
+            "I run, run, run",
+            0
+          ],
+          [
+            "",
+            1
+          ]
+        ]
+      }
+    },
+    "187.60": {
+      "en": "surpassing the me within myself",
+      "align": {
+        "jp": [
+          [
+            "僕の",
+            0
+          ],
+          [
+            "中の",
+            1
+          ],
+          [
+            "僕を",
+            2
+          ],
+          [
+            "超える",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "僕",
+            0,
+            "myself"
+          ],
+          [
+            "の",
+            0,
+            "(poss)"
+          ],
+          [
+            "中",
+            1,
+            "inside"
+          ],
+          [
+            "の",
+            1,
+            "(poss)"
+          ],
+          [
+            "僕",
+            2,
+            "me"
+          ],
+          [
+            "を",
+            2,
+            "(obj)"
+          ],
+          [
+            "超える",
+            3,
+            "surpass"
+          ]
+        ],
+        "en": [
+          [
+            "surpassing",
+            3
+          ],
+          [
+            "the me",
+            2
+          ],
+          [
+            "within",
+            1
+          ],
+          [
+            "myself",
+            0
+          ]
+        ]
+      }
+    }
+  }
+}
