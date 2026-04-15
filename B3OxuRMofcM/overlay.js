@@ -50,7 +50,7 @@
   window.__plainLyrics     = window.__plainLyrics     || {};
   window.__lyricOffsets    = window.__lyricOffsets    || {};
   window.__wordAlign = window.__wordAlign || {
-    colors: ['#CF3B4F','#B28540','#2A1820','#8A3196','#D478A1','#6B8E3E'],
+    colors: ['#FF4B8C','#FFC55C','#6AD9E8','#C58BFF','#FF9FB5','#9CE37D'],
     data: {}
   };
   if (typeof window.__karaokeCollapsed      !== 'boolean') window.__karaokeCollapsed      = false;
