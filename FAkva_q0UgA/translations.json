@@ -1,0 +1,2376 @@
+{
+  "3829082": {
+    "0.06": {
+      "en": "To you, yes my love to you"
+    },
+    "6.85": {
+      "en": "Yes my love to you, you to you"
+    },
+    "61.21": {
+      "en": "Stay with me..."
+    },
+    "79.03": {
+      "en": "Stay with me..."
+    },
+    "143.84": {
+      "en": "Stay with me..."
+    },
+    "162.48": {
+      "en": "Stay with me..."
+    },
+    "201.82": {
+      "en": "Stay with me..."
+    },
+    "219.54": {
+      "en": "Stay with me..."
+    },
+    "237.58": {
+      "en": "Stay with me..."
+    },
+    "255.28": {
+      "en": "Stay with me..."
+    },
+    "273.11": {
+      "en": "Stay with me..."
+    },
+    "290.78": {
+      "en": "Stay with me..."
+    },
+    "22.93": {
+      "en": "\"I'm me, you're you\" —",
+      "align": {
+        "jp": [
+          [
+            "私は",
+            0
+          ],
+          [
+            "私",
+            1
+          ],
+          [
+            " 貴方は",
+            2
+          ],
+          [
+            "貴方と",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "私",
+            0,
+            "I"
+          ],
+          [
+            "は",
+            0,
+            "(topic)"
+          ],
+          [
+            "私",
+            1,
+            "me"
+          ],
+          [
+            " 貴方",
+            2,
+            "you"
+          ],
+          [
+            "は",
+            2,
+            "(topic)"
+          ],
+          [
+            "貴方",
+            3,
+            "you"
+          ],
+          [
+            "と",
+            3,
+            "(quote)"
+          ]
+        ],
+        "en": [
+          [
+            "\"I'm ",
+            0
+          ],
+          [
+            "me, ",
+            1
+          ],
+          [
+            "you're ",
+            2
+          ],
+          [
+            "you\" —",
+            3
+          ]
+        ]
+      }
+    },
+    "31.95": {
+      "en": "he was saying last night — or so I feel",
+      "align": {
+        "jp": [
+          [
+            "昨夜",
+            0
+          ],
+          [
+            " 言ってた",
+            1
+          ],
+          [
+            " そんな",
+            2
+          ],
+          [
+            " 気もするわ",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "昨夜",
+            0,
+            "last night"
+          ],
+          [
+            " 言ってた",
+            1,
+            "was saying"
+          ],
+          [
+            " そんな",
+            2,
+            "such"
+          ],
+          [
+            " 気",
+            3,
+            "feeling"
+          ],
+          [
+            "も",
+            3,
+            "also"
+          ],
+          [
+            "する",
+            3,
+            "have"
+          ],
+          [
+            "わ",
+            3,
+            "(!)"
+          ]
+        ],
+        "en": [
+          [
+            "last night",
+            0
+          ],
+          [
+            " he was saying",
+            1
+          ],
+          [
+            " — that kind of",
+            2
+          ],
+          [
+            " feeling I have too",
+            3
+          ]
+        ]
+      }
+    },
+    "39.65": {
+      "en": "on the grey jacket,",
+      "align": {
+        "jp": [
+          [
+            "グレイの",
+            0
+          ],
+          [
+            "ジャケットに",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "グレイ",
+            0,
+            "grey"
+          ],
+          [
+            "の",
+            0,
+            "(of)"
+          ],
+          [
+            "ジャケット",
+            1,
+            "jacket"
+          ],
+          [
+            "に",
+            1,
+            "on"
+          ]
+        ],
+        "en": [
+          [
+            "on the grey",
+            0
+          ],
+          [
+            " jacket,",
+            1
+          ]
+        ]
+      }
+    },
+    "44.2": {
+      "en": "— a coffee stain I recognize",
+      "align": {
+        "jp": [
+          [
+            "見覚えがある",
+            0
+          ],
+          [
+            " コーヒーの",
+            1
+          ],
+          [
+            "しみ",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "見覚え",
+            0,
+            "recognition"
+          ],
+          [
+            "が",
+            0,
+            "(subj)"
+          ],
+          [
+            "ある",
+            0,
+            "exists"
+          ],
+          [
+            " コーヒー",
+            1,
+            "coffee"
+          ],
+          [
+            "の",
+            1,
+            "'s"
+          ],
+          [
+            "しみ",
+            2,
+            "stain"
+          ]
+        ],
+        "en": [
+          [
+            "— I recognize it:",
+            0
+          ],
+          [
+            " a coffee",
+            1
+          ],
+          [
+            " stain",
+            2
+          ]
+        ]
+      }
+    },
+    "50.26": {
+      "en": "you're the same as ever, huh",
+      "align": {
+        "jp": [
+          [
+            "相変らず",
+            0
+          ],
+          [
+            "なのね",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "相変らず",
+            0,
+            "as ever"
+          ],
+          [
+            "なのね",
+            1,
+            "(you're), huh"
+          ]
+        ],
+        "en": [
+          [
+            "the same as ever,",
+            0
+          ],
+          [
+            " huh",
+            1
+          ]
+        ]
+      }
+    },
+    "53.37": {
+      "en": "if the two of us are reflected in the show window",
+      "align": {
+        "jp": [
+          [
+            "ショーウィンドウに",
+            0
+          ],
+          [
+            " 二人",
+            1
+          ],
+          [
+            " 映れば",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "ショーウィンドウ",
+            0,
+            "show window"
+          ],
+          [
+            "に",
+            0,
+            "in"
+          ],
+          [
+            " 二人",
+            1,
+            "two of us"
+          ],
+          [
+            " 映れ",
+            2,
+            "reflect"
+          ],
+          [
+            "ば",
+            2,
+            "if"
+          ]
+        ],
+        "en": [
+          [
+            "in the show window",
+            0
+          ],
+          [
+            " if the two of us",
+            1
+          ],
+          [
+            " are reflected",
+            2
+          ]
+        ]
+      }
+    },
+    "63.68": {
+      "en": "I knocked on the midnight door",
+      "align": {
+        "jp": [
+          [
+            "真夜中の",
+            0
+          ],
+          [
+            "ドアを",
+            1
+          ],
+          [
+            " たたき",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "真夜中",
+            0,
+            "midnight"
+          ],
+          [
+            "の",
+            0,
+            "'s"
+          ],
+          [
+            "ドア",
+            1,
+            "door"
+          ],
+          [
+            "を",
+            1,
+            "(obj)"
+          ],
+          [
+            " たたき",
+            2,
+            "knocked"
+          ]
+        ],
+        "en": [
+          [
+            "I knocked on",
+            2
+          ],
+          [
+            " the midnight",
+            0
+          ],
+          [
+            " door",
+            1
+          ]
+        ]
+      }
+    },
+    "68.26": {
+      "en": "\"don't leave me,\" I cried",
+      "align": {
+        "jp": [
+          [
+            "帰らないで",
+            0
+          ],
+          [
+            "と",
+            1
+          ],
+          [
+            " 泣いた",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "帰らないで",
+            0,
+            "don't leave"
+          ],
+          [
+            "と",
+            1,
+            "(quote)"
+          ],
+          [
+            " 泣いた",
+            2,
+            "cried"
+          ]
+        ],
+        "en": [
+          [
+            "\"don't leave me,\"",
+            0
+          ],
+          [
+            "",
+            1
+          ],
+          [
+            " I cried",
+            2
+          ]
+        ]
+      }
+    },
+    "74.61": {
+      "en": "that season is now right before my eyes",
+      "align": {
+        "jp": [
+          [
+            "あの季節が",
+            0
+          ],
+          [
+            " 今",
+            1
+          ],
+          [
+            " 目の前",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "あの",
+            0,
+            "that"
+          ],
+          [
+            "季節",
+            0,
+            "season"
+          ],
+          [
+            "が",
+            0,
+            "(subj)"
+          ],
+          [
+            " 今",
+            1,
+            "now"
+          ],
+          [
+            " 目",
+            2,
+            "eyes"
+          ],
+          [
+            "の",
+            2,
+            "'s"
+          ],
+          [
+            "前",
+            2,
+            "front"
+          ]
+        ],
+        "en": [
+          [
+            "that season is",
+            0
+          ],
+          [
+            " now",
+            1
+          ],
+          [
+            " right before my eyes",
+            2
+          ]
+        ]
+      }
+    },
+    "81.71": {
+      "en": "while saying my usual catchphrase",
+      "align": {
+        "jp": [
+          [
+            "口ぐせを",
+            0
+          ],
+          [
+            " 言いながら",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "口ぐせ",
+            0,
+            "catchphrase"
+          ],
+          [
+            "を",
+            0,
+            "(obj)"
+          ],
+          [
+            " 言い",
+            1,
+            "saying"
+          ],
+          [
+            "ながら",
+            1,
+            "while"
+          ]
+        ],
+        "en": [
+          [
+            "my usual catchphrase",
+            0
+          ],
+          [
+            " while saying",
+            1
+          ]
+        ]
+      }
+    },
+    "86.07": {
+      "en": "holding the moments of the two of us",
+      "align": {
+        "jp": [
+          [
+            "二人の",
+            0
+          ],
+          [
+            " 瞬間を",
+            1
+          ],
+          [
+            " 抱いて",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "二人",
+            0,
+            "two of us"
+          ],
+          [
+            "の",
+            0,
+            "'s"
+          ],
+          [
+            " 瞬間",
+            1,
+            "moment"
+          ],
+          [
+            "を",
+            1,
+            "(obj)"
+          ],
+          [
+            " 抱いて",
+            2,
+            "holding"
+          ]
+        ],
+        "en": [
+          [
+            "holding",
+            2
+          ],
+          [
+            " the moments",
+            1
+          ],
+          [
+            " of the two of us",
+            0
+          ]
+        ]
+      }
+    },
+    "92.39": {
+      "en": "still unforgotten, I was cherishing it",
+      "align": {
+        "jp": [
+          [
+            "まだ",
+            0
+          ],
+          [
+            " 忘れず",
+            1
+          ],
+          [
+            " 大事にしていた",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "まだ",
+            0,
+            "still"
+          ],
+          [
+            " 忘れ",
+            1,
+            "forget"
+          ],
+          [
+            "ず",
+            1,
+            "without"
+          ],
+          [
+            " 大事に",
+            2,
+            "preciously"
+          ],
+          [
+            "して",
+            2,
+            "doing"
+          ],
+          [
+            "いた",
+            2,
+            "was"
+          ]
+        ],
+        "en": [
+          [
+            "still",
+            0
+          ],
+          [
+            " without forgetting,",
+            1
+          ],
+          [
+            " I was cherishing it",
+            2
+          ]
+        ]
+      }
+    },
+    "106.49": {
+      "en": "\"infatuation and love are different things\" —",
+      "align": {
+        "jp": [
+          [
+            "恋と",
+            0
+          ],
+          [
+            "愛とは",
+            1
+          ],
+          [
+            " 違う",
+            2
+          ],
+          [
+            " ものだよと",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "恋",
+            0,
+            "infatuation"
+          ],
+          [
+            "と",
+            0,
+            "and"
+          ],
+          [
+            "愛",
+            1,
+            "love"
+          ],
+          [
+            "と",
+            1,
+            "(and)"
+          ],
+          [
+            "は",
+            1,
+            "(topic)"
+          ],
+          [
+            " 違う",
+            2,
+            "different"
+          ],
+          [
+            " もの",
+            3,
+            "things"
+          ],
+          [
+            "だ",
+            3,
+            "are"
+          ],
+          [
+            "よ",
+            3,
+            "(!)"
+          ],
+          [
+            "と",
+            3,
+            "(quote)"
+          ]
+        ],
+        "en": [
+          [
+            "\"infatuation",
+            0
+          ],
+          [
+            " and love",
+            1
+          ],
+          [
+            " are different",
+            2
+          ],
+          [
+            " things\" —",
+            3
+          ]
+        ]
+      }
+    },
+    "115.29": {
+      "en": "I was told last night — or so I feel",
+      "align": {
+        "jp": [
+          [
+            "昨夜",
+            0
+          ],
+          [
+            " 言われた",
+            1
+          ],
+          [
+            " そんな",
+            2
+          ],
+          [
+            " 気もするわ",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "昨夜",
+            0,
+            "last night"
+          ],
+          [
+            " 言われた",
+            1,
+            "was told"
+          ],
+          [
+            " そんな",
+            2,
+            "such"
+          ],
+          [
+            " 気",
+            3,
+            "feeling"
+          ],
+          [
+            "も",
+            3,
+            "also"
+          ],
+          [
+            "する",
+            3,
+            "have"
+          ],
+          [
+            "わ",
+            3,
+            "(!)"
+          ]
+        ],
+        "en": [
+          [
+            "last night",
+            0
+          ],
+          [
+            " I was told",
+            1
+          ],
+          [
+            " — that kind of",
+            2
+          ],
+          [
+            " feeling I have too",
+            3
+          ]
+        ]
+      }
+    },
+    "123.42": {
+      "en": "a second winter came, and",
+      "align": {
+        "jp": [
+          [
+            "二度目の",
+            0
+          ],
+          [
+            " 冬が",
+            1
+          ],
+          [
+            " 来て",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "二度目",
+            0,
+            "second time"
+          ],
+          [
+            "の",
+            0,
+            "'s"
+          ],
+          [
+            " 冬",
+            1,
+            "winter"
+          ],
+          [
+            "が",
+            1,
+            "(subj)"
+          ],
+          [
+            " 来て",
+            2,
+            "came, and"
+          ]
+        ],
+        "en": [
+          [
+            "a second",
+            0
+          ],
+          [
+            " winter",
+            1
+          ],
+          [
+            " came, and",
+            2
+          ]
+        ]
+      }
+    },
+    "128.23": {
+      "en": "your heart that drifted away —",
+      "align": {
+        "jp": [
+          [
+            "離れていった",
+            0
+          ],
+          [
+            " 貴方の",
+            1
+          ],
+          [
+            "心",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "離れて",
+            0,
+            "apart"
+          ],
+          [
+            "いった",
+            0,
+            "went"
+          ],
+          [
+            " 貴方",
+            1,
+            "you"
+          ],
+          [
+            "の",
+            1,
+            "'s"
+          ],
+          [
+            "心",
+            2,
+            "heart"
+          ]
+        ],
+        "en": [
+          [
+            "your",
+            1
+          ],
+          [
+            " heart",
+            2
+          ],
+          [
+            " that drifted away —",
+            0
+          ]
+        ]
+      }
+    },
+    "133.38": {
+      "en": "whenever I look back,",
+      "align": {
+        "jp": [
+          [
+            "ふり返れば",
+            0
+          ],
+          [
+            "いつも",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "ふり返れ",
+            0,
+            "look back"
+          ],
+          [
+            "ば",
+            0,
+            "if"
+          ],
+          [
+            "いつも",
+            1,
+            "always"
+          ]
+        ],
+        "en": [
+          [
+            "if I look back",
+            0
+          ],
+          [
+            " always,",
+            1
+          ]
+        ]
+      }
+    },
+    "137.05": {
+      "en": "I was feeling you there",
+      "align": {
+        "jp": [
+          [
+            "そこに",
+            0
+          ],
+          [
+            " 貴方を",
+            1
+          ],
+          [
+            " 感じていたの",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "そこ",
+            0,
+            "there"
+          ],
+          [
+            "に",
+            0,
+            "at"
+          ],
+          [
+            " 貴方",
+            1,
+            "you"
+          ],
+          [
+            "を",
+            1,
+            "(obj)"
+          ],
+          [
+            " 感じて",
+            2,
+            "feeling"
+          ],
+          [
+            "いた",
+            2,
+            "was"
+          ],
+          [
+            "の",
+            2,
+            "(!)"
+          ]
+        ],
+        "en": [
+          [
+            "I was feeling",
+            2
+          ],
+          [
+            " you",
+            1
+          ],
+          [
+            " there",
+            0
+          ]
+        ]
+      }
+    },
+    "146.91": {
+      "en": "I knocked on the midnight door",
+      "align": {
+        "jp": [
+          [
+            "真夜中の",
+            0
+          ],
+          [
+            "ドアを",
+            1
+          ],
+          [
+            " たたき",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "真夜中",
+            0,
+            "midnight"
+          ],
+          [
+            "の",
+            0,
+            "'s"
+          ],
+          [
+            "ドア",
+            1,
+            "door"
+          ],
+          [
+            "を",
+            1,
+            "(obj)"
+          ],
+          [
+            " たたき",
+            2,
+            "knocked"
+          ]
+        ],
+        "en": [
+          [
+            "I knocked on",
+            2
+          ],
+          [
+            " the midnight",
+            0
+          ],
+          [
+            " door",
+            1
+          ]
+        ]
+      }
+    },
+    "151.49": {
+      "en": "a hole opened in my heart",
+      "align": {
+        "jp": [
+          [
+            "心に",
+            0
+          ],
+          [
+            " 穴が",
+            1
+          ],
+          [
+            " あいた",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "心",
+            0,
+            "heart"
+          ],
+          [
+            "に",
+            0,
+            "in"
+          ],
+          [
+            " 穴",
+            1,
+            "hole"
+          ],
+          [
+            "が",
+            1,
+            "(subj)"
+          ],
+          [
+            " あいた",
+            2,
+            "opened"
+          ]
+        ],
+        "en": [
+          [
+            "in my heart",
+            0
+          ],
+          [
+            " a hole",
+            1
+          ],
+          [
+            " opened",
+            2
+          ]
+        ]
+      }
+    },
+    "157.72": {
+      "en": "that season is now right before my eyes",
+      "align": {
+        "jp": [
+          [
+            "あの季節が",
+            0
+          ],
+          [
+            " 今",
+            1
+          ],
+          [
+            " 目の前",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "あの",
+            0,
+            "that"
+          ],
+          [
+            "季節",
+            0,
+            "season"
+          ],
+          [
+            "が",
+            0,
+            "(subj)"
+          ],
+          [
+            " 今",
+            1,
+            "now"
+          ],
+          [
+            " 目",
+            2,
+            "eyes"
+          ],
+          [
+            "の",
+            2,
+            "'s"
+          ],
+          [
+            "前",
+            2,
+            "front"
+          ]
+        ],
+        "en": [
+          [
+            "that season is",
+            0
+          ],
+          [
+            " now",
+            1
+          ],
+          [
+            " right before my eyes",
+            2
+          ]
+        ]
+      }
+    },
+    "165.15": {
+      "en": "distracting from the loneliness,",
+      "align": {
+        "jp": [
+          [
+            "淋しさ",
+            0
+          ],
+          [
+            " まぎらわして",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "淋しさ",
+            0,
+            "loneliness"
+          ],
+          [
+            " まぎらわして",
+            1,
+            "distracting"
+          ]
+        ],
+        "en": [
+          [
+            "distracting from",
+            1
+          ],
+          [
+            " the loneliness,",
+            0
+          ]
+        ]
+      }
+    },
+    "169.22": {
+      "en": "the record needle I set down",
+      "align": {
+        "jp": [
+          [
+            "置いた",
+            0
+          ],
+          [
+            " レコードの",
+            1
+          ],
+          [
+            "針",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "置いた",
+            0,
+            "set down"
+          ],
+          [
+            " レコード",
+            1,
+            "record"
+          ],
+          [
+            "の",
+            1,
+            "'s"
+          ],
+          [
+            "針",
+            2,
+            "needle"
+          ]
+        ],
+        "en": [
+          [
+            "the record",
+            1
+          ],
+          [
+            " needle",
+            2
+          ],
+          [
+            " I set down",
+            0
+          ]
+        ]
+      }
+    },
+    "175.41": {
+      "en": "was repeating the same melody...",
+      "align": {
+        "jp": [
+          [
+            "同じ",
+            0
+          ],
+          [
+            " メロディ",
+            1
+          ],
+          [
+            " 繰り返していた...",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "同じ",
+            0,
+            "same"
+          ],
+          [
+            " メロディ",
+            1,
+            "melody"
+          ],
+          [
+            " 繰り返して",
+            2,
+            "repeating"
+          ],
+          [
+            "いた",
+            2,
+            "was"
+          ],
+          [
+            "...",
+            2,
+            "..."
+          ]
+        ],
+        "en": [
+          [
+            "was repeating",
+            2
+          ],
+          [
+            " the same",
+            0
+          ],
+          [
+            " melody...",
+            1
+          ]
+        ]
+      }
+    },
+    "204.39": {
+      "en": "I knocked on the midnight door",
+      "align": {
+        "jp": [
+          [
+            "真夜中の",
+            0
+          ],
+          [
+            "ドアを",
+            1
+          ],
+          [
+            " たたき",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "真夜中",
+            0,
+            "midnight"
+          ],
+          [
+            "の",
+            0,
+            "'s"
+          ],
+          [
+            "ドア",
+            1,
+            "door"
+          ],
+          [
+            "を",
+            1,
+            "(obj)"
+          ],
+          [
+            " たたき",
+            2,
+            "knocked"
+          ]
+        ],
+        "en": [
+          [
+            "I knocked on",
+            2
+          ],
+          [
+            " the midnight",
+            0
+          ],
+          [
+            " door",
+            1
+          ]
+        ]
+      }
+    },
+    "208.57": {
+      "en": "\"don't leave me,\" I cried",
+      "align": {
+        "jp": [
+          [
+            "帰らないで",
+            0
+          ],
+          [
+            "と",
+            1
+          ],
+          [
+            " 泣いた",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "帰らないで",
+            0,
+            "don't leave"
+          ],
+          [
+            "と",
+            1,
+            "(quote)"
+          ],
+          [
+            " 泣いた",
+            2,
+            "cried"
+          ]
+        ],
+        "en": [
+          [
+            "\"don't leave me,\"",
+            0
+          ],
+          [
+            "",
+            1
+          ],
+          [
+            " I cried",
+            2
+          ]
+        ]
+      }
+    },
+    "215.15": {
+      "en": "that season is now right before my eyes",
+      "align": {
+        "jp": [
+          [
+            "あの季節が",
+            0
+          ],
+          [
+            " 今",
+            1
+          ],
+          [
+            " 目の前",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "あの",
+            0,
+            "that"
+          ],
+          [
+            "季節",
+            0,
+            "season"
+          ],
+          [
+            "が",
+            0,
+            "(subj)"
+          ],
+          [
+            " 今",
+            1,
+            "now"
+          ],
+          [
+            " 目",
+            2,
+            "eyes"
+          ],
+          [
+            "の",
+            2,
+            "'s"
+          ],
+          [
+            "前",
+            2,
+            "front"
+          ]
+        ],
+        "en": [
+          [
+            "that season is",
+            0
+          ],
+          [
+            " now",
+            1
+          ],
+          [
+            " right before my eyes",
+            2
+          ]
+        ]
+      }
+    },
+    "222.41": {
+      "en": "while saying my usual catchphrase",
+      "align": {
+        "jp": [
+          [
+            "口ぐせを",
+            0
+          ],
+          [
+            " 言いながら",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "口ぐせ",
+            0,
+            "catchphrase"
+          ],
+          [
+            "を",
+            0,
+            "(obj)"
+          ],
+          [
+            " 言い",
+            1,
+            "saying"
+          ],
+          [
+            "ながら",
+            1,
+            "while"
+          ]
+        ],
+        "en": [
+          [
+            "my usual catchphrase",
+            0
+          ],
+          [
+            " while saying",
+            1
+          ]
+        ]
+      }
+    },
+    "226.85": {
+      "en": "holding the moments of the two of us",
+      "align": {
+        "jp": [
+          [
+            "二人の",
+            0
+          ],
+          [
+            " 瞬間を",
+            1
+          ],
+          [
+            " 抱いて",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "二人",
+            0,
+            "two of us"
+          ],
+          [
+            "の",
+            0,
+            "'s"
+          ],
+          [
+            " 瞬間",
+            1,
+            "moment"
+          ],
+          [
+            "を",
+            1,
+            "(obj)"
+          ],
+          [
+            " 抱いて",
+            2,
+            "holding"
+          ]
+        ],
+        "en": [
+          [
+            "holding",
+            2
+          ],
+          [
+            " the moments",
+            1
+          ],
+          [
+            " of the two of us",
+            0
+          ]
+        ]
+      }
+    },
+    "232.8": {
+      "en": "still unforgotten, I was keeping it warm",
+      "align": {
+        "jp": [
+          [
+            "まだ",
+            0
+          ],
+          [
+            " 忘れず",
+            1
+          ],
+          [
+            " 暖めてた",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "まだ",
+            0,
+            "still"
+          ],
+          [
+            " 忘れ",
+            1,
+            "forget"
+          ],
+          [
+            "ず",
+            1,
+            "without"
+          ],
+          [
+            " 暖めて",
+            2,
+            "warming"
+          ],
+          [
+            "た",
+            2,
+            "was"
+          ]
+        ],
+        "en": [
+          [
+            "still",
+            0
+          ],
+          [
+            " without forgetting,",
+            1
+          ],
+          [
+            " I was keeping it warm",
+            2
+          ]
+        ]
+      }
+    },
+    "240.26": {
+      "en": "I knocked on the midnight door",
+      "align": {
+        "jp": [
+          [
+            "真夜中の",
+            0
+          ],
+          [
+            "ドアを",
+            1
+          ],
+          [
+            " たたき",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "真夜中",
+            0,
+            "midnight"
+          ],
+          [
+            "の",
+            0,
+            "'s"
+          ],
+          [
+            "ドア",
+            1,
+            "door"
+          ],
+          [
+            "を",
+            1,
+            "(obj)"
+          ],
+          [
+            " たたき",
+            2,
+            "knocked"
+          ]
+        ],
+        "en": [
+          [
+            "I knocked on",
+            2
+          ],
+          [
+            " the midnight",
+            0
+          ],
+          [
+            " door",
+            1
+          ]
+        ]
+      }
+    },
+    "244.58": {
+      "en": "\"don't leave me,\" I cried",
+      "align": {
+        "jp": [
+          [
+            "帰らないで",
+            0
+          ],
+          [
+            "と",
+            1
+          ],
+          [
+            " 泣いた",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "帰らないで",
+            0,
+            "don't leave"
+          ],
+          [
+            "と",
+            1,
+            "(quote)"
+          ],
+          [
+            " 泣いた",
+            2,
+            "cried"
+          ]
+        ],
+        "en": [
+          [
+            "\"don't leave me,\"",
+            0
+          ],
+          [
+            "",
+            1
+          ],
+          [
+            " I cried",
+            2
+          ]
+        ]
+      }
+    },
+    "251.04": {
+      "en": "that season is now right before my eyes",
+      "align": {
+        "jp": [
+          [
+            "あの季節が",
+            0
+          ],
+          [
+            " 今",
+            1
+          ],
+          [
+            " 目の前",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "あの",
+            0,
+            "that"
+          ],
+          [
+            "季節",
+            0,
+            "season"
+          ],
+          [
+            "が",
+            0,
+            "(subj)"
+          ],
+          [
+            " 今",
+            1,
+            "now"
+          ],
+          [
+            " 目",
+            2,
+            "eyes"
+          ],
+          [
+            "の",
+            2,
+            "'s"
+          ],
+          [
+            "前",
+            2,
+            "front"
+          ]
+        ],
+        "en": [
+          [
+            "that season is",
+            0
+          ],
+          [
+            " now",
+            1
+          ],
+          [
+            " right before my eyes",
+            2
+          ]
+        ]
+      }
+    },
+    "258.03": {
+      "en": "while saying my usual catchphrase",
+      "align": {
+        "jp": [
+          [
+            "口ぐせを",
+            0
+          ],
+          [
+            " 言いながら",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "口ぐせ",
+            0,
+            "catchphrase"
+          ],
+          [
+            "を",
+            0,
+            "(obj)"
+          ],
+          [
+            " 言い",
+            1,
+            "saying"
+          ],
+          [
+            "ながら",
+            1,
+            "while"
+          ]
+        ],
+        "en": [
+          [
+            "my usual catchphrase",
+            0
+          ],
+          [
+            " while saying",
+            1
+          ]
+        ]
+      }
+    },
+    "262.35": {
+      "en": "holding the moments of the two of us",
+      "align": {
+        "jp": [
+          [
+            "二人の",
+            0
+          ],
+          [
+            " 瞬間を",
+            1
+          ],
+          [
+            " 抱いて",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "二人",
+            0,
+            "two of us"
+          ],
+          [
+            "の",
+            0,
+            "'s"
+          ],
+          [
+            " 瞬間",
+            1,
+            "moment"
+          ],
+          [
+            "を",
+            1,
+            "(obj)"
+          ],
+          [
+            " 抱いて",
+            2,
+            "holding"
+          ]
+        ],
+        "en": [
+          [
+            "holding",
+            2
+          ],
+          [
+            " the moments",
+            1
+          ],
+          [
+            " of the two of us",
+            0
+          ]
+        ]
+      }
+    },
+    "268.56": {
+      "en": "still unforgotten, I was keeping it warm",
+      "align": {
+        "jp": [
+          [
+            "まだ",
+            0
+          ],
+          [
+            " 忘れず",
+            1
+          ],
+          [
+            " 暖めてた",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "まだ",
+            0,
+            "still"
+          ],
+          [
+            " 忘れ",
+            1,
+            "forget"
+          ],
+          [
+            "ず",
+            1,
+            "without"
+          ],
+          [
+            " 暖めて",
+            2,
+            "warming"
+          ],
+          [
+            "た",
+            2,
+            "was"
+          ]
+        ],
+        "en": [
+          [
+            "still",
+            0
+          ],
+          [
+            " without forgetting,",
+            1
+          ],
+          [
+            " I was keeping it warm",
+            2
+          ]
+        ]
+      }
+    },
+    "275.75": {
+      "en": "I knocked on the midnight door",
+      "align": {
+        "jp": [
+          [
+            "真夜中の",
+            0
+          ],
+          [
+            "ドアを",
+            1
+          ],
+          [
+            " たたき",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "真夜中",
+            0,
+            "midnight"
+          ],
+          [
+            "の",
+            0,
+            "'s"
+          ],
+          [
+            "ドア",
+            1,
+            "door"
+          ],
+          [
+            "を",
+            1,
+            "(obj)"
+          ],
+          [
+            " たたき",
+            2,
+            "knocked"
+          ]
+        ],
+        "en": [
+          [
+            "I knocked on",
+            2
+          ],
+          [
+            " the midnight",
+            0
+          ],
+          [
+            " door",
+            1
+          ]
+        ]
+      }
+    },
+    "279.95": {
+      "en": "\"don't leave me,\" I cried",
+      "align": {
+        "jp": [
+          [
+            "帰らないで",
+            0
+          ],
+          [
+            "と",
+            1
+          ],
+          [
+            " 泣いた",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "帰らないで",
+            0,
+            "don't leave"
+          ],
+          [
+            "と",
+            1,
+            "(quote)"
+          ],
+          [
+            " 泣いた",
+            2,
+            "cried"
+          ]
+        ],
+        "en": [
+          [
+            "\"don't leave me,\"",
+            0
+          ],
+          [
+            "",
+            1
+          ],
+          [
+            " I cried",
+            2
+          ]
+        ]
+      }
+    },
+    "286.13": {
+      "en": "that season is now right before my eyes",
+      "align": {
+        "jp": [
+          [
+            "あの季節が",
+            0
+          ],
+          [
+            " 今",
+            1
+          ],
+          [
+            " 目の前",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "あの",
+            0,
+            "that"
+          ],
+          [
+            "季節",
+            0,
+            "season"
+          ],
+          [
+            "が",
+            0,
+            "(subj)"
+          ],
+          [
+            " 今",
+            1,
+            "now"
+          ],
+          [
+            " 目",
+            2,
+            "eyes"
+          ],
+          [
+            "の",
+            2,
+            "'s"
+          ],
+          [
+            "前",
+            2,
+            "front"
+          ]
+        ],
+        "en": [
+          [
+            "that season is",
+            0
+          ],
+          [
+            " now",
+            1
+          ],
+          [
+            " right before my eyes",
+            2
+          ]
+        ]
+      }
+    }
+  }
+}
