@@ -1,0 +1,2928 @@
+{
+  "17918744": {
+    "0.54": {
+      "en": "an ending that's only just begun, and prayers keep piling up",
+      "align": {
+        "jp": [
+          [
+            "はじまったばかりの",
+            0
+          ],
+          [
+            "おわり",
+            1
+          ],
+          [
+            " 重なっていく祈り",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "はじまった",
+            0,
+            "started"
+          ],
+          [
+            "ばかり",
+            0,
+            "just"
+          ],
+          [
+            "の",
+            0,
+            "(mod)"
+          ],
+          [
+            "おわり",
+            1,
+            "ending"
+          ],
+          [
+            " 重なって",
+            2,
+            "pile up"
+          ],
+          [
+            "いく",
+            2,
+            "keep"
+          ],
+          [
+            "祈り",
+            2,
+            "prayers"
+          ]
+        ],
+        "en": [
+          [
+            "an ending",
+            1
+          ],
+          [
+            " that's only just begun",
+            0
+          ],
+          [
+            ", and prayers keep piling up",
+            2
+          ]
+        ]
+      }
+    },
+    "5.18": {
+      "en": "this scent still drifting — is this maybe a dream?",
+      "align": {
+        "jp": [
+          [
+            "まだ漂ってる",
+            0
+          ],
+          [
+            " 香り",
+            1
+          ],
+          [
+            " 夢なのかな",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "まだ",
+            0,
+            "still"
+          ],
+          [
+            "漂って",
+            0,
+            "drift"
+          ],
+          [
+            "る",
+            0,
+            "(prog)"
+          ],
+          [
+            " 香り",
+            1,
+            "scent"
+          ],
+          [
+            " 夢",
+            2,
+            "dream"
+          ],
+          [
+            "な",
+            2,
+            "(cop)"
+          ],
+          [
+            "の",
+            2,
+            "(nom)"
+          ],
+          [
+            "か",
+            2,
+            "(?)"
+          ],
+          [
+            "な",
+            2,
+            "I wonder"
+          ]
+        ],
+        "en": [
+          [
+            "this scent",
+            1
+          ],
+          [
+            " still drifting",
+            0
+          ],
+          [
+            " — is this maybe a dream?",
+            2
+          ]
+        ]
+      }
+    },
+    "10.32": {
+      "en": "the tears I should have been able to shed have frozen solid — I can't melt them anymore",
+      "align": {
+        "jp": [
+          [
+            "固まってしまって",
+            0
+          ],
+          [
+            "もう溶かせない",
+            1
+          ],
+          [
+            " 流せてたはずの",
+            2
+          ],
+          [
+            "涙は",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "固まって",
+            0,
+            "harden"
+          ],
+          [
+            "しまって",
+            0,
+            "(alas)"
+          ],
+          [
+            "もう",
+            1,
+            "no more"
+          ],
+          [
+            "溶かせ",
+            1,
+            "can melt"
+          ],
+          [
+            "ない",
+            1,
+            "(neg)"
+          ],
+          [
+            " 流せ",
+            2,
+            "could flow"
+          ],
+          [
+            "てた",
+            2,
+            "(past-prog)"
+          ],
+          [
+            "はず",
+            2,
+            "should"
+          ],
+          [
+            "の",
+            2,
+            "(mod)"
+          ],
+          [
+            "涙",
+            3,
+            "tears"
+          ],
+          [
+            "は",
+            3,
+            "(topic)"
+          ]
+        ],
+        "en": [
+          [
+            "the tears",
+            3
+          ],
+          [
+            " I should have been able to shed",
+            2
+          ],
+          [
+            " have frozen solid",
+            0
+          ],
+          [
+            " — I can't melt them now",
+            1
+          ]
+        ]
+      }
+    },
+    "15.15": {
+      "en": "a thought peeks out — 'guess this is my limit' — I want to believe it isn't, but…",
+      "align": {
+        "jp": [
+          [
+            "やっぱ限界かもって",
+            0
+          ],
+          [
+            " 顔を出す",
+            1
+          ],
+          [
+            " そう信じたいけど",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "やっぱ",
+            0,
+            "after all"
+          ],
+          [
+            "限界",
+            0,
+            "limit"
+          ],
+          [
+            "かも",
+            0,
+            "maybe"
+          ],
+          [
+            "って",
+            0,
+            "(quote)"
+          ],
+          [
+            " 顔",
+            1,
+            "face"
+          ],
+          [
+            "を",
+            1,
+            "(obj)"
+          ],
+          [
+            "出す",
+            1,
+            "show"
+          ],
+          [
+            " そう",
+            2,
+            "so"
+          ],
+          [
+            "信じ",
+            2,
+            "believe"
+          ],
+          [
+            "たい",
+            2,
+            "want"
+          ],
+          [
+            "けど",
+            2,
+            "but"
+          ]
+        ],
+        "en": [
+          [
+            "a thought peeks out",
+            1
+          ],
+          [
+            " — 'guess this is my limit'",
+            0
+          ],
+          [
+            ", I want to believe it isn't, but…",
+            2
+          ]
+        ]
+      }
+    },
+    "20.66": {
+      "en": "there's nothing I can do anymore — it's all so heavy, isn't it?",
+      "align": {
+        "jp": [
+          [
+            "もう",
+            0
+          ],
+          [
+            "どうしようもなくて",
+            1
+          ],
+          [
+            " 重たいね",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "もう",
+            0,
+            "already"
+          ],
+          [
+            "どうしよう",
+            1,
+            "what to do"
+          ],
+          [
+            "も",
+            1,
+            "even"
+          ],
+          [
+            "なくて",
+            1,
+            "(neg-te)"
+          ],
+          [
+            " 重たい",
+            2,
+            "heavy"
+          ],
+          [
+            "ね",
+            2,
+            "right?"
+          ]
+        ],
+        "en": [
+          [
+            "there's nothing I can do",
+            1
+          ],
+          [
+            " anymore",
+            0
+          ],
+          [
+            " — it's all so heavy, isn't it?",
+            2
+          ]
+        ]
+      }
+    },
+    "25.41": {
+      "en": "who else am I supposed to fall for, if not you?",
+      "align": {
+        "jp": [
+          [
+            "きみ以外の",
+            0
+          ],
+          [
+            " 誰を",
+            1
+          ],
+          [
+            " 好きになればいい？",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "きみ",
+            0,
+            "you"
+          ],
+          [
+            "以外",
+            0,
+            "other than"
+          ],
+          [
+            "の",
+            0,
+            "(mod)"
+          ],
+          [
+            " 誰",
+            1,
+            "who"
+          ],
+          [
+            "を",
+            1,
+            "(obj)"
+          ],
+          [
+            " 好き",
+            2,
+            "like"
+          ],
+          [
+            "に",
+            2,
+            "(adv)"
+          ],
+          [
+            "なれば",
+            2,
+            "if become"
+          ],
+          [
+            "いい",
+            2,
+            "good"
+          ],
+          [
+            "？",
+            2,
+            "?"
+          ]
+        ],
+        "en": [
+          [
+            "who else",
+            1
+          ],
+          [
+            " am I supposed to fall for",
+            2
+          ],
+          [
+            ", if not you?",
+            0
+          ]
+        ]
+      }
+    },
+    "30.45": {
+      "en": "take this — bang bang bang!",
+      "align": {
+        "jp": [
+          [
+            "くらえ",
+            0
+          ],
+          [
+            " バンバンバン",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "くらえ",
+            0,
+            "take this"
+          ],
+          [
+            " バンバンバン",
+            1,
+            "bang bang bang"
+          ]
+        ],
+        "en": [
+          [
+            "take this",
+            0
+          ],
+          [
+            " — bang bang bang",
+            1
+          ]
+        ]
+      }
+    },
+    "32.25": {
+      "en": "cut it out — do you even get how much I've devoted to you?",
+      "align": {
+        "jp": [
+          [
+            "ふざけないで",
+            0
+          ],
+          [
+            " どんだけあたしが",
+            1
+          ],
+          [
+            " きみに尽くしてきたかって",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "ふざけ",
+            0,
+            "kid around"
+          ],
+          [
+            "ない",
+            0,
+            "(neg)"
+          ],
+          [
+            "で",
+            0,
+            "(cmd)"
+          ],
+          [
+            " どんだけ",
+            1,
+            "how much"
+          ],
+          [
+            "あたし",
+            1,
+            "I"
+          ],
+          [
+            "が",
+            1,
+            "(subj)"
+          ],
+          [
+            " きみ",
+            2,
+            "you"
+          ],
+          [
+            "に",
+            2,
+            "to"
+          ],
+          [
+            "尽くして",
+            2,
+            "devote"
+          ],
+          [
+            "きた",
+            2,
+            "have done"
+          ],
+          [
+            "か",
+            2,
+            "(?)"
+          ],
+          [
+            "って",
+            2,
+            "(like)"
+          ]
+        ],
+        "en": [
+          [
+            "cut it out",
+            0
+          ],
+          [
+            " — I've poured everything into you, huh?",
+            2
+          ],
+          [
+            " — how much?",
+            1
+          ]
+        ]
+      }
+    },
+    "36.53": {
+      "en": "you don't get it, you don't get it, and you don't even want to",
+      "align": {
+        "jp": [
+          [
+            "わかんないんでしょ",
+            0
+          ],
+          [
+            " わかんないんでしょ",
+            1
+          ],
+          [
+            " わかりたくもないんでしょ",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "わかん",
+            0,
+            "understand"
+          ],
+          [
+            "ない",
+            0,
+            "(neg)"
+          ],
+          [
+            "ん",
+            0,
+            "(nom)"
+          ],
+          [
+            "でしょ",
+            0,
+            "right?"
+          ],
+          [
+            " わかん",
+            1,
+            "understand"
+          ],
+          [
+            "ない",
+            1,
+            "(neg)"
+          ],
+          [
+            "ん",
+            1,
+            "(nom)"
+          ],
+          [
+            "でしょ",
+            1,
+            "right?"
+          ],
+          [
+            " わかり",
+            2,
+            "understand"
+          ],
+          [
+            "たく",
+            2,
+            "want to"
+          ],
+          [
+            "も",
+            2,
+            "even"
+          ],
+          [
+            "ない",
+            2,
+            "(neg)"
+          ],
+          [
+            "ん",
+            2,
+            "(nom)"
+          ],
+          [
+            "でしょ",
+            2,
+            "right?"
+          ]
+        ],
+        "en": [
+          [
+            "you don't get it",
+            0
+          ],
+          [
+            ", you don't get it",
+            1
+          ],
+          [
+            ", and you don't even want to",
+            2
+          ]
+        ]
+      }
+    },
+    "40.58": {
+      "en": "take this — bang bang bang!",
+      "align": {
+        "jp": [
+          [
+            "くらえ",
+            0
+          ],
+          [
+            " バンバンバン",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "くらえ",
+            0,
+            "take this"
+          ],
+          [
+            " バンバンバン",
+            1,
+            "bang bang bang"
+          ]
+        ],
+        "en": [
+          [
+            "take this",
+            0
+          ],
+          [
+            " — bang bang bang",
+            1
+          ]
+        ]
+      }
+    },
+    "42.44": {
+      "en": "you're hell-bound — got anything to say? but we can't turn back, we can't",
+      "align": {
+        "jp": [
+          [
+            "地獄行きよ",
+            0
+          ],
+          [
+            " なんか言えば？",
+            1
+          ],
+          [
+            "でもね戻れない",
+            2
+          ],
+          [
+            " 戻れないの",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "地獄",
+            0,
+            "hell"
+          ],
+          [
+            "行き",
+            0,
+            "bound"
+          ],
+          [
+            "よ",
+            0,
+            "!"
+          ],
+          [
+            " なんか",
+            1,
+            "anything"
+          ],
+          [
+            "言えば",
+            1,
+            "if say"
+          ],
+          [
+            "？",
+            1,
+            "?"
+          ],
+          [
+            "でも",
+            2,
+            "but"
+          ],
+          [
+            "ね",
+            2,
+            "y'know"
+          ],
+          [
+            "戻れ",
+            2,
+            "can return"
+          ],
+          [
+            "ない",
+            2,
+            "(neg)"
+          ],
+          [
+            " 戻れ",
+            3,
+            "can return"
+          ],
+          [
+            "ない",
+            3,
+            "(neg)"
+          ],
+          [
+            "の",
+            3,
+            "(nom)"
+          ]
+        ],
+        "en": [
+          [
+            "you're hell-bound",
+            0
+          ],
+          [
+            " — got anything to say?",
+            1
+          ],
+          [
+            " but we can't turn back",
+            2
+          ],
+          [
+            ", we can't",
+            3
+          ]
+        ]
+      }
+    },
+    "46.79": {
+      "en": "cure me, cure me — from the aftereffects of your \"love\"",
+      "align": {
+        "jp": [
+          [
+            "治してよ",
+            0
+          ],
+          [
+            " 治してよ",
+            1
+          ],
+          [
+            " きみの\"好き\"の",
+            2
+          ],
+          [
+            "後遺症",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "治して",
+            0,
+            "cure"
+          ],
+          [
+            "よ",
+            0,
+            "please"
+          ],
+          [
+            " 治して",
+            1,
+            "cure"
+          ],
+          [
+            "よ",
+            1,
+            "please"
+          ],
+          [
+            " きみ",
+            2,
+            "you"
+          ],
+          [
+            "の",
+            2,
+            "'s"
+          ],
+          [
+            "\"好き\"",
+            2,
+            "\"love\""
+          ],
+          [
+            "の",
+            2,
+            "'s"
+          ],
+          [
+            "後遺症",
+            3,
+            "aftereffects"
+          ]
+        ],
+        "en": [
+          [
+            "cure me",
+            0
+          ],
+          [
+            ", cure me",
+            1
+          ],
+          [
+            " — from the aftereffects",
+            3
+          ],
+          [
+            " of your \"love\"",
+            2
+          ]
+        ]
+      }
+    },
+    "52.92": {
+      "en": "it's really rough — that only I'm the one in love, of all things",
+      "align": {
+        "jp": [
+          [
+            "あたしだけが",
+            0
+          ],
+          [
+            " 好きだ",
+            1
+          ],
+          [
+            "なんて",
+            2
+          ],
+          [
+            " きっついな",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "あたし",
+            0,
+            "I"
+          ],
+          [
+            "だけ",
+            0,
+            "only"
+          ],
+          [
+            "が",
+            0,
+            "(subj)"
+          ],
+          [
+            " 好き",
+            1,
+            "in love"
+          ],
+          [
+            "だ",
+            1,
+            "am"
+          ],
+          [
+            "なんて",
+            2,
+            "(that)"
+          ],
+          [
+            " きっつい",
+            3,
+            "tough"
+          ],
+          [
+            "な",
+            3,
+            "(sfp)"
+          ]
+        ],
+        "en": [
+          [
+            "it's really rough",
+            3
+          ],
+          [
+            " — that only I",
+            0
+          ],
+          [
+            " am in love",
+            1
+          ],
+          [
+            ", of all things",
+            2
+          ]
+        ]
+      }
+    },
+    "58.14": {
+      "en": "send me, later, the way to forget you",
+      "align": {
+        "jp": [
+          [
+            "きみの忘れ方",
+            0
+          ],
+          [
+            " あとで",
+            1
+          ],
+          [
+            " 送っといて",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "きみ",
+            0,
+            "you"
+          ],
+          [
+            "の",
+            0,
+            "(mod)"
+          ],
+          [
+            "忘れ",
+            0,
+            "forget"
+          ],
+          [
+            "方",
+            0,
+            "way"
+          ],
+          [
+            " あとで",
+            1,
+            "later"
+          ],
+          [
+            " 送っと",
+            2,
+            "send"
+          ],
+          [
+            "いて",
+            2,
+            "(in advance)"
+          ]
+        ],
+        "en": [
+          [
+            "send me",
+            2
+          ],
+          [
+            " later",
+            1
+          ],
+          [
+            " the way to forget you",
+            0
+          ]
+        ]
+      }
+    },
+    "61.78": {
+      "en": "the four-beat, uneven though it was, has finally settled into place, but…",
+      "align": {
+        "jp": [
+          [
+            "不揃いの",
+            0
+          ],
+          [
+            " フォービート",
+            1
+          ],
+          [
+            " 整ってきたけど",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "不揃い",
+            0,
+            "uneven"
+          ],
+          [
+            "の",
+            0,
+            "(mod)"
+          ],
+          [
+            " フォー",
+            1,
+            "four"
+          ],
+          [
+            "ビート",
+            1,
+            "beat"
+          ],
+          [
+            " 整って",
+            2,
+            "line up"
+          ],
+          [
+            "きた",
+            2,
+            "has come"
+          ],
+          [
+            "けど",
+            2,
+            "but"
+          ]
+        ],
+        "en": [
+          [
+            "the four-beat",
+            1
+          ],
+          [
+            ", uneven though it was",
+            0
+          ],
+          [
+            ", has finally settled, but…",
+            2
+          ]
+        ]
+      }
+    },
+    "66.85": {
+      "en": "I hate the version of me that just gets used to this",
+      "align": {
+        "jp": [
+          [
+            "そんなあたしが",
+            0
+          ],
+          [
+            " 嫌い",
+            1
+          ],
+          [
+            " 慣れちゃうとか",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "そんな",
+            0,
+            "such"
+          ],
+          [
+            "あたし",
+            0,
+            "me"
+          ],
+          [
+            "が",
+            0,
+            "(subj)"
+          ],
+          [
+            " 嫌い",
+            1,
+            "hate"
+          ],
+          [
+            " 慣れちゃう",
+            2,
+            "get used"
+          ],
+          [
+            "とか",
+            2,
+            "like"
+          ]
+        ],
+        "en": [
+          [
+            "I hate",
+            1
+          ],
+          [
+            " the version of me",
+            0
+          ],
+          [
+            " that just gets used to it",
+            2
+          ]
+        ]
+      }
+    },
+    "71.53": {
+      "en": "'I'll always be by your side, for you'",
+      "align": {
+        "jp": [
+          [
+            "「いつだって",
+            0
+          ],
+          [
+            " 側にいて",
+            1
+          ],
+          [
+            "あげる」",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "「",
+            0,
+            "\""
+          ],
+          [
+            "いつだって",
+            0,
+            "anytime"
+          ],
+          [
+            " 側",
+            1,
+            "side"
+          ],
+          [
+            "に",
+            1,
+            "at"
+          ],
+          [
+            "いて",
+            1,
+            "be"
+          ],
+          [
+            "あげる",
+            2,
+            "for you"
+          ],
+          [
+            "」",
+            2,
+            "\""
+          ]
+        ],
+        "en": [
+          [
+            "'I'll stay by your side",
+            1
+          ],
+          [
+            ", anytime",
+            0
+          ],
+          [
+            ", just for you'",
+            2
+          ]
+        ]
+      }
+    },
+    "74.13": {
+      "en": "'if you say \"I want to see you\", I'll come see you'",
+      "align": {
+        "jp": [
+          [
+            "「\"会いたい\"って",
+            0
+          ],
+          [
+            " 言えば",
+            1
+          ],
+          [
+            " 会いに行く」",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "「",
+            0,
+            "\""
+          ],
+          [
+            "\"",
+            0,
+            "\""
+          ],
+          [
+            "会い",
+            0,
+            "see"
+          ],
+          [
+            "たい",
+            0,
+            "want"
+          ],
+          [
+            "\"",
+            0,
+            "\""
+          ],
+          [
+            "って",
+            0,
+            "(quote)"
+          ],
+          [
+            " 言えば",
+            1,
+            "if say"
+          ],
+          [
+            " 会い",
+            2,
+            "see"
+          ],
+          [
+            "に",
+            2,
+            "(purp)"
+          ],
+          [
+            "行く",
+            2,
+            "go"
+          ],
+          [
+            "」",
+            2,
+            "\""
+          ]
+        ],
+        "en": [
+          [
+            "'if you say",
+            1
+          ],
+          [
+            " \"I want to see you\"",
+            0
+          ],
+          [
+            ", I'll come see you'",
+            2
+          ]
+        ]
+      }
+    },
+    "76.38": {
+      "en": "you left just those promises behind — where did you run off to?",
+      "align": {
+        "jp": [
+          [
+            "そんな約束だけを",
+            0
+          ],
+          [
+            " 置いて",
+            1
+          ],
+          [
+            " どこに",
+            2
+          ],
+          [
+            " 出掛けたの？",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "そんな",
+            0,
+            "such"
+          ],
+          [
+            "約束",
+            0,
+            "promise"
+          ],
+          [
+            "だけ",
+            0,
+            "only"
+          ],
+          [
+            "を",
+            0,
+            "(obj)"
+          ],
+          [
+            " 置いて",
+            1,
+            "leave"
+          ],
+          [
+            " どこ",
+            2,
+            "where"
+          ],
+          [
+            "に",
+            2,
+            "to"
+          ],
+          [
+            " 出掛けた",
+            3,
+            "went out"
+          ],
+          [
+            "の",
+            3,
+            "(nom)"
+          ],
+          [
+            "？",
+            3,
+            "?"
+          ]
+        ],
+        "en": [
+          [
+            "you left",
+            1
+          ],
+          [
+            " just those promises behind",
+            0
+          ],
+          [
+            " — where",
+            2
+          ],
+          [
+            " did you run off to?",
+            3
+          ]
+        ]
+      }
+    },
+    "81.45": {
+      "en": "take this — bang bang bang!",
+      "align": {
+        "jp": [
+          [
+            "くらえ",
+            0
+          ],
+          [
+            " バンバンバン",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "くらえ",
+            0,
+            "take this"
+          ],
+          [
+            " バンバンバン",
+            1,
+            "bang bang bang"
+          ]
+        ],
+        "en": [
+          [
+            "take this",
+            0
+          ],
+          [
+            " — bang bang bang",
+            1
+          ]
+        ]
+      }
+    },
+    "83.25": {
+      "en": "cut it out — do you even get how much I've devoted to you?",
+      "align": {
+        "jp": [
+          [
+            "ふざけないで",
+            0
+          ],
+          [
+            " どんだけあたしが",
+            1
+          ],
+          [
+            " きみに尽くしてきたかって",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "ふざけ",
+            0,
+            "kid around"
+          ],
+          [
+            "ない",
+            0,
+            "(neg)"
+          ],
+          [
+            "で",
+            0,
+            "(cmd)"
+          ],
+          [
+            " どんだけ",
+            1,
+            "how much"
+          ],
+          [
+            "あたし",
+            1,
+            "I"
+          ],
+          [
+            "が",
+            1,
+            "(subj)"
+          ],
+          [
+            " きみ",
+            2,
+            "you"
+          ],
+          [
+            "に",
+            2,
+            "to"
+          ],
+          [
+            "尽くして",
+            2,
+            "devote"
+          ],
+          [
+            "きた",
+            2,
+            "have done"
+          ],
+          [
+            "か",
+            2,
+            "(?)"
+          ],
+          [
+            "って",
+            2,
+            "(like)"
+          ]
+        ],
+        "en": [
+          [
+            "cut it out",
+            0
+          ],
+          [
+            " — I've poured everything into you, huh?",
+            2
+          ],
+          [
+            " — how much?",
+            1
+          ]
+        ]
+      }
+    },
+    "87.47": {
+      "en": "you don't get it, you don't get it, and you don't even want to",
+      "align": {
+        "jp": [
+          [
+            "わかんないんでしょ",
+            0
+          ],
+          [
+            " わかんないんでしょ",
+            1
+          ],
+          [
+            " わかりたくもないんでしょ",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "わかん",
+            0,
+            "understand"
+          ],
+          [
+            "ない",
+            0,
+            "(neg)"
+          ],
+          [
+            "ん",
+            0,
+            "(nom)"
+          ],
+          [
+            "でしょ",
+            0,
+            "right?"
+          ],
+          [
+            " わかん",
+            1,
+            "understand"
+          ],
+          [
+            "ない",
+            1,
+            "(neg)"
+          ],
+          [
+            "ん",
+            1,
+            "(nom)"
+          ],
+          [
+            "でしょ",
+            1,
+            "right?"
+          ],
+          [
+            " わかり",
+            2,
+            "understand"
+          ],
+          [
+            "たく",
+            2,
+            "want to"
+          ],
+          [
+            "も",
+            2,
+            "even"
+          ],
+          [
+            "ない",
+            2,
+            "(neg)"
+          ],
+          [
+            "ん",
+            2,
+            "(nom)"
+          ],
+          [
+            "でしょ",
+            2,
+            "right?"
+          ]
+        ],
+        "en": [
+          [
+            "you don't get it",
+            0
+          ],
+          [
+            ", you don't get it",
+            1
+          ],
+          [
+            ", and you don't even want to",
+            2
+          ]
+        ]
+      }
+    },
+    "91.62": {
+      "en": "take this — bang bang bang!",
+      "align": {
+        "jp": [
+          [
+            "くらえ",
+            0
+          ],
+          [
+            " バンバンバン",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "くらえ",
+            0,
+            "take this"
+          ],
+          [
+            " バンバンバン",
+            1,
+            "bang bang bang"
+          ]
+        ],
+        "en": [
+          [
+            "take this",
+            0
+          ],
+          [
+            " — bang bang bang",
+            1
+          ]
+        ]
+      }
+    },
+    "93.51": {
+      "en": "you're hell-bound — got anything to say? but we can't turn back, we can't",
+      "align": {
+        "jp": [
+          [
+            "地獄行きよ",
+            0
+          ],
+          [
+            " なんか言えば？",
+            1
+          ],
+          [
+            "でもね戻れない",
+            2
+          ],
+          [
+            " 戻れないの",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "地獄",
+            0,
+            "hell"
+          ],
+          [
+            "行き",
+            0,
+            "bound"
+          ],
+          [
+            "よ",
+            0,
+            "!"
+          ],
+          [
+            " なんか",
+            1,
+            "anything"
+          ],
+          [
+            "言えば",
+            1,
+            "if say"
+          ],
+          [
+            "？",
+            1,
+            "?"
+          ],
+          [
+            "でも",
+            2,
+            "but"
+          ],
+          [
+            "ね",
+            2,
+            "y'know"
+          ],
+          [
+            "戻れ",
+            2,
+            "can return"
+          ],
+          [
+            "ない",
+            2,
+            "(neg)"
+          ],
+          [
+            " 戻れ",
+            3,
+            "can return"
+          ],
+          [
+            "ない",
+            3,
+            "(neg)"
+          ],
+          [
+            "の",
+            3,
+            "(nom)"
+          ]
+        ],
+        "en": [
+          [
+            "you're hell-bound",
+            0
+          ],
+          [
+            " — got anything to say?",
+            1
+          ],
+          [
+            " but we can't turn back",
+            2
+          ],
+          [
+            ", we can't",
+            3
+          ]
+        ]
+      }
+    },
+    "97.61": {
+      "en": "cure me, cure me — from the aftereffects of your \"love\"",
+      "align": {
+        "jp": [
+          [
+            "治してよ",
+            0
+          ],
+          [
+            " 治してよ",
+            1
+          ],
+          [
+            " きみの\"好き\"の",
+            2
+          ],
+          [
+            "後遺症",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "治して",
+            0,
+            "cure"
+          ],
+          [
+            "よ",
+            0,
+            "please"
+          ],
+          [
+            " 治して",
+            1,
+            "cure"
+          ],
+          [
+            "よ",
+            1,
+            "please"
+          ],
+          [
+            " きみ",
+            2,
+            "you"
+          ],
+          [
+            "の",
+            2,
+            "'s"
+          ],
+          [
+            "\"好き\"",
+            2,
+            "\"love\""
+          ],
+          [
+            "の",
+            2,
+            "'s"
+          ],
+          [
+            "後遺症",
+            3,
+            "aftereffects"
+          ]
+        ],
+        "en": [
+          [
+            "cure me",
+            0
+          ],
+          [
+            ", cure me",
+            1
+          ],
+          [
+            " — from the aftereffects",
+            3
+          ],
+          [
+            " of your \"love\"",
+            2
+          ]
+        ]
+      }
+    },
+    "112.44": {
+      "en": "hey — I want to go right next to you",
+      "align": {
+        "jp": [
+          [
+            "ねえ",
+            0
+          ],
+          [
+            "きみの隣に",
+            1
+          ],
+          [
+            " いきたいな",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "ねえ",
+            0,
+            "hey"
+          ],
+          [
+            "きみ",
+            1,
+            "you"
+          ],
+          [
+            "の",
+            1,
+            "'s"
+          ],
+          [
+            "隣",
+            1,
+            "side"
+          ],
+          [
+            "に",
+            1,
+            "to"
+          ],
+          [
+            " いき",
+            2,
+            "go"
+          ],
+          [
+            "たい",
+            2,
+            "want"
+          ],
+          [
+            "な",
+            2,
+            "(sfp)"
+          ]
+        ],
+        "en": [
+          [
+            "hey",
+            0
+          ],
+          [
+            " — I want to go",
+            2
+          ],
+          [
+            " right next to you",
+            1
+          ]
+        ]
+      }
+    },
+    "117.36": {
+      "en": "fall for anyone other than you? — no, not a chance",
+      "align": {
+        "jp": [
+          [
+            "きみ以外の",
+            0
+          ],
+          [
+            " 誰か",
+            1
+          ],
+          [
+            " 好きになれるとか",
+            2
+          ],
+          [
+            "、ない",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "きみ",
+            0,
+            "you"
+          ],
+          [
+            "以外",
+            0,
+            "other than"
+          ],
+          [
+            "の",
+            0,
+            "(mod)"
+          ],
+          [
+            " 誰か",
+            1,
+            "someone"
+          ],
+          [
+            " 好き",
+            2,
+            "like"
+          ],
+          [
+            "に",
+            2,
+            "(adv)"
+          ],
+          [
+            "なれる",
+            2,
+            "can become"
+          ],
+          [
+            "とか",
+            2,
+            "like"
+          ],
+          [
+            "、",
+            3,
+            ","
+          ],
+          [
+            "ない",
+            3,
+            "no"
+          ]
+        ],
+        "en": [
+          [
+            "fall for",
+            2
+          ],
+          [
+            " anyone",
+            1
+          ],
+          [
+            " other than you",
+            0
+          ],
+          [
+            " — not a chance",
+            3
+          ]
+        ]
+      }
+    },
+    "123.43": {
+      "en": "take this — bang bang bang!",
+      "align": {
+        "jp": [
+          [
+            "くらえ",
+            0
+          ],
+          [
+            " バンバンバン",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "くらえ",
+            0,
+            "take this"
+          ],
+          [
+            " バンバンバン",
+            1,
+            "bang bang bang"
+          ]
+        ],
+        "en": [
+          [
+            "take this",
+            0
+          ],
+          [
+            " — bang bang bang",
+            1
+          ]
+        ]
+      }
+    },
+    "125.42": {
+      "en": "I was in love with you this whole time — no wait, I still am, I guess",
+      "align": {
+        "jp": [
+          [
+            "きみのことが",
+            0
+          ],
+          [
+            " ずっと",
+            1
+          ],
+          [
+            " 好きでした",
+            2
+          ],
+          [
+            " いやそれは今もそうか",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "きみ",
+            0,
+            "you"
+          ],
+          [
+            "の",
+            0,
+            "'s"
+          ],
+          [
+            "こと",
+            0,
+            "thing"
+          ],
+          [
+            "が",
+            0,
+            "(subj)"
+          ],
+          [
+            " ずっと",
+            1,
+            "always"
+          ],
+          [
+            " 好き",
+            2,
+            "in love"
+          ],
+          [
+            "でした",
+            2,
+            "was"
+          ],
+          [
+            " いや",
+            3,
+            "no"
+          ],
+          [
+            "それ",
+            3,
+            "that"
+          ],
+          [
+            "は",
+            3,
+            "(topic)"
+          ],
+          [
+            "今",
+            3,
+            "now"
+          ],
+          [
+            "も",
+            3,
+            "too"
+          ],
+          [
+            "そう",
+            3,
+            "so"
+          ],
+          [
+            "か",
+            3,
+            "(?)"
+          ]
+        ],
+        "en": [
+          [
+            "I was",
+            2
+          ],
+          [
+            " in love with you",
+            0
+          ],
+          [
+            " this whole time",
+            1
+          ],
+          [
+            " — no wait, I still am, I guess",
+            3
+          ]
+        ]
+      }
+    },
+    "129.53": {
+      "en": "you get it, you get it — hey, say something, would you",
+      "align": {
+        "jp": [
+          [
+            "わかるでしょ",
+            0
+          ],
+          [
+            " わかるでしょ",
+            1
+          ],
+          [
+            " ねえ",
+            2
+          ],
+          [
+            "なんとか言ってよ",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "わかる",
+            0,
+            "understand"
+          ],
+          [
+            "でしょ",
+            0,
+            "right?"
+          ],
+          [
+            " わかる",
+            1,
+            "understand"
+          ],
+          [
+            "でしょ",
+            1,
+            "right?"
+          ],
+          [
+            " ねえ",
+            2,
+            "hey"
+          ],
+          [
+            "なんとか",
+            3,
+            "something"
+          ],
+          [
+            "言って",
+            3,
+            "say"
+          ],
+          [
+            "よ",
+            3,
+            "please"
+          ]
+        ],
+        "en": [
+          [
+            "you get it",
+            0
+          ],
+          [
+            ", you get it",
+            1
+          ],
+          [
+            " — hey",
+            2
+          ],
+          [
+            ", say something already",
+            3
+          ]
+        ]
+      }
+    },
+    "133.71": {
+      "en": "take this — bang bang bang!",
+      "align": {
+        "jp": [
+          [
+            "くらえ",
+            0
+          ],
+          [
+            " バンバンバン",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "くらえ",
+            0,
+            "take this"
+          ],
+          [
+            " バンバンバン",
+            1,
+            "bang bang bang"
+          ]
+        ],
+        "en": [
+          [
+            "take this",
+            0
+          ],
+          [
+            " — bang bang bang",
+            1
+          ]
+        ]
+      }
+    },
+    "135.67": {
+      "en": "hug me, give me a kiss — but no, it won't come true, won't come true",
+      "align": {
+        "jp": [
+          [
+            "ハグをしてよ",
+            0
+          ],
+          [
+            " ちゅっとしてよ",
+            1
+          ],
+          [
+            " でもね叶わない",
+            2
+          ],
+          [
+            " 叶わないの",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "ハグ",
+            0,
+            "hug"
+          ],
+          [
+            "を",
+            0,
+            "(obj)"
+          ],
+          [
+            "して",
+            0,
+            "do"
+          ],
+          [
+            "よ",
+            0,
+            "please"
+          ],
+          [
+            " ちゅっと",
+            1,
+            "peck"
+          ],
+          [
+            "して",
+            1,
+            "do"
+          ],
+          [
+            "よ",
+            1,
+            "please"
+          ],
+          [
+            " でも",
+            2,
+            "but"
+          ],
+          [
+            "ね",
+            2,
+            "y'know"
+          ],
+          [
+            "叶わ",
+            2,
+            "come true"
+          ],
+          [
+            "ない",
+            2,
+            "(neg)"
+          ],
+          [
+            " 叶わ",
+            3,
+            "come true"
+          ],
+          [
+            "ない",
+            3,
+            "(neg)"
+          ],
+          [
+            "の",
+            3,
+            "(nom)"
+          ]
+        ],
+        "en": [
+          [
+            "hug me",
+            0
+          ],
+          [
+            ", give me a kiss",
+            1
+          ],
+          [
+            " — but no, it won't come true",
+            2
+          ],
+          [
+            ", it won't",
+            3
+          ]
+        ]
+      }
+    },
+    "139.93": {
+      "en": "cure me, cure me — from the aftereffects of your \"love\"",
+      "align": {
+        "jp": [
+          [
+            "治してよ",
+            0
+          ],
+          [
+            " 治してよ",
+            1
+          ],
+          [
+            " きみの\"好き\"の",
+            2
+          ],
+          [
+            "後遺症",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "治して",
+            0,
+            "cure"
+          ],
+          [
+            "よ",
+            0,
+            "please"
+          ],
+          [
+            " 治して",
+            1,
+            "cure"
+          ],
+          [
+            "よ",
+            1,
+            "please"
+          ],
+          [
+            " きみ",
+            2,
+            "you"
+          ],
+          [
+            "の",
+            2,
+            "'s"
+          ],
+          [
+            "\"好き\"",
+            2,
+            "\"love\""
+          ],
+          [
+            "の",
+            2,
+            "'s"
+          ],
+          [
+            "後遺症",
+            3,
+            "aftereffects"
+          ]
+        ],
+        "en": [
+          [
+            "cure me",
+            0
+          ],
+          [
+            ", cure me",
+            1
+          ],
+          [
+            " — from the aftereffects",
+            3
+          ],
+          [
+            " of your \"love\"",
+            2
+          ]
+        ]
+      }
+    },
+    "146.23": {
+      "en": "it's really rough — that only I'm the one in love, of all things",
+      "align": {
+        "jp": [
+          [
+            "あたしだけが",
+            0
+          ],
+          [
+            " 好きだ",
+            1
+          ],
+          [
+            "なんて",
+            2
+          ],
+          [
+            " きっついな",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "あたし",
+            0,
+            "I"
+          ],
+          [
+            "だけ",
+            0,
+            "only"
+          ],
+          [
+            "が",
+            0,
+            "(subj)"
+          ],
+          [
+            " 好き",
+            1,
+            "in love"
+          ],
+          [
+            "だ",
+            1,
+            "am"
+          ],
+          [
+            "なんて",
+            2,
+            "(that)"
+          ],
+          [
+            " きっつい",
+            3,
+            "tough"
+          ],
+          [
+            "な",
+            3,
+            "(sfp)"
+          ]
+        ],
+        "en": [
+          [
+            "it's really rough",
+            3
+          ],
+          [
+            " — that only I",
+            0
+          ],
+          [
+            " am in love",
+            1
+          ],
+          [
+            ", of all things",
+            2
+          ]
+        ]
+      }
+    },
+    "151.33": {
+      "en": "send me, later, the way to forget you",
+      "align": {
+        "jp": [
+          [
+            "きみの忘れ方",
+            0
+          ],
+          [
+            " あとで",
+            1
+          ],
+          [
+            " 送っといて",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "きみ",
+            0,
+            "you"
+          ],
+          [
+            "の",
+            0,
+            "(mod)"
+          ],
+          [
+            "忘れ",
+            0,
+            "forget"
+          ],
+          [
+            "方",
+            0,
+            "way"
+          ],
+          [
+            " あとで",
+            1,
+            "later"
+          ],
+          [
+            " 送っと",
+            2,
+            "send"
+          ],
+          [
+            "いて",
+            2,
+            "(in advance)"
+          ]
+        ],
+        "en": [
+          [
+            "send me",
+            2
+          ],
+          [
+            " later",
+            1
+          ],
+          [
+            " the way to forget you",
+            0
+          ]
+        ]
+      }
+    },
+    "156.58": {
+      "en": "will there ever come a someday you give me your love again?",
+      "align": {
+        "jp": [
+          [
+            "いつかまた",
+            0
+          ],
+          [
+            " 好きを",
+            1
+          ],
+          [
+            " くれることって",
+            2
+          ],
+          [
+            " ある？",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "いつか",
+            0,
+            "someday"
+          ],
+          [
+            "また",
+            0,
+            "again"
+          ],
+          [
+            " 好き",
+            1,
+            "love"
+          ],
+          [
+            "を",
+            1,
+            "(obj)"
+          ],
+          [
+            " くれる",
+            2,
+            "give me"
+          ],
+          [
+            "こと",
+            2,
+            "thing"
+          ],
+          [
+            "って",
+            2,
+            "(topic)"
+          ],
+          [
+            " ある",
+            3,
+            "exist"
+          ],
+          [
+            "？",
+            3,
+            "?"
+          ]
+        ],
+        "en": [
+          [
+            "will there come",
+            3
+          ],
+          [
+            " a someday",
+            0
+          ],
+          [
+            " you give me",
+            2
+          ],
+          [
+            " your love again?",
+            1
+          ]
+        ]
+      }
+    },
+    "161.55": {
+      "en": "my smile, too — I'll send it along later",
+      "align": {
+        "jp": [
+          [
+            "あたしの笑顔も",
+            0
+          ],
+          [
+            " あとで",
+            1
+          ],
+          [
+            " 送っとくね",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "あたし",
+            0,
+            "I"
+          ],
+          [
+            "の",
+            0,
+            "'s"
+          ],
+          [
+            "笑顔",
+            0,
+            "smile"
+          ],
+          [
+            "も",
+            0,
+            "too"
+          ],
+          [
+            " あとで",
+            1,
+            "later"
+          ],
+          [
+            " 送っと",
+            2,
+            "send"
+          ],
+          [
+            "く",
+            2,
+            "(in advance)"
+          ],
+          [
+            "ね",
+            2,
+            "ok?"
+          ]
+        ],
+        "en": [
+          [
+            "my smile, too",
+            0
+          ],
+          [
+            " — I'll send it along",
+            2
+          ],
+          [
+            " later",
+            1
+          ]
+        ]
+      }
+    }
+  }
+}
