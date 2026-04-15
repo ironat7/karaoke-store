@@ -1,0 +1,180 @@
+{
+  "11679987": {
+    "0.22": {
+      "en": "the moment I stepped outside, I was done for",
+      "align": {
+        "jp":    [["外", 0], [" 出た", 1], [" 瞬間", 2], [" 終わったわ", 3]],
+        "gloss": [["外", 0, "outside"], [" 出た", 1, "stepped out"], [" 瞬間", 2, "moment"], [" 終わった", 3, "was done"], ["わ", 3, "(!)"]],
+        "en":    [["the moment", 2], [" I stepped outside", 1], [", I was done for", 3]]
+      }
+    },
+    "3.99": {
+      "en": "even though the weather's nice, I can't move forward",
+      "align": {
+        "jp":    [["天気は", 0], [" 良いのに", 1], [" 進めない", 2]],
+        "gloss": [["天気", 0, "weather"], ["は", 0, "(topic)"], [" 良い", 1, "nice"], ["のに", 1, "even though"], [" 進めない", 2, "can't move forward"]],
+        "en":    [["even though", 1], [" the weather's nice", 0], [", I can't move forward", 2]]
+      }
+    },
+    "6.96": {
+      "en": "the wind's too strong — I'm a goner",
+      "align": {
+        "jp":    [["風", 0], [" 強すぎて", 1], [" お亡くなり", 2]],
+        "gloss": [["風", 0, "wind"], [" 強", 1, "strong"], ["すぎて", 1, "too much"], [" お亡くなり", 2, "deceased/done for"]],
+        "en":    [["the wind's", 0], [" too strong", 1], [" — I'm a goner", 2]]
+      }
+    },
+    "11.13": {
+      "en": "regularly, regularly, I go all-back",
+      "align": {
+        "jp":    [["定期", 0], [" 定期", 1], [" 的に", 2], [" オールバック", 3]],
+        "gloss": [["定期", 0, "regular"], [" 定期", 1, "regular"], [" 的に", 2, "(adverbially)"], [" オールバック", 3, "all-back"]],
+        "en":    [["regularly", 0], [", regularly", 1], [" ", 2], [" I go all-back", 3]]
+      }
+    },
+    "28.62": {
+      "en": "\"I wanna go underground,\" I thought",
+      "align": {
+        "jp":    [["地下に", 0], [" 潜りたいな", 1], [" って", 2], [" 思いました", 3]],
+        "gloss": [["地下", 0, "underground"], ["に", 0, "to"], [" 潜りたい", 1, "want to dive/burrow"], ["な", 1, "(!)"], [" って", 2, "(quote)"], [" 思いました", 3, "I thought"]],
+        "en":    [["I thought,", 3], [" \"I wanna burrow", 1], [" underground", 0], [" \"", 2]]
+      }
+    },
+    "35.94": {
+      "en": "if only the wind would go away, it'd be warm",
+      "align": {
+        "jp":    [["風さえ", 0], [" なくなれば", 1], [" あったかいのに", 2]],
+        "gloss": [["風", 0, "wind"], ["さえ", 0, "even/if only"], [" なくなれば", 1, "if gone"], [" あったかい", 2, "warm"], ["のに", 2, "even though/if only"]],
+        "en":    [["if only the wind", 0], [" would go away", 1], [", it'd be warm", 2]]
+      }
+    },
+    "43.09": {
+      "en": "\"I wanna sit forever,\" I thought",
+      "align": {
+        "jp":    [["ずっと", 0], [" 座りたいな", 1], [" って", 2], [" 思いました", 3]],
+        "gloss": [["ずっと", 0, "forever/the whole time"], [" 座りたい", 1, "want to sit"], ["な", 1, "(!)"], [" って", 2, "(quote)"], [" 思いました", 3, "I thought"]],
+        "en":    [["I thought,", 3], [" \"I wanna sit", 1], [" forever", 0], [" \"", 2]]
+      }
+    },
+    "50.14": {
+      "en": "reluctantly, when I stepped outside",
+      "align": {
+        "jp":    [["いやいや", 0], [" と", 1], [" 外でたら", 2]],
+        "gloss": [["いやいや", 0, "reluctantly"], [" と", 1, "(adverb marker)"], [" 外", 2, "outside"], ["でたら", 2, "when (I) went out"]],
+        "en":    [["reluctantly", 0], [" ", 1], [", when I stepped outside", 2]]
+      }
+    },
+    "53.58": {
+      "en": "pigeons, pigeons, pigeons, pigeons — a huge brawl",
+      "align": {
+        "jp":    [["ハト", 0], [" ハト", 1], [" ハト", 2], [" ハト", 3], [" 大乱闘", 4]],
+        "gloss": [["ハト", 0, "pigeon"], [" ハト", 1, "pigeon"], [" ハト", 2, "pigeon"], [" ハト", 3, "pigeon"], [" 大乱闘", 4, "great brawl"]],
+        "en":    [["pigeons", 0], [", pigeons", 1], [", pigeons", 2], [", pigeons", 3], [" — a huge brawl", 4]]
+      }
+    },
+    "56.74": {
+      "en": "ahh, the moment I stepped outside, I was done for",
+      "align": {
+        "jp":    [["ああ", 0], [" 外出た", 1], [" 瞬間", 2], [" 終わったわ", 3]],
+        "gloss": [["ああ", 0, "ahh"], [" 外", 1, "outside"], ["出た", 1, "stepped out"], [" 瞬間", 2, "moment"], [" 終わった", 3, "was done"], ["わ", 3, "(!)"]],
+        "en":    [["ahh", 0], [", the moment", 2], [" I stepped outside", 1], [", I was done for", 3]]
+      }
+    },
+    "60.84": {
+      "en": "even though the weather's nice, I can't move forward",
+      "align": {
+        "jp":    [["天気は", 0], [" 良いのに", 1], [" 進めない", 2]],
+        "gloss": [["天気", 0, "weather"], ["は", 0, "(topic)"], [" 良い", 1, "nice"], ["のに", 1, "even though"], [" 進めない", 2, "can't move forward"]],
+        "en":    [["even though", 1], [" the weather's nice", 0], [", I can't move forward", 2]]
+      }
+    },
+    "63.80": {
+      "en": "the wind's too strong — I'm a goner",
+      "align": {
+        "jp":    [["風", 0], [" 強すぎて", 1], [" お亡くなり", 2]],
+        "gloss": [["風", 0, "wind"], [" 強", 1, "strong"], ["すぎて", 1, "too much"], [" お亡くなり", 2, "deceased/done for"]],
+        "en":    [["the wind's", 0], [" too strong", 1], [" — I'm a goner", 2]]
+      }
+    },
+    "67.80": {
+      "en": "regularly, regularly, I go all-back",
+      "align": {
+        "jp":    [["定期", 0], [" 定期", 1], [" 的に", 2], [" オールバック", 3]],
+        "gloss": [["定期", 0, "regular"], [" 定期", 1, "regular"], [" 的に", 2, "(adverbially)"], [" オールバック", 3, "all-back"]],
+        "en":    [["regularly", 0], [", regularly", 1], [" ", 2], [" I go all-back", 3]]
+      }
+    },
+    "85.66": {
+      "en": "the moment I stepped outside, I was done for",
+      "align": {
+        "jp":    [["外", 0], [" 出た", 1], [" 瞬間", 2], [" 終わったわ", 3]],
+        "gloss": [["外", 0, "outside"], [" 出た", 1, "stepped out"], [" 瞬間", 2, "moment"], [" 終わった", 3, "was done"], ["わ", 3, "(!)"]],
+        "en":    [["the moment", 2], [" I stepped outside", 1], [", I was done for", 3]]
+      }
+    },
+    "89.14": {
+      "en": "even though the weather's nice, I can't move forward",
+      "align": {
+        "jp":    [["天気は", 0], [" 良いのに", 1], [" 進めない", 2]],
+        "gloss": [["天気", 0, "weather"], ["は", 0, "(topic)"], [" 良い", 1, "nice"], ["のに", 1, "even though"], [" 進めない", 2, "can't move forward"]],
+        "en":    [["even though", 1], [" the weather's nice", 0], [", I can't move forward", 2]]
+      }
+    },
+    "92.21": {
+      "en": "the wind's too strong — I'm a goner",
+      "align": {
+        "jp":    [["風", 0], [" 強すぎて", 1], [" お亡くなり", 2]],
+        "gloss": [["風", 0, "wind"], [" 強", 1, "strong"], ["すぎて", 1, "too much"], [" お亡くなり", 2, "deceased/done for"]],
+        "en":    [["the wind's", 0], [" too strong", 1], [" — I'm a goner", 2]]
+      }
+    },
+    "96.33": {
+      "en": "regularly, regularly, I go all-back",
+      "align": {
+        "jp":    [["定期", 0], [" 定期", 1], [" 的に", 2], [" オールバック", 3]],
+        "gloss": [["定期", 0, "regular"], [" 定期", 1, "regular"], [" 的に", 2, "(adverbially)"], [" オールバック", 3, "all-back"]],
+        "en":    [["regularly", 0], [", regularly", 1], [" ", 2], [" I go all-back", 3]]
+      }
+    },
+    "99.46": {
+      "en": "the moment I softly stepped out, I was done for",
+      "align": {
+        "jp":    [["そっ", 0], [" と出た", 1], [" 瞬間", 2], [" 終わったわ", 3]],
+        "gloss": [["そっ", 0, "softly"], [" と", 1, "(adverb marker)"], ["出た", 1, "stepped out"], [" 瞬間", 2, "moment"], [" 終わった", 3, "was done"], ["わ", 3, "(!)"]],
+        "en":    [["the moment", 2], [" I softly", 0], [" stepped out", 1], [", I was done for", 3]]
+      }
+    },
+    "103.36": {
+      "en": "even though the weather's nice, I can't move forward",
+      "align": {
+        "jp":    [["天気は", 0], [" 良いのに", 1], [" 進めない", 2]],
+        "gloss": [["天気", 0, "weather"], ["は", 0, "(topic)"], [" 良い", 1, "nice"], ["のに", 1, "even though"], [" 進めない", 2, "can't move forward"]],
+        "en":    [["even though", 1], [" the weather's nice", 0], [", I can't move forward", 2]]
+      }
+    },
+    "106.45": {
+      "en": "the wind's too strong — I'm a goner",
+      "align": {
+        "jp":    [["風", 0], [" 強すぎて", 1], [" お亡くなり", 2]],
+        "gloss": [["風", 0, "wind"], [" 強", 1, "strong"], ["すぎて", 1, "too much"], [" お亡くなり", 2, "deceased/done for"]],
+        "en":    [["the wind's", 0], [" too strong", 1], [" — I'm a goner", 2]]
+      }
+    },
+    "110.50": {
+      "en": "regularly, regularly, I go all-back",
+      "align": {
+        "jp":    [["定期", 0], [" 定期", 1], [" 的に", 2], [" オールバック", 3]],
+        "gloss": [["定期", 0, "regular"], [" 定期", 1, "regular"], [" 的に", 2, "(adverbially)"], [" オールバック", 3, "all-back"]],
+        "en":    [["regularly", 0], [", regularly", 1], [" ", 2], [" I go all-back", 3]]
+      }
+    },
+    "114.17": {
+      "en": "my hair — a strong-wind all-back",
+      "align": {
+        "jp":    [["髪の毛", 0], [" 強風", 1], [" オールバック", 2]],
+        "gloss": [["髪", 0, "hair"], ["の", 0, "of"], ["毛", 0, "hair(strand)"], [" 強風", 1, "strong wind"], [" オールバック", 2, "all-back"]],
+        "en":    [["my hair", 0], [" — a strong-wind", 1], [" all-back", 2]]
+      }
+    }
+  }
+}
