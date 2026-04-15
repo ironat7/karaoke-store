@@ -1,0 +1,3305 @@
+{
+  "28458566": {
+    "18.56": {
+      "en": "Zero motivation maxed out — wanna sleep forever; body and brain, total defeat",
+      "align": {
+        "jp": [
+          [
+            "無気力全開",
+            0
+          ],
+          [
+            " 一生",
+            5
+          ],
+          [
+            "寝てたい",
+            8
+          ],
+          [
+            " 身体 脳",
+            12
+          ],
+          [
+            " 全敗",
+            17
+          ]
+        ],
+        "gloss": [
+          [
+            "無気力",
+            0,
+            "listlessness"
+          ],
+          [
+            "全開",
+            3,
+            "full-open/maxed"
+          ],
+          [
+            " 一生",
+            5,
+            "whole life/forever"
+          ],
+          [
+            "寝て",
+            8,
+            "sleep-(te)"
+          ],
+          [
+            "たい",
+            10,
+            "want-to"
+          ],
+          [
+            " 身体",
+            12,
+            "body"
+          ],
+          [
+            " 脳",
+            15,
+            "brain"
+          ],
+          [
+            " 全敗",
+            17,
+            "total defeat"
+          ],
+          [
+            "",
+            20,
+            ""
+          ]
+        ],
+        "en": [
+          [
+            "Zero motivation maxed out",
+            0
+          ],
+          [
+            " — wanna sleep forever",
+            25
+          ],
+          [
+            "; body and brain",
+            47
+          ],
+          [
+            ", total defeat",
+            63
+          ]
+        ]
+      }
+    },
+    "22.14": {
+      "en": "Gimme money — broke, an MMO junkie, super harmful",
+      "align": {
+        "jp": [
+          [
+            "お金",
+            0
+          ],
+          [
+            "ちょーだい",
+            2
+          ],
+          [
+            " 金欠",
+            7
+          ],
+          [
+            " ネトゲー廃人",
+            10
+          ],
+          [
+            "で",
+            17
+          ],
+          [
+            " 超害",
+            18
+          ]
+        ],
+        "gloss": [
+          [
+            "お金",
+            0,
+            "money"
+          ],
+          [
+            "ちょーだい",
+            2,
+            "gimme (casual)"
+          ],
+          [
+            " 金欠",
+            7,
+            "broke/cash-shortage"
+          ],
+          [
+            " ネトゲー",
+            10,
+            "online-game"
+          ],
+          [
+            "廃人",
+            15,
+            "junkie/wreck"
+          ],
+          [
+            "で",
+            17,
+            "being/and"
+          ],
+          [
+            " 超害",
+            18,
+            "super-harmful"
+          ]
+        ],
+        "en": [
+          [
+            "Gimme money",
+            0
+          ],
+          [
+            " — broke",
+            11
+          ],
+          [
+            ", an MMO junkie",
+            19
+          ],
+          [
+            ", super harmful",
+            34
+          ]
+        ]
+      }
+    },
+    "25.74": {
+      "en": "Don't leave my room — a NEET, sponging off my parents, don't do chores either",
+      "align": {
+        "jp": [
+          [
+            "お部屋",
+            0
+          ],
+          [
+            "出ない",
+            3
+          ],
+          [
+            " プーさん",
+            6
+          ],
+          [
+            " スネカジ",
+            11
+          ],
+          [
+            " 家事",
+            16
+          ],
+          [
+            "も",
+            19
+          ],
+          [
+            "しない",
+            20
+          ]
+        ],
+        "gloss": [
+          [
+            "お部屋",
+            0,
+            "room"
+          ],
+          [
+            "出",
+            3,
+            "leave/exit"
+          ],
+          [
+            "ない",
+            4,
+            "not"
+          ],
+          [
+            " プーさん",
+            6,
+            "NEET/jobless"
+          ],
+          [
+            " スネカジ",
+            11,
+            "parent-sponger"
+          ],
+          [
+            " 家事",
+            16,
+            "chores/housework"
+          ],
+          [
+            "も",
+            19,
+            "also"
+          ],
+          [
+            "しない",
+            20,
+            "don't do"
+          ]
+        ],
+        "en": [
+          [
+            "Don't leave my room",
+            0
+          ],
+          [
+            " — a NEET",
+            19
+          ],
+          [
+            ", sponging off my parents",
+            28
+          ],
+          [
+            ", don't do chores either",
+            53
+          ]
+        ]
+      }
+    },
+    "29.34": {
+      "en": "Dive into another world in real-time — escape reality, no worries",
+      "align": {
+        "jp": [
+          [
+            "異世界",
+            0
+          ],
+          [
+            "に",
+            3
+          ],
+          [
+            " dive",
+            4
+          ],
+          [
+            " リアタイ",
+            9
+          ],
+          [
+            " 現実逃避",
+            14
+          ],
+          [
+            "で",
+            19
+          ],
+          [
+            "ドンマイ",
+            20
+          ]
+        ],
+        "gloss": [
+          [
+            "異世界",
+            0,
+            "other-world/isekai"
+          ],
+          [
+            "に",
+            3,
+            "to/into"
+          ],
+          [
+            " dive",
+            4,
+            "dive"
+          ],
+          [
+            " リアタイ",
+            9,
+            "real-time"
+          ],
+          [
+            " 現実逃避",
+            14,
+            "reality-escape"
+          ],
+          [
+            "で",
+            19,
+            "by/with"
+          ],
+          [
+            "ドンマイ",
+            20,
+            "don't-mind"
+          ]
+        ],
+        "en": [
+          [
+            "Dive into another world",
+            0
+          ],
+          [
+            " in real-time",
+            23
+          ],
+          [
+            " — escape reality",
+            36
+          ],
+          [
+            ", no worries",
+            53
+          ]
+        ]
+      }
+    },
+    "33.14": {
+      "en": "After all, there's nothing to do in life anyway",
+      "align": {
+        "jp": [
+          [
+            "所詮",
+            0
+          ],
+          [
+            " 人生",
+            2
+          ],
+          [
+            "やること",
+            5
+          ],
+          [
+            "も",
+            9
+          ],
+          [
+            "無い",
+            10
+          ]
+        ],
+        "gloss": [
+          [
+            "所詮",
+            0,
+            "after all/merely"
+          ],
+          [
+            " 人生",
+            2,
+            "life"
+          ],
+          [
+            "やること",
+            5,
+            "things-to-do"
+          ],
+          [
+            "も",
+            9,
+            "even/also"
+          ],
+          [
+            "無い",
+            10,
+            "none"
+          ]
+        ],
+        "en": [
+          [
+            "After all",
+            0
+          ],
+          [
+            ", there's nothing to do",
+            9
+          ],
+          [
+            " in life",
+            32
+          ],
+          [
+            " anyway",
+            40
+          ]
+        ]
+      }
+    },
+    "36.88": {
+      "en": "Dying would hurt, but living is a drag too",
+      "align": {
+        "jp": [
+          [
+            "死んじゃ",
+            0
+          ],
+          [
+            "痛い",
+            4
+          ],
+          [
+            " but",
+            6
+          ],
+          [
+            " 生きてても",
+            10
+          ],
+          [
+            " 怠",
+            16
+          ]
+        ],
+        "gloss": [
+          [
+            "死んじゃ",
+            0,
+            "if-die (contr.)"
+          ],
+          [
+            "痛い",
+            4,
+            "painful"
+          ],
+          [
+            " but",
+            6,
+            "but"
+          ],
+          [
+            " 生きてて",
+            10,
+            "living-(te)"
+          ],
+          [
+            "も",
+            15,
+            "even"
+          ],
+          [
+            " 怠",
+            16,
+            "lazy/a drag"
+          ]
+        ],
+        "en": [
+          [
+            "Dying would hurt",
+            0
+          ],
+          [
+            ", but living",
+            16
+          ],
+          [
+            " is a drag",
+            28
+          ],
+          [
+            " too",
+            38
+          ]
+        ]
+      }
+    },
+    "40.45": {
+      "en": "Give up this life, break it — reincarnate please, begging for the best life",
+      "align": {
+        "jp": [
+          [
+            "Give up",
+            0
+          ],
+          [
+            " 今世",
+            7
+          ],
+          [
+            " 壊",
+            10
+          ],
+          [
+            " 転生",
+            12
+          ],
+          [
+            " please",
+            15
+          ],
+          [
+            " 乞う",
+            22
+          ],
+          [
+            " 最高",
+            25
+          ],
+          [
+            " life",
+            28
+          ]
+        ],
+        "gloss": [
+          [
+            "Give up",
+            0,
+            "give up"
+          ],
+          [
+            " 今世",
+            7,
+            "this life"
+          ],
+          [
+            " 壊",
+            10,
+            "break"
+          ],
+          [
+            " 転生",
+            12,
+            "reincarnation"
+          ],
+          [
+            " please",
+            15,
+            "please"
+          ],
+          [
+            " 乞う",
+            22,
+            "beg"
+          ],
+          [
+            " 最高",
+            25,
+            "best/supreme"
+          ],
+          [
+            " life",
+            28,
+            "life"
+          ]
+        ],
+        "en": [
+          [
+            "Give up this life",
+            0
+          ],
+          [
+            ", break it",
+            17
+          ],
+          [
+            " — reincarnate please",
+            27
+          ],
+          [
+            ", begging",
+            48
+          ],
+          [
+            " for the best life",
+            57
+          ]
+        ]
+      }
+    },
+    "44.01": {
+      "en": "Wanna throw down easy mode — versus a lazy whole life, am I done for?",
+      "align": {
+        "jp": [
+          [
+            "イージーモード",
+            0
+          ],
+          [
+            " かましたい",
+            7
+          ],
+          [
+            " 対",
+            13
+          ],
+          [
+            " 怠惰な",
+            15
+          ],
+          [
+            "一生",
+            19
+          ],
+          [
+            " もう廃？",
+            21
+          ]
+        ],
+        "gloss": [
+          [
+            "イージーモード",
+            0,
+            "easy mode"
+          ],
+          [
+            " かましたい",
+            7,
+            "wanna pull-off"
+          ],
+          [
+            " 対",
+            13,
+            "versus"
+          ],
+          [
+            " 怠惰な",
+            15,
+            "lazy/indolent"
+          ],
+          [
+            "一生",
+            19,
+            "whole life"
+          ],
+          [
+            " もう",
+            21,
+            "already"
+          ],
+          [
+            "廃？",
+            24,
+            "done-for/wrecked?"
+          ]
+        ],
+        "en": [
+          [
+            "Wanna throw down easy mode",
+            0
+          ],
+          [
+            " — versus a lazy",
+            26
+          ],
+          [
+            " whole life",
+            42
+          ],
+          [
+            ", am I done for?",
+            53
+          ]
+        ]
+      }
+    },
+    "47.77": {
+      "en": "Give up this life, pity me — reincarnate please, a gloomy existence",
+      "align": {
+        "jp": [
+          [
+            "Give up",
+            0
+          ],
+          [
+            " 今世",
+            7
+          ],
+          [
+            " 哀",
+            10
+          ],
+          [
+            " 転生",
+            12
+          ],
+          [
+            " please",
+            15
+          ],
+          [
+            " 陰な",
+            22
+          ],
+          [
+            "生涯",
+            25
+          ]
+        ],
+        "gloss": [
+          [
+            "Give up",
+            0,
+            "give up"
+          ],
+          [
+            " 今世",
+            7,
+            "this life"
+          ],
+          [
+            " 哀",
+            10,
+            "pity/sorrow"
+          ],
+          [
+            " 転生",
+            12,
+            "reincarnation"
+          ],
+          [
+            " please",
+            15,
+            "please"
+          ],
+          [
+            " 陰な",
+            22,
+            "gloomy/shady"
+          ],
+          [
+            "生涯",
+            25,
+            "lifetime/existence"
+          ]
+        ],
+        "en": [
+          [
+            "Give up this life",
+            0
+          ],
+          [
+            ", pity me",
+            17
+          ],
+          [
+            " — reincarnate please",
+            26
+          ],
+          [
+            ", a gloomy existence",
+            47
+          ]
+        ]
+      }
+    },
+    "51.32": {
+      "en": "Wanna be equipped with talent, charm, beauty — got none; life's a mess, a crap game, ahh, it hurts",
+      "align": {
+        "jp": [
+          [
+            "才 愛嬌 美",
+            0
+          ],
+          [
+            " 備えたい",
+            6
+          ],
+          [
+            " 無い",
+            11
+          ],
+          [
+            " 人生",
+            14
+          ],
+          [
+            "散々",
+            17
+          ],
+          [
+            " クソゲー",
+            19
+          ],
+          [
+            "で",
+            24
+          ],
+          [
+            " はあ",
+            25
+          ],
+          [
+            " 痛い",
+            28
+          ]
+        ],
+        "gloss": [
+          [
+            "才",
+            0,
+            "talent"
+          ],
+          [
+            " 愛嬌",
+            1,
+            "charm"
+          ],
+          [
+            " 美",
+            4,
+            "beauty"
+          ],
+          [
+            " 備えたい",
+            6,
+            "wanna be-equipped-with"
+          ],
+          [
+            " 無い",
+            11,
+            "none"
+          ],
+          [
+            " 人生",
+            14,
+            "life"
+          ],
+          [
+            "散々",
+            17,
+            "terrible/a mess"
+          ],
+          [
+            " クソゲー",
+            19,
+            "crappy game"
+          ],
+          [
+            "で",
+            24,
+            "being/with"
+          ],
+          [
+            " はあ",
+            25,
+            "ahh"
+          ],
+          [
+            " 痛い",
+            28,
+            "painful"
+          ]
+        ],
+        "en": [
+          [
+            "Wanna be equipped with talent",
+            0
+          ],
+          [
+            ", charm, beauty",
+            29
+          ],
+          [
+            " — got none",
+            44
+          ],
+          [
+            "; life's a mess",
+            55
+          ],
+          [
+            ", a crap game",
+            70
+          ],
+          [
+            ", ahh, it hurts",
+            83
+          ]
+        ]
+      }
+    },
+    "55.02": {
+      "en": "(Reset, reset, gimme the button) — gimme a DNA reset",
+      "align": {
+        "jp": [
+          [
+            "（リセット リセット ボタン",
+            0
+          ],
+          [
+            "くれ）",
+            14
+          ],
+          [
+            "DNA",
+            17
+          ],
+          [
+            " リセット",
+            20
+          ],
+          [
+            "頂戴",
+            25
+          ]
+        ],
+        "gloss": [
+          [
+            "（",
+            0,
+            "("
+          ],
+          [
+            "リセット",
+            1,
+            "reset"
+          ],
+          [
+            " リセット",
+            5,
+            "reset"
+          ],
+          [
+            " ボタン",
+            10,
+            "button"
+          ],
+          [
+            "くれ",
+            14,
+            "give-me (imp.)"
+          ],
+          [
+            "）",
+            16,
+            ")"
+          ],
+          [
+            "DNA",
+            17,
+            "DNA"
+          ],
+          [
+            " リセット",
+            20,
+            "reset"
+          ],
+          [
+            "頂戴",
+            25,
+            "give-me/please"
+          ]
+        ],
+        "en": [
+          [
+            "(Reset, reset",
+            0
+          ],
+          [
+            ", gimme the button)",
+            13
+          ],
+          [
+            " — gimme",
+            32
+          ],
+          [
+            " a DNA reset",
+            40
+          ]
+        ]
+      }
+    },
+    "58.64": {
+      "en": "(Tik-ing, dissing, wasting time) — no life forever, a secure existence",
+      "align": {
+        "jp": [
+          [
+            "（Tik",
+            0
+          ],
+          [
+            "で",
+            4
+          ],
+          [
+            " ディス",
+            5
+          ],
+          [
+            "で",
+            9
+          ],
+          [
+            " 浪費",
+            10
+          ],
+          [
+            "の",
+            13
+          ],
+          [
+            " time）",
+            14
+          ],
+          [
+            "一生",
+            20
+          ],
+          [
+            "無い",
+            22
+          ],
+          [
+            " 生涯",
+            24
+          ],
+          [
+            "安泰",
+            27
+          ]
+        ],
+        "gloss": [
+          [
+            "（",
+            0,
+            "("
+          ],
+          [
+            "Tik",
+            1,
+            "Tik(Tok)"
+          ],
+          [
+            "で",
+            4,
+            "with/on"
+          ],
+          [
+            " ディス",
+            5,
+            "dis(s)"
+          ],
+          [
+            "で",
+            9,
+            "with"
+          ],
+          [
+            " 浪費",
+            10,
+            "waste"
+          ],
+          [
+            "の",
+            13,
+            "of"
+          ],
+          [
+            " time",
+            14,
+            "time"
+          ],
+          [
+            "）",
+            19,
+            ")"
+          ],
+          [
+            "一生",
+            20,
+            "whole life"
+          ],
+          [
+            "無い",
+            22,
+            "nothing"
+          ],
+          [
+            " 生涯",
+            24,
+            "lifetime"
+          ],
+          [
+            "安泰",
+            27,
+            "secure/peaceful"
+          ]
+        ],
+        "en": [
+          [
+            "(Tik-ing, dissing",
+            0
+          ],
+          [
+            ", wasting time)",
+            17
+          ],
+          [
+            " — no life forever",
+            32
+          ],
+          [
+            ", a secure existence",
+            50
+          ]
+        ]
+      }
+    },
+    "62.36": {
+      "en": "(Reset, reset, wanna days) — lame, a life of inertia",
+      "align": {
+        "jp": [
+          [
+            "（リセット リセット ",
+            0
+          ],
+          [
+            "したい",
+            11
+          ],
+          [
+            " days）",
+            14
+          ],
+          [
+            "だっせえ",
+            20
+          ],
+          [
+            " 惰性",
+            24
+          ],
+          [
+            "の",
+            27
+          ],
+          [
+            " life",
+            28
+          ]
+        ],
+        "gloss": [
+          [
+            "（",
+            0,
+            "("
+          ],
+          [
+            "リセット",
+            1,
+            "reset"
+          ],
+          [
+            " リセット",
+            5,
+            "reset"
+          ],
+          [
+            " ",
+            10,
+            ""
+          ],
+          [
+            "したい",
+            11,
+            "wanna do"
+          ],
+          [
+            " days",
+            14,
+            "days"
+          ],
+          [
+            "）",
+            19,
+            ")"
+          ],
+          [
+            "だっせえ",
+            20,
+            "lame/uncool"
+          ],
+          [
+            " 惰性",
+            24,
+            "inertia"
+          ],
+          [
+            "の",
+            27,
+            "of"
+          ],
+          [
+            " life",
+            28,
+            "life"
+          ]
+        ],
+        "en": [
+          [
+            "(Reset, reset",
+            0
+          ],
+          [
+            ", wanna days)",
+            13
+          ],
+          [
+            " — lame",
+            26
+          ],
+          [
+            ", a life of inertia",
+            33
+          ]
+        ]
+      }
+    },
+    "65.97": {
+      "en": "(Sick, messed up, scared, it's rough) — wanna live in ease, my pride",
+      "align": {
+        "jp": [
+          [
+            "（死苦",
+            0
+          ],
+          [
+            "で",
+            3
+          ],
+          [
+            " しくって",
+            4
+          ],
+          [
+            " ビビって",
+            9
+          ],
+          [
+            " 辛い）",
+            14
+          ],
+          [
+            "楽して",
+            18
+          ],
+          [
+            "いきたい",
+            21
+          ],
+          [
+            " プライド",
+            25
+          ]
+        ],
+        "gloss": [
+          [
+            "（",
+            0,
+            "("
+          ],
+          [
+            "死苦",
+            1,
+            "sick/death-suffering"
+          ],
+          [
+            "で",
+            3,
+            "with/being"
+          ],
+          [
+            " しくって",
+            4,
+            "messed-up-(te)"
+          ],
+          [
+            " ビビって",
+            9,
+            "scared-(te)"
+          ],
+          [
+            " 辛い",
+            14,
+            "painful/rough"
+          ],
+          [
+            "）",
+            17,
+            ")"
+          ],
+          [
+            "楽して",
+            18,
+            "easing-(te)"
+          ],
+          [
+            "いきたい",
+            21,
+            "wanna go/live"
+          ],
+          [
+            " プライド",
+            25,
+            "pride"
+          ]
+        ],
+        "en": [
+          [
+            "(Sick, messed up",
+            0
+          ],
+          [
+            ", scared",
+            16
+          ],
+          [
+            ", it's rough)",
+            24
+          ],
+          [
+            " — wanna live in ease",
+            37
+          ],
+          [
+            ", my pride",
+            58
+          ]
+        ]
+      }
+    },
+    "69.79": {
+      "en": "No-labor vibes, obviously — free meals taste great, hooray",
+      "align": {
+        "jp": [
+          [
+            "No 労働 vibes",
+            0
+          ],
+          [
+            " 当然",
+            11
+          ],
+          [
+            " タダ飯",
+            14
+          ],
+          [
+            "は",
+            18
+          ],
+          [
+            "美味いの",
+            19
+          ],
+          [
+            " 万歳",
+            23
+          ]
+        ],
+        "gloss": [
+          [
+            "No",
+            0,
+            "no"
+          ],
+          [
+            " 労働",
+            2,
+            "labor"
+          ],
+          [
+            " vibes",
+            5,
+            "vibes"
+          ],
+          [
+            " 当然",
+            11,
+            "obviously/of course"
+          ],
+          [
+            " タダ飯",
+            14,
+            "free meal"
+          ],
+          [
+            "は",
+            18,
+            "(topic)"
+          ],
+          [
+            "美味い",
+            19,
+            "delicious"
+          ],
+          [
+            "の",
+            22,
+            "(nom.)"
+          ],
+          [
+            " 万歳",
+            23,
+            "hooray"
+          ]
+        ],
+        "en": [
+          [
+            "No-labor vibes",
+            0
+          ],
+          [
+            ", obviously",
+            14
+          ],
+          [
+            " — free meals",
+            25
+          ],
+          [
+            " taste great",
+            38
+          ],
+          [
+            ", hooray",
+            50
+          ]
+        ]
+      }
+    },
+    "73.08": {
+      "en": "Living lazy and sluggish — every day in the futon for life",
+      "align": {
+        "jp": [
+          [
+            "楽して",
+            0
+          ],
+          [
+            " 怠",
+            3
+          ],
+          [
+            " 生活",
+            5
+          ],
+          [
+            " 毎日",
+            8
+          ],
+          [
+            "オフトゥン",
+            11
+          ],
+          [
+            " in",
+            16
+          ],
+          [
+            " 生涯",
+            19
+          ]
+        ],
+        "gloss": [
+          [
+            "楽して",
+            0,
+            "easing-(te)"
+          ],
+          [
+            " 怠",
+            3,
+            "lazy/sluggish"
+          ],
+          [
+            " 生活",
+            5,
+            "life/living"
+          ],
+          [
+            " 毎日",
+            8,
+            "every day"
+          ],
+          [
+            "オフトゥン",
+            11,
+            "futon"
+          ],
+          [
+            " in",
+            16,
+            "in"
+          ],
+          [
+            " 生涯",
+            19,
+            "lifetime"
+          ]
+        ],
+        "en": [
+          [
+            "Living lazy",
+            0
+          ],
+          [
+            " and sluggish",
+            11
+          ],
+          [
+            " — every day",
+            24
+          ],
+          [
+            " in the futon",
+            36
+          ],
+          [
+            " for life",
+            49
+          ]
+        ]
+      }
+    },
+    "76.52": {
+      "en": "Night in my room — getting sick, don't wanna think about the future",
+      "align": {
+        "jp": [
+          [
+            "お部屋",
+            0
+          ],
+          [
+            "で",
+            3
+          ],
+          [
+            " night",
+            4
+          ],
+          [
+            " 病んじゃ",
+            10
+          ],
+          [
+            " 考えちゃ",
+            15
+          ],
+          [
+            "嫌よ",
+            20
+          ],
+          [
+            " 将来",
+            22
+          ]
+        ],
+        "gloss": [
+          [
+            "お部屋",
+            0,
+            "room"
+          ],
+          [
+            "で",
+            3,
+            "at/in"
+          ],
+          [
+            " night",
+            4,
+            "night"
+          ],
+          [
+            " 病んじゃ",
+            10,
+            "get-sick (contr.)"
+          ],
+          [
+            " 考えちゃ",
+            15,
+            "thinking (contr.)"
+          ],
+          [
+            "嫌よ",
+            20,
+            "hate-it-(!)"
+          ],
+          [
+            " 将来",
+            22,
+            "future"
+          ]
+        ],
+        "en": [
+          [
+            "Night in my room",
+            0
+          ],
+          [
+            " — getting sick",
+            16
+          ],
+          [
+            ", don't wanna think",
+            31
+          ],
+          [
+            " about the future",
+            50
+          ]
+        ]
+      }
+    },
+    "80.12": {
+      "en": "Dive into another world in real-time — escape reality, no worries",
+      "align": {
+        "jp": [
+          [
+            "異世界",
+            0
+          ],
+          [
+            "に",
+            3
+          ],
+          [
+            " dive",
+            4
+          ],
+          [
+            " リアタイ",
+            9
+          ],
+          [
+            " 現実逃避",
+            14
+          ],
+          [
+            "で",
+            19
+          ],
+          [
+            "ドンマイ",
+            20
+          ]
+        ],
+        "gloss": [
+          [
+            "異世界",
+            0,
+            "other-world/isekai"
+          ],
+          [
+            "に",
+            3,
+            "to/into"
+          ],
+          [
+            " dive",
+            4,
+            "dive"
+          ],
+          [
+            " リアタイ",
+            9,
+            "real-time"
+          ],
+          [
+            " 現実逃避",
+            14,
+            "reality-escape"
+          ],
+          [
+            "で",
+            19,
+            "by/with"
+          ],
+          [
+            "ドンマイ",
+            20,
+            "don't-mind"
+          ]
+        ],
+        "en": [
+          [
+            "Dive into another world",
+            0
+          ],
+          [
+            " in real-time",
+            23
+          ],
+          [
+            " — escape reality",
+            36
+          ],
+          [
+            ", no worries",
+            53
+          ]
+        ]
+      }
+    },
+    "83.98": {
+      "en": "A dark, crying life — no future to go to",
+      "align": {
+        "jp": [
+          [
+            "暗い",
+            0
+          ],
+          [
+            " cry",
+            2
+          ],
+          [
+            " 人生",
+            6
+          ],
+          [
+            " 行く末",
+            9
+          ],
+          [
+            "も",
+            13
+          ],
+          [
+            "無い",
+            14
+          ]
+        ],
+        "gloss": [
+          [
+            "暗い",
+            0,
+            "dark"
+          ],
+          [
+            " cry",
+            2,
+            "cry"
+          ],
+          [
+            " 人生",
+            6,
+            "life"
+          ],
+          [
+            " 行く末",
+            9,
+            "destination/future"
+          ],
+          [
+            "も",
+            13,
+            "even"
+          ],
+          [
+            "無い",
+            14,
+            "none"
+          ]
+        ],
+        "en": [
+          [
+            "A dark",
+            0
+          ],
+          [
+            ", crying life",
+            6
+          ],
+          [
+            " — no future",
+            19
+          ],
+          [
+            " to go to",
+            31
+          ]
+        ]
+      }
+    },
+    "87.78": {
+      "en": "Not dead, but no meaning in living either",
+      "align": {
+        "jp": [
+          [
+            "死んじゃ",
+            0
+          ],
+          [
+            "いない",
+            4
+          ],
+          [
+            " but",
+            7
+          ],
+          [
+            " 生きる",
+            11
+          ],
+          [
+            "意味",
+            15
+          ],
+          [
+            "も",
+            17
+          ],
+          [
+            "ない",
+            18
+          ]
+        ],
+        "gloss": [
+          [
+            "死んじゃ",
+            0,
+            "dying (contr.)"
+          ],
+          [
+            "いない",
+            4,
+            "not"
+          ],
+          [
+            " but",
+            7,
+            "but"
+          ],
+          [
+            " 生きる",
+            11,
+            "to live"
+          ],
+          [
+            "意味",
+            15,
+            "meaning"
+          ],
+          [
+            "も",
+            17,
+            "even"
+          ],
+          [
+            "ない",
+            18,
+            "none"
+          ]
+        ],
+        "en": [
+          [
+            "Not dead",
+            0
+          ],
+          [
+            ", but no meaning",
+            8
+          ],
+          [
+            " in living",
+            24
+          ],
+          [
+            " either",
+            34
+          ]
+        ]
+      }
+    },
+    "91.30": {
+      "en": "Give up this life, break it — reincarnate please, begging for the best life",
+      "align": {
+        "jp": [
+          [
+            "Give up",
+            0
+          ],
+          [
+            " 今世",
+            7
+          ],
+          [
+            " 壊",
+            10
+          ],
+          [
+            " 転生",
+            12
+          ],
+          [
+            " please",
+            15
+          ],
+          [
+            " 乞う",
+            22
+          ],
+          [
+            " 最高",
+            25
+          ],
+          [
+            " life",
+            28
+          ]
+        ],
+        "gloss": [
+          [
+            "Give up",
+            0,
+            "give up"
+          ],
+          [
+            " 今世",
+            7,
+            "this life"
+          ],
+          [
+            " 壊",
+            10,
+            "break"
+          ],
+          [
+            " 転生",
+            12,
+            "reincarnation"
+          ],
+          [
+            " please",
+            15,
+            "please"
+          ],
+          [
+            " 乞う",
+            22,
+            "beg"
+          ],
+          [
+            " 最高",
+            25,
+            "best/supreme"
+          ],
+          [
+            " life",
+            28,
+            "life"
+          ]
+        ],
+        "en": [
+          [
+            "Give up this life",
+            0
+          ],
+          [
+            ", break it",
+            17
+          ],
+          [
+            " — reincarnate please",
+            27
+          ],
+          [
+            ", begging",
+            48
+          ],
+          [
+            " for the best life",
+            57
+          ]
+        ]
+      }
+    },
+    "95.00": {
+      "en": "Wanna throw down easy mode — versus a lazy whole life, am I done for?",
+      "align": {
+        "jp": [
+          [
+            "イージーモード",
+            0
+          ],
+          [
+            " かましたい",
+            7
+          ],
+          [
+            " 対",
+            13
+          ],
+          [
+            " 怠惰な",
+            15
+          ],
+          [
+            "一生",
+            19
+          ],
+          [
+            " もう廃？",
+            21
+          ]
+        ],
+        "gloss": [
+          [
+            "イージーモード",
+            0,
+            "easy mode"
+          ],
+          [
+            " かましたい",
+            7,
+            "wanna pull-off"
+          ],
+          [
+            " 対",
+            13,
+            "versus"
+          ],
+          [
+            " 怠惰な",
+            15,
+            "lazy/indolent"
+          ],
+          [
+            "一生",
+            19,
+            "whole life"
+          ],
+          [
+            " もう",
+            21,
+            "already"
+          ],
+          [
+            "廃？",
+            24,
+            "done-for/wrecked?"
+          ]
+        ],
+        "en": [
+          [
+            "Wanna throw down easy mode",
+            0
+          ],
+          [
+            " — versus a lazy",
+            26
+          ],
+          [
+            " whole life",
+            42
+          ],
+          [
+            ", am I done for?",
+            53
+          ]
+        ]
+      }
+    },
+    "98.56": {
+      "en": "Give up this life, pity me — reincarnate please, a gloomy existence",
+      "align": {
+        "jp": [
+          [
+            "Give up",
+            0
+          ],
+          [
+            " 今世",
+            7
+          ],
+          [
+            " 哀",
+            10
+          ],
+          [
+            " 転生",
+            12
+          ],
+          [
+            " please",
+            15
+          ],
+          [
+            " 陰な",
+            22
+          ],
+          [
+            "生涯",
+            25
+          ]
+        ],
+        "gloss": [
+          [
+            "Give up",
+            0,
+            "give up"
+          ],
+          [
+            " 今世",
+            7,
+            "this life"
+          ],
+          [
+            " 哀",
+            10,
+            "pity/sorrow"
+          ],
+          [
+            " 転生",
+            12,
+            "reincarnation"
+          ],
+          [
+            " please",
+            15,
+            "please"
+          ],
+          [
+            " 陰な",
+            22,
+            "gloomy/shady"
+          ],
+          [
+            "生涯",
+            25,
+            "lifetime/existence"
+          ]
+        ],
+        "en": [
+          [
+            "Give up this life",
+            0
+          ],
+          [
+            ", pity me",
+            17
+          ],
+          [
+            " — reincarnate please",
+            26
+          ],
+          [
+            ", a gloomy existence",
+            47
+          ]
+        ]
+      }
+    },
+    "102.23": {
+      "en": "Wanna be equipped with talent, charm, beauty — got none; life's a mess, a crap game, ahh, it hurts",
+      "align": {
+        "jp": [
+          [
+            "才 愛嬌 美",
+            0
+          ],
+          [
+            " 備えたい",
+            6
+          ],
+          [
+            " 無い",
+            11
+          ],
+          [
+            " 人生",
+            14
+          ],
+          [
+            "散々",
+            17
+          ],
+          [
+            " クソゲー",
+            19
+          ],
+          [
+            "で",
+            24
+          ],
+          [
+            " はあ",
+            25
+          ],
+          [
+            " 痛い",
+            28
+          ]
+        ],
+        "gloss": [
+          [
+            "才",
+            0,
+            "talent"
+          ],
+          [
+            " 愛嬌",
+            1,
+            "charm"
+          ],
+          [
+            " 美",
+            4,
+            "beauty"
+          ],
+          [
+            " 備えたい",
+            6,
+            "wanna be-equipped-with"
+          ],
+          [
+            " 無い",
+            11,
+            "none"
+          ],
+          [
+            " 人生",
+            14,
+            "life"
+          ],
+          [
+            "散々",
+            17,
+            "terrible/a mess"
+          ],
+          [
+            " クソゲー",
+            19,
+            "crappy game"
+          ],
+          [
+            "で",
+            24,
+            "being/with"
+          ],
+          [
+            " はあ",
+            25,
+            "ahh"
+          ],
+          [
+            " 痛い",
+            28,
+            "painful"
+          ]
+        ],
+        "en": [
+          [
+            "Wanna be equipped with talent",
+            0
+          ],
+          [
+            ", charm, beauty",
+            29
+          ],
+          [
+            " — got none",
+            44
+          ],
+          [
+            "; life's a mess",
+            55
+          ],
+          [
+            ", a crap game",
+            70
+          ],
+          [
+            ", ahh, it hurts",
+            83
+          ]
+        ]
+      }
+    },
+    "113.46": {
+      "en": "Wanna be rich — wanna lose weight without any effort",
+      "align": {
+        "jp": [
+          [
+            "お金持ち",
+            0
+          ],
+          [
+            "なりたい",
+            4
+          ],
+          [
+            " 努力",
+            8
+          ],
+          [
+            "せず",
+            11
+          ],
+          [
+            "痩せたい",
+            13
+          ]
+        ],
+        "gloss": [
+          [
+            "お金持ち",
+            0,
+            "rich-person"
+          ],
+          [
+            "なりたい",
+            4,
+            "wanna become"
+          ],
+          [
+            " 努力",
+            8,
+            "effort"
+          ],
+          [
+            "せず",
+            11,
+            "without-doing"
+          ],
+          [
+            "痩せたい",
+            13,
+            "wanna lose-weight"
+          ]
+        ],
+        "en": [
+          [
+            "Wanna be rich",
+            0
+          ],
+          [
+            " — wanna lose weight",
+            13
+          ],
+          [
+            " without any effort",
+            33
+          ]
+        ]
+      }
+    },
+    "116.92": {
+      "en": "Wanna try getting fawned over — please, oh my god!",
+      "align": {
+        "jp": [
+          [
+            "チヤホヤされてみたい",
+            0
+          ],
+          [
+            " お願い",
+            10
+          ],
+          [
+            " please, oh my got!",
+            14
+          ]
+        ],
+        "gloss": [
+          [
+            "チヤホヤ",
+            0,
+            "pamper/fawn-over"
+          ],
+          [
+            "されて",
+            4,
+            "be-done-(te)"
+          ],
+          [
+            "みたい",
+            7,
+            "want-to-try"
+          ],
+          [
+            " お願い",
+            10,
+            "please/request"
+          ],
+          [
+            " please, oh my got!",
+            14,
+            "please oh my god(t)"
+          ]
+        ],
+        "en": [
+          [
+            "Wanna try getting fawned over",
+            0
+          ],
+          [
+            " — please",
+            29
+          ],
+          [
+            ", oh my god!",
+            38
+          ]
+        ]
+      }
+    },
+    "120.75": {
+      "en": "Gimme natural-born talent — gimme that palm-flip reversal",
+      "align": {
+        "jp": [
+          [
+            "天性",
+            0
+          ],
+          [
+            "の",
+            2
+          ],
+          [
+            "才",
+            3
+          ],
+          [
+            "を",
+            4
+          ],
+          [
+            "ちょうだい",
+            5
+          ],
+          [
+            " 手のひら返し",
+            10
+          ],
+          [
+            "ちょうだい",
+            17
+          ]
+        ],
+        "gloss": [
+          [
+            "天性",
+            0,
+            "natural-born"
+          ],
+          [
+            "の",
+            2,
+            "of"
+          ],
+          [
+            "才",
+            3,
+            "talent"
+          ],
+          [
+            "を",
+            4,
+            "(obj)"
+          ],
+          [
+            "ちょうだい",
+            5,
+            "gimme"
+          ],
+          [
+            " 手のひら返し",
+            10,
+            "palm-flip/reversal"
+          ],
+          [
+            "ちょうだい",
+            17,
+            "gimme"
+          ]
+        ],
+        "en": [
+          [
+            "Gimme natural-born talent",
+            0
+          ],
+          [
+            " — gimme that palm-flip reversal",
+            25
+          ]
+        ]
+      }
+    },
+    "124.35": {
+      "en": "I've hit my limit with this world — just wishing won't change anything",
+      "align": {
+        "jp": [
+          [
+            "こんな",
+            0
+          ],
+          [
+            "世界",
+            3
+          ],
+          [
+            "に",
+            5
+          ],
+          [
+            "限界",
+            6
+          ],
+          [
+            " 願う",
+            8
+          ],
+          [
+            "だけ",
+            11
+          ],
+          [
+            "じゃ",
+            13
+          ],
+          [
+            " 変われない",
+            15
+          ]
+        ],
+        "gloss": [
+          [
+            "こんな",
+            0,
+            "this-kind-of"
+          ],
+          [
+            "世界",
+            3,
+            "world"
+          ],
+          [
+            "に",
+            5,
+            "to/with"
+          ],
+          [
+            "限界",
+            6,
+            "limit"
+          ],
+          [
+            " 願う",
+            8,
+            "to wish"
+          ],
+          [
+            "だけ",
+            11,
+            "only"
+          ],
+          [
+            "じゃ",
+            13,
+            "with (cont.)"
+          ],
+          [
+            " 変われない",
+            15,
+            "can't change"
+          ],
+          [
+            "",
+            21,
+            ""
+          ]
+        ],
+        "en": [
+          [
+            "I've hit my limit",
+            0
+          ],
+          [
+            " with this world",
+            17
+          ],
+          [
+            " — just wishing",
+            33
+          ],
+          [
+            " won't change anything",
+            48
+          ]
+        ]
+      }
+    },
+    "129.58": {
+      "en": "Give up this life, break it — reincarnate please, begging for the best life",
+      "align": {
+        "jp": [
+          [
+            "Give up",
+            0
+          ],
+          [
+            " 今世",
+            7
+          ],
+          [
+            " 壊",
+            10
+          ],
+          [
+            " 転生",
+            12
+          ],
+          [
+            " please",
+            15
+          ],
+          [
+            " 乞う",
+            22
+          ],
+          [
+            " 最高",
+            25
+          ],
+          [
+            " life",
+            28
+          ]
+        ],
+        "gloss": [
+          [
+            "Give up",
+            0,
+            "give up"
+          ],
+          [
+            " 今世",
+            7,
+            "this life"
+          ],
+          [
+            " 壊",
+            10,
+            "break"
+          ],
+          [
+            " 転生",
+            12,
+            "reincarnation"
+          ],
+          [
+            " please",
+            15,
+            "please"
+          ],
+          [
+            " 乞う",
+            22,
+            "beg"
+          ],
+          [
+            " 最高",
+            25,
+            "best/supreme"
+          ],
+          [
+            " life",
+            28,
+            "life"
+          ]
+        ],
+        "en": [
+          [
+            "Give up this life",
+            0
+          ],
+          [
+            ", break it",
+            17
+          ],
+          [
+            " — reincarnate please",
+            27
+          ],
+          [
+            ", begging",
+            48
+          ],
+          [
+            " for the best life",
+            57
+          ]
+        ]
+      }
+    },
+    "133.17": {
+      "en": "Hard mode timeline — a one-shot comeback, accelerator floored, this life transformed",
+      "align": {
+        "jp": [
+          [
+            "ハードモード",
+            0
+          ],
+          [
+            " 世界線",
+            6
+          ],
+          [
+            " 一発逆転",
+            10
+          ],
+          [
+            " アクセル全開",
+            15
+          ],
+          [
+            " 今世",
+            22
+          ],
+          [
+            " 変",
+            25
+          ]
+        ],
+        "gloss": [
+          [
+            "ハードモード",
+            0,
+            "hard mode"
+          ],
+          [
+            " 世界線",
+            6,
+            "world-line/timeline"
+          ],
+          [
+            " 一発逆転",
+            10,
+            "one-shot reversal"
+          ],
+          [
+            " アクセル",
+            15,
+            "accelerator"
+          ],
+          [
+            "全開",
+            20,
+            "full-open/floored"
+          ],
+          [
+            " 今世",
+            22,
+            "this life"
+          ],
+          [
+            " 変",
+            25,
+            "change/strange"
+          ]
+        ],
+        "en": [
+          [
+            "Hard mode timeline",
+            0
+          ],
+          [
+            " — a one-shot comeback",
+            18
+          ],
+          [
+            ", accelerator floored",
+            40
+          ],
+          [
+            ", this life transformed",
+            61
+          ]
+        ]
+      }
+    },
+    "138.36": {
+      "en": "Reincarnation — opening act, showtime",
+      "align": {
+        "jp": [
+          [
+            "転生",
+            0
+          ],
+          [
+            " 開幕",
+            2
+          ],
+          [
+            "さ",
+            5
+          ],
+          [
+            " showtime",
+            6
+          ]
+        ],
+        "gloss": [
+          [
+            "転生",
+            0,
+            "reincarnation"
+          ],
+          [
+            " 開幕",
+            2,
+            "curtain-raising/opening"
+          ],
+          [
+            "さ",
+            5,
+            "(sentence-end)"
+          ],
+          [
+            " showtime",
+            6,
+            "showtime"
+          ]
+        ],
+        "en": [
+          [
+            "Reincarnation",
+            0
+          ],
+          [
+            " — opening act",
+            13
+          ],
+          [
+            ", showtime",
+            27
+          ]
+        ]
+      }
+    },
+    "140.47": {
+      "en": "Talent, charm, beauty — a reversal; crappy life, bye-bye; the signal of the jackpot flip",
+      "align": {
+        "jp": [
+          [
+            "才 愛嬌 美",
+            0
+          ],
+          [
+            " 逆転",
+            6
+          ],
+          [
+            " ダメ人生",
+            9
+          ],
+          [
+            " バイバイ",
+            14
+          ],
+          [
+            " 確変",
+            19
+          ],
+          [
+            "の",
+            22
+          ],
+          [
+            "合図",
+            23
+          ]
+        ],
+        "gloss": [
+          [
+            "才",
+            0,
+            "talent"
+          ],
+          [
+            " 愛嬌",
+            1,
+            "charm"
+          ],
+          [
+            " 美",
+            4,
+            "beauty"
+          ],
+          [
+            " 逆転",
+            6,
+            "reversal"
+          ],
+          [
+            " ダメ",
+            9,
+            "hopeless/no-good"
+          ],
+          [
+            "人生",
+            12,
+            "life"
+          ],
+          [
+            " バイバイ",
+            14,
+            "bye-bye"
+          ],
+          [
+            " 確変",
+            19,
+            "jackpot-flip"
+          ],
+          [
+            "の",
+            22,
+            "of"
+          ],
+          [
+            "合図",
+            23,
+            "signal/cue"
+          ]
+        ],
+        "en": [
+          [
+            "Talent, charm, beauty",
+            0
+          ],
+          [
+            " — a reversal",
+            21
+          ],
+          [
+            "; crappy life",
+            34
+          ],
+          [
+            ", bye-bye",
+            47
+          ],
+          [
+            "; the signal of the jackpot flip",
+            56
+          ]
+        ]
+      }
+    },
+    "146.17": {
+      "en": "Is that place heaven, or hell?",
+      "align": {
+        "jp": [
+          [
+            "そこ",
+            0
+          ],
+          [
+            "は",
+            2
+          ],
+          [
+            "天国",
+            3
+          ],
+          [
+            "か",
+            5
+          ],
+          [
+            "地獄",
+            6
+          ],
+          [
+            "か",
+            8
+          ]
+        ],
+        "gloss": [
+          [
+            "そこ",
+            0,
+            "that place"
+          ],
+          [
+            "は",
+            2,
+            "(topic)"
+          ],
+          [
+            "天国",
+            3,
+            "heaven"
+          ],
+          [
+            "か",
+            5,
+            "or/(?)"
+          ],
+          [
+            "地獄",
+            6,
+            "hell"
+          ],
+          [
+            "か",
+            8,
+            "or/(?)"
+          ]
+        ],
+        "en": [
+          [
+            "Is that place",
+            0
+          ],
+          [
+            " heaven",
+            13
+          ],
+          [
+            ", or hell",
+            20
+          ],
+          [
+            "?",
+            29
+          ]
+        ]
+      }
+    },
+    "149.72": {
+      "en": "Pain itself is life — feel alive!",
+      "align": {
+        "jp": [
+          [
+            "痛み",
+            0
+          ],
+          [
+            "こそ",
+            2
+          ],
+          [
+            " 生",
+            4
+          ],
+          [
+            " feel alive!",
+            6
+          ]
+        ],
+        "gloss": [
+          [
+            "痛み",
+            0,
+            "pain"
+          ],
+          [
+            "こそ",
+            2,
+            "indeed/itself"
+          ],
+          [
+            " 生",
+            4,
+            "life/living"
+          ],
+          [
+            " feel alive!",
+            6,
+            "feel alive!"
+          ]
+        ],
+        "en": [
+          [
+            "Pain itself",
+            0
+          ],
+          [
+            " is life",
+            11
+          ],
+          [
+            " — feel alive!",
+            19
+          ]
+        ]
+      }
+    },
+    "153.51": {
+      "en": "Is that place heaven, or hell?",
+      "align": {
+        "jp": [
+          [
+            "そこ",
+            0
+          ],
+          [
+            "は",
+            2
+          ],
+          [
+            "天国",
+            3
+          ],
+          [
+            "か",
+            5
+          ],
+          [
+            "地獄",
+            6
+          ],
+          [
+            "か",
+            8
+          ]
+        ],
+        "gloss": [
+          [
+            "そこ",
+            0,
+            "that place"
+          ],
+          [
+            "は",
+            2,
+            "(topic)"
+          ],
+          [
+            "天国",
+            3,
+            "heaven"
+          ],
+          [
+            "か",
+            5,
+            "or/(?)"
+          ],
+          [
+            "地獄",
+            6,
+            "hell"
+          ],
+          [
+            "か",
+            8,
+            "or/(?)"
+          ]
+        ],
+        "en": [
+          [
+            "Is that place",
+            0
+          ],
+          [
+            " heaven",
+            13
+          ],
+          [
+            ", or hell",
+            20
+          ],
+          [
+            "?",
+            29
+          ]
+        ]
+      }
+    },
+    "156.55": {
+      "en": "Still now — drive toward this life's strange reincarnation",
+      "en_note": "",
+      "align": {
+        "jp": [
+          [
+            "いまだ",
+            0
+          ],
+          [
+            " 今世",
+            3
+          ],
+          [
+            " 変",
+            6
+          ],
+          [
+            "の",
+            8
+          ],
+          [
+            "転生",
+            9
+          ],
+          [
+            "へ",
+            11
+          ],
+          [
+            " drive",
+            12
+          ]
+        ],
+        "gloss": [
+          [
+            "いまだ",
+            0,
+            "still/yet"
+          ],
+          [
+            " 今世",
+            3,
+            "this life"
+          ],
+          [
+            " 変",
+            6,
+            "strange/change"
+          ],
+          [
+            "の",
+            8,
+            "of"
+          ],
+          [
+            "転生",
+            9,
+            "reincarnation"
+          ],
+          [
+            "へ",
+            11,
+            "toward"
+          ],
+          [
+            " drive",
+            12,
+            "drive"
+          ]
+        ],
+        "en": [
+          [
+            "Still now",
+            0
+          ],
+          [
+            " — drive",
+            9
+          ],
+          [
+            " toward this life's",
+            17
+          ],
+          [
+            " strange reincarnation",
+            36
+          ]
+        ]
+      }
+    }
+  }
+}
