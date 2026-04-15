@@ -1,0 +1,539 @@
+{
+  "6554791": {
+    "9.89": {
+      "en": "The train that links the scattered cities has gone and left us, hasn't it",
+      "align": {
+        "jp": [["離れ離れの街を", 0], ["繋ぐ列車は", 1], ["行ってしまったね", 2]],
+        "gloss": [
+          ["離れ離れ", 0, "scattered"],
+          ["の", 0, "of"],
+          ["街", 0, "cities"],
+          ["を", 0, "(obj)"],
+          ["繋ぐ", 1, "link"],
+          ["列車", 1, "train"],
+          ["は", 1, "(topic)"],
+          ["行って", 2, "going"],
+          ["しまった", 2, "has (regret)"],
+          ["ね", 2, "right?"]
+        ],
+        "en": [["The train", 1], [" that links the scattered cities", 0], [" has gone and left us, hasn't it", 2]]
+      }
+    },
+    "16.27": {
+      "en": "If you don't know the words you've lost",
+      "align": {
+        "jp": [["失くした", 0], ["言葉を", 1], ["知らないなら", 2]],
+        "gloss": [
+          ["失くした", 0, "lost"],
+          ["言葉", 1, "words"],
+          ["を", 1, "(obj)"],
+          ["知らない", 2, "don't know"],
+          ["なら", 2, "if"]
+        ],
+        "en": [["If you don't know", 2], [" the words", 1], [" you've lost", 0]]
+      }
+    },
+    "19.65": {
+      "en": "clutch them tight in your pocket",
+      "align": {
+        "jp": [["ポケットで", 0], ["握りしめて", 1]],
+        "gloss": [
+          ["ポケット", 0, "pocket"],
+          ["で", 0, "in"],
+          ["握りしめて", 1, "clutch-tight"]
+        ],
+        "en": [["clutch them tight", 1], [" in your pocket", 0]]
+      }
+    },
+    "22.93": {
+      "en": "Throw away the breath you struggled for, and sleep through today as it stretches on — just fake it",
+      "align": {
+        "jp": [["あがいた息を", 0], ["捨てて", 1], ["延びる今日は", 2], ["眠って", 3], ["誤魔化せ", 4]],
+        "gloss": [
+          ["あがいた", 0, "struggled-for"],
+          ["息", 0, "breath"],
+          ["を", 0, "(obj)"],
+          ["捨てて", 1, "throw-away and"],
+          ["延びる", 2, "stretches"],
+          ["今日", 2, "today"],
+          ["は", 2, "(topic)"],
+          ["眠って", 3, "sleep and"],
+          ["誤魔化せ", 4, "fake-it!"]
+        ],
+        "en": [["Throw away", 1], [" the breath you struggled for", 0], [", and sleep through", 3], [" today as it stretches on", 2], [" — just fake it", 4]]
+      }
+    },
+    "29.24": {
+      "en": "If you don't know the words you've lost",
+      "align": {
+        "jp": [["失くした", 0], ["言葉を", 1], ["知らないなら", 2]],
+        "gloss": [
+          ["失くした", 0, "lost"],
+          ["言葉", 1, "words"],
+          ["を", 1, "(obj)"],
+          ["知らない", 2, "don't know"],
+          ["なら", 2, "if"]
+        ],
+        "en": [["If you don't know", 2], [" the words", 1], [" you've lost", 0]]
+      }
+    },
+    "32.60": {
+      "en": "board the local train (every-stop train), and…",
+      "align": {
+        "jp": [["各駅停車に", 0], ["乗り込んで", 1]],
+        "gloss": [
+          ["各駅停車", 0, "local-train"],
+          ["に", 0, "into"],
+          ["乗り込んで", 1, "board and"]
+        ],
+        "en": [["board", 1], [" the local train (every-stop train), and…", 0]]
+      }
+    },
+    "48.98": {
+      "en": "Turning down the invitations of evening and boredom,",
+      "align": {
+        "jp": [["夕方と", 0], ["退屈の", 1], ["お誘いを", 2], ["断って", 3]],
+        "gloss": [
+          ["夕方", 0, "evening"],
+          ["と", 0, "and"],
+          ["退屈", 1, "boredom"],
+          ["の", 1, "of"],
+          ["お誘い", 2, "invitation"],
+          ["を", 2, "(obj)"],
+          ["断って", 3, "refuse and"]
+        ],
+        "en": [["Turning down", 3], [" the invitations", 2], [" of evening", 0], [" and boredom", 1], [",", 3]]
+      }
+    },
+    "55.54": {
+      "en": "all alone,",
+      "align": {
+        "jp": [["一人きり", 0]],
+        "gloss": [
+          ["一人きり", 0, "all-alone"]
+        ],
+        "en": [["all alone,", 0]]
+      }
+    },
+    "57.79": {
+      "en": "in the back alleys, don't ever hurry",
+      "align": {
+        "jp": [["路地裏は", 0], ["決して", 1], ["急がないで", 2]],
+        "gloss": [
+          ["路地裏", 0, "back-alley"],
+          ["は", 0, "(topic)"],
+          ["決して", 1, "never"],
+          ["急がないで", 2, "don't-hurry"]
+        ],
+        "en": [["in the back alleys", 0], [", don't", 2], [" ever", 1], [" hurry", 2]]
+      }
+    },
+    "61.43": {
+      "en": "Look — even the crosswalk is saying \"wait for me\"",
+      "align": {
+        "jp": [["ほら", 0], [" 横断歩道も", 1], ["待ってくれと", 2], ["言ってる", 3]],
+        "gloss": [
+          ["ほら", 0, "look"],
+          [" 横断歩道", 1, "crosswalk"],
+          ["も", 1, "also"],
+          ["待ってくれ", 2, "please-wait"],
+          ["と", 2, "(quote)"],
+          ["言ってる", 3, "is-saying"]
+        ],
+        "en": [["Look —", 0], [" even the crosswalk", 1], [" is saying", 3], [" \"wait for me\"", 2]]
+      }
+    },
+    "68.29": {
+      "en": "The street corners that watch over you keep holding you back",
+      "align": {
+        "jp": [["見張る", 0], ["街角が", 1], ["あなたを", 2], ["引き留めてく", 3]],
+        "gloss": [
+          ["見張る", 0, "watching"],
+          ["街角", 1, "street-corner"],
+          ["が", 1, "(subj)"],
+          ["あなた", 2, "you"],
+          ["を", 2, "(obj)"],
+          ["引き留めてく", 3, "keep-holding-back"]
+        ],
+        "en": [["The street corners", 1], [" that watch over", 0], [" you", 2], [" keep holding you back", 3]]
+      }
+    },
+    "75.01": {
+      "en": "The train that links the scattered cities has gone and left us, hasn't it",
+      "align": {
+        "jp": [["離れ離れの街を", 0], ["繋ぐ列車は", 1], ["行ってしまったね", 2]],
+        "gloss": [
+          ["離れ離れ", 0, "scattered"],
+          ["の", 0, "of"],
+          ["街", 0, "cities"],
+          ["を", 0, "(obj)"],
+          ["繋ぐ", 1, "link"],
+          ["列車", 1, "train"],
+          ["は", 1, "(topic)"],
+          ["行って", 2, "going"],
+          ["しまった", 2, "has (regret)"],
+          ["ね", 2, "right?"]
+        ],
+        "en": [["The train", 1], [" that links the scattered cities", 0], [" has gone and left us, hasn't it", 2]]
+      }
+    },
+    "81.66": {
+      "en": "If you don't know the words you've lost",
+      "align": {
+        "jp": [["失くした", 0], ["言葉を", 1], ["知らないなら", 2]],
+        "gloss": [
+          ["失くした", 0, "lost"],
+          ["言葉", 1, "words"],
+          ["を", 1, "(obj)"],
+          ["知らない", 2, "don't know"],
+          ["なら", 2, "if"]
+        ],
+        "en": [["If you don't know", 2], [" the words", 1], [" you've lost", 0]]
+      }
+    },
+    "84.95": {
+      "en": "clutch them tight in your pocket",
+      "align": {
+        "jp": [["ポケットで", 0], ["握りしめて", 1]],
+        "gloss": [
+          ["ポケット", 0, "pocket"],
+          ["で", 0, "in"],
+          ["握りしめて", 1, "clutch-tight"]
+        ],
+        "en": [["clutch them tight", 1], [" in your pocket", 0]]
+      }
+    },
+    "88.26": {
+      "en": "Throw away the dream you struggled for, and sleep through today as it sways — just fake it",
+      "align": {
+        "jp": [["あがいた夢を", 0], ["捨てて", 1], ["揺れる今日は", 2], ["眠って", 3], ["誤魔化せ", 4]],
+        "gloss": [
+          ["あがいた", 0, "struggled-for"],
+          ["夢", 0, "dream"],
+          ["を", 0, "(obj)"],
+          ["捨てて", 1, "throw-away and"],
+          ["揺れる", 2, "sways"],
+          ["今日", 2, "today"],
+          ["は", 2, "(topic)"],
+          ["眠って", 3, "sleep and"],
+          ["誤魔化せ", 4, "fake-it!"]
+        ],
+        "en": [["Throw away", 1], [" the dream you struggled for", 0], [", and sleep through", 3], [" today as it sways", 2], [" — just fake it", 4]]
+      }
+    },
+    "94.52": {
+      "en": "If you don't know the words you've lost",
+      "align": {
+        "jp": [["失くした", 0], ["言葉を", 1], ["知らないなら", 2]],
+        "gloss": [
+          ["失くした", 0, "lost"],
+          ["言葉", 1, "words"],
+          ["を", 1, "(obj)"],
+          ["知らない", 2, "don't know"],
+          ["なら", 2, "if"]
+        ],
+        "en": [["If you don't know", 2], [" the words", 1], [" you've lost", 0]]
+      }
+    },
+    "98.05": {
+      "en": "board the local train (every-stop train), and…",
+      "align": {
+        "jp": [["各駅停車に", 0], ["乗り込んで", 1]],
+        "gloss": [
+          ["各駅停車", 0, "local-train"],
+          ["に", 0, "into"],
+          ["乗り込んで", 1, "board and"]
+        ],
+        "en": [["board", 1], [" the local train (every-stop train), and…", 0]]
+      }
+    },
+    "114.13": {
+      "en": "The evening station platform gets terribly crowded,",
+      "align": {
+        "jp": [["夕方の", 0], ["駅のホームは", 1], ["ひどく", 2], ["混み合って", 3]],
+        "gloss": [
+          ["夕方", 0, "evening"],
+          ["の", 0, "of"],
+          ["駅", 1, "station"],
+          ["の", 1, "of"],
+          ["ホーム", 1, "platform"],
+          ["は", 1, "(topic)"],
+          ["ひどく", 2, "terribly"],
+          ["混み合って", 3, "gets-crowded and"]
+        ],
+        "en": [["The evening", 0], [" station platform", 1], [" gets", 3], [" terribly", 2], [" crowded,", 3]]
+      }
+    },
+    "120.52": {
+      "en": "and wanting to rest until I can have it all to myself,",
+      "align": {
+        "jp": [["ひとり占め", 0], ["できるまで", 1], ["休憩して", 2], ["欲しくて", 3]],
+        "gloss": [
+          ["ひとり占め", 0, "having-to-oneself"],
+          ["できる", 1, "can-do"],
+          ["まで", 1, "until"],
+          ["休憩して", 2, "rest and"],
+          ["欲しくて", 3, "wanting and"]
+        ],
+        "en": [["and wanting", 3], [" to rest", 2], [" until I can", 1], [" have it all to myself,", 0]]
+      }
+    },
+    "126.84": {
+      "en": "once again, the group dismissal is hurrying you along",
+      "align": {
+        "jp": [["また", 0], [" 集団下校が", 1], ["あなたを", 2], ["急かしている", 3]],
+        "gloss": [
+          ["また", 0, "again"],
+          [" 集団下校", 1, "group-dismissal"],
+          ["が", 1, "(subj)"],
+          ["あなた", 2, "you"],
+          ["を", 2, "(obj)"],
+          ["急かしている", 3, "is-hurrying-along"]
+        ],
+        "en": [["once again,", 0], [" the group dismissal", 1], [" is hurrying", 3], [" you", 2], [" along", 3]]
+      }
+    },
+    "139.90": {
+      "en": "Look — even the automatic ticket gate is saying \"wait for me\"",
+      "align": {
+        "jp": [["ほら", 0], [" 自動改札は", 1], ["待ってくれと", 2], ["言ってる", 3]],
+        "gloss": [
+          ["ほら", 0, "look"],
+          [" 自動改札", 1, "automatic-ticket-gate"],
+          ["は", 1, "(topic)"],
+          ["待ってくれ", 2, "please-wait"],
+          ["と", 2, "(quote)"],
+          ["言ってる", 3, "is-saying"]
+        ],
+        "en": [["Look —", 0], [" even the automatic ticket gate", 1], [" is saying", 3], [" \"wait for me\"", 2]]
+      }
+    },
+    "146.40": {
+      "en": "Your full hands keep holding you back",
+      "align": {
+        "jp": [["塞がる", 0], ["両手が", 1], ["あなたを", 2], ["引き留めてく", 3]],
+        "gloss": [
+          ["塞がる", 0, "blocked-up"],
+          ["両手", 1, "both-hands"],
+          ["が", 1, "(subj)"],
+          ["あなた", 2, "you"],
+          ["を", 2, "(obj)"],
+          ["引き留めてく", 3, "keep-holding-back"]
+        ],
+        "en": [["Your", 1], [" full", 0], [" hands", 1], [" keep holding", 3], [" you", 2], [" back", 3]]
+      }
+    },
+    "153.32": {
+      "en": "Throw away the dream you struggled for, and sleep through today as it sways — just fake it",
+      "align": {
+        "jp": [["あがいた夢を", 0], ["捨てて", 1], ["揺れる今日は", 2], ["眠って", 3], ["誤魔化せ", 4]],
+        "gloss": [
+          ["あがいた", 0, "struggled-for"],
+          ["夢", 0, "dream"],
+          ["を", 0, "(obj)"],
+          ["捨てて", 1, "throw-away and"],
+          ["揺れる", 2, "sways"],
+          ["今日", 2, "today"],
+          ["は", 2, "(topic)"],
+          ["眠って", 3, "sleep and"],
+          ["誤魔化せ", 4, "fake-it!"]
+        ],
+        "en": [["Throw away", 1], [" the dream you struggled for", 0], [", and sleep through", 3], [" today as it sways", 2], [" — just fake it", 4]]
+      }
+    },
+    "160.02": {
+      "en": "If you don't know the words you've lost",
+      "align": {
+        "jp": [["失くした", 0], ["言葉を", 1], ["知らないなら", 2]],
+        "gloss": [
+          ["失くした", 0, "lost"],
+          ["言葉", 1, "words"],
+          ["を", 1, "(obj)"],
+          ["知らない", 2, "don't know"],
+          ["なら", 2, "if"]
+        ],
+        "en": [["If you don't know", 2], [" the words", 1], [" you've lost", 0]]
+      }
+    },
+    "163.33": {
+      "en": "board the local train (every-stop train), and…",
+      "align": {
+        "jp": [["各駅停車に", 0], ["乗り込んで", 1]],
+        "gloss": [
+          ["各駅停車", 0, "local-train"],
+          ["に", 0, "into"],
+          ["乗り込んで", 1, "board and"]
+        ],
+        "en": [["board", 1], [" the local train (every-stop train), and…", 0]]
+      }
+    },
+    "180.09": {
+      "en": "The train that links city to distant city —",
+      "align": {
+        "jp": [["離れた", 0], ["街と街を", 1], ["繋ぐ", 2], ["列車が", 3]],
+        "gloss": [
+          ["離れた", 0, "distant"],
+          ["街", 1, "city"],
+          ["と", 1, "and"],
+          ["街", 1, "city"],
+          ["を", 1, "(obj)"],
+          ["繋ぐ", 2, "links"],
+          ["列車", 3, "train"],
+          ["が", 3, "(subj)"]
+        ],
+        "en": [["The train", 3], [" that links", 2], [" city to", 1], [" distant", 0], [" city —", 1]]
+      }
+    },
+    "186.38": {
+      "en": "please don't get blown away by the wind that called you — please stay",
+      "align": {
+        "jp": [["呼んだ風に", 0], ["飛ばされないで", 1], ["いてくれ", 2]],
+        "gloss": [
+          ["呼んだ", 0, "called"],
+          ["風", 0, "wind"],
+          ["に", 0, "by"],
+          ["飛ばされないで", 1, "don't-be-blown-away"],
+          ["いてくれ", 2, "please-stay"]
+        ],
+        "en": [["please don't get blown away", 1], [" by the wind that called you", 0], [" — please stay", 2]]
+      }
+    },
+    "192.87": {
+      "en": "The words you've lost — it's fine to leave them just as they are",
+      "align": {
+        "jp": [["失くした", 0], ["言葉は", 1], ["そのままで", 2], ["いいよ", 3]],
+        "gloss": [
+          ["失くした", 0, "lost"],
+          ["言葉", 1, "words"],
+          ["は", 1, "(topic)"],
+          ["そのまま", 2, "as-is"],
+          ["で", 2, "in"],
+          ["いい", 3, "fine"],
+          ["よ", 3, "(!)"]
+        ],
+        "en": [["The words", 1], [" you've lost", 0], [" — it's fine", 3], [" to leave them just as they are", 2]]
+      }
+    },
+    "199.35": {
+      "en": "because I want you to give yourself over to the swaying train",
+      "align": {
+        "jp": [["揺れる", 0], ["列車に", 1], ["身を", 2], ["任せて", 3], ["欲しいから", 4]],
+        "gloss": [
+          ["揺れる", 0, "swaying"],
+          ["列車", 1, "train"],
+          ["に", 1, "to"],
+          ["身", 2, "body/self"],
+          ["を", 2, "(obj)"],
+          ["任せて", 3, "entrust and"],
+          ["欲しい", 4, "want"],
+          ["から", 4, "because"]
+        ],
+        "en": [["because I want you", 4], [" to give", 3], [" yourself", 2], [" over to the", 3], [" swaying", 0], [" train", 1]]
+      }
+    },
+    "205.60": {
+      "en": "(the scattered cities…)",
+      "align": {
+        "jp": [["(離れ離れの", 0], ["街を)", 1]],
+        "gloss": [
+          ["(", 0, "("],
+          ["離れ離れ", 0, "scattered"],
+          ["の", 0, "of"],
+          ["街", 1, "cities"],
+          ["を", 1, "(obj)"],
+          [")", 1, ")"]
+        ],
+        "en": [["(the", 0], [" scattered", 0], [" cities…)", 1]]
+      }
+    },
+    "208.83": {
+      "en": "The train that links the scattered cities has gone and left us, hasn't it",
+      "align": {
+        "jp": [["離れ離れの街を", 0], ["繋ぐ列車は", 1], ["行ってしまったね", 2]],
+        "gloss": [
+          ["離れ離れ", 0, "scattered"],
+          ["の", 0, "of"],
+          ["街", 0, "cities"],
+          ["を", 0, "(obj)"],
+          ["繋ぐ", 1, "link"],
+          ["列車", 1, "train"],
+          ["は", 1, "(topic)"],
+          ["行って", 2, "going"],
+          ["しまった", 2, "has (regret)"],
+          ["ね", 2, "right?"]
+        ],
+        "en": [["The train", 1], [" that links the scattered cities", 0], [" has gone and left us, hasn't it", 2]]
+      }
+    },
+    "215.54": {
+      "en": "If you don't know the words you've lost",
+      "align": {
+        "jp": [["失くした", 0], ["言葉を", 1], ["知らないなら", 2]],
+        "gloss": [
+          ["失くした", 0, "lost"],
+          ["言葉", 1, "words"],
+          ["を", 1, "(obj)"],
+          ["知らない", 2, "don't know"],
+          ["なら", 2, "if"]
+        ],
+        "en": [["If you don't know", 2], [" the words", 1], [" you've lost", 0]]
+      }
+    },
+    "218.96": {
+      "en": "clutch them tight in your pocket",
+      "align": {
+        "jp": [["ポケットで", 0], ["握りしめて", 1]],
+        "gloss": [
+          ["ポケット", 0, "pocket"],
+          ["で", 0, "in"],
+          ["握りしめて", 1, "clutch-tight"]
+        ],
+        "en": [["clutch them tight", 1], [" in your pocket", 0]]
+      }
+    },
+    "221.69": {
+      "en": "Throw away the breath you struggled for, and sleep through today as it stretches on — just fake it",
+      "align": {
+        "jp": [["あがいた息を", 0], ["捨てて", 1], ["延びる今日は", 2], ["眠って", 3], ["誤魔化せ", 4]],
+        "gloss": [
+          ["あがいた", 0, "struggled-for"],
+          ["息", 0, "breath"],
+          ["を", 0, "(obj)"],
+          ["捨てて", 1, "throw-away and"],
+          ["延びる", 2, "stretches"],
+          ["今日", 2, "today"],
+          ["は", 2, "(topic)"],
+          ["眠って", 3, "sleep and"],
+          ["誤魔化せ", 4, "fake-it!"]
+        ],
+        "en": [["Throw away", 1], [" the breath you struggled for", 0], [", and sleep through", 3], [" today as it stretches on", 2], [" — just fake it", 4]]
+      }
+    },
+    "228.38": {
+      "en": "If you don't know the words you've lost",
+      "align": {
+        "jp": [["失くした", 0], ["言葉を", 1], ["知らないなら", 2]],
+        "gloss": [
+          ["失くした", 0, "lost"],
+          ["言葉", 1, "words"],
+          ["を", 1, "(obj)"],
+          ["知らない", 2, "don't know"],
+          ["なら", 2, "if"]
+        ],
+        "en": [["If you don't know", 2], [" the words", 1], [" you've lost", 0]]
+      }
+    },
+    "231.70": {
+      "en": "travel by the local train (every-stop train)",
+      "align": {
+        "jp": [["各駅停車で", 0], ["旅をして", 1]],
+        "gloss": [
+          ["各駅停車", 0, "local-train"],
+          ["で", 0, "by"],
+          ["旅をして", 1, "travel and"]
+        ],
+        "en": [["travel", 1], [" by the local train (every-stop train)", 0]]
+      }
+    }
+  }
+}
