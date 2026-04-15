@@ -20,8 +20,10 @@ karaoke-store/
     └── plain_lyrics.json       # optional — omit if every song has an lrcId
 ```
 
-Single-song streams are multi-song streams with `setlist.length === 1`. There is
-no separate "single-song" schema.
+Single-song bundles are structurally compatible: `setlist.length === 1`, same
+file layout. The only bundle-level signal distinguishing them from streams is
+the optional `flavor` field in `manifest.json` (see below), which is
+informational only — the extension's bootstrap behaves identically for both.
 
 **Optional files are treated as `{}` / no-op when absent.** An English-only
 stream might ship no `translations.json`. A pure utawaku with every song in
@@ -50,17 +52,25 @@ Nothing more.
   "channel": "<channel name>",
   "duration": 13935,
   "savedAt": "YYYY-MM-DD",
-  "skeletonVersion": 1
+  "skeletonVersion": 1,
+  "flavor": "stream"
 }
 ```
 
 All per-song fields (`songName`, `originalTitle`, `nameEn`, `artist`, `lrcId`,
 `lang`) live in `setlist.json` — never here, not even for single-song bundles.
 
-`skeletonVersion` is bumped when `skeleton.js` breaks compat with prior
+`skeletonVersion` is bumped when either skeleton breaks compat with prior
 bundles (renamed state fields, renamed DOM IDs the tick writes to, etc.).
 Bundles tagged with an older `skeletonVersion` must be regenerated against
-the current skeleton.
+the current skeleton of the same flavor.
+
+`flavor` is **optional** and purely informational (default: `"stream"` if
+absent). Valid values: `"stream"` or `"single"`. The extension ignores it —
+both flavors use the same bootstrap path. Its purpose is to tell future
+rebuilds which skeleton (`skeleton.js` vs `skeleton-single.js`) to regenerate
+the bundle's `overlay.js` from. Single-song bundles SHOULD set it; omitting
+it on a single-song bundle is a documentation gap, not a runtime bug.
 
 ## setlist.json
 
