@@ -623,13 +623,12 @@
     /* ============ KNOCK ANIMATION ============
        Fires on every JP textContent change — a tight left/right shake
        mimicking a physical knock on the door, plus amber bloom from within. */
+    /* The door doesn't rattle — it breathes. A soft settle + amber bloom
+       carries the knock; eyes stay still, light does the work. */
     @keyframes ko-knock {
-      0%   { transform: translateX(0)    rotate(0);       }
-      15%  { transform: translateX(-5px) rotate(-0.35deg); }
-      35%  { transform: translateX(5px)  rotate(0.4deg);  }
-      55%  { transform: translateX(-3px) rotate(-0.2deg); }
-      75%  { transform: translateX(2px)  rotate(0.1deg);  }
-      100% { transform: translateX(0)    rotate(0);       }
+      0%   { transform: translateY(0)      scale(1);     }
+      40%  { transform: translateY(-1.5px) scale(1.008); }
+      100% { transform: translateY(0)      scale(1);     }
     }
     @keyframes ko-bloom {
       0%   { opacity: 0.7;  filter: blur(1.5px); }
@@ -657,10 +656,10 @@
     }
     .ko-door.knocking {
       animation:
-        ko-knock    0.46s cubic-bezier(.36,.08,.34,1) 1,
-        ko-doorlight 0.56s ease-out 1;
+        ko-knock     0.75s ease-out 1,
+        ko-doorlight 0.9s  ease-out 1;
     }
-    .ko-door.knocking .ko-door-crack { animation: ko-bloom 0.6s ease-out 1; opacity: 1; }
+    .ko-door.knocking .ko-door-crack { animation: ko-bloom 0.9s ease-out 1; opacity: 1; }
   `;
   document.head.appendChild(style);
 
