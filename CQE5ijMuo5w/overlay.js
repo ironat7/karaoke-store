@@ -1,84 +1,84 @@
 // ============================================================================
-// KARAOKE OVERLAY — DECO*27「ジレンマ」cover by moon jelly (CQE5ijMuo5w)
-// Aesthetic: noir-couture atelier. Pastel princess in a monochrome dress-shop,
-// tear-drop lanterns, aftereffects-of-love.
-// Signature features:
-//   • Gold lantern-droplet falls behind the card on every line change
-//   • "くらえ バンバンバン" refrain triggers a red ink-splatter pulse
-//   • Two yellow lantern orbs flank the card (Moon Jelly's hair pendants)
-//   • Couture-label card with silver filigree corners + rouge seam on right
+// KARAOKE OVERLAY — DILEMMA / ジレンマ (DECO*27, cover by moon jelly)
+// CQE5ijMuo5w
+// ----------------------------------------------------------------------------
+// Concept: a porcelain wedding invitation. The lyric card IS the bride's vow,
+// scrollwork lace + champagne filigree on cream paper, mint silk ribbon at the
+// crown, pearl drops at the corners. Behind it, ghostly handwritten kanji
+// drift across the screen — vows fading from memory (a direct visual quote
+// from the MV's faded-script watermark layer).
+//
+// Signature feature: every "くらえバンバンバン" line lands three sharp shots
+// on the invitation — the card shudders three times and a crimson hairline
+// crack flashes across the porcelain. The bullet wounds on her vows.
 // ============================================================================
 
 (() => {
 
-  // ==========================================================================
-  // THEME
-  // ==========================================================================
   const THEME = {
-    fontsHref:   'https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Marcellus&family=Shippori+Mincho:wght@500;600;700&family=Lora:wght@400;500&display=swap',
-    fontDisplay: "'Marcellus', 'Cormorant Garamond', serif",
-    fontBody:    "'Lora', 'Cormorant Garamond', serif",
-    fontJP:      "'Shippori Mincho', 'Hiragino Mincho ProN', serif",
+    fontsHref:
+      'https://fonts.googleapis.com/css2?' +
+      'family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&' +
+      'family=Pinyon+Script&' +
+      'family=Shippori+Mincho+B1:wght@500;700;800&' +
+      'family=Italianno&display=swap',
+    fontDisplay: '"Cormorant Garamond", "Times New Roman", serif',
+    fontBody:    '"Cormorant Garamond", "Times New Roman", serif',
+    fontJP:      '"Shippori Mincho B1", "Yu Mincho", "YuMincho", serif',
 
-    // MV-derived palette
-    cream:      '#f5ecdc',  // aged paper / card base
-    creamDeep:  '#e9ddc6',  // card shadow
-    rouge:      '#b3415a',  // lip rouge, seam, ink-stroke
-    rougeDeep:  '#7a1f33',
-    pink:       '#e7a9be',  // dress pink
-    pinkSoft:   '#f2d4de',
-    gold:       '#c8974a',  // lantern drop, bow
-    goldLight:  '#efcf85',
-    silver:     '#8d8a92',  // tiara metal
-    silverLit:  '#c0bdc6',
-    ink:        '#2a1e28',  // text ink
-    inkSoft:    '#5d4750',
-    teal:       '#2a958e',  // Miku callback
-    lilac:      '#8a70b5',
-    noir:       '#18141c',  // darkest shade for shadow
+    // Card / decor — pulled from moon jelly's model (cream gown, gold tiara,
+    // mint silk bow, pink lace) layered against the MV's monochrome atelier.
+    cream:      '#FAF0E0',
+    accent:     '#F5B5C8',
+    accentDeep: '#D5879F',
+    accentInk:  '#7A3B52',
+    ink:        '#3F2837',
+    inkSoft:    '#7A6675',
+    gold:       '#C9A75D',
 
-    // Lyric text colors — dark ink on cream card
-    lyricColorEN:  '#2a1e28',
-    lyricColorJP:  '#2a1e28',
+    lyricColorEN:  '#3F2837',
+    lyricColorJP:  '#2A1A26',
     lyricStrokeEN: '0px transparent',
     lyricStrokeJP: '0px transparent',
-    lyricShadowEN: '0 1px 0 rgba(255,248,235,0.92), 0 0 10px rgba(245,236,220,0.8)',
-    lyricShadowJP: '0 1px 0 rgba(255,248,235,0.92), 0 0 10px rgba(245,236,220,0.8)',
+    lyricShadowEN: '0 1px 0 rgba(255,253,247,0.95), 0 0 12px rgba(250,240,224,0.85)',
+    lyricShadowJP: '0 1px 0 rgba(255,253,247,0.95), 0 0 14px rgba(250,240,224,0.85)',
   };
 
-  // --- Trusted Types policy (YouTube CSP requires this for innerHTML) ---
   const policy = window.__karaokePolicy || (window.__karaokePolicy =
     window.trustedTypes.createPolicy('karaoke-policy', {
       createHTML: s => s,
       createScript: s => s,
     }));
 
-  // --- State preservation (survives re-injection) ---
   window.__setlist         = window.__setlist         || [];
   window.__parsedLyrics    = window.__parsedLyrics    || {};
   window.__transCache      = window.__transCache      || {};
   window.__plainLyrics     = window.__plainLyrics     || {};
   window.__lyricOffsets    = window.__lyricOffsets    || {};
-  // MV-derived 6-color palette for lyric chunks:
-  //   rose (dress)  / mustard (lantern+bow)  / teal (Miku+gem)
-  //   lilac (hair)  / silver (tiara)         / deep-rouge (lips+ink)
+
+  // Word-align palette derived from moon jelly's character + the MV palette.
+  // Six dark-medium tones picked to read on the cream porcelain card.
   window.__wordAlign = window.__wordAlign || { colors: [], data: {} };
-  window.__wordAlign.colors = ['#c94569', '#b1803d', '#1f8f85', '#7a5aac', '#55525e', '#7a1f33'];
+  window.__wordAlign.colors = [
+    '#A03658',  // 0 wine rose      — her lipstick
+    '#1F7A6E',  // 1 jade mint      — her bow, deepened
+    '#6B4396',  // 2 royal lilac    — her hair lilac shadowed
+    '#A2762B',  // 3 burnt champagne — her tiara
+    '#5C2E47',  // 4 plum ink       — letter signature ink
+    '#3D5C8A',  // 5 bridal blue    — her gown's cool shadow
+  ];
+
   if (typeof window.__karaokeLyricsHidden !== 'boolean') window.__karaokeLyricsHidden = false;
 
-  // --- Generation counter ---
   window.__koGen = (window.__koGen || 0) + 1;
   const MY_GEN = window.__koGen;
 
-  // --- Runtime knobs ---
   window.__koMaxHold = window.__koMaxHold || 10;
 
-  // --- Clean up prior injection ---
   document.querySelectorAll('#ko-style').forEach(e => e.remove());
   document.querySelectorAll('#karaoke-root').forEach(e => e.remove());
   document.querySelectorAll('#ko-lyrics').forEach(e => e.remove());
 
-  // --- Load Google Fonts ---
   if (THEME.fontsHref && !document.querySelector('link[data-karaoke-font]')) {
     const l = document.createElement('link');
     l.rel = 'stylesheet';
@@ -87,7 +87,6 @@
     document.head.appendChild(l);
   }
 
-  // --- CSS injection ---
   const style = document.createElement('style');
   style.id = 'ko-style';
   style.textContent = `
@@ -98,24 +97,17 @@
       inset: 0;
       pointer-events: none;
       z-index: 2147483000;
+      overflow: hidden;
     }
 
     #karaoke-root, #ko-lyrics {
-      --ko-cream:      ${THEME.cream};
-      --ko-cream-deep: ${THEME.creamDeep};
-      --ko-rouge:      ${THEME.rouge};
-      --ko-rouge-deep: ${THEME.rougeDeep};
-      --ko-pink:       ${THEME.pink};
-      --ko-pink-soft:  ${THEME.pinkSoft};
-      --ko-gold:       ${THEME.gold};
-      --ko-gold-light: ${THEME.goldLight};
-      --ko-silver:     ${THEME.silver};
-      --ko-silver-lit: ${THEME.silverLit};
-      --ko-ink:        ${THEME.ink};
-      --ko-ink-soft:   ${THEME.inkSoft};
-      --ko-teal:       ${THEME.teal};
-      --ko-lilac:      ${THEME.lilac};
-      --ko-noir:       ${THEME.noir};
+      --ko-cream:       ${THEME.cream};
+      --ko-accent:      ${THEME.accent};
+      --ko-accent-deep: ${THEME.accentDeep};
+      --ko-accent-ink:  ${THEME.accentInk};
+      --ko-ink:         ${THEME.ink};
+      --ko-ink-soft:    ${THEME.inkSoft};
+      --ko-gold:        ${THEME.gold};
 
       --ko-font-display: ${THEME.fontDisplay};
       --ko-font-body:    ${THEME.fontBody};
@@ -123,376 +115,294 @@
     }
     #karaoke-root *, #ko-lyrics * { box-sizing: border-box; }
 
-    /* =============================================================
-       BACKGROUND ATMOSPHERE — drifting golden "tear-lights"
-       ============================================================= */
-    .mv-tear-ambient {
+    /* ============== DRIFTING KANJI GHOST LAYER ==============
+       Pulls directly from the MV: faint white handwritten kanji float across
+       the background. Each ghost drifts independently. */
+    .ko-ghost-layer {
       position: absolute;
-      width: 4px; height: 4px;
-      border-radius: 50%;
-      background: radial-gradient(circle,
-        rgba(239,207,133,0.95) 0%,
-        rgba(200,151,74,0.7) 40%,
-        rgba(200,151,74,0) 100%);
-      box-shadow: 0 0 14px 4px rgba(239,207,133,0.35);
-      opacity: 0;
-      animation: mv-drift 14s ease-in-out infinite;
-      filter: blur(0.2px);
-    }
-    .mv-tear-ambient.t1 { left: 12%;  top: 22%;  animation-delay: 0s;    animation-duration: 16s; }
-    .mv-tear-ambient.t2 { left: 84%;  top: 34%;  animation-delay: -4s;   animation-duration: 13s; }
-    .mv-tear-ambient.t3 { left: 68%;  top: 18%;  animation-delay: -8s;   animation-duration: 17s; }
-    .mv-tear-ambient.t4 { left: 8%;   top: 55%;  animation-delay: -11s;  animation-duration: 15s; }
-    @keyframes mv-drift {
-      0%, 100% { opacity: 0; transform: translate(0,0) scale(0.6); }
-      20%      { opacity: 0.9; }
-      50%      { opacity: 0.5; transform: translate(20px, 40px) scale(1); }
-      80%      { opacity: 0.8; }
-    }
-
-    /* =============================================================
-       TITLE CARD — top-left "ジレンマ / DILEMMA" editorial wordmark
-       ============================================================= */
-    .mv-title {
-      position: absolute;
-      top: 3.2%;
-      left: 3.5%;
-      color: var(--ko-cream);
-      letter-spacing: 0.04em;
-      text-shadow: 0 2px 14px rgba(0,0,0,0.7), 0 0 2px rgba(0,0,0,0.8);
+      inset: 0;
       pointer-events: none;
-      user-select: none;
+      overflow: hidden;
+      mix-blend-mode: overlay;
+      opacity: 0.85;
     }
-    .mv-title .jp {
+    .ko-ghost {
+      position: absolute;
       font-family: var(--ko-font-jp);
-      font-size: 30px;
-      font-weight: 600;
-      color: var(--ko-gold-light);
-      text-shadow: 0 0 14px rgba(200,151,74,0.65), 0 2px 14px rgba(0,0,0,0.75);
-      letter-spacing: 0.22em;
-      display: block;
-      margin-bottom: 0.1em;
+      font-weight: 800;
+      color: rgba(255, 250, 240, 0.55);
+      text-shadow:
+        0 0 18px rgba(255, 250, 240, 0.45),
+        0 0 38px rgba(255, 250, 240, 0.25);
+      white-space: nowrap;
+      letter-spacing: 0.06em;
+      will-change: transform, opacity;
+      filter: blur(0.4px);
     }
-    .mv-title .en {
-      font-family: var(--ko-font-display);
-      font-size: 14px;
-      font-weight: 500;
-      letter-spacing: 0.7em;
-      color: rgba(245,236,220,0.88);
-      display: block;
+    @keyframes ko-drift-rl {
+      0%   { transform: translate3d(110vw, 0, 0); opacity: 0; }
+      8%   { opacity: 0.9; }
+      88%  { opacity: 0.9; }
+      100% { transform: translate3d(-30vw, 0, 0); opacity: 0; }
     }
-    .mv-title .line {
-      display: block;
-      width: 68px;
-      height: 1px;
-      background: linear-gradient(90deg, transparent, var(--ko-gold) 40%, var(--ko-gold) 60%, transparent);
-      margin: 10px 0 8px;
+    @keyframes ko-drift-fall {
+      0%   { transform: translate3d(0, -22vh, 0) rotate(-4deg); opacity: 0; }
+      12%  { opacity: 0.85; }
+      85%  { opacity: 0.85; }
+      100% { transform: translate3d(0, 110vh, 0) rotate(-4deg); opacity: 0; }
     }
-    .mv-title .feat {
-      font-family: var(--ko-font-display);
-      font-size: 10px;
-      letter-spacing: 0.38em;
-      color: rgba(231,169,190,0.9);
-      font-style: italic;
-    }
+    .ko-ghost.g1 { top: 12%;  font-size: 12vh; animation: ko-drift-rl 52s linear infinite; }
+    .ko-ghost.g2 { top: 28%;  font-size: 9vh;  animation: ko-drift-rl 71s linear infinite; animation-delay: -22s; }
+    .ko-ghost.g3 { top: 44%;  font-size: 14vh; animation: ko-drift-rl 88s linear infinite; animation-delay: -55s; opacity: 0.6; }
+    .ko-ghost.g4 { top: 5%;   font-size: 7vh;  animation: ko-drift-rl 41s linear infinite; animation-delay: -12s; }
+    .ko-ghost.g5 { top: 76%;  font-size: 10vh; animation: ko-drift-rl 64s linear infinite; animation-delay: -33s; }
+    .ko-ghost.g6 { left: 22%; font-size: 8vh;  animation: ko-drift-fall 58s linear infinite; animation-delay: -18s; }
+    .ko-ghost.g7 { left: 78%; font-size: 11vh; animation: ko-drift-fall 73s linear infinite; animation-delay: -42s; }
+    .ko-ghost.g8 { left: 50%; font-size: 9vh;  animation: ko-drift-fall 67s linear infinite; animation-delay: -8s; }
 
-    /* =============================================================
-       COVER CREDIT — bottom-right
-       ============================================================= */
-    .mv-credit {
+    .ko-vignette {
       position: absolute;
-      right: 3.2%;
-      bottom: 4%;
-      text-align: right;
-      color: var(--ko-cream);
-      text-shadow: 0 2px 10px rgba(0,0,0,0.75);
+      inset: 0;
       pointer-events: none;
-      user-select: none;
-    }
-    .mv-credit .cover {
-      font-family: var(--ko-font-display);
-      font-style: italic;
-      font-size: 15px;
-      letter-spacing: 0.28em;
-      color: rgba(242,212,222,0.95);
-      text-transform: lowercase;
-      display: block;
-    }
-    .mv-credit .artist {
-      font-family: var(--ko-font-display);
-      font-size: 22px;
-      font-weight: 500;
-      letter-spacing: 0.36em;
-      color: var(--ko-cream);
-      text-transform: uppercase;
-      display: block;
-      margin-top: 2px;
-    }
-    .mv-credit .orig {
-      font-family: var(--ko-font-display);
-      font-style: italic;
-      font-size: 10px;
-      letter-spacing: 0.28em;
-      color: rgba(239,207,133,0.72);
-      margin-top: 6px;
-      display: block;
+      background:
+        radial-gradient(ellipse 80% 60% at 50% 78%,
+          rgba(0, 0, 0, 0) 35%,
+          rgba(0, 0, 0, 0.35) 100%);
     }
 
-    /* =============================================================
-       LYRIC CARD — couture dress-label panel
-       ============================================================= */
+    /* ============== LYRIC CARD — porcelain wedding invitation ============== */
     #ko-lyrics {
       position: fixed;
       pointer-events: none;
       text-align: center;
       z-index: 2147483100;
       transform: translate(-50%, -50%);
+      filter: drop-shadow(0 18px 32px rgba(40, 20, 35, 0.55))
+              drop-shadow(0 4px 10px rgba(40, 20, 35, 0.4));
     }
+
     #ko-lyrics .ko-slot {
       position: relative;
       display: flex;
       flex-direction: column;
-      align-items: center;
-      gap: 10px;
-      padding: 44px 54px 36px 54px;
-      isolation: isolate;
-    }
+      align-items: stretch;
+      gap: 16px;
+      padding: 56px 64px 50px 64px;
 
-    /* CARD BACKDROP — layered cream paper with subtle grain */
-    #ko-lyrics .card-bg {
-      position: absolute;
-      inset: 0;
-      border-radius: 2px;
       background:
-        /* inner glow */
-        radial-gradient(ellipse 80% 60% at 50% 40%, rgba(255,247,230,0.65) 0%, rgba(245,236,220,0) 70%),
-        /* cream base */
-        linear-gradient(180deg, #f9f0df 0%, #f2e6ce 55%, #e9ddc6 100%);
+        radial-gradient(ellipse 130% 100% at 50% 0%,
+          #FFFBF1 0%,
+          #FAF0E0 55%,
+          #F2E2C8 100%);
+
+      border: 1px solid ${THEME.gold};
+      outline: 1px solid rgba(201, 167, 93, 0.35);
+      outline-offset: 4px;
+      border-radius: 4px;
+
       box-shadow:
-        inset 0 0 0 1px rgba(181,152,119,0.28),
-        inset 0 0 0 4px rgba(249,240,223,0.9),
-        inset 0 0 0 5px rgba(141,138,146,0.32),
-        0 18px 42px rgba(24,20,28,0.55),
-        0 2px 10px rgba(24,20,28,0.4);
-      z-index: -2;
+        inset 0 0 0 1px rgba(255, 251, 241, 0.7),
+        inset 0 0 60px rgba(201, 167, 93, 0.12),
+        inset 0 -40px 80px rgba(122, 59, 82, 0.08);
     }
-    /* paper grain */
-    #ko-lyrics .card-bg::before {
-      content: "";
+
+    /* Paper grain noise */
+    #ko-lyrics .ko-slot::before {
+      content: '';
       position: absolute;
       inset: 0;
+      pointer-events: none;
       background-image:
-        radial-gradient(circle at 25% 30%, rgba(90,60,45,0.035) 1px, transparent 1.4px),
-        radial-gradient(circle at 75% 65%, rgba(90,60,45,0.03) 1px, transparent 1.4px),
-        radial-gradient(circle at 45% 80%, rgba(90,60,45,0.03) 1px, transparent 1.4px);
-      background-size: 7px 7px, 11px 11px, 5px 5px;
+        radial-gradient(circle at 23% 47%, rgba(122, 59, 82, 0.04) 0%, transparent 0.5%),
+        radial-gradient(circle at 67% 81%, rgba(122, 59, 82, 0.04) 0%, transparent 0.5%),
+        radial-gradient(circle at 41% 12%, rgba(122, 59, 82, 0.03) 0%, transparent 0.5%),
+        radial-gradient(circle at 88% 38%, rgba(122, 59, 82, 0.05) 0%, transparent 0.5%);
+      background-size: 7px 7px, 11px 11px, 5px 5px, 9px 9px;
       mix-blend-mode: multiply;
-      opacity: 0.8;
+      opacity: 0.5;
+      border-radius: inherit;
+    }
+
+    /* Hairline crack — hidden until BANG BANG BANG line fires */
+    #ko-lyrics .ko-slot::after {
+      content: '';
+      position: absolute;
+      inset: 0;
       pointer-events: none;
-    }
-    /* vertical seam — a single thin rouge thread down the right side */
-    #ko-lyrics .card-bg::after {
-      content: "";
-      position: absolute;
-      top: 22px; bottom: 22px; right: 14px;
-      width: 1px;
-      background: linear-gradient(180deg,
-        transparent 0%,
-        rgba(179,65,90,0.55) 12%,
-        rgba(179,65,90,0.75) 50%,
-        rgba(179,65,90,0.55) 88%,
-        transparent 100%);
-      box-shadow: 0 0 6px rgba(179,65,90,0.35);
+      background-image:
+        linear-gradient(105deg,
+          transparent 47.6%,
+          rgba(160, 54, 88, 0.85) 48.0%,
+          rgba(40, 10, 22, 0.95) 48.15%,
+          rgba(160, 54, 88, 0.85) 48.3%,
+          transparent 48.5%);
+      opacity: 0;
+      border-radius: inherit;
+      mix-blend-mode: multiply;
     }
 
-    /* FILIGREE CORNERS — tiara-inspired silver fleur corners */
-    #ko-lyrics .corner {
+    /* === Top crown ribbon (mint silk bow) === */
+    .ko-ribbon {
       position: absolute;
-      width: 30px; height: 30px;
-      z-index: 2;
-      color: var(--ko-silver);
-      filter: drop-shadow(0 1px 0 rgba(255,250,238,0.7));
-    }
-    #ko-lyrics .corner svg { width: 100%; height: 100%; }
-    #ko-lyrics .corner.tl { top: 8px;  left: 8px;  }
-    #ko-lyrics .corner.tr { top: 8px;  right: 8px; transform: scaleX(-1); }
-    #ko-lyrics .corner.bl { bottom: 8px; left: 8px; transform: scaleY(-1); }
-    #ko-lyrics .corner.br { bottom: 8px; right: 8px; transform: scale(-1,-1); }
-
-    /* CARD HEADER — tiara filigree + genre label */
-    #ko-lyrics .card-header {
-      position: absolute;
-      top: 13px;
       left: 50%;
+      top: -22px;
       transform: translateX(-50%);
       display: flex;
+      flex-direction: column;
       align-items: center;
-      gap: 10px;
-      font-family: var(--ko-font-display);
-      font-size: 9px;
-      letter-spacing: 0.48em;
-      color: var(--ko-rouge);
-      text-transform: uppercase;
-      opacity: 0.92;
-      user-select: none;
-    }
-    #ko-lyrics .card-header .dash {
-      width: 26px; height: 1px;
-      background: linear-gradient(90deg, transparent, var(--ko-rouge), transparent);
-    }
-    #ko-lyrics .card-header .fleur {
-      font-size: 12px;
-      color: var(--ko-rouge);
-      letter-spacing: 0;
-      line-height: 1;
-    }
-
-    /* LANTERN ORBS — yellow droplet lights that hang on the card top corners
-       Echoes Moon Jelly's hair-antenna pendants. */
-    #ko-lyrics .lantern {
-      position: absolute;
-      top: -16px;
-      width: 22px; height: 28px;
-      z-index: 3;
       pointer-events: none;
     }
-    #ko-lyrics .lantern.l { left: 42px; }
-    #ko-lyrics .lantern.r { right: 42px; }
-    #ko-lyrics .lantern .wire {
-      position: absolute;
-      top: 0; left: 50%;
-      width: 1px; height: 12px;
-      background: linear-gradient(180deg, rgba(141,138,146,0.4), rgba(141,138,146,0.7));
+    .ko-ribbon-bow {
+      width: 68px;
+      height: 38px;
+      position: relative;
     }
-    #ko-lyrics .lantern .bulb {
+    .ko-ribbon-bow::before,
+    .ko-ribbon-bow::after {
+      content: '';
       position: absolute;
-      bottom: 0; left: 50%;
-      width: 20px; height: 20px;
-      transform: translateX(-50%);
-      border-radius: 50% 50% 55% 55%;
-      background: radial-gradient(circle at 40% 35%,
-        #fff6d3 0%, #efcf85 30%, #c8974a 70%, #7a5a24 100%);
+      top: 50%;
+      width: 26px;
+      height: 30px;
+      background:
+        radial-gradient(ellipse at 30% 40%,
+          #DFF5EB 0%,
+          #B6E5D8 50%,
+          #6BB8A4 100%);
+      border-radius: 50% 30% 50% 30%;
       box-shadow:
-        0 0 14px 3px rgba(239,207,133,0.6),
-        inset 0 -3px 5px rgba(122,90,36,0.45),
-        inset 0 2px 3px rgba(255,246,211,0.8);
-      animation: mv-lantern-glow 5s ease-in-out infinite;
+        inset -2px -2px 4px rgba(0, 80, 60, 0.25),
+        0 1px 3px rgba(40, 20, 35, 0.4);
+      transform: translateY(-50%) rotate(-22deg);
+      left: 50%;
+      margin-left: -28px;
     }
-    #ko-lyrics .lantern.r .bulb { animation-delay: -2.5s; }
-    @keyframes mv-lantern-glow {
-      0%, 100% { box-shadow: 0 0 14px 3px rgba(239,207,133,0.5), inset 0 -3px 5px rgba(122,90,36,0.45), inset 0 2px 3px rgba(255,246,211,0.8); }
-      50%      { box-shadow: 0 0 22px 6px rgba(239,207,133,0.75), inset 0 -3px 5px rgba(122,90,36,0.45), inset 0 2px 3px rgba(255,246,211,0.9); }
+    .ko-ribbon-bow::after {
+      transform: translateY(-50%) rotate(22deg);
+      margin-left: 2px;
+      border-radius: 30% 50% 30% 50%;
     }
-    /* lantern drip — tiny droplet forming at the bottom */
-    #ko-lyrics .lantern .drip {
+    .ko-ribbon-knot {
       position: absolute;
-      bottom: -2px; left: 50%;
-      width: 3px; height: 5px;
-      transform: translateX(-50%);
-      background: radial-gradient(ellipse at 50% 30%, #f0d18a, #c8974a);
-      border-radius: 50% 50% 60% 60%;
-      box-shadow: 0 0 4px rgba(239,207,133,0.6);
-      animation: mv-drip 4.5s ease-in infinite;
-      animation-delay: var(--drip-delay, 0s);
-    }
-    @keyframes mv-drip {
-      0%, 60%  { transform: translate(-50%, 0) scaleY(0.4); opacity: 0; }
-      72%      { transform: translate(-50%, 0) scaleY(1); opacity: 1; }
-      92%      { transform: translate(-50%, 28px) scaleY(1.6); opacity: 0.5; }
-      100%     { transform: translate(-50%, 44px) scaleY(0.2); opacity: 0; }
+      left: 50%;
+      top: 50%;
+      width: 14px;
+      height: 18px;
+      background:
+        radial-gradient(ellipse at 30% 30%,
+          #DFF5EB 0%,
+          #6BB8A4 70%,
+          #3E8273 100%);
+      border-radius: 4px;
+      transform: translate(-50%, -50%);
+      box-shadow: 0 1px 2px rgba(40, 20, 35, 0.5);
+      z-index: 2;
     }
 
-    /* LINE-CHANGE TEAR CUE — single gold droplet falling behind the card
-       on every new lyric line. Subtle; does not cover text. */
-    #ko-lyrics .tear-cue {
+    .ko-crown {
+      width: 56px;
+      height: 18px;
+      margin-top: 2px;
+      position: relative;
+    }
+    .ko-crown svg { width: 100%; height: 100%; display: block; }
+
+    /* Pearl drops at bottom corners */
+    .ko-pearl {
       position: absolute;
-      top: 14px;
+      bottom: -8px;
+      width: 12px;
+      height: 16px;
+      background:
+        radial-gradient(circle at 35% 30%,
+          #FFFFFF 0%,
+          #FAF0E0 35%,
+          #DFC79E 75%,
+          #A07A40 100%);
+      border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+      box-shadow:
+        0 0 4px rgba(201, 167, 93, 0.7),
+        0 2px 4px rgba(40, 20, 35, 0.5),
+        inset 0 -2px 2px rgba(122, 59, 82, 0.3);
+    }
+    .ko-pearl.left  { left: 18%; }
+    .ko-pearl.right { right: 18%; }
+    .ko-pearl.left::before,
+    .ko-pearl.right::before {
+      content: '';
+      position: absolute;
+      bottom: 100%;
       left: 50%;
       transform: translateX(-50%);
-      width: 5px; height: 8px;
-      border-radius: 50% 50% 60% 60%;
-      background: radial-gradient(ellipse at 50% 28%, #fff2c2 0%, #efcf85 45%, #c8974a 85%);
-      box-shadow: 0 0 8px rgba(239,207,133,0.6);
-      opacity: 0;
-      z-index: -1;
-      pointer-events: none;
-    }
-    #ko-lyrics .tear-cue.fall {
-      animation: mv-tear-fall 1.1s cubic-bezier(0.42, 0, 0.58, 1) forwards;
-    }
-    @keyframes mv-tear-fall {
-      0%   { transform: translate(-50%, 0) scaleY(0.7); opacity: 0; }
-      14%  { opacity: 0.95; }
-      100% { transform: translate(-50%, calc(100% + 18px)) scaleY(1.8); opacity: 0; }
+      width: 1.5px;
+      height: 12px;
+      background: linear-gradient(${THEME.gold}, rgba(201, 167, 93, 0.3));
     }
 
-    /* INK-SPLATTER PULSE — fires when the refrain "くらえ バンバンバン" plays.
-       A red ink-splash SVG briefly appears behind the card, like a shot. */
-    #ko-lyrics .ink-splat {
+    /* Filigree corner brackets */
+    .ko-filigree {
       position: absolute;
-      inset: -40px;
-      z-index: -3;
-      opacity: 0;
+      width: 44px;
+      height: 44px;
       pointer-events: none;
-      color: var(--ko-rouge);
     }
-    #ko-lyrics .ink-splat svg { width: 100%; height: 100%; display: block; }
-    #ko-lyrics .ink-splat.hit {
-      animation: mv-splat 0.85s ease-out forwards;
-    }
-    @keyframes mv-splat {
-      0%   { opacity: 0; transform: scale(0.7); }
-      22%  { opacity: 0.95; transform: scale(1.05); }
-      55%  { opacity: 0.7; transform: scale(1.02); }
-      100% { opacity: 0; transform: scale(1.12); }
-    }
+    .ko-filigree svg { width: 100%; height: 100%; display: block; }
+    .ko-filigree.tl { top:    -2px;  left:   -2px; }
+    .ko-filigree.tr { top:    -2px;  right:  -2px; transform: scaleX(-1); }
+    .ko-filigree.bl { bottom: -2px;  left:   -2px; transform: scaleY(-1); }
+    .ko-filigree.br { bottom: -2px;  right:  -2px; transform: scale(-1, -1); }
 
-    /* SEAL — small sparkle glyph bottom-center (matches title logo accent) */
-    #ko-lyrics .seal {
-      position: absolute;
-      bottom: 8px;
-      left: 50%;
-      transform: translateX(-50%);
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      font-family: var(--ko-font-display);
-      font-size: 8px;
-      letter-spacing: 0.48em;
-      color: var(--ko-silver);
-      text-transform: uppercase;
-      opacity: 0.75;
-      user-select: none;
-    }
-    #ko-lyrics .seal .star {
-      display: inline-block;
-      color: var(--ko-gold);
-      font-size: 10px;
+    /* === DILEMMA header — calligraphy script with gold rule === */
+    .ko-header {
+      font-family: 'Pinyon Script', 'Italianno', cursive;
+      color: ${THEME.gold};
+      font-size: 28px;
+      letter-spacing: 0.20em;
       line-height: 1;
+      text-align: center;
+      padding-bottom: 4px;
+      text-shadow: 0 1px 0 rgba(255, 251, 241, 0.9);
+      order: 0;
+      position: relative;
     }
-    #ko-lyrics .seal .dash {
-      width: 20px; height: 1px;
-      background: linear-gradient(90deg, transparent, var(--ko-silver), transparent);
+    .ko-header::before,
+    .ko-header::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      width: 28%;
+      height: 1px;
+      background: linear-gradient(to right, transparent, ${THEME.gold}, transparent);
+    }
+    .ko-header::before { left: 6%;  }
+    .ko-header::after  { right: 6%; transform: scaleX(-1); }
+    .ko-header .diamond {
+      display: inline-block;
+      width: 6px;
+      height: 6px;
+      margin: 0 14px;
+      transform: translateY(-3px) rotate(45deg);
+      background: ${THEME.gold};
+      box-shadow: 0 0 4px rgba(201, 167, 93, 0.8);
+      vertical-align: middle;
     }
 
-    /* =============================================================
-       LYRIC TYPOGRAPHY
-       ============================================================= */
+    /* === Lyric typography === */
     #ko-lyrics .ko-line-jp {
       font-family: var(--ko-font-jp);
-      font-weight: 600;
+      font-weight: 800;
       color: ${THEME.lyricColorJP};
       paint-order: stroke fill;
       -webkit-text-stroke: ${THEME.lyricStrokeJP};
       font-size: 44px;
-      line-height: 2.35;
-      padding-top: 0.45em;
-      letter-spacing: 0.06em;
+      line-height: 2.5;
+      padding-top: 0.2em;
+      letter-spacing: 0.05em;
       text-shadow: ${THEME.lyricShadowJP};
       min-height: 1em;
       order: 1;
       position: relative;
-      z-index: 1;
+      z-index: 2;
     }
     #ko-lyrics .ko-line-jp span {
       paint-order: stroke fill;
@@ -500,149 +410,194 @@
     }
     #ko-lyrics .ko-line-jp rt {
       font-family: var(--ko-font-display);
+      font-style: italic;
       font-size: 22px;
       font-weight: 500;
-      font-style: italic;
       letter-spacing: 0.01em;
       line-height: 1.1;
-      padding-bottom: 5px;
+      padding-bottom: 6px;
       color: ${THEME.lyricColorJP};
       paint-order: stroke fill;
       -webkit-text-stroke: 0px transparent;
-      text-shadow: 0 1px 0 rgba(255,248,232,0.95), 0 0 5px rgba(245,236,220,0.85);
+      text-shadow:
+        0 1px 0 rgba(255, 253, 247, 0.95),
+        0 0 6px rgba(250, 240, 224, 0.85);
       user-select: none;
+      opacity: 0.92;
     }
     #ko-lyrics .ko-line-jp ruby { ruby-align: center; }
 
+    /* Hairline divider with center diamond */
+    #ko-lyrics .ko-divider {
+      height: 1px;
+      width: 60%;
+      margin: 6px auto -2px auto;
+      background: linear-gradient(to right,
+        transparent 0%,
+        rgba(201, 167, 93, 0.55) 30%,
+        rgba(122, 59, 82, 0.45) 50%,
+        rgba(201, 167, 93, 0.55) 70%,
+        transparent 100%);
+      order: 2;
+      position: relative;
+    }
+    #ko-lyrics .ko-divider::after {
+      content: '◇';
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      color: ${THEME.gold};
+      font-size: 10px;
+      background: ${THEME.cream};
+      padding: 0 6px;
+      line-height: 1;
+    }
+
     #ko-lyrics .ko-line-en {
       font-family: var(--ko-font-display);
+      font-style: italic;
       font-weight: 500;
       color: ${THEME.lyricColorEN};
       paint-order: stroke fill;
       -webkit-text-stroke: ${THEME.lyricStrokeEN};
-      font-size: 40px;
-      line-height: 1.22;
-      letter-spacing: 0.018em;
+      font-size: 38px;
+      line-height: 1.25;
+      letter-spacing: 0.005em;
       text-shadow: ${THEME.lyricShadowEN};
-      font-style: italic;
       max-width: 100%;
       min-height: 1em;
-      order: 2;
+      order: 3;
       position: relative;
-      z-index: 1;
+      z-index: 2;
     }
     #ko-lyrics .ko-line-en span {
       paint-order: stroke fill;
       -webkit-text-stroke: ${THEME.lyricStrokeEN};
     }
-    #ko-lyrics .ko-line-en.en-song { font-size: 28px; font-weight: 400; }
+    #ko-lyrics .ko-line-en.en-song { font-size: 30px; font-weight: 400; }
     #ko-lyrics .ko-line-jp.hidden { display: none; }
 
-    /* Gentle card entry on song start / reinject */
-    #ko-lyrics .ko-slot {
-      animation: mv-card-in 1.4s ease-out both;
+    /* === BANG BANG BANG signature === */
+    @keyframes ko-shudder {
+      0%, 100% { transform: translate(-50%, -50%); }
+      6%   { transform: translate(calc(-50% + 9px),  calc(-50% - 4px)) rotate(0.6deg); }
+      12%  { transform: translate(calc(-50% - 6px),  calc(-50% + 3px)); }
+      32%  { transform: translate(-50%, -50%); }
+      38%  { transform: translate(calc(-50% - 11px), calc(-50% - 5px)) rotate(-0.7deg); }
+      44%  { transform: translate(calc(-50% + 5px),  calc(-50% + 4px)); }
+      64%  { transform: translate(-50%, -50%); }
+      70%  { transform: translate(calc(-50% + 13px), calc(-50% + 6px)) rotate(0.9deg); }
+      76%  { transform: translate(calc(-50% - 5px),  calc(-50% - 3px)); }
+      96%  { transform: translate(-50%, -50%); }
     }
-    @keyframes mv-card-in {
-      0%   { opacity: 0; transform: translateY(10px) scale(0.98); }
-      100% { opacity: 1; transform: translateY(0) scale(1); }
+    @keyframes ko-crack {
+      0%, 100% { opacity: 0; }
+      8%, 38%, 68%  { opacity: 0; }
+      14%, 44%, 74% { opacity: 0.95; }
+      20%, 50%, 80% { opacity: 0.55; }
     }
+    @keyframes ko-flash {
+      0%, 100% { background-color: transparent; }
+      14%, 44%, 74% { box-shadow:
+        inset 0 0 0 1px rgba(255, 251, 241, 0.7),
+        inset 0 0 60px rgba(160, 54, 88, 0.45),
+        inset 0 -40px 80px rgba(160, 54, 88, 0.3); }
+    }
+    #ko-lyrics.ko-bang { animation: ko-shudder 1.65s ease-out 1; }
+    #ko-lyrics.ko-bang .ko-slot::after { animation: ko-crack 1.65s ease-out 1; }
+    #ko-lyrics.ko-bang .ko-slot       { animation: ko-flash  1.65s ease-out 1; }
+
+    /* Card breathe — subtle pulse */
+    @keyframes ko-breathe {
+      0%, 100% {
+        filter: drop-shadow(0 18px 32px rgba(40, 20, 35, 0.55))
+                drop-shadow(0 4px 10px rgba(40, 20, 35, 0.4));
+      }
+      50% {
+        filter: drop-shadow(0 22px 40px rgba(40, 20, 35, 0.6))
+                drop-shadow(0 6px 14px rgba(122, 59, 82, 0.35));
+      }
+    }
+    #ko-lyrics { animation: ko-breathe 7s ease-in-out infinite; }
   `;
   document.head.appendChild(style);
 
-  // --- Helpers ---
   const setHTML = (el, str) => { el.innerHTML = policy.createHTML(str); };
   const escHTML = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
-  // --- DOM: root (title + credit + ambient lights) ---
+  // --- DOM construction ---
   const root = document.createElement('div');
   root.id = 'karaoke-root';
-  setHTML(root, `
-    <div class="mv-tear-ambient t1"></div>
-    <div class="mv-tear-ambient t2"></div>
-    <div class="mv-tear-ambient t3"></div>
-    <div class="mv-tear-ambient t4"></div>
-
-    <div class="mv-title">
-      <span class="jp">ジ レ ン マ</span>
-      <span class="en">DILEMMA</span>
-      <span class="line"></span>
-      <span class="feat">feat. MOON JELLY</span>
-    </div>
-
-    <div class="mv-credit">
-      <span class="cover">cover by</span>
-      <span class="artist">Moon&nbsp;Jelly</span>
-      <span class="orig">orig. DECO*27 feat. 初音ミク</span>
-    </div>
-  `);
   document.body.appendChild(root);
 
-  // SVG filigree corner — a small fleur/scroll. One symbol, flipped for 4 corners.
+  // Drifting kanji ghost layer + vignette — direct visual quote from the MV
+  setHTML(root, `
+    <div class="ko-vignette"></div>
+    <div class="ko-ghost-layer">
+      <div class="ko-ghost g1">後遺症</div>
+      <div class="ko-ghost g2">戻れない</div>
+      <div class="ko-ghost g3">好き</div>
+      <div class="ko-ghost g4">バンバンバン</div>
+      <div class="ko-ghost g5">忘れ方</div>
+      <div class="ko-ghost g6">涙</div>
+      <div class="ko-ghost g7">夢</div>
+      <div class="ko-ghost g8">叶わない</div>
+    </div>
+  `);
+
+  // Filigree SVG — same shape used for all four corners (orientation by CSS)
   const FILIGREE_SVG = `
-    <svg viewBox="0 0 30 30" fill="none" stroke="currentColor" stroke-width="0.9" stroke-linecap="round">
-      <path d="M2 28 C 2 20, 8 14, 14 14" />
-      <path d="M2 28 L 14 28" />
-      <path d="M2 28 L 2 16" />
-      <circle cx="14" cy="14" r="1.6" fill="currentColor" stroke="none" opacity="0.8"/>
-      <path d="M5 22 C 7 22, 9 20, 9 18" opacity="0.7"/>
-      <path d="M14 18 C 12 18, 10 20, 10 22" opacity="0.7"/>
-    </svg>
-  `;
+    <svg viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="${THEME.gold}" stroke-width="1.1">
+      <path d="M2 22 Q2 2 22 2"/>
+      <path d="M6 18 Q6 6 18 6"/>
+      <circle cx="10" cy="10" r="1.4" fill="${THEME.gold}" stroke="none"/>
+      <path d="M14 4 Q18 6 16 10 Q12 8 14 4 Z" fill="${THEME.gold}" fill-opacity="0.4" stroke="none"/>
+      <path d="M4 14 Q6 18 10 16 Q8 12 4 14 Z" fill="${THEME.gold}" fill-opacity="0.4" stroke="none"/>
+      <path d="M22 2 Q14 6 14 14" stroke-width="0.6" stroke-opacity="0.7"/>
+    </svg>`;
 
-  // Ink-splat SVG — organic blob with scatter droplets
-  const INK_SPLAT_SVG = `
-    <svg viewBox="-100 -100 200 200" preserveAspectRatio="none">
-      <g fill="currentColor" opacity="0.78">
-        <path d="M -70,-12 C -80,-28 -62,-52 -30,-48 C -10,-60 22,-58 38,-38 C 62,-40 82,-18 72,10 C 88,24 70,50 42,48 C 30,70 -6,68 -22,50 C -52,60 -84,38 -74,12 Z"/>
-        <circle cx="-86" cy="-40" r="4"/>
-        <circle cx="82" cy="-52" r="3.2"/>
-        <circle cx="-72" cy="58" r="2.6"/>
-        <circle cx="64" cy="64" r="4.2"/>
-        <circle cx="-94" cy="14" r="2"/>
-        <circle cx="92" cy="26" r="2.5"/>
-        <ellipse cx="78" cy="-12" rx="6" ry="1.4" transform="rotate(18 78 -12)"/>
-        <ellipse cx="-78" cy="32" rx="6" ry="1.4" transform="rotate(-22 -78 32)"/>
-      </g>
-    </svg>
-  `;
-
-  // --- Lyric card ---
   const lyrics = document.createElement('div');
   lyrics.id = 'ko-lyrics';
   setHTML(lyrics, `
     <div class="ko-slot">
-      <div class="card-bg"></div>
-      <div class="ink-splat" id="ko-ink-splat">${INK_SPLAT_SVG}</div>
-      <div class="corner tl">${FILIGREE_SVG}</div>
-      <div class="corner tr">${FILIGREE_SVG}</div>
-      <div class="corner bl">${FILIGREE_SVG}</div>
-      <div class="corner br">${FILIGREE_SVG}</div>
-      <div class="lantern l"><div class="wire"></div><div class="bulb"></div><div class="drip" style="--drip-delay: -0.8s"></div></div>
-      <div class="lantern r"><div class="wire"></div><div class="bulb"></div><div class="drip" style="--drip-delay: -2.4s"></div></div>
-      <div class="card-header">
-        <span class="dash"></span>
-        <span>AFTER&nbsp;EFFECTS</span>
-        <span class="fleur">✦</span>
-        <span>NO.&nbsp;02</span>
-        <span class="dash"></span>
+      <div class="ko-filigree tl">${FILIGREE_SVG}</div>
+      <div class="ko-filigree tr">${FILIGREE_SVG}</div>
+      <div class="ko-filigree bl">${FILIGREE_SVG}</div>
+      <div class="ko-filigree br">${FILIGREE_SVG}</div>
+
+      <div class="ko-ribbon">
+        <div class="ko-ribbon-bow">
+          <div class="ko-ribbon-knot"></div>
+        </div>
+        <div class="ko-crown">
+          <svg viewBox="0 0 56 18" xmlns="http://www.w3.org/2000/svg" fill="${THEME.gold}">
+            <path d="M2 16 L8 4 L14 12 L20 2 L28 14 L36 2 L42 12 L48 4 L54 16 Z"
+                  stroke="${THEME.gold}" stroke-width="0.8"
+                  fill="${THEME.gold}" fill-opacity="0.55"/>
+            <circle cx="8"  cy="4" r="1.4"/>
+            <circle cx="20" cy="2" r="1.6"/>
+            <circle cx="36" cy="2" r="1.6"/>
+            <circle cx="48" cy="4" r="1.4"/>
+            <line x1="2" y1="16.5" x2="54" y2="16.5" stroke="${THEME.gold}" stroke-width="1"/>
+          </svg>
+        </div>
       </div>
-      <div class="tear-cue" id="ko-tear-cue"></div>
+
+      <div class="ko-header"><span class="diamond"></span>D I L E M M A<span class="diamond"></span></div>
       <div class="ko-line-jp" id="ko-line-jp"></div>
+      <div class="ko-divider"></div>
       <div class="ko-line-en" id="ko-line-en"></div>
-      <div class="seal">
-        <span class="dash"></span>
-        <span>CQE&middot;5iJ</span>
-        <span class="star">✦</span>
-        <span>MOON&nbsp;JELLY</span>
-        <span class="dash"></span>
-      </div>
+
+      <div class="ko-pearl left"></div>
+      <div class="ko-pearl right"></div>
     </div>
   `);
   document.body.appendChild(lyrics);
 
   if (window.__karaokeLyricsHidden) lyrics.style.display = 'none';
 
-  // --- LRC fetch fallback ---
+  // --- LRC parsing + LRCLib fetching ---
   const parseLRC = (txt) => {
     const lines = [];
     for (const line of txt.split('\n')) {
@@ -661,12 +616,17 @@
     }
     return lines;
   };
+
   const lrcIds = [...new Set(window.__setlist.filter(s => s.lrcId).map(s => s.lrcId))];
   lrcIds.forEach(id => {
     if (window.__parsedLyrics[id]) return;
     fetch(`https://lrclib.net/api/get/${id}`)
       .then(r => r.json())
-      .then(d => { if (d && d.syncedLyrics) window.__parsedLyrics[id] = parseLRC(d.syncedLyrics); })
+      .then(d => {
+        if (d && d.syncedLyrics) {
+          window.__parsedLyrics[id] = parseLRC(d.syncedLyrics);
+        }
+      })
       .catch(() => {});
   });
 
@@ -694,25 +654,6 @@
     setTimeout(positionTick, 250);
   };
   positionTick();
-
-  // --- Tear-cue + refrain-marker triggers (host-side reactive animation) ---
-  const fireTearCue = () => {
-    const el = document.getElementById('ko-tear-cue');
-    if (!el) return;
-    el.classList.remove('fall');
-    // reflow to restart animation
-    void el.offsetWidth;
-    el.classList.add('fall');
-  };
-  const fireInkSplat = () => {
-    const el = document.getElementById('ko-ink-splat');
-    if (!el) return;
-    el.classList.remove('hit');
-    void el.offsetWidth;
-    el.classList.add('hit');
-  };
-  // The refrain hook-line in DILEMMA — matches "くらえ バンバンバン"
-  const isRefrain = (jp) => /くらえ\s*バンバンバン/.test(jp || '');
 
   // --- Main tick ---
   const tick = () => {
@@ -760,11 +701,12 @@
         const line = lrc[lineIdx];
         const nextT = (lrc[lineIdx + 1] && lrc[lineIdx + 1].t) || (songDur + 10);
         const endAt = Math.min(nextT, line.t + window.__koMaxHold);
-        if (elapsed < endAt) showText = line.text;
+        if (elapsed < endAt) {
+          showText = line.text;
+        }
       }
 
       if (lineIdx !== curLineIdx || showText !== lastJpText) {
-        const lineChanged = lineIdx !== curLineIdx;
         curLineIdx = lineIdx;
         const enEl = document.getElementById('ko-line-en');
         const jpEl = document.getElementById('ko-line-jp');
@@ -773,29 +715,35 @@
             enEl.textContent = showText;
             lastEnText = showText;
           }
-          if (jpEl && lastJpText !== '') { jpEl.textContent = ''; lastJpText = ''; }
+          if (jpEl && lastJpText !== '') {
+            jpEl.textContent = '';
+            lastJpText = '';
+          }
         } else {
           const posEn = (lineIdx >= 0 && showText && lrc[lineIdx].en) || '';
           const en = posEn || (showText && window.__transCache[showText]) || '';
-          if (enEl && en !== lastEnText) { enEl.textContent = en; lastEnText = en; }
+          if (enEl && en !== lastEnText) {
+            enEl.textContent = en;
+            lastEnText = en;
+          }
           if (jpEl && showText !== lastJpText) {
             jpEl.textContent = showText;
             lastJpText = showText;
-            // --- Signature reactive cues ---
-            if (lineChanged && showText.trim()) {
-              fireTearCue();
-              if (isRefrain(showText)) fireInkSplat();
-            }
           }
         }
       }
     } else if (!song || !song.lrcId) {
-      if (lastEnText !== '') { document.getElementById('ko-line-en').textContent = ''; lastEnText = ''; }
-      if (lastJpText !== '') { document.getElementById('ko-line-jp').textContent = ''; lastJpText = ''; }
+      if (lastEnText !== '') {
+        document.getElementById('ko-line-en').textContent = '';
+        lastEnText = '';
+      }
+      if (lastJpText !== '') {
+        document.getElementById('ko-line-jp').textContent = '';
+        lastJpText = '';
+      }
     }
   };
 
-  // --- Dual loop ---
   const raf = () => {
     if (window.__koGen !== MY_GEN) return;
     tick();
@@ -876,7 +824,7 @@
     window.__karaokeRebuild();
   };
 
-  // --- Color + gloss colorizer ---
+  // --- Color + gloss colorizer (poll) ---
   let _lastWCJp = '';
   const COLOR_POLL = setInterval(() => {
     if (window.__koGen !== MY_GEN) { clearInterval(COLOR_POLL); return; }
@@ -907,5 +855,31 @@
     }
     if (alignment.en) setHTML(enEl, buildEn(alignment.en));
   }, 150);
+
+  // ==========================================================================
+  // SIGNATURE: BANG BANG BANG shudder + crack
+  // Watches the JP line. When "くらえバンバンバン" appears, stamps .ko-bang
+  // on the lyric card to fire the shudder/crack/flash keyframes. Removes
+  // after the run so it can re-fire next time.
+  // ==========================================================================
+  const BANG_LINE = 'くらえバンバンバン';
+  let _lastBangText = '';
+  const BANG_POLL = setInterval(() => {
+    if (window.__koGen !== MY_GEN) { clearInterval(BANG_POLL); return; }
+    const jpEl = document.getElementById('ko-line-jp');
+    if (!jpEl) return;
+    const txt = jpEl.textContent;
+    if (txt === _lastBangText) return;
+    _lastBangText = txt;
+    if (txt === BANG_LINE) {
+      lyrics.classList.remove('ko-bang');
+      // Force reflow so re-adding the class re-fires the animation.
+      void lyrics.offsetWidth;
+      lyrics.classList.add('ko-bang');
+      setTimeout(() => {
+        if (window.__koGen === MY_GEN) lyrics.classList.remove('ko-bang');
+      }, 1700);
+    }
+  }, 80);
 
 })();
