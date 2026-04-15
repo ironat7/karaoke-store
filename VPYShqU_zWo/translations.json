@@ -23152,53 +23152,53 @@
         "gloss": [
           [
             "もっと",
-            "more",
-            0
+            0,
+            "more"
           ],
           [
             "輝き",
-            "brilliance",
-            1
+            1,
+            "brilliance"
           ],
           [
             "を",
-            "(obj)",
-            1
+            1,
+            "(obj)"
           ],
           [
             "感じ",
-            "feel",
-            2
+            2,
+            "feel"
           ],
           [
             "たい",
-            "want-to",
-            2
+            2,
+            "want-to"
           ],
           [
             " ",
-            "",
-            2
+            2,
+            ""
           ],
           [
             "今",
-            "now",
-            3
+            3,
+            "now"
           ],
           [
             "なら",
-            "if/when",
-            3
+            3,
+            "if/when"
           ],
           [
             "信じられる",
-            "can-believe",
-            4
+            4,
+            "can-believe"
           ],
           [
             "から",
-            "because",
-            4
+            4,
+            "because"
           ]
         ],
         "en": [
@@ -23260,43 +23260,43 @@
         "gloss": [
           [
             "きっと",
-            "surely",
-            0
+            0,
+            "surely"
           ],
           [
             "トキメキ",
-            "heart-flutter",
-            1
+            1,
+            "heart-flutter"
           ],
           [
             "で",
-            "with",
-            1
+            1,
+            "with"
           ],
           [
             "赤い",
-            "red",
-            2
+            2,
+            "red"
           ],
           [
             " ",
-            "",
-            2
+            2,
+            ""
           ],
           [
             "小さな",
-            "small",
-            3
+            3,
+            "small"
           ],
           [
             "果実",
-            "fruit",
-            4
+            4,
+            "fruit"
           ],
           [
             "だって",
-            "even",
-            4
+            4,
+            "even"
           ]
         ],
         "en": [
@@ -23354,18 +23354,18 @@
         "gloss": [
           [
             "太陽",
-            "sun",
-            0
+            0,
+            "sun"
           ],
           [
             "が",
-            "(subj)",
-            0
+            0,
+            "(subj)"
           ],
           [
             "泣いてる",
-            "is-crying",
-            1
+            1,
+            "is-crying"
           ]
         ],
         "en": [
@@ -23411,38 +23411,38 @@
         "gloss": [
           [
             "Days",
-            "days",
-            0
+            0,
+            "days"
           ],
           [
             " ",
-            "",
-            0
+            0,
+            ""
           ],
           [
             "生まれた",
-            "was-born",
-            1
+            1,
+            "was-born"
           ],
           [
             "こと",
-            "(nom:fact)",
-            2
+            2,
+            "(nom:fact)"
           ],
           [
             "の",
-            "'s",
-            2
+            2,
+            "'s"
           ],
           [
             "意味",
-            "meaning",
-            3
+            3,
+            "meaning"
           ],
           [
             "を",
-            "(obj)",
-            3
+            3,
+            "(obj)"
           ]
         ],
         "en": [
@@ -23489,28 +23489,28 @@
         "gloss": [
           [
             "2人",
-            "two-people",
-            0
+            0,
+            "two-people"
           ],
           [
             "で",
-            "by",
-            0
+            0,
+            "by"
           ],
           [
             "ナイショ",
-            "secret",
-            1
+            1,
+            "secret"
           ],
           [
             "で",
-            "by-means-of",
-            1
+            1,
+            "by-means-of"
           ],
           [
             "確かめた",
-            "confirmed",
-            2
+            2,
+            "confirmed"
           ]
         ],
         "en": [
@@ -23561,33 +23561,33 @@
         "gloss": [
           [
             "矛盾",
-            "contradiction",
-            0
+            0,
+            "contradiction"
           ],
           [
             "の",
-            "'s",
-            0
+            0,
+            "'s"
           ],
           [
             "Ice",
-            "ice",
-            1
+            1,
+            "ice"
           ],
           [
             "溶けだす",
-            "start-melting",
-            2
+            2,
+            "start-melting"
           ],
           [
             "みたい",
-            "like/as-if",
-            3
+            3,
+            "like/as-if"
           ],
           [
             "だった",
-            "was",
-            3
+            3,
+            "was"
           ]
         ],
         "en": [
@@ -23650,38 +23650,38 @@
         "gloss": [
           [
             "いつ",
-            "when",
-            0
+            0,
+            "when"
           ],
           [
             "から",
-            "from",
-            0
+            0,
+            "from"
           ],
           [
             "バレて",
-            "be-found-out",
-            1
+            1,
+            "be-found-out"
           ],
           [
             "も",
-            "even",
-            1
+            1,
+            "even"
           ],
           [
             "いい",
-            "good/okay",
-            2
+            2,
+            "good/okay"
           ],
           [
             "の",
-            "(emph)",
-            2
+            2,
+            "(emph)"
           ],
           [
             "?",
-            "?",
-            2
+            2,
+            "?"
           ]
         ],
         "en": [
@@ -23740,53 +23740,53 @@
         "gloss": [
           [
             "痛い",
-            "painful",
-            0
+            0,
+            "painful"
           ],
           [
             "こと",
-            "thing(s)",
-            0
+            0,
+            "thing(s)"
           ],
           [
             "も",
-            "also/even",
-            0
+            0,
+            "also/even"
           ],
           [
             " ",
-            "",
-            0
+            0,
+            ""
           ],
           [
             "乗り越える",
-            "overcome",
-            1
+            1,
+            "overcome"
           ],
           [
             "よ",
-            "!",
-            1
+            1,
+            "!"
           ],
           [
             "次",
-            "next",
-            2
+            2,
+            "next"
           ],
           [
             "に",
-            "to",
-            2
+            2,
+            "to"
           ],
           [
             "行ける",
-            "can-go",
-            3
+            3,
+            "can-go"
           ],
           [
             "なら",
-            "if",
-            3
+            3,
+            "if"
           ]
         ],
         "en": [
@@ -23864,58 +23864,58 @@
         "gloss": [
           [
             "そっと",
-            "softly",
-            0
+            0,
+            "softly"
           ],
           [
             "キミ",
-            "you",
-            1
+            1,
+            "you"
           ],
           [
             "だけ",
-            "only",
-            1
+            1,
+            "only"
           ],
           [
             "に",
-            "to",
-            1
+            1,
+            "to"
           ],
           [
             "言えた",
-            "could-say",
-            2
+            2,
+            "could-say"
           ],
           [
             " ",
-            "",
-            2
+            2,
+            ""
           ],
           [
             "誰",
-            "anyone",
-            3
+            3,
+            "anyone"
           ],
           [
             "に",
-            "to",
-            3
+            3,
+            "to"
           ],
           [
             "も",
-            "also",
-            3
+            3,
+            "also"
           ],
           [
             "さわれない",
-            "can't-touch",
-            4
+            4,
+            "can't-touch"
           ],
           [
             "夢",
-            "dream",
-            5
+            5,
+            "dream"
           ]
         ],
         "en": [
@@ -24001,48 +24001,48 @@
         "gloss": [
           [
             "ずっと",
-            "always",
-            0
+            0,
+            "always"
           ],
           [
             "つないだ",
-            "held/connected",
-            1
+            1,
+            "held/connected"
           ],
           [
             "この手",
-            "this-hand",
-            2
+            2,
+            "this-hand"
           ],
           [
             "に",
-            "from",
-            2
+            2,
+            "from"
           ],
           [
             " ",
-            "",
-            2
+            2,
+            ""
           ],
           [
             "勇気",
-            "courage",
-            3
+            3,
+            "courage"
           ],
           [
             "を",
-            "(obj)",
-            3
+            3,
+            "(obj)"
           ],
           [
             "もらってる",
-            "am-receiving",
-            4
+            4,
+            "am-receiving"
           ],
           [
             "よ",
-            "!",
-            4
+            4,
+            "!"
           ]
         ],
         "en": [
@@ -24105,38 +24105,38 @@
         "gloss": [
           [
             "Dive",
-            "dive",
-            0
+            0,
+            "dive"
           ],
           [
             " ",
-            "",
-            0
+            0,
+            ""
           ],
           [
             "その先",
-            "what's-beyond",
-            1
+            1,
+            "what's-beyond"
           ],
           [
             "が",
-            "(subj)",
-            1
+            1,
+            "(subj)"
           ],
           [
             "知り",
-            "know",
-            2
+            2,
+            "know"
           ],
           [
             "たい",
-            "want-to",
-            2
+            2,
+            "want-to"
           ],
           [
             "よ",
-            "!",
-            2
+            2,
+            "!"
           ]
         ],
         "en": [
@@ -24187,33 +24187,33 @@
         "gloss": [
           [
             "飛びこむ",
-            "leap-in",
-            0
+            0,
+            "leap-in"
           ],
           [
             "瞬間",
-            "moment",
-            1
+            1,
+            "moment"
           ],
           [
             "、",
-            ",",
-            1
+            1,
+            ","
           ],
           [
             "瞳(め)",
-            "eyes",
-            2
+            2,
+            "eyes"
           ],
           [
             "を",
-            "(obj)",
-            2
+            2,
+            "(obj)"
           ],
           [
             "とじた",
-            "closed",
-            3
+            3,
+            "closed"
           ]
         ],
         "en": [
@@ -24284,38 +24284,38 @@
         "gloss": [
           [
             "レベル",
-            "level",
-            0
+            0,
+            "level"
           ],
           [
             "は",
-            "(topic)",
-            0
+            0,
+            "(topic)"
           ],
           [
             "High",
-            "high",
-            1
+            1,
+            "high"
           ],
           [
             "答え",
-            "answer",
-            2
+            2,
+            "answer"
           ],
           [
             "は",
-            "(topic)",
-            2
+            2,
+            "(topic)"
           ],
           [
             "ひとつ",
-            "one",
-            3
+            3,
+            "one"
           ],
           [
             "じゃない",
-            "is-not",
-            4
+            4,
+            "is-not"
           ]
         ],
         "en": [
@@ -24374,28 +24374,28 @@
         "gloss": [
           [
             "ダメ",
-            "bad/no-good",
-            0
+            0,
+            "bad/no-good"
           ],
           [
             "でも",
-            "even-if",
-            0
+            0,
+            "even-if"
           ],
           [
             "良くて",
-            "good",
-            1
+            1,
+            "good"
           ],
           [
             "も",
-            "even",
-            1
+            1,
+            "even"
           ],
           [
             "It's my Beat",
-            "it's-my-beat",
-            2
+            2,
+            "it's-my-beat"
           ]
         ],
         "en": [
@@ -24454,53 +24454,53 @@
         "gloss": [
           [
             "つながってる",
-            "connected-(prog)",
-            0
+            0,
+            "connected-(prog)"
           ],
           [
             " ",
-            "",
-            0
+            0,
+            ""
           ],
           [
             "気持ち",
-            "feelings",
-            1
+            1,
+            "feelings"
           ],
           [
             "を",
-            "(obj)",
-            1
+            1,
+            "(obj)"
           ],
           [
             "みて",
-            "look(te)",
-            2
+            2,
+            "look(te)"
           ],
           [
             " ",
-            "",
-            2
+            2,
+            ""
           ],
           [
             "嘘",
-            "lie",
-            3
+            3,
+            "lie"
           ],
           [
             "は",
-            "(topic)",
-            3
+            3,
+            "(topic)"
           ],
           [
             "いえない",
-            "can't-say",
-            4
+            4,
+            "can't-say"
           ],
           [
             "よ",
-            "!",
-            4
+            4,
+            "!"
           ]
         ],
         "en": [
@@ -24574,53 +24574,53 @@
         "gloss": [
           [
             "もっと",
-            "more",
-            0
+            0,
+            "more"
           ],
           [
             "輝き",
-            "brilliance",
-            1
+            1,
+            "brilliance"
           ],
           [
             "を",
-            "(obj)",
-            1
+            1,
+            "(obj)"
           ],
           [
             "感じ",
-            "feel",
-            2
+            2,
+            "feel"
           ],
           [
             "たい",
-            "want-to",
-            2
+            2,
+            "want-to"
           ],
           [
             " ",
-            "",
-            2
+            2,
+            ""
           ],
           [
             "今",
-            "now",
-            3
+            3,
+            "now"
           ],
           [
             "なら",
-            "if/when",
-            3
+            3,
+            "if/when"
           ],
           [
             "信じられる",
-            "can-believe",
-            4
+            4,
+            "can-believe"
           ],
           [
             "から",
-            "because",
-            4
+            4,
+            "because"
           ]
         ],
         "en": [
@@ -24682,43 +24682,43 @@
         "gloss": [
           [
             "きっと",
-            "surely",
-            0
+            0,
+            "surely"
           ],
           [
             "トキメキ",
-            "heart-flutter",
-            1
+            1,
+            "heart-flutter"
           ],
           [
             "で",
-            "with",
-            1
+            1,
+            "with"
           ],
           [
             "赤い",
-            "red",
-            2
+            2,
+            "red"
           ],
           [
             " ",
-            "",
-            2
+            2,
+            ""
           ],
           [
             "小さな",
-            "small",
-            3
+            3,
+            "small"
           ],
           [
             "果実",
-            "fruit",
-            4
+            4,
+            "fruit"
           ],
           [
             "だって",
-            "even",
-            4
+            4,
+            "even"
           ]
         ],
         "en": [
@@ -24785,48 +24785,48 @@
         "gloss": [
           [
             "約束する",
-            "promise",
-            0
+            0,
+            "promise"
           ],
           [
             " ",
-            "",
-            0
+            0,
+            ""
           ],
           [
             "まぶしい",
-            "dazzling",
-            1
+            1,
+            "dazzling"
           ],
           [
             "風",
-            "wind",
-            2
+            2,
+            "wind"
           ],
           [
             "が",
-            "(subj)",
-            2
+            2,
+            "(subj)"
           ],
           [
             " ",
-            "",
-            2
+            2,
+            ""
           ],
           [
             "つめたく",
-            "cold(ly)",
-            3
+            3,
+            "cold(ly)"
           ],
           [
             "変わる",
-            "change",
-            4
+            4,
+            "change"
           ],
           [
             "けど",
-            "but/though",
-            4
+            4,
+            "but/though"
           ]
         ],
         "en": [
@@ -24901,48 +24901,48 @@
         "gloss": [
           [
             "忘れない",
-            "won't-forget",
-            0
+            0,
+            "won't-forget"
           ],
           [
             " ",
-            "",
-            0
+            0,
+            ""
           ],
           [
             "始まり",
-            "beginning",
-            1
+            1,
+            "beginning"
           ],
           [
             "の",
-            "'s",
-            1
+            1,
+            "'s"
           ],
           [
             "\"この夏\"",
-            "this-summer",
-            2
+            2,
+            "this-summer"
           ],
           [
             "を",
-            "(obj)",
-            2
+            2,
+            "(obj)"
           ],
           [
             "覚えてく",
-            "will-keep-remembering",
-            3
+            3,
+            "will-keep-remembering"
           ],
           [
             " ",
-            "",
-            3
+            3,
+            ""
           ],
           [
             "Woo Baby",
-            "woo-baby",
-            4
+            4,
+            "woo-baby"
           ]
         ],
         "en": [
@@ -25024,58 +25024,58 @@
         "gloss": [
           [
             "そっと",
-            "softly",
-            0
+            0,
+            "softly"
           ],
           [
             "キミ",
-            "you",
-            1
+            1,
+            "you"
           ],
           [
             "だけ",
-            "only",
-            1
+            1,
+            "only"
           ],
           [
             "に",
-            "to",
-            1
+            1,
+            "to"
           ],
           [
             "言えた",
-            "could-say",
-            2
+            2,
+            "could-say"
           ],
           [
             " ",
-            "",
-            2
+            2,
+            ""
           ],
           [
             "誰",
-            "anyone",
-            3
+            3,
+            "anyone"
           ],
           [
             "に",
-            "to",
-            3
+            3,
+            "to"
           ],
           [
             "も",
-            "also",
-            3
+            3,
+            "also"
           ],
           [
             "さわれない",
-            "can't-touch",
-            4
+            4,
+            "can't-touch"
           ],
           [
             "夢",
-            "dream",
-            5
+            5,
+            "dream"
           ]
         ],
         "en": [
@@ -25161,48 +25161,48 @@
         "gloss": [
           [
             "ずっと",
-            "always",
-            0
+            0,
+            "always"
           ],
           [
             "つないだ",
-            "held/connected",
-            1
+            1,
+            "held/connected"
           ],
           [
             "この手",
-            "this-hand",
-            2
+            2,
+            "this-hand"
           ],
           [
             "に",
-            "from",
-            2
+            2,
+            "from"
           ],
           [
             " ",
-            "",
-            2
+            2,
+            ""
           ],
           [
             "勇気",
-            "courage",
-            3
+            3,
+            "courage"
           ],
           [
             "を",
-            "(obj)",
-            3
+            3,
+            "(obj)"
           ],
           [
             "もらってる",
-            "am-receiving",
-            4
+            4,
+            "am-receiving"
           ],
           [
             "よ",
-            "!",
-            4
+            4,
+            "!"
           ]
         ],
         "en": [
@@ -25276,53 +25276,53 @@
         "gloss": [
           [
             "もっと",
-            "more",
-            0
+            0,
+            "more"
           ],
           [
             "輝き",
-            "brilliance",
-            1
+            1,
+            "brilliance"
           ],
           [
             "を",
-            "(obj)",
-            1
+            1,
+            "(obj)"
           ],
           [
             "感じ",
-            "feel",
-            2
+            2,
+            "feel"
           ],
           [
             "たい",
-            "want-to",
-            2
+            2,
+            "want-to"
           ],
           [
             " ",
-            "",
-            2
+            2,
+            ""
           ],
           [
             "今",
-            "now",
-            3
+            3,
+            "now"
           ],
           [
             "なら",
-            "if/when",
-            3
+            3,
+            "if/when"
           ],
           [
             "信じられる",
-            "can-believe",
-            4
+            4,
+            "can-believe"
           ],
           [
             "から",
-            "because",
-            4
+            4,
+            "because"
           ]
         ],
         "en": [
@@ -25384,43 +25384,43 @@
         "gloss": [
           [
             "きっと",
-            "surely",
-            0
+            0,
+            "surely"
           ],
           [
             "トキメキ",
-            "heart-flutter",
-            1
+            1,
+            "heart-flutter"
           ],
           [
             "で",
-            "with",
-            1
+            1,
+            "with"
           ],
           [
             "赤い",
-            "red",
-            2
+            2,
+            "red"
           ],
           [
             " ",
-            "",
-            2
+            2,
+            ""
           ],
           [
             "小さな",
-            "small",
-            3
+            3,
+            "small"
           ],
           [
             "果実",
-            "fruit",
-            4
+            4,
+            "fruit"
           ],
           [
             "だって",
-            "even",
-            4
+            4,
+            "even"
           ]
         ],
         "en": [
