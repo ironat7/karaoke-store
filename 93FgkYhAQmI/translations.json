@@ -1,0 +1,355 @@
+{
+  "15805163": {
+    "15.30": {
+      "en": "Cast a magic spell so that the two of us will surely meet",
+      "align": {
+        "jp": [
+          ["ふたりが", 0],
+          ["きっと 出会えるような", 1],
+          [" 魔法を", 2],
+          ["かけて", 3]
+        ],
+        "gloss": [
+          ["ふたり", 0, "two of us"],
+          ["が", 0, "(subj)"],
+          ["きっと", 1, "surely"],
+          [" 出会える", 1, "can meet"],
+          ["ような", 1, "such-that"],
+          [" 魔法", 2, "magic"],
+          ["を", 2, "(obj)"],
+          ["かけて", 3, "cast (please)"]
+        ],
+        "en": [
+          ["Cast", 3],
+          [" a magic spell", 2],
+          [" so that the two of us", 0],
+          [" will surely meet", 1]
+        ]
+      }
+    },
+    "22.73": {
+      "en": "Because if I gently place both hands together, look, I'll smile",
+      "align": {
+        "jp": [
+          ["両手を", 0],
+          ["そっと 重ねて", 1],
+          ["ほら", 2],
+          [" ほほえむ", 3],
+          ["から", 4]
+        ],
+        "gloss": [
+          ["両手", 0, "both hands"],
+          ["を", 0, "(obj)"],
+          ["そっと", 1, "gently"],
+          [" 重ねて", 1, "place-together"],
+          ["ほら", 2, "look"],
+          [" ほほえむ", 3, "smile"],
+          ["から", 4, "because"]
+        ],
+        "en": [
+          ["Because", 4],
+          [" if I", 1],
+          [" gently place", 1],
+          [" both hands", 0],
+          [" together,", 1],
+          [" look,", 2],
+          [" I'll smile", 3]
+        ]
+      }
+    },
+    "31.25": {
+      "en": "Pretending not to notice my true feelings",
+      "align": {
+        "jp": [
+          ["ほんとの", 0],
+          ["気持ち", 1],
+          [" 気付かない", 2],
+          ["ふりして", 3]
+        ],
+        "gloss": [
+          ["ほんと", 0, "true"],
+          ["の", 0, "of"],
+          ["気持ち", 1, "feelings"],
+          [" 気付か", 2, "notice"],
+          ["ない", 2, "not"],
+          ["ふり", 3, "pretense"],
+          ["して", 3, "doing"]
+        ],
+        "en": [
+          ["Pretending", 3],
+          [" not to notice", 2],
+          [" my true", 0],
+          [" feelings", 1]
+        ]
+      }
+    },
+    "38.61": {
+      "en": "Suddenly the two of us fell in love",
+      "align": {
+        "jp": [
+          ["突然", 0],
+          ["ふたり", 1],
+          [" 恋に", 2],
+          ["落ちたの", 3]
+        ],
+        "gloss": [
+          ["突然", 0, "suddenly"],
+          ["ふたり", 1, "two of us"],
+          [" 恋", 2, "love"],
+          ["に", 2, "into"],
+          ["落ちた", 3, "fell"],
+          ["の", 3, "(explan)"]
+        ],
+        "en": [
+          ["Suddenly", 0],
+          [" the two of us", 1],
+          [" fell", 3],
+          [" in love", 2]
+        ]
+      }
+    },
+    "72.82": {
+      "en": "I want to hold you close",
+      "align": {
+        "jp": [
+          ["だきしめ", 0],
+          ["たい", 1],
+          ["の", 2]
+        ],
+        "gloss": [
+          ["だきしめ", 0, "hold-close"],
+          ["たい", 1, "want-to"],
+          ["の", 2, "(explan)"]
+        ],
+        "en": [
+          ["I", 2],
+          [" want to", 1],
+          [" hold you close", 0]
+        ]
+      }
+    },
+    "89.16": {
+      "en": "All this time I kept it hidden, unable to say it",
+      "align": {
+        "jp": [
+          ["今まで", 0],
+          ["ずっと", 1],
+          [" 言えない", 2],
+          ["まま", 3],
+          [" 隠してたの", 4]
+        ],
+        "gloss": [
+          ["今", 0, "now"],
+          ["まで", 0, "until"],
+          ["ずっと", 1, "all along"],
+          [" 言え", 2, "can-say"],
+          ["ない", 2, "not"],
+          ["まま", 3, "as-is"],
+          [" 隠して", 4, "hiding"],
+          ["た", 4, "(past)"],
+          ["の", 4, "(explan)"]
+        ],
+        "en": [
+          ["All", 1],
+          [" this time", 0],
+          [" I kept it hidden,", 4],
+          [" remaining", 3],
+          [" unable to say it", 2]
+        ]
+      }
+    },
+    "96.50": {
+      "en": "I'm just putting on a brave face, that's all — find me out",
+      "align": {
+        "jp": [
+          ["強がってる", 0],
+          [" それだけ", 1],
+          ["なの", 2],
+          [" 見つけだして", 3]
+        ],
+        "gloss": [
+          ["強がって", 0, "acting-tough"],
+          ["る", 0, "(prog)"],
+          [" それ", 1, "that"],
+          ["だけ", 1, "only"],
+          ["な", 2, "(cop)"],
+          ["の", 2, "(explan)"],
+          [" 見つけだして", 3, "find-out (please)"]
+        ],
+        "en": [
+          ["I'm just", 1],
+          [" putting on a brave face,", 0],
+          [" that's all", 2],
+          [" — find me out", 3]
+        ]
+      }
+    },
+    "105.29": {
+      "en": "Please wait 5 more minutes until we meet up",
+      "align": {
+        "jp": [
+          ["待ち合わせ", 0],
+          ["まで", 1],
+          [" あと5分", 2],
+          [" 待ってて", 3]
+        ],
+        "gloss": [
+          ["待ち合わせ", 0, "rendezvous"],
+          ["まで", 1, "until"],
+          [" あと", 2, "more"],
+          ["5分", 2, "5 min"],
+          [" 待って", 3, "wait"],
+          ["て", 3, "(please-keep)"]
+        ],
+        "en": [
+          ["Please wait", 3],
+          [" 5 more minutes", 2],
+          [" until", 1],
+          [" we meet up", 0]
+        ]
+      }
+    },
+    "112.55": {
+      "en": "And after that, the two of us fell in love",
+      "align": {
+        "jp": [
+          ["そのあと", 0],
+          ["ふたり", 1],
+          [" 恋に", 2],
+          ["落ちたの", 3]
+        ],
+        "gloss": [
+          ["その", 0, "that"],
+          ["あと", 0, "after"],
+          ["ふたり", 1, "two of us"],
+          [" 恋", 2, "love"],
+          ["に", 2, "into"],
+          ["落ちた", 3, "fell"],
+          ["の", 3, "(explan)"]
+        ],
+        "en": [
+          ["And after that,", 0],
+          [" the two of us", 1],
+          [" fell", 3],
+          [" in love", 2]
+        ]
+      }
+    },
+    "146.34": {
+      "en": "It makes me feel like crying",
+      "align": {
+        "jp": [
+          ["泣きたく", 0],
+          ["なる", 1],
+          ["の", 2]
+        ],
+        "gloss": [
+          ["泣き", 0, "cry"],
+          ["たく", 0, "want-to"],
+          ["なる", 1, "become"],
+          ["の", 2, "(explan)"]
+        ],
+        "en": [
+          ["It makes me", 2],
+          [" come to", 1],
+          [" want to cry", 0]
+        ]
+      }
+    },
+    "179.64": {
+      "en": "When I gently let go of our joined hands",
+      "align": {
+        "jp": [
+          ["つないだ", 0],
+          ["手を", 1],
+          ["そっと", 2],
+          [" はなす", 3],
+          ["とき", 4]
+        ],
+        "gloss": [
+          ["つないだ", 0, "joined (past)"],
+          ["手", 1, "hands"],
+          ["を", 1, "(obj)"],
+          ["そっと", 2, "gently"],
+          [" はなす", 3, "let-go"],
+          ["とき", 4, "when"]
+        ],
+        "en": [
+          ["When", 4],
+          [" I", 2],
+          [" gently", 2],
+          [" let go", 3],
+          [" of our joined", 0],
+          [" hands", 1]
+        ]
+      }
+    },
+    "187.04": {
+      "en": "I become anxious, I become anxious",
+      "align": {
+        "jp": [
+          ["不安に", 0],
+          ["なるの", 1],
+          [" 不安に", 2],
+          ["なるの", 3]
+        ],
+        "gloss": [
+          ["不安", 0, "anxious"],
+          ["に", 0, "(to)"],
+          ["なる", 1, "become"],
+          ["の", 1, "(explan)"],
+          [" 不安", 2, "anxious"],
+          ["に", 2, "(to)"],
+          ["なる", 3, "become"],
+          ["の", 3, "(explan)"]
+        ],
+        "en": [
+          ["I become", 1],
+          [" anxious,", 0],
+          [" I become", 3],
+          [" anxious", 2]
+        ]
+      }
+    },
+    "220.41": {
+      "en": "Even though I want to hold you close",
+      "align": {
+        "jp": [
+          ["だきしめ", 0],
+          ["たい", 1],
+          ["のに", 2]
+        ],
+        "gloss": [
+          ["だきしめ", 0, "hold-close"],
+          ["たい", 1, "want-to"],
+          ["のに", 2, "even-though"]
+        ],
+        "en": [
+          ["Even though", 2],
+          [" I want to", 1],
+          [" hold you close", 0]
+        ]
+      }
+    },
+    "235.47": {
+      "en": "Even though I want to hold you close",
+      "align": {
+        "jp": [
+          ["だきしめ", 0],
+          ["たい", 1],
+          ["のに", 2]
+        ],
+        "gloss": [
+          ["だきしめ", 0, "hold-close"],
+          ["たい", 1, "want-to"],
+          ["のに", 2, "even-though"]
+        ],
+        "en": [
+          ["Even though", 2],
+          [" I want to", 1],
+          [" hold you close", 0]
+        ]
+      }
+    }
+  }
+}
