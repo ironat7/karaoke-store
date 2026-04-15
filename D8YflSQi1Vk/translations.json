@@ -1,0 +1,348 @@
+{
+  "22180436": {
+    "6.44": {
+      "en": "to the other side of those endless clouds",
+      "align": {
+        "jp": [["果てしない", 0], [" あの雲の彼方", 1], ["へ", 1]],
+        "gloss": [["果てしない", 0, "endless"], [" あの", 1, "those"], ["雲", 1, "clouds"], ["の", 1, "of"], ["彼方", 1, "other side"], ["へ", 1, "toward"]],
+        "en": [["to the other side", 1], [" of those endless clouds", 0]]
+      }
+    },
+    "14.59": {
+      "en": "take me with you",
+      "align": {
+        "jp": [["私", 0], ["を", 0], ["つれていって", 1]],
+        "gloss": [["私", 0, "me"], ["を", 0, "(obj)"], ["つれていって", 1, "take along"]],
+        "en": [["take", 1], [" me", 0], [" with you", 1]]
+      }
+    },
+    "19.02": {
+      "en": "please don't let go of that hand",
+      "align": {
+        "jp": [["その手", 0], ["を", 0], [" 離さないで", 1], ["ね", 2]],
+        "gloss": [["その", 0, "that"], ["手", 0, "hand"], ["を", 0, "(obj)"], [" 離さ", 1, "let go"], ["ない", 1, "(neg)"], ["で", 1, "(request)"], ["ね", 2, "(please)"]],
+        "en": [["please", 2], [" don't let go", 1], [" of that hand", 0]]
+      }
+    },
+    "45.46": {
+      "en": "a white love that fell dancing down from the midwinter constellations",
+      "align": {
+        "jp": [["真冬の星座", 0], ["から", 0], [" 舞いおちた", 1], ["白い恋", 2]],
+        "gloss": [["真冬", 0, "midwinter"], ["の", 0, "of"], ["星座", 0, "constellations"], ["から", 0, "from"], [" 舞いおちた", 1, "fell dancing"], ["白い", 2, "white"], ["恋", 2, "love"]],
+        "en": [["a white love", 2], [" that fell dancing down", 1], [" from the midwinter constellations", 0]]
+      }
+    },
+    "50.87": {
+      "en": "piling down deep within my chest",
+      "align": {
+        "jp": [["胸の奥", 0], ["に", 0], [" 降りつもる", 1]],
+        "gloss": [["胸", 0, "chest"], ["の", 0, "of"], ["奥", 0, "depths"], ["に", 0, "into"], [" 降りつもる", 1, "piles falling"]],
+        "en": [["piling down", 1], [" deep within my chest", 0]]
+      }
+    },
+    "55.72": {
+      "en": "it soaks into my heart and becomes tears",
+      "align": {
+        "jp": [["心", 0], ["に", 0], ["染みて", 1], [" 涙", 2], ["になる", 2]],
+        "gloss": [["心", 0, "heart"], ["に", 0, "into"], ["染みて", 1, "soaks and"], [" 涙", 2, "tears"], ["に", 2, "into"], ["なる", 2, "becomes"]],
+        "en": [["it soaks", 1], [" into my heart", 0], [" and becomes tears", 2]]
+      }
+    },
+    "62.55": {
+      "en": "every time we call to each other with a sign different from our friends'",
+      "align": {
+        "jp": [["仲間", 0], ["と", 0], ["は違う", 1], [" サイン", 2], ["で", 2], ["呼び合うたび", 3]],
+        "gloss": [["仲間", 0, "friends"], ["と", 0, "with"], ["は", 1, "(topic)"], ["違う", 1, "different"], [" サイン", 2, "sign"], ["で", 2, "with"], ["呼び合う", 3, "call each other"], ["たび", 3, "every time"]],
+        "en": [["every time we call to each other", 3], [" with a sign", 2], [" different", 1], [" from our friends'", 0]]
+      }
+    },
+    "68.05": {
+      "en": "we can become strong",
+      "align": {
+        "jp": [["強くなれる", 0]],
+        "gloss": [["強く", 0, "strong"], ["なれる", 0, "can become"]],
+        "en": [["we can become strong", 0]]
+      }
+    },
+    "71.24": {
+      "en": "even when apart, we're always one, aren't we",
+      "align": {
+        "jp": [["離れていて", 0], ["も", 0], [" いつだって", 1], ["ひとつ", 2], ["だよね", 2]],
+        "gloss": [["離れていて", 0, "being apart"], ["も", 0, "even"], [" いつだって", 1, "always"], ["ひとつ", 2, "one"], ["だ", 2, "are"], ["よ", 2, "(!)"], ["ね", 2, "right?"]],
+        "en": [["even when apart", 0], [", we're always", 1], [" one, aren't we", 2]]
+      }
+    },
+    "79.18": {
+      "en": "uh, keep holding me more tightly, always",
+      "align": {
+        "jp": [["Uh もっと", 0], ["ちゃんと", 1], [" いつも", 2], [" つかまえていて", 3]],
+        "gloss": [["Uh ", 0, "uh"], ["もっと", 0, "more"], ["ちゃんと", 1, "properly"], [" いつも", 2, "always"], [" つかまえていて", 3, "keep holding"]],
+        "en": [["uh, keep holding me", 3], [" more", 0], [" tightly", 1], [", always", 2]]
+      }
+    },
+    "88.14": {
+      "en": "on nights without a phone call, even if I act tough",
+      "align": {
+        "jp": [["電話がない夜", 0], ["は", 0], [" 強がってても", 1]],
+        "gloss": [["電話", 0, "phone call"], ["が", 0, "(subj)"], ["ない", 0, "not exist"], ["夜", 0, "night"], ["は", 0, "(topic)"], [" 強がって", 1, "acting tough"], ["て", 1, "and"], ["も", 1, "even"]],
+        "en": [["on nights without a phone call", 0], [", even if I act tough", 1]]
+      }
+    },
+    "94.19": {
+      "en": "the truth is, I miss you",
+      "align": {
+        "jp": [["ホント", 0], ["は", 0], ["ね", 0], [" I miss you", 1]],
+        "gloss": [["ホント", 0, "truth"], ["は", 0, "(topic)"], ["ね", 0, "y'know"], [" I miss you", 1, "I miss you"]],
+        "en": [["the truth is", 0], [", I miss you", 1]]
+      }
+    },
+    "99.62": {
+      "en": "like the endless light of the stars",
+      "align": {
+        "jp": [["果てしない", 0], [" 星の光", 1], ["のように", 1]],
+        "gloss": [["果てしない", 0, "endless"], [" 星", 1, "stars"], ["の", 1, "of"], ["光", 1, "light"], ["のように", 1, "like"]],
+        "en": [["like the endless light", 0], [" of the stars", 1]]
+      }
+    },
+    "107.55": {
+      "en": "with a heart full of love",
+      "align": {
+        "jp": [["胸いっぱいの愛", 0], ["で", 0]],
+        "gloss": [["胸", 0, "chest"], ["いっぱい", 0, "full"], ["の", 0, "of"], ["愛", 0, "love"], ["で", 0, "with"]],
+        "en": [["with a heart full of love", 0]]
+      }
+    },
+    "111.89": {
+      "en": "right now I want to wrap you up",
+      "align": {
+        "jp": [["今", 0], ["あなた", 1], ["を", 1], [" 包みたい", 2]],
+        "gloss": [["今", 0, "now"], ["あなた", 1, "you"], ["を", 1, "(obj)"], [" 包み", 2, "wrap"], ["たい", 2, "want to"]],
+        "en": [["right now", 0], [" I want to wrap", 2], [" you up", 1]]
+      }
+    },
+    "118.45": {
+      "en": "the meeting that an angel gave us",
+      "align": {
+        "jp": [["天使", 0], ["が", 0], ["くれた", 1], [" 出逢い", 2], ["は", 2]],
+        "gloss": [["天使", 0, "angel"], ["が", 0, "(subj)"], ["くれた", 1, "gave (us)"], [" 出逢い", 2, "meeting"], ["は", 2, "(topic)"]],
+        "en": [["the meeting", 2], [" that an angel", 0], [" gave us", 1]]
+      }
+    },
+    "123.33": {
+      "en": "pierces through that sky",
+      "align": {
+        "jp": [["あの空", 0], ["を", 0], [" 突きぬけて", 1]],
+        "gloss": [["あの", 0, "that"], ["空", 0, "sky"], ["を", 0, "(obj)"], [" 突きぬけて", 1, "pierces through"]],
+        "en": [["pierces through", 1], [" that sky", 0]]
+      }
+    },
+    "127.64": {
+      "en": "and keeps shining for eternity",
+      "align": {
+        "jp": [["永遠", 0], ["に", 0], ["輝き続ける", 1]],
+        "gloss": [["永遠", 0, "eternity"], ["に", 0, "for"], ["輝き続ける", 1, "keeps shining"]],
+        "en": [["and keeps shining", 1], [" for eternity", 0]]
+      }
+    },
+    "145.99": {
+      "en": "the illumination blurring on the window fogged by white sighs",
+      "align": {
+        "jp": [["白いため息", 0], ["で", 0], [" 曇った窓", 1], ["に", 1], ["にじむ", 2], [" イルミネイション", 3]],
+        "gloss": [["白い", 0, "white"], ["ため息", 0, "sighs"], ["で", 0, "by"], [" 曇った", 1, "fogged"], ["窓", 1, "window"], ["に", 1, "on"], ["にじむ", 2, "blurs"], [" イルミネイション", 3, "illumination"]],
+        "en": [["the illumination", 3], [" blurring", 2], [" on the window", 1], [" fogged by white sighs", 0]]
+      }
+    },
+    "154.05": {
+      "en": "so much that it's joyful",
+      "align": {
+        "jp": [["うれしいほど", 0]],
+        "gloss": [["うれしい", 0, "joyful"], ["ほど", 0, "so much that"]],
+        "en": [["so much that it's joyful", 0]]
+      }
+    },
+    "155.96": {
+      "en": "anxious about tomorrow, it can even make you cry, can't it",
+      "align": {
+        "jp": [["明日", 0], ["が", 0], ["不安で", 1], [" 泣けるものね", 2]],
+        "gloss": [["明日", 0, "tomorrow"], ["が", 0, "(subj)"], ["不安", 1, "anxious"], ["で", 1, "being"], [" 泣ける", 2, "can cry"], ["ものね", 2, "isn't it"]],
+        "en": [["anxious", 1], [" about tomorrow", 0], [", it can even make you cry, can't it", 2]]
+      }
+    },
+    "163.28": {
+      "en": "may there be lots of your initials in my new planner too",
+      "align": {
+        "jp": [["新しい手帳", 0], ["にも", 0], [" あなたのイニシャル", 1], ["が", 1], ["沢山", 2]],
+        "gloss": [["新しい", 0, "new"], ["手帳", 0, "planner"], ["に", 0, "in"], ["も", 0, "also"], [" あなた", 1, "your"], ["の", 1, "'s"], ["イニシャル", 1, "initials"], ["が", 1, "(subj)"], ["沢山", 2, "lots"]],
+        "en": [["lots of", 2], [" your initials", 1], [" in my new planner too", 0]]
+      }
+    },
+    "168.53": {
+      "en": "may it be so",
+      "align": {
+        "jp": [["ありますように", 0]],
+        "gloss": [["あります", 0, "exist"], ["ように", 0, "may it"]],
+        "en": [["may it be so", 0]]
+      }
+    },
+    "171.92": {
+      "en": "because there's a next promise, I can keep on living",
+      "align": {
+        "jp": [["次の約束", 0], ["が", 0], [" あるから", 1], ["生きていけるよ", 2]],
+        "gloss": [["次", 0, "next"], ["の", 0, "of"], ["約束", 0, "promise"], ["が", 0, "(subj)"], [" ある", 1, "exists"], ["から", 1, "because"], ["生きていける", 2, "can keep living"], ["よ", 2, "(!)"]],
+        "en": [["because there's a next promise", 1], [", I can keep on living", 2]]
+      }
+    },
+    "179.81": {
+      "en": "ah, when the snow melts and spring eventually comes",
+      "align": {
+        "jp": [["Ah 雪", 0], ["が", 0], ["溶けて", 1], [" やがて", 2], ["春", 3], ["がくる頃", 3]],
+        "gloss": [["Ah ", 0, "ah"], ["雪", 0, "snow"], ["が", 0, "(subj)"], ["溶けて", 1, "melts and"], [" やがて", 2, "eventually"], ["春", 3, "spring"], ["が", 3, "(subj)"], ["くる", 3, "comes"], ["頃", 3, "time when"]],
+        "en": [["ah, when", 0], [" the snow melts", 1], [" and", 0], [" eventually", 2], [" spring comes", 3]]
+      }
+    },
+    "188.15": {
+      "en": "for you, I want to become something like dappled sunlight",
+      "align": {
+        "jp": [["あなた", 0], ["にとって", 0], [" 木洩れ日のような", 1]],
+        "gloss": [["あなた", 0, "you"], ["にとって", 0, "for"], [" 木洩れ日", 1, "filtered sunlight"], ["のような", 1, "like"]],
+        "en": [["for you", 0], [", I want to become something like dappled sunlight", 1]]
+      }
+    },
+    "194.37": {
+      "en": "I want to become a comfort",
+      "align": {
+        "jp": [["やすらぎ", 0], ["に", 0], [" なってたい", 1]],
+        "gloss": [["やすらぎ", 0, "comfort"], ["に", 0, "into"], [" なって", 1, "become"], ["たい", 1, "want to"]],
+        "en": [["I want to become", 1], [" a comfort", 0]]
+      }
+    },
+    "199.93": {
+      "en": "like the endless life of the stars",
+      "align": {
+        "jp": [["果てしない", 0], [" 星の生命", 1], ["のように", 1]],
+        "gloss": [["果てしない", 0, "endless"], [" 星", 1, "stars"], ["の", 1, "of"], ["生命", 1, "life"], ["のように", 1, "like"]],
+        "en": [["like the endless life", 0], [" of the stars", 1]]
+      }
+    },
+    "208.03": {
+      "en": "even when I feel like giving up",
+      "align": {
+        "jp": [["くじけそう", 0], ["になっても", 0]],
+        "gloss": [["くじけ", 0, "give up"], ["そう", 0, "seem like"], ["に", 0, "(to)"], ["なって", 0, "become"], ["も", 0, "even"]],
+        "en": [["even when I feel like giving up", 0]]
+      }
+    },
+    "212.33": {
+      "en": "I'll keep on loving you forever",
+      "align": {
+        "jp": [["ずっと", 0], ["愛し続けるよ", 1]],
+        "gloss": [["ずっと", 0, "forever"], ["愛し続ける", 1, "keep loving"], ["よ", 1, "(!)"]],
+        "en": [["I'll keep on loving you", 1], [" forever", 0]]
+      }
+    },
+    "218.92": {
+      "en": "like fleeting snow",
+      "align": {
+        "jp": [["儚い", 0], [" 雪みたいに", 1]],
+        "gloss": [["儚い", 0, "fleeting"], [" 雪", 1, "snow"], ["みたいに", 1, "like"]],
+        "en": [["like", 1], [" fleeting", 0], [" snow", 1]]
+      }
+    },
+    "223.67": {
+      "en": "this present happiness",
+      "align": {
+        "jp": [["この今の", 0], [" しあわせ", 1], ["が", 1]],
+        "gloss": [["この", 0, "this"], ["今", 0, "now"], ["の", 0, "'s"], [" しあわせ", 1, "happiness"], ["が", 1, "(subj)"]],
+        "en": [["this present", 0], [" happiness", 1]]
+      }
+    },
+    "228.12": {
+      "en": "so that it won't someday disappear",
+      "align": {
+        "jp": [["いつか", 0], [" 消えてしまわぬように", 1]],
+        "gloss": [["いつか", 0, "someday"], [" 消えて", 1, "disappear"], ["しまわ", 1, "end up"], ["ぬ", 1, "(neg)"], ["ように", 1, "so that"]],
+        "en": [["so that it won't", 1], [" someday", 0], [" disappear", 1]]
+      }
+    },
+    "256.63": {
+      "en": "I love you... hold me...",
+      "align": {
+        "jp": [["愛してる", 0], ["... ", 0], ["抱いていて", 1], ["...", 1]],
+        "gloss": [["愛してる", 0, "love (you)"], ["... ", 0, "..."], ["抱いていて", 1, "keep holding"], ["...", 1, "..."]],
+        "en": [["I love you...", 0], [" hold me...", 1]]
+      }
+    },
+    "271.64": {
+      "en": "to the other side of those endless clouds",
+      "align": {
+        "jp": [["果てしない", 0], [" あの雲の彼方", 1], ["へ", 1]],
+        "gloss": [["果てしない", 0, "endless"], [" あの", 1, "those"], ["雲", 1, "clouds"], ["の", 1, "of"], ["彼方", 1, "other side"], ["へ", 1, "toward"]],
+        "en": [["to the other side", 1], [" of those endless clouds", 0]]
+      }
+    },
+    "279.58": {
+      "en": "take me with you",
+      "align": {
+        "jp": [["私", 0], ["を", 0], ["つれていって", 1]],
+        "gloss": [["私", 0, "me"], ["を", 0, "(obj)"], ["つれていって", 1, "take along"]],
+        "en": [["take", 1], [" me", 0], [" with you", 1]]
+      }
+    },
+    "283.75": {
+      "en": "please don't let go of that hand",
+      "align": {
+        "jp": [["その手", 0], ["を", 0], [" 離さないで", 1], ["ね", 2]],
+        "gloss": [["その", 0, "that"], ["手", 0, "hand"], ["を", 0, "(obj)"], [" 離さ", 1, "let go"], ["ない", 1, "(neg)"], ["で", 1, "(request)"], ["ね", 2, "(please)"]],
+        "en": [["please", 2], [" don't let go", 1], [" of that hand", 0]]
+      }
+    },
+    "290.20": {
+      "en": "the meeting that an angel gave us",
+      "align": {
+        "jp": [["天使", 0], ["が", 0], ["くれた", 1], [" 出逢い", 2], ["は", 2]],
+        "gloss": [["天使", 0, "angel"], ["が", 0, "(subj)"], ["くれた", 1, "gave (us)"], [" 出逢い", 2, "meeting"], ["は", 2, "(topic)"]],
+        "en": [["the meeting", 2], [" that an angel", 0], [" gave us", 1]]
+      }
+    },
+    "295.05": {
+      "en": "it's not just some miracle",
+      "align": {
+        "jp": [["奇跡", 0], ["なんか", 1], ["じゃないよ", 2]],
+        "gloss": [["奇跡", 0, "miracle"], ["なんか", 1, "just some"], ["じゃない", 2, "is not"], ["よ", 2, "(!)"]],
+        "en": [["it's not", 2], [" just some", 1], [" miracle", 0]]
+      }
+    },
+    "299.60": {
+      "en": "God, please keep watching over us",
+      "align": {
+        "jp": [["神様", 0], [" 見つめてて", 1]],
+        "gloss": [["神様", 0, "God"], [" 見つめてて", 1, "keep watching"]],
+        "en": [["God", 0], [", please keep watching over us", 1]]
+      }
+    },
+    "304.07": {
+      "en": "this newly-born love",
+      "align": {
+        "jp": [["生まれたての愛", 0], ["を", 0]],
+        "gloss": [["生まれたて", 0, "newly-born"], ["の", 0, "of"], ["愛", 0, "love"], ["を", 0, "(obj)"]],
+        "en": [["this newly-born love", 0]]
+      }
+    },
+    "308.08": {
+      "en": "because I'll cherish it forever",
+      "align": {
+        "jp": [["永遠", 0], ["に", 0], ["大切にする", 1], ["から", 1]],
+        "gloss": [["永遠", 0, "eternity"], ["に", 0, "for"], ["大切にする", 1, "will cherish"], ["から", 1, "because"]],
+        "en": [["because I'll cherish it", 1], [" forever", 0]]
+      }
+    },
+    "317.29": {
+      "en": "I want to go on living for your sake",
+      "align": {
+        "jp": [["あなた", 0], ["の", 0], ["為", 1], ["に", 1], ["生きていきたい", 2]],
+        "gloss": [["あなた", 0, "you"], ["の", 0, "'s"], ["為", 1, "sake"], ["に", 1, "for"], ["生きていきたい", 2, "want to go on living"]],
+        "en": [["I want to go on living", 2], [" for your", 0], [" sake", 1]]
+      }
+    }
+  }
+}
