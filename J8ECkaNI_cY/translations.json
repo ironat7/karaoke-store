@@ -1,0 +1,1777 @@
+{
+  "14935262": {
+    "17.18": {
+      "en": "So many coincidences",
+      "align": {
+        "jp": [
+          [
+            "偶然が",
+            0
+          ],
+          [
+            " いくつも",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "偶然",
+            0,
+            "coincidence"
+          ],
+          [
+            "が",
+            0,
+            "(subj)"
+          ],
+          [
+            " いくつも",
+            1,
+            "many/several"
+          ]
+        ],
+        "en": [
+          [
+            "So many",
+            1
+          ],
+          [
+            " coincidences",
+            0
+          ]
+        ]
+      }
+    },
+    "21.02": {
+      "en": "piled up together,",
+      "align": {
+        "jp": [
+          [
+            "かさなり",
+            0
+          ],
+          [
+            "あって",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "かさなり",
+            0,
+            "piling up"
+          ],
+          [
+            "あって",
+            1,
+            "together (te-form)"
+          ]
+        ],
+        "en": [
+          [
+            "piled up",
+            0
+          ],
+          [
+            " together,",
+            1
+          ]
+        ]
+      }
+    },
+    "25.12": {
+      "en": "I met you",
+      "align": {
+        "jp": [
+          [
+            "あなたと",
+            0
+          ],
+          [
+            " 出会って",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "あなた",
+            0,
+            "you"
+          ],
+          [
+            "と",
+            0,
+            "with"
+          ],
+          [
+            " 出会って",
+            1,
+            "met (te-form)"
+          ]
+        ],
+        "en": [
+          [
+            "I met",
+            1
+          ],
+          [
+            " you",
+            0
+          ]
+        ]
+      }
+    },
+    "29.88": {
+      "en": "and fell in love.",
+      "align": {
+        "jp": [
+          [
+            "恋に",
+            0
+          ],
+          [
+            " 落ちた",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "恋",
+            0,
+            "love"
+          ],
+          [
+            "に",
+            0,
+            "into"
+          ],
+          [
+            " 落ち",
+            1,
+            "fell"
+          ],
+          [
+            "た",
+            1,
+            "(past)"
+          ]
+        ],
+        "en": [
+          [
+            "and fell",
+            1
+          ],
+          [
+            " in love.",
+            0
+          ]
+        ]
+      }
+    },
+    "33.18": {
+      "en": "My heartbeat that seems audible",
+      "align": {
+        "jp": [
+          [
+            "聞こえそうな",
+            0
+          ],
+          [
+            " 鼓動が",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "聞こえ",
+            0,
+            "audible"
+          ],
+          [
+            "そうな",
+            0,
+            "seeming"
+          ],
+          [
+            " 鼓動",
+            1,
+            "heartbeat"
+          ],
+          [
+            "が",
+            1,
+            "(subj)"
+          ]
+        ],
+        "en": [
+          [
+            "My heartbeat",
+            1
+          ],
+          [
+            " that seems audible",
+            0
+          ]
+        ]
+      }
+    },
+    "37.50": {
+      "en": "is embarrassing!",
+      "align": {
+        "jp": [
+          [
+            "恥ずかしい",
+            0
+          ],
+          [
+            "よ",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "恥ずかしい",
+            0,
+            "embarrassing"
+          ],
+          [
+            "よ",
+            1,
+            "(!)"
+          ]
+        ],
+        "en": [
+          [
+            "is embarrassing",
+            0
+          ],
+          [
+            "!",
+            1
+          ]
+        ]
+      }
+    },
+    "41.50": {
+      "en": "Why —",
+      "align": {
+        "jp": [
+          [
+            "どうして",
+            0
+          ]
+        ],
+        "gloss": [
+          [
+            "どうして",
+            0,
+            "why"
+          ]
+        ],
+        "en": [
+          [
+            "Why —",
+            0
+          ]
+        ]
+      }
+    },
+    "43.86": {
+      "en": "this isn't like me.",
+      "align": {
+        "jp": [
+          [
+            "わたしらしくは",
+            0
+          ],
+          [
+            " ないよ",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "わたし",
+            0,
+            "me"
+          ],
+          [
+            "らしく",
+            0,
+            "like/typical of"
+          ],
+          [
+            "は",
+            0,
+            "(topic)"
+          ],
+          [
+            " ない",
+            1,
+            "not"
+          ],
+          [
+            "よ",
+            1,
+            "(!)"
+          ]
+        ],
+        "en": [
+          [
+            "this isn't",
+            1
+          ],
+          [
+            " like me.",
+            0
+          ]
+        ]
+      }
+    },
+    "48.83": {
+      "en": "Even when today ends,",
+      "align": {
+        "jp": [
+          [
+            "今日が",
+            0
+          ],
+          [
+            " 終っても",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "今日",
+            0,
+            "today"
+          ],
+          [
+            "が",
+            0,
+            "(subj)"
+          ],
+          [
+            " 終って",
+            1,
+            "ends"
+          ],
+          [
+            "も",
+            1,
+            "even if"
+          ]
+        ],
+        "en": [
+          [
+            "Even when",
+            1
+          ],
+          [
+            " today",
+            0
+          ],
+          [
+            " ends,",
+            1
+          ]
+        ]
+      }
+    },
+    "53.56": {
+      "en": "even when tomorrow passes,",
+      "align": {
+        "jp": [
+          [
+            "明日が",
+            0
+          ],
+          [
+            " 過ぎても",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "明日",
+            0,
+            "tomorrow"
+          ],
+          [
+            "が",
+            0,
+            "(subj)"
+          ],
+          [
+            " 過ぎて",
+            1,
+            "passes"
+          ],
+          [
+            "も",
+            1,
+            "even if"
+          ]
+        ],
+        "en": [
+          [
+            "even when",
+            1
+          ],
+          [
+            " tomorrow",
+            0
+          ],
+          [
+            " passes,",
+            1
+          ]
+        ]
+      }
+    },
+    "57.52": {
+      "en": "always be by my side —",
+      "align": {
+        "jp": [
+          [
+            "いつも",
+            0
+          ],
+          [
+            " そばに",
+            1
+          ],
+          [
+            "いて",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "いつも",
+            0,
+            "always"
+          ],
+          [
+            " そば",
+            1,
+            "side"
+          ],
+          [
+            "に",
+            1,
+            "at"
+          ],
+          [
+            "いて",
+            2,
+            "be (te-form)"
+          ]
+        ],
+        "en": [
+          [
+            "always",
+            0
+          ],
+          [
+            " be",
+            2
+          ],
+          [
+            " by my side",
+            1
+          ],
+          [
+            " —",
+            2
+          ]
+        ]
+      }
+    },
+    "62.15": {
+      "en": "the two of us, forever honest, unchanging —",
+      "align": {
+        "jp": [
+          [
+            "ずっと",
+            0
+          ],
+          [
+            " 素直に",
+            1
+          ],
+          [
+            " 変わらぬ",
+            2
+          ],
+          [
+            "二人",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "ずっと",
+            0,
+            "forever/always"
+          ],
+          [
+            " 素直",
+            1,
+            "honest"
+          ],
+          [
+            "に",
+            1,
+            "(adv)"
+          ],
+          [
+            " 変わら",
+            2,
+            "change"
+          ],
+          [
+            "ぬ",
+            2,
+            "not (arch.)"
+          ],
+          [
+            "二人",
+            3,
+            "two people"
+          ]
+        ],
+        "en": [
+          [
+            "the two of us,",
+            3
+          ],
+          [
+            " forever",
+            0
+          ],
+          [
+            " honest,",
+            1
+          ],
+          [
+            " unchanging —",
+            2
+          ]
+        ]
+      }
+    },
+    "69.15": {
+      "en": "I want to believe.",
+      "align": {
+        "jp": [
+          [
+            "信じたい",
+            0
+          ]
+        ],
+        "gloss": [
+          [
+            "信じ",
+            0,
+            "believe"
+          ],
+          [
+            "たい",
+            0,
+            "want to"
+          ]
+        ],
+        "en": [
+          [
+            "I want to believe.",
+            0
+          ]
+        ]
+      }
+    },
+    "72.68": {
+      "en": "From the day I met you,",
+      "align": {
+        "jp": [
+          [
+            "あなたと",
+            0
+          ],
+          [
+            "あった",
+            1
+          ],
+          [
+            " あの日から",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "あなた",
+            0,
+            "you"
+          ],
+          [
+            "と",
+            0,
+            "with"
+          ],
+          [
+            "あっ",
+            1,
+            "met"
+          ],
+          [
+            "た",
+            1,
+            "(past)"
+          ],
+          [
+            " あの日",
+            2,
+            "that day"
+          ],
+          [
+            "から",
+            2,
+            "from"
+          ]
+        ],
+        "en": [
+          [
+            "From",
+            2
+          ],
+          [
+            " that day",
+            2
+          ],
+          [
+            " I met",
+            1
+          ],
+          [
+            " you,",
+            0
+          ]
+        ]
+      }
+    },
+    "78.57": {
+      "en": "no matter when,",
+      "align": {
+        "jp": [
+          [
+            "どんなときにでも",
+            0
+          ]
+        ],
+        "gloss": [
+          [
+            "どんな",
+            0,
+            "whatever"
+          ],
+          [
+            "とき",
+            0,
+            "time"
+          ],
+          [
+            "に",
+            0,
+            "at"
+          ],
+          [
+            "でも",
+            0,
+            "even"
+          ]
+        ],
+        "en": [
+          [
+            "no matter when,",
+            0
+          ]
+        ]
+      }
+    },
+    "81.56": {
+      "en": "everything —",
+      "align": {
+        "jp": [
+          [
+            "すべてを",
+            0
+          ]
+        ],
+        "gloss": [
+          [
+            "すべて",
+            0,
+            "everything"
+          ],
+          [
+            "を",
+            0,
+            "(obj)"
+          ]
+        ],
+        "en": [
+          [
+            "everything —",
+            0
+          ]
+        ]
+      }
+    },
+    "83.87": {
+      "en": "I feel I can feel it all.",
+      "align": {
+        "jp": [
+          [
+            "感じられる",
+            0
+          ],
+          [
+            " 気がする",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "感じ",
+            0,
+            "feel"
+          ],
+          [
+            "られる",
+            0,
+            "can (potential)"
+          ],
+          [
+            " 気がする",
+            1,
+            "feel that/sense"
+          ]
+        ],
+        "en": [
+          [
+            "I feel",
+            1
+          ],
+          [
+            " I can feel it all.",
+            0
+          ]
+        ]
+      }
+    },
+    "88.96": {
+      "en": "Just because you are here,",
+      "align": {
+        "jp": [
+          [
+            "ただ",
+            0
+          ],
+          [
+            " あなたが",
+            1
+          ],
+          [
+            "いるだけで",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "ただ",
+            0,
+            "just/only"
+          ],
+          [
+            " あなた",
+            1,
+            "you"
+          ],
+          [
+            "が",
+            1,
+            "(subj)"
+          ],
+          [
+            "いる",
+            2,
+            "exist/are"
+          ],
+          [
+            "だけで",
+            2,
+            "just by"
+          ]
+        ],
+        "en": [
+          [
+            "Just",
+            0
+          ],
+          [
+            " because you",
+            1
+          ],
+          [
+            " are here,",
+            2
+          ]
+        ]
+      }
+    },
+    "94.92": {
+      "en": "just being by my side —",
+      "align": {
+        "jp": [
+          [
+            "そばに",
+            0
+          ],
+          [
+            "いるだけで",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "そば",
+            0,
+            "side"
+          ],
+          [
+            "に",
+            0,
+            "at"
+          ],
+          [
+            "いる",
+            1,
+            "being"
+          ],
+          [
+            "だけで",
+            1,
+            "just by"
+          ]
+        ],
+        "en": [
+          [
+            "just being",
+            1
+          ],
+          [
+            " by my side —",
+            0
+          ]
+        ]
+      }
+    },
+    "97.91": {
+      "en": "Forever"
+    },
+    "100.25": {
+      "en": "You're My Only Feeling Heart"
+    },
+    "120.64": {
+      "en": "Twilight cools the night breeze,",
+      "align": {
+        "jp": [
+          [
+            "夕暮れが",
+            0
+          ],
+          [
+            " 夜風を",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "夕暮れ",
+            0,
+            "twilight"
+          ],
+          [
+            "が",
+            0,
+            "(subj)"
+          ],
+          [
+            " 夜風",
+            1,
+            "night breeze"
+          ],
+          [
+            "を",
+            1,
+            "(obj)"
+          ]
+        ],
+        "en": [
+          [
+            "Twilight",
+            0
+          ],
+          [
+            " cools",
+            1
+          ],
+          [
+            " the night breeze,",
+            1
+          ]
+        ]
+      }
+    },
+    "124.58": {
+      "en": "chilling it down.",
+      "align": {
+        "jp": [
+          [
+            "ひやして",
+            0
+          ],
+          [
+            "いくよ",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "ひやして",
+            0,
+            "chilling (te-form)"
+          ],
+          [
+            "いく",
+            1,
+            "goes/progresses"
+          ],
+          [
+            "よ",
+            1,
+            "(!)"
+          ]
+        ],
+        "en": [
+          [
+            "chilling",
+            0
+          ],
+          [
+            " it down.",
+            1
+          ]
+        ]
+      }
+    },
+    "128.75": {
+      "en": "Because I'm with you,",
+      "align": {
+        "jp": [
+          [
+            "あなたと",
+            0
+          ],
+          [
+            " いるから",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "あなた",
+            0,
+            "you"
+          ],
+          [
+            "と",
+            0,
+            "with"
+          ],
+          [
+            " いる",
+            1,
+            "am/be"
+          ],
+          [
+            "から",
+            1,
+            "because"
+          ]
+        ],
+        "en": [
+          [
+            "Because",
+            1
+          ],
+          [
+            " I'm",
+            1
+          ],
+          [
+            " with you,",
+            0
+          ]
+        ]
+      }
+    },
+    "133.19": {
+      "en": "I'm not cold!",
+      "align": {
+        "jp": [
+          [
+            "寒くない",
+            0
+          ],
+          [
+            "よ",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "寒く",
+            0,
+            "cold"
+          ],
+          [
+            "ない",
+            0,
+            "not"
+          ],
+          [
+            "よ",
+            1,
+            "(!)"
+          ]
+        ],
+        "en": [
+          [
+            "I'm not cold",
+            0
+          ],
+          [
+            "!",
+            1
+          ]
+        ]
+      }
+    },
+    "136.82": {
+      "en": "The colors of the town, beautifully",
+      "align": {
+        "jp": [
+          [
+            "街のいろが",
+            0
+          ],
+          [
+            " きれいに",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "街",
+            0,
+            "town"
+          ],
+          [
+            "の",
+            0,
+            "of"
+          ],
+          [
+            "いろ",
+            0,
+            "colors"
+          ],
+          [
+            "が",
+            0,
+            "(subj)"
+          ],
+          [
+            " きれい",
+            1,
+            "pretty/beautiful"
+          ],
+          [
+            "に",
+            1,
+            "(adv)"
+          ]
+        ],
+        "en": [
+          [
+            "The colors of the town,",
+            0
+          ],
+          [
+            " beautifully",
+            1
+          ]
+        ]
+      }
+    },
+    "141.28": {
+      "en": "begin to light up,",
+      "align": {
+        "jp": [
+          [
+            "ともり",
+            0
+          ],
+          [
+            "だして",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "ともり",
+            0,
+            "lighting"
+          ],
+          [
+            "だして",
+            1,
+            "begin to (te-form)"
+          ]
+        ],
+        "en": [
+          [
+            "begin to",
+            1
+          ],
+          [
+            " light up,",
+            0
+          ]
+        ]
+      }
+    },
+    "145.13": {
+      "en": "and I too",
+      "align": {
+        "jp": [
+          [
+            "わたしも",
+            0
+          ]
+        ],
+        "gloss": [
+          [
+            "わたし",
+            0,
+            "I"
+          ],
+          [
+            "も",
+            0,
+            "also"
+          ]
+        ],
+        "en": [
+          [
+            "and I too",
+            0
+          ]
+        ]
+      }
+    },
+    "147.18": {
+      "en": "am starting to change.",
+      "align": {
+        "jp": [
+          [
+            "変わり",
+            0
+          ],
+          [
+            "始めている",
+            1
+          ],
+          [
+            "よ",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "変わり",
+            0,
+            "change"
+          ],
+          [
+            "始めて",
+            1,
+            "begin (te-form)"
+          ],
+          [
+            "いる",
+            1,
+            "(prog.)"
+          ],
+          [
+            "よ",
+            2,
+            "(!)"
+          ]
+        ],
+        "en": [
+          [
+            "am starting to",
+            1
+          ],
+          [
+            " change",
+            0
+          ],
+          [
+            ".",
+            2
+          ]
+        ]
+      }
+    },
+    "152.15": {
+      "en": "Even when the clouds clear,",
+      "align": {
+        "jp": [
+          [
+            "雲が",
+            0
+          ],
+          [
+            " 晴れてても",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "雲",
+            0,
+            "clouds"
+          ],
+          [
+            "が",
+            0,
+            "(subj)"
+          ],
+          [
+            " 晴れてて",
+            1,
+            "clear (te-form)"
+          ],
+          [
+            "も",
+            1,
+            "even if"
+          ]
+        ],
+        "en": [
+          [
+            "Even when",
+            1
+          ],
+          [
+            " the clouds",
+            0
+          ],
+          [
+            " clear,",
+            1
+          ]
+        ]
+      }
+    },
+    "156.83": {
+      "en": "reflected above us,",
+      "align": {
+        "jp": [
+          [
+            "この上に",
+            0
+          ],
+          [
+            " 映る",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "この",
+            0,
+            "this"
+          ],
+          [
+            "上",
+            0,
+            "above"
+          ],
+          [
+            "に",
+            0,
+            "at"
+          ],
+          [
+            " 映る",
+            1,
+            "reflected"
+          ]
+        ],
+        "en": [
+          [
+            "reflected",
+            1
+          ],
+          [
+            " above us,",
+            0
+          ]
+        ]
+      }
+    },
+    "160.88": {
+      "en": "the stars are few —",
+      "align": {
+        "jp": [
+          [
+            "星は",
+            0
+          ],
+          [
+            " 少なくて",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "星",
+            0,
+            "stars"
+          ],
+          [
+            "は",
+            0,
+            "(topic)"
+          ],
+          [
+            " 少なくて",
+            1,
+            "few (te-form)"
+          ]
+        ],
+        "en": [
+          [
+            "the stars",
+            0
+          ],
+          [
+            " are few —",
+            1
+          ]
+        ]
+      }
+    },
+    "165.47": {
+      "en": "someday, together, a sky full of stars",
+      "align": {
+        "jp": [
+          [
+            "いつか",
+            0
+          ],
+          [
+            " 一緒に",
+            1
+          ],
+          [
+            " 満点の空",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "いつか",
+            0,
+            "someday"
+          ],
+          [
+            " 一緒",
+            1,
+            "together"
+          ],
+          [
+            "に",
+            1,
+            "(adv)"
+          ],
+          [
+            " 満点",
+            2,
+            "full/perfect"
+          ],
+          [
+            "の",
+            2,
+            "of"
+          ],
+          [
+            "空",
+            2,
+            "sky"
+          ]
+        ],
+        "en": [
+          [
+            "someday,",
+            0
+          ],
+          [
+            " together,",
+            1
+          ],
+          [
+            " a sky full of stars",
+            2
+          ]
+        ]
+      }
+    },
+    "172.85": {
+      "en": "I want to look up at.",
+      "align": {
+        "jp": [
+          [
+            "見上げたい",
+            0
+          ]
+        ],
+        "gloss": [
+          [
+            "見上げ",
+            0,
+            "look up"
+          ],
+          [
+            "たい",
+            0,
+            "want to"
+          ]
+        ],
+        "en": [
+          [
+            "I want to look up at.",
+            0
+          ]
+        ]
+      }
+    },
+    "175.86": {
+      "en": "Where miracles seem to happen — such",
+      "align": {
+        "jp": [
+          [
+            "奇跡が",
+            0
+          ],
+          [
+            "起こるような",
+            1
+          ],
+          [
+            " そんな",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "奇跡",
+            0,
+            "miracle"
+          ],
+          [
+            "が",
+            0,
+            "(subj)"
+          ],
+          [
+            "起こる",
+            1,
+            "happen"
+          ],
+          [
+            "ような",
+            1,
+            "seeming/like"
+          ],
+          [
+            " そんな",
+            2,
+            "such"
+          ]
+        ],
+        "en": [
+          [
+            "Where miracles",
+            0
+          ],
+          [
+            " seem to happen —",
+            1
+          ],
+          [
+            " such",
+            2
+          ]
+        ]
+      }
+    },
+    "181.56": {
+      "en": "a starry sky, beneath it,",
+      "align": {
+        "jp": [
+          [
+            "星空の",
+            0
+          ],
+          [
+            "下で",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "星空",
+            0,
+            "starry sky"
+          ],
+          [
+            "の",
+            0,
+            "'s"
+          ],
+          [
+            "下",
+            1,
+            "below/beneath"
+          ],
+          [
+            "で",
+            1,
+            "at"
+          ]
+        ],
+        "en": [
+          [
+            "a starry sky,",
+            0
+          ],
+          [
+            " beneath it,",
+            1
+          ]
+        ]
+      }
+    },
+    "185.25": {
+      "en": "with you,",
+      "align": {
+        "jp": [
+          [
+            "あなたと",
+            0
+          ]
+        ],
+        "gloss": [
+          [
+            "あなた",
+            0,
+            "you"
+          ],
+          [
+            "と",
+            0,
+            "with"
+          ]
+        ],
+        "en": [
+          [
+            "with you,",
+            0
+          ]
+        ]
+      }
+    },
+    "187.26": {
+      "en": "walking the same path (future),",
+      "align": {
+        "jp": [
+          [
+            "同じ",
+            0
+          ],
+          [
+            " 未来(みち)を",
+            1
+          ],
+          [
+            "歩いて",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "同じ",
+            0,
+            "same"
+          ],
+          [
+            " 未来(みち)",
+            1,
+            "path (written: future)"
+          ],
+          [
+            "を",
+            1,
+            "(obj)"
+          ],
+          [
+            "歩いて",
+            2,
+            "walking (te-form)"
+          ]
+        ],
+        "en": [
+          [
+            "walking",
+            2
+          ],
+          [
+            " the same",
+            0
+          ],
+          [
+            " path (future),",
+            1
+          ]
+        ]
+      }
+    },
+    "192.22": {
+      "en": "that we two believe in each other",
+      "align": {
+        "jp": [
+          [
+            "二人が",
+            0
+          ],
+          [
+            "信じ合うことが",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "二人",
+            0,
+            "two people"
+          ],
+          [
+            "が",
+            0,
+            "(subj)"
+          ],
+          [
+            "信じ合う",
+            1,
+            "believe each other"
+          ],
+          [
+            "こと",
+            1,
+            "(nom.)"
+          ],
+          [
+            "が",
+            1,
+            "(subj)"
+          ]
+        ],
+        "en": [
+          [
+            "that we two",
+            0
+          ],
+          [
+            " believe in each other",
+            1
+          ]
+        ]
+      }
+    },
+    "198.29": {
+      "en": "is loving each other, right?",
+      "align": {
+        "jp": [
+          [
+            "愛し合うことね",
+            0
+          ]
+        ],
+        "gloss": [
+          [
+            "愛し合う",
+            0,
+            "love each other"
+          ],
+          [
+            "こと",
+            0,
+            "(nom.)"
+          ],
+          [
+            "ね",
+            0,
+            "right?"
+          ]
+        ],
+        "en": [
+          [
+            "is loving each other, right?",
+            0
+          ]
+        ]
+      }
+    },
+    "201.53": {
+      "en": "Forever"
+    },
+    "203.55": {
+      "en": "You're My Only Feeling Heart"
+    },
+    "207.84": {
+      "en": "You're My Only Feeling Heart"
+    },
+    "211.88": {
+      "en": "You're My Only"
+    },
+    "214.83": {
+      "en": "Feeling Heart"
+    }
+  }
+}
