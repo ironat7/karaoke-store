@@ -1,0 +1,4679 @@
+{
+  "27387041": {
+    "8.96": {
+      "en": "heaven, heaven, heaven, heaven, heaven, heaven, heaven, heaven",
+      "align": {
+        "jp": [
+          [
+            "天天天天",
+            0
+          ],
+          [
+            "天天天天",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "天",
+            0,
+            "heaven"
+          ],
+          [
+            "天",
+            0,
+            "heaven"
+          ],
+          [
+            "天",
+            0,
+            "heaven"
+          ],
+          [
+            "天",
+            0,
+            "heaven"
+          ],
+          [
+            "天",
+            1,
+            "heaven"
+          ],
+          [
+            "天",
+            1,
+            "heaven"
+          ],
+          [
+            "天",
+            1,
+            "heaven"
+          ],
+          [
+            "天",
+            1,
+            "heaven"
+          ]
+        ],
+        "en": [
+          [
+            "heaven, heaven, heaven, heaven",
+            0
+          ],
+          [
+            ", heaven, heaven, heaven, heaven",
+            1
+          ]
+        ]
+      }
+    },
+    "12.35": {
+      "en": "heaven, heaven, heaven-land, hell-land!",
+      "align": {
+        "jp": [
+          [
+            "天天",
+            0
+          ],
+          [
+            "天国",
+            1
+          ],
+          [
+            "地獄国",
+            2
+          ],
+          [
+            "！",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "天",
+            0,
+            "heaven"
+          ],
+          [
+            "天",
+            0,
+            "heaven"
+          ],
+          [
+            "天国",
+            1,
+            "heaven-land"
+          ],
+          [
+            "地獄",
+            2,
+            "hell"
+          ],
+          [
+            "国",
+            2,
+            "land"
+          ],
+          [
+            "！",
+            3,
+            "!"
+          ]
+        ],
+        "en": [
+          [
+            "heaven, heaven",
+            0
+          ],
+          [
+            ", heaven-land",
+            1
+          ],
+          [
+            ", hell-land",
+            2
+          ],
+          [
+            "!",
+            3
+          ]
+        ]
+      }
+    },
+    "14.05": {
+      "en": "Open sesame",
+      "align": {
+        "jp": [
+          [
+            "オープン・",
+            0
+          ],
+          [
+            "セサミ",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "オープン",
+            0,
+            "open"
+          ],
+          [
+            "・",
+            0,
+            "(sep)"
+          ],
+          [
+            "セサミ",
+            1,
+            "sesame"
+          ]
+        ],
+        "en": [
+          [
+            "Open",
+            0
+          ],
+          [
+            " sesame",
+            1
+          ]
+        ]
+      }
+    },
+    "15.00": {
+      "en": "Where dark and light entwine — fanatic",
+      "align": {
+        "jp": [
+          [
+            "闇と",
+            0
+          ],
+          [
+            "光の",
+            1
+          ],
+          [
+            "交わる",
+            2
+          ],
+          [
+            " fanatic",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "闇",
+            0,
+            "dark"
+          ],
+          [
+            "と",
+            0,
+            "and"
+          ],
+          [
+            "光",
+            1,
+            "light"
+          ],
+          [
+            "の",
+            1,
+            "(subj)"
+          ],
+          [
+            "交わる",
+            2,
+            "entwine"
+          ],
+          [
+            " fanatic",
+            3,
+            "fanatic"
+          ]
+        ],
+        "en": [
+          [
+            "Where dark and",
+            0
+          ],
+          [
+            " light",
+            1
+          ],
+          [
+            " entwine",
+            2
+          ],
+          [
+            " — fanatic",
+            3
+          ]
+        ]
+      }
+    },
+    "19.07": {
+      "en": "Taste tonight — psychedelic",
+      "align": {
+        "jp": [
+          [
+            "今宵",
+            0
+          ],
+          [
+            "味わう",
+            1
+          ],
+          [
+            " psychedelic",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "今宵",
+            0,
+            "tonight"
+          ],
+          [
+            "味わう",
+            1,
+            "taste"
+          ],
+          [
+            " psychedelic",
+            2,
+            "psychedelic"
+          ]
+        ],
+        "en": [
+          [
+            "Taste",
+            1
+          ],
+          [
+            " tonight",
+            0
+          ],
+          [
+            " — psychedelic",
+            2
+          ]
+        ]
+      }
+    },
+    "22.40": {
+      "en": "Dancers tangled together — zodiac",
+      "align": {
+        "jp": [
+          [
+            "踊り",
+            0
+          ],
+          [
+            "絡まりあう",
+            1
+          ],
+          [
+            " zodiac",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "踊り",
+            0,
+            "dance(r)"
+          ],
+          [
+            "絡まり",
+            1,
+            "tangle"
+          ],
+          [
+            "あう",
+            1,
+            "(recip)"
+          ],
+          [
+            " zodiac",
+            2,
+            "zodiac"
+          ]
+        ],
+        "en": [
+          [
+            "Dancers",
+            0
+          ],
+          [
+            " tangled together",
+            1
+          ],
+          [
+            " — zodiac",
+            2
+          ]
+        ]
+      }
+    },
+    "25.89": {
+      "en": "Love's push and pull — tie-break",
+      "align": {
+        "jp": [
+          [
+            "恋の",
+            0
+          ],
+          [
+            "駆け引きの",
+            1
+          ],
+          [
+            " tie-break",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "恋",
+            0,
+            "love"
+          ],
+          [
+            "の",
+            0,
+            "'s"
+          ],
+          [
+            "駆け引き",
+            1,
+            "push-and-pull"
+          ],
+          [
+            "の",
+            1,
+            "of"
+          ],
+          [
+            " tie-break",
+            2,
+            "tie-break"
+          ]
+        ],
+        "en": [
+          [
+            "Love's",
+            0
+          ],
+          [
+            " push and pull",
+            1
+          ],
+          [
+            " — tie-break",
+            2
+          ]
+        ]
+      }
+    },
+    "28.76": {
+      "en": "No pretense, bare existence — I just want your eyes on me",
+      "align": {
+        "jp": [
+          [
+            "飾らない",
+            0
+          ],
+          [
+            " 存在",
+            1
+          ],
+          [
+            " ただ気を",
+            2
+          ],
+          [
+            " 惹きたい",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "飾ら",
+            0,
+            "adorn"
+          ],
+          [
+            "ない",
+            0,
+            "(neg)"
+          ],
+          [
+            " 存在",
+            1,
+            "existence"
+          ],
+          [
+            " ただ",
+            2,
+            "just"
+          ],
+          [
+            "気",
+            2,
+            "attention"
+          ],
+          [
+            "を",
+            2,
+            "(obj)"
+          ],
+          [
+            " 惹き",
+            3,
+            "draw"
+          ],
+          [
+            "たい",
+            3,
+            "want to"
+          ]
+        ],
+        "en": [
+          [
+            "No pretense",
+            0
+          ],
+          [
+            ", bare existence",
+            1
+          ],
+          [
+            " — I just",
+            2
+          ],
+          [
+            " want your eyes on me",
+            3
+          ]
+        ]
+      }
+    },
+    "32.48": {
+      "en": "Dreamlike, our touch — I want to lead you astray",
+      "align": {
+        "jp": [
+          [
+            "夢見心地",
+            0
+          ],
+          [
+            " 触れ合い",
+            1
+          ],
+          [
+            " 惑わせたい",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "夢見心地",
+            0,
+            "dreamlike state"
+          ],
+          [
+            " 触れ合い",
+            1,
+            "mutual touch"
+          ],
+          [
+            " 惑わせ",
+            2,
+            "lead astray-(caus)"
+          ],
+          [
+            "たい",
+            2,
+            "want to"
+          ]
+        ],
+        "en": [
+          [
+            "Dreamlike",
+            0
+          ],
+          [
+            ", our touch",
+            1
+          ],
+          [
+            " — I want to lead you astray",
+            2
+          ]
+        ]
+      }
+    },
+    "35.78": {
+      "en": "Hazy, unmelting — the cocktail is sweet",
+      "align": {
+        "jp": [
+          [
+            "曖昧",
+            0
+          ],
+          [
+            " 溶けない",
+            1
+          ],
+          [
+            " cocktail は",
+            2
+          ],
+          [
+            "甘い",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "曖昧",
+            0,
+            "hazy"
+          ],
+          [
+            " 溶け",
+            1,
+            "melt"
+          ],
+          [
+            "ない",
+            1,
+            "(neg)"
+          ],
+          [
+            " cocktail",
+            2,
+            "cocktail"
+          ],
+          [
+            " は",
+            2,
+            "(topic)"
+          ],
+          [
+            "甘い",
+            3,
+            "sweet"
+          ]
+        ],
+        "en": [
+          [
+            "Hazy",
+            0
+          ],
+          [
+            ", unmelting",
+            1
+          ],
+          [
+            " — the cocktail",
+            2
+          ],
+          [
+            " is sweet",
+            3
+          ]
+        ]
+      }
+    },
+    "39.63": {
+      "en": "Those vivid scarlet eyes — I stare till my limit",
+      "align": {
+        "jp": [
+          [
+            "鮮やかな",
+            0
+          ],
+          [
+            "赤い",
+            1
+          ],
+          [
+            " eye",
+            2
+          ],
+          [
+            " 見つめて",
+            3
+          ],
+          [
+            "限界",
+            4
+          ]
+        ],
+        "gloss": [
+          [
+            "鮮やか",
+            0,
+            "vivid"
+          ],
+          [
+            "な",
+            0,
+            "(adj)"
+          ],
+          [
+            "赤い",
+            1,
+            "red"
+          ],
+          [
+            " eye",
+            2,
+            "eye(s)"
+          ],
+          [
+            " 見つめ",
+            3,
+            "stare"
+          ],
+          [
+            "て",
+            3,
+            "(conj)"
+          ],
+          [
+            "限界",
+            4,
+            "limit"
+          ]
+        ],
+        "en": [
+          [
+            "Those vivid",
+            0
+          ],
+          [
+            " scarlet",
+            1
+          ],
+          [
+            " eyes",
+            2
+          ],
+          [
+            " — I stare",
+            3
+          ],
+          [
+            " till my limit",
+            4
+          ]
+        ]
+      }
+    },
+    "43.12": {
+      "en": "Lured by the moonlit night",
+      "align": {
+        "jp": [
+          [
+            "月夜に",
+            0
+          ],
+          [
+            "誘われ",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "月夜",
+            0,
+            "moonlit night"
+          ],
+          [
+            "に",
+            0,
+            "by"
+          ],
+          [
+            "誘われ",
+            1,
+            "lured-(pass)"
+          ]
+        ],
+        "en": [
+          [
+            "Lured",
+            1
+          ],
+          [
+            " by the moonlit night",
+            0
+          ]
+        ]
+      }
+    },
+    "44.97": {
+      "en": "Angel and devil, angel and devil, angel and devil",
+      "align": {
+        "jp": [
+          [
+            "天使と 悪魔と",
+            0
+          ],
+          [
+            " 天使と 悪魔と",
+            1
+          ],
+          [
+            " 天使と 悪魔が",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "天使",
+            0,
+            "angel"
+          ],
+          [
+            "と",
+            0,
+            "and"
+          ],
+          [
+            " 悪魔",
+            0,
+            "devil"
+          ],
+          [
+            "と",
+            0,
+            "and"
+          ],
+          [
+            " 天使",
+            1,
+            "angel"
+          ],
+          [
+            "と",
+            1,
+            "and"
+          ],
+          [
+            " 悪魔",
+            1,
+            "devil"
+          ],
+          [
+            "と",
+            1,
+            "and"
+          ],
+          [
+            " 天使",
+            2,
+            "angel"
+          ],
+          [
+            "と",
+            2,
+            "and"
+          ],
+          [
+            " 悪魔",
+            2,
+            "devil"
+          ],
+          [
+            "が",
+            2,
+            "(subj)"
+          ]
+        ],
+        "en": [
+          [
+            "Angel and devil",
+            0
+          ],
+          [
+            ", angel and devil",
+            1
+          ],
+          [
+            ", angel and devil",
+            2
+          ]
+        ]
+      }
+    },
+    "50.06": {
+      "en": "Brush against each other by chance",
+      "align": {
+        "jp": [
+          [
+            "偶さか",
+            0
+          ],
+          [
+            "接した",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "偶さか",
+            0,
+            "by chance"
+          ],
+          [
+            "接し",
+            1,
+            "contact"
+          ],
+          [
+            "た",
+            1,
+            "(past)"
+          ]
+        ],
+        "en": [
+          [
+            "Brush against each other",
+            1
+          ],
+          [
+            " by chance",
+            0
+          ]
+        ]
+      }
+    },
+    "51.74": {
+      "en": "Heaven and hell, heaven and hell, heaven and hell —",
+      "align": {
+        "jp": [
+          [
+            "天国 地獄の",
+            0
+          ],
+          [
+            " 天国 地獄の",
+            1
+          ],
+          [
+            " 天国 地獄の",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "天国",
+            0,
+            "heaven"
+          ],
+          [
+            " 地獄",
+            0,
+            "hell"
+          ],
+          [
+            "の",
+            0,
+            "of"
+          ],
+          [
+            " 天国",
+            1,
+            "heaven"
+          ],
+          [
+            " 地獄",
+            1,
+            "hell"
+          ],
+          [
+            "の",
+            1,
+            "of"
+          ],
+          [
+            " 天国",
+            2,
+            "heaven"
+          ],
+          [
+            " 地獄",
+            2,
+            "hell"
+          ],
+          [
+            "の",
+            2,
+            "of"
+          ]
+        ],
+        "en": [
+          [
+            "Heaven and hell",
+            0
+          ],
+          [
+            ", heaven and hell",
+            1
+          ],
+          [
+            ", heaven and hell —",
+            2
+          ]
+        ]
+      }
+    },
+    "56.96": {
+      "en": "We met in the space between",
+      "align": {
+        "jp": [
+          [
+            "狭間で",
+            0
+          ],
+          [
+            "出会った",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "狭間",
+            0,
+            "gap/in-between"
+          ],
+          [
+            "で",
+            0,
+            "at"
+          ],
+          [
+            "出会っ",
+            1,
+            "meet"
+          ],
+          [
+            "た",
+            1,
+            "(past)"
+          ]
+        ],
+        "en": [
+          [
+            "We met",
+            1
+          ],
+          [
+            " in the space between",
+            0
+          ]
+        ]
+      }
+    },
+    "58.61": {
+      "en": "Angel and devil, angel and devil, angel and devil",
+      "align": {
+        "jp": [
+          [
+            "天使と 悪魔と",
+            0
+          ],
+          [
+            " 天使と 悪魔と",
+            1
+          ],
+          [
+            " 天使と 悪魔が",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "天使",
+            0,
+            "angel"
+          ],
+          [
+            "と",
+            0,
+            "and"
+          ],
+          [
+            " 悪魔",
+            0,
+            "devil"
+          ],
+          [
+            "と",
+            0,
+            "and"
+          ],
+          [
+            " 天使",
+            1,
+            "angel"
+          ],
+          [
+            "と",
+            1,
+            "and"
+          ],
+          [
+            " 悪魔",
+            1,
+            "devil"
+          ],
+          [
+            "と",
+            1,
+            "and"
+          ],
+          [
+            " 天使",
+            2,
+            "angel"
+          ],
+          [
+            "と",
+            2,
+            "and"
+          ],
+          [
+            " 悪魔",
+            2,
+            "devil"
+          ],
+          [
+            "が",
+            2,
+            "(subj)"
+          ]
+        ],
+        "en": [
+          [
+            "Angel and devil",
+            0
+          ],
+          [
+            ", angel and devil",
+            1
+          ],
+          [
+            ", angel and devil",
+            2
+          ]
+        ]
+      }
+    },
+    "63.76": {
+      "en": "Gather and dance, and —",
+      "align": {
+        "jp": [
+          [
+            "集って",
+            0
+          ],
+          [
+            "踊れば",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "集っ",
+            0,
+            "gather"
+          ],
+          [
+            "て",
+            0,
+            "(conj)"
+          ],
+          [
+            "踊れ",
+            1,
+            "dance"
+          ],
+          [
+            "ば",
+            1,
+            "if/when"
+          ]
+        ],
+        "en": [
+          [
+            "Gather",
+            0
+          ],
+          [
+            " and dance, and —",
+            1
+          ]
+        ]
+      }
+    },
+    "65.48": {
+      "en": "Heaven and hell, heaven and hell — the gate swings open",
+      "align": {
+        "jp": [
+          [
+            "天国 地獄の",
+            0
+          ],
+          [
+            " 天国 地獄の",
+            1
+          ],
+          [
+            " 門が",
+            2
+          ],
+          [
+            "開く",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "天国",
+            0,
+            "heaven"
+          ],
+          [
+            " 地獄",
+            0,
+            "hell"
+          ],
+          [
+            "の",
+            0,
+            "of"
+          ],
+          [
+            " 天国",
+            1,
+            "heaven"
+          ],
+          [
+            " 地獄",
+            1,
+            "hell"
+          ],
+          [
+            "の",
+            1,
+            "of"
+          ],
+          [
+            " 門",
+            2,
+            "gate"
+          ],
+          [
+            "が",
+            2,
+            "(subj)"
+          ],
+          [
+            "開く",
+            3,
+            "open"
+          ]
+        ],
+        "en": [
+          [
+            "Heaven and hell",
+            0
+          ],
+          [
+            ", heaven and hell",
+            1
+          ],
+          [
+            " — the gate",
+            2
+          ],
+          [
+            " swings open",
+            3
+          ]
+        ]
+      }
+    },
+    "70.07": {
+      "en": "Where dark and light entwine — fanatic",
+      "align": {
+        "jp": [
+          [
+            "闇と",
+            0
+          ],
+          [
+            "光の",
+            1
+          ],
+          [
+            "交わる",
+            2
+          ],
+          [
+            " fanatic",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "闇",
+            0,
+            "dark"
+          ],
+          [
+            "と",
+            0,
+            "and"
+          ],
+          [
+            "光",
+            1,
+            "light"
+          ],
+          [
+            "の",
+            1,
+            "(subj)"
+          ],
+          [
+            "交わる",
+            2,
+            "entwine"
+          ],
+          [
+            " fanatic",
+            3,
+            "fanatic"
+          ]
+        ],
+        "en": [
+          [
+            "Where dark and",
+            0
+          ],
+          [
+            " light",
+            1
+          ],
+          [
+            " entwine",
+            2
+          ],
+          [
+            " — fanatic",
+            3
+          ]
+        ]
+      }
+    },
+    "73.85": {
+      "en": "Taste tonight — psychedelic",
+      "align": {
+        "jp": [
+          [
+            "今宵",
+            0
+          ],
+          [
+            "味わう",
+            1
+          ],
+          [
+            " psychedelic",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "今宵",
+            0,
+            "tonight"
+          ],
+          [
+            "味わう",
+            1,
+            "taste"
+          ],
+          [
+            " psychedelic",
+            2,
+            "psychedelic"
+          ]
+        ],
+        "en": [
+          [
+            "Taste",
+            1
+          ],
+          [
+            " tonight",
+            0
+          ],
+          [
+            " — psychedelic",
+            2
+          ]
+        ]
+      }
+    },
+    "77.33": {
+      "en": "Dancers tangled together — zodiac",
+      "align": {
+        "jp": [
+          [
+            "踊り",
+            0
+          ],
+          [
+            "絡まりあう",
+            1
+          ],
+          [
+            " zodiac",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "踊り",
+            0,
+            "dance(r)"
+          ],
+          [
+            "絡まり",
+            1,
+            "tangle"
+          ],
+          [
+            "あう",
+            1,
+            "(recip)"
+          ],
+          [
+            " zodiac",
+            2,
+            "zodiac"
+          ]
+        ],
+        "en": [
+          [
+            "Dancers",
+            0
+          ],
+          [
+            " tangled together",
+            1
+          ],
+          [
+            " — zodiac",
+            2
+          ]
+        ]
+      }
+    },
+    "80.74": {
+      "en": "Love's push and pull — tie-break",
+      "align": {
+        "jp": [
+          [
+            "恋の",
+            0
+          ],
+          [
+            "駆け引きの",
+            1
+          ],
+          [
+            " tie-break",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "恋",
+            0,
+            "love"
+          ],
+          [
+            "の",
+            0,
+            "'s"
+          ],
+          [
+            "駆け引き",
+            1,
+            "push-and-pull"
+          ],
+          [
+            "の",
+            1,
+            "of"
+          ],
+          [
+            " tie-break",
+            2,
+            "tie-break"
+          ]
+        ],
+        "en": [
+          [
+            "Love's",
+            0
+          ],
+          [
+            " push and pull",
+            1
+          ],
+          [
+            " — tie-break",
+            2
+          ]
+        ]
+      }
+    },
+    "84.20": {
+      "en": "Dead, alive, dead, alive",
+      "align": {
+        "jp": [
+          [
+            "Dead, alive,",
+            0
+          ],
+          [
+            " dead, alive",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "Dead",
+            0,
+            "dead"
+          ],
+          [
+            ",",
+            0,
+            ","
+          ],
+          [
+            " alive",
+            0,
+            "alive"
+          ],
+          [
+            ",",
+            0,
+            ","
+          ],
+          [
+            " dead",
+            1,
+            "dead"
+          ],
+          [
+            ",",
+            1,
+            ","
+          ],
+          [
+            " alive",
+            1,
+            "alive"
+          ]
+        ],
+        "en": [
+          [
+            "Dead, alive,",
+            0
+          ],
+          [
+            " dead, alive",
+            1
+          ]
+        ]
+      }
+    },
+    "87.78": {
+      "en": "Death, death, death, birth, birth, birth",
+      "align": {
+        "jp": [
+          [
+            "Death, death, death,",
+            0
+          ],
+          [
+            " birth, birth, birth",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "Death",
+            0,
+            "death"
+          ],
+          [
+            ",",
+            0,
+            ","
+          ],
+          [
+            " death",
+            0,
+            "death"
+          ],
+          [
+            ",",
+            0,
+            ","
+          ],
+          [
+            " death",
+            0,
+            "death"
+          ],
+          [
+            ",",
+            0,
+            ","
+          ],
+          [
+            " birth",
+            1,
+            "birth"
+          ],
+          [
+            ",",
+            1,
+            ","
+          ],
+          [
+            " birth",
+            1,
+            "birth"
+          ],
+          [
+            ",",
+            1,
+            ","
+          ],
+          [
+            " birth",
+            1,
+            "birth"
+          ]
+        ],
+        "en": [
+          [
+            "Death, death, death,",
+            0
+          ],
+          [
+            " birth, birth, birth",
+            1
+          ]
+        ]
+      }
+    },
+    "91.14": {
+      "en": "Dead, alive, dead, alive",
+      "align": {
+        "jp": [
+          [
+            "Dead, alive,",
+            0
+          ],
+          [
+            " dead, alive",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "Dead",
+            0,
+            "dead"
+          ],
+          [
+            ",",
+            0,
+            ","
+          ],
+          [
+            " alive",
+            0,
+            "alive"
+          ],
+          [
+            ",",
+            0,
+            ","
+          ],
+          [
+            " dead",
+            1,
+            "dead"
+          ],
+          [
+            ",",
+            1,
+            ","
+          ],
+          [
+            " alive",
+            1,
+            "alive"
+          ]
+        ],
+        "en": [
+          [
+            "Dead, alive,",
+            0
+          ],
+          [
+            " dead, alive",
+            1
+          ]
+        ]
+      }
+    },
+    "94.69": {
+      "en": "Death, death, birth, birth, death, birth, death",
+      "align": {
+        "jp": [
+          [
+            "Death, death,",
+            0
+          ],
+          [
+            " birth, birth,",
+            1
+          ],
+          [
+            " death, birth, death",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "Death",
+            0,
+            "death"
+          ],
+          [
+            ",",
+            0,
+            ","
+          ],
+          [
+            " death",
+            0,
+            "death"
+          ],
+          [
+            ",",
+            0,
+            ","
+          ],
+          [
+            " birth",
+            1,
+            "birth"
+          ],
+          [
+            ",",
+            1,
+            ","
+          ],
+          [
+            " birth",
+            1,
+            "birth"
+          ],
+          [
+            ",",
+            1,
+            ","
+          ],
+          [
+            " death",
+            2,
+            "death"
+          ],
+          [
+            ",",
+            2,
+            ","
+          ],
+          [
+            " birth",
+            2,
+            "birth"
+          ],
+          [
+            ",",
+            2,
+            ","
+          ],
+          [
+            " death",
+            2,
+            "death"
+          ]
+        ],
+        "en": [
+          [
+            "Death, death,",
+            0
+          ],
+          [
+            " birth, birth,",
+            1
+          ],
+          [
+            " death, birth, death",
+            2
+          ]
+        ]
+      }
+    },
+    "104.23": {
+      "en": "Lay your living soul on the tray",
+      "align": {
+        "jp": [
+          [
+            "生きた",
+            0
+          ],
+          [
+            "魂を",
+            1
+          ],
+          [
+            " tray に",
+            2
+          ],
+          [
+            "置いて",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "生き",
+            0,
+            "live"
+          ],
+          [
+            "た",
+            0,
+            "(past/attr)"
+          ],
+          [
+            "魂",
+            1,
+            "soul"
+          ],
+          [
+            "を",
+            1,
+            "(obj)"
+          ],
+          [
+            " tray",
+            2,
+            "tray"
+          ],
+          [
+            " に",
+            2,
+            "on"
+          ],
+          [
+            "置いて",
+            3,
+            "place-(conj)"
+          ]
+        ],
+        "en": [
+          [
+            "Lay",
+            3
+          ],
+          [
+            " your living",
+            0
+          ],
+          [
+            " soul",
+            1
+          ],
+          [
+            " on the tray",
+            2
+          ]
+        ]
+      }
+    },
+    "107.98": {
+      "en": "Flip the five cards — flames flicker",
+      "align": {
+        "jp": [
+          [
+            "めくる",
+            0
+          ],
+          [
+            "5枚の",
+            1
+          ],
+          [
+            " card",
+            2
+          ],
+          [
+            " 揺れる炎",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "めくる",
+            0,
+            "flip"
+          ],
+          [
+            "5",
+            1,
+            "five"
+          ],
+          [
+            "枚",
+            1,
+            "(counter)"
+          ],
+          [
+            "の",
+            1,
+            "(attr)"
+          ],
+          [
+            " card",
+            2,
+            "card(s)"
+          ],
+          [
+            " 揺れる",
+            3,
+            "sway/flicker"
+          ],
+          [
+            "炎",
+            3,
+            "flame"
+          ]
+        ],
+        "en": [
+          [
+            "Flip",
+            0
+          ],
+          [
+            " the five",
+            1
+          ],
+          [
+            " cards",
+            2
+          ],
+          [
+            " — flames flicker",
+            3
+          ]
+        ]
+      }
+    },
+    "111.31": {
+      "en": "If you're the one to raise first,",
+      "align": {
+        "jp": [
+          [
+            "先に",
+            0
+          ],
+          [
+            "あなたが",
+            1
+          ],
+          [
+            " raise したなら",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "先",
+            0,
+            "first/ahead"
+          ],
+          [
+            "に",
+            0,
+            "(adv)"
+          ],
+          [
+            "あなた",
+            1,
+            "you"
+          ],
+          [
+            "が",
+            1,
+            "(subj)"
+          ],
+          [
+            " raise",
+            2,
+            "raise"
+          ],
+          [
+            " し",
+            2,
+            "do"
+          ],
+          [
+            "た",
+            2,
+            "(past)"
+          ],
+          [
+            "なら",
+            2,
+            "if"
+          ]
+        ],
+        "en": [
+          [
+            "If you're the one",
+            1
+          ],
+          [
+            " to raise",
+            2
+          ],
+          [
+            " first,",
+            0
+          ]
+        ]
+      }
+    },
+    "114.86": {
+      "en": "no more hesitating — drain the glass",
+      "align": {
+        "jp": [
+          [
+            "もう",
+            0
+          ],
+          [
+            "迷わない",
+            1
+          ],
+          [
+            " glass",
+            2
+          ],
+          [
+            " 飲み干して",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "もう",
+            0,
+            "any more"
+          ],
+          [
+            "迷わ",
+            1,
+            "hesitate"
+          ],
+          [
+            "ない",
+            1,
+            "(neg)"
+          ],
+          [
+            " glass",
+            2,
+            "glass"
+          ],
+          [
+            " 飲み干して",
+            3,
+            "drain-(conj)"
+          ]
+        ],
+        "en": [
+          [
+            "no more",
+            0
+          ],
+          [
+            " hesitating",
+            1
+          ],
+          [
+            " — drain",
+            3
+          ],
+          [
+            " the glass",
+            2
+          ]
+        ]
+      }
+    },
+    "121.35": {
+      "en": "Tonight, all-in — I won't fold this hand",
+      "align": {
+        "jp": [
+          [
+            "今夜",
+            0
+          ],
+          [
+            " all-in",
+            1
+          ],
+          [
+            " 降りない",
+            2
+          ],
+          [
+            " この勝負",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "今夜",
+            0,
+            "tonight"
+          ],
+          [
+            " all-in",
+            1,
+            "all-in"
+          ],
+          [
+            " 降り",
+            2,
+            "fold/descend"
+          ],
+          [
+            "ない",
+            2,
+            "(neg)"
+          ],
+          [
+            " この",
+            3,
+            "this"
+          ],
+          [
+            "勝負",
+            3,
+            "match/bet"
+          ]
+        ],
+        "en": [
+          [
+            "Tonight",
+            0
+          ],
+          [
+            ", all-in",
+            1
+          ],
+          [
+            " — I won't fold",
+            2
+          ],
+          [
+            " this hand",
+            3
+          ]
+        ]
+      }
+    },
+    "125.56": {
+      "en": "Now, the gate joining heaven and hell is opening",
+      "align": {
+        "jp": [
+          [
+            "いま、",
+            0
+          ],
+          [
+            "天国と地獄を",
+            1
+          ],
+          [
+            "つなぐ",
+            2
+          ],
+          [
+            "門が",
+            3
+          ],
+          [
+            "開いてゆく",
+            4
+          ]
+        ],
+        "gloss": [
+          [
+            "いま",
+            0,
+            "now"
+          ],
+          [
+            "、",
+            0,
+            ","
+          ],
+          [
+            "天国",
+            1,
+            "heaven"
+          ],
+          [
+            "と",
+            1,
+            "and"
+          ],
+          [
+            "地獄",
+            1,
+            "hell"
+          ],
+          [
+            "を",
+            1,
+            "(obj)"
+          ],
+          [
+            "つなぐ",
+            2,
+            "join/connect"
+          ],
+          [
+            "門",
+            3,
+            "gate"
+          ],
+          [
+            "が",
+            3,
+            "(subj)"
+          ],
+          [
+            "開いて",
+            4,
+            "open-(conj)"
+          ],
+          [
+            "ゆく",
+            4,
+            "go (progress)"
+          ]
+        ],
+        "en": [
+          [
+            "Now,",
+            0
+          ],
+          [
+            " the gate",
+            3
+          ],
+          [
+            " joining",
+            2
+          ],
+          [
+            " heaven and hell",
+            1
+          ],
+          [
+            " is opening",
+            4
+          ]
+        ]
+      }
+    },
+    "128.72": {
+      "en": "Angels and devils, the dead and the living, mingle, dance, and laugh",
+      "align": {
+        "jp": [
+          [
+            "天使と悪魔、",
+            0
+          ],
+          [
+            "死者と生者が",
+            1
+          ],
+          [
+            "入り乱れ、",
+            2
+          ],
+          [
+            "踊り、笑い",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "天使",
+            0,
+            "angel"
+          ],
+          [
+            "と",
+            0,
+            "and"
+          ],
+          [
+            "悪魔",
+            0,
+            "devil"
+          ],
+          [
+            "、",
+            0,
+            ","
+          ],
+          [
+            "死者",
+            1,
+            "dead person"
+          ],
+          [
+            "と",
+            1,
+            "and"
+          ],
+          [
+            "生者",
+            1,
+            "living person"
+          ],
+          [
+            "が",
+            1,
+            "(subj)"
+          ],
+          [
+            "入り乱れ",
+            2,
+            "mingle"
+          ],
+          [
+            "、",
+            2,
+            ","
+          ],
+          [
+            "踊り",
+            3,
+            "dance"
+          ],
+          [
+            "、",
+            3,
+            ","
+          ],
+          [
+            "笑い",
+            3,
+            "laugh"
+          ]
+        ],
+        "en": [
+          [
+            "Angels and devils,",
+            0
+          ],
+          [
+            " the dead and the living,",
+            1
+          ],
+          [
+            " mingle,",
+            2
+          ],
+          [
+            " dance, and laugh",
+            3
+          ]
+        ]
+      }
+    },
+    "132.25": {
+      "en": "All of it is swallowed into chaos",
+      "align": {
+        "jp": [
+          [
+            "すべては",
+            0
+          ],
+          [
+            "混沌の中に",
+            1
+          ],
+          [
+            "飲み込まれてゆく",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "すべて",
+            0,
+            "all"
+          ],
+          [
+            "は",
+            0,
+            "(topic)"
+          ],
+          [
+            "混沌",
+            1,
+            "chaos"
+          ],
+          [
+            "の",
+            1,
+            "of"
+          ],
+          [
+            "中",
+            1,
+            "inside"
+          ],
+          [
+            "に",
+            1,
+            "into"
+          ],
+          [
+            "飲み込まれて",
+            2,
+            "be swallowed-(pass/conj)"
+          ],
+          [
+            "ゆく",
+            2,
+            "go (progress)"
+          ]
+        ],
+        "en": [
+          [
+            "All of it",
+            0
+          ],
+          [
+            " is swallowed",
+            2
+          ],
+          [
+            " into chaos",
+            1
+          ]
+        ]
+      }
+    },
+    "134.73": {
+      "en": "This is the end of the world — and, at the same time, a new beginning",
+      "align": {
+        "jp": [
+          [
+            "それは",
+            0
+          ],
+          [
+            "世界の終焉であり、",
+            1
+          ],
+          [
+            "新たなる始まりでも",
+            2
+          ],
+          [
+            "あるのだった",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "それ",
+            0,
+            "this/that"
+          ],
+          [
+            "は",
+            0,
+            "(topic)"
+          ],
+          [
+            "世界",
+            1,
+            "world"
+          ],
+          [
+            "の",
+            1,
+            "'s"
+          ],
+          [
+            "終焉",
+            1,
+            "end"
+          ],
+          [
+            "で",
+            1,
+            "(cop-conj)"
+          ],
+          [
+            "あり",
+            1,
+            "be"
+          ],
+          [
+            "、",
+            1,
+            ","
+          ],
+          [
+            "新たなる",
+            2,
+            "new"
+          ],
+          [
+            "始まり",
+            2,
+            "beginning"
+          ],
+          [
+            "でも",
+            2,
+            "also/even"
+          ],
+          [
+            "ある",
+            3,
+            "be"
+          ],
+          [
+            "の",
+            3,
+            "(explan)"
+          ],
+          [
+            "だった",
+            3,
+            "was"
+          ]
+        ],
+        "en": [
+          [
+            "This",
+            0
+          ],
+          [
+            " is the end of the world —",
+            1
+          ],
+          [
+            " and, at the same time,",
+            3
+          ],
+          [
+            " a new beginning",
+            2
+          ]
+        ]
+      }
+    },
+    "139.13": {
+      "en": "Dead, alive, dead, alive",
+      "align": {
+        "jp": [
+          [
+            "Dead, alive,",
+            0
+          ],
+          [
+            " dead, alive",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "Dead",
+            0,
+            "dead"
+          ],
+          [
+            ",",
+            0,
+            ","
+          ],
+          [
+            " alive",
+            0,
+            "alive"
+          ],
+          [
+            ",",
+            0,
+            ","
+          ],
+          [
+            " dead",
+            1,
+            "dead"
+          ],
+          [
+            ",",
+            1,
+            ","
+          ],
+          [
+            " alive",
+            1,
+            "alive"
+          ]
+        ],
+        "en": [
+          [
+            "Dead, alive,",
+            0
+          ],
+          [
+            " dead, alive",
+            1
+          ]
+        ]
+      }
+    },
+    "142.54": {
+      "en": "Death, death, death, birth, birth, birth",
+      "align": {
+        "jp": [
+          [
+            "Death, death, death,",
+            0
+          ],
+          [
+            " birth, birth, birth",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "Death",
+            0,
+            "death"
+          ],
+          [
+            ",",
+            0,
+            ","
+          ],
+          [
+            " death",
+            0,
+            "death"
+          ],
+          [
+            ",",
+            0,
+            ","
+          ],
+          [
+            " death",
+            0,
+            "death"
+          ],
+          [
+            ",",
+            0,
+            ","
+          ],
+          [
+            " birth",
+            1,
+            "birth"
+          ],
+          [
+            ",",
+            1,
+            ","
+          ],
+          [
+            " birth",
+            1,
+            "birth"
+          ],
+          [
+            ",",
+            1,
+            ","
+          ],
+          [
+            " birth",
+            1,
+            "birth"
+          ]
+        ],
+        "en": [
+          [
+            "Death, death, death,",
+            0
+          ],
+          [
+            " birth, birth, birth",
+            1
+          ]
+        ]
+      }
+    },
+    "146.00": {
+      "en": "Dead, alive, dead, alive",
+      "align": {
+        "jp": [
+          [
+            "Dead, alive,",
+            0
+          ],
+          [
+            " dead, alive",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "Dead",
+            0,
+            "dead"
+          ],
+          [
+            ",",
+            0,
+            ","
+          ],
+          [
+            " alive",
+            0,
+            "alive"
+          ],
+          [
+            ",",
+            0,
+            ","
+          ],
+          [
+            " dead",
+            1,
+            "dead"
+          ],
+          [
+            ",",
+            1,
+            ","
+          ],
+          [
+            " alive",
+            1,
+            "alive"
+          ]
+        ],
+        "en": [
+          [
+            "Dead, alive,",
+            0
+          ],
+          [
+            " dead, alive",
+            1
+          ]
+        ]
+      }
+    },
+    "149.40": {
+      "en": "Death, death, birth, birth, death, birth, death",
+      "align": {
+        "jp": [
+          [
+            "Death, death,",
+            0
+          ],
+          [
+            " birth, birth,",
+            1
+          ],
+          [
+            " death, birth, death",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "Death",
+            0,
+            "death"
+          ],
+          [
+            ",",
+            0,
+            ","
+          ],
+          [
+            " death",
+            0,
+            "death"
+          ],
+          [
+            ",",
+            0,
+            ","
+          ],
+          [
+            " birth",
+            1,
+            "birth"
+          ],
+          [
+            ",",
+            1,
+            ","
+          ],
+          [
+            " birth",
+            1,
+            "birth"
+          ],
+          [
+            ",",
+            1,
+            ","
+          ],
+          [
+            " death",
+            2,
+            "death"
+          ],
+          [
+            ",",
+            2,
+            ","
+          ],
+          [
+            " birth",
+            2,
+            "birth"
+          ],
+          [
+            ",",
+            2,
+            ","
+          ],
+          [
+            " death",
+            2,
+            "death"
+          ]
+        ],
+        "en": [
+          [
+            "Death, death,",
+            0
+          ],
+          [
+            " birth, birth,",
+            1
+          ],
+          [
+            " death, birth, death",
+            2
+          ]
+        ]
+      }
+    },
+    "152.81": {
+      "en": "heaven, heaven, heaven, heaven, heaven-land, heaven",
+      "align": {
+        "jp": [
+          [
+            "天天天天",
+            0
+          ],
+          [
+            "天国",
+            1
+          ],
+          [
+            "天",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "天",
+            0,
+            "heaven"
+          ],
+          [
+            "天",
+            0,
+            "heaven"
+          ],
+          [
+            "天",
+            0,
+            "heaven"
+          ],
+          [
+            "天",
+            0,
+            "heaven"
+          ],
+          [
+            "天国",
+            1,
+            "heaven-land"
+          ],
+          [
+            "天",
+            2,
+            "heaven"
+          ]
+        ],
+        "en": [
+          [
+            "heaven, heaven, heaven, heaven",
+            0
+          ],
+          [
+            ", heaven-land",
+            1
+          ],
+          [
+            ", heaven",
+            2
+          ]
+        ]
+      }
+    },
+    "156.32": {
+      "en": "heaven, heaven, heaven, heaven, heaven-land, hell",
+      "align": {
+        "jp": [
+          [
+            "天天天天",
+            0
+          ],
+          [
+            "天国",
+            1
+          ],
+          [
+            "地獄",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "天",
+            0,
+            "heaven"
+          ],
+          [
+            "天",
+            0,
+            "heaven"
+          ],
+          [
+            "天",
+            0,
+            "heaven"
+          ],
+          [
+            "天",
+            0,
+            "heaven"
+          ],
+          [
+            "天国",
+            1,
+            "heaven-land"
+          ],
+          [
+            "地獄",
+            2,
+            "hell"
+          ]
+        ],
+        "en": [
+          [
+            "heaven, heaven, heaven, heaven",
+            0
+          ],
+          [
+            ", heaven-land",
+            1
+          ],
+          [
+            ", hell",
+            2
+          ]
+        ]
+      }
+    },
+    "159.83": {
+      "en": "heaven, heaven, heaven, heaven, heaven-land, heaven",
+      "align": {
+        "jp": [
+          [
+            "天天天天",
+            0
+          ],
+          [
+            "天国",
+            1
+          ],
+          [
+            "天",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "天",
+            0,
+            "heaven"
+          ],
+          [
+            "天",
+            0,
+            "heaven"
+          ],
+          [
+            "天",
+            0,
+            "heaven"
+          ],
+          [
+            "天",
+            0,
+            "heaven"
+          ],
+          [
+            "天国",
+            1,
+            "heaven-land"
+          ],
+          [
+            "天",
+            2,
+            "heaven"
+          ]
+        ],
+        "en": [
+          [
+            "heaven, heaven, heaven, heaven",
+            0
+          ],
+          [
+            ", heaven-land",
+            1
+          ],
+          [
+            ", heaven",
+            2
+          ]
+        ]
+      }
+    },
+    "163.29": {
+      "en": "heaven, heaven, heaven, heaven, heaven-land, hell",
+      "align": {
+        "jp": [
+          [
+            "天天天天",
+            0
+          ],
+          [
+            "天国",
+            1
+          ],
+          [
+            "地獄",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "天",
+            0,
+            "heaven"
+          ],
+          [
+            "天",
+            0,
+            "heaven"
+          ],
+          [
+            "天",
+            0,
+            "heaven"
+          ],
+          [
+            "天",
+            0,
+            "heaven"
+          ],
+          [
+            "天国",
+            1,
+            "heaven-land"
+          ],
+          [
+            "地獄",
+            2,
+            "hell"
+          ]
+        ],
+        "en": [
+          [
+            "heaven, heaven, heaven, heaven",
+            0
+          ],
+          [
+            ", heaven-land",
+            1
+          ],
+          [
+            ", hell",
+            2
+          ]
+        ]
+      }
+    },
+    "166.68": {
+      "en": "Lured by the moonlit night",
+      "align": {
+        "jp": [
+          [
+            "月夜に",
+            0
+          ],
+          [
+            "誘われ",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "月夜",
+            0,
+            "moonlit night"
+          ],
+          [
+            "に",
+            0,
+            "by"
+          ],
+          [
+            "誘われ",
+            1,
+            "lured-(pass)"
+          ]
+        ],
+        "en": [
+          [
+            "Lured",
+            1
+          ],
+          [
+            " by the moonlit night",
+            0
+          ]
+        ]
+      }
+    },
+    "168.37": {
+      "en": "Angel and devil, angel and devil, angel and devil",
+      "align": {
+        "jp": [
+          [
+            "天使と 悪魔と",
+            0
+          ],
+          [
+            " 天使と 悪魔と",
+            1
+          ],
+          [
+            " 天使と 悪魔が",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "天使",
+            0,
+            "angel"
+          ],
+          [
+            "と",
+            0,
+            "and"
+          ],
+          [
+            " 悪魔",
+            0,
+            "devil"
+          ],
+          [
+            "と",
+            0,
+            "and"
+          ],
+          [
+            " 天使",
+            1,
+            "angel"
+          ],
+          [
+            "と",
+            1,
+            "and"
+          ],
+          [
+            " 悪魔",
+            1,
+            "devil"
+          ],
+          [
+            "と",
+            1,
+            "and"
+          ],
+          [
+            " 天使",
+            2,
+            "angel"
+          ],
+          [
+            "と",
+            2,
+            "and"
+          ],
+          [
+            " 悪魔",
+            2,
+            "devil"
+          ],
+          [
+            "が",
+            2,
+            "(subj)"
+          ]
+        ],
+        "en": [
+          [
+            "Angel and devil",
+            0
+          ],
+          [
+            ", angel and devil",
+            1
+          ],
+          [
+            ", angel and devil",
+            2
+          ]
+        ]
+      }
+    },
+    "173.45": {
+      "en": "Brush against each other by chance",
+      "align": {
+        "jp": [
+          [
+            "偶さか",
+            0
+          ],
+          [
+            "接した",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "偶さか",
+            0,
+            "by chance"
+          ],
+          [
+            "接し",
+            1,
+            "contact"
+          ],
+          [
+            "た",
+            1,
+            "(past)"
+          ]
+        ],
+        "en": [
+          [
+            "Brush against each other",
+            1
+          ],
+          [
+            " by chance",
+            0
+          ]
+        ]
+      }
+    },
+    "175.10": {
+      "en": "Heaven and hell —",
+      "align": {
+        "jp": [
+          [
+            "天国",
+            0
+          ],
+          [
+            " 地獄の",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "天国",
+            0,
+            "heaven"
+          ],
+          [
+            " 地獄",
+            1,
+            "hell"
+          ],
+          [
+            "の",
+            1,
+            "of"
+          ]
+        ],
+        "en": [
+          [
+            "Heaven",
+            0
+          ],
+          [
+            " and hell —",
+            1
+          ]
+        ]
+      }
+    },
+    "176.93": {
+      "en": "Rapture unfading, endless moon night",
+      "align": {
+        "jp": [
+          [
+            "恍惚",
+            0
+          ],
+          [
+            "消えない",
+            1
+          ],
+          [
+            " 果てない",
+            2
+          ],
+          [
+            " moon night",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "恍惚",
+            0,
+            "rapture/ecstasy"
+          ],
+          [
+            "消え",
+            1,
+            "vanish"
+          ],
+          [
+            "ない",
+            1,
+            "(neg)"
+          ],
+          [
+            " 果て",
+            2,
+            "end"
+          ],
+          [
+            "ない",
+            2,
+            "(neg)"
+          ],
+          [
+            " moon night",
+            3,
+            "moon night"
+          ]
+        ],
+        "en": [
+          [
+            "Rapture",
+            0
+          ],
+          [
+            " unfading,",
+            1
+          ],
+          [
+            " endless",
+            2
+          ],
+          [
+            " moon night",
+            3
+          ]
+        ]
+      }
+    },
+    "180.34": {
+      "en": "Heaven and hell, heaven and hell —",
+      "align": {
+        "jp": [
+          [
+            "天国 地獄の",
+            0
+          ],
+          [
+            " 天国 地獄の",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "天国",
+            0,
+            "heaven"
+          ],
+          [
+            " 地獄",
+            0,
+            "hell"
+          ],
+          [
+            "の",
+            0,
+            "of"
+          ],
+          [
+            " 天国",
+            1,
+            "heaven"
+          ],
+          [
+            " 地獄",
+            1,
+            "hell"
+          ],
+          [
+            "の",
+            1,
+            "of"
+          ]
+        ],
+        "en": [
+          [
+            "Heaven and hell",
+            0
+          ],
+          [
+            ", heaven and hell —",
+            1
+          ]
+        ]
+      }
+    },
+    "183.76": {
+      "en": "We met in the space between",
+      "align": {
+        "jp": [
+          [
+            "狭間で",
+            0
+          ],
+          [
+            "出会った",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "狭間",
+            0,
+            "gap/in-between"
+          ],
+          [
+            "で",
+            0,
+            "at"
+          ],
+          [
+            "出会っ",
+            1,
+            "meet"
+          ],
+          [
+            "た",
+            1,
+            "(past)"
+          ]
+        ],
+        "en": [
+          [
+            "We met",
+            1
+          ],
+          [
+            " in the space between",
+            0
+          ]
+        ]
+      }
+    },
+    "185.49": {
+      "en": "Angel and devil, angel and devil, angel and devil",
+      "align": {
+        "jp": [
+          [
+            "天使と 悪魔と",
+            0
+          ],
+          [
+            " 天使と 悪魔と",
+            1
+          ],
+          [
+            " 天使と 悪魔が",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "天使",
+            0,
+            "angel"
+          ],
+          [
+            "と",
+            0,
+            "and"
+          ],
+          [
+            " 悪魔",
+            0,
+            "devil"
+          ],
+          [
+            "と",
+            0,
+            "and"
+          ],
+          [
+            " 天使",
+            1,
+            "angel"
+          ],
+          [
+            "と",
+            1,
+            "and"
+          ],
+          [
+            " 悪魔",
+            1,
+            "devil"
+          ],
+          [
+            "と",
+            1,
+            "and"
+          ],
+          [
+            " 天使",
+            2,
+            "angel"
+          ],
+          [
+            "と",
+            2,
+            "and"
+          ],
+          [
+            " 悪魔",
+            2,
+            "devil"
+          ],
+          [
+            "が",
+            2,
+            "(subj)"
+          ]
+        ],
+        "en": [
+          [
+            "Angel and devil",
+            0
+          ],
+          [
+            ", angel and devil",
+            1
+          ],
+          [
+            ", angel and devil",
+            2
+          ]
+        ]
+      }
+    },
+    "190.68": {
+      "en": "Gather and dance, and —",
+      "align": {
+        "jp": [
+          [
+            "集って",
+            0
+          ],
+          [
+            "踊れば",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "集っ",
+            0,
+            "gather"
+          ],
+          [
+            "て",
+            0,
+            "(conj)"
+          ],
+          [
+            "踊れ",
+            1,
+            "dance"
+          ],
+          [
+            "ば",
+            1,
+            "if/when"
+          ]
+        ],
+        "en": [
+          [
+            "Gather",
+            0
+          ],
+          [
+            " and dance, and —",
+            1
+          ]
+        ]
+      }
+    },
+    "193.30": {
+      "en": "Into this endless party (heaven and hell, heaven and hell, heaven and hell)",
+      "align": {
+        "jp": [
+          [
+            "終わらない",
+            0
+          ],
+          [
+            " この party に",
+            1
+          ],
+          [
+            "（天国 地獄の 天国 地獄の 天国 地獄の）",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "終わら",
+            0,
+            "end"
+          ],
+          [
+            "ない",
+            0,
+            "(neg)"
+          ],
+          [
+            " この",
+            1,
+            "this"
+          ],
+          [
+            " party",
+            1,
+            "party"
+          ],
+          [
+            " に",
+            1,
+            "into"
+          ],
+          [
+            "（",
+            2,
+            "("
+          ],
+          [
+            "天国",
+            2,
+            "heaven"
+          ],
+          [
+            " 地獄",
+            2,
+            "hell"
+          ],
+          [
+            "の",
+            2,
+            "of"
+          ],
+          [
+            " 天国",
+            2,
+            "heaven"
+          ],
+          [
+            " 地獄",
+            2,
+            "hell"
+          ],
+          [
+            "の",
+            2,
+            "of"
+          ],
+          [
+            " 天国",
+            2,
+            "heaven"
+          ],
+          [
+            " 地獄",
+            2,
+            "hell"
+          ],
+          [
+            "の",
+            2,
+            "of"
+          ],
+          [
+            "）",
+            2,
+            ")"
+          ]
+        ],
+        "en": [
+          [
+            "Into this",
+            1
+          ],
+          [
+            " endless",
+            0
+          ],
+          [
+            " party",
+            1
+          ],
+          [
+            " (heaven and hell, heaven and hell, heaven and hell)",
+            2
+          ]
+        ]
+      }
+    },
+    "196.99": {
+      "en": "I'll offer up even my heart (we met in the space between)",
+      "align": {
+        "jp": [
+          [
+            "心さえ",
+            0
+          ],
+          [
+            " 捧げよう",
+            1
+          ],
+          [
+            "（狭間で出会った）",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "心",
+            0,
+            "heart"
+          ],
+          [
+            "さえ",
+            0,
+            "even"
+          ],
+          [
+            " 捧げよう",
+            1,
+            "let's offer"
+          ],
+          [
+            "（",
+            2,
+            "("
+          ],
+          [
+            "狭間",
+            2,
+            "gap/in-between"
+          ],
+          [
+            "で",
+            2,
+            "at"
+          ],
+          [
+            "出会っ",
+            2,
+            "meet"
+          ],
+          [
+            "た",
+            2,
+            "(past)"
+          ],
+          [
+            "）",
+            2,
+            ")"
+          ]
+        ],
+        "en": [
+          [
+            "I'll offer up",
+            1
+          ],
+          [
+            " even my heart",
+            0
+          ],
+          [
+            " (we met in the space between)",
+            2
+          ]
+        ]
+      }
+    },
+    "200.36": {
+      "en": "This rhythm won't stop (angel and devil, angel and devil, angel and devil)",
+      "align": {
+        "jp": [
+          [
+            "止まらない",
+            0
+          ],
+          [
+            " この rhythm",
+            1
+          ],
+          [
+            "（天使と 悪魔と 天使と 悪魔と 天使と 悪魔が）",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "止まら",
+            0,
+            "stop"
+          ],
+          [
+            "ない",
+            0,
+            "(neg)"
+          ],
+          [
+            " この",
+            1,
+            "this"
+          ],
+          [
+            " rhythm",
+            1,
+            "rhythm"
+          ],
+          [
+            "（",
+            2,
+            "("
+          ],
+          [
+            "天使",
+            2,
+            "angel"
+          ],
+          [
+            "と",
+            2,
+            "and"
+          ],
+          [
+            " 悪魔",
+            2,
+            "devil"
+          ],
+          [
+            "と",
+            2,
+            "and"
+          ],
+          [
+            " 天使",
+            2,
+            "angel"
+          ],
+          [
+            "と",
+            2,
+            "and"
+          ],
+          [
+            " 悪魔",
+            2,
+            "devil"
+          ],
+          [
+            "と",
+            2,
+            "and"
+          ],
+          [
+            " 天使",
+            2,
+            "angel"
+          ],
+          [
+            "と",
+            2,
+            "and"
+          ],
+          [
+            " 悪魔",
+            2,
+            "devil"
+          ],
+          [
+            "が",
+            2,
+            "(subj)"
+          ],
+          [
+            "）",
+            2,
+            ")"
+          ]
+        ],
+        "en": [
+          [
+            "This rhythm",
+            1
+          ],
+          [
+            " won't stop",
+            0
+          ],
+          [
+            " (angel and devil, angel and devil, angel and devil)",
+            2
+          ]
+        ]
+      }
+    },
+    "203.64": {
+      "en": "Everyone with both hands raised (gather and dance, and —)",
+      "align": {
+        "jp": [
+          [
+            "両手あげ",
+            0
+          ],
+          [
+            " 誰もが",
+            1
+          ],
+          [
+            "（集って踊れば）",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "両手",
+            0,
+            "both hands"
+          ],
+          [
+            "あげ",
+            0,
+            "raise"
+          ],
+          [
+            " 誰",
+            1,
+            "who"
+          ],
+          [
+            "も",
+            1,
+            "also/any"
+          ],
+          [
+            "が",
+            1,
+            "(subj)"
+          ],
+          [
+            "（",
+            2,
+            "("
+          ],
+          [
+            "集っ",
+            2,
+            "gather"
+          ],
+          [
+            "て",
+            2,
+            "(conj)"
+          ],
+          [
+            "踊れ",
+            2,
+            "dance"
+          ],
+          [
+            "ば",
+            2,
+            "if/when"
+          ],
+          [
+            "）",
+            2,
+            ")"
+          ]
+        ],
+        "en": [
+          [
+            "Everyone",
+            1
+          ],
+          [
+            " with both hands raised",
+            0
+          ],
+          [
+            " (gather and dance, and —)",
+            2
+          ]
+        ]
+      }
+    },
+    "205.99": {
+      "en": "Dance, dance, dance, dance",
+      "align": {
+        "jp": [
+          [
+            "Dance, dance,",
+            0
+          ],
+          [
+            " dance, dance",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "Dance",
+            0,
+            "dance"
+          ],
+          [
+            ",",
+            0,
+            ","
+          ],
+          [
+            " dance",
+            0,
+            "dance"
+          ],
+          [
+            ",",
+            0,
+            ","
+          ],
+          [
+            " dance",
+            1,
+            "dance"
+          ],
+          [
+            ",",
+            1,
+            ","
+          ],
+          [
+            " dance",
+            1,
+            "dance"
+          ]
+        ],
+        "en": [
+          [
+            "Dance, dance,",
+            0
+          ],
+          [
+            " dance, dance",
+            1
+          ]
+        ]
+      }
+    },
+    "207.79": {
+      "en": "heaven, heaven, heaven, heaven, heaven-land, heaven (dead, alive, dead, alive)",
+      "align": {
+        "jp": [
+          [
+            "天天天天",
+            0
+          ],
+          [
+            "天国",
+            1
+          ],
+          [
+            "天",
+            2
+          ],
+          [
+            " (dead, alive, dead, alive)",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "天",
+            0,
+            "heaven"
+          ],
+          [
+            "天",
+            0,
+            "heaven"
+          ],
+          [
+            "天",
+            0,
+            "heaven"
+          ],
+          [
+            "天",
+            0,
+            "heaven"
+          ],
+          [
+            "天国",
+            1,
+            "heaven-land"
+          ],
+          [
+            "天",
+            2,
+            "heaven"
+          ],
+          [
+            " (",
+            3,
+            "("
+          ],
+          [
+            "dead",
+            3,
+            "dead"
+          ],
+          [
+            ",",
+            3,
+            ","
+          ],
+          [
+            " alive",
+            3,
+            "alive"
+          ],
+          [
+            ",",
+            3,
+            ","
+          ],
+          [
+            " dead",
+            3,
+            "dead"
+          ],
+          [
+            ",",
+            3,
+            ","
+          ],
+          [
+            " alive",
+            3,
+            "alive"
+          ],
+          [
+            ")",
+            3,
+            ")"
+          ]
+        ],
+        "en": [
+          [
+            "heaven, heaven, heaven, heaven",
+            0
+          ],
+          [
+            ", heaven-land",
+            1
+          ],
+          [
+            ", heaven",
+            2
+          ],
+          [
+            " (dead, alive, dead, alive)",
+            3
+          ]
+        ]
+      }
+    },
+    "211.23": {
+      "en": "heaven, heaven, heaven, heaven, heaven-land, hell (death, death, death, birth, birth, birth)",
+      "align": {
+        "jp": [
+          [
+            "天天天天",
+            0
+          ],
+          [
+            "天国",
+            1
+          ],
+          [
+            "地獄",
+            2
+          ],
+          [
+            " (death, death, death, birth, birth, birth)",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "天",
+            0,
+            "heaven"
+          ],
+          [
+            "天",
+            0,
+            "heaven"
+          ],
+          [
+            "天",
+            0,
+            "heaven"
+          ],
+          [
+            "天",
+            0,
+            "heaven"
+          ],
+          [
+            "天国",
+            1,
+            "heaven-land"
+          ],
+          [
+            "地獄",
+            2,
+            "hell"
+          ],
+          [
+            " (",
+            3,
+            "("
+          ],
+          [
+            "death",
+            3,
+            "death"
+          ],
+          [
+            ",",
+            3,
+            ","
+          ],
+          [
+            " death",
+            3,
+            "death"
+          ],
+          [
+            ",",
+            3,
+            ","
+          ],
+          [
+            " death",
+            3,
+            "death"
+          ],
+          [
+            ",",
+            3,
+            ","
+          ],
+          [
+            " birth",
+            3,
+            "birth"
+          ],
+          [
+            ",",
+            3,
+            ","
+          ],
+          [
+            " birth",
+            3,
+            "birth"
+          ],
+          [
+            ",",
+            3,
+            ","
+          ],
+          [
+            " birth",
+            3,
+            "birth"
+          ],
+          [
+            ")",
+            3,
+            ")"
+          ]
+        ],
+        "en": [
+          [
+            "heaven, heaven, heaven, heaven",
+            0
+          ],
+          [
+            ", heaven-land",
+            1
+          ],
+          [
+            ", hell",
+            2
+          ],
+          [
+            " (death, death, death, birth, birth, birth)",
+            3
+          ]
+        ]
+      }
+    },
+    "214.60": {
+      "en": "heaven, heaven, heaven, heaven, heaven-land, heaven (dead, alive, dead, alive)",
+      "align": {
+        "jp": [
+          [
+            "天天天天",
+            0
+          ],
+          [
+            "天国",
+            1
+          ],
+          [
+            "天",
+            2
+          ],
+          [
+            " (dead, alive, dead, alive)",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "天",
+            0,
+            "heaven"
+          ],
+          [
+            "天",
+            0,
+            "heaven"
+          ],
+          [
+            "天",
+            0,
+            "heaven"
+          ],
+          [
+            "天",
+            0,
+            "heaven"
+          ],
+          [
+            "天国",
+            1,
+            "heaven-land"
+          ],
+          [
+            "天",
+            2,
+            "heaven"
+          ],
+          [
+            " (",
+            3,
+            "("
+          ],
+          [
+            "dead",
+            3,
+            "dead"
+          ],
+          [
+            ",",
+            3,
+            ","
+          ],
+          [
+            " alive",
+            3,
+            "alive"
+          ],
+          [
+            ",",
+            3,
+            ","
+          ],
+          [
+            " dead",
+            3,
+            "dead"
+          ],
+          [
+            ",",
+            3,
+            ","
+          ],
+          [
+            " alive",
+            3,
+            "alive"
+          ],
+          [
+            ")",
+            3,
+            ")"
+          ]
+        ],
+        "en": [
+          [
+            "heaven, heaven, heaven, heaven",
+            0
+          ],
+          [
+            ", heaven-land",
+            1
+          ],
+          [
+            ", heaven",
+            2
+          ],
+          [
+            " (dead, alive, dead, alive)",
+            3
+          ]
+        ]
+      }
+    },
+    "218.06": {
+      "en": "heaven, heaven, heaven, heaven, heaven-land, hell (death, death, birth, birth, death, birth, death)",
+      "align": {
+        "jp": [
+          [
+            "天天天天",
+            0
+          ],
+          [
+            "天国",
+            1
+          ],
+          [
+            "地獄",
+            2
+          ],
+          [
+            " (death, death, birth, birth, death, birth, death)",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "天",
+            0,
+            "heaven"
+          ],
+          [
+            "天",
+            0,
+            "heaven"
+          ],
+          [
+            "天",
+            0,
+            "heaven"
+          ],
+          [
+            "天",
+            0,
+            "heaven"
+          ],
+          [
+            "天国",
+            1,
+            "heaven-land"
+          ],
+          [
+            "地獄",
+            2,
+            "hell"
+          ],
+          [
+            " (",
+            3,
+            "("
+          ],
+          [
+            "death",
+            3,
+            "death"
+          ],
+          [
+            ",",
+            3,
+            ","
+          ],
+          [
+            " death",
+            3,
+            "death"
+          ],
+          [
+            ",",
+            3,
+            ","
+          ],
+          [
+            " birth",
+            3,
+            "birth"
+          ],
+          [
+            ",",
+            3,
+            ","
+          ],
+          [
+            " birth",
+            3,
+            "birth"
+          ],
+          [
+            ",",
+            3,
+            ","
+          ],
+          [
+            " death",
+            3,
+            "death"
+          ],
+          [
+            ",",
+            3,
+            ","
+          ],
+          [
+            " birth",
+            3,
+            "birth"
+          ],
+          [
+            ",",
+            3,
+            ","
+          ],
+          [
+            " death",
+            3,
+            "death"
+          ],
+          [
+            ")",
+            3,
+            ")"
+          ]
+        ],
+        "en": [
+          [
+            "heaven, heaven, heaven, heaven",
+            0
+          ],
+          [
+            ", heaven-land",
+            1
+          ],
+          [
+            ", hell",
+            2
+          ],
+          [
+            " (death, death, birth, birth, death, birth, death)",
+            3
+          ]
+        ]
+      }
+    }
+  }
+}
