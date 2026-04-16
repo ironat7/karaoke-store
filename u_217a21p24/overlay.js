@@ -283,26 +283,17 @@
       box-shadow: 0 0 6px rgba(200,220,255,0.5);
     }
     #ko-lyrics .ko-card.ko-fire-comet .ko-comet {
-      animation: ko-comet-sweep 1.35s cubic-bezier(.12,.78,.45,1) 1;
+      animation: ko-comet-sweep 1.6s cubic-bezier(.12,.78,.45,1) 1;
     }
     @keyframes ko-comet-sweep {
       0%   { transform: translate(0, 0)       scale(0.8); opacity: 0; }
-      12%  { opacity: 1; }
-      78%  { opacity: 1; }
+      10%  { opacity: 0.8; }
+      80%  { opacity: 0.8; }
       100% { transform: translate(140%, -38%) scale(1);   opacity: 0; }
     }
-
-    /* ==== LINE ENTRY BLOOM ==== each new line blooms in softly. */
-    #ko-lyrics .ko-card.ko-fire-comet .ko-line-jp,
-    #ko-lyrics .ko-card.ko-fire-comet .ko-line-en,
-    #ko-lyrics .ko-card.ko-fire-comet .ko-rail {
-      animation: ko-lyric-bloom 0.85s ease-out 1;
-    }
-    @keyframes ko-lyric-bloom {
-      0%   { filter: blur(2px) brightness(1.4); opacity: 0.25; transform: translateY(2px); }
-      60%  { opacity: 1; }
-      100% { filter: none; opacity: 1; transform: none; }
-    }
+    /* Per SKILL.md: hard cut between lines — no bloom / blur / fade on the
+       text or rail when the line changes. The orbital crown, halo pulse,
+       and card twinkle carry the motion; text just swaps. */
 
     /* ==== LYRIC DISPLAY ==== positioned via the position tick (locked).
        Typography and color are theme. */
@@ -754,17 +745,33 @@
 
   // --- Color + gloss colorizer, constellation rail, comet trigger ---
   // Extended COLOR_POLL: rebuilds the rail on each new line and fires the
-  // comet/bloom animation via CSS class on the card. NO MutationObserver
+  // comet animation via CSS class on the card. NO MutationObserver
   // (would feedback-loop with the tick's textContent writes).
+  //
+  // TRAP WE WORK AROUND HERE: the poll can't key off jpEl.textContent alone.
+  // After we inject <ruby><rt>gloss</rt></ruby>, jpEl.textContent expands to
+  // include the gloss text. The next 150ms poll sees a "new" textContent,
+  // mis-interprets it as a new line, and re-fires the animation (and worse,
+  // since that expanded text isn't in __wordAlign.data, it blanks the rail).
+  // Fix: stamp the raw plain line onto a data-attr after colorizing, and
+  // short-circuit the poll if the current DOM already has color-spans AND
+  // our stamp. Tick's next textContent write wipes the children (so the
+  // [data-wc] query returns null) — that's how we detect a fresh line.
   let _lastWCJp = '';
   let _cometTimer = null;
+  let _lastCometAt = 0;
 
   const cardEl = () => lyrics.querySelector('.ko-card');
   const railEl = () => document.getElementById('ko-rail');
 
-  const fireLineAnim = () => {
+  const fireComet = () => {
     const card = cardEl();
     if (!card) return;
+    // Rate-limit: at most one comet per 7s. Skips mid-verse rapid lines,
+    // fires naturally on verse/chorus musical gaps.
+    const now = performance.now();
+    if (now - _lastCometAt < 7000) return;
+    _lastCometAt = now;
     card.classList.remove('ko-fire-comet');
     void card.offsetWidth;   // force reflow so animation re-fires
     card.classList.add('ko-fire-comet');
@@ -773,7 +780,7 @@
       if (window.__koGen !== MY_GEN) return;
       const c = cardEl();
       if (c) c.classList.remove('ko-fire-comet');
-    }, 1500);
+    }, 1800);
   };
 
   const renderRail = (jpSegs) => {
@@ -803,20 +810,30 @@
     const jpEl = document.getElementById('ko-line-jp');
     const enEl = document.getElementById('ko-line-en');
     if (!jpEl || !enEl) return;
+
+    // If the element still has color-spans AND our raw-stamp matches the
+    // last line we processed, the "textContent changed" signal is just
+    // ruby-gloss expansion — not a new line. Skip.
+    const stamp = jpEl.getAttribute('data-ko-raw');
+    const hasSpans = !!jpEl.querySelector('[data-wc]');
+    if (hasSpans && stamp && stamp === _lastWCJp) return;
+
     const jp = jpEl.textContent;
     if (jp === _lastWCJp) return;
     _lastWCJp = jp;
 
-    // Fire comet + bloom only on new content (not on clears).
-    if (jp.trim()) fireLineAnim();
+    // Fire comet only on new non-empty content.
+    if (jp.trim()) fireComet();
 
     if (!jp.trim()) {
+      jpEl.removeAttribute('data-ko-raw');
       renderRail(null);
       return;
     }
 
     const alignment = window.__wordAlign.data && window.__wordAlign.data[jp];
     if (!alignment) {
+      jpEl.removeAttribute('data-ko-raw');
       renderRail(null);
       return;
     }
@@ -840,6 +857,9 @@
     }
     if (alignment.en) setHTML(enEl, buildEn(alignment.en));
 
+    // Stamp the raw plain line so the next poll can short-circuit when it
+    // sees the ruby-expanded textContent.
+    jpEl.setAttribute('data-ko-raw', jp);
     renderRail(alignment.jp);
   }, 150);
 
