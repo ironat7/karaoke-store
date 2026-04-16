@@ -1,0 +1,284 @@
+{
+  "1407921": {
+    "31.25": {
+      "en": "A fragile flame flickers at the edge of my heart",
+      "align": {
+        "jp": [["か細い火が", 0], ["心の端に", 1], ["灯る", 2]],
+        "gloss": [["か細い", 0, "fragile"], ["火", 0, "flame"], ["が", 0, "(subj)"], ["心", 1, "heart"], ["の", 1, "'s"], ["端", 1, "edge"], ["に", 1, "at"], ["灯る", 2, "lights"]],
+        "en": [["A fragile flame ", 0], ["flickers ", 2], ["at the edge of my heart", 1]]
+      }
+    },
+    "35.72": {
+      "en": "Before I knew it, the passion had spread into a blaze",
+      "align": {
+        "jp": [["いつの間にか", 3], ["燃え広がる", 2], ["熱情", 0]],
+        "gloss": [["いつの間にか", 3, "before one knows it"], ["燃え広がる", 2, "burns and spreads"], ["熱情", 0, "passion"]],
+        "en": [["Before I knew it, ", 3], ["the passion ", 0], ["had spread into a blaze", 2]]
+      }
+    },
+    "40.26": {
+      "en": "My butterfly flutters without rhyme or reason",
+      "align": {
+        "jp": [["私の蝶", 0], ["不規則に", 3], ["飛び回り", 2]],
+        "gloss": [["私", 0, "I"], ["の", 0, "'s"], ["蝶", 0, "butterfly"], ["不規則", 3, "irregular"], ["に", 3, "-ly"], ["飛び回り", 2, "flies around"]],
+        "en": [["My butterfly ", 0], ["flutters ", 2], ["without rhyme or reason", 3]]
+      }
+    },
+    "44.78": {
+      "en": "And dusts its scales onto your hand",
+      "align": {
+        "jp": [["あなたの手に", 1], ["鱗粉を", 0], ["付けた", 2]],
+        "gloss": [["あなた", 1, "you"], ["の", 1, "'s"], ["手", 1, "hand"], ["に", 1, "onto"], ["鱗粉", 0, "scale-dust"], ["を", 0, "(obj)"], ["付けた", 2, "attached"]],
+        "en": [["And dusts ", 2], ["its scales ", 0], ["onto your hand", 1]]
+      }
+    },
+    "49.16": {
+      "en": "Untangle our interlaced fingers",
+      "align": {
+        "jp": [["絡み合う", 3], ["指", 0], ["ほどいて", 2]],
+        "gloss": [["絡み合う", 3, "entwined"], ["指", 0, "fingers"], ["ほどいて", 2, "untie"]],
+        "en": [["Untangle ", 2], ["our interlaced ", 3], ["fingers", 0]]
+      }
+    },
+    "53.49": {
+      "en": "From lips, down to the tongue",
+      "align": {
+        "jp": [["唇から", 0], ["舌へと", 1]],
+        "gloss": [["唇", 0, "lips"], ["から", 0, "from"], ["舌", 1, "tongue"], ["へ", 1, "to"], ["と", 1, "and"]],
+        "en": [["From lips, ", 0], ["down to the tongue", 1]]
+      }
+    },
+    "57.97": {
+      "en": "If this is something forbidden",
+      "align": {
+        "jp": [["許されない", 2], ["事", 0], ["ならば", 3]],
+        "gloss": [["許され", 2, "permitted"], ["ない", 2, "(neg)"], ["事", 0, "thing"], ["ならば", 3, "if"]],
+        "en": [["If ", 3], ["this is something ", 0], ["forbidden", 2]]
+      }
+    },
+    "61.76": {
+      "en": "All the more, it burns within me",
+      "align": {
+        "jp": [["尚更", 3], ["燃え上がる", 2], ["の", 4]],
+        "gloss": [["尚更", 3, "all the more"], ["燃え上がる", 2, "flares up"], ["の", 4, "(expl)"]],
+        "en": [["All the more, ", 3], ["it burns within me", 2]]
+      }
+    },
+    "66.59": {
+      "en": "Hold me close, make me certain",
+      "align": {
+        "jp": [["抱き寄せて欲しい", 2], ["確かめて欲しい", 3]],
+        "gloss": [["抱き寄せて", 2, "hold close"], ["欲しい", 2, "want you to"], ["確かめて", 3, "make sure"], ["欲しい", 3, "want you to"]],
+        "en": [["Hold me close, ", 2], ["make me certain", 3]]
+      }
+    },
+    "70.45": {
+      "en": "Let me believe there's nothing wrong in this",
+      "align": {
+        "jp": [["間違いなど", 0], ["無いんだと", 2], ["思わせて", 3]],
+        "gloss": [["間違い", 0, "mistake"], ["など", 0, "(such as)"], ["無い", 2, "(neg-exist)"], ["んだ", 2, "(expl)"], ["と", 2, "(quot)"], ["思わせて", 3, "make me think"]],
+        "en": [["Let me believe ", 3], ["there's nothing wrong in this", 2]]
+      }
+    },
+    "75.82": {
+      "en": "Kiss me, paint over everything",
+      "align": {
+        "jp": [["キスをして", 2], ["塗り替えて欲しい", 3]],
+        "gloss": [["キス", 2, "kiss"], ["を", 2, "(obj)"], ["して", 2, "do"], ["塗り替えて", 3, "paint over"], ["欲しい", 3, "want you to"]],
+        "en": [["Kiss me, ", 2], ["paint over everything", 3]]
+      }
+    },
+    "79.42": {
+      "en": "I want to drown, lost in this enchanted hour",
+      "align": {
+        "jp": [["魅惑の時に", 1], ["酔いしれ", 2], ["溺れていたいの", 3]],
+        "gloss": [["魅惑", 1, "enchantment"], ["の", 1, "'s"], ["時", 1, "hour"], ["に", 1, "in"], ["酔いしれ", 2, "be intoxicated"], ["溺れて", 3, "drown"], ["いたい", 3, "want to be"], ["の", 3, "(expl)"]],
+        "en": [["I want to drown, ", 3], ["lost ", 2], ["in this enchanted hour", 1]]
+      }
+    },
+    "93.49": {
+      "en": "Bind me, need me more than this",
+      "align": {
+        "jp": [["束縛して", 2], ["もっと", 3], ["必要として", 4]],
+        "gloss": [["束縛", 2, "binding"], ["して", 2, "do"], ["もっと", 3, "more"], ["必要", 4, "needed"], ["として", 4, "as"]],
+        "en": [["Bind me, ", 2], ["need me ", 4], ["more than this", 3]]
+      }
+    },
+    "98.07": {
+      "en": "If you love me, let your obsession show",
+      "align": {
+        "jp": [["愛しいなら", 3], ["執着を", 0], ["見せつけて", 2]],
+        "gloss": [["愛しい", 3, "beloved"], ["なら", 3, "if"], ["執着", 0, "obsession"], ["を", 0, "(obj)"], ["見せつけて", 2, "show off"]],
+        "en": [["If you love me, ", 3], ["let your obsession ", 0], ["show", 2]]
+      }
+    },
+    "102.55": {
+      "en": "I'm falling unbearably for what the world calls wrong",
+      "align": {
+        "jp": [["「おかしい」のが", 0], ["たまらなく", 3], ["好きになる", 2]],
+        "gloss": [["「おかしい」", 0, "\"wrong\""], ["の", 0, "(nmlz)"], ["が", 0, "(subj)"], ["たまらなく", 3, "unbearably"], ["好き", 2, "beloved"], ["に", 2, "(into)"], ["なる", 2, "become"]],
+        "en": [["I'm falling ", 2], ["unbearably ", 3], ["for what the world calls wrong", 0]]
+      }
+    },
+    "106.97": {
+      "en": "Let's go as far as we can go",
+      "align": {
+        "jp": [["行けるトコまで", 1], ["行けばいいよ", 2]],
+        "gloss": [["行ける", 1, "can go"], ["トコ", 1, "place"], ["まで", 1, "as far as"], ["行けば", 2, "if go"], ["いい", 2, "good"], ["よ", 2, "(assert)"]],
+        "en": [["Let's go ", 2], ["as far as we can go", 1]]
+      }
+    },
+    "111.15": {
+      "en": "A heart that has lost its way",
+      "align": {
+        "jp": [["迷い込んだ", 3], ["心", 0], ["なら", 4]],
+        "gloss": [["迷い込んだ", 3, "wandered into"], ["心", 0, "heart"], ["なら", 4, "if"]],
+        "en": [["A heart ", 0], ["that has lost its way", 3]]
+      }
+    },
+    "115.35": {
+      "en": "melts away so easily",
+      "align": {
+        "jp": [["簡単に", 3], ["融けてゆく", 2]],
+        "gloss": [["簡単", 3, "easy"], ["に", 3, "-ly"], ["融けて", 2, "melt"], ["ゆく", 2, "go on"]],
+        "en": [["melts away ", 2], ["so easily", 3]]
+      }
+    },
+    "120.21": {
+      "en": "With no room left to feel anything as gentle as kindness",
+      "align": {
+        "jp": [["優しさなんて", 0], ["感じる暇など", 1], ["無い位に", 2]],
+        "gloss": [["優しさ", 0, "kindness"], ["なんて", 0, "(such as)"], ["感じる", 1, "to feel"], ["暇", 1, "spare time"], ["など", 1, "(such as)"], ["無い", 2, "(neg-exist)"], ["位", 2, "extent"], ["に", 2, "to"]],
+        "en": [["With no room left ", 2], ["to feel ", 1], ["anything as gentle as kindness", 0]]
+      }
+    },
+    "128.96": {
+      "en": "What kept returning was not that dream",
+      "align": {
+        "jp": [["繰り返したのは", 2], ["あの夢", 0], ["じゃなくて", 3]],
+        "gloss": [["繰り返した", 2, "repeated"], ["の", 2, "(nmlz)"], ["は", 2, "(topic)"], ["あの", 0, "that"], ["夢", 0, "dream"], ["じゃなくて", 3, "is not"]],
+        "en": [["What kept returning ", 2], ["was not ", 3], ["that dream", 0]]
+      }
+    },
+    "132.72": {
+      "en": "but us, unmistakably, in the real world",
+      "align": {
+        "jp": [["紛れも無い", 3], ["現実の", 1], ["私達", 0]],
+        "gloss": [["紛れ", 3, "mistaking"], ["も", 3, "even"], ["無い", 3, "(neg-exist)"], ["現実", 1, "reality"], ["の", 1, "'s"], ["私達", 0, "we"]],
+        "en": [["but us, ", 0], ["unmistakably, ", 3], ["in the real world", 1]]
+      }
+    },
+    "137.87": {
+      "en": "Once we touched, I knew there was no turning back",
+      "align": {
+        "jp": [["触れてから", 2], ["戻れないと", 3], ["知る", 5]],
+        "gloss": [["触れて", 2, "touch"], ["から", 2, "after/once"], ["戻れ", 3, "can return"], ["ない", 3, "(neg)"], ["と", 3, "(quot)"], ["知る", 5, "know"]],
+        "en": [["Once we touched, ", 2], ["I knew ", 5], ["there was no turning back", 3]]
+      }
+    },
+    "141.74": {
+      "en": "And that's alright — you, dearer to me than anyone",
+      "align": {
+        "jp": [["それでいいの", 3], ["誰よりも", 4], ["大切な", 2], ["あなた", 0]],
+        "gloss": [["それで", 3, "with that"], ["いい", 3, "good"], ["の", 3, "(expl)"], ["誰", 4, "who"], ["より", 4, "than"], ["も", 4, "even"], ["大切", 2, "precious"], ["な", 2, "(attrib)"], ["あなた", 0, "you"]],
+        "en": [["And that's alright — ", 3], ["you, ", 0], ["dearer to me ", 2], ["than anyone", 4]]
+      }
+    },
+    "164.68": {
+      "en": "When dawn draws near, I grow afraid",
+      "align": {
+        "jp": [["夜明けが", 0], ["来ると", 2], ["不安で", 3]],
+        "gloss": [["夜明け", 0, "dawn"], ["が", 0, "(subj)"], ["来る", 2, "comes"], ["と", 2, "when"], ["不安", 3, "uneasy"], ["で", 3, "(is and)"]],
+        "en": [["When ", 2], ["dawn ", 0], ["draws near, ", 2], ["I grow afraid", 3]]
+      }
+    },
+    "168.72": {
+      "en": "and break into tears —",
+      "align": {
+        "jp": [["泣いてしまう", 2], ["私に", 0]],
+        "gloss": [["泣いて", 2, "cry"], ["しまう", 2, "end up"], ["私", 0, "I/me"], ["に", 0, "(for)"]],
+        "en": [["and break into tears —", 2]]
+      }
+    },
+    "173.54": {
+      "en": "\"It's alright,\" you whispered to me",
+      "align": {
+        "jp": [["「大丈夫」と", 0], ["囁いた", 2]],
+        "gloss": [["「大丈夫」", 0, "\"alright\""], ["と", 0, "(quot)"], ["囁いた", 2, "whispered"]],
+        "en": [["\"It's alright,\" ", 0], ["you whispered to me", 2]]
+      }
+    },
+    "177.12": {
+      "en": "Were you crying too?",
+      "align": {
+        "jp": [["あなたも", 0], ["泣いていたの？", 2]],
+        "gloss": [["あなた", 0, "you"], ["も", 0, "also"], ["泣いて", 2, "crying"], ["いた", 2, "was"], ["の", 2, "(expl)"], ["？", 2, "(Q)"]],
+        "en": [["Were you crying ", 2], ["too?", 0]]
+      }
+    },
+    "182.51": {
+      "en": "Hold me close, make me certain",
+      "align": {
+        "jp": [["抱き寄せて欲しい", 2], ["確かめて欲しい", 3]],
+        "gloss": [["抱き寄せて", 2, "hold close"], ["欲しい", 2, "want you to"], ["確かめて", 3, "make sure"], ["欲しい", 3, "want you to"]],
+        "en": [["Hold me close, ", 2], ["make me certain", 3]]
+      }
+    },
+    "186.76": {
+      "en": "Let me believe there's nothing wrong in this",
+      "align": {
+        "jp": [["間違いなど", 0], ["無いんだと", 2], ["思わせて", 3]],
+        "gloss": [["間違い", 0, "mistake"], ["など", 0, "(such as)"], ["無い", 2, "(neg-exist)"], ["んだ", 2, "(expl)"], ["と", 2, "(quot)"], ["思わせて", 3, "make me think"]],
+        "en": [["Let me believe ", 3], ["there's nothing wrong in this", 2]]
+      }
+    },
+    "191.86": {
+      "en": "Kiss me, paint over everything",
+      "align": {
+        "jp": [["キスをして", 2], ["塗り替えて欲しい", 3]],
+        "gloss": [["キス", 2, "kiss"], ["を", 2, "(obj)"], ["して", 2, "do"], ["塗り替えて", 3, "paint over"], ["欲しい", 3, "want you to"]],
+        "en": [["Kiss me, ", 2], ["paint over everything", 3]]
+      }
+    },
+    "195.45": {
+      "en": "I want to drown, lost in this enchanted hour",
+      "align": {
+        "jp": [["魅惑の時に", 1], ["酔いしれ", 2], ["溺れたい", 3]],
+        "gloss": [["魅惑", 1, "enchantment"], ["の", 1, "'s"], ["時", 1, "hour"], ["に", 1, "in"], ["酔いしれ", 2, "be intoxicated"], ["溺れ", 3, "drown"], ["たい", 3, "want to"]],
+        "en": [["I want to drown, ", 3], ["lost ", 2], ["in this enchanted hour", 1]]
+      }
+    },
+    "200.71": {
+      "en": "Pull me in, like a magnet",
+      "align": {
+        "jp": [["引き寄せて", 2], ["マグネットのように", 3]],
+        "gloss": [["引き寄せて", 2, "pull close"], ["マグネット", 3, "magnet"], ["の", 3, "'s"], ["ように", 3, "like"]],
+        "en": [["Pull me in, ", 2], ["like a magnet", 3]]
+      }
+    },
+    "204.68": {
+      "en": "Even if we part someday, we'll find each other again",
+      "align": {
+        "jp": [["例え", 3], ["いつか離れても", 2], ["巡り会う", 4]],
+        "gloss": [["例え", 3, "even if"], ["いつか", 2, "someday"], ["離れて", 2, "part"], ["も", 2, "even"], ["巡り会う", 4, "meet again"]],
+        "en": [["Even if ", 3], ["we part someday, ", 2], ["we'll find each other again", 4]]
+      }
+    },
+    "209.63": {
+      "en": "Keep touching me — I don't need to turn back",
+      "align": {
+        "jp": [["触れていて", 2], ["戻れなくて", 3], ["いい", 4]],
+        "gloss": [["触れて", 2, "touch"], ["いて", 2, "be in state"], ["戻れ", 3, "can return"], ["なくて", 3, "(neg-te)"], ["いい", 4, "good/ok"]],
+        "en": [["Keep touching me — ", 2], ["I don't need to ", 4], ["turn back", 3]]
+      }
+    },
+    "213.40": {
+      "en": "And that's alright — you, dearer to me than anyone",
+      "align": {
+        "jp": [["それでいいの", 3], ["誰よりも", 4], ["大切な", 2], ["あなた", 0]],
+        "gloss": [["それで", 3, "with that"], ["いい", 3, "good"], ["の", 3, "(expl)"], ["誰", 4, "who"], ["より", 4, "than"], ["も", 4, "even"], ["大切", 2, "precious"], ["な", 2, "(attrib)"], ["あなた", 0, "you"]],
+        "en": [["And that's alright — ", 3], ["you, ", 0], ["dearer to me ", 2], ["than anyone", 4]]
+      }
+    }
+  }
+}
