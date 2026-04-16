@@ -1,43 +1,41 @@
 // ============================================================================
 // KARAOKE OVERLAY — Magnet / Moon Jelly × Miori Celesta
 // ----------------------------------------------------------------------------
-// The MV already has a burned-in small-caps title mark ("MAGNET / MIORI
-// CELESTA & MOON JELLY"), corner sparkles, mincho burned-in lyrics, and a
-// palette that shifts per scene. A card would fight all of that. This
-// overlay adds only what the MV doesn't have — EN translation + per-morpheme
-// gloss + reliable JP fallback — in the MV's own typographic voice, as
-// unframed text.
+// The MV's central visual is a glowing orb/moon the two characters hold
+// between them (frame 20); the title-card interlude centers a cursive
+// "Magnet" wordmark against a full moon surrounded by starfield and light
+// streaks (frame 150). This overlay IS that moon: lyrics sit inside a
+// soft-edged halo of moonlight, crowned by a small cursive wordmark that
+// echoes the MV's own calligraphic signature, with a fine starfield drift
+// behind the text and a warm pink undercurrent at the halo's lower edge.
 // ============================================================================
 
 (() => {
 
-  // --- Trusted Types policy ---
   const policy = window.__karaokePolicy || (window.__karaokePolicy =
     window.trustedTypes.createPolicy('karaoke-policy', {
       createHTML: s => s,
       createScript: s => s,
     }));
 
-  // --- State preservation ---
   window.__setlist         = window.__setlist         || [];
   window.__parsedLyrics    = window.__parsedLyrics    || {};
   window.__transCache      = window.__transCache      || {};
   window.__plainLyrics     = window.__plainLyrics     || {};
   window.__lyricOffsets    = window.__lyricOffsets    || {};
 
-  // Six MV-derived chunk hues: Moon Jelly cyan, warm pink, auburn, soft
-  // gold, sage-teal, magenta-rose. Each saturated enough to read on dark
-  // frames and dark enough to read on the overexposed-white ones.
-  const CHUNK_COLORS = ['#6AD4F0', '#FF7A9E', '#C97857', '#E8B86C', '#7DCAB0', '#D05A8E'];
+  // Six MV-derived hues, all legible against the moonlit-dark card backdrop:
+  // Moon Jelly cyan / warm rose / auburn / honey gold / sage teal / magenta
+  const CHUNK_COLORS = ['#6FD5F2', '#FF8CAE', '#D48B6D', '#F0C573', '#8BD4B3', '#E06BA0'];
 
   window.__wordAlign = window.__wordAlign || { colors: CHUNK_COLORS.slice(), data: {} };
   window.__wordAlign.colors = CHUNK_COLORS.slice();
   if (typeof window.__karaokeLyricsHidden !== 'boolean') window.__karaokeLyricsHidden = false;
 
-  // Safely below the burned-in horizontal-bar subtitles (~45% down) and
-  // above the persistent bottom title mark (~93% down).
+  // Halo sits centered-wide, clear of the MV's top-right mirrored title
+  // card, bottom-left normal title card, and bottom-center persistent mark.
   window.__koPosition = Object.assign(
-    { anchorX: 0.5, anchorY: 0.78, widthFrac: 0.70 },
+    { anchorX: 0.5, anchorY: 0.74, widthFrac: 0.66 },
     window.__koPosition || {}
   );
 
@@ -49,9 +47,11 @@
   document.querySelectorAll('#karaoke-root').forEach(e => e.remove());
   document.querySelectorAll('#ko-lyrics').forEach(e => e.remove());
 
-  // Cormorant Garamond mirrors the MV's own small-caps serif mark.
-  // Shippori Mincho mirrors the MV's thin-weight burned-in JP mincho.
-  const FONTS_HREF = 'https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Shippori+Mincho:wght@400;500;600&display=swap';
+  // Italianno: the MV's own cursive "Magnet" wordmark uses this exact
+  // register. Shippori Mincho: echoes the thin-weight burned-in JP mincho
+  // in frames 45/110/215. Cormorant Garamond small-caps italic: mirrors
+  // the MV's persistent "MAGNET / MIORI CELESTA & MOON JELLY" title mark.
+  const FONTS_HREF = 'https://fonts.googleapis.com/css2?family=Italianno&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Shippori+Mincho:wght@400;500;600&display=swap';
   if (!document.querySelector('link[data-karaoke-font]')) {
     const l = document.createElement('link');
     l.rel = 'stylesheet';
@@ -85,76 +85,159 @@
     #karaoke-root *, #ko-lyrics * { box-sizing: border-box; }
     #ko-lyrics .ko-line-jp.hidden { display: none; }
 
-    /* ==== UNFRAMED TEXT — no card, no background, no border, no ornaments.
-           The MV's own burned-in mark provides the frame.                  */
+    /* ==== MOONLIT HALO — soft-edged orb containing the lyrics.
+           NO hard rectangle, NO border, NO tilt. The container is a radial
+           atmosphere that fades to transparent at the edges. Two layers
+           stacked via pseudo-elements: moonlight wash (::before) and
+           starfield dust (::after). Both follow the oval halo shape.     */
     #ko-lyrics .ko-slot {
       position: relative;
       display: flex;
       flex-direction: column;
       align-items: center;
-      gap: 14px;
-      transition: opacity 420ms ease;
+      padding: 58px 72px 56px;
+      isolation: isolate;
+      transition: opacity 480ms ease;
     }
-    /* Instrumental gaps: fade to transparent so the MV breathes. */
     #ko-lyrics .ko-slot:has(.ko-line-jp:empty):has(.ko-line-en:empty) {
       opacity: 0;
     }
 
-    /* ==== JP LINE — thin-weight mincho echoing the MV's burned-in lyrics.
-           Legibility via a multi-layer soft dark halo that survives both
-           the overexposed-white frames and the dark starfield frames.     */
+    /* Moonlight wash: deep navy at center softening to transparent edges,
+       warmed with a pink undercurrent at the bottom-right (the MV's warm-
+       stage lighting) and a cyan bloom at the top-left (Moon Jelly's side). */
+    #ko-lyrics .ko-slot::before {
+      content: '';
+      position: absolute;
+      inset: -30px -40px;
+      background:
+        radial-gradient(ellipse 70% 55% at 28% 35%, rgba(111, 213, 242, 0.18) 0%, transparent 60%),
+        radial-gradient(ellipse 55% 45% at 78% 78%, rgba(224, 107, 160, 0.16) 0%, transparent 55%),
+        radial-gradient(ellipse 88% 70% at 50% 50%, rgba(14, 24, 48, 0.82) 0%, rgba(14, 24, 48, 0.58) 45%, rgba(14, 24, 48, 0.12) 80%, transparent 100%);
+      filter: blur(2px);
+      pointer-events: none;
+      z-index: -2;
+    }
+
+    /* Starfield dust: tiny pale dots scattered via layered gradients.
+       Six different dot positions at four sizes give a natural distribution
+       without any texture file or animation loop. */
+    #ko-lyrics .ko-slot::after {
+      content: '';
+      position: absolute;
+      inset: -30px -40px;
+      background:
+        radial-gradient(circle at 12% 22%, rgba(255,255,255,0.85) 0.6px, transparent 1.2px),
+        radial-gradient(circle at 28% 68%, rgba(255,255,255,0.7)  0.5px, transparent 1.1px),
+        radial-gradient(circle at 44% 14%, rgba(255,255,255,0.55) 0.4px, transparent 0.9px),
+        radial-gradient(circle at 62% 82%, rgba(255,255,255,0.85) 0.7px, transparent 1.4px),
+        radial-gradient(circle at 78% 40%, rgba(255,255,255,0.6)  0.5px, transparent 1px),
+        radial-gradient(circle at 90% 72%, rgba(255,255,255,0.5)  0.4px, transparent 0.9px),
+        radial-gradient(circle at 18% 88%, rgba(255,255,255,0.7)  0.5px, transparent 1.1px),
+        radial-gradient(circle at 54% 52%, rgba(255,255,255,0.4)  0.4px, transparent 0.8px),
+        radial-gradient(circle at 72% 16%, rgba(255,255,255,0.8)  0.6px, transparent 1.3px);
+      background-size:
+        130px 120px, 110px 140px, 95px 105px, 155px 130px, 125px 115px,
+        140px 125px, 105px 135px, 85px 95px, 120px 110px;
+      background-position:
+        0 0, 30px 50px, 65px 20px, 20px 60px, 50px 10px,
+        10px 30px, 70px 40px, 40px 70px, 15px 25px;
+      mask-image: radial-gradient(ellipse 75% 60% at 50% 50%, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.55) 55%, transparent 95%);
+      -webkit-mask-image: radial-gradient(ellipse 75% 60% at 50% 50%, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.55) 55%, transparent 95%);
+      mix-blend-mode: screen;
+      opacity: 0.85;
+      pointer-events: none;
+      z-index: -1;
+    }
+
+    /* ==== CURSIVE WORDMARK — echoes the MV's own "Magnet" calligraphy.
+           Small, above the lyrics, in a pale silver-cyan. Static. It's
+           a fixed piece of the card identity, not animated.             */
+    #ko-lyrics .ko-wordmark {
+      font-family: "Italianno", cursive;
+      font-size: 34px;
+      font-weight: 400;
+      line-height: 1;
+      letter-spacing: 0.02em;
+      color: rgba(230, 240, 250, 0.78);
+      text-shadow:
+        0 1px 0 rgba(14, 24, 48, 0.7),
+        0 0 12px rgba(111, 213, 242, 0.4);
+      margin-bottom: 14px;
+      order: 0;
+    }
+
+    /* ==== JP LINE — thin-weight mincho, matching the MV's burned-in
+           lyric treatment. Legibility via cream fill + multi-layer soft
+           dark halo that survives cyan-bright AND magenta-peak frames.  */
     #ko-lyrics .ko-line-jp {
       font-family: "Shippori Mincho", "Noto Serif JP", serif;
       font-weight: 500;
       color: #F8F4EA;
       font-size: 44px;
-      line-height: 1.8;
-      letter-spacing: 0.11em;
+      line-height: 1.85;
+      letter-spacing: 0.1em;
       text-shadow:
-        0 1px 0 rgba(14, 8, 24, 0.9),
-        0 2px 6px rgba(14, 8, 24, 0.75),
-        0 0 14px rgba(14, 8, 24, 0.55),
-        0 0 36px rgba(14, 8, 24, 0.4);
+        0 1px 0 rgba(10, 18, 36, 0.95),
+        0 2px 6px rgba(10, 18, 36, 0.85),
+        0 0 18px rgba(10, 18, 36, 0.7),
+        0 0 44px rgba(10, 18, 36, 0.45);
       padding-top: 0.4em;
       min-height: 1em;
       order: 1;
     }
-    /* Per-morpheme ruby gloss — tiny italic, matches the MV's credit line */
+    /* Ruby gloss: tiny italic serif, echoes the credits-grid treatment */
     #ko-lyrics .ko-line-jp rt {
       font-family: "Cormorant Garamond", Garamond, serif;
       font-size: 15px;
       font-weight: 500;
       font-style: italic;
       line-height: 1.1;
-      padding-bottom: 3px;
-      letter-spacing: 0.02em;
+      padding-bottom: 4px;
+      letter-spacing: 0.03em;
       color: inherit;
       text-shadow:
-        0 1px 0 rgba(14, 8, 24, 0.9),
-        0 0 6px rgba(14, 8, 24, 0.6);
+        0 1px 0 rgba(10, 18, 36, 0.95),
+        0 0 8px rgba(10, 18, 36, 0.7);
       user-select: none;
+      opacity: 0.95;
     }
     #ko-lyrics .ko-line-jp ruby { ruby-align: center; }
 
-    /* ==== EN LINE — small-caps serif, echoing the MV's "MAGNET /
-           MIORI CELESTA & MOON JELLY" persistent title mark.              */
+    /* ==== THREE-DOT DIVIDER between JP and EN — tiny ornamental row
+           (matches the "· · ·" treatment that appears on the thumbnail
+           and in frame 20 over the bottom title mark).                   */
+    #ko-lyrics .ko-divider {
+      font-family: "Cormorant Garamond", serif;
+      font-size: 14px;
+      line-height: 1;
+      letter-spacing: 0.5em;
+      color: rgba(230, 240, 250, 0.5);
+      text-shadow: 0 1px 0 rgba(10, 18, 36, 0.8);
+      margin: 4px 0 10px;
+      order: 2;
+    }
+    /* Hide the divider when the EN line is empty (instrumental / no translation) */
+    #ko-lyrics .ko-slot:has(.ko-line-en:empty) .ko-divider { opacity: 0; }
+
+    /* ==== EN LINE — italic serif matching the MV's persistent title mark. */
     #ko-lyrics .ko-line-en {
       font-family: "Cormorant Garamond", Garamond, serif;
       font-weight: 500;
       font-style: italic;
       color: #F2ECDF;
-      font-size: 23px;
-      line-height: 1.3;
-      letter-spacing: 0.06em;
+      font-size: 24px;
+      line-height: 1.35;
+      letter-spacing: 0.055em;
       text-shadow:
-        0 1px 0 rgba(14, 8, 24, 0.9),
-        0 2px 5px rgba(14, 8, 24, 0.65),
-        0 0 12px rgba(14, 8, 24, 0.4);
+        0 1px 0 rgba(10, 18, 36, 0.95),
+        0 2px 5px rgba(10, 18, 36, 0.7),
+        0 0 14px rgba(10, 18, 36, 0.5);
       max-width: 100%;
       min-height: 1em;
-      order: 2;
+      order: 3;
     }
-    /* EN-original songs: drop the italic, smaller, sentence-case */
+    /* EN-original songs: regular (non-italic), smaller */
     #ko-lyrics .ko-line-en.en-song {
       font-size: 21px;
       font-style: normal;
@@ -175,7 +258,9 @@
   lyrics.id = 'ko-lyrics';
   setHTML(lyrics, `
     <div class="ko-slot" id="ko-slot">
+      <div class="ko-wordmark">magnet</div>
       <div class="ko-line-jp" id="ko-line-jp"></div>
+      <div class="ko-divider">·&nbsp;&nbsp;·&nbsp;&nbsp;·</div>
       <div class="ko-line-en" id="ko-line-en"></div>
     </div>
   `);
@@ -219,9 +304,6 @@
   let lastLyricsPos = '';
   let lastEnText = '', lastJpText = '';
 
-  // Position tick: re-anchor to the <video> rect every 250ms. posKey cache
-  // is load-bearing — without it, every tick writes style.left/top
-  // unconditionally and cascades through YouTube's MutationObservers.
   const positionTick = () => {
     if (window.__koGen !== MY_GEN) return;
     const v = document.querySelector('video');
@@ -320,7 +402,6 @@
     tick();
   }, 30);
 
-  // Offset hotkeys: [ ] \
   const keyHandler = (e) => {
     const tag = (e.target && e.target.tagName || '').toLowerCase();
     if (tag === 'input' || tag === 'textarea' || (e.target && e.target.isContentEditable)) return;
@@ -387,7 +468,6 @@
     window.__karaokeRebuild();
   };
 
-  // Colorizer + ruby gloss — same plumbing; no line-change animation.
   let _lastWCJp = '';
   const COLOR_POLL = setInterval(() => {
     if (window.__koGen !== MY_GEN) { clearInterval(COLOR_POLL); return; }
