@@ -6,7 +6,7 @@ Saved karaoke-mode overlay bundles for YouTube videos. Each bundle is a self-con
 
 ```
 <videoId>/
-  manifest.json       - video metadata (title, artist, duration, lrcId, skeletonVersion)
+  manifest.json       - video metadata (title, channel, duration, savedAt, flavor)
   setlist.json        - window.__setlist (song entries, one per track)
   parsed_lyrics.json  - window.__parsedLyrics (LRC lines keyed by lrcId, with .en baked in)
   translations.json   - {lrcId: {timestamp: {en, align: {jp, gloss, en}}}}
