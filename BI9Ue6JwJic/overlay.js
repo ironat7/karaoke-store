@@ -287,7 +287,7 @@
         0 3px 0 0 color-mix(in oklab, ${THEME.cherryPale}, ${THEME.cherryDeep} calc(var(--ko-ripe) * 100%)),
         0 6px 10px -4px rgba(40, 0, 10, 0.4),
         inset -2px -3px 4px rgba(120, 0, 20, 0.25);
-      transition: left 350ms linear, background 2s linear, box-shadow 2s linear;
+      transition: background 2s linear, box-shadow 2s linear;
       z-index: 4;
     }
     /* Tiny stem connecting cherry-top to the main stem path. */
@@ -625,21 +625,24 @@
     }
 
     // ---- Cherry progress update (guarded) ----
-    // Write only when quantized value changed → ~200 writes over the song.
+    // RAF-fine quantization (~10000 steps) so the cherry slides smoothly
+    // between frames; the guard just kills duplicate writes while paused.
+    // No `left` transition on .ko-cherry — the CSS engine re-layouts every
+    // frame off the --ko-progress var, which is what makes it smooth.
     if (song && songDur > 0) {
       const progFrac = Math.max(0, Math.min(1, inSong / songDur));
       // Ripening ramp: stays pale for the first ~12% (intro), fully ripe
       // by ~92% (gives the cherry a moment to sit full-red at the end).
       const ripe = Math.max(0, Math.min(1, (progFrac - 0.12) / 0.80));
-      const pQ = Math.round(progFrac * 200);
-      const rQ = Math.round(ripe * 200);
+      const pQ = Math.round(progFrac * 10000);
+      const rQ = Math.round(ripe * 10000);
       if (pQ !== lastProgQ) {
         lastProgQ = pQ;
-        lyrics.style.setProperty('--ko-progress', progFrac.toFixed(4));
+        lyrics.style.setProperty('--ko-progress', progFrac.toFixed(5));
       }
       if (rQ !== lastRipeQ) {
         lastRipeQ = rQ;
-        lyrics.style.setProperty('--ko-ripe', ripe.toFixed(4));
+        lyrics.style.setProperty('--ko-ripe', ripe.toFixed(5));
       }
     }
 
