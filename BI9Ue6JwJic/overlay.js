@@ -39,10 +39,15 @@
     fontEN:       '"Fredoka", system-ui, sans-serif',
     fontGloss:    '"Noto Sans JP", system-ui, sans-serif',
 
-    // Palette — every hex pulled directly from an MV frame.
-    bgPinkLight:  '#FDE7EC',  // the white/cream squares of the gingham
-    bgPinkCoral:  '#FD6E8C',  // the saturated coral squares (checker-pattern tiles)
-    hatchPink:    '#D9385E',  // hatch lines inside the coral squares ONLY
+    // Palette — every hex pulled directly from an MV frame. Hatch sits
+    // INSIDE THE LIGHT SQUARES (matches reference gingham + helps
+    // lyric legibility: the textured light squares become a medium tone,
+    // shrinking the contrast gap that was fighting dark-teal letters).
+    bgPinkLight:  '#FFEDF1',  // the light squares — warm pale pink
+    bgPinkCoral:  '#F48AA0',  // the saturated squares — medium coral,
+                              // pulled back from neon #FD6E8C so letters
+                              // crossing coral→hatched-light read cleanly
+    hatchPink:    '#DB5F7C',  // diagonal hatch inside the LIGHT squares
 
     teal:         '#1F5A5B',  // burned-in kana color, main text, border
     tealDeep:     '#123D3E',  // shadow / deeper strokes
@@ -192,14 +197,15 @@
       gap: 12px;
       padding: ${THEME.cardPadding};
       /* 2-tone gingham as a single SVG data URI. Two diagonally-placed
-         coral squares per 56px tile; hatch (via SVG <pattern>) is fill-
-         clipped to ONLY those squares — it doesn't leak into the cream
-         squares the way a full-card repeating-linear-gradient would.
+         coral squares per 56px tile on a pale-pink base; hatch (via SVG
+         <pattern>) is fill-clipped to the OTHER two squares (the light
+         ones) — matches the MV's reference gingham where hatch lives in
+         the pale cells, not the saturated ones.
          Why SVG and not CSS gradients: CSS can't mask a repeating-linear-
          gradient to a per-tile region cleanly. SVG <pattern>-as-fill does
          it in one hop and reads as one image in the style inspector. */
       background:
-        url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='56' height='56'><defs><pattern id='h' patternUnits='userSpaceOnUse' width='6' height='6' patternTransform='rotate(45)'><line x1='0' y1='0' x2='0' y2='6' stroke='${THEME.hatchPink.replace('#','%23')}' stroke-width='2.2'/></pattern></defs><path d='M0 0h28v28H0zM28 28h28v28H28z' fill='${THEME.bgPinkCoral.replace('#','%23')}'/><path d='M0 0h28v28H0zM28 28h28v28H28z' fill='url(%23h)' opacity='.42'/></svg>") 0 0 / 56px 56px repeat,
+        url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='56' height='56'><defs><pattern id='h' patternUnits='userSpaceOnUse' width='6' height='6' patternTransform='rotate(45)'><line x1='0' y1='0' x2='0' y2='6' stroke='${THEME.hatchPink.replace('#','%23')}' stroke-width='2.4'/></pattern></defs><path d='M0 0h28v28H0zM28 28h28v28H28z' fill='${THEME.bgPinkCoral.replace('#','%23')}'/><path d='M28 0h28v28H28zM0 28h28v28H0z' fill='url(%23h)' opacity='.55'/></svg>") 0 0 / 56px 56px repeat,
         var(--ko-pink-lt);
       border: 3px solid var(--ko-cream);
       border-radius: ${THEME.cardRadius};
