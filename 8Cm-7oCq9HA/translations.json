@@ -1,0 +1,380 @@
+{
+  "29250024": {
+    "5.89": {
+      "en": "Hey, look look look at this aura",
+      "align": {
+        "jp": [["ほら", 0], ["見て見て見て", 1], ["この", 2], ["オーラ", 3]],
+        "gloss": [["ほら", 0, "hey/look"], ["見て", 1, "look"], ["見て", 1, "look"], ["見て", 1, "look"], ["この", 2, "this"], ["オーラ", 3, "aura"]],
+        "en": [["Hey, ", 0], ["look look look at", 1], [" this ", 2], ["aura", 3]]
+      }
+    },
+    "9.42": {
+      "en": "It's gonna be a hit, for sure",
+      "align": {
+        "jp": [["きっと", 0], ["ヒット", 1], ["だ", 2], ["よ", 3]],
+        "gloss": [["きっと", 0, "surely"], ["ヒット", 1, "hit"], ["だ", 2, "(cop)"], ["よ", 3, "(emph)"]],
+        "en": [["It's gonna be", 2], [" a hit", 1], [", for sure", 0]]
+      }
+    },
+    "12.13": {
+      "en": "Too much, too much, no, too much, no — you're blinding!",
+      "align": {
+        "jp": [["みっちゃみっちゃ", 0], ["ダメみっちゃダメ", 1], ["まぶしいよ", 2]],
+        "gloss": [["みっちゃ", 0, "too-much"], ["みっちゃ", 0, "too-much"], ["ダメ", 1, "no-good"], ["みっちゃ", 1, "too-much"], ["ダメ", 1, "no-good"], ["まぶしい", 2, "dazzling"], ["よ", 2, "(emph)"]],
+        "en": [["Too much, too much", 0], [", no, too much, no — ", 1], ["you're blinding!", 2]]
+      }
+    },
+    "15.58": {
+      "en": "It's gonna be a hit, for sure",
+      "align": {
+        "jp": [["きっと", 0], ["ヒット", 1], ["だ", 2], ["よ", 3]],
+        "gloss": [["きっと", 0, "surely"], ["ヒット", 1, "hit"], ["だ", 2, "(cop)"], ["よ", 3, "(emph)"]],
+        "en": [["It's gonna be", 2], [" a hit", 1], [", for sure", 0]]
+      }
+    },
+    "18.25": {
+      "en": "Pretty, pretty, sis (hey)",
+      "align": {
+        "jp": [["예뻐", 0], ["예뻐", 1], ["언니 (hey)", 2]],
+        "gloss": [["예뻐", 0, "pretty"], ["예뻐", 1, "pretty"], ["언니", 2, "older-sis"], [" (hey)", 2, "(hey)"]],
+        "en": [["Pretty", 0], [", pretty", 1], [", sis (hey)", 2]]
+      }
+    },
+    "20.34": {
+      "en": "Really, really cute",
+      "align": {
+        "jp": [["진짜", 0], ["진짜", 1], ["귀여워", 2]],
+        "gloss": [["진짜", 0, "really"], ["진짜", 1, "really"], ["귀여워", 2, "cute"]],
+        "en": [["Really", 0], [", really ", 1], ["cute", 2]]
+      }
+    },
+    "21.5": {
+      "en": "Whatcha doing? Whatcha doing, sis? (Hey)",
+      "align": {
+        "jp": [["뭐해?", 0], ["뭐해,", 1], ["언니? (Hey)", 2]],
+        "gloss": [["뭐", 0, "what"], ["해", 0, "do"], ["?", 0, "(q)"], ["뭐", 1, "what"], ["해", 1, "do"], [",", 1, ","], ["언니", 2, "older-sis"], ["?", 2, "(q)"], [" (Hey)", 2, "(hey)"]],
+        "en": [["Whatcha doing?", 0], [" Whatcha doing", 1], [", sis? (Hey)", 2]]
+      }
+    },
+    "23.39": {
+      "en": "Super-duper starving",
+      "align": {
+        "jp": [["めっちゃくっちゃ", 0], ["배고파", 1]],
+        "gloss": [["めっちゃ", 0, "super"], ["くっちゃ", 0, "duper"], ["배고파", 1, "hungry"]],
+        "en": [["Super-duper ", 0], ["starving", 1]]
+      }
+    },
+    "24.92": {
+      "en": "All the way to the edge of the stage — why won't this girl believe me?",
+      "align": {
+        "jp": [["ステージ果てまで", 0], ["なぜだ", 1], ["コイツ", 2], ["信じらんね", 3]],
+        "gloss": [["ステージ", 0, "stage"], ["果て", 0, "edge"], ["まで", 0, "up-to"], ["なぜ", 1, "why"], ["だ", 1, "(cop)"], ["コイツ", 2, "this-girl"], ["信じらんね", 3, "(neg)can-believe"]],
+        "en": [["All the way to the edge of the stage", 0], [" — why ", 1], ["won't ", 3], ["this girl", 2], [" believe me?", 3]]
+      }
+    },
+    "28.28": {
+      "en": "Princess move, deploy (smooch)",
+      "align": {
+        "jp": [["ヒメムーブ", 0], ["展開", 1], ["(チュ)", 2]],
+        "gloss": [["ヒメ", 0, "princess"], ["ムーブ", 0, "move"], ["展開", 1, "deploy"], ["(", 2, "("], ["チュ", 2, "(smooch)"], [")", 2, ")"]],
+        "en": [["Princess move", 0], [", deploy", 1], [" (smooch)", 2]]
+      }
+    },
+    "31.35": {
+      "en": "MY, MY aura beam",
+      "align": {
+        "jp": [["ボクノ", 0], ["ボクノ", 1], ["オーラビーム", 2]],
+        "gloss": [["ボク", 0, "I/me"], ["ノ", 0, "(poss)"], ["ボク", 1, "I/me"], ["ノ", 1, "(poss)"], ["オーラ", 2, "aura"], ["ビーム", 2, "beam"]],
+        "en": [["MY", 0], [", MY ", 1], ["aura beam", 2]]
+      }
+    },
+    "34.43": {
+      "en": "(Boing boing boing boing) Gotcha?",
+      "align": {
+        "jp": [["(ぴょんぴょんぴょんぴょん)", 0], ["やられた？", 1]],
+        "gloss": [["(", 0, "("], ["ぴょん", 0, "(boing)"], ["ぴょん", 0, "(boing)"], ["ぴょん", 0, "(boing)"], ["ぴょん", 0, "(boing)"], [")", 0, ")"], ["やられた", 1, "got-done-in"], ["？", 1, "(q)"]],
+        "en": [["(Boing boing boing boing)", 0], [" Gotcha?", 1]]
+      }
+    },
+    "37.51": {
+      "en": "Miss you, miss you, love me",
+      "align": {
+        "jp": [["アイタイ", 0], ["アイタイ", 1], ["アイシテ", 2]],
+        "gloss": [["アイタイ", 0, "miss-you"], ["アイタイ", 1, "miss-you"], ["アイシテ", 2, "love-me!"]],
+        "en": [["Miss you", 0], [", miss you", 1], [", love me", 2]]
+      }
+    },
+    "40.52": {
+      "en": "Deadass lovely super cutie baby — savage",
+      "align": {
+        "jp": [["ガチで", 0], ["ラブリー", 1], ["スーパ キューティー ベイビー", 2], ["エグいよ", 3]],
+        "gloss": [["ガチ", 0, "real"], ["で", 0, "(adv)"], ["ラブリー", 1, "lovely"], ["スーパ", 2, "super"], [" ", 2, " "], ["キューティー", 2, "cutie"], [" ", 2, " "], ["ベイビー", 2, "baby"], ["エグい", 3, "savage"], ["よ", 3, "(emph)"]],
+        "en": [["Deadass ", 0], ["lovely ", 1], ["super cutie baby", 2], [" — savage", 3]]
+      }
+    },
+    "44.29": {
+      "en": "MY, MY aura beam",
+      "align": {
+        "jp": [["ウチノ", 0], ["ウチノ", 1], ["オーラビーム", 2]],
+        "gloss": [["ウチ", 0, "I/me"], ["ノ", 0, "(poss)"], ["ウチ", 1, "I/me"], ["ノ", 1, "(poss)"], ["オーラ", 2, "aura"], ["ビーム", 2, "beam"]],
+        "en": [["MY", 0], [", MY ", 1], ["aura beam", 2]]
+      }
+    },
+    "47.17": {
+      "en": "(Boing boing boing boing) Scared ya?",
+      "align": {
+        "jp": [["(ぴょんぴょんぴょんぴょん)", 0], ["びびった？", 1]],
+        "gloss": [["(", 0, "("], ["ぴょん", 0, "(boing)"], ["ぴょん", 0, "(boing)"], ["ぴょん", 0, "(boing)"], ["ぴょん", 0, "(boing)"], [")", 0, ")"], ["びびった", 1, "got-startled"], ["？", 1, "(q)"]],
+        "en": [["(Boing boing boing boing)", 0], [" Scared ya?", 1]]
+      }
+    },
+    "50.55": {
+      "en": "Limit-break, override engaged, invincible",
+      "align": {
+        "jp": [["限界突破", 0], ["リミッター解除", 1], ["無敵の", 2]],
+        "gloss": [["限界", 0, "limit"], ["突破", 0, "breakthrough"], ["リミッター", 1, "limiter"], ["解除", 1, "release"], ["無敵", 2, "invincible"], ["の", 2, "(attr)"]],
+        "en": [["Limit-break", 0], [", override engaged", 1], [", invincible", 2]]
+      }
+    },
+    "53.84": {
+      "en": "Lovely super cutie baby — emo",
+      "align": {
+        "jp": [["ラブリー", 0], ["スーパ キューティー ベイビー", 1], ["エモいよ", 2]],
+        "gloss": [["ラブリー", 0, "lovely"], ["スーパ", 1, "super"], [" ", 1, " "], ["キューティー", 1, "cutie"], [" ", 1, " "], ["ベイビー", 1, "baby"], ["エモい", 2, "emo"], ["よ", 2, "(emph)"]],
+        "en": [["Lovely ", 0], ["super cutie baby", 1], [" — emo", 2]]
+      }
+    },
+    "56.81": {
+      "en": "Lovely super cutie baby — yeah! ya know! right?! smooch!",
+      "align": {
+        "jp": [["ラブリー", 0], ["スーパ キューティー ベイビー ", 1], ["だ！よ！ね！チュ！", 2]],
+        "gloss": [["ラブリー", 0, "lovely"], ["スーパ", 1, "super"], [" ", 1, " "], ["キューティー", 1, "cutie"], [" ", 1, " "], ["ベイビー", 1, "baby"], [" ", 1, " "], ["だ", 2, "(cop)yeah"], ["！", 2, "!"], ["よ", 2, "(emph)ya-know"], ["！", 2, "!"], ["ね", 2, "(tag)right"], ["！", 2, "!"], ["チュ", 2, "(smooch)"], ["！", 2, "!"]],
+        "en": [["Lovely ", 0], ["super cutie baby ", 1], ["— yeah! ya know! right?! smooch!", 2]]
+      }
+    },
+    "66.45": {
+      "en": "Pointless little spells",
+      "align": {
+        "jp": [["余計な", 0], ["オマジナイ", 1]],
+        "gloss": [["余計", 0, "pointless"], ["な", 0, "(attr)"], ["オマジナイ", 1, "spell/charm"]],
+        "en": [["Pointless little ", 0], ["spells", 1]]
+      }
+    },
+    "69.6": {
+      "en": "It's gonna be a hit, for sure",
+      "align": {
+        "jp": [["きっと", 0], ["ヒット", 1], ["だ", 2], ["よ", 3]],
+        "gloss": [["きっと", 0, "surely"], ["ヒット", 1, "hit"], ["だ", 2, "(cop)"], ["よ", 3, "(emph)"]],
+        "en": [["It's gonna be", 2], [" a hit", 1], [", for sure", 0]]
+      }
+    },
+    "72.48": {
+      "en": "Real comfort comes from —",
+      "align": {
+        "jp": [["確かな", 0], ["慰めは", 1]],
+        "gloss": [["確か", 0, "real/sure"], ["な", 0, "(attr)"], ["慰め", 1, "comfort"], ["は", 1, "(top)"]],
+        "en": [["Real ", 0], ["comfort comes from —", 1]]
+      }
+    },
+    "75.76": {
+      "en": "It's gonna be a hit, for sure",
+      "align": {
+        "jp": [["きっと", 0], ["ヒット", 1], ["だ", 2], ["よ", 3]],
+        "gloss": [["きっと", 0, "surely"], ["ヒット", 1, "hit"], ["だ", 2, "(cop)"], ["よ", 3, "(emph)"]],
+        "en": [["It's gonna be", 2], [" a hit", 1], [", for sure", 0]]
+      }
+    },
+    "78.68": {
+      "en": "Pretty, pretty, sis (hey)",
+      "align": {
+        "jp": [["예뻐", 0], ["예뻐", 1], ["언니 (hey)", 2]],
+        "gloss": [["예뻐", 0, "pretty"], ["예뻐", 1, "pretty"], ["언니", 2, "older-sis"], [" (hey)", 2, "(hey)"]],
+        "en": [["Pretty", 0], [", pretty", 1], [", sis (hey)", 2]]
+      }
+    },
+    "80.64": {
+      "en": "Really, really cute",
+      "align": {
+        "jp": [["진짜", 0], ["진짜", 1], ["귀여워", 2]],
+        "gloss": [["진짜", 0, "really"], ["진짜", 1, "really"], ["귀여워", 2, "cute"]],
+        "en": [["Really", 0], [", really ", 1], ["cute", 2]]
+      }
+    },
+    "81.88": {
+      "en": "Whatcha doing? Whatcha doing, sis? (Hey)",
+      "align": {
+        "jp": [["뭐해?", 0], ["뭐해,", 1], ["언니? (Hey)", 2]],
+        "gloss": [["뭐", 0, "what"], ["해", 0, "do"], ["?", 0, "(q)"], ["뭐", 1, "what"], ["해", 1, "do"], [",", 1, ","], ["언니", 2, "older-sis"], ["?", 2, "(q)"], [" (Hey)", 2, "(hey)"]],
+        "en": [["Whatcha doing?", 0], [" Whatcha doing", 1], [", sis? (Hey)", 2]]
+      }
+    },
+    "83.72": {
+      "en": "Super-duper starving",
+      "align": {
+        "jp": [["めっちゃくっちゃ", 0], ["배고파", 1]],
+        "gloss": [["めっちゃ", 0, "super"], ["くっちゃ", 0, "duper"], ["배고파", 1, "hungry"]],
+        "en": [["Super-duper ", 0], ["starving", 1]]
+      }
+    },
+    "84.95": {
+      "en": "All the way to the edge of the stage — why won't this girl believe me?",
+      "align": {
+        "jp": [["ステージ果てまで", 0], ["なぜだ", 1], ["コイツ", 2], ["信じらんね", 3]],
+        "gloss": [["ステージ", 0, "stage"], ["果て", 0, "edge"], ["まで", 0, "up-to"], ["なぜ", 1, "why"], ["だ", 1, "(cop)"], ["コイツ", 2, "this-girl"], ["信じらんね", 3, "(neg)can-believe"]],
+        "en": [["All the way to the edge of the stage", 0], [" — why ", 1], ["won't ", 3], ["this girl", 2], [" believe me?", 3]]
+      }
+    },
+    "88.26": {
+      "en": "Tap tap tap tap tap tap tap tap — slacking off",
+      "align": {
+        "jp": [["トントントントントントントントン", 0], ["サボる", 1]],
+        "gloss": [["トン", 0, "(tap)"], ["トン", 0, "(tap)"], ["トン", 0, "(tap)"], ["トン", 0, "(tap)"], ["トン", 0, "(tap)"], ["トン", 0, "(tap)"], ["トン", 0, "(tap)"], ["トン", 0, "(tap)"], ["サボる", 1, "slack-off"]],
+        "en": [["Tap tap tap tap tap tap tap tap", 0], [" — slacking off", 1]]
+      }
+    },
+    "91.41": {
+      "en": "Na-na-na-na-na-na-na-na-na",
+      "align": {
+        "jp": [["ナーナナーナ", 0], ["ナナナナナー", 1]],
+        "gloss": [["ナーナナーナ", 0, "(na-na vocal)"], ["ナナナナナー", 1, "(na-na vocal)"]],
+        "en": [["Na-na-na-na-na", 0], ["-na-na-na-na", 1]]
+      }
+    },
+    "94.75": {
+      "en": "Na-na-na-na-na-na-na-na-na (boing boing boing boing)",
+      "align": {
+        "jp": [["ナーナナーナ", 0], ["ナナナナナー", 1], ["(ぴょんぴょんぴょんぴょん)", 2]],
+        "gloss": [["ナーナナーナ", 0, "(na-na vocal)"], ["ナナナナナー", 1, "(na-na vocal)"], ["(", 2, "("], ["ぴょん", 2, "(boing)"], ["ぴょん", 2, "(boing)"], ["ぴょん", 2, "(boing)"], ["ぴょん", 2, "(boing)"], [")", 2, ")"]],
+        "en": [["Na-na-na-na-na", 0], ["-na-na-na-na", 1], [" (boing boing boing boing)", 2]]
+      }
+    },
+    "97.65": {
+      "en": "Na-na-na-na-na-na-na-na-na",
+      "align": {
+        "jp": [["ナーナナーナ", 0], ["ナナナナナー", 1]],
+        "gloss": [["ナーナナーナ", 0, "(na-na vocal)"], ["ナナナナナー", 1, "(na-na vocal)"]],
+        "en": [["Na-na-na-na-na", 0], ["-na-na-na-na", 1]]
+      }
+    },
+    "100.43": {
+      "en": "Princess move, deploy (smooch)",
+      "align": {
+        "jp": [["ヒメムーブ", 0], ["展開", 1], ["(チュ)", 2]],
+        "gloss": [["ヒメ", 0, "princess"], ["ムーブ", 0, "move"], ["展開", 1, "deploy"], ["(", 2, "("], ["チュ", 2, "(smooch)"], [")", 2, ")"]],
+        "en": [["Princess move", 0], [", deploy", 1], [" (smooch)", 2]]
+      }
+    },
+    "103.98": {
+      "en": "Reach, reach — I wanna fly",
+      "align": {
+        "jp": [["届け", 0], ["届け", 1], ["飛びたい", 2]],
+        "gloss": [["届け", 0, "reach!"], ["届け", 1, "reach!"], ["飛びたい", 2, "want-to-fly"]],
+        "en": [["Reach", 0], [", reach", 1], [" — I wanna fly", 2]]
+      }
+    },
+    "110.44": {
+      "en": "Me, me — I melted",
+      "align": {
+        "jp": [["アタシ", 0], ["アタシ", 1], ["溶けた", 2]],
+        "gloss": [["アタシ", 0, "I/me"], ["アタシ", 1, "I/me"], ["溶けた", 2, "melted"]],
+        "en": [["Me", 0], [", me", 1], [" — I melted", 2]]
+      }
+    },
+    "113.29": {
+      "en": "Deadass lovely super cutie baby — savage",
+      "align": {
+        "jp": [["ガチで", 0], ["ラブリー", 1], ["スーパ キューティー ベイビー", 2], ["エグいよ", 3]],
+        "gloss": [["ガチ", 0, "real"], ["で", 0, "(adv)"], ["ラブリー", 1, "lovely"], ["スーパ", 2, "super"], [" ", 2, " "], ["キューティー", 2, "cutie"], [" ", 2, " "], ["ベイビー", 2, "baby"], ["エグい", 3, "savage"], ["よ", 3, "(emph)"]],
+        "en": [["Deadass ", 0], ["lovely ", 1], ["super cutie baby", 2], [" — savage", 3]]
+      }
+    },
+    "117.82": {
+      "en": "(Aura beam) MY, MY aura beam",
+      "align": {
+        "jp": [["(オーラビーム)", 0], ["ボクノ", 1], ["ボクノ", 2], ["オーラビーム", 3]],
+        "gloss": [["(", 0, "("], ["オーラ", 0, "aura"], ["ビーム", 0, "beam"], [")", 0, ")"], ["ボク", 1, "I/me"], ["ノ", 1, "(poss)"], ["ボク", 2, "I/me"], ["ノ", 2, "(poss)"], ["オーラ", 3, "aura"], ["ビーム", 3, "beam"]],
+        "en": [["(Aura beam) ", 0], ["MY", 1], [", MY ", 2], ["aura beam", 3]]
+      }
+    },
+    "121.14": {
+      "en": "(Boing boing boing boing) The worst",
+      "align": {
+        "jp": [["(ぴょんぴょんぴょんぴょん)", 0], ["最低だ", 1]],
+        "gloss": [["(", 0, "("], ["ぴょん", 0, "(boing)"], ["ぴょん", 0, "(boing)"], ["ぴょん", 0, "(boing)"], ["ぴょん", 0, "(boing)"], [")", 0, ")"], ["最低", 1, "the-worst"], ["だ", 1, "(cop)"]],
+        "en": [["(Boing boing boing boing)", 0], [" The worst", 1]]
+      }
+    },
+    "124.38": {
+      "en": "Limit-break, override engaged, invincible",
+      "align": {
+        "jp": [["限界突破", 0], ["リミッター解除", 1], ["無敵の", 2]],
+        "gloss": [["限界", 0, "limit"], ["突破", 0, "breakthrough"], ["リミッター", 1, "limiter"], ["解除", 1, "release"], ["無敵", 2, "invincible"], ["の", 2, "(attr)"]],
+        "en": [["Limit-break", 0], [", override engaged", 1], [", invincible", 2]]
+      }
+    },
+    "127.65": {
+      "en": "Lovely super cutie baby — savage",
+      "align": {
+        "jp": [["ラブリー", 0], ["スーパ キューティー ベイビー", 1], ["エグいよ", 2]],
+        "gloss": [["ラブリー", 0, "lovely"], ["スーパ", 1, "super"], [" ", 1, " "], ["キューティー", 1, "cutie"], [" ", 1, " "], ["ベイビー", 1, "baby"], ["エグい", 2, "savage"], ["よ", 2, "(emph)"]],
+        "en": [["Lovely ", 0], ["super cutie baby", 1], [" — savage", 2]]
+      }
+    },
+    "130.73": {
+      "en": "La-la-la-la-la (boing) la-la-la-la-la (boing)",
+      "align": {
+        "jp": [["ラララララ ", 0], ["(ぴょん)", 1], [" ラララララ ", 2], ["(ぴょん)", 3]],
+        "gloss": [["ラララララ", 0, "(la-la vocal)"], [" ", 0, " "], ["(", 1, "("], ["ぴょん", 1, "(boing)"], [")", 1, ")"], [" ", 2, " "], ["ラララララ", 2, "(la-la vocal)"], [" ", 2, " "], ["(", 3, "("], ["ぴょん", 3, "(boing)"], [")", 3, ")"]],
+        "en": [["La-la-la-la-la", 0], [" (boing)", 1], [" la-la-la-la-la", 2], [" (boing)", 3]]
+      }
+    },
+    "133.63": {
+      "en": "Don't say I'm the worst — I love you",
+      "align": {
+        "jp": [["最低なんて", 0], ["言わないで", 1], ["大好き", 2], ["です", 3]],
+        "gloss": [["最低", 0, "the-worst"], ["なんて", 0, "such-as"], ["言わないで", 1, "don't-say"], ["大好き", 2, "love-much"], ["です", 3, "(cop)"]],
+        "en": [["Don't say ", 1], ["I'm the worst", 0], [" — I ", 3], ["love you", 2]]
+      }
+    },
+    "136.88": {
+      "en": "Limit-break, override engaged, invincible",
+      "align": {
+        "jp": [["限界突破", 0], ["リミッター解除", 1], ["無敵の", 2]],
+        "gloss": [["限界", 0, "limit"], ["突破", 0, "breakthrough"], ["リミッター", 1, "limiter"], ["解除", 1, "release"], ["無敵", 2, "invincible"], ["の", 2, "(attr)"]],
+        "en": [["Limit-break", 0], [", override engaged", 1], [", invincible", 2]]
+      }
+    },
+    "140.15": {
+      "en": "Lovely super cutie baby — emo",
+      "align": {
+        "jp": [["ラブリー", 0], ["スーパ キューティー ベイビー", 1], ["エモいよ", 2]],
+        "gloss": [["ラブリー", 0, "lovely"], ["スーパ", 1, "super"], [" ", 1, " "], ["キューティー", 1, "cutie"], [" ", 1, " "], ["ベイビー", 1, "baby"], ["エモい", 2, "emo"], ["よ", 2, "(emph)"]],
+        "en": [["Lovely ", 0], ["super cutie baby", 1], [" — emo", 2]]
+      }
+    },
+    "143.46": {
+      "en": "Lovely super cutie baby — yeah! ya know! right?! smooch!",
+      "align": {
+        "jp": [["ラブリー", 0], ["スーパ キューティー ベイビー ", 1], ["だ！よ！ね！チュ！", 2]],
+        "gloss": [["ラブリー", 0, "lovely"], ["スーパ", 1, "super"], [" ", 1, " "], ["キューティー", 1, "cutie"], [" ", 1, " "], ["ベイビー", 1, "baby"], [" ", 1, " "], ["だ", 2, "(cop)yeah"], ["！", 2, "!"], ["よ", 2, "(emph)ya-know"], ["！", 2, "!"], ["ね", 2, "(tag)right"], ["！", 2, "!"], ["チュ", 2, "(smooch)"], ["！", 2, "!"]],
+        "en": [["Lovely ", 0], ["super cutie baby ", 1], ["— yeah! ya know! right?! smooch!", 2]]
+      }
+    },
+    "149.77": {
+      "en": "La-la-la-la-la",
+      "align": {
+        "jp": [["ラーラ", 0], ["ララララ", 1]],
+        "gloss": [["ラーラ", 0, "(la-la vocal)"], ["ララララ", 1, "(la-la vocal)"]],
+        "en": [["La-la", 0], ["-la-la-la", 1]]
+      }
+    },
+    "151.32": {
+      "en": "And done",
+      "align": {
+        "jp": [["終わっ", 0], ["た", 1]],
+        "gloss": [["終わっ", 0, "end"], ["た", 1, "(past)"]],
+        "en": [["And", 1], [" done", 0]]
+      }
+    }
+  }
+}
