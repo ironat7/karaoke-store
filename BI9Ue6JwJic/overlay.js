@@ -39,32 +39,27 @@
     fontEN:       '"Fredoka", system-ui, sans-serif',
     fontGloss:    '"Noto Sans JP", system-ui, sans-serif',
 
-    // Palette — the gingham is a 3-tone cross-striped build (see the
-    // .ko-slot background rule). Two perpendicular semi-opaque pink
-    // stripes overlap to produce: white base, medium pink (single stripe),
-    // dark pink (both stripes). A subtle diagonal hatch layer sits on top
-    // at low opacity so it reads as a faint texture across the whole
-    // card — not as aggressive per-square striping. This is the version
-    // that doesn't fight the lyrics: no hot-coral patches to flip
-    // contrast mid-letter, pattern is coherent rather than checkery.
+    // Palette — every hex pulled directly from an MV frame.
+    //
+    // The gingham is a 3-tone cross-striped build (see the .ko-slot
+    // background rule): two perpendicular semi-opaque pink stripes
+    // overlap to produce base-white / single-stripe medium / overlap
+    // dark. A subtle diagonal hatch layer sits on top at low opacity so
+    // it reads as a faint texture across the whole card. This is softer
+    // than per-square hatching — letters straddling tile boundaries
+    // don't flip contrast mid-stroke.
     bgPinkLight:  '#FFEEF1',  // base (the white squares)
-    bgPinkMed:    '#F9C6CF',  // emerges from single-stripe regions
-    bgPinkDark:   '#E77B8E',  // emerges from both-stripe overlap
     hatchPink:    'rgba(222, 82, 112, 0.22)',  // faint diagonal texture
 
     teal:         '#1F5A5B',  // burned-in kana color, main text, border
     tealDeep:     '#123D3E',  // shadow / deeper strokes
     tealInk:      '#2D7778',  // softer teal for gloss
-
     cream:        '#FFF8EE',  // washi tape highlight, card highlight
-    creamEdge:    '#F7E9D4',
 
     cherry:       '#C41E3A',  // ripe cherry / gingham bow
     cherryDeep:   '#8A0E26',  // cherry shadow
     cherryPale:   '#F9D0C7',  // unripe cherry
     leafGreen:    '#3F7A4E',  // cherry stem, MV headband
-
-    hairBlue:     '#B9DFED',  // Miku hair (subtle accent only)
 
     // Typography
     lyricFontSizeJP:     '56px',
@@ -162,29 +157,30 @@
       text-align: center;
       transform: translate(-50%, -50%);
     }
+    /* CSS vars declared on BOTH #karaoke-root AND #ko-lyrics — #ko-lyrics
+       is a body sibling of #karaoke-root, not a descendant, so vars on
+       #karaoke-root alone wouldn't cascade to it. */
     #karaoke-root, #ko-lyrics {
       --ko-teal:       ${THEME.teal};
       --ko-teal-deep:  ${THEME.tealDeep};
       --ko-teal-ink:   ${THEME.tealInk};
-      --ko-cherry:     ${THEME.cherry};
-      --ko-cherry-deep:${THEME.cherryDeep};
-      --ko-cherry-pale:${THEME.cherryPale};
-      --ko-leaf:       ${THEME.leafGreen};
       --ko-cream:      ${THEME.cream};
-      --ko-cream-edge: ${THEME.creamEdge};
+      --ko-cherry:     ${THEME.cherry};
+      --ko-leaf:       ${THEME.leafGreen};
       --ko-pink-lt:    ${THEME.bgPinkLight};
-      --ko-pink-md:    ${THEME.bgPinkMed};
-      --ko-pink-dk:    ${THEME.bgPinkDark};
       --ko-hatch:      ${THEME.hatchPink};
-      --ko-hair:       ${THEME.hairBlue};
 
       --ko-font-jp:    ${THEME.fontJP};
       --ko-font-jp-hv: ${THEME.fontJPHeavy};
       --ko-font-en:    ${THEME.fontEN};
       --ko-font-gloss: ${THEME.fontGloss};
 
-      --ko-ripe: 0;     /* 0.0 (unripe, pale) → 1.0 (ripe, deep), updated by tick */
-      --ko-progress: 0; /* 0.0 → 1.0 horizontal position fraction, updated by tick */
+      /* Runtime vars written by the main tick ~7×/sec. CSS uses them
+         inside calc() and color-mix() to drive the cherry's position
+         and ripening without per-frame JS DOM writes. */
+      --ko-ripe:     0;  /* 0.0 (unripe/pale) → 1.0 (ripe/deep)     */
+      --ko-progress: 0;  /* 0.0 → 1.0 horizontal fraction of stem   */
+      --ko-stem-w: 0px;  /* stem pixel width — written on resize    */
     }
     #karaoke-root *, #ko-lyrics * { box-sizing: border-box; }
     #ko-lyrics .ko-line-jp.hidden { display: none; }
@@ -250,14 +246,16 @@
        SVG stem arches above the card top edge. The .ko-cherry div rides
        left→right via --ko-progress, and ripens pale→deep via --ko-ripe
        using color-mix(). */
+    /* .ko-stem extends slightly PAST the card edges (-8/-8). Washi tapes
+       are layered ABOVE (z-index 4 vs stem's 3), so the stem visually
+       tucks under each tape — the tape reads as "holding" the branch
+       down to the card. Otherwise the arc would terminate in mid-air,
+       which reads as floating. */
     #ko-lyrics .ko-stem {
       position: absolute;
       top: -34px;
-      /* Inset from card edges so the stem doesn't draw over the corner
-         washi tapes. The branch reads as floating above the card rather
-         than wrapping around it. */
-      left: 30px;
-      right: 30px;
+      left: -8px;
+      right: -8px;
       height: 52px;
       pointer-events: none;
       z-index: 3;
@@ -278,27 +276,6 @@
          visually doubles. 1px blur + 1px offset is subtle but reads. */
       filter: drop-shadow(0 1px 1.5px rgba(30, 60, 30, 0.32));
     }
-    /* Endcap leaves at each stem end — stems don't float in mid-air in
-       nature, they terminate at leaves/buds. Positioned with CSS (not
-       inside the preserveAspectRatio='none' SVG) so the leaf shape stays
-       undistorted regardless of card width. */
-    #ko-lyrics .ko-stem-endleaf {
-      position: absolute;
-      width: 18px; height: 12px;
-      pointer-events: none;
-      filter: drop-shadow(0 1px 1px rgba(30, 60, 30, 0.28));
-    }
-    #ko-lyrics .ko-stem-endleaf.left {
-      top: 4px;
-      left: -6px;
-      transform: rotate(-32deg);
-    }
-    #ko-lyrics .ko-stem-endleaf.right {
-      top: 4px;
-      right: -6px;
-      transform: rotate(32deg);
-    }
-    #ko-lyrics .ko-stem-endleaf path { fill: var(--ko-leaf); }
 
     /* The cherry pair — a Y-stemmed two-ball unit that travels along the
        main branch. GPU-composited transform (NOT left) because:
@@ -313,14 +290,20 @@
     #ko-lyrics .ko-cherry {
       position: absolute;
       top: 10px;
-      left: 8px;
+      /* Cherry starts 60px in from the stem's left edge and travels so
+         that its right edge never exceeds stem_w - 60px. The 60px
+         buffers keep the cherry inside the visible region between the
+         two washi tapes — cherry's travel zone avoids going UNDER a
+         tape (even though z-index would let it, the progress bar reads
+         clearer when nothing visually disappears). */
+      left: 60px;
       width: 60px; height: 54px;
       transform: translateX(
-        calc((var(--ko-stem-w, 500px) - 76px) * var(--ko-progress))
+        calc((var(--ko-stem-w, 500px) - 180px) * var(--ko-progress))
       );
       transition: transform 160ms linear;
       will-change: transform;
-      z-index: 4;
+      z-index: 3;
       pointer-events: none;
     }
 
@@ -378,7 +361,13 @@
     #ko-lyrics .ko-cherry-ball.left  { left: 2px;  top: 24px; }
     #ko-lyrics .ko-cherry-ball.right { left: 34px; top: 28px; }
 
-    /* ==== WASHI TAPE CORNERS — red gingham strips ========================= */
+    /* ==== WASHI TAPE CORNERS — red gingham strips =========================
+       z-index 4 > stem's z-index 3: each tape sits VISUALLY ON TOP of
+       the stem, so the branch appears to tuck under the tape instead of
+       floating. The tape reads as holding the branch down to the card.
+       A tiny gingham pattern (cross-striped like the card, but at 8px)
+       is drawn by two crossing 50% semi-opaque white bands over a red
+       base — same recipe as the main card, miniaturized. */
     #ko-lyrics .ko-washi {
       position: absolute;
       width: 86px; height: 22px;
@@ -390,7 +379,7 @@
         ${THEME.cherry};
       opacity: 0.92;
       box-shadow: 0 2px 6px rgba(0, 0, 0, 0.18);
-      z-index: 2;
+      z-index: 4;
     }
     #ko-lyrics .ko-washi.tl {
       top: -12px;
@@ -470,13 +459,6 @@
       position: relative;
       z-index: 2;
       order: 1;
-      /* Force single line. Ruby glosses widen each character's effective
-         column; with 8-9 gloss tokens, the line can easily outgrow the
-         card and wrap one trailing particle (の / よ / ね) onto its own
-         line, which reads like a mistake. Nowrap + overflow: visible on
-         the card keeps the line intact even when it extends slightly
-         past the card edges — the MV backdrop catches the overflow. */
-      white-space: nowrap;
       text-shadow:
         0 2px 0 rgba(255, 248, 238, 0.5),
         0 0 14px rgba(255, 248, 238, 0.45);
@@ -542,19 +524,15 @@
   root.id = 'karaoke-root';
   document.body.appendChild(root);
 
-  // Cherry-stem SVG: a gentle upward arc across the top of the card.
-  // The endcap leaves are separate DOM elements (not inside this SVG) so
-  // the leaf shape stays undistorted under preserveAspectRatio='none'.
+  // Cherry-stem SVG: a gentle upward arc. preserveAspectRatio="none"
+  // stretches the 100×12 viewBox to fill the stem container, so one path
+  // works at any card width. vector-effect="non-scaling-stroke" keeps the
+  // stroke width visually consistent under the stretch. Endpoints extend
+  // past card edges and tuck UNDER the washi tapes (see .ko-stem comment).
   const stemSvg = `
     <svg viewBox="0 0 100 12" preserveAspectRatio="none">
       <path class="ko-stem-path" d="M 1 10 Q 25 2, 50 4 T 99 10"
             vector-effect="non-scaling-stroke"/>
-    </svg>
-    <svg class="ko-stem-endleaf left" viewBox="0 0 18 12">
-      <path d="M 1 8 Q 8 -1, 17 4 Q 10 11, 1 8 Z"/>
-    </svg>
-    <svg class="ko-stem-endleaf right" viewBox="0 0 18 12">
-      <path d="M 17 8 Q 10 -1, 1 4 Q 8 11, 17 8 Z"/>
     </svg>`;
 
   // Cherry-pair SVG: Y-branched stem meeting at apex (30,0), two leaves
@@ -660,8 +638,9 @@
       // kill the transition, update the var, force reflow, restore.
       const cherry = document.getElementById('ko-cherry');
       if (cherry) cherry.style.transition = 'none';
-      // .ko-stem is inset 30px/30px inside the card; its width = cardW - 60
-      lyrics.style.setProperty('--ko-stem-w', (cardW - 60) + 'px');
+      // .ko-stem extends -8px past each card edge (under the washi tapes),
+      // so its width = cardW + 16.
+      lyrics.style.setProperty('--ko-stem-w', (cardW + 16) + 'px');
       if (cherry) {
         void cherry.offsetWidth;  // force reflow to flush the transition off
         cherry.style.transition = '';
