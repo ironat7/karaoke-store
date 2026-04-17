@@ -470,6 +470,13 @@
       position: relative;
       z-index: 2;
       order: 1;
+      /* Force single line. Ruby glosses widen each character's effective
+         column; with 8-9 gloss tokens, the line can easily outgrow the
+         card and wrap one trailing particle (の / よ / ね) onto its own
+         line, which reads like a mistake. Nowrap + overflow: visible on
+         the card keeps the line intact even when it extends slightly
+         past the card edges — the MV backdrop catches the overflow. */
+      white-space: nowrap;
       text-shadow:
         0 2px 0 rgba(255, 248, 238, 0.5),
         0 0 14px rgba(255, 248, 238, 0.45);
