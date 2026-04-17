@@ -39,15 +39,18 @@
     fontEN:       '"Fredoka", system-ui, sans-serif',
     fontGloss:    '"Noto Sans JP", system-ui, sans-serif',
 
-    // Palette — every hex pulled directly from an MV frame. Hatch sits
-    // INSIDE THE LIGHT SQUARES (matches reference gingham + helps
-    // lyric legibility: the textured light squares become a medium tone,
-    // shrinking the contrast gap that was fighting dark-teal letters).
-    bgPinkLight:  '#FFEDF1',  // the light squares — warm pale pink
-    bgPinkCoral:  '#F48AA0',  // the saturated squares — medium coral,
-                              // pulled back from neon #FD6E8C so letters
-                              // crossing coral→hatched-light read cleanly
-    hatchPink:    '#DB5F7C',  // diagonal hatch inside the LIGHT squares
+    // Palette — the gingham is a 3-tone cross-striped build (see the
+    // .ko-slot background rule). Two perpendicular semi-opaque pink
+    // stripes overlap to produce: white base, medium pink (single stripe),
+    // dark pink (both stripes). A subtle diagonal hatch layer sits on top
+    // at low opacity so it reads as a faint texture across the whole
+    // card — not as aggressive per-square striping. This is the version
+    // that doesn't fight the lyrics: no hot-coral patches to flip
+    // contrast mid-letter, pattern is coherent rather than checkery.
+    bgPinkLight:  '#FFEEF1',  // base (the white squares)
+    bgPinkMed:    '#F9C6CF',  // emerges from single-stripe regions
+    bgPinkDark:   '#E77B8E',  // emerges from both-stripe overlap
+    hatchPink:    'rgba(222, 82, 112, 0.22)',  // faint diagonal texture
 
     teal:         '#1F5A5B',  // burned-in kana color, main text, border
     tealDeep:     '#123D3E',  // shadow / deeper strokes
@@ -170,7 +173,8 @@
       --ko-cream:      ${THEME.cream};
       --ko-cream-edge: ${THEME.creamEdge};
       --ko-pink-lt:    ${THEME.bgPinkLight};
-      --ko-pink-coral: ${THEME.bgPinkCoral};
+      --ko-pink-md:    ${THEME.bgPinkMed};
+      --ko-pink-dk:    ${THEME.bgPinkDark};
       --ko-hatch:      ${THEME.hatchPink};
       --ko-hair:       ${THEME.hairBlue};
 
@@ -196,16 +200,33 @@
       align-items: center;
       gap: 12px;
       padding: ${THEME.cardPadding};
-      /* 2-tone gingham as a single SVG data URI. Two diagonally-placed
-         coral squares per 56px tile on a pale-pink base; hatch (via SVG
-         <pattern>) is fill-clipped to the OTHER two squares (the light
-         ones) — matches the MV's reference gingham where hatch lives in
-         the pale cells, not the saturated ones.
-         Why SVG and not CSS gradients: CSS can't mask a repeating-linear-
-         gradient to a per-tile region cleanly. SVG <pattern>-as-fill does
-         it in one hop and reads as one image in the style inspector. */
+      /* 3-tone cross-striped gingham. Two perpendicular 50% semi-opaque
+         pink stripes overlap to produce three tones from a single base:
+         the unwashed base color, single-stripe medium pink, overlap
+         dark pink. A subtle diagonal hatch layer on top at ~22% opacity
+         reads as a faint texture across the whole card without fighting
+         the lyrics. Softer and more cohesive than a 2-tone checker.
+         Why this and not per-tile hatch: a per-tile-clipped hatch
+         creates sharp local contrast that makes text straddling a tile
+         boundary flip contrast mid-letter. This build keeps the pattern
+         quieter AND blends the hatch across every cell uniformly, so
+         nothing in the lyric zone jumps. */
       background:
-        url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='56' height='56'><defs><pattern id='h' patternUnits='userSpaceOnUse' width='6' height='6' patternTransform='rotate(45)'><line x1='0' y1='0' x2='0' y2='6' stroke='${THEME.hatchPink.replace('#','%23')}' stroke-width='2.4'/></pattern></defs><path d='M0 0h28v28H0zM28 28h28v28H28z' fill='${THEME.bgPinkCoral.replace('#','%23')}'/><path d='M28 0h28v28H28zM0 28h28v28H0z' fill='url(%23h)' opacity='.55'/></svg>") 0 0 / 56px 56px repeat,
+        repeating-linear-gradient(
+          45deg,
+          transparent 0, transparent 4px,
+          var(--ko-hatch) 4px, var(--ko-hatch) 6px
+        ),
+        linear-gradient(
+          to right,
+          transparent 0, transparent 50%,
+          rgba(231, 119, 140, 0.58) 50%, rgba(231, 119, 140, 0.58) 100%
+        ) 0 0 / 38px 38px repeat,
+        linear-gradient(
+          to bottom,
+          transparent 0, transparent 50%,
+          rgba(231, 119, 140, 0.58) 50%, rgba(231, 119, 140, 0.58) 100%
+        ) 0 0 / 38px 38px repeat,
         var(--ko-pink-lt);
       border: 3px solid var(--ko-cream);
       border-radius: ${THEME.cardRadius};
@@ -257,6 +278,27 @@
          visually doubles. 1px blur + 1px offset is subtle but reads. */
       filter: drop-shadow(0 1px 1.5px rgba(30, 60, 30, 0.32));
     }
+    /* Endcap leaves at each stem end — stems don't float in mid-air in
+       nature, they terminate at leaves/buds. Positioned with CSS (not
+       inside the preserveAspectRatio='none' SVG) so the leaf shape stays
+       undistorted regardless of card width. */
+    #ko-lyrics .ko-stem-endleaf {
+      position: absolute;
+      width: 18px; height: 12px;
+      pointer-events: none;
+      filter: drop-shadow(0 1px 1px rgba(30, 60, 30, 0.28));
+    }
+    #ko-lyrics .ko-stem-endleaf.left {
+      top: 4px;
+      left: -6px;
+      transform: rotate(-32deg);
+    }
+    #ko-lyrics .ko-stem-endleaf.right {
+      top: 4px;
+      right: -6px;
+      transform: rotate(32deg);
+    }
+    #ko-lyrics .ko-stem-endleaf path { fill: var(--ko-leaf); }
 
     /* The cherry pair — a Y-stemmed two-ball unit that travels along the
        main branch. GPU-composited transform (NOT left) because:
@@ -494,10 +536,18 @@
   document.body.appendChild(root);
 
   // Cherry-stem SVG: a gentle upward arc across the top of the card.
+  // The endcap leaves are separate DOM elements (not inside this SVG) so
+  // the leaf shape stays undistorted under preserveAspectRatio='none'.
   const stemSvg = `
     <svg viewBox="0 0 100 12" preserveAspectRatio="none">
       <path class="ko-stem-path" d="M 1 10 Q 25 2, 50 4 T 99 10"
             vector-effect="non-scaling-stroke"/>
+    </svg>
+    <svg class="ko-stem-endleaf left" viewBox="0 0 18 12">
+      <path d="M 1 8 Q 8 -1, 17 4 Q 10 11, 1 8 Z"/>
+    </svg>
+    <svg class="ko-stem-endleaf right" viewBox="0 0 18 12">
+      <path d="M 17 8 Q 10 -1, 1 4 Q 8 11, 17 8 Z"/>
     </svg>`;
 
   // Cherry-pair SVG: Y-branched stem meeting at apex (30,0), two leaves
@@ -596,8 +646,19 @@
       lyrics.style.top      = (r.top  + r.height * p.anchorY) + 'px';
       lyrics.style.width    = cardW + 'px';
       lyrics.style.maxWidth = cardW + 'px';
+      // Resize snap: --ko-stem-w feeds into the cherry's transform calc,
+      // and the cherry has `transition: transform 160ms` for smooth song
+      // progress. Without suppression, a video resize would animate the
+      // cherry to its new proportional position — visible "slide". We
+      // kill the transition, update the var, force reflow, restore.
+      const cherry = document.getElementById('ko-cherry');
+      if (cherry) cherry.style.transition = 'none';
       // .ko-stem is inset 30px/30px inside the card; its width = cardW - 60
       lyrics.style.setProperty('--ko-stem-w', (cardW - 60) + 'px');
+      if (cherry) {
+        void cherry.offsetWidth;  // force reflow to flush the transition off
+        cherry.style.transition = '';
+      }
     }
     setTimeout(positionTick, 250);
   };
