@@ -1,0 +1,412 @@
+{
+  "10313516": {
+    "11.62": {
+      "en": "I love who I am — what,",
+      "align": {
+        "jp": [["私が", 0], ["私の事を", 5], ["愛して", 1]],
+        "gloss": [["私", 0], ["が", 0], ["私", 5], ["の", 5], ["事", 5], ["を", 5], ["愛し", 1], ["て", 1]],
+        "en": [["I love ", 1], ["who I am", 5], [" — what,", 0]]
+      }
+    },
+    "14.66": {
+      "en": "is that a problem? Or are you just jealous?",
+      "align": {
+        "jp": [["何が", 0], ["悪いの？", 3], ["嫉妬", 4], ["でしょうか？", 3]],
+        "gloss": [["何", 0], ["が", 0], ["悪い", 3], ["の", 3], ["？", 3], ["嫉妬", 4], ["でしょう", 3], ["か", 3], ["？", 3]],
+        "en": [["is that ", 0], ["a problem? ", 3], ["Or are you just ", 3], ["jealous?", 4]]
+      }
+    },
+    "17.85": {
+      "en": "\"You're cringe,\" \"you're weird\" —",
+      "align": {
+        "jp": [["痛いだとか", 3], ["変わってる", 3], ["とか", 3]],
+        "gloss": [["痛い", 3], ["だ", 3], ["とか", 3], ["変わっ", 3], ["てる", 3], ["とか", 3]],
+        "en": [["\"You're cringe,\" ", 3], ["\"you're weird\"", 3], [" —", 3]]
+      }
+    },
+    "20.88": {
+      "en": "yeah, your replies aren't reaching me, sorry.",
+      "align": {
+        "jp": [["届きませんね", 2], ["その", 0], ["リプライ", 4]],
+        "gloss": [["届き", 2], ["ません", 2], ["ね", 2], ["その", 0], ["リプライ", 4]],
+        "en": [["yeah, ", 0], ["your ", 0], ["replies ", 4], ["aren't reaching me", 2], [", sorry.", 2]]
+      }
+    },
+    "23.17": {
+      "en": "In my favorite outfit, my favorite makeup,",
+      "align": {
+        "jp": [["大好きな", 1], ["お洋服", 4], ["大好きな", 1], ["お化粧で", 4]],
+        "gloss": [["大好き", 1], ["な", 1], ["お", 4], ["洋服", 4], ["大好き", 1], ["な", 1], ["お", 4], ["化粧", 4], ["で", 4]],
+        "en": [["In my ", 4], ["favorite ", 1], ["outfit, ", 4], ["my favorite ", 1], ["makeup,", 4]]
+      }
+    },
+    "29.86": {
+      "en": "with my signature half-twin curls done up,",
+      "align": {
+        "jp": [["お決まりの", 0], ["ハーフツイン", 4], ["巻いて", 2]],
+        "gloss": [["お", 0], ["決まり", 0], ["の", 0], ["ハーフツイン", 4], ["巻い", 2], ["て", 2]],
+        "en": [["with my signature ", 0], ["half-twin curls ", 4], ["done up,", 2]]
+      }
+    },
+    "34.08": {
+      "en": "I'm heading out — parasol in hand. Even alone,",
+      "align": {
+        "jp": [["お出かけしよ", 2], ["日傘持って", 4], ["ぼっちだって", 3]],
+        "gloss": [["お", 2], ["出かけ", 2], ["し", 2], ["よ", 2], ["日傘", 4], ["持っ", 4], ["て", 4], ["ぼっち", 3], ["だって", 3]],
+        "en": [["I'm heading out", 2], [" — ", 2], ["parasol in hand", 4], [". ", 4], ["Even alone,", 3]]
+      }
+    },
+    "39.06": {
+      "en": "I'm perfectly happy!",
+      "align": {
+        "jp": [["幸せ", 1], ["だもん！", 3]],
+        "gloss": [["幸せ", 1], ["だ", 3], ["もん", 3], ["！", 3]],
+        "en": [["I'm perfectly ", 3], ["happy!", 1]]
+      }
+    },
+    "41.82": {
+      "en": "Chu! Sorry for being cute,",
+      "align": {
+        "jp": [["チュ！", 5], ["可愛くて", 1], ["ごめん", 3]],
+        "gloss": [["チュ", 5], ["！", 5], ["可愛く", 1], ["て", 1], ["ごめん", 3]],
+        "en": [["Chu! ", 5], ["Sorry for being ", 3], ["cute,", 1]]
+      }
+    },
+    "44.72": {
+      "en": "sorry for being born,",
+      "align": {
+        "jp": [["生まれてきちゃって", 2], ["ごめん", 3]],
+        "gloss": [["生まれ", 2], ["て", 2], ["き", 2], ["ちゃっ", 2], ["て", 2], ["ごめん", 3]],
+        "en": [["sorry for ", 3], ["being born,", 2]]
+      }
+    },
+    "47.45": {
+      "en": "Chu! Sorry for being a tease,",
+      "align": {
+        "jp": [["チュ！", 5], ["あざとくて", 1], ["ごめん", 3]],
+        "gloss": [["チュ", 5], ["！", 5], ["あざとく", 1], ["て", 1], ["ごめん", 3]],
+        "en": [["Chu! ", 5], ["Sorry for being ", 3], ["a tease,", 1]]
+      }
+    },
+    "50.95": {
+      "en": "you can't help noticing, huh? Sorry.",
+      "align": {
+        "jp": [["気になっちゃうよね？", 2], ["ごめん", 3]],
+        "gloss": [["気", 2], ["に", 2], ["なっ", 2], ["ちゃう", 2], ["よ", 2], ["ね", 2], ["？", 2], ["ごめん", 3]],
+        "en": [["you can't help noticing", 2], [", huh? ", 2], ["Sorry.", 3]]
+      }
+    },
+    "53.98": {
+      "en": "Chu! Sorry for being cute,",
+      "align": {
+        "jp": [["チュ！", 5], ["可愛くて", 1], ["ごめん", 3]],
+        "gloss": [["チュ", 5], ["！", 5], ["可愛く", 1], ["て", 1], ["ごめん", 3]],
+        "en": [["Chu! ", 5], ["Sorry for being ", 3], ["cute,", 1]]
+      }
+    },
+    "57.36": {
+      "en": "sorry I actually put in the work,",
+      "align": {
+        "jp": [["努力", 2], ["しちゃってて", 2], ["ごめん", 3]],
+        "gloss": [["努力", 2], ["し", 2], ["ちゃっ", 2], ["て", 2], ["て", 2], ["ごめん", 3]],
+        "en": [["sorry I actually ", 3], ["put in ", 2], ["the work,", 2]]
+      }
+    },
+    "60.4": {
+      "en": "Chu! Sorry for being precious,",
+      "align": {
+        "jp": [["チュ！", 5], ["尊くて", 1], ["ごめん", 3]],
+        "gloss": [["チュ", 5], ["！", 5], ["尊く", 1], ["て", 1], ["ごめん", 3]],
+        "en": [["Chu! ", 5], ["Sorry for being ", 3], ["precious,", 1]]
+      }
+    },
+    "63.12": {
+      "en": "sorry my girl-game's so strong,",
+      "align": {
+        "jp": [["女子力", 4], ["高くて", 1], ["ごめん", 3]],
+        "gloss": [["女子力", 4], ["高く", 1], ["て", 1], ["ごめん", 3]],
+        "en": [["sorry my ", 3], ["girl-game's ", 4], ["so strong,", 1]]
+      }
+    },
+    "66.09": {
+      "en": "kinda pisses you off, huh? Serves you right.",
+      "align": {
+        "jp": [["ムカついちゃうよね？", 3], ["ざまあ", 3]],
+        "gloss": [["ムカつい", 3], ["ちゃう", 3], ["よ", 3], ["ね", 3], ["？", 3], ["ざまあ", 3]],
+        "en": [["kinda pisses you off", 3], [", huh? ", 3], ["Serves you right.", 3]]
+      }
+    },
+    "80.53": {
+      "en": "You go ahead and worry about your own life,",
+      "align": {
+        "jp": [["貴女は", 0], ["貴女の事だけ", 5], ["どうぞ", 3]],
+        "gloss": [["貴女", 0], ["は", 0], ["貴女", 5], ["の", 5], ["事", 5], ["だけ", 5], ["どうぞ", 3]],
+        "en": [["You ", 0], ["go ahead ", 3], ["and worry about ", 3], ["your own life,", 5]]
+      }
+    },
+    "84.48": {
+      "en": "and please stay out of mine.",
+      "align": {
+        "jp": [["私に", 5], ["干渉しないで", 2], ["ください", 3]],
+        "gloss": [["私", 5], ["に", 5], ["干渉", 2], ["し", 2], ["ない", 2], ["で", 2], ["ください", 3]],
+        "en": [["and please ", 3], ["stay out of ", 2], ["mine.", 5]]
+      }
+    },
+    "87.55": {
+      "en": "They say birds of a feather flock together,",
+      "align": {
+        "jp": [["類は友を呼ぶ", 4], ["と", 0], ["言うけど", 2]],
+        "gloss": [["類", 4], ["は", 4], ["友", 4], ["を", 4], ["呼ぶ", 4], ["と", 0], ["言う", 2], ["けど", 2]],
+        "en": [["They ", 0], ["say ", 2], ["birds of a feather flock together", 4], [",", 2]]
+      }
+    },
+    "90.24": {
+      "en": "but yeah, your trash-talk isn't reaching me.",
+      "align": {
+        "jp": [["届きませんね", 2], ["その", 0], ["陰口", 4]],
+        "gloss": [["届き", 2], ["ません", 2], ["ね", 2], ["その", 0], ["陰口", 4]],
+        "en": [["but yeah, ", 0], ["your ", 0], ["trash-talk ", 4], ["isn't reaching me.", 2]]
+      }
+    },
+    "93.17": {
+      "en": "Heavy platform boots, my favorite backpack,",
+      "align": {
+        "jp": [["重い", 3], ["厚底ブーツ", 4], ["お気に入りの", 1], ["リュックで", 4]],
+        "gloss": [["重い", 3], ["厚底", 4], ["ブーツ", 4], ["お気に入り", 1], ["の", 1], ["リュック", 4], ["で", 4]],
+        "en": [["Heavy ", 3], ["platform boots, ", 4], ["my favorite ", 1], ["backpack,", 4]]
+      }
+    },
+    "98.78": {
+      "en": "comb through the bangs that won't budge,",
+      "align": {
+        "jp": [["崩せない", 2], ["前髪", 4], ["くしでといて", 2]],
+        "gloss": [["崩せ", 2], ["ない", 2], ["前髪", 4], ["くし", 2], ["で", 2], ["とい", 2], ["て", 2]],
+        "en": [["comb through ", 2], ["the bangs ", 4], ["that won't budge,", 2]]
+      }
+    },
+    "101.86": {
+      "en": "and I'm out — \"easy girl\"? Don't even.",
+      "align": {
+        "jp": [["お出かけしよ", 2], ["軽い女？", 3], ["ふざけんな", 3]],
+        "gloss": [["お", 2], ["出かけ", 2], ["し", 2], ["よ", 2], ["軽い", 3], ["女", 3], ["？", 3], ["ふざけ", 3], ["ん", 3], ["な", 3]],
+        "en": [["and I'm out", 2], [" — ", 2], ["\"easy girl\"? ", 3], ["Don't even.", 3]]
+      }
+    },
+    "107.86": {
+      "en": "I'm way too high-maintenance for that!",
+      "align": {
+        "jp": [["重すぎる", 3], ["っつーの！", 3]],
+        "gloss": [["重", 3], ["すぎる", 3], ["っつー", 3], ["の", 3], ["！", 3]],
+        "en": [["I'm way too high-maintenance ", 3], ["for that!", 3]]
+      }
+    },
+    "110.96": {
+      "en": "Chu! Sorry for being cute,",
+      "align": {
+        "jp": [["チュ！", 5], ["可愛くて", 1], ["ごめん", 3]],
+        "gloss": [["チュ", 5], ["！", 5], ["可愛く", 1], ["て", 1], ["ごめん", 3]],
+        "en": [["Chu! ", 5], ["Sorry for being ", 3], ["cute,", 1]]
+      }
+    },
+    "113.65": {
+      "en": "sorry for existing in this era,",
+      "align": {
+        "jp": [["この時代", 4], ["生きて", 2], ["ごめん", 3]],
+        "gloss": [["この", 4], ["時代", 4], ["生き", 2], ["て", 2], ["ごめん", 3]],
+        "en": [["sorry for ", 3], ["existing ", 2], ["in this era,", 4]]
+      }
+    },
+    "117.07": {
+      "en": "Chu! Sorry for standing out,",
+      "align": {
+        "jp": [["チュ！", 5], ["目立ってて", 2], ["ごめん", 3]],
+        "gloss": [["チュ", 5], ["！", 5], ["目立っ", 2], ["て", 2], ["て", 2], ["ごめん", 3]],
+        "en": [["Chu! ", 5], ["Sorry for ", 3], ["standing out,", 2]]
+      }
+    },
+    "119.73": {
+      "en": "you can't take your eyes off me, huh? Sorry.",
+      "align": {
+        "jp": [["意識しちゃうよね？", 2], ["ごめん", 3]],
+        "gloss": [["意識", 2], ["し", 2], ["ちゃう", 2], ["よ", 2], ["ね", 2], ["？", 2], ["ごめん", 3]],
+        "en": [["you can't take your eyes off me", 2], [", huh? ", 2], ["Sorry.", 3]]
+      }
+    },
+    "123.19": {
+      "en": "Chu! Sorry for being cute,",
+      "align": {
+        "jp": [["チュ！", 5], ["可愛くて", 1], ["ごめん", 3]],
+        "gloss": [["チュ", 5], ["！", 5], ["可愛く", 1], ["て", 1], ["ごめん", 3]],
+        "en": [["Chu! ", 5], ["Sorry for being ", 3], ["cute,", 1]]
+      }
+    },
+    "126.33": {
+      "en": "sorry I keep glowing myself up,",
+      "align": {
+        "jp": [["自分磨き", 4], ["して", 2], ["ごめん", 3]],
+        "gloss": [["自分", 4], ["磨き", 4], ["し", 2], ["て", 2], ["ごめん", 3]],
+        "en": [["sorry I keep ", 3], ["glowing ", 2], ["myself up,", 4]]
+      }
+    },
+    "129.35": {
+      "en": "Chu! Sorry for playing cute,",
+      "align": {
+        "jp": [["チュ！", 5], ["ぶりっ子で", 1], ["ごめん", 3]],
+        "gloss": [["チュ", 5], ["！", 5], ["ぶりっ子", 1], ["で", 1], ["ごめん", 3]],
+        "en": [["Chu! ", 5], ["Sorry for ", 3], ["playing cute,", 1]]
+      }
+    },
+    "131.74": {
+      "en": "sorry for making you obsessed,",
+      "align": {
+        "jp": [["虜にしちゃって", 2], ["ごめん", 3]],
+        "gloss": [["虜", 2], ["に", 2], ["し", 2], ["ちゃっ", 2], ["て", 2], ["ごめん", 3]],
+        "en": [["sorry for ", 3], ["making you obsessed,", 2]]
+      }
+    },
+    "134.68": {
+      "en": "kinda pisses you off, right? Serves you right.",
+      "align": {
+        "jp": [["ムカついちゃうでしょ？", 3], ["ざまあ", 3]],
+        "gloss": [["ムカつい", 3], ["ちゃう", 3], ["でしょ", 3], ["？", 3], ["ざまあ", 3]],
+        "en": [["kinda pisses you off", 3], [", right? ", 3], ["Serves you right.", 3]]
+      }
+    },
+    "138.04": {
+      "en": "Different tastes, weirdo, freak —",
+      "align": {
+        "jp": [["趣味の違い", 4], ["変わり者", 3], ["と", 0]],
+        "gloss": [["趣味", 4], ["の", 4], ["違い", 4], ["変わり者", 3], ["と", 0]],
+        "en": [["Different tastes, ", 4], ["weirdo, freak", 3], [" —", 0]]
+      }
+    },
+    "140.72": {
+      "en": "call me whatever,",
+      "align": {
+        "jp": [["バカに", 3], ["されても", 2]],
+        "gloss": [["バカ", 3], ["に", 3], ["さ", 2], ["れ", 2], ["て", 2], ["も", 2]],
+        "en": [["call me ", 2], ["whatever,", 3]]
+      }
+    },
+    "142.54": {
+      "en": "I won't bend, and I'm not scared,",
+      "align": {
+        "jp": [["曲げたくない", 2], ["怖くもない", 1]],
+        "gloss": [["曲げ", 2], ["たく", 2], ["ない", 2], ["怖く", 1], ["も", 1], ["ない", 1]],
+        "en": [["I won't bend, ", 2], ["and I'm not scared,", 1]]
+      }
+    },
+    "146.7": {
+      "en": "not of people like you.",
+      "align": {
+        "jp": [["あんたら", 0], ["ごとき", 3]],
+        "gloss": [["あんた", 0], ["ら", 0], ["ごとき", 3]],
+        "en": [["not of ", 3], ["people like ", 3], ["you.", 0]]
+      }
+    },
+    "149.78": {
+      "en": "I want to be the one who has my own back,",
+      "align": {
+        "jp": [["自分の味方は", 5], ["自分で", 0], ["ありたい", 2]],
+        "gloss": [["自分", 5], ["の", 5], ["味方", 5], ["は", 5], ["自分", 0], ["で", 0], ["あり", 2], ["たい", 2]],
+        "en": [["I want to be ", 2], ["the one who ", 0], ["has my own back,", 5]]
+      }
+    },
+    "152.67": {
+      "en": "I want to be the one who treasures me most,",
+      "align": {
+        "jp": [["一番", 1], ["大切にして", 1], ["あげたい", 2]],
+        "gloss": [["一番", 1], ["大切", 1], ["に", 1], ["し", 1], ["て", 1], ["あげ", 2], ["たい", 2]],
+        "en": [["I want to be ", 2], ["the one who treasures me ", 1], ["most,", 1]]
+      }
+    },
+    "155.92": {
+      "en": "I won't make myself swallow what isn't fair —",
+      "align": {
+        "jp": [["理不尽な", 3], ["我慢は", 4], ["させたくない", 2]],
+        "gloss": [["理不尽", 3], ["な", 3], ["我慢", 4], ["は", 4], ["させ", 2], ["たく", 2], ["ない", 2]],
+        "en": [["I won't make myself ", 2], ["swallow ", 4], ["what isn't fair ", 3], ["—", 2]]
+      }
+    },
+    "158.64": {
+      "en": "\"that's just me.\"",
+      "align": {
+        "jp": [["「それが", 0], ["私」", 5]],
+        "gloss": [["「", 0], ["それ", 0], ["が", 0], ["私", 5], ["」", 5]],
+        "en": [["\"that's just ", 0], ["me.\"", 5]]
+      }
+    },
+    "173.93": {
+      "en": "Chu! Sorry for being cute,",
+      "align": {
+        "jp": [["チュ！", 5], ["可愛くて", 1], ["ごめん", 3]],
+        "gloss": [["チュ", 5], ["！", 5], ["可愛く", 1], ["て", 1], ["ごめん", 3]],
+        "en": [["Chu! ", 5], ["Sorry for being ", 3], ["cute,", 1]]
+      }
+    },
+    "176.41": {
+      "en": "sorry for being born,",
+      "align": {
+        "jp": [["生まれてきちゃって", 2], ["ごめん", 3]],
+        "gloss": [["生まれ", 2], ["て", 2], ["き", 2], ["ちゃっ", 2], ["て", 2], ["ごめん", 3]],
+        "en": [["sorry for ", 3], ["being born,", 2]]
+      }
+    },
+    "179.89": {
+      "en": "Chu! Sorry for being a tease,",
+      "align": {
+        "jp": [["チュ！", 5], ["あざとくて", 1], ["ごめん", 3]],
+        "gloss": [["チュ", 5], ["！", 5], ["あざとく", 1], ["て", 1], ["ごめん", 3]],
+        "en": [["Chu! ", 5], ["Sorry for being ", 3], ["a tease,", 1]]
+      }
+    },
+    "184.82": {
+      "en": "sorry I'm out here loving life,",
+      "align": {
+        "jp": [["人生", 4], ["楽しんで", 2], ["ごめん", 3]],
+        "gloss": [["人生", 4], ["楽しん", 2], ["で", 2], ["ごめん", 3]],
+        "en": [["sorry I'm out here ", 3], ["loving ", 2], ["life,", 4]]
+      }
+    },
+    "188.44": {
+      "en": "Chu! Sorry for being cute,",
+      "align": {
+        "jp": [["チュ！", 5], ["可愛くて", 1], ["ごめん", 3]],
+        "gloss": [["チュ", 5], ["！", 5], ["可愛く", 1], ["て", 1], ["ごめん", 3]],
+        "en": [["Chu! ", 5], ["Sorry for being ", 3], ["cute,", 1]]
+      }
+    },
+    "190.97": {
+      "en": "sorry I actually put in the work,",
+      "align": {
+        "jp": [["努力", 2], ["しちゃってて", 2], ["ごめん", 3]],
+        "gloss": [["努力", 2], ["し", 2], ["ちゃっ", 2], ["て", 2], ["て", 2], ["ごめん", 3]],
+        "en": [["sorry I actually ", 3], ["put in ", 2], ["the work,", 2]]
+      }
+    },
+    "194.06": {
+      "en": "Chu! Sorry for being precious,",
+      "align": {
+        "jp": [["チュ！", 5], ["尊くて", 1], ["ごめん", 3]],
+        "gloss": [["チュ", 5], ["！", 5], ["尊く", 1], ["て", 1], ["ごめん", 3]],
+        "en": [["Chu! ", 5], ["Sorry for being ", 3], ["precious,", 1]]
+      }
+    },
+    "196.93": {
+      "en": "sorry my girl-game's so strong,",
+      "align": {
+        "jp": [["女子力", 4], ["高くて", 1], ["ごめん", 3]],
+        "gloss": [["女子力", 4], ["高く", 1], ["て", 1], ["ごめん", 3]],
+        "en": [["sorry my ", 3], ["girl-game's ", 4], ["so strong,", 1]]
+      }
+    },
+    "199.92": {
+      "en": "kinda pisses you off, huh? Serves you right.",
+      "align": {
+        "jp": [["ムカついちゃうよね？", 3], ["ざまあ", 3]],
+        "gloss": [["ムカつい", 3], ["ちゃう", 3], ["よ", 3], ["ね", 3], ["？", 3], ["ざまあ", 3]],
+        "en": [["kinda pisses you off", 3], [", huh? ", 3], ["Serves you right.", 3]]
+      }
+    }
+  }
+}
