@@ -1,0 +1,1695 @@
+{
+  "31544027": {
+    "24.88": {
+      "en": "At the water's edge, hair loose, the brim of a hat",
+      "align": {
+        "jp": [
+          [
+            "波打ち際 ",
+            0
+          ],
+          [
+            "ほどけた髪 ",
+            1
+          ],
+          [
+            "帽子の先",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "波打ち際",
+            0,
+            "water's edge"
+          ],
+          [
+            " ",
+            0,
+            ""
+          ],
+          [
+            "ほどけ",
+            1,
+            "come-undone (ta-form stem)"
+          ],
+          [
+            "た",
+            1,
+            "past attributive"
+          ],
+          [
+            "髪",
+            1,
+            "hair"
+          ],
+          [
+            " ",
+            1,
+            ""
+          ],
+          [
+            "帽子",
+            2,
+            "hat"
+          ],
+          [
+            "の",
+            2,
+            "genitive"
+          ],
+          [
+            "先",
+            2,
+            "tip/edge"
+          ]
+        ],
+        "en": [
+          [
+            "At the water's edge",
+            0
+          ],
+          [
+            ", ",
+            0
+          ],
+          [
+            "hair loose",
+            1
+          ],
+          [
+            ", ",
+            1
+          ],
+          [
+            "the brim of a hat",
+            2
+          ]
+        ]
+      }
+    },
+    "33.4": {
+      "en": "That blue Volkswagen I remember",
+      "align": {
+        "jp": [
+          [
+            "見覚えある ",
+            0
+          ],
+          [
+            "青いワーゲン",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "見覚え",
+            0,
+            "recognition/familiar-sight"
+          ],
+          [
+            "ある",
+            0,
+            "have/stative exist (nonpast)"
+          ],
+          [
+            " ",
+            0,
+            ""
+          ],
+          [
+            "青い",
+            1,
+            "blue (i-adj nonpast)"
+          ],
+          [
+            "ワーゲン",
+            1,
+            "Volkswagen"
+          ]
+        ],
+        "en": [
+          [
+            "That blue Volkswagen",
+            1
+          ],
+          [
+            " ",
+            1
+          ],
+          [
+            "I remember",
+            0
+          ]
+        ]
+      }
+    },
+    "37.3": "Stop the flashback",
+    "41.83": {
+      "en": "The south wind's (In southern winds)",
+      "align": {
+        "jp": [
+          [
+            "南風",
+            0
+          ],
+          [
+            "の",
+            0
+          ],
+          [
+            " (In southern winds)",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "南",
+            0,
+            "south"
+          ],
+          [
+            "風",
+            0,
+            "wind"
+          ],
+          [
+            "の",
+            0,
+            "genitive"
+          ],
+          [
+            " (In southern winds)",
+            1,
+            "(sung EN)"
+          ]
+        ],
+        "en": [
+          [
+            "The south wind's",
+            0
+          ],
+          [
+            " (In southern winds)",
+            1
+          ]
+        ]
+      }
+    },
+    "45.57": {
+      "en": "mischievous little spell (It's magic rays)",
+      "align": {
+        "jp": [
+          [
+            "いたずらな",
+            0
+          ],
+          [
+            "魔法ね",
+            1
+          ],
+          [
+            " (It's magic rays)",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "いたずら",
+            0,
+            "mischief"
+          ],
+          [
+            "な",
+            0,
+            "na-adj attributive"
+          ],
+          [
+            "魔法",
+            1,
+            "magic/spell"
+          ],
+          [
+            "ね",
+            1,
+            "sentence-final (soft assertion/agreement)"
+          ],
+          [
+            " (It's magic rays)",
+            2,
+            "(sung EN)"
+          ]
+        ],
+        "en": [
+          [
+            "mischievous",
+            0
+          ],
+          [
+            " ",
+            0
+          ],
+          [
+            "little spell",
+            1
+          ],
+          [
+            " (It's magic rays)",
+            2
+          ]
+        ]
+      }
+    },
+    "49.86": {
+      "en": "Don't drag me back to that far-off summer's dizzy spell (Be with you)",
+      "align": {
+        "jp": [
+          [
+            "遠い夏の ",
+            0
+          ],
+          [
+            "あの眩暈に",
+            1
+          ],
+          [
+            "戻さないで",
+            2
+          ],
+          [
+            " (Be with you)",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "遠い",
+            0,
+            "far/distant (i-adj)"
+          ],
+          [
+            "夏",
+            0,
+            "summer"
+          ],
+          [
+            "の",
+            0,
+            "genitive"
+          ],
+          [
+            " ",
+            0,
+            ""
+          ],
+          [
+            "あの",
+            1,
+            "that (distal demonstrative)"
+          ],
+          [
+            "眩暈",
+            1,
+            "dizziness/vertigo"
+          ],
+          [
+            "に",
+            1,
+            "allative (to/into)"
+          ],
+          [
+            "戻さ",
+            2,
+            "return/send-back (neg stem)"
+          ],
+          [
+            "ない",
+            2,
+            "negative"
+          ],
+          [
+            "で",
+            2,
+            "negative request (don't...)"
+          ],
+          [
+            " (Be with you)",
+            3,
+            "(sung EN)"
+          ]
+        ],
+        "en": [
+          [
+            "Don't drag me back",
+            2
+          ],
+          [
+            " to ",
+            1
+          ],
+          [
+            "that ",
+            1
+          ],
+          [
+            "far-off summer's",
+            0
+          ],
+          [
+            " ",
+            0
+          ],
+          [
+            "dizzy spell",
+            1
+          ],
+          [
+            " (Be with you)",
+            3
+          ]
+        ]
+      }
+    },
+    "58.89": "Again",
+    "62.82": "Maybe love, stray my heart",
+    "68.08": {
+      "en": "Wearing an innocent face",
+      "align": {
+        "jp": [
+          [
+            "なにくわぬ",
+            0
+          ],
+          [
+            "顔を",
+            1
+          ],
+          [
+            "して",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "なにくわぬ",
+            0,
+            "innocent/nonchalant (lit. 'as if knowing nothing', classical neg attr)"
+          ],
+          [
+            "顔",
+            1,
+            "face"
+          ],
+          [
+            "を",
+            1,
+            "direct object"
+          ],
+          [
+            "して",
+            2,
+            "do/wear (te-form, continuative)"
+          ]
+        ],
+        "en": [
+          [
+            "Wearing",
+            2
+          ],
+          [
+            " ",
+            2
+          ],
+          [
+            "an",
+            1
+          ],
+          [
+            " ",
+            1
+          ],
+          [
+            "innocent",
+            0
+          ],
+          [
+            " ",
+            0
+          ],
+          [
+            "face",
+            1
+          ]
+        ]
+      }
+    },
+    "71.78": {
+      "en": "you steal a kiss Don't go away",
+      "align": {
+        "jp": [
+          [
+            "キスを",
+            0
+          ],
+          [
+            "奪って",
+            1
+          ],
+          [
+            " Don't go away",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "キス",
+            0,
+            "kiss"
+          ],
+          [
+            "を",
+            0,
+            "direct object"
+          ],
+          [
+            "奪っ",
+            1,
+            "steal/snatch (te-form stem)"
+          ],
+          [
+            "て",
+            1,
+            "te-form (imperative in context)"
+          ],
+          [
+            " Don't go away",
+            2,
+            "(sung EN)"
+          ]
+        ],
+        "en": [
+          [
+            "you ",
+            1
+          ],
+          [
+            "steal",
+            1
+          ],
+          [
+            " ",
+            1
+          ],
+          [
+            "a kiss",
+            0
+          ],
+          [
+            " Don't go away",
+            2
+          ]
+        ]
+      }
+    },
+    "81.06": {
+      "en": "Just for now, I'll let myself lean in",
+      "align": {
+        "jp": [
+          [
+            "今だけは",
+            0
+          ],
+          [
+            "寄り添って",
+            1
+          ],
+          [
+            "あげるわ",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "今",
+            0,
+            "now"
+          ],
+          [
+            "だけ",
+            0,
+            "only (limiter)"
+          ],
+          [
+            "は",
+            0,
+            "topic/contrast"
+          ],
+          [
+            "寄り添っ",
+            1,
+            "draw close/nestle (te-form stem)"
+          ],
+          [
+            "て",
+            1,
+            "te-form (continuative)"
+          ],
+          [
+            "あげる",
+            2,
+            "benefactive 'do for you' (nonpast)"
+          ],
+          [
+            "わ",
+            2,
+            "sentence-final (feminine soft assertion)"
+          ]
+        ],
+        "en": [
+          [
+            "Just for now",
+            0
+          ],
+          [
+            ", ",
+            0
+          ],
+          [
+            "I'll let myself",
+            2
+          ],
+          [
+            " ",
+            2
+          ],
+          [
+            "lean in",
+            1
+          ]
+        ]
+      }
+    },
+    "89.43": {
+      "en": "Leaving warmth on my lips Close to you",
+      "align": {
+        "jp": [
+          [
+            "唇に",
+            0
+          ],
+          [
+            "ぬくもり ",
+            1
+          ],
+          [
+            "残して",
+            2
+          ],
+          [
+            " Close to you",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "唇",
+            0,
+            "lips"
+          ],
+          [
+            "に",
+            0,
+            "locative (on)"
+          ],
+          [
+            "ぬくもり",
+            1,
+            "warmth"
+          ],
+          [
+            " ",
+            1,
+            ""
+          ],
+          [
+            "残し",
+            2,
+            "leave (te-form stem)"
+          ],
+          [
+            "て",
+            2,
+            "te-form (continuative)"
+          ],
+          [
+            " Close to you",
+            3,
+            "(sung EN)"
+          ]
+        ],
+        "en": [
+          [
+            "Leaving",
+            2
+          ],
+          [
+            " ",
+            2
+          ],
+          [
+            "warmth",
+            1
+          ],
+          [
+            " on ",
+            0
+          ],
+          [
+            "my lips",
+            0
+          ],
+          [
+            " Close to you",
+            3
+          ]
+        ]
+      }
+    },
+    "103.23": {
+      "en": "A shrug of the shoulders, sliding off the hood",
+      "align": {
+        "jp": [
+          [
+            "肩すくめて ",
+            0
+          ],
+          [
+            "ボンネットから",
+            1
+          ],
+          [
+            "腰あげて",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "肩",
+            0,
+            "shoulder"
+          ],
+          [
+            "すくめ",
+            0,
+            "shrug/hunch (te-form stem)"
+          ],
+          [
+            "て",
+            0,
+            "te-form (continuative)"
+          ],
+          [
+            " ",
+            0,
+            ""
+          ],
+          [
+            "ボンネット",
+            1,
+            "car hood/bonnet"
+          ],
+          [
+            "から",
+            1,
+            "from (ablative)"
+          ],
+          [
+            "腰",
+            2,
+            "hip/waist"
+          ],
+          [
+            "あげ",
+            2,
+            "lift/raise (te-form stem)"
+          ],
+          [
+            "て",
+            2,
+            "te-form (continuative)"
+          ]
+        ],
+        "en": [
+          [
+            "A shrug of the shoulders",
+            0
+          ],
+          [
+            ", ",
+            0
+          ],
+          [
+            "sliding off",
+            2
+          ],
+          [
+            " ",
+            2
+          ],
+          [
+            "the hood",
+            1
+          ]
+        ]
+      }
+    },
+    "111.94": {
+      "en": "You talk too much, I'm getting bored",
+      "align": {
+        "jp": [
+          [
+            "喋りすぎよ ",
+            0
+          ],
+          [
+            "飽きてきたわ",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "喋り",
+            0,
+            "talk (stem)"
+          ],
+          [
+            "すぎ",
+            0,
+            "too-much (excess nominalizer)"
+          ],
+          [
+            "よ",
+            0,
+            "sentence-final (assertive)"
+          ],
+          [
+            " ",
+            0,
+            ""
+          ],
+          [
+            "飽き",
+            1,
+            "grow-tired (stem)"
+          ],
+          [
+            "て",
+            1,
+            "te-form"
+          ],
+          [
+            "き",
+            1,
+            "come (auxiliary: gradual change)"
+          ],
+          [
+            "た",
+            1,
+            "past"
+          ],
+          [
+            "わ",
+            1,
+            "sentence-final (feminine soft assertion)"
+          ]
+        ],
+        "en": [
+          [
+            "You talk too much",
+            0
+          ],
+          [
+            ", ",
+            0
+          ],
+          [
+            "I'm getting bored",
+            1
+          ]
+        ]
+      }
+    },
+    "115.97": "Stay the flashlight",
+    "120.45": {
+      "en": "Someone who resembles him (So look-alike)",
+      "align": {
+        "jp": [
+          [
+            "似た",
+            0
+          ],
+          [
+            "人",
+            1
+          ],
+          [
+            "みたい",
+            2
+          ],
+          [
+            " (So look-alike)",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "似",
+            0,
+            "resemble (ta-form stem)"
+          ],
+          [
+            "た",
+            0,
+            "past attributive"
+          ],
+          [
+            "人",
+            1,
+            "person"
+          ],
+          [
+            "みたい",
+            2,
+            "seems-like/resembles (simulative)"
+          ],
+          [
+            " (So look-alike)",
+            3,
+            "(sung EN)"
+          ]
+        ],
+        "en": [
+          [
+            "Someone",
+            1
+          ],
+          [
+            " ",
+            1
+          ],
+          [
+            "who resembles him",
+            0
+          ],
+          [
+            " (So look-alike)",
+            3
+          ]
+        ]
+      }
+    },
+    "123.9": {
+      "en": "A spell starting to unravel (Fade-in, fade-out)",
+      "align": {
+        "jp": [
+          [
+            "解けかけた",
+            0
+          ],
+          [
+            "魔法ね",
+            1
+          ],
+          [
+            " (Fade-in, fade-out)",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "解け",
+            0,
+            "come-undone (stem)"
+          ],
+          [
+            "かけ",
+            0,
+            "begin-to/about-to (auxiliary)"
+          ],
+          [
+            "た",
+            0,
+            "past attributive"
+          ],
+          [
+            "魔法",
+            1,
+            "magic/spell"
+          ],
+          [
+            "ね",
+            1,
+            "sentence-final (soft assertion)"
+          ],
+          [
+            " (Fade-in, fade-out)",
+            2,
+            "(sung EN)"
+          ]
+        ],
+        "en": [
+          [
+            "A spell",
+            1
+          ],
+          [
+            " ",
+            1
+          ],
+          [
+            "starting to unravel",
+            0
+          ],
+          [
+            " (Fade-in, fade-out)",
+            2
+          ]
+        ]
+      }
+    },
+    "128.49": {
+      "en": "I want to go back to that far-off summer's dizzy spell (Be with you)",
+      "align": {
+        "jp": [
+          [
+            "遠い夏の ",
+            0
+          ],
+          [
+            "あの眩暈に",
+            1
+          ],
+          [
+            "戻りたいの",
+            2
+          ],
+          [
+            " (Be with you)",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "遠い",
+            0,
+            "far/distant (i-adj)"
+          ],
+          [
+            "夏",
+            0,
+            "summer"
+          ],
+          [
+            "の",
+            0,
+            "genitive"
+          ],
+          [
+            " ",
+            0,
+            ""
+          ],
+          [
+            "あの",
+            1,
+            "that (distal demonstrative)"
+          ],
+          [
+            "眩暈",
+            1,
+            "dizziness/vertigo"
+          ],
+          [
+            "に",
+            1,
+            "allative (to/into)"
+          ],
+          [
+            "戻り",
+            2,
+            "return (stem)"
+          ],
+          [
+            "たい",
+            2,
+            "desiderative (want to)"
+          ],
+          [
+            "の",
+            2,
+            "sentence-final (explanatory/feminine)"
+          ],
+          [
+            " (Be with you)",
+            3,
+            "(sung EN)"
+          ]
+        ],
+        "en": [
+          [
+            "I want to go back",
+            2
+          ],
+          [
+            " to ",
+            1
+          ],
+          [
+            "that ",
+            1
+          ],
+          [
+            "far-off summer's",
+            0
+          ],
+          [
+            " ",
+            0
+          ],
+          [
+            "dizzy spell",
+            1
+          ],
+          [
+            " (Be with you)",
+            3
+          ]
+        ]
+      }
+    },
+    "137.23": "No more",
+    "141.46": "Maybe love, stray my heart",
+    "146.5": {
+      "en": "With a careless little gesture",
+      "align": {
+        "jp": [
+          [
+            "さりげない",
+            0
+          ],
+          [
+            "しぐさ",
+            1
+          ],
+          [
+            "して",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "さりげない",
+            0,
+            "casual/nonchalant (i-adj)"
+          ],
+          [
+            "しぐさ",
+            1,
+            "gesture/movement"
+          ],
+          [
+            "し",
+            2,
+            "do (stem)"
+          ],
+          [
+            "て",
+            2,
+            "te-form (continuative)"
+          ]
+        ],
+        "en": [
+          [
+            "With ",
+            2
+          ],
+          [
+            "a ",
+            1
+          ],
+          [
+            "careless little",
+            0
+          ],
+          [
+            " ",
+            0
+          ],
+          [
+            "gesture",
+            1
+          ]
+        ]
+      }
+    },
+    "150.17": {
+      "en": "I turn my lips from the kiss I go away",
+      "align": {
+        "jp": [
+          [
+            "キスを",
+            0
+          ],
+          [
+            "そらすわ",
+            1
+          ],
+          [
+            " I go away",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "キス",
+            0,
+            "kiss"
+          ],
+          [
+            "を",
+            0,
+            "direct object"
+          ],
+          [
+            "そらす",
+            1,
+            "turn-away/avert (nonpast)"
+          ],
+          [
+            "わ",
+            1,
+            "sentence-final (feminine soft assertion)"
+          ],
+          [
+            " I go away",
+            2,
+            "(sung EN)"
+          ]
+        ],
+        "en": [
+          [
+            "I turn my lips",
+            1
+          ],
+          [
+            " from ",
+            0
+          ],
+          [
+            "the kiss",
+            0
+          ],
+          [
+            " I go away",
+            2
+          ]
+        ]
+      }
+    },
+    "159.48": {
+      "en": "I've no patience for a passing shower",
+      "align": {
+        "jp": [
+          [
+            "夕立に",
+            0
+          ],
+          [
+            "付き合う",
+            1
+          ],
+          [
+            "気ないから",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "夕立",
+            0,
+            "evening-shower/sudden-rain"
+          ],
+          [
+            "に",
+            0,
+            "allative (with/to)"
+          ],
+          [
+            "付き合う",
+            1,
+            "go-along-with/keep-company (nonpast)"
+          ],
+          [
+            "気",
+            2,
+            "intention/inclination"
+          ],
+          [
+            "ない",
+            2,
+            "not-exist (neg of ある)"
+          ],
+          [
+            "から",
+            2,
+            "because (causal)"
+          ]
+        ],
+        "en": [
+          [
+            "I've no patience",
+            2
+          ],
+          [
+            " for ",
+            1
+          ],
+          [
+            "a passing shower",
+            0
+          ]
+        ]
+      }
+    },
+    "168.11": {
+      "en": "The onshore breeze crumbling, tossed on the waves Turnaround",
+      "align": {
+        "jp": [
+          [
+            "崩れてく",
+            0
+          ],
+          [
+            "オンショア ",
+            1
+          ],
+          [
+            "波のまにまに",
+            2
+          ],
+          [
+            " Turnaround",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "崩れ",
+            0,
+            "crumble/collapse (stem)"
+          ],
+          [
+            "て",
+            0,
+            "te-form"
+          ],
+          [
+            "く",
+            0,
+            "go (auxiliary: progressive motion, contracted いく)"
+          ],
+          [
+            "オンショア",
+            1,
+            "onshore (wind)"
+          ],
+          [
+            " ",
+            1,
+            ""
+          ],
+          [
+            "波",
+            2,
+            "wave"
+          ],
+          [
+            "の",
+            2,
+            "genitive"
+          ],
+          [
+            "まにまに",
+            2,
+            "at-the-mercy-of/tossed-by"
+          ],
+          [
+            " Turnaround",
+            3,
+            "(sung EN)"
+          ]
+        ],
+        "en": [
+          [
+            "The onshore breeze",
+            1
+          ],
+          [
+            " ",
+            1
+          ],
+          [
+            "crumbling",
+            0
+          ],
+          [
+            ", ",
+            0
+          ],
+          [
+            "tossed on the waves",
+            2
+          ],
+          [
+            " Turnaround",
+            3
+          ]
+        ]
+      }
+    },
+    "202.47": "Maybe love, stray my heart",
+    "207.7": {
+      "en": "All of it, a mirage",
+      "align": {
+        "jp": [
+          [
+            "何もかも ",
+            0
+          ],
+          [
+            "蜃気楼",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "何もかも",
+            0,
+            "everything/all-of-it"
+          ],
+          [
+            " ",
+            0,
+            ""
+          ],
+          [
+            "蜃気楼",
+            1,
+            "mirage"
+          ]
+        ],
+        "en": [
+          [
+            "All of it",
+            0
+          ],
+          [
+            ", ",
+            0
+          ],
+          [
+            "a mirage",
+            1
+          ]
+        ]
+      }
+    },
+    "211.25": {
+      "en": "A whim of the summer goddess",
+      "align": {
+        "jp": [
+          [
+            "夏の",
+            0
+          ],
+          [
+            "女神の ",
+            1
+          ],
+          [
+            "気まぐれね",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "夏",
+            0,
+            "summer"
+          ],
+          [
+            "の",
+            0,
+            "genitive"
+          ],
+          [
+            "女神",
+            1,
+            "goddess"
+          ],
+          [
+            "の",
+            1,
+            "genitive"
+          ],
+          [
+            " ",
+            1,
+            ""
+          ],
+          [
+            "気まぐれ",
+            2,
+            "whim/caprice"
+          ],
+          [
+            "ね",
+            2,
+            "sentence-final (soft assertion)"
+          ]
+        ],
+        "en": [
+          [
+            "A whim",
+            2
+          ],
+          [
+            " of ",
+            1
+          ],
+          [
+            "the",
+            1
+          ],
+          [
+            " ",
+            1
+          ],
+          [
+            "summer",
+            0
+          ],
+          [
+            " ",
+            0
+          ],
+          [
+            "goddess",
+            1
+          ]
+        ]
+      }
+    },
+    "220.64": {
+      "en": "\"Someday, again\" - I never say",
+      "align": {
+        "jp": [
+          [
+            "いつか",
+            0
+          ],
+          [
+            "また ",
+            1
+          ],
+          [
+            "だなんて",
+            2
+          ],
+          [
+            " I never say",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "いつか",
+            0,
+            "someday/sometime"
+          ],
+          [
+            "また",
+            1,
+            "again"
+          ],
+          [
+            " ",
+            1,
+            ""
+          ],
+          [
+            "だ",
+            2,
+            "copula"
+          ],
+          [
+            "なんて",
+            2,
+            "quotative-dismissive ('stuff like...')"
+          ],
+          [
+            " I never say",
+            3,
+            "(sung EN)"
+          ]
+        ],
+        "en": [
+          [
+            "\"",
+            0
+          ],
+          [
+            "Someday",
+            0
+          ],
+          [
+            ", ",
+            1
+          ],
+          [
+            "again",
+            1
+          ],
+          [
+            "\"",
+            2
+          ],
+          [
+            " - ",
+            2
+          ],
+          [
+            "I never say",
+            3
+          ]
+        ]
+      }
+    },
+    "229.35": {
+      "en": "Leaving my lips to tell the lie Turnaround",
+      "align": {
+        "jp": [
+          [
+            "唇に",
+            0
+          ],
+          [
+            "うらはら ",
+            1
+          ],
+          [
+            "残したままで",
+            2
+          ],
+          [
+            " Turnaround",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "唇",
+            0,
+            "lips"
+          ],
+          [
+            "に",
+            0,
+            "locative (on)"
+          ],
+          [
+            "うらはら",
+            1,
+            "contrary/opposite-of-intent"
+          ],
+          [
+            " ",
+            1,
+            ""
+          ],
+          [
+            "残し",
+            2,
+            "leave (stem)"
+          ],
+          [
+            "た",
+            2,
+            "past attributive"
+          ],
+          [
+            "まま",
+            2,
+            "state/as-is"
+          ],
+          [
+            "で",
+            2,
+            "instrumental/state-marker"
+          ],
+          [
+            " Turnaround",
+            3,
+            "(sung EN)"
+          ]
+        ],
+        "en": [
+          [
+            "Leaving",
+            2
+          ],
+          [
+            " ",
+            2
+          ],
+          [
+            "my lips",
+            0
+          ],
+          [
+            " to tell ",
+            2
+          ],
+          [
+            "the lie",
+            1
+          ],
+          [
+            " Turnaround",
+            3
+          ]
+        ]
+      }
+    }
+  }
+}
