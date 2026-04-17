@@ -40,10 +40,9 @@
     fontGloss:    '"Noto Sans JP", system-ui, sans-serif',
 
     // Palette — every hex pulled directly from an MV frame.
-    bgPinkLight:  '#FFEEF1',  // white square of the gingham
-    bgPinkMed:    '#F9C6CF',  // medium pink square
-    bgPinkDark:   '#E77B8E',  // darker gingham overlap (where stripes cross)
-    hatchPink:    'rgba(222, 82, 112, 0.22)',  // diagonal hatch inside pink squares
+    bgPinkLight:  '#FDE7EC',  // the white/cream squares of the gingham
+    bgPinkCoral:  '#FD6E8C',  // the saturated coral squares (checker-pattern tiles)
+    hatchPink:    '#D9385E',  // hatch lines inside the coral squares ONLY
 
     teal:         '#1F5A5B',  // burned-in kana color, main text, border
     tealDeep:     '#123D3E',  // shadow / deeper strokes
@@ -72,7 +71,8 @@
     // Card shape
     cardRadius:  '14px',
     cardPadding: '32px 44px 30px',
-    cardTilt:    '-1.4deg',
+    cardTilt:    '-0.8deg',  // Slight — the MV's main graphics are axis-aligned, but
+                             // washi-taped stickers naturally sit a touch off-axis.
 
     // chunkColors: 6 slots. All dark+saturated enough to sit legibly on the
     // pink gingham card. Drawn from the MV: teal (main), cherry red, deep
@@ -165,8 +165,7 @@
       --ko-cream:      ${THEME.cream};
       --ko-cream-edge: ${THEME.creamEdge};
       --ko-pink-lt:    ${THEME.bgPinkLight};
-      --ko-pink-md:    ${THEME.bgPinkMed};
-      --ko-pink-dk:    ${THEME.bgPinkDark};
+      --ko-pink-coral: ${THEME.bgPinkCoral};
       --ko-hatch:      ${THEME.hatchPink};
       --ko-hair:       ${THEME.hairBlue};
 
@@ -192,22 +191,15 @@
       align-items: center;
       gap: 12px;
       padding: ${THEME.cardPadding};
+      /* 2-tone gingham as a single SVG data URI. Two diagonally-placed
+         coral squares per 56px tile; hatch (via SVG <pattern>) is fill-
+         clipped to ONLY those squares — it doesn't leak into the cream
+         squares the way a full-card repeating-linear-gradient would.
+         Why SVG and not CSS gradients: CSS can't mask a repeating-linear-
+         gradient to a per-tile region cleanly. SVG <pattern>-as-fill does
+         it in one hop and reads as one image in the style inspector. */
       background:
-        repeating-linear-gradient(
-          45deg,
-          transparent 0, transparent 4px,
-          var(--ko-hatch) 4px, var(--ko-hatch) 6px
-        ),
-        linear-gradient(
-          to right,
-          transparent 0, transparent 50%,
-          rgba(231, 119, 140, 0.58) 50%, rgba(231, 119, 140, 0.58) 100%
-        ) 0 0 / 38px 38px repeat,
-        linear-gradient(
-          to bottom,
-          transparent 0, transparent 50%,
-          rgba(231, 119, 140, 0.58) 50%, rgba(231, 119, 140, 0.58) 100%
-        ) 0 0 / 38px 38px repeat,
+        url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='56' height='56'><defs><pattern id='h' patternUnits='userSpaceOnUse' width='6' height='6' patternTransform='rotate(45)'><line x1='0' y1='0' x2='0' y2='6' stroke='${THEME.hatchPink.replace('#','%23')}' stroke-width='2.2'/></pattern></defs><path d='M0 0h28v28H0zM28 28h28v28H28z' fill='${THEME.bgPinkCoral.replace('#','%23')}'/><path d='M0 0h28v28H0zM28 28h28v28H28z' fill='url(%23h)' opacity='.42'/></svg>") 0 0 / 56px 56px repeat,
         var(--ko-pink-lt);
       border: 3px solid var(--ko-cream);
       border-radius: ${THEME.cardRadius};
@@ -221,10 +213,10 @@
       overflow: visible;
     }
 
-    /* Empty-state collapse during instrumental gaps. */
+    /* Empty-state collapse during instrumental gaps — gentle settle, not fold. */
     #ko-lyrics .ko-slot:has(.ko-line-jp:empty):has(.ko-line-en:empty) {
       opacity: 0;
-      transform: rotate(${THEME.cardTilt}) scale(0.88);
+      transform: rotate(${THEME.cardTilt}) scale(0.94);
     }
 
     /* ==== CHERRY-STEM PROGRESS BAR — the signature ========================
@@ -234,8 +226,11 @@
     #ko-lyrics .ko-stem {
       position: absolute;
       top: -34px;
-      left: -8px;
-      right: -8px;
+      /* Inset from card edges so the stem doesn't draw over the corner
+         washi tapes. The branch reads as floating above the card rather
+         than wrapping around it. */
+      left: 30px;
+      right: 30px;
       height: 52px;
       pointer-events: none;
       z-index: 3;
@@ -250,69 +245,90 @@
     #ko-lyrics .ko-stem-path {
       fill: none;
       stroke: var(--ko-leaf);
-      stroke-width: 3.5;
+      stroke-width: 4.5;
       stroke-linecap: round;
-      filter: drop-shadow(0 1.5px 0 rgba(0, 0, 0, 0.12));
-    }
-    #ko-lyrics .ko-stem-leaf-1,
-    #ko-lyrics .ko-stem-leaf-2 {
-      fill: var(--ko-leaf);
-      filter: drop-shadow(0 1.5px 0 rgba(0, 0, 0, 0.12));
-    }
-    #ko-lyrics .ko-stem-leaf-hl {
-      fill: rgba(255, 255, 255, 0.45);
-      stroke: none;
+      /* Single soft offset shadow — if you add a second, the branch
+         visually doubles. 1px blur + 1px offset is subtle but reads. */
+      filter: drop-shadow(0 1px 1.5px rgba(30, 60, 30, 0.32));
     }
 
-    /* The cherry — rounded div. Left interpolated via --ko-progress, color
-       mixed between pale and ripe via --ko-ripe. */
+    /* The cherry pair — a Y-stemmed two-ball unit that travels along the
+       main branch. GPU-composited transform (NOT left) because:
+         - translateX is sub-pixel smooth on the compositor; left paints
+           at integer pixels, so at ~5 px/sec motion you'd see every pixel
+           step as a visible chop.
+         - transform doesn't trigger layout, only composite — cheap enough
+           to run over YouTube's heavy DOM.
+       Position var --ko-progress is written ~7×/sec (see tick); transition
+       duration matches the write interval so each animation chains into
+       the next instead of stalling mid-interpolation. */
     #ko-lyrics .ko-cherry {
       position: absolute;
-      top: 22px;
-      left: calc(8px + (100% - 46px) * var(--ko-progress));
-      width: 30px; height: 30px;
+      top: 10px;
+      left: 8px;
+      width: 60px; height: 54px;
+      transform: translateX(
+        calc((var(--ko-stem-w, 500px) - 76px) * var(--ko-progress))
+      );
+      transition: transform 160ms linear;
+      will-change: transform;
+      z-index: 4;
+      pointer-events: none;
+    }
+
+    /* SVG overlay inside the cherry: Y-branched stem + two leaves above
+       the apex. Uses viewBox with negative-y so leaves sit ABOVE the
+       container's top edge (drawn outside the box via overflow:visible). */
+    #ko-lyrics .ko-cherry-unit {
+      position: absolute;
+      inset: 0;
+      overflow: visible;
+      pointer-events: none;
+      filter: drop-shadow(0 1px 0 rgba(30, 60, 30, 0.22));
+    }
+    #ko-lyrics .ko-cherry-unit .ko-cy-stem {
+      fill: none;
+      stroke: var(--ko-leaf);
+      stroke-width: 2.8;
+      stroke-linecap: round;
+    }
+    #ko-lyrics .ko-cherry-unit .ko-cy-leaf {
+      fill: var(--ko-leaf);
+    }
+    #ko-lyrics .ko-cherry-unit .ko-cy-leaf-hl {
+      fill: none;
+      stroke: rgba(255, 255, 255, 0.55);
+      stroke-width: 1.1;
+      stroke-linecap: round;
+    }
+
+    /* The cherry balls — two round divs hanging from the Y-stems. Each
+       shares the same color-mix'd fill driven by --ko-ripe; their color
+       and drop-shadow transitions at 2s so the ripen reads as a slow
+       softening, not a step. */
+    #ko-lyrics .ko-cherry-ball {
+      position: absolute;
+      width: 24px; height: 24px;
       border-radius: 50%;
       background:
         radial-gradient(
           circle at 35% 30%,
-          rgba(255, 255, 255, 0.7) 0%,
-          rgba(255, 255, 255, 0) 28%
+          rgba(255, 255, 255, 0.72) 0%,
+          rgba(255, 255, 255, 0) 30%
         ),
         radial-gradient(
-          circle at 50% 50%,
+          circle at 50% 55%,
           color-mix(in oklab, ${THEME.cherryPale}, ${THEME.cherry} calc(var(--ko-ripe) * 100%)) 0%,
           color-mix(in oklab, ${THEME.cherryPale}, ${THEME.cherryDeep} calc(var(--ko-ripe) * 100%)) 100%
         );
       box-shadow:
         0 3px 0 0 color-mix(in oklab, ${THEME.cherryPale}, ${THEME.cherryDeep} calc(var(--ko-ripe) * 100%)),
-        0 6px 10px -4px rgba(40, 0, 10, 0.4),
+        0 5px 9px -3px rgba(40, 0, 10, 0.38),
         inset -2px -3px 4px rgba(120, 0, 20, 0.25);
       transition: background 2s linear, box-shadow 2s linear;
-      z-index: 4;
     }
-    /* Tiny stem connecting cherry-top to the main stem path. */
-    #ko-lyrics .ko-cherry::before {
-      content: '';
-      position: absolute;
-      top: -16px; left: 50%;
-      width: 2px; height: 18px;
-      background: var(--ko-leaf);
-      border-radius: 1px;
-      transform: translateX(-50%) rotate(-8deg);
-      transform-origin: bottom center;
-    }
-
-    /* Fixed leaf cluster (doesn't move with cherry — decorative, pinned to
-       the stem's highest arc point around 50% horizontal). */
-    #ko-lyrics .ko-leaves {
-      position: absolute;
-      top: 6px;
-      left: 46%;
-      width: 38px;
-      height: 22px;
-      pointer-events: none;
-      transform: rotate(-6deg);
-    }
+    #ko-lyrics .ko-cherry-ball.left  { left: 2px;  top: 24px; }
+    #ko-lyrics .ko-cherry-ball.right { left: 34px; top: 28px; }
 
     /* ==== WASHI TAPE CORNERS — red gingham strips ========================= */
     #ko-lyrics .ko-washi {
@@ -459,23 +475,6 @@
         bottom / 100% 1.5px no-repeat;
     }
 
-    /* ==== HEART CONFETTI — tiny cherry-red hearts at card edges ========== */
-    #ko-lyrics .ko-heart {
-      position: absolute;
-      width: 14px; height: 14px;
-      color: var(--ko-cherry);
-      font-family: sans-serif;
-      font-size: 18px;
-      line-height: 1;
-      text-align: center;
-      pointer-events: none;
-      opacity: 0.88;
-      z-index: 2;
-      text-shadow: 0 1px 0 rgba(255,255,255,0.8);
-    }
-    #ko-lyrics .ko-heart.h1 { bottom: -8px; left: 38%;  transform: rotate(-14deg); }
-    #ko-lyrics .ko-heart.h2 { top: 38%;     right: -14px; transform: rotate(18deg); }
-    #ko-lyrics .ko-heart.h3 { top: 58%;     left: -14px;  transform: rotate(-10deg); }
   `;
   document.head.appendChild(style);
 
@@ -495,33 +494,36 @@
             vector-effect="non-scaling-stroke"/>
     </svg>`;
 
-  // Decorative leaves pinned near the stem's peak.
-  const leavesSvg = `
-    <svg class="ko-leaves" viewBox="0 0 40 24">
-      <path class="ko-stem-leaf-1" d="M 4 14 Q 12 2, 20 6 Q 14 14, 4 14 Z"/>
-      <path class="ko-stem-leaf-hl" d="M 8 12 Q 13 6, 18 7"
-            fill="none" stroke="rgba(255,255,255,0.55)" stroke-width="1.2"/>
-      <path class="ko-stem-leaf-2" d="M 20 18 Q 30 10, 38 16 Q 30 22, 20 18 Z"/>
-      <path class="ko-stem-leaf-hl" d="M 23 17 Q 29 13, 34 15"
-            fill="none" stroke="rgba(255,255,255,0.55)" stroke-width="1.2"/>
+  // Cherry-pair SVG: Y-branched stem meeting at apex (30,0), two leaves
+  // sit above the apex, two cherry balls hang at the branch tips. The
+  // viewBox extends into negative-y so leaves can draw ABOVE the
+  // container (overflow: visible on .ko-cherry-unit).
+  const cherryUnit = `
+    <svg class="ko-cherry-unit" viewBox="0 -16 60 70">
+      <path class="ko-cy-leaf" d="M 18 -14 Q 28 -20, 34 -12 Q 28 -4, 18 -14 Z"/>
+      <path class="ko-cy-leaf-hl" d="M 22 -12 Q 28 -17, 32 -13"/>
+      <path class="ko-cy-leaf" d="M 30 -10 Q 40 -15, 46 -8 Q 40 -2, 30 -10 Z"/>
+      <path class="ko-cy-leaf-hl" d="M 33 -9 Q 40 -13, 43 -10"/>
+      <path class="ko-cy-stem"    d="M 30 -4 C 28 6, 20 12, 14 22"/>
+      <path class="ko-cy-stem"    d="M 30 -4 C 32 8, 38 14, 46 24"/>
     </svg>`;
 
   const lyrics = document.createElement('div');
   lyrics.id = 'ko-lyrics';
   setHTML(lyrics, `
     <div class="ko-slot" id="ko-slot">
-      <div class="ko-stem">
+      <div class="ko-stem" id="ko-stem">
         ${stemSvg}
-        ${leavesSvg}
-        <div class="ko-cherry" id="ko-cherry"></div>
+        <div class="ko-cherry" id="ko-cherry">
+          ${cherryUnit}
+          <div class="ko-cherry-ball left"></div>
+          <div class="ko-cherry-ball right"></div>
+        </div>
       </div>
       <div class="ko-washi tl"></div>
       <div class="ko-washi br"></div>
       <div class="ko-tag">${escHTML(THEME.trackTag)}</div>
       <div class="ko-credit">${escHTML(THEME.artistTag)}</div>
-      <div class="ko-heart h1">&hearts;</div>
-      <div class="ko-heart h2">&hearts;</div>
-      <div class="ko-heart h3">&hearts;</div>
       <div class="ko-line-jp" id="ko-line-jp"></div>
       <div class="ko-line-en" id="ko-line-en"></div>
     </div>
@@ -568,10 +570,11 @@
   let curLineIdx = -1;
   let lastLyricsPos = '';
   let lastEnText = '', lastJpText = '';
-  let lastRipeQ = -1;
-  let lastProgQ = -1;
+  let lastProgWriteAt = 0;  // ms timestamp of last --ko-progress/--ko-ripe write
 
   // --- Position tick: re-anchor the lyric zone to the video rect ---
+  // Also writes --ko-stem-w in pixels so the cherry's transform math knows
+  // how far to travel. Updated only when video rect changes.
   const positionTick = () => {
     if (window.__koGen !== MY_GEN) return;
     const v = document.querySelector('video');
@@ -582,10 +585,13 @@
     const posKey = `${r.left}|${r.top}|${r.width}|${r.height}|${p.anchorX}|${p.anchorY}|${p.widthFrac}`;
     if (posKey !== lastLyricsPos) {
       lastLyricsPos = posKey;
+      const cardW = r.width * p.widthFrac;
       lyrics.style.left     = (r.left + r.width * p.anchorX) + 'px';
       lyrics.style.top      = (r.top  + r.height * p.anchorY) + 'px';
-      lyrics.style.width    = (r.width * p.widthFrac) + 'px';
-      lyrics.style.maxWidth = (r.width * p.widthFrac) + 'px';
+      lyrics.style.width    = cardW + 'px';
+      lyrics.style.maxWidth = cardW + 'px';
+      // .ko-stem is inset 30px/30px inside the card; its width = cardW - 60
+      lyrics.style.setProperty('--ko-stem-w', (cardW - 60) + 'px');
     }
     setTimeout(positionTick, 250);
   };
@@ -624,25 +630,22 @@
       if (jpEl) jpEl.classList.toggle('hidden',  !song || song.lang === 'en');
     }
 
-    // ---- Cherry progress update (guarded) ----
-    // RAF-fine quantization (~10000 steps) so the cherry slides smoothly
-    // between frames; the guard just kills duplicate writes while paused.
-    // No `left` transition on .ko-cherry — the CSS engine re-layouts every
-    // frame off the --ko-progress var, which is what makes it smooth.
+    // ---- Cherry progress update (rate-limited) ----
+    // Write at most every PROG_WRITE_MS. The CSS matches that cadence with
+    // `transition: transform 160ms linear` on .ko-cherry, so each write's
+    // transition chains seamlessly into the next one — visually continuous
+    // motion with only ~7 writes/sec. Running this at RAF rate is wasteful
+    // (the cherry moves ~5 px/sec; per-frame precision is invisible).
     if (song && songDur > 0) {
-      const progFrac = Math.max(0, Math.min(1, inSong / songDur));
-      // Ripening ramp: stays pale for the first ~12% (intro), fully ripe
-      // by ~92% (gives the cherry a moment to sit full-red at the end).
-      const ripe = Math.max(0, Math.min(1, (progFrac - 0.12) / 0.80));
-      const pQ = Math.round(progFrac * 10000);
-      const rQ = Math.round(ripe * 10000);
-      if (pQ !== lastProgQ) {
-        lastProgQ = pQ;
-        lyrics.style.setProperty('--ko-progress', progFrac.toFixed(5));
-      }
-      if (rQ !== lastRipeQ) {
-        lastRipeQ = rQ;
-        lyrics.style.setProperty('--ko-ripe', ripe.toFixed(5));
+      const now = performance.now();
+      if (now - lastProgWriteAt >= 140) {
+        lastProgWriteAt = now;
+        const progFrac = Math.max(0, Math.min(1, inSong / songDur));
+        // Ripening ramp: pale for the first ~12% (intro), fully ripe by
+        // ~92% (gives the cherry a moment to sit at full-red at the end).
+        const ripe = Math.max(0, Math.min(1, (progFrac - 0.12) / 0.80));
+        lyrics.style.setProperty('--ko-progress', progFrac.toFixed(4));
+        lyrics.style.setProperty('--ko-ripe',     ripe.toFixed(4));
       }
     }
 
