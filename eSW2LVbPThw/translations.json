@@ -1,0 +1,5143 @@
+{
+  "20684690": {
+    "1.72": {
+      "en": "Gonna play pure-and-innocent all the way to your grave?",
+      "align": {
+        "jp": [
+          [
+            "死ぬまで",
+            0
+          ],
+          [
+            "ピュアピュア",
+            1
+          ],
+          [
+            "やってんのん？",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "死ぬ",
+            0,
+            "die"
+          ],
+          [
+            "まで",
+            0,
+            "until"
+          ],
+          [
+            "ピュアピュア",
+            1,
+            "pure-pure"
+          ],
+          [
+            "やって",
+            2,
+            "doing-te"
+          ],
+          [
+            "ん",
+            2,
+            "(explan)"
+          ],
+          [
+            "のん",
+            2,
+            "(q-soft)"
+          ],
+          [
+            "？",
+            2,
+            "?"
+          ]
+        ],
+        "en": [
+          [
+            "Gonna play ",
+            2
+          ],
+          [
+            "pure-and-innocent ",
+            1
+          ],
+          [
+            "all the way to your grave?",
+            0
+          ]
+        ]
+      }
+    },
+    "3.52": "Love, bluh bluh bluh bluh bluh bluh bluh",
+    "6.08": "Love, bluh bluh bluh bluh bluh bluh bluh",
+    "8.99": "Love, bluh bluh bluh bluh bluh bluh bluh",
+    "11.60": "Love, bluh bluh bluh bluh bluh bluh bluh",
+    "14.33": {
+      "en": "Love and super-like, no partition between 'em, nope, none",
+      "align": {
+        "jp": [
+          [
+            "ラブと",
+            0
+          ],
+          [
+            "超ライク",
+            1
+          ],
+          [
+            "パーティションは",
+            2
+          ],
+          [
+            "ない、ない",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "ラブ",
+            0,
+            "love"
+          ],
+          [
+            "と",
+            0,
+            "and"
+          ],
+          [
+            "超",
+            1,
+            "super"
+          ],
+          [
+            "ライク",
+            1,
+            "like"
+          ],
+          [
+            "パーティション",
+            2,
+            "partition"
+          ],
+          [
+            "は",
+            2,
+            "(topic)"
+          ],
+          [
+            "ない",
+            3,
+            "not-exist"
+          ],
+          [
+            "、",
+            3,
+            "、"
+          ],
+          [
+            "ない",
+            3,
+            "not-exist"
+          ]
+        ],
+        "en": [
+          [
+            "Love and ",
+            0
+          ],
+          [
+            "super-like, ",
+            1
+          ],
+          [
+            "no ",
+            3
+          ],
+          [
+            "partition ",
+            2
+          ],
+          [
+            "between 'em, ",
+            0
+          ],
+          [
+            "nope, none",
+            3
+          ]
+        ]
+      }
+    },
+    "17.56": {
+      "en": "You're not the only one who's special",
+      "align": {
+        "jp": [
+          [
+            "きみだけが",
+            0
+          ],
+          [
+            "特別じゃない",
+            1
+          ],
+          [
+            "んだ",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "きみ",
+            0,
+            "you"
+          ],
+          [
+            "だけ",
+            0,
+            "only"
+          ],
+          [
+            "が",
+            0,
+            "(subj)"
+          ],
+          [
+            "特別",
+            1,
+            "special"
+          ],
+          [
+            "じゃない",
+            1,
+            "is-not"
+          ],
+          [
+            "んだ",
+            2,
+            "(explan)"
+          ]
+        ],
+        "en": [
+          [
+            "You're not ",
+            1
+          ],
+          [
+            "the only one ",
+            0
+          ],
+          [
+            "who's special",
+            2
+          ]
+        ]
+      }
+    },
+    "20.16": {
+      "en": "Even if you want remorse out of me,",
+      "align": {
+        "jp": [
+          [
+            "反省とか",
+            0
+          ],
+          [
+            "あたしに",
+            1
+          ],
+          [
+            "求められても",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "反省",
+            0,
+            "remorse"
+          ],
+          [
+            "とか",
+            0,
+            "(or-things-like)"
+          ],
+          [
+            "あたし",
+            1,
+            "me"
+          ],
+          [
+            "に",
+            1,
+            "(from/to)"
+          ],
+          [
+            "求められ",
+            2,
+            "be-asked-for"
+          ],
+          [
+            "て",
+            2,
+            "-te"
+          ],
+          [
+            "も",
+            2,
+            "even"
+          ]
+        ],
+        "en": [
+          [
+            "Even if you want ",
+            2
+          ],
+          [
+            "remorse ",
+            0
+          ],
+          [
+            "out of me,",
+            1
+          ]
+        ]
+      }
+    },
+    "23.19": {
+      "en": "don't actually get all messed up or get the wrong idea, 'kay? 'kay? 'kay?",
+      "align": {
+        "jp": [
+          [
+            "ほんと",
+            0
+          ],
+          [
+            "病んだり",
+            1
+          ],
+          [
+            "勘違いしないで",
+            2
+          ],
+          [
+            "で？で？で？",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "ほんと",
+            0,
+            "really"
+          ],
+          [
+            "病ん",
+            1,
+            "get-sick"
+          ],
+          [
+            "だり",
+            1,
+            "(listing)"
+          ],
+          [
+            "勘違い",
+            2,
+            "misunderstanding"
+          ],
+          [
+            "し",
+            2,
+            "do"
+          ],
+          [
+            "ないで",
+            2,
+            "(neg-imp)"
+          ],
+          [
+            "で",
+            3,
+            "(filler)"
+          ],
+          [
+            "？",
+            3,
+            "?"
+          ],
+          [
+            "で",
+            3,
+            "(filler)"
+          ],
+          [
+            "？",
+            3,
+            "?"
+          ],
+          [
+            "で",
+            3,
+            "(filler)"
+          ],
+          [
+            "？",
+            3,
+            "?"
+          ]
+        ],
+        "en": [
+          [
+            "don't ",
+            2
+          ],
+          [
+            "actually ",
+            0
+          ],
+          [
+            "get all messed up ",
+            1
+          ],
+          [
+            "or get the wrong idea, ",
+            2
+          ],
+          [
+            "'kay? 'kay? 'kay?",
+            3
+          ]
+        ]
+      }
+    },
+    "26.92": {
+      "en": "How come, why'd you forget to lock the door on your expectations? (parira)",
+      "align": {
+        "jp": [
+          [
+            "どうしてなんで",
+            0
+          ],
+          [
+            "期待の",
+            1
+          ],
+          [
+            "戸締まり",
+            2
+          ],
+          [
+            "忘れるの？",
+            3
+          ],
+          [
+            "（パリラ）",
+            4
+          ]
+        ],
+        "gloss": [
+          [
+            "どうして",
+            0,
+            "why"
+          ],
+          [
+            "なんで",
+            0,
+            "how-come"
+          ],
+          [
+            "期待",
+            1,
+            "expectation"
+          ],
+          [
+            "の",
+            1,
+            "(attrib)"
+          ],
+          [
+            "戸締まり",
+            2,
+            "door-locking"
+          ],
+          [
+            "忘れる",
+            3,
+            "forget"
+          ],
+          [
+            "の",
+            3,
+            "(explan)"
+          ],
+          [
+            "？",
+            3,
+            "?"
+          ],
+          [
+            "（",
+            4,
+            "("
+          ],
+          [
+            "パリラ",
+            4,
+            "(parira)"
+          ],
+          [
+            "）",
+            4,
+            ")"
+          ]
+        ],
+        "en": [
+          [
+            "How come, why'd you ",
+            0
+          ],
+          [
+            "forget to ",
+            3
+          ],
+          [
+            "lock the door ",
+            2
+          ],
+          [
+            "on your expectations? ",
+            1
+          ],
+          [
+            "(parira)",
+            4
+          ]
+        ]
+      }
+    },
+    "29.78": {
+      "en": "I told you from the start, just don't, didn't I? (parira)",
+      "align": {
+        "jp": [
+          [
+            "最初に",
+            0
+          ],
+          [
+            "あれほど",
+            1
+          ],
+          [
+            "やめときなって",
+            2
+          ],
+          [
+            "伝えたじゃん",
+            3
+          ],
+          [
+            "（パリラ）",
+            4
+          ]
+        ],
+        "gloss": [
+          [
+            "最初",
+            0,
+            "start"
+          ],
+          [
+            "に",
+            0,
+            "(at)"
+          ],
+          [
+            "あれほど",
+            1,
+            "that-much"
+          ],
+          [
+            "やめとき",
+            2,
+            "stop-ahead"
+          ],
+          [
+            "な",
+            2,
+            "(imp)"
+          ],
+          [
+            "って",
+            2,
+            "(quot)"
+          ],
+          [
+            "伝え",
+            3,
+            "tell"
+          ],
+          [
+            "た",
+            3,
+            "(past)"
+          ],
+          [
+            "じゃん",
+            3,
+            "didn't-I"
+          ],
+          [
+            "（",
+            4,
+            "("
+          ],
+          [
+            "パリラ",
+            4,
+            "(parira)"
+          ],
+          [
+            "）",
+            4,
+            ")"
+          ]
+        ],
+        "en": [
+          [
+            "I told you ",
+            3
+          ],
+          [
+            "from the start, ",
+            0
+          ],
+          [
+            "just don't, ",
+            2
+          ],
+          [
+            "didn't I? ",
+            3
+          ],
+          [
+            "(parira)",
+            4
+          ]
+        ]
+      }
+    },
+    "32.48": {
+      "en": "Your Pure Highness, the exit's that way,",
+      "align": {
+        "jp": [
+          [
+            "お純情様、",
+            0
+          ],
+          [
+            "あちらが",
+            1
+          ],
+          [
+            "出口",
+            2
+          ],
+          [
+            "ですが",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "お",
+            0,
+            "(polite)"
+          ],
+          [
+            "純情",
+            0,
+            "pure-heart"
+          ],
+          [
+            "様",
+            0,
+            "(hon)"
+          ],
+          [
+            "、",
+            0,
+            ","
+          ],
+          [
+            "あちら",
+            1,
+            "that-way"
+          ],
+          [
+            "が",
+            1,
+            "(subj)"
+          ],
+          [
+            "出口",
+            2,
+            "exit"
+          ],
+          [
+            "です",
+            3,
+            "is"
+          ],
+          [
+            "が",
+            3,
+            "but"
+          ]
+        ],
+        "en": [
+          [
+            "Your Pure Highness, ",
+            0
+          ],
+          [
+            "the exit's ",
+            2
+          ],
+          [
+            "that way,",
+            1
+          ]
+        ]
+      }
+    },
+    "35.67": {
+      "en": "but you don't wanna go home, do you?",
+      "align": {
+        "jp": [
+          [
+            "やっぱ",
+            0
+          ],
+          [
+            "帰りたくない ",
+            1
+          ],
+          [
+            "ですか？",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "やっぱ",
+            0,
+            "as-expected"
+          ],
+          [
+            "帰り",
+            1,
+            "return"
+          ],
+          [
+            "たく",
+            1,
+            "want-adj"
+          ],
+          [
+            "ない",
+            1,
+            "(neg)"
+          ],
+          [
+            " ",
+            1,
+            " "
+          ],
+          [
+            "です",
+            2,
+            "is"
+          ],
+          [
+            "か",
+            2,
+            "(q)"
+          ],
+          [
+            "？",
+            2,
+            "?"
+          ]
+        ],
+        "en": [
+          [
+            "but ",
+            0
+          ],
+          [
+            "you don't wanna go home",
+            1
+          ],
+          [
+            ", do you?",
+            2
+          ]
+        ]
+      }
+    },
+    "38.23": {
+      "en": "Hop, step, ooh, one more chance!",
+      "align": {
+        "jp": [
+          [
+            "ホップステップ",
+            0
+          ],
+          [
+            " う〜、",
+            1
+          ],
+          [
+            "ワンモアチャンス！",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "ホップ",
+            0,
+            "hop"
+          ],
+          [
+            "ステップ",
+            0,
+            "step"
+          ],
+          [
+            " ",
+            1,
+            " "
+          ],
+          [
+            "う〜",
+            1,
+            "ooh"
+          ],
+          [
+            "、",
+            1,
+            ","
+          ],
+          [
+            "ワンモアチャンス",
+            2,
+            "one-more-chance"
+          ],
+          [
+            "！",
+            2,
+            "!"
+          ]
+        ],
+        "en": [
+          [
+            "Hop, step, ",
+            0
+          ],
+          [
+            "ooh, ",
+            1
+          ],
+          [
+            "one more chance!",
+            2
+          ]
+        ]
+      }
+    },
+    "40.63": {
+      "en": "Just go show off and dive down the rabbit hole, why don't you",
+      "align": {
+        "jp": [
+          [
+            "もうやっぱ",
+            0
+          ],
+          [
+            "アピって",
+            1
+          ],
+          [
+            "ラビったら",
+            2
+          ],
+          [
+            "いいじゃん",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "もう",
+            0,
+            "already"
+          ],
+          [
+            "やっぱ",
+            0,
+            "as-expected"
+          ],
+          [
+            "アピ",
+            1,
+            "show-off"
+          ],
+          [
+            "って",
+            1,
+            "-te"
+          ],
+          [
+            "ラビ",
+            2,
+            "go-rabbit-hole"
+          ],
+          [
+            "ったら",
+            2,
+            "(if/when)"
+          ],
+          [
+            "いい",
+            3,
+            "is-fine"
+          ],
+          [
+            "じゃん",
+            3,
+            "(right?)"
+          ]
+        ],
+        "en": [
+          [
+            "Just ",
+            0
+          ],
+          [
+            "go ",
+            3
+          ],
+          [
+            "show off ",
+            1
+          ],
+          [
+            "and dive down the rabbit hole, ",
+            2
+          ],
+          [
+            "why don't you",
+            3
+          ]
+        ]
+      }
+    },
+    "42.14": {
+      "en": "Pop-style caresses, sing 'em out loud, why don't you",
+      "align": {
+        "jp": [
+          [
+            "POPな",
+            0
+          ],
+          [
+            "愛撫 ",
+            1
+          ],
+          [
+            "謳ったら",
+            2
+          ],
+          [
+            "いいじゃん",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "POP",
+            0,
+            "pop"
+          ],
+          [
+            "な",
+            0,
+            "(na-adj)"
+          ],
+          [
+            "愛撫",
+            1,
+            "caresses"
+          ],
+          [
+            " ",
+            1,
+            " "
+          ],
+          [
+            "謳っ",
+            2,
+            "sing-out"
+          ],
+          [
+            "たら",
+            2,
+            "(if/when)"
+          ],
+          [
+            "いい",
+            3,
+            "is-fine"
+          ],
+          [
+            "じゃん",
+            3,
+            "(right?)"
+          ]
+        ],
+        "en": [
+          [
+            "Pop-style ",
+            0
+          ],
+          [
+            "caresses, ",
+            1
+          ],
+          [
+            "sing ",
+            3
+          ],
+          [
+            "'em out loud, ",
+            2
+          ],
+          [
+            "why don't you",
+            3
+          ]
+        ]
+      }
+    },
+    "43.67": {
+      "en": "It's pathetic, so put the jealousy away",
+      "align": {
+        "jp": [
+          [
+            "みっともない",
+            0
+          ],
+          [
+            "から",
+            1
+          ],
+          [
+            "嫉妬",
+            2
+          ],
+          [
+            "仕舞いな",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "みっともない",
+            0,
+            "pathetic"
+          ],
+          [
+            "から",
+            1,
+            "because"
+          ],
+          [
+            "嫉妬",
+            2,
+            "jealousy"
+          ],
+          [
+            "仕舞い",
+            3,
+            "put-away"
+          ],
+          [
+            "な",
+            3,
+            "(imp)"
+          ]
+        ],
+        "en": [
+          [
+            "It's pathetic",
+            0
+          ],
+          [
+            ", so ",
+            1
+          ],
+          [
+            "put ",
+            3
+          ],
+          [
+            "the jealousy ",
+            2
+          ],
+          [
+            "away",
+            3
+          ]
+        ]
+      }
+    },
+    "44.95": {
+      "en": "Catching fire over it? God, that's so fuckin' lame",
+      "align": {
+        "jp": [
+          [
+            "発火しちゃうとか",
+            0
+          ],
+          [
+            "くっそ",
+            1
+          ],
+          [
+            "だせえ",
+            2
+          ],
+          [
+            "な",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "発火",
+            0,
+            "combustion"
+          ],
+          [
+            "し",
+            0,
+            "do"
+          ],
+          [
+            "ちゃう",
+            0,
+            "(end up)"
+          ],
+          [
+            "とか",
+            0,
+            "(or-like)"
+          ],
+          [
+            "くっそ",
+            1,
+            "fuckin'"
+          ],
+          [
+            "だせえ",
+            2,
+            "lame"
+          ],
+          [
+            "な",
+            3,
+            "(emph)"
+          ]
+        ],
+        "en": [
+          [
+            "Catching fire over it? ",
+            0
+          ],
+          [
+            "God, that's ",
+            3
+          ],
+          [
+            "so ",
+            1
+          ],
+          [
+            "fuckin' ",
+            1
+          ],
+          [
+            "lame",
+            2
+          ]
+        ]
+      }
+    },
+    "46.39": {
+      "en": "When you get lonely, anyone'll do, right?",
+      "align": {
+        "jp": [
+          [
+            "淋しくなったら",
+            0
+          ],
+          [
+            "誰でも",
+            1
+          ],
+          [
+            "いいじゃん",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "淋しく",
+            0,
+            "lonely-adv"
+          ],
+          [
+            "なっ",
+            0,
+            "become"
+          ],
+          [
+            "たら",
+            0,
+            "(when/if)"
+          ],
+          [
+            "誰",
+            1,
+            "anyone"
+          ],
+          [
+            "でも",
+            1,
+            "(even)"
+          ],
+          [
+            "いい",
+            2,
+            "is-fine"
+          ],
+          [
+            "じゃん",
+            2,
+            "(right?)"
+          ]
+        ],
+        "en": [
+          [
+            "When you get lonely, ",
+            0
+          ],
+          [
+            "anyone",
+            1
+          ],
+          [
+            "'ll do",
+            2
+          ],
+          [
+            ", right?",
+            2
+          ]
+        ]
+      }
+    },
+    "47.78": {
+      "en": "Just fill the void, just fill the void",
+      "align": {
+        "jp": [
+          [
+            "埋まれば",
+            0
+          ],
+          [
+            "いいじゃん ",
+            1
+          ],
+          [
+            "埋まれば",
+            0
+          ],
+          [
+            "いいじゃん",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "埋まれ",
+            0,
+            "if-fills-in"
+          ],
+          [
+            "ば",
+            0,
+            "(cond)"
+          ],
+          [
+            "いい",
+            1,
+            "is-fine"
+          ],
+          [
+            "じゃん",
+            1,
+            "(right?)"
+          ],
+          [
+            " ",
+            1,
+            " "
+          ],
+          [
+            "埋まれ",
+            0,
+            "if-fills-in"
+          ],
+          [
+            "ば",
+            0,
+            "(cond)"
+          ],
+          [
+            "いい",
+            1,
+            "is-fine"
+          ],
+          [
+            "じゃん",
+            1,
+            "(right?)"
+          ]
+        ],
+        "en": [
+          [
+            "Just ",
+            1
+          ],
+          [
+            "fill the void",
+            0
+          ],
+          [
+            ", just ",
+            1
+          ],
+          [
+            "fill the void",
+            0
+          ]
+        ]
+      }
+    },
+    "49.13": {
+      "en": "Hating it, I wanna love and live — gonna play pure-pure 'til you die?",
+      "align": {
+        "jp": [
+          [
+            "嫌嫌",
+            0
+          ],
+          [
+            "愛して",
+            1
+          ],
+          [
+            "生きたくなって ",
+            2
+          ],
+          [
+            "死ぬまで",
+            3
+          ],
+          [
+            "ピュアピュアやってんのん？",
+            4
+          ]
+        ],
+        "gloss": [
+          [
+            "嫌嫌",
+            0,
+            "reluctantly(dislike)"
+          ],
+          [
+            "愛し",
+            1,
+            "love"
+          ],
+          [
+            "て",
+            1,
+            "-te"
+          ],
+          [
+            "生き",
+            2,
+            "live"
+          ],
+          [
+            "たく",
+            2,
+            "want-adj"
+          ],
+          [
+            "なっ",
+            2,
+            "become"
+          ],
+          [
+            "て",
+            2,
+            "-te"
+          ],
+          [
+            " ",
+            2,
+            " "
+          ],
+          [
+            "死ぬ",
+            3,
+            "die"
+          ],
+          [
+            "まで",
+            3,
+            "until"
+          ],
+          [
+            "ピュアピュア",
+            4,
+            "pure-pure"
+          ],
+          [
+            "やって",
+            4,
+            "doing-te"
+          ],
+          [
+            "ん",
+            4,
+            "(explan)"
+          ],
+          [
+            "のん",
+            4,
+            "(q-soft)"
+          ],
+          [
+            "？",
+            4,
+            "?"
+          ]
+        ],
+        "en": [
+          [
+            "Hating it, ",
+            0
+          ],
+          [
+            "I wanna love ",
+            1
+          ],
+          [
+            "and live ",
+            2
+          ],
+          [
+            "— gonna play pure-pure ",
+            4
+          ],
+          [
+            "'til you die?",
+            3
+          ]
+        ]
+      }
+    },
+    "51.76": {
+      "en": "Just go show off and dive down the rabbit hole, why don't you",
+      "align": {
+        "jp": [
+          [
+            "やっぱ",
+            0
+          ],
+          [
+            "アピって",
+            1
+          ],
+          [
+            "ラビったら",
+            2
+          ],
+          [
+            "いいじゃん",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "やっぱ",
+            0,
+            "as-expected"
+          ],
+          [
+            "アピ",
+            1,
+            "show-off"
+          ],
+          [
+            "って",
+            1,
+            "-te"
+          ],
+          [
+            "ラビ",
+            2,
+            "go-rabbit-hole"
+          ],
+          [
+            "ったら",
+            2,
+            "(if/when)"
+          ],
+          [
+            "いい",
+            3,
+            "is-fine"
+          ],
+          [
+            "じゃん",
+            3,
+            "(right?)"
+          ]
+        ],
+        "en": [
+          [
+            "Just ",
+            0
+          ],
+          [
+            "go ",
+            3
+          ],
+          [
+            "show off ",
+            1
+          ],
+          [
+            "and dive down the rabbit hole, ",
+            2
+          ],
+          [
+            "why don't you",
+            3
+          ]
+        ]
+      }
+    },
+    "53.30": {
+      "en": "Bad dance, get all swollen-sick with it, why don't you",
+      "align": {
+        "jp": [
+          [
+            "BADな",
+            0
+          ],
+          [
+            "ダンス ",
+            1
+          ],
+          [
+            "腫魔ったら",
+            2
+          ],
+          [
+            "いいじゃん",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "BAD",
+            0,
+            "bad"
+          ],
+          [
+            "な",
+            0,
+            "(na-adj)"
+          ],
+          [
+            "ダンス",
+            1,
+            "dance"
+          ],
+          [
+            " ",
+            1,
+            " "
+          ],
+          [
+            "腫魔っ",
+            2,
+            "get-swollen-cursed"
+          ],
+          [
+            "たら",
+            2,
+            "(if/when)"
+          ],
+          [
+            "いい",
+            3,
+            "is-fine"
+          ],
+          [
+            "じゃん",
+            3,
+            "(right?)"
+          ]
+        ],
+        "en": [
+          [
+            "Bad ",
+            0
+          ],
+          [
+            "dance, ",
+            1
+          ],
+          [
+            "get ",
+            3
+          ],
+          [
+            "all swollen-sick with it, ",
+            2
+          ],
+          [
+            "why don't you",
+            3
+          ]
+        ]
+      }
+    },
+    "54.87": {
+      "en": "Honestly, this 'love' shit, I can't do it anymore",
+      "align": {
+        "jp": [
+          [
+            "やっぱり",
+            0
+          ],
+          [
+            "好きとか",
+            1
+          ],
+          [
+            "やってられん",
+            2
+          ],
+          [
+            "わ",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "やっぱり",
+            0,
+            "honestly"
+          ],
+          [
+            "好き",
+            1,
+            "like/love"
+          ],
+          [
+            "とか",
+            1,
+            "(or-like)"
+          ],
+          [
+            "やって",
+            2,
+            "do-te"
+          ],
+          [
+            "られ",
+            2,
+            "(can/passive)"
+          ],
+          [
+            "ん",
+            2,
+            "(neg)"
+          ],
+          [
+            "わ",
+            3,
+            "(emph)"
+          ]
+        ],
+        "en": [
+          [
+            "Honestly",
+            0
+          ],
+          [
+            ", ",
+            3
+          ],
+          [
+            "this 'love' shit, ",
+            1
+          ],
+          [
+            "I can't do it anymore",
+            2
+          ]
+        ]
+      }
+    },
+    "56.48": {
+      "en": "Aren't you stupid? God, it's so fuckin' depressingly noisy",
+      "align": {
+        "jp": [
+          [
+            "馬鹿じゃない？",
+            0
+          ],
+          [
+            "嗚呼",
+            1
+          ],
+          [
+            "くっそ",
+            2
+          ],
+          [
+            "鬱雑え",
+            3
+          ],
+          [
+            "わ",
+            4
+          ]
+        ],
+        "gloss": [
+          [
+            "馬鹿",
+            0,
+            "stupid"
+          ],
+          [
+            "じゃない",
+            0,
+            "is-not"
+          ],
+          [
+            "？",
+            0,
+            "?"
+          ],
+          [
+            "嗚呼",
+            1,
+            "ah/god"
+          ],
+          [
+            "くっそ",
+            2,
+            "fuckin'"
+          ],
+          [
+            "鬱雑え",
+            3,
+            "depressingly-messy"
+          ],
+          [
+            "わ",
+            4,
+            "(emph)"
+          ]
+        ],
+        "en": [
+          [
+            "Aren't you stupid? ",
+            0
+          ],
+          [
+            "God, ",
+            1
+          ],
+          [
+            "it's ",
+            4
+          ],
+          [
+            "so ",
+            2
+          ],
+          [
+            "fuckin' ",
+            2
+          ],
+          [
+            "depressingly noisy",
+            3
+          ]
+        ]
+      }
+    },
+    "57.41": {
+      "en": "When you get lonely, anyone'll do, right?",
+      "align": {
+        "jp": [
+          [
+            "淋しくなったら",
+            0
+          ],
+          [
+            "誰でも",
+            1
+          ],
+          [
+            "いいじゃん",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "淋しく",
+            0,
+            "lonely-adv"
+          ],
+          [
+            "なっ",
+            0,
+            "become"
+          ],
+          [
+            "たら",
+            0,
+            "(when/if)"
+          ],
+          [
+            "誰",
+            1,
+            "anyone"
+          ],
+          [
+            "でも",
+            1,
+            "(even)"
+          ],
+          [
+            "いい",
+            2,
+            "is-fine"
+          ],
+          [
+            "じゃん",
+            2,
+            "(right?)"
+          ]
+        ],
+        "en": [
+          [
+            "When you get lonely, ",
+            0
+          ],
+          [
+            "anyone",
+            1
+          ],
+          [
+            "'ll do",
+            2
+          ],
+          [
+            ", right?",
+            2
+          ]
+        ]
+      }
+    },
+    "58.87": {
+      "en": "Just fill the void, just fill the void",
+      "align": {
+        "jp": [
+          [
+            "埋まれば",
+            0
+          ],
+          [
+            "いいじゃん ",
+            1
+          ],
+          [
+            "埋まれば",
+            0
+          ],
+          [
+            "いいじゃん",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "埋まれ",
+            0,
+            "if-fills-in"
+          ],
+          [
+            "ば",
+            0,
+            "(cond)"
+          ],
+          [
+            "いい",
+            1,
+            "is-fine"
+          ],
+          [
+            "じゃん",
+            1,
+            "(right?)"
+          ],
+          [
+            " ",
+            1,
+            " "
+          ],
+          [
+            "埋まれ",
+            0,
+            "if-fills-in"
+          ],
+          [
+            "ば",
+            0,
+            "(cond)"
+          ],
+          [
+            "いい",
+            1,
+            "is-fine"
+          ],
+          [
+            "じゃん",
+            1,
+            "(right?)"
+          ]
+        ],
+        "en": [
+          [
+            "Just ",
+            1
+          ],
+          [
+            "fill the void",
+            0
+          ],
+          [
+            ", just ",
+            1
+          ],
+          [
+            "fill the void",
+            0
+          ]
+        ]
+      }
+    },
+    "60.30": {
+      "en": "Loathing it, I wanna love and die — over here we're doing it half-dazed, 'kay? 'Yeees~'",
+      "align": {
+        "jp": [
+          [
+            "厭厭",
+            0
+          ],
+          [
+            "愛して",
+            1
+          ],
+          [
+            "死にたくなって ",
+            2
+          ],
+          [
+            "こちとら",
+            3
+          ],
+          [
+            "フラフラやってんのん、OK？「はーい」",
+            4
+          ]
+        ],
+        "gloss": [
+          [
+            "厭厭",
+            0,
+            "reluctantly(detest)"
+          ],
+          [
+            "愛し",
+            1,
+            "love"
+          ],
+          [
+            "て",
+            1,
+            "-te"
+          ],
+          [
+            "死に",
+            2,
+            "die"
+          ],
+          [
+            "たく",
+            2,
+            "want-adj"
+          ],
+          [
+            "なっ",
+            2,
+            "become"
+          ],
+          [
+            "て",
+            2,
+            "-te"
+          ],
+          [
+            " ",
+            2,
+            " "
+          ],
+          [
+            "こちとら",
+            3,
+            "us-over-here"
+          ],
+          [
+            "フラフラ",
+            4,
+            "half-dazed"
+          ],
+          [
+            "やって",
+            4,
+            "doing-te"
+          ],
+          [
+            "ん",
+            4,
+            "(explan)"
+          ],
+          [
+            "のん",
+            4,
+            "(q-soft)"
+          ],
+          [
+            "、",
+            4,
+            ","
+          ],
+          [
+            "OK",
+            4,
+            "ok"
+          ],
+          [
+            "？",
+            4,
+            "?"
+          ],
+          [
+            "「",
+            4,
+            "「"
+          ],
+          [
+            "はーい",
+            4,
+            "yes~"
+          ],
+          [
+            "」",
+            4,
+            "」"
+          ]
+        ],
+        "en": [
+          [
+            "Loathing it, ",
+            0
+          ],
+          [
+            "I wanna ",
+            2
+          ],
+          [
+            "love ",
+            1
+          ],
+          [
+            "and die ",
+            2
+          ],
+          [
+            "— over here ",
+            3
+          ],
+          [
+            "we're doing it half-dazed, 'kay? 'Yeees~'",
+            4
+          ]
+        ]
+      }
+    },
+    "64.55": "Love, bluh bluh bluh bluh bluh bluh bluh",
+    "67.14": "Love, bluh bluh bluh bluh bluh bluh bluh",
+    "69.95": "Love, bluh bluh bluh bluh bluh bluh bluh",
+    "72.87": "Love, bluh bluh bluh bluh bluh bluh bluh",
+    "75.37": {
+      "en": "From a burst, instant lover",
+      "align": {
+        "jp": [
+          [
+            "バーストから",
+            0
+          ],
+          [
+            "インスタントラヴァー",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "バースト",
+            0,
+            "burst"
+          ],
+          [
+            "から",
+            0,
+            "from"
+          ],
+          [
+            "インスタント",
+            1,
+            "instant"
+          ],
+          [
+            "ラヴァー",
+            1,
+            "lover"
+          ]
+        ],
+        "en": [
+          [
+            "From a burst, ",
+            0
+          ],
+          [
+            "instant lover",
+            1
+          ]
+        ]
+      }
+    },
+    "78.04": {
+      "en": "Head plus body get absurdly tangled up",
+      "align": {
+        "jp": [
+          [
+            "頭+身体が",
+            0
+          ],
+          [
+            "ばかに",
+            1
+          ],
+          [
+            "絡まらあ",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "頭",
+            0,
+            "head"
+          ],
+          [
+            "+",
+            0,
+            "plus"
+          ],
+          [
+            "身体",
+            0,
+            "body"
+          ],
+          [
+            "が",
+            0,
+            "(subj)"
+          ],
+          [
+            "ばか",
+            1,
+            "absurd"
+          ],
+          [
+            "に",
+            1,
+            "(adv)"
+          ],
+          [
+            "絡まら",
+            2,
+            "get-tangled"
+          ],
+          [
+            "あ",
+            2,
+            "(emph-drawl)"
+          ]
+        ],
+        "en": [
+          [
+            "Head plus body ",
+            0
+          ],
+          [
+            "get ",
+            2
+          ],
+          [
+            "absurdly ",
+            1
+          ],
+          [
+            "tangled up",
+            2
+          ]
+        ]
+      }
+    },
+    "80.87": {
+      "en": "If you're a ghost, then undead manners",
+      "align": {
+        "jp": [
+          [
+            "ゴーストなら",
+            0
+          ],
+          [
+            "アンデッドマナー",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "ゴースト",
+            0,
+            "ghost"
+          ],
+          [
+            "なら",
+            0,
+            "if-is"
+          ],
+          [
+            "アンデッド",
+            1,
+            "undead"
+          ],
+          [
+            "マナー",
+            1,
+            "manners"
+          ]
+        ],
+        "en": [
+          [
+            "If you're a ghost, then ",
+            0
+          ],
+          [
+            "undead manners",
+            1
+          ]
+        ]
+      }
+    },
+    "83.67": {
+      "en": "Ah, still lewd — at the dying moment, sparks scatter, that's the answer, yeah",
+      "align": {
+        "jp": [
+          [
+            "嗚呼未だ淫ら",
+            0
+          ],
+          [
+            "今際",
+            1
+          ],
+          [
+            "火花散らば",
+            2
+          ],
+          [
+            "それがアンサー、だ",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "嗚呼",
+            0,
+            "ah"
+          ],
+          [
+            "未だ",
+            0,
+            "still"
+          ],
+          [
+            "淫ら",
+            0,
+            "lewd"
+          ],
+          [
+            "今際",
+            1,
+            "dying-moment"
+          ],
+          [
+            "火花",
+            2,
+            "sparks"
+          ],
+          [
+            "散ら",
+            2,
+            "scatter"
+          ],
+          [
+            "ば",
+            2,
+            "(if/when)"
+          ],
+          [
+            "それ",
+            3,
+            "that"
+          ],
+          [
+            "が",
+            3,
+            "(subj)"
+          ],
+          [
+            "アンサー",
+            3,
+            "answer"
+          ],
+          [
+            "、",
+            3,
+            ","
+          ],
+          [
+            "だ",
+            3,
+            "is"
+          ]
+        ],
+        "en": [
+          [
+            "Ah, still lewd ",
+            0
+          ],
+          [
+            "— at the dying moment, ",
+            1
+          ],
+          [
+            "sparks scatter",
+            2
+          ],
+          [
+            ", ",
+            3
+          ],
+          [
+            "that's ",
+            2
+          ],
+          [
+            "the answer, yeah",
+            3
+          ]
+        ]
+      }
+    },
+    "86.68": {
+      "en": "From a burst, instant lover",
+      "align": {
+        "jp": [
+          [
+            "バーストから",
+            0
+          ],
+          [
+            "インスタントラヴァー",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "バースト",
+            0,
+            "burst"
+          ],
+          [
+            "から",
+            0,
+            "from"
+          ],
+          [
+            "インスタント",
+            1,
+            "instant"
+          ],
+          [
+            "ラヴァー",
+            1,
+            "lover"
+          ]
+        ],
+        "en": [
+          [
+            "From a burst, ",
+            0
+          ],
+          [
+            "instant lover",
+            1
+          ]
+        ]
+      }
+    },
+    "89.23": {
+      "en": "Head plus body get absurdly tangled up",
+      "align": {
+        "jp": [
+          [
+            "頭+身体が",
+            0
+          ],
+          [
+            "ばかに",
+            1
+          ],
+          [
+            "絡まらあ",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "頭",
+            0,
+            "head"
+          ],
+          [
+            "+",
+            0,
+            "plus"
+          ],
+          [
+            "身体",
+            0,
+            "body"
+          ],
+          [
+            "が",
+            0,
+            "(subj)"
+          ],
+          [
+            "ばか",
+            1,
+            "absurd"
+          ],
+          [
+            "に",
+            1,
+            "(adv)"
+          ],
+          [
+            "絡まら",
+            2,
+            "get-tangled"
+          ],
+          [
+            "あ",
+            2,
+            "(emph-drawl)"
+          ]
+        ],
+        "en": [
+          [
+            "Head plus body ",
+            0
+          ],
+          [
+            "get ",
+            2
+          ],
+          [
+            "absurdly ",
+            1
+          ],
+          [
+            "tangled up",
+            2
+          ]
+        ]
+      }
+    },
+    "91.73": {
+      "en": "If you're a ghost, then undead manners",
+      "align": {
+        "jp": [
+          [
+            "ゴーストなら",
+            0
+          ],
+          [
+            "アンデッドマナー",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "ゴースト",
+            0,
+            "ghost"
+          ],
+          [
+            "なら",
+            0,
+            "if-is"
+          ],
+          [
+            "アンデッド",
+            1,
+            "undead"
+          ],
+          [
+            "マナー",
+            1,
+            "manners"
+          ]
+        ],
+        "en": [
+          [
+            "If you're a ghost, then ",
+            0
+          ],
+          [
+            "undead manners",
+            1
+          ]
+        ]
+      }
+    },
+    "94.88": {
+      "en": "Ah, still lewd — at the dying moment, sparks scatter, that's the answer, yeah",
+      "align": {
+        "jp": [
+          [
+            "嗚呼未だ淫ら",
+            0
+          ],
+          [
+            "今際",
+            1
+          ],
+          [
+            "火花散らば",
+            2
+          ],
+          [
+            "それがアンサー、だ",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "嗚呼",
+            0,
+            "ah"
+          ],
+          [
+            "未だ",
+            0,
+            "still"
+          ],
+          [
+            "淫ら",
+            0,
+            "lewd"
+          ],
+          [
+            "今際",
+            1,
+            "dying-moment"
+          ],
+          [
+            "火花",
+            2,
+            "sparks"
+          ],
+          [
+            "散ら",
+            2,
+            "scatter"
+          ],
+          [
+            "ば",
+            2,
+            "(if/when)"
+          ],
+          [
+            "それ",
+            3,
+            "that"
+          ],
+          [
+            "が",
+            3,
+            "(subj)"
+          ],
+          [
+            "アンサー",
+            3,
+            "answer"
+          ],
+          [
+            "、",
+            3,
+            ","
+          ],
+          [
+            "だ",
+            3,
+            "is"
+          ]
+        ],
+        "en": [
+          [
+            "Ah, still lewd ",
+            0
+          ],
+          [
+            "— at the dying moment, ",
+            1
+          ],
+          [
+            "sparks scatter",
+            2
+          ],
+          [
+            ", ",
+            3
+          ],
+          [
+            "that's ",
+            2
+          ],
+          [
+            "the answer, yeah",
+            3
+          ]
+        ]
+      }
+    },
+    "99.06": "Ooh, one more chance!",
+    "100.02": {
+      "en": "Just go show off and dive down the rabbit hole, why don't you",
+      "align": {
+        "jp": [
+          [
+            "もうやっぱ",
+            0
+          ],
+          [
+            "アピって",
+            1
+          ],
+          [
+            "ラビったら",
+            2
+          ],
+          [
+            "いいじゃん",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "もう",
+            0,
+            "already"
+          ],
+          [
+            "やっぱ",
+            0,
+            "as-expected"
+          ],
+          [
+            "アピ",
+            1,
+            "show-off"
+          ],
+          [
+            "って",
+            1,
+            "-te"
+          ],
+          [
+            "ラビ",
+            2,
+            "go-rabbit-hole"
+          ],
+          [
+            "ったら",
+            2,
+            "(if/when)"
+          ],
+          [
+            "いい",
+            3,
+            "is-fine"
+          ],
+          [
+            "じゃん",
+            3,
+            "(right?)"
+          ]
+        ],
+        "en": [
+          [
+            "Just ",
+            0
+          ],
+          [
+            "go ",
+            3
+          ],
+          [
+            "show off ",
+            1
+          ],
+          [
+            "and dive down the rabbit hole, ",
+            2
+          ],
+          [
+            "why don't you",
+            3
+          ]
+        ]
+      }
+    },
+    "101.87": {
+      "en": "Pop-style caresses, sing 'em out loud, why don't you",
+      "align": {
+        "jp": [
+          [
+            "POPな",
+            0
+          ],
+          [
+            "愛撫 ",
+            1
+          ],
+          [
+            "謳ったら",
+            2
+          ],
+          [
+            "いいじゃん",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "POP",
+            0,
+            "pop"
+          ],
+          [
+            "な",
+            0,
+            "(na-adj)"
+          ],
+          [
+            "愛撫",
+            1,
+            "caresses"
+          ],
+          [
+            " ",
+            1,
+            " "
+          ],
+          [
+            "謳っ",
+            2,
+            "sing-out"
+          ],
+          [
+            "たら",
+            2,
+            "(if/when)"
+          ],
+          [
+            "いい",
+            3,
+            "is-fine"
+          ],
+          [
+            "じゃん",
+            3,
+            "(right?)"
+          ]
+        ],
+        "en": [
+          [
+            "Pop-style ",
+            0
+          ],
+          [
+            "caresses, ",
+            1
+          ],
+          [
+            "sing ",
+            3
+          ],
+          [
+            "'em out loud, ",
+            2
+          ],
+          [
+            "why don't you",
+            3
+          ]
+        ]
+      }
+    },
+    "103.32": {
+      "en": "It's pathetic, so put the jealousy away",
+      "align": {
+        "jp": [
+          [
+            "みっともない",
+            0
+          ],
+          [
+            "から",
+            1
+          ],
+          [
+            "嫉妬",
+            2
+          ],
+          [
+            "仕舞いな",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "みっともない",
+            0,
+            "pathetic"
+          ],
+          [
+            "から",
+            1,
+            "because"
+          ],
+          [
+            "嫉妬",
+            2,
+            "jealousy"
+          ],
+          [
+            "仕舞い",
+            3,
+            "put-away"
+          ],
+          [
+            "な",
+            3,
+            "(imp)"
+          ]
+        ],
+        "en": [
+          [
+            "It's pathetic",
+            0
+          ],
+          [
+            ", so ",
+            1
+          ],
+          [
+            "put ",
+            3
+          ],
+          [
+            "the jealousy ",
+            2
+          ],
+          [
+            "away",
+            3
+          ]
+        ]
+      }
+    },
+    "104.86": {
+      "en": "Catching fire over it? God, that's so fuckin' lame",
+      "align": {
+        "jp": [
+          [
+            "発火しちゃうとか",
+            0
+          ],
+          [
+            "くっそ",
+            1
+          ],
+          [
+            "だせえ",
+            2
+          ],
+          [
+            "な",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "発火",
+            0,
+            "combustion"
+          ],
+          [
+            "し",
+            0,
+            "do"
+          ],
+          [
+            "ちゃう",
+            0,
+            "(end up)"
+          ],
+          [
+            "とか",
+            0,
+            "(or-like)"
+          ],
+          [
+            "くっそ",
+            1,
+            "fuckin'"
+          ],
+          [
+            "だせえ",
+            2,
+            "lame"
+          ],
+          [
+            "な",
+            3,
+            "(emph)"
+          ]
+        ],
+        "en": [
+          [
+            "Catching fire over it? ",
+            0
+          ],
+          [
+            "God, that's ",
+            3
+          ],
+          [
+            "so ",
+            1
+          ],
+          [
+            "fuckin' ",
+            1
+          ],
+          [
+            "lame",
+            2
+          ]
+        ]
+      }
+    },
+    "106.10": {
+      "en": "When you get lonely, anyone'll do, right?",
+      "align": {
+        "jp": [
+          [
+            "淋しくなったら",
+            0
+          ],
+          [
+            "誰でも",
+            1
+          ],
+          [
+            "いいじゃん",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "淋しく",
+            0,
+            "lonely-adv"
+          ],
+          [
+            "なっ",
+            0,
+            "become"
+          ],
+          [
+            "たら",
+            0,
+            "(when/if)"
+          ],
+          [
+            "誰",
+            1,
+            "anyone"
+          ],
+          [
+            "でも",
+            1,
+            "(even)"
+          ],
+          [
+            "いい",
+            2,
+            "is-fine"
+          ],
+          [
+            "じゃん",
+            2,
+            "(right?)"
+          ]
+        ],
+        "en": [
+          [
+            "When you get lonely, ",
+            0
+          ],
+          [
+            "anyone",
+            1
+          ],
+          [
+            "'ll do",
+            2
+          ],
+          [
+            ", right?",
+            2
+          ]
+        ]
+      }
+    },
+    "107.47": {
+      "en": "Just fill the void, just fill the void",
+      "align": {
+        "jp": [
+          [
+            "埋まれば",
+            0
+          ],
+          [
+            "いいじゃん ",
+            1
+          ],
+          [
+            "埋まれば",
+            0
+          ],
+          [
+            "いいじゃん",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "埋まれ",
+            0,
+            "if-fills-in"
+          ],
+          [
+            "ば",
+            0,
+            "(cond)"
+          ],
+          [
+            "いい",
+            1,
+            "is-fine"
+          ],
+          [
+            "じゃん",
+            1,
+            "(right?)"
+          ],
+          [
+            " ",
+            1,
+            " "
+          ],
+          [
+            "埋まれ",
+            0,
+            "if-fills-in"
+          ],
+          [
+            "ば",
+            0,
+            "(cond)"
+          ],
+          [
+            "いい",
+            1,
+            "is-fine"
+          ],
+          [
+            "じゃん",
+            1,
+            "(right?)"
+          ]
+        ],
+        "en": [
+          [
+            "Just ",
+            1
+          ],
+          [
+            "fill the void",
+            0
+          ],
+          [
+            ", just ",
+            1
+          ],
+          [
+            "fill the void",
+            0
+          ]
+        ]
+      }
+    },
+    "109.13": {
+      "en": "Hating it, I wanna love and live — gonna play pure-pure 'til you die?",
+      "align": {
+        "jp": [
+          [
+            "嫌嫌",
+            0
+          ],
+          [
+            "愛して",
+            1
+          ],
+          [
+            "生きたくなって ",
+            2
+          ],
+          [
+            "死ぬまで",
+            3
+          ],
+          [
+            "ピュアピュアやってんのん？",
+            4
+          ]
+        ],
+        "gloss": [
+          [
+            "嫌嫌",
+            0,
+            "reluctantly(dislike)"
+          ],
+          [
+            "愛し",
+            1,
+            "love"
+          ],
+          [
+            "て",
+            1,
+            "-te"
+          ],
+          [
+            "生き",
+            2,
+            "live"
+          ],
+          [
+            "たく",
+            2,
+            "want-adj"
+          ],
+          [
+            "なっ",
+            2,
+            "become"
+          ],
+          [
+            "て",
+            2,
+            "-te"
+          ],
+          [
+            " ",
+            2,
+            " "
+          ],
+          [
+            "死ぬ",
+            3,
+            "die"
+          ],
+          [
+            "まで",
+            3,
+            "until"
+          ],
+          [
+            "ピュアピュア",
+            4,
+            "pure-pure"
+          ],
+          [
+            "やって",
+            4,
+            "doing-te"
+          ],
+          [
+            "ん",
+            4,
+            "(explan)"
+          ],
+          [
+            "のん",
+            4,
+            "(q-soft)"
+          ],
+          [
+            "？",
+            4,
+            "?"
+          ]
+        ],
+        "en": [
+          [
+            "Hating it, ",
+            0
+          ],
+          [
+            "I wanna love ",
+            1
+          ],
+          [
+            "and live ",
+            2
+          ],
+          [
+            "— gonna play pure-pure ",
+            4
+          ],
+          [
+            "'til you die?",
+            3
+          ]
+        ]
+      }
+    },
+    "111.46": {
+      "en": "Just go show off and dive down the rabbit hole, why don't you",
+      "align": {
+        "jp": [
+          [
+            "やっぱ",
+            0
+          ],
+          [
+            "アピって",
+            1
+          ],
+          [
+            "ラビったら",
+            2
+          ],
+          [
+            "いいじゃん",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "やっぱ",
+            0,
+            "as-expected"
+          ],
+          [
+            "アピ",
+            1,
+            "show-off"
+          ],
+          [
+            "って",
+            1,
+            "-te"
+          ],
+          [
+            "ラビ",
+            2,
+            "go-rabbit-hole"
+          ],
+          [
+            "ったら",
+            2,
+            "(if/when)"
+          ],
+          [
+            "いい",
+            3,
+            "is-fine"
+          ],
+          [
+            "じゃん",
+            3,
+            "(right?)"
+          ]
+        ],
+        "en": [
+          [
+            "Just ",
+            0
+          ],
+          [
+            "go ",
+            3
+          ],
+          [
+            "show off ",
+            1
+          ],
+          [
+            "and dive down the rabbit hole, ",
+            2
+          ],
+          [
+            "why don't you",
+            3
+          ]
+        ]
+      }
+    },
+    "112.86": {
+      "en": "Bad dance, get all swollen-sick with it, why don't you",
+      "align": {
+        "jp": [
+          [
+            "BADな",
+            0
+          ],
+          [
+            "ダンス ",
+            1
+          ],
+          [
+            "腫魔ったら",
+            2
+          ],
+          [
+            "いいじゃん",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "BAD",
+            0,
+            "bad"
+          ],
+          [
+            "な",
+            0,
+            "(na-adj)"
+          ],
+          [
+            "ダンス",
+            1,
+            "dance"
+          ],
+          [
+            " ",
+            1,
+            " "
+          ],
+          [
+            "腫魔っ",
+            2,
+            "get-swollen-cursed"
+          ],
+          [
+            "たら",
+            2,
+            "(if/when)"
+          ],
+          [
+            "いい",
+            3,
+            "is-fine"
+          ],
+          [
+            "じゃん",
+            3,
+            "(right?)"
+          ]
+        ],
+        "en": [
+          [
+            "Bad ",
+            0
+          ],
+          [
+            "dance, ",
+            1
+          ],
+          [
+            "get ",
+            3
+          ],
+          [
+            "all swollen-sick with it, ",
+            2
+          ],
+          [
+            "why don't you",
+            3
+          ]
+        ]
+      }
+    },
+    "114.31": {
+      "en": "Honestly, this 'love' shit, I can't do it anymore",
+      "align": {
+        "jp": [
+          [
+            "やっぱり",
+            0
+          ],
+          [
+            "好きとか",
+            1
+          ],
+          [
+            "やってられん",
+            2
+          ],
+          [
+            "わ",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "やっぱり",
+            0,
+            "honestly"
+          ],
+          [
+            "好き",
+            1,
+            "like/love"
+          ],
+          [
+            "とか",
+            1,
+            "(or-like)"
+          ],
+          [
+            "やって",
+            2,
+            "do-te"
+          ],
+          [
+            "られ",
+            2,
+            "(can/passive)"
+          ],
+          [
+            "ん",
+            2,
+            "(neg)"
+          ],
+          [
+            "わ",
+            3,
+            "(emph)"
+          ]
+        ],
+        "en": [
+          [
+            "Honestly",
+            0
+          ],
+          [
+            ", ",
+            3
+          ],
+          [
+            "this 'love' shit, ",
+            1
+          ],
+          [
+            "I can't do it anymore",
+            2
+          ]
+        ]
+      }
+    },
+    "115.69": {
+      "en": "Aren't you stupid? God, it's so fuckin' depressingly noisy",
+      "align": {
+        "jp": [
+          [
+            "馬鹿じゃない？",
+            0
+          ],
+          [
+            "嗚呼",
+            1
+          ],
+          [
+            "くっそ",
+            2
+          ],
+          [
+            "鬱雑え",
+            3
+          ],
+          [
+            "わ",
+            4
+          ]
+        ],
+        "gloss": [
+          [
+            "馬鹿",
+            0,
+            "stupid"
+          ],
+          [
+            "じゃない",
+            0,
+            "is-not"
+          ],
+          [
+            "？",
+            0,
+            "?"
+          ],
+          [
+            "嗚呼",
+            1,
+            "ah/god"
+          ],
+          [
+            "くっそ",
+            2,
+            "fuckin'"
+          ],
+          [
+            "鬱雑え",
+            3,
+            "depressingly-messy"
+          ],
+          [
+            "わ",
+            4,
+            "(emph)"
+          ]
+        ],
+        "en": [
+          [
+            "Aren't you stupid? ",
+            0
+          ],
+          [
+            "God, ",
+            1
+          ],
+          [
+            "it's ",
+            4
+          ],
+          [
+            "so ",
+            2
+          ],
+          [
+            "fuckin' ",
+            2
+          ],
+          [
+            "depressingly noisy",
+            3
+          ]
+        ]
+      }
+    },
+    "117.13": {
+      "en": "When you get lonely, anyone'll do, right?",
+      "align": {
+        "jp": [
+          [
+            "淋しくなったら",
+            0
+          ],
+          [
+            "誰でも",
+            1
+          ],
+          [
+            "いいじゃん",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "淋しく",
+            0,
+            "lonely-adv"
+          ],
+          [
+            "なっ",
+            0,
+            "become"
+          ],
+          [
+            "たら",
+            0,
+            "(when/if)"
+          ],
+          [
+            "誰",
+            1,
+            "anyone"
+          ],
+          [
+            "でも",
+            1,
+            "(even)"
+          ],
+          [
+            "いい",
+            2,
+            "is-fine"
+          ],
+          [
+            "じゃん",
+            2,
+            "(right?)"
+          ]
+        ],
+        "en": [
+          [
+            "When you get lonely, ",
+            0
+          ],
+          [
+            "anyone",
+            1
+          ],
+          [
+            "'ll do",
+            2
+          ],
+          [
+            ", right?",
+            2
+          ]
+        ]
+      }
+    },
+    "118.52": {
+      "en": "Just fill the void, just fill the void",
+      "align": {
+        "jp": [
+          [
+            "埋まれば",
+            0
+          ],
+          [
+            "いいじゃん ",
+            1
+          ],
+          [
+            "埋まれば",
+            0
+          ],
+          [
+            "いいじゃん",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "埋まれ",
+            0,
+            "if-fills-in"
+          ],
+          [
+            "ば",
+            0,
+            "(cond)"
+          ],
+          [
+            "いい",
+            1,
+            "is-fine"
+          ],
+          [
+            "じゃん",
+            1,
+            "(right?)"
+          ],
+          [
+            " ",
+            1,
+            " "
+          ],
+          [
+            "埋まれ",
+            0,
+            "if-fills-in"
+          ],
+          [
+            "ば",
+            0,
+            "(cond)"
+          ],
+          [
+            "いい",
+            1,
+            "is-fine"
+          ],
+          [
+            "じゃん",
+            1,
+            "(right?)"
+          ]
+        ],
+        "en": [
+          [
+            "Just ",
+            1
+          ],
+          [
+            "fill the void",
+            0
+          ],
+          [
+            ", just ",
+            1
+          ],
+          [
+            "fill the void",
+            0
+          ]
+        ]
+      }
+    },
+    "120.17": {
+      "en": "Loathing it, I wanna love and die — over here we're doing it half-dazed",
+      "align": {
+        "jp": [
+          [
+            "厭厭",
+            0
+          ],
+          [
+            "愛して",
+            1
+          ],
+          [
+            "死にたくなって ",
+            2
+          ],
+          [
+            "こちとら",
+            3
+          ],
+          [
+            "フラフラやってんのん",
+            4
+          ]
+        ],
+        "gloss": [
+          [
+            "厭厭",
+            0,
+            "reluctantly(detest)"
+          ],
+          [
+            "愛し",
+            1,
+            "love"
+          ],
+          [
+            "て",
+            1,
+            "-te"
+          ],
+          [
+            "死に",
+            2,
+            "die"
+          ],
+          [
+            "たく",
+            2,
+            "want-adj"
+          ],
+          [
+            "なっ",
+            2,
+            "become"
+          ],
+          [
+            "て",
+            2,
+            "-te"
+          ],
+          [
+            " ",
+            2,
+            " "
+          ],
+          [
+            "こちとら",
+            3,
+            "us-over-here"
+          ],
+          [
+            "フラフラ",
+            4,
+            "half-dazed"
+          ],
+          [
+            "やって",
+            4,
+            "doing-te"
+          ],
+          [
+            "ん",
+            4,
+            "(explan)"
+          ],
+          [
+            "のん",
+            4,
+            "(q-soft)"
+          ]
+        ],
+        "en": [
+          [
+            "Loathing it, ",
+            0
+          ],
+          [
+            "I wanna ",
+            2
+          ],
+          [
+            "love ",
+            1
+          ],
+          [
+            "and die ",
+            2
+          ],
+          [
+            "— over here ",
+            3
+          ],
+          [
+            "we're doing it half-dazed",
+            4
+          ]
+        ]
+      }
+    },
+    "122.52": {
+      "en": "Just go show off and dive down the rabbit hole, why don't you",
+      "align": {
+        "jp": [
+          [
+            "やっぱ",
+            0
+          ],
+          [
+            "アピって",
+            1
+          ],
+          [
+            "ラビったら",
+            2
+          ],
+          [
+            "いいじゃん",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "やっぱ",
+            0,
+            "as-expected"
+          ],
+          [
+            "アピ",
+            1,
+            "show-off"
+          ],
+          [
+            "って",
+            1,
+            "-te"
+          ],
+          [
+            "ラビ",
+            2,
+            "go-rabbit-hole"
+          ],
+          [
+            "ったら",
+            2,
+            "(if/when)"
+          ],
+          [
+            "いい",
+            3,
+            "is-fine"
+          ],
+          [
+            "じゃん",
+            3,
+            "(right?)"
+          ]
+        ],
+        "en": [
+          [
+            "Just ",
+            0
+          ],
+          [
+            "go ",
+            3
+          ],
+          [
+            "show off ",
+            1
+          ],
+          [
+            "and dive down the rabbit hole, ",
+            2
+          ],
+          [
+            "why don't you",
+            3
+          ]
+        ]
+      }
+    },
+    "124.13": {
+      "en": "These feelings ended ages and ages ago",
+      "align": {
+        "jp": [
+          [
+            "疾っくの疾うに",
+            0
+          ],
+          [
+            "終わった",
+            1
+          ],
+          [
+            "想いだ",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "疾っくの疾うに",
+            0,
+            "ages-and-ages-ago"
+          ],
+          [
+            "終わっ",
+            1,
+            "ended"
+          ],
+          [
+            "た",
+            1,
+            "(past)"
+          ],
+          [
+            "想い",
+            2,
+            "feelings"
+          ],
+          [
+            "だ",
+            2,
+            "(is)"
+          ]
+        ],
+        "en": [
+          [
+            "These feelings ",
+            2
+          ],
+          [
+            "ended ",
+            1
+          ],
+          [
+            "ages and ages ago",
+            0
+          ]
+        ]
+      }
+    },
+    "125.54": {
+      "en": "Sorry for calling it pathetic, my bad",
+      "align": {
+        "jp": [
+          [
+            "みっともないとか",
+            0
+          ],
+          [
+            "言って",
+            1
+          ],
+          [
+            "ごめんな",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "みっともない",
+            0,
+            "pathetic"
+          ],
+          [
+            "とか",
+            0,
+            "(or-like)"
+          ],
+          [
+            "言っ",
+            1,
+            "say"
+          ],
+          [
+            "て",
+            1,
+            "-te"
+          ],
+          [
+            "ごめん",
+            2,
+            "sorry"
+          ],
+          [
+            "な",
+            2,
+            "(emph)"
+          ]
+        ],
+        "en": [
+          [
+            "Sorry ",
+            2
+          ],
+          [
+            "for calling it ",
+            1
+          ],
+          [
+            "pathetic",
+            0
+          ],
+          [
+            ", my bad",
+            2
+          ]
+        ]
+      }
+    },
+    "126.63": {
+      "en": "I wanna catch fire, but I can't anymore",
+      "align": {
+        "jp": [
+          [
+            "発火したい",
+            0
+          ],
+          [
+            "けど",
+            1
+          ],
+          [
+            "もうだめ",
+            2
+          ],
+          [
+            "なんだ",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "発火",
+            0,
+            "combustion"
+          ],
+          [
+            "し",
+            0,
+            "do"
+          ],
+          [
+            "たい",
+            0,
+            "want"
+          ],
+          [
+            "けど",
+            1,
+            "but"
+          ],
+          [
+            "もう",
+            2,
+            "anymore"
+          ],
+          [
+            "だめ",
+            2,
+            "no-good"
+          ],
+          [
+            "なんだ",
+            3,
+            "(explan)"
+          ]
+        ],
+        "en": [
+          [
+            "I ",
+            3
+          ],
+          [
+            "wanna catch fire",
+            0
+          ],
+          [
+            ", but ",
+            1
+          ],
+          [
+            "I can't anymore",
+            2
+          ]
+        ]
+      }
+    },
+    "128.19": {
+      "en": "When you get lonely, anyone'll do, right?",
+      "align": {
+        "jp": [
+          [
+            "淋しくなったら",
+            0
+          ],
+          [
+            "誰でも",
+            1
+          ],
+          [
+            "いいじゃん",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "淋しく",
+            0,
+            "lonely-adv"
+          ],
+          [
+            "なっ",
+            0,
+            "become"
+          ],
+          [
+            "たら",
+            0,
+            "(when/if)"
+          ],
+          [
+            "誰",
+            1,
+            "anyone"
+          ],
+          [
+            "でも",
+            1,
+            "(even)"
+          ],
+          [
+            "いい",
+            2,
+            "is-fine"
+          ],
+          [
+            "じゃん",
+            2,
+            "(right?)"
+          ]
+        ],
+        "en": [
+          [
+            "When you get lonely, ",
+            0
+          ],
+          [
+            "anyone",
+            1
+          ],
+          [
+            "'ll do",
+            2
+          ],
+          [
+            ", right?",
+            2
+          ]
+        ]
+      }
+    },
+    "129.90": {
+      "en": "Just fill the void, just fill the void",
+      "align": {
+        "jp": [
+          [
+            "埋まれば",
+            0
+          ],
+          [
+            "いいじゃん ",
+            1
+          ],
+          [
+            "埋まれば",
+            0
+          ],
+          [
+            "いいじゃん",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "埋まれ",
+            0,
+            "if-fills-in"
+          ],
+          [
+            "ば",
+            0,
+            "(cond)"
+          ],
+          [
+            "いい",
+            1,
+            "is-fine"
+          ],
+          [
+            "じゃん",
+            1,
+            "(right?)"
+          ],
+          [
+            " ",
+            1,
+            " "
+          ],
+          [
+            "埋まれ",
+            0,
+            "if-fills-in"
+          ],
+          [
+            "ば",
+            0,
+            "(cond)"
+          ],
+          [
+            "いい",
+            1,
+            "is-fine"
+          ],
+          [
+            "じゃん",
+            1,
+            "(right?)"
+          ]
+        ],
+        "en": [
+          [
+            "Just ",
+            1
+          ],
+          [
+            "fill the void",
+            0
+          ],
+          [
+            ", just ",
+            1
+          ],
+          [
+            "fill the void",
+            0
+          ]
+        ]
+      }
+    },
+    "131.19": {
+      "en": "Refusing it, I wanna love and pass away — over here we're doing it half-dazed, 'kay? 'Yeees~'",
+      "align": {
+        "jp": [
+          [
+            "否否",
+            0
+          ],
+          [
+            "愛して",
+            1
+          ],
+          [
+            "逝きたくなって ",
+            2
+          ],
+          [
+            "こちとら",
+            3
+          ],
+          [
+            "フラフラやってんのん、OK？「はーい」",
+            4
+          ]
+        ],
+        "gloss": [
+          [
+            "否否",
+            0,
+            "reluctantly(refuse)"
+          ],
+          [
+            "愛し",
+            1,
+            "love"
+          ],
+          [
+            "て",
+            1,
+            "-te"
+          ],
+          [
+            "逝き",
+            2,
+            "pass-away"
+          ],
+          [
+            "たく",
+            2,
+            "want-adj"
+          ],
+          [
+            "なっ",
+            2,
+            "become"
+          ],
+          [
+            "て",
+            2,
+            "-te"
+          ],
+          [
+            " ",
+            2,
+            " "
+          ],
+          [
+            "こちとら",
+            3,
+            "us-over-here"
+          ],
+          [
+            "フラフラ",
+            4,
+            "half-dazed"
+          ],
+          [
+            "やって",
+            4,
+            "doing-te"
+          ],
+          [
+            "ん",
+            4,
+            "(explan)"
+          ],
+          [
+            "のん",
+            4,
+            "(q-soft)"
+          ],
+          [
+            "、",
+            4,
+            ","
+          ],
+          [
+            "OK",
+            4,
+            "ok"
+          ],
+          [
+            "？",
+            4,
+            "?"
+          ],
+          [
+            "「",
+            4,
+            "「"
+          ],
+          [
+            "はーい",
+            4,
+            "yes~"
+          ],
+          [
+            "」",
+            4,
+            "」"
+          ]
+        ],
+        "en": [
+          [
+            "Refusing it, ",
+            0
+          ],
+          [
+            "I wanna ",
+            2
+          ],
+          [
+            "love ",
+            1
+          ],
+          [
+            "and pass away ",
+            2
+          ],
+          [
+            "— over here ",
+            3
+          ],
+          [
+            "we're doing it half-dazed, 'kay? 'Yeees~'",
+            4
+          ]
+        ]
+      }
+    },
+    "135.06": {
+      "en": "Heyyy hey hey hey, naughty kid (parira)",
+      "align": {
+        "jp": [
+          [
+            "やあやあやあやあ ",
+            0
+          ],
+          [
+            "悪い",
+            1
+          ],
+          [
+            "子さん",
+            2
+          ],
+          [
+            "（パリラ）",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "やあやあやあやあ",
+            0,
+            "hey-hey-hey-hey"
+          ],
+          [
+            " ",
+            0,
+            " "
+          ],
+          [
+            "悪い",
+            1,
+            "bad-adj"
+          ],
+          [
+            "子",
+            2,
+            "kid"
+          ],
+          [
+            "さん",
+            2,
+            "(hon-mock)"
+          ],
+          [
+            "（",
+            3,
+            "("
+          ],
+          [
+            "パリラ",
+            3,
+            "(parira)"
+          ],
+          [
+            "）",
+            3,
+            ")"
+          ]
+        ],
+        "en": [
+          [
+            "Heyyy hey hey hey",
+            0
+          ],
+          [
+            ", ",
+            2
+          ],
+          [
+            "naughty ",
+            1
+          ],
+          [
+            "kid ",
+            2
+          ],
+          [
+            "(parira)",
+            3
+          ]
+        ]
+      }
+    },
+    "137.96": {
+      "en": "Now now now now, thanks for the patronage (parira)",
+      "align": {
+        "jp": [
+          [
+            "まあまあまあまあ ",
+            0
+          ],
+          [
+            "お愛顧",
+            1
+          ],
+          [
+            "じゃん",
+            2
+          ],
+          [
+            "（パリラ）",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "まあまあまあまあ",
+            0,
+            "now-now-now-now"
+          ],
+          [
+            " ",
+            0,
+            " "
+          ],
+          [
+            "お",
+            1,
+            "(polite)"
+          ],
+          [
+            "愛顧",
+            1,
+            "patronage"
+          ],
+          [
+            "じゃん",
+            2,
+            "(right?)"
+          ],
+          [
+            "（",
+            3,
+            "("
+          ],
+          [
+            "パリラ",
+            3,
+            "(parira)"
+          ],
+          [
+            "）",
+            3,
+            ")"
+          ]
+        ],
+        "en": [
+          [
+            "Now now now now, ",
+            0
+          ],
+          [
+            "thanks ",
+            2
+          ],
+          [
+            "for the patronage ",
+            1
+          ],
+          [
+            "(parira)",
+            3
+          ]
+        ]
+      }
+    },
+    "140.43": {
+      "en": "Come on come on come on come on, we're starting",
+      "align": {
+        "jp": [
+          [
+            "さあさあさあさあ ",
+            0
+          ],
+          [
+            "始める",
+            1
+          ],
+          [
+            "よ",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "さあさあさあさあ",
+            0,
+            "come-on-come-on-come-on-come-on"
+          ],
+          [
+            " ",
+            0,
+            " "
+          ],
+          [
+            "始める",
+            1,
+            "start"
+          ],
+          [
+            "よ",
+            2,
+            "(assert)"
+          ]
+        ],
+        "en": [
+          [
+            "Come on come on come on come on, ",
+            0
+          ],
+          [
+            "we're ",
+            2
+          ],
+          [
+            "starting",
+            1
+          ]
+        ]
+      }
+    },
+    "143.14": {
+      "en": "Love this hole more, won't you",
+      "align": {
+        "jp": [
+          [
+            "もっと",
+            0
+          ],
+          [
+            "この穴を",
+            1
+          ],
+          [
+            "愛して",
+            2
+          ],
+          [
+            "よ",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "もっと",
+            0,
+            "more"
+          ],
+          [
+            "この",
+            1,
+            "this"
+          ],
+          [
+            "穴",
+            1,
+            "hole"
+          ],
+          [
+            "を",
+            1,
+            "(obj)"
+          ],
+          [
+            "愛し",
+            2,
+            "love"
+          ],
+          [
+            "て",
+            2,
+            "-te(imp)"
+          ],
+          [
+            "よ",
+            3,
+            "(assert)"
+          ]
+        ],
+        "en": [
+          [
+            "Love ",
+            2
+          ],
+          [
+            "this hole ",
+            1
+          ],
+          [
+            "more",
+            0
+          ],
+          [
+            ", won't you",
+            3
+          ]
+        ]
+      }
+    },
+    "146.24": {
+      "en": "Heyyy hey hey hey, naughty kid (parira)",
+      "align": {
+        "jp": [
+          [
+            "やあやあやあやあ ",
+            0
+          ],
+          [
+            "悪い",
+            1
+          ],
+          [
+            "子さん",
+            2
+          ],
+          [
+            "（パリラ）",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "やあやあやあやあ",
+            0,
+            "hey-hey-hey-hey"
+          ],
+          [
+            " ",
+            0,
+            " "
+          ],
+          [
+            "悪い",
+            1,
+            "bad-adj"
+          ],
+          [
+            "子",
+            2,
+            "kid"
+          ],
+          [
+            "さん",
+            2,
+            "(hon-mock)"
+          ],
+          [
+            "（",
+            3,
+            "("
+          ],
+          [
+            "パリラ",
+            3,
+            "(parira)"
+          ],
+          [
+            "）",
+            3,
+            ")"
+          ]
+        ],
+        "en": [
+          [
+            "Heyyy hey hey hey",
+            0
+          ],
+          [
+            ", ",
+            2
+          ],
+          [
+            "naughty ",
+            1
+          ],
+          [
+            "kid ",
+            2
+          ],
+          [
+            "(parira)",
+            3
+          ]
+        ]
+      }
+    },
+    "148.82": {
+      "en": "Now now now now, thanks for the patronage (parira)",
+      "align": {
+        "jp": [
+          [
+            "まあまあまあまあ ",
+            0
+          ],
+          [
+            "お愛顧",
+            1
+          ],
+          [
+            "じゃん",
+            2
+          ],
+          [
+            "（パリラ）",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "まあまあまあまあ",
+            0,
+            "now-now-now-now"
+          ],
+          [
+            " ",
+            0,
+            " "
+          ],
+          [
+            "お",
+            1,
+            "(polite)"
+          ],
+          [
+            "愛顧",
+            1,
+            "patronage"
+          ],
+          [
+            "じゃん",
+            2,
+            "(right?)"
+          ],
+          [
+            "（",
+            3,
+            "("
+          ],
+          [
+            "パリラ",
+            3,
+            "(parira)"
+          ],
+          [
+            "）",
+            3,
+            ")"
+          ]
+        ],
+        "en": [
+          [
+            "Now now now now, ",
+            0
+          ],
+          [
+            "thanks ",
+            2
+          ],
+          [
+            "for the patronage ",
+            1
+          ],
+          [
+            "(parira)",
+            3
+          ]
+        ]
+      }
+    },
+    "151.87": {
+      "en": "Come on come on come on come on, we're starting",
+      "align": {
+        "jp": [
+          [
+            "さあさあさあさあ ",
+            0
+          ],
+          [
+            "始める",
+            1
+          ],
+          [
+            "よ",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "さあさあさあさあ",
+            0,
+            "come-on-come-on-come-on-come-on"
+          ],
+          [
+            " ",
+            0,
+            " "
+          ],
+          [
+            "始める",
+            1,
+            "start"
+          ],
+          [
+            "よ",
+            2,
+            "(assert)"
+          ]
+        ],
+        "en": [
+          [
+            "Come on come on come on come on, ",
+            0
+          ],
+          [
+            "we're ",
+            2
+          ],
+          [
+            "starting",
+            1
+          ]
+        ]
+      }
+    },
+    "154.38": {
+      "en": "Love this hole more, won't you",
+      "align": {
+        "jp": [
+          [
+            "もっと",
+            0
+          ],
+          [
+            "この穴を",
+            1
+          ],
+          [
+            "愛して",
+            2
+          ],
+          [
+            "よ",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "もっと",
+            0,
+            "more"
+          ],
+          [
+            "この",
+            1,
+            "this"
+          ],
+          [
+            "穴",
+            1,
+            "hole"
+          ],
+          [
+            "を",
+            1,
+            "(obj)"
+          ],
+          [
+            "愛し",
+            2,
+            "love"
+          ],
+          [
+            "て",
+            2,
+            "-te(imp)"
+          ],
+          [
+            "よ",
+            3,
+            "(assert)"
+          ]
+        ],
+        "en": [
+          [
+            "Love ",
+            2
+          ],
+          [
+            "this hole ",
+            1
+          ],
+          [
+            "more",
+            0
+          ],
+          [
+            ", won't you",
+            3
+          ]
+        ]
+      }
+    },
+    "156.91": "Lame."
+  }
+}
