@@ -1,0 +1,2644 @@
+{
+  "3671886": {
+    "1.07": {
+      "en": "Hey — there's so much you don't see",
+      "align": {
+        "jp": [
+          [
+            "ねぇ",
+            0
+          ],
+          [
+            " アナタには",
+            1
+          ],
+          [
+            "見えない",
+            2
+          ],
+          [
+            "事ばかり",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "ねぇ",
+            0,
+            "hey"
+          ],
+          [
+            " アナタ",
+            1,
+            "you"
+          ],
+          [
+            "に",
+            1,
+            "to"
+          ],
+          [
+            "は",
+            1,
+            "(topic)"
+          ],
+          [
+            "見え",
+            2,
+            "visible"
+          ],
+          [
+            "ない",
+            2,
+            "(neg)"
+          ],
+          [
+            "事",
+            3,
+            "things"
+          ],
+          [
+            "ばかり",
+            3,
+            "nothing but"
+          ]
+        ],
+        "en": [
+          [
+            "Hey",
+            0
+          ],
+          [
+            " — there's so much",
+            3
+          ],
+          [
+            " you",
+            1
+          ],
+          [
+            " don't see",
+            2
+          ]
+        ]
+      }
+    },
+    "4.07": {
+      "en": "Don't you know I see everything?",
+      "align": {
+        "jp": [
+          [
+            "アタシは",
+            0
+          ],
+          [
+            "見えている事を",
+            1
+          ],
+          [
+            "知らないの？",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "アタシ",
+            0,
+            "I"
+          ],
+          [
+            "は",
+            0,
+            "(topic)"
+          ],
+          [
+            "見え",
+            1,
+            "visible"
+          ],
+          [
+            "ている",
+            1,
+            "(prog)"
+          ],
+          [
+            "事",
+            1,
+            "things"
+          ],
+          [
+            "を",
+            1,
+            "(obj)"
+          ],
+          [
+            "知ら",
+            2,
+            "know"
+          ],
+          [
+            "ない",
+            2,
+            "(neg)"
+          ],
+          [
+            "の",
+            2,
+            "(expl-q)"
+          ],
+          [
+            "？",
+            2,
+            ""
+          ]
+        ],
+        "en": [
+          [
+            "Don't you know",
+            2
+          ],
+          [
+            " I",
+            0
+          ],
+          [
+            " see everything",
+            1
+          ],
+          [
+            "?",
+            2
+          ]
+        ]
+      }
+    },
+    "6.98": {
+      "en": "Someone else's kiss marks on your back",
+      "align": {
+        "jp": [
+          [
+            "背中につけられた",
+            0
+          ],
+          [
+            "誰かの",
+            1
+          ],
+          [
+            "キスの跡",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "背中",
+            0,
+            "back"
+          ],
+          [
+            "に",
+            0,
+            "on"
+          ],
+          [
+            "つけ",
+            0,
+            "attach"
+          ],
+          [
+            "られ",
+            0,
+            "(pass)"
+          ],
+          [
+            "た",
+            0,
+            "(past)"
+          ],
+          [
+            "誰か",
+            1,
+            "someone"
+          ],
+          [
+            "の",
+            1,
+            "'s"
+          ],
+          [
+            "キス",
+            2,
+            "kiss"
+          ],
+          [
+            "の",
+            2,
+            "of"
+          ],
+          [
+            "跡",
+            2,
+            "mark"
+          ]
+        ],
+        "en": [
+          [
+            "Someone else's",
+            1
+          ],
+          [
+            " kiss marks",
+            2
+          ],
+          [
+            " on your back",
+            0
+          ]
+        ]
+      }
+    },
+    "9.94": {
+      "en": "Things you'd never buy just for yourself —",
+      "align": {
+        "jp": [
+          [
+            "一人じゃ",
+            0
+          ],
+          [
+            "買う",
+            1
+          ],
+          [
+            "訳の無い",
+            2
+          ],
+          [
+            "それも",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "一人",
+            0,
+            "alone"
+          ],
+          [
+            "じゃ",
+            0,
+            "as-for"
+          ],
+          [
+            "買う",
+            1,
+            "buy"
+          ],
+          [
+            "訳",
+            2,
+            "reason"
+          ],
+          [
+            "の",
+            2,
+            "(nom)"
+          ],
+          [
+            "無い",
+            2,
+            "no"
+          ],
+          [
+            "それ",
+            3,
+            "those"
+          ],
+          [
+            "も",
+            3,
+            "too"
+          ]
+        ],
+        "en": [
+          [
+            "Things",
+            3
+          ],
+          [
+            " you'd never",
+            2
+          ],
+          [
+            " buy",
+            1
+          ],
+          [
+            " just for yourself",
+            0
+          ],
+          [
+            " —",
+            3
+          ]
+        ]
+      }
+    },
+    "13.14": {
+      "en": "I'm only turning a blind eye",
+      "align": {
+        "jp": [
+          [
+            "見て見ぬフリ",
+            0
+          ],
+          [
+            "なだけ",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "見",
+            0,
+            "see"
+          ],
+          [
+            "て",
+            0,
+            "(link)"
+          ],
+          [
+            "見ぬ",
+            0,
+            "not-see"
+          ],
+          [
+            "フリ",
+            0,
+            "pretense"
+          ],
+          [
+            "な",
+            1,
+            "(is)"
+          ],
+          [
+            "だけ",
+            1,
+            "only"
+          ]
+        ],
+        "en": [
+          [
+            "I'm only",
+            1
+          ],
+          [
+            " turning a blind eye",
+            0
+          ]
+        ]
+      }
+    },
+    "16.08": {
+      "en": "a girlfriend so cute it makes you laugh",
+      "align": {
+        "jp": [
+          [
+            "笑っちまう",
+            0
+          ],
+          [
+            "程に",
+            1
+          ],
+          [
+            "キュートな",
+            2
+          ],
+          [
+            "カノジョ",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "笑っ",
+            0,
+            "laugh"
+          ],
+          [
+            "ちまう",
+            0,
+            "end-up"
+          ],
+          [
+            "程",
+            1,
+            "extent"
+          ],
+          [
+            "に",
+            1,
+            "to"
+          ],
+          [
+            "キュート",
+            2,
+            "cute"
+          ],
+          [
+            "な",
+            2,
+            "(adj)"
+          ],
+          [
+            "カノジョ",
+            3,
+            "girlfriend"
+          ]
+        ],
+        "en": [
+          [
+            "a girlfriend",
+            3
+          ],
+          [
+            " so",
+            1
+          ],
+          [
+            " cute",
+            2
+          ],
+          [
+            " it makes you laugh",
+            0
+          ]
+        ]
+      }
+    },
+    "19.26": {
+      "en": "always wild — unhinged — short-fused",
+      "align": {
+        "jp": [
+          [
+            "常時",
+            0
+          ],
+          [
+            "奔放",
+            1
+          ],
+          [
+            " 狂気",
+            2
+          ],
+          [
+            " 短気",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "常時",
+            0,
+            "always"
+          ],
+          [
+            "奔放",
+            1,
+            "uninhibited"
+          ],
+          [
+            " 狂気",
+            2,
+            "madness"
+          ],
+          [
+            " 短気",
+            3,
+            "short-tempered"
+          ]
+        ],
+        "en": [
+          [
+            "always",
+            0
+          ],
+          [
+            " wild",
+            1
+          ],
+          [
+            " — unhinged",
+            2
+          ],
+          [
+            " — short-fused",
+            3
+          ]
+        ]
+      }
+    },
+    "22.23": {
+      "en": "even mid-tantrum, one look from you and I'm done",
+      "align": {
+        "jp": [
+          [
+            "怒鳴ってたって",
+            0
+          ],
+          [
+            "目が合って",
+            1
+          ],
+          [
+            "一撃",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "怒鳴っ",
+            0,
+            "shout"
+          ],
+          [
+            "て",
+            0,
+            "(link)"
+          ],
+          [
+            "た",
+            0,
+            "(past)"
+          ],
+          [
+            "って",
+            0,
+            "even-if"
+          ],
+          [
+            "目",
+            1,
+            "eyes"
+          ],
+          [
+            "が",
+            1,
+            "(subj)"
+          ],
+          [
+            "合っ",
+            1,
+            "meet"
+          ],
+          [
+            "て",
+            1,
+            "(link)"
+          ],
+          [
+            "一撃",
+            2,
+            "one hit"
+          ]
+        ],
+        "en": [
+          [
+            "even mid-tantrum",
+            0
+          ],
+          [
+            ", one look from you",
+            1
+          ],
+          [
+            " and I'm done",
+            2
+          ]
+        ]
+      }
+    },
+    "25.18": {
+      "en": "brainwashing complete — I'm good at being a woman",
+      "align": {
+        "jp": [
+          [
+            "洗脳完了",
+            0
+          ],
+          [
+            " 女上手",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "洗脳",
+            0,
+            "brainwashing"
+          ],
+          [
+            "完了",
+            0,
+            "complete"
+          ],
+          [
+            " 女",
+            1,
+            "woman"
+          ],
+          [
+            "上手",
+            1,
+            "skilled"
+          ]
+        ],
+        "en": [
+          [
+            "brainwashing complete",
+            0
+          ],
+          [
+            " — I'm good at being a woman",
+            1
+          ]
+        ]
+      }
+    },
+    "28.12": {
+      "en": "I love him — I love him so fiercely",
+      "align": {
+        "jp": [
+          [
+            "愛していんのさ",
+            0
+          ],
+          [
+            " 強く",
+            1
+          ],
+          [
+            "愛していんのさ",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "愛し",
+            0,
+            "love"
+          ],
+          [
+            "てい",
+            0,
+            "(prog)"
+          ],
+          [
+            "ん",
+            0,
+            "(expl)"
+          ],
+          [
+            "のさ",
+            0,
+            "(assert)"
+          ],
+          [
+            " 強く",
+            1,
+            "strongly"
+          ],
+          [
+            "愛し",
+            2,
+            "love"
+          ],
+          [
+            "てい",
+            2,
+            "(prog)"
+          ],
+          [
+            "ん",
+            2,
+            "(expl)"
+          ],
+          [
+            "のさ",
+            2,
+            "(assert)"
+          ]
+        ],
+        "en": [
+          [
+            "I love him",
+            0
+          ],
+          [
+            " — I love him",
+            2
+          ],
+          [
+            " so fiercely",
+            1
+          ]
+        ]
+      }
+    },
+    "34.57": {
+      "en": "Hey — from your mind to your whole body",
+      "align": {
+        "jp": [
+          [
+            "ねぇ",
+            0
+          ],
+          [
+            " 精神から",
+            1
+          ],
+          [
+            "全身まで",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "ねぇ",
+            0,
+            "hey"
+          ],
+          [
+            " 精神",
+            1,
+            "mind"
+          ],
+          [
+            "から",
+            1,
+            "from"
+          ],
+          [
+            "全身",
+            2,
+            "whole body"
+          ],
+          [
+            "まで",
+            2,
+            "to"
+          ]
+        ],
+        "en": [
+          [
+            "Hey",
+            0
+          ],
+          [
+            " — from your mind",
+            1
+          ],
+          [
+            " to your whole body",
+            2
+          ]
+        ]
+      }
+    },
+    "35.80": {
+      "en": "from the surface to what's underneath",
+      "align": {
+        "jp": [
+          [
+            "表面から",
+            0
+          ],
+          [
+            "内面まで",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "表面",
+            0,
+            "surface"
+          ],
+          [
+            "から",
+            0,
+            "from"
+          ],
+          [
+            "内面",
+            1,
+            "inside"
+          ],
+          [
+            "まで",
+            1,
+            "to"
+          ]
+        ],
+        "en": [
+          [
+            "from the surface",
+            0
+          ],
+          [
+            " to what's underneath",
+            1
+          ]
+        ]
+      }
+    },
+    "37.57": {
+      "en": "from the crown of your head to your fingertips",
+      "align": {
+        "jp": [
+          [
+            "脳天から",
+            0
+          ],
+          [
+            "先端まで",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "脳天",
+            0,
+            "crown of head"
+          ],
+          [
+            "から",
+            0,
+            "from"
+          ],
+          [
+            "先端",
+            1,
+            "tips"
+          ],
+          [
+            "まで",
+            1,
+            "to"
+          ]
+        ],
+        "en": [
+          [
+            "from the crown of your head",
+            0
+          ],
+          [
+            " to your fingertips",
+            1
+          ]
+        ]
+      }
+    },
+    "39.14": {
+      "en": "I want to know it all — and on top of that,",
+      "align": {
+        "jp": [
+          [
+            "知りたいの",
+            0
+          ],
+          [
+            " それから",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "知り",
+            0,
+            "know"
+          ],
+          [
+            "たい",
+            0,
+            "want-to"
+          ],
+          [
+            "の",
+            0,
+            "(expl)"
+          ],
+          [
+            " それ",
+            1,
+            "that"
+          ],
+          [
+            "から",
+            1,
+            "after"
+          ]
+        ],
+        "en": [
+          [
+            "I want to know it all",
+            0
+          ],
+          [
+            " — and on top of that,",
+            1
+          ]
+        ]
+      }
+    },
+    "40.46": {
+      "en": "the music you've been listening to lately,",
+      "align": {
+        "jp": [
+          [
+            "最近",
+            0
+          ],
+          [
+            "聞いた",
+            1
+          ],
+          [
+            "音楽から",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "最近",
+            0,
+            "recently"
+          ],
+          [
+            "聞い",
+            1,
+            "listen"
+          ],
+          [
+            "た",
+            1,
+            "(past)"
+          ],
+          [
+            "音楽",
+            2,
+            "music"
+          ],
+          [
+            "から",
+            2,
+            "from"
+          ]
+        ],
+        "en": [
+          [
+            "the music",
+            2
+          ],
+          [
+            " you've been listening to",
+            1
+          ],
+          [
+            " lately,",
+            0
+          ]
+        ]
+      }
+    },
+    "42.06": {
+      "en": "every yen you've squandered —",
+      "align": {
+        "jp": [
+          [
+            "散財した",
+            0
+          ],
+          [
+            "総額まで",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "散財",
+            0,
+            "squander"
+          ],
+          [
+            "し",
+            0,
+            "do"
+          ],
+          [
+            "た",
+            0,
+            "(past)"
+          ],
+          [
+            "総額",
+            1,
+            "total"
+          ],
+          [
+            "まで",
+            1,
+            "up to"
+          ]
+        ],
+        "en": [
+          [
+            "every yen",
+            1
+          ],
+          [
+            " you've squandered",
+            0
+          ],
+          [
+            " —",
+            0
+          ]
+        ]
+      }
+    },
+    "43.32": {
+      "en": "I won't rest until I've got you completely mapped out",
+      "align": {
+        "jp": [
+          [
+            "完全把握",
+            0
+          ],
+          [
+            "しないと",
+            1
+          ],
+          [
+            "気が済まないの",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "完全",
+            0,
+            "complete"
+          ],
+          [
+            "把握",
+            0,
+            "grasp"
+          ],
+          [
+            "し",
+            1,
+            "do"
+          ],
+          [
+            "ない",
+            1,
+            "(neg)"
+          ],
+          [
+            "と",
+            1,
+            "unless"
+          ],
+          [
+            "気",
+            2,
+            "feeling"
+          ],
+          [
+            "が",
+            2,
+            "(subj)"
+          ],
+          [
+            "済ま",
+            2,
+            "settle"
+          ],
+          [
+            "ない",
+            2,
+            "(neg)"
+          ],
+          [
+            "の",
+            2,
+            "(expl)"
+          ]
+        ],
+        "en": [
+          [
+            "I won't rest",
+            2
+          ],
+          [
+            " until",
+            1
+          ],
+          [
+            " I've got you completely mapped out",
+            0
+          ]
+        ]
+      }
+    },
+    "46.30": {
+      "en": "say what you want — the real question is",
+      "align": {
+        "jp": [
+          [
+            "とやかく",
+            0
+          ],
+          [
+            "言ったって",
+            1
+          ],
+          [
+            "実際の問題は",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "とやかく",
+            0,
+            "this-that"
+          ],
+          [
+            "言っ",
+            1,
+            "say"
+          ],
+          [
+            "たって",
+            1,
+            "even-if"
+          ],
+          [
+            "実際",
+            2,
+            "real"
+          ],
+          [
+            "の",
+            2,
+            "(attr)"
+          ],
+          [
+            "問題",
+            2,
+            "problem"
+          ],
+          [
+            "は",
+            2,
+            "(topic)"
+          ]
+        ],
+        "en": [
+          [
+            "say",
+            1
+          ],
+          [
+            " what you want",
+            0
+          ],
+          [
+            " — the real question is",
+            2
+          ]
+        ]
+      }
+    },
+    "48.14": {
+      "en": "how much of your field of vision do I actually take up",
+      "align": {
+        "jp": [
+          [
+            "その眼中",
+            0
+          ],
+          [
+            "アタシ",
+            1
+          ],
+          [
+            "何割くらい",
+            2
+          ],
+          [
+            "担ってるか",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "その",
+            0,
+            "that"
+          ],
+          [
+            "眼中",
+            0,
+            "field of view"
+          ],
+          [
+            "アタシ",
+            1,
+            "I"
+          ],
+          [
+            "何",
+            2,
+            "what"
+          ],
+          [
+            "割",
+            2,
+            "tenth"
+          ],
+          [
+            "くらい",
+            2,
+            "about"
+          ],
+          [
+            "担っ",
+            3,
+            "carry"
+          ],
+          [
+            "てる",
+            3,
+            "(prog)"
+          ],
+          [
+            "か",
+            3,
+            "(q)"
+          ]
+        ],
+        "en": [
+          [
+            "how much of",
+            2
+          ],
+          [
+            " your field of vision",
+            0
+          ],
+          [
+            " do I",
+            1
+          ],
+          [
+            " actually take up",
+            3
+          ]
+        ]
+      }
+    },
+    "51.92": {
+      "en": "ah, stop hiding — just give me certainty",
+      "align": {
+        "jp": [
+          [
+            "嗚呼",
+            0
+          ],
+          [
+            "隠してないで",
+            1
+          ],
+          [
+            "確信を",
+            2
+          ],
+          [
+            "頂戴",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "嗚呼",
+            0,
+            "ah"
+          ],
+          [
+            "隠し",
+            1,
+            "hide"
+          ],
+          [
+            "て",
+            1,
+            "(link)"
+          ],
+          [
+            "ない",
+            1,
+            "(neg)"
+          ],
+          [
+            "で",
+            1,
+            "(imp)"
+          ],
+          [
+            "確信",
+            2,
+            "conviction"
+          ],
+          [
+            "を",
+            2,
+            "(obj)"
+          ],
+          [
+            "頂戴",
+            3,
+            "give-me"
+          ]
+        ],
+        "en": [
+          [
+            "ah,",
+            0
+          ],
+          [
+            " stop hiding",
+            1
+          ],
+          [
+            " — just give me",
+            3
+          ],
+          [
+            " certainty",
+            2
+          ]
+        ]
+      }
+    },
+    "54.87": {
+      "en": "and yet you stay silent, say nothing",
+      "align": {
+        "jp": [
+          [
+            "されど",
+            0
+          ],
+          [
+            "黙して",
+            1
+          ],
+          [
+            "語らず",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "されど",
+            0,
+            "and-yet"
+          ],
+          [
+            "黙し",
+            1,
+            "be silent"
+          ],
+          [
+            "て",
+            1,
+            "(link)"
+          ],
+          [
+            "語ら",
+            2,
+            "speak"
+          ],
+          [
+            "ず",
+            2,
+            "(not)"
+          ]
+        ],
+        "en": [
+          [
+            "and yet",
+            0
+          ],
+          [
+            " you stay silent",
+            1
+          ],
+          [
+            ", say nothing",
+            2
+          ]
+        ]
+      }
+    },
+    "58.02": {
+      "en": "a girlfriend so cute it's a problem",
+      "align": {
+        "jp": [
+          [
+            "困っちまう",
+            0
+          ],
+          [
+            "程に",
+            1
+          ],
+          [
+            "キュートな",
+            2
+          ],
+          [
+            "カノジョ",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "困っ",
+            0,
+            "troubled"
+          ],
+          [
+            "ちまう",
+            0,
+            "end-up"
+          ],
+          [
+            "程",
+            1,
+            "extent"
+          ],
+          [
+            "に",
+            1,
+            "to"
+          ],
+          [
+            "キュート",
+            2,
+            "cute"
+          ],
+          [
+            "な",
+            2,
+            "(adj)"
+          ],
+          [
+            "カノジョ",
+            3,
+            "girlfriend"
+          ]
+        ],
+        "en": [
+          [
+            "a girlfriend",
+            3
+          ],
+          [
+            " so",
+            1
+          ],
+          [
+            " cute",
+            2
+          ],
+          [
+            " it's a problem",
+            0
+          ]
+        ]
+      }
+    },
+    "61.03": {
+      "en": "lovely — exquisite — sweet",
+      "align": {
+        "jp": [
+          [
+            "容姿端麗",
+            0
+          ],
+          [
+            " 耽美",
+            1
+          ],
+          [
+            " 甘美",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "容姿",
+            0,
+            "appearance"
+          ],
+          [
+            "端麗",
+            0,
+            "beautiful"
+          ],
+          [
+            " 耽美",
+            1,
+            "aesthetic"
+          ],
+          [
+            " 甘美",
+            2,
+            "sweet"
+          ]
+        ],
+        "en": [
+          [
+            "lovely",
+            0
+          ],
+          [
+            " — exquisite",
+            1
+          ],
+          [
+            " — sweet",
+            2
+          ]
+        ]
+      }
+    },
+    "63.95": {
+      "en": "crying that you're selfish — such a chic little act",
+      "align": {
+        "jp": [
+          [
+            "身勝手だって",
+            0
+          ],
+          [
+            "泣く",
+            1
+          ],
+          [
+            "シックな素振り",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "身勝手",
+            0,
+            "selfish"
+          ],
+          [
+            "だって",
+            0,
+            "even-if"
+          ],
+          [
+            "泣く",
+            1,
+            "cry"
+          ],
+          [
+            "シック",
+            2,
+            "chic"
+          ],
+          [
+            "な",
+            2,
+            "(adj)"
+          ],
+          [
+            "素振り",
+            2,
+            "demeanor"
+          ]
+        ],
+        "en": [
+          [
+            "crying",
+            1
+          ],
+          [
+            " that you're selfish",
+            0
+          ],
+          [
+            " — such a chic little act",
+            2
+          ]
+        ]
+      }
+    },
+    "67.44": {
+      "en": "instantly intoxicated — graced by womanhood",
+      "align": {
+        "jp": [
+          [
+            "瞬時酩酊",
+            0
+          ],
+          [
+            " 女冥利",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "瞬時",
+            0,
+            "instant"
+          ],
+          [
+            "酩酊",
+            0,
+            "drunkenness"
+          ],
+          [
+            " 女",
+            1,
+            "woman"
+          ],
+          [
+            "冥利",
+            1,
+            "blessing"
+          ]
+        ],
+        "en": [
+          [
+            "instantly intoxicated",
+            0
+          ],
+          [
+            " — graced by womanhood",
+            1
+          ]
+        ]
+      }
+    },
+    "70.19": {
+      "en": "I've gone and fallen — and yet I've fallen all the same",
+      "align": {
+        "jp": [
+          [
+            "愛しちまうのさ",
+            0
+          ],
+          [
+            " されど",
+            1
+          ],
+          [
+            "愛しちまうのさ",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "愛し",
+            0,
+            "love"
+          ],
+          [
+            "ちまう",
+            0,
+            "end-up"
+          ],
+          [
+            "のさ",
+            0,
+            "(expl-assert)"
+          ],
+          [
+            " されど",
+            1,
+            "and-yet"
+          ],
+          [
+            "愛し",
+            2,
+            "love"
+          ],
+          [
+            "ちまう",
+            2,
+            "end-up"
+          ],
+          [
+            "のさ",
+            2,
+            "(expl-assert)"
+          ]
+        ],
+        "en": [
+          [
+            "I've gone and fallen",
+            0
+          ],
+          [
+            " — and yet",
+            1
+          ],
+          [
+            " I've fallen all the same",
+            2
+          ]
+        ]
+      }
+    },
+    "86.69": {
+      "en": "a pop elegy so catchy it devours the past",
+      "align": {
+        "jp": [
+          [
+            "過去を",
+            0
+          ],
+          [
+            "喰らう",
+            1
+          ],
+          [
+            "程に",
+            2
+          ],
+          [
+            "ポップな",
+            3
+          ],
+          [
+            "エレジー",
+            4
+          ]
+        ],
+        "gloss": [
+          [
+            "過去",
+            0,
+            "past"
+          ],
+          [
+            "を",
+            0,
+            "(obj)"
+          ],
+          [
+            "喰らう",
+            1,
+            "devour"
+          ],
+          [
+            "程",
+            2,
+            "extent"
+          ],
+          [
+            "に",
+            2,
+            "to"
+          ],
+          [
+            "ポップ",
+            3,
+            "pop"
+          ],
+          [
+            "な",
+            3,
+            "(adj)"
+          ],
+          [
+            "エレジー",
+            4,
+            "elegy"
+          ]
+        ],
+        "en": [
+          [
+            "a pop",
+            3
+          ],
+          [
+            " elegy",
+            4
+          ],
+          [
+            " so",
+            2
+          ],
+          [
+            " catchy",
+            3
+          ],
+          [
+            " it devours",
+            1
+          ],
+          [
+            " the past",
+            0
+          ]
+        ]
+      }
+    },
+    "89.70": {
+      "en": "ramen drifting out from the vent",
+      "align": {
+        "jp": [
+          [
+            "排気口から",
+            0
+          ],
+          [
+            "香る",
+            1
+          ],
+          [
+            "ラーメン",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "排気口",
+            0,
+            "exhaust vent"
+          ],
+          [
+            "から",
+            0,
+            "from"
+          ],
+          [
+            "香る",
+            1,
+            "drift/smell"
+          ],
+          [
+            "ラーメン",
+            2,
+            "ramen"
+          ]
+        ],
+        "en": [
+          [
+            "ramen",
+            2
+          ],
+          [
+            " drifting out",
+            1
+          ],
+          [
+            " from the vent",
+            0
+          ]
+        ]
+      }
+    },
+    "92.86": {
+      "en": "even a love that cheats and steals from me is fine",
+      "align": {
+        "jp": [
+          [
+            "騙し奪われる",
+            0
+          ],
+          [
+            "恋",
+            1
+          ],
+          [
+            "でもいいの",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "騙し",
+            0,
+            "deceive"
+          ],
+          [
+            "奪わ",
+            0,
+            "take"
+          ],
+          [
+            "れる",
+            0,
+            "(pass)"
+          ],
+          [
+            "恋",
+            1,
+            "love"
+          ],
+          [
+            "でも",
+            2,
+            "even-if"
+          ],
+          [
+            "いい",
+            2,
+            "fine"
+          ],
+          [
+            "の",
+            2,
+            "(expl)"
+          ]
+        ],
+        "en": [
+          [
+            "even",
+            2
+          ],
+          [
+            " a love",
+            1
+          ],
+          [
+            " that cheats and steals from me",
+            0
+          ],
+          [
+            " is fine",
+            2
+          ]
+        ]
+      }
+    },
+    "95.76": {
+      "en": "because this voice of mine —",
+      "align": {
+        "jp": [
+          [
+            "だって",
+            0
+          ],
+          [
+            "この声は",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "だって",
+            0,
+            "because"
+          ],
+          [
+            "この",
+            1,
+            "this"
+          ],
+          [
+            "声",
+            1,
+            "voice"
+          ],
+          [
+            "は",
+            1,
+            "(topic)"
+          ]
+        ],
+        "en": [
+          [
+            "because",
+            0
+          ],
+          [
+            " this voice of mine",
+            1
+          ],
+          [
+            " —",
+            1
+          ]
+        ]
+      }
+    },
+    "98.94": {
+      "en": "a girlfriend so cute it makes you laugh",
+      "align": {
+        "jp": [
+          [
+            "笑っちまう",
+            0
+          ],
+          [
+            "程に",
+            1
+          ],
+          [
+            "キュートな",
+            2
+          ],
+          [
+            "カノジョ",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "笑っ",
+            0,
+            "laugh"
+          ],
+          [
+            "ちまう",
+            0,
+            "end-up"
+          ],
+          [
+            "程",
+            1,
+            "extent"
+          ],
+          [
+            "に",
+            1,
+            "to"
+          ],
+          [
+            "キュート",
+            2,
+            "cute"
+          ],
+          [
+            "な",
+            2,
+            "(adj)"
+          ],
+          [
+            "カノジョ",
+            3,
+            "girlfriend"
+          ]
+        ],
+        "en": [
+          [
+            "a girlfriend",
+            3
+          ],
+          [
+            " so",
+            1
+          ],
+          [
+            " cute",
+            2
+          ],
+          [
+            " it makes you laugh",
+            0
+          ]
+        ]
+      }
+    },
+    "101.84": {
+      "en": "always wild — unhinged — short-fused",
+      "align": {
+        "jp": [
+          [
+            "常時",
+            0
+          ],
+          [
+            "奔放",
+            1
+          ],
+          [
+            " 狂気",
+            2
+          ],
+          [
+            " 短気",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "常時",
+            0,
+            "always"
+          ],
+          [
+            "奔放",
+            1,
+            "uninhibited"
+          ],
+          [
+            " 狂気",
+            2,
+            "madness"
+          ],
+          [
+            " 短気",
+            3,
+            "short-tempered"
+          ]
+        ],
+        "en": [
+          [
+            "always",
+            0
+          ],
+          [
+            " wild",
+            1
+          ],
+          [
+            " — unhinged",
+            2
+          ],
+          [
+            " — short-fused",
+            3
+          ]
+        ]
+      }
+    },
+    "104.55": {
+      "en": "even mid-tantrum, one look from you and I'm done",
+      "align": {
+        "jp": [
+          [
+            "怒鳴ってたって",
+            0
+          ],
+          [
+            "目が合って",
+            1
+          ],
+          [
+            "一撃",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "怒鳴っ",
+            0,
+            "shout"
+          ],
+          [
+            "て",
+            0,
+            "(link)"
+          ],
+          [
+            "た",
+            0,
+            "(past)"
+          ],
+          [
+            "って",
+            0,
+            "even-if"
+          ],
+          [
+            "目",
+            1,
+            "eyes"
+          ],
+          [
+            "が",
+            1,
+            "(subj)"
+          ],
+          [
+            "合っ",
+            1,
+            "meet"
+          ],
+          [
+            "て",
+            1,
+            "(link)"
+          ],
+          [
+            "一撃",
+            2,
+            "one hit"
+          ]
+        ],
+        "en": [
+          [
+            "even mid-tantrum",
+            0
+          ],
+          [
+            ", one look from you",
+            1
+          ],
+          [
+            " and I'm done",
+            2
+          ]
+        ]
+      }
+    },
+    "107.73": {
+      "en": "brainwashing complete — I'm good at being a woman",
+      "align": {
+        "jp": [
+          [
+            "洗脳完了",
+            0
+          ],
+          [
+            " 女上手",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "洗脳",
+            0,
+            "brainwashing"
+          ],
+          [
+            "完了",
+            0,
+            "complete"
+          ],
+          [
+            " 女",
+            1,
+            "woman"
+          ],
+          [
+            "上手",
+            1,
+            "skilled"
+          ]
+        ],
+        "en": [
+          [
+            "brainwashing complete",
+            0
+          ],
+          [
+            " — I'm good at being a woman",
+            1
+          ]
+        ]
+      }
+    },
+    "110.77": {
+      "en": "a girlfriend so cute it's a problem",
+      "align": {
+        "jp": [
+          [
+            "困っちまう",
+            0
+          ],
+          [
+            "程に",
+            1
+          ],
+          [
+            "キュートな",
+            2
+          ],
+          [
+            "カノジョ",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "困っ",
+            0,
+            "troubled"
+          ],
+          [
+            "ちまう",
+            0,
+            "end-up"
+          ],
+          [
+            "程",
+            1,
+            "extent"
+          ],
+          [
+            "に",
+            1,
+            "to"
+          ],
+          [
+            "キュート",
+            2,
+            "cute"
+          ],
+          [
+            "な",
+            2,
+            "(adj)"
+          ],
+          [
+            "カノジョ",
+            3,
+            "girlfriend"
+          ]
+        ],
+        "en": [
+          [
+            "a girlfriend",
+            3
+          ],
+          [
+            " so",
+            1
+          ],
+          [
+            " cute",
+            2
+          ],
+          [
+            " it's a problem",
+            0
+          ]
+        ]
+      }
+    },
+    "114.19": {
+      "en": "lovely — exquisite — sweet",
+      "align": {
+        "jp": [
+          [
+            "容姿端麗",
+            0
+          ],
+          [
+            " 耽美",
+            1
+          ],
+          [
+            " 甘美",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "容姿",
+            0,
+            "appearance"
+          ],
+          [
+            "端麗",
+            0,
+            "beautiful"
+          ],
+          [
+            " 耽美",
+            1,
+            "aesthetic"
+          ],
+          [
+            " 甘美",
+            2,
+            "sweet"
+          ]
+        ],
+        "en": [
+          [
+            "lovely",
+            0
+          ],
+          [
+            " — exquisite",
+            1
+          ],
+          [
+            " — sweet",
+            2
+          ]
+        ]
+      }
+    },
+    "116.51": {
+      "en": "crying that you're selfish — such a chic little act",
+      "align": {
+        "jp": [
+          [
+            "身勝手だって",
+            0
+          ],
+          [
+            "泣く",
+            1
+          ],
+          [
+            "シックな素振り",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "身勝手",
+            0,
+            "selfish"
+          ],
+          [
+            "だって",
+            0,
+            "even-if"
+          ],
+          [
+            "泣く",
+            1,
+            "cry"
+          ],
+          [
+            "シック",
+            2,
+            "chic"
+          ],
+          [
+            "な",
+            2,
+            "(adj)"
+          ],
+          [
+            "素振り",
+            2,
+            "demeanor"
+          ]
+        ],
+        "en": [
+          [
+            "crying",
+            1
+          ],
+          [
+            " that you're selfish",
+            0
+          ],
+          [
+            " — such a chic little act",
+            2
+          ]
+        ]
+      }
+    },
+    "119.74": {
+      "en": "instantly intoxicated — graced by womanhood",
+      "align": {
+        "jp": [
+          [
+            "瞬時酩酊",
+            0
+          ],
+          [
+            " 女冥利",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "瞬時",
+            0,
+            "instant"
+          ],
+          [
+            "酩酊",
+            0,
+            "drunkenness"
+          ],
+          [
+            " 女",
+            1,
+            "woman"
+          ],
+          [
+            "冥利",
+            1,
+            "blessing"
+          ]
+        ],
+        "en": [
+          [
+            "instantly intoxicated",
+            0
+          ],
+          [
+            " — graced by womanhood",
+            1
+          ]
+        ]
+      }
+    },
+    "122.70": {
+      "en": "I love him — I love him so fiercely",
+      "align": {
+        "jp": [
+          [
+            "愛していんのさ",
+            0
+          ],
+          [
+            " 強く",
+            1
+          ],
+          [
+            "愛していんのさ",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "愛し",
+            0,
+            "love"
+          ],
+          [
+            "てい",
+            0,
+            "(prog)"
+          ],
+          [
+            "ん",
+            0,
+            "(expl)"
+          ],
+          [
+            "のさ",
+            0,
+            "(assert)"
+          ],
+          [
+            " 強く",
+            1,
+            "strongly"
+          ],
+          [
+            "愛し",
+            2,
+            "love"
+          ],
+          [
+            "てい",
+            2,
+            "(prog)"
+          ],
+          [
+            "ん",
+            2,
+            "(expl)"
+          ],
+          [
+            "のさ",
+            2,
+            "(assert)"
+          ]
+        ],
+        "en": [
+          [
+            "I love him",
+            0
+          ],
+          [
+            " — I love him",
+            2
+          ],
+          [
+            " so fiercely",
+            1
+          ]
+        ]
+      }
+    }
+  }
+}
