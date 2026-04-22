@@ -1,0 +1,367 @@
+{
+  "9999001": {
+    "6.00": "La la la…",
+    "14.00": {
+      "en": "My first love began to bud",
+      "align": {
+        "jp":    [["初めての", 0], ["恋が", 1], ["芽吹いた", 2]],
+        "gloss": [["初めて", 0, "first"], ["の", 0, "(attr)"], ["恋", 1, "love"], ["が", 1, "(subj)"], ["芽吹い", 2, "bud"], ["た", 2, "(past)"]],
+        "en":    [["My first", 0], [" love", 1], [" began to bud", 2]]
+      }
+    },
+    "16.74": {
+      "en": "heart and body swaying in pale light",
+      "align": {
+        "jp":    [["淡く", 0], ["ゆれる", 1], ["ココロと", 2], ["カラダ", 3]],
+        "gloss": [["淡く", 0, "palely"], ["ゆれる", 1, "sway"], ["ココロ", 2, "heart"], ["と", 2, "and"], ["カラダ", 3, "body"]],
+        "en":    [["heart", 2], [" and body", 3], [" swaying", 1], [" in pale light", 0]]
+      }
+    },
+    "20.00": {
+      "en": "a green, sweet season",
+      "align": {
+        "jp":    [["青くて", 0], ["スウィートな", 1], ["季節", 2]],
+        "gloss": [["青く", 0, "green"], ["て", 0, "(and)"], ["スウィート", 1, "sweet"], ["な", 1, "(attr)"], ["季節", 2, "season"]],
+        "en":    [["a green,", 0], [" sweet", 1], [" season", 2]]
+      }
+    },
+    "23.50": {
+      "en": "spilling over with honey citron",
+      "align": {
+        "jp":    [["あふれ出した", 0], ["ハニーシトロン", 1]],
+        "gloss": [["あふれ出し", 0, "overflow"], ["た", 0, "(past)"], ["ハニーシトロン", 1, "honey citron"]],
+        "en":    [["spilling over with", 0], [" honey citron", 1]]
+      }
+    },
+    "27.36": {
+      "en": "quit pretending you haven't noticed",
+      "align": {
+        "jp":    [["気づかない", 0], ["ふりは", 1], ["やめてよ", 2]],
+        "gloss": [["気づか", 0, "notice"], ["ない", 0, "(neg)"], ["ふり", 1, "pretense"], ["は", 1, "(topic)"], ["やめて", 2, "stop"], ["よ", 2, "(emph)"]],
+        "en":    [["quit", 2], [" pretending", 1], [" you haven't noticed", 0]]
+      }
+    },
+    "30.54": {
+      "en": "my milk-tea-kid days are over",
+      "align": {
+        "jp":    [["ミルクティーンは", 0], ["もう", 1], ["おしまい", 2]],
+        "gloss": [["ミルクティーン", 0, "milk-teen"], ["は", 0, "(topic)"], ["もう", 1, "already"], ["おしまい", 2, "the end"]],
+        "en":    [["my milk-tea-kid days", 0], [" are", 2], [" over", 1]]
+      }
+    },
+    "34.46": {
+      "en": "even playing house, I want to know",
+      "align": {
+        "jp":    [["ままごとでも", 0], ["知りたいの", 1]],
+        "gloss": [["ままごと", 0, "playing house"], ["でも", 0, "even"], ["知り", 1, "know"], ["たい", 1, "(want)"], ["の", 1, "(emph)"]],
+        "en":    [["even playing house,", 0], [" I want to know", 1]]
+      }
+    },
+    "37.88": {
+      "en": "half of you isn't enough anymore",
+      "align": {
+        "jp":    [["半分だけじゃ", 0], ["もう", 1], ["足りない", 2]],
+        "gloss": [["半分", 0, "half"], ["だけ", 0, "only"], ["じゃ", 0, "(w/)"], ["もう", 1, "anymore"], ["足り", 2, "suffice"], ["ない", 2, "(neg)"]],
+        "en":    [["half of you", 0], [" isn't enough", 2], [" anymore", 1]]
+      }
+    },
+    "41.54": {
+      "en": "ah, the hunch and the answer are still blank pages",
+      "align": {
+        "jp":    [["あぁ ", 0], ["予感も", 1], ["答えも", 2], ["まだ", 3], ["真っ白なままで", 4]],
+        "gloss": [["あぁ", 0, "ah"], [" ", 0, ""], ["予感", 1, "hunch"], ["も", 1, "also"], ["答え", 2, "answer"], ["も", 2, "also"], ["まだ", 3, "still"], ["真っ白", 4, "pure white"], ["な", 4, "(attr)"], ["まま", 4, "as is"], ["で", 4, "(cop)"]],
+        "en":    [["ah,", 0], [" the hunch", 1], [" and the answer", 2], [" are", 4], [" still", 3], [" blank pages", 4]]
+      }
+    },
+    "49.18": {
+      "en": "I'll stretch up on my toes",
+      "align": {
+        "jp":    [["背のびして", 0], ["みるよ", 1]],
+        "gloss": [["背のび", 0, "stretching up"], ["して", 0, "do"], ["みる", 1, "(try)"], ["よ", 1, "(emph)"]],
+        "en":    [["I'll", 1], [" stretch up on my toes", 0]]
+      }
+    },
+    "51.78": {
+      "en": "because I want to get closer",
+      "align": {
+        "jp":    [["だって", 0], ["もっと", 1], ["近づきたい", 2]],
+        "gloss": [["だって", 0, "because"], ["もっと", 1, "more"], ["近づき", 2, "get close"], ["たい", 2, "(want)"]],
+        "en":    [["because", 0], [" I want to get", 2], [" closer", 1]]
+      }
+    },
+    "55.72": {
+      "en": "hazy, and I can't sort it out",
+      "align": {
+        "jp":    [["曖昧で", 0], ["割り切れない", 1]],
+        "gloss": [["曖昧", 0, "hazy"], ["で", 0, "(and)"], ["割り切れ", 1, "divide out"], ["ない", 1, "(neg)"]],
+        "en":    [["hazy,", 0], [" and I can't sort it out", 1]]
+      }
+    },
+    "57.88": {
+      "en": "your mixed signals keep me on edge",
+      "align": {
+        "jp":    [["君の", 0], ["態度に", 1], ["やきもきしては", 2]],
+        "gloss": [["君", 0, "you"], ["の", 0, "(poss)"], ["態度", 1, "attitude"], ["に", 1, "(at)"], ["やきもきして", 2, "fret"], ["は", 2, "(iter)"]],
+        "en":    [["your", 0], [" mixed signals", 1], [" keep me on edge", 2]]
+      }
+    },
+    "62.16": {
+      "en": "I can't just switch this off",
+      "align": {
+        "jp":    [["簡単に", 0], ["止められない", 1]],
+        "gloss": [["簡単", 0, "easy"], ["に", 0, "(adv)"], ["止められ", 1, "can stop"], ["ない", 1, "(neg)"]],
+        "en":    [["I can't just", 0], [" switch this off", 1]]
+      }
+    },
+    "64.72": {
+      "en": "even between blinks, miss you",
+      "align": {
+        "jp":    [["瞬きの", 0], ["隙間さえ", 1], [" miss you", 2]],
+        "gloss": [["瞬き", 0, "blink"], ["の", 0, "(attr)"], ["隙間", 1, "gap"], ["さえ", 1, "even"], [" miss you", 2, ""]],
+        "en":    [["even", 1], [" between blinks,", 0], [" miss you", 2]]
+      }
+    },
+    "68.90": {
+      "en": "I do want to make you look my way",
+      "align": {
+        "jp":    [["やっぱ", 0], ["振り向かせたい", 1]],
+        "gloss": [["やっぱ", 0, "after all"], ["振り向かせ", 1, "make turn"], ["たい", 1, "(want)"]],
+        "en":    [["I do", 0], [" want to make you look my way", 1]]
+      }
+    },
+    "71.56": {
+      "en": "I swear it again today in the mirror",
+      "align": {
+        "jp":    [["今日も", 0], ["誓う", 1], ["鏡の", 2], ["奥で", 3]],
+        "gloss": [["今日", 0, "today"], ["も", 0, "also"], ["誓う", 1, "swear"], ["鏡", 2, "mirror"], ["の", 2, "(attr)"], ["奥", 3, "deep inside"], ["で", 3, "(at)"]],
+        "en":    [["I swear it", 1], [" again today", 0], [" in the", 3], [" mirror", 2]]
+      }
+    },
+    "75.90": {
+      "en": "just aching enough to hurt",
+      "align": {
+        "jp":    [["ちょっと", 0], ["切ない", 1], ["くらい", 2]],
+        "gloss": [["ちょっと", 0, "a little"], ["切ない", 1, "aching"], ["くらい", 2, "to the extent"]],
+        "en":    [["just", 0], [" aching", 1], [" enough to hurt", 2]]
+      }
+    },
+    "79.56": {
+      "en": "over and over, I dream of you",
+      "align": {
+        "jp":    [["何度だって", 0], ["君を", 1], ["夢見てる", 2]],
+        "gloss": [["何度", 0, "how many times"], ["だって", 0, "no matter"], ["君", 1, "you"], ["を", 1, "(obj)"], ["夢見", 2, "dream"], ["て", 2, "(prog aux)"], ["る", 2, "(cont)"]],
+        "en":    [["over and over,", 0], [" I dream of", 2], [" you", 1]]
+      }
+    },
+    "83.22": {
+      "en": "even a few millimeters of distance",
+      "align": {
+        "jp":    [["ほんの", 0], ["数ミリの", 1], ["距離さえ", 2]],
+        "gloss": [["ほんの", 0, "mere"], ["数ミリ", 1, "few millimeters"], ["の", 1, "(attr)"], ["距離", 2, "distance"], ["さえ", 2, "even"]],
+        "en":    [["even", 2], [" a", 0], [" few millimeters", 1], [" of distance", 2]]
+      }
+    },
+    "89.44": {
+      "en": "feels like forever from here",
+      "align": {
+        "jp":    [["ここでは", 0], ["きっと", 1], ["永遠だね", 2]],
+        "gloss": [["ここ", 0, "here"], ["で", 0, "(at)"], ["は", 0, "(topic)"], ["きっと", 1, "surely"], ["永遠", 2, "forever"], ["だ", 2, "(cop)"], ["ね", 2, "(tag)"]],
+        "en":    [["feels like", 1], [" forever", 2], [" from here", 0]]
+      }
+    },
+    "95.66": {
+      "en": "sweet and bitter, it sears my chest",
+      "align": {
+        "jp":    [["甘く", 0], ["苦く", 1], ["胸を", 2], ["焦がす", 3]],
+        "gloss": [["甘く", 0, "sweetly"], ["苦く", 1, "bitterly"], ["胸", 2, "chest"], ["を", 2, "(obj)"], ["焦がす", 3, "sear"]],
+        "en":    [["sweet", 0], [" and bitter,", 1], [" it sears", 3], [" my chest", 2]]
+      }
+    },
+    "99.23": {
+      "en": "it's just like magic",
+      "align": {
+        "jp":    [["それは", 0], ["まるで", 1], ["魔法みたい", 2]],
+        "gloss": [["それ", 0, "that"], ["は", 0, "(topic)"], ["まるで", 1, "just like"], ["魔法", 2, "magic"], ["みたい", 2, "seems"]],
+        "en":    [["it's", 0], [" just like", 1], [" magic", 2]]
+      }
+    },
+    "102.80": {
+      "en": "ah, every gesture, every word still lifts and sinks me",
+      "align": {
+        "jp":    [["あぁ ", 0], ["仕草に", 1], ["言葉に", 2], ["まだ", 3], ["一喜一憂で", 4]],
+        "gloss": [["あぁ", 0, "ah"], [" ", 0, ""], ["仕草", 1, "gesture"], ["に", 1, "(at)"], ["言葉", 2, "word"], ["に", 2, "(at)"], ["まだ", 3, "still"], ["一喜一憂", 4, "alternating joy and grief"], ["で", 4, "(cop)"]],
+        "en":    [["ah,", 0], [" every gesture,", 1], [" every word", 2], [" still", 3], [" lifts and sinks me", 4]]
+      }
+    },
+    "108.50": {
+      "en": "swaying at every little thing",
+      "align": {
+        "jp":    [["なびく", 0], ["エトセトラ", 1]],
+        "gloss": [["なびく", 0, "sway"], ["エトセトラ", 1, "etcetera"]],
+        "en":    [["swaying", 0], [" at every little thing", 1]]
+      }
+    },
+    "113.32": {
+      "en": "because I want to stay closer still",
+      "align": {
+        "jp":    [["だって", 0], ["もっと", 1], ["そばに", 2], ["いたい", 3]],
+        "gloss": [["だって", 0, "because"], ["もっと", 1, "more"], ["そば", 2, "near"], ["に", 2, "(at)"], ["い", 3, "be"], ["たい", 3, "(want)"]],
+        "en":    [["because", 0], [" I want to stay", 3], [" closer", 2], [" still", 1]]
+      }
+    },
+    "117.50": {
+      "en": "it won't divide out so simply",
+      "align": {
+        "jp":    [["単純に", 0], ["割り切れない", 1]],
+        "gloss": [["単純", 0, "simple"], ["に", 0, "(adv)"], ["割り切れ", 1, "divide out"], ["ない", 1, "(neg)"]],
+        "en":    [["it won't divide out", 1], [" so simply", 0]]
+      }
+    },
+    "120.50": {
+      "en": "love's riddles leave me dizzy",
+      "align": {
+        "jp":    [["恋の", 0], ["難問に", 1], ["くらくらしては", 2]],
+        "gloss": [["恋", 0, "love"], ["の", 0, "(poss)"], ["難問", 1, "riddle"], ["に", 1, "(at)"], ["くらくらして", 2, "feel dizzy"], ["は", 2, "(iter)"]],
+        "en":    [["love's", 0], [" riddles", 1], [" leave me dizzy", 2]]
+      }
+    },
+    "123.82": {
+      "en": "almost enough to make me cry",
+      "align": {
+        "jp":    [["ちょっと", 0], ["泣いちゃう", 1], ["くらい", 2]],
+        "gloss": [["ちょっと", 0, "a little"], ["泣い", 1, "cry"], ["ちゃう", 1, "(end up)"], ["くらい", 2, "to the extent"]],
+        "en":    [["almost", 0], [" enough to", 2], [" make me cry", 1]]
+      }
+    },
+    "127.70": {
+      "en": "over and over, I dream of you",
+      "align": {
+        "jp":    [["何度だって", 0], ["君を", 1], ["夢見てる", 2]],
+        "gloss": [["何度", 0, "how many times"], ["だって", 0, "no matter"], ["君", 1, "you"], ["を", 1, "(obj)"], ["夢見", 2, "dream"], ["て", 2, "(prog aux)"], ["る", 2, "(cont)"]],
+        "en":    [["over and over,", 0], [" I dream of", 2], [" you", 1]]
+      }
+    },
+    "131.60": {
+      "en": "no room left to play grown-up",
+      "align": {
+        "jp":    [["オトナぶる", 0], ["余裕も", 1]],
+        "gloss": [["オトナ", 0, "grown-up"], ["ぶる", 0, "act like"], ["余裕", 1, "room"], ["も", 1, "(nor)"]],
+        "en":    [["no room left", 1], [" to play grown-up", 0]]
+      }
+    },
+    "134.70": {
+      "en": "but I'm not innocent anymore either",
+      "align": {
+        "jp":    [["無垢な", 0], ["ままでも", 1], ["ない", 2]],
+        "gloss": [["無垢", 0, "innocent"], ["な", 0, "(attr)"], ["まま", 1, "as is"], ["でも", 1, "(nor)"], ["ない", 2, "(neg)"]],
+        "en":    [["but I'm", 1], [" not", 2], [" innocent", 0], [" anymore either", 1]]
+      }
+    },
+    "137.82": {
+      "en": "even lost, even unsure",
+      "align": {
+        "jp":    [["迷いながらも", 0], ["ただ", 1]],
+        "gloss": [["迷い", 0, "be lost"], ["ながら", 0, "while"], ["も", 0, "even"], ["ただ", 1, "simply"]],
+        "en":    [["even lost,", 0], [" even unsure", 1]]
+      }
+    },
+    "141.20": {
+      "en": "we're reaching out our hands",
+      "align": {
+        "jp":    [["僕らは", 0], ["手を", 1], ["のばす", 2]],
+        "gloss": [["僕ら", 0, "we"], ["は", 0, "(topic)"], ["手", 1, "hand"], ["を", 1, "(obj)"], ["のばす", 2, "reach out"]],
+        "en":    [["we're", 0], [" reaching out", 2], [" our hands", 1]]
+      }
+    },
+    "149.00": {
+      "en": "love is endless, impossible — and yet",
+      "align": {
+        "jp":    [["愛なんて", 0], ["途方も無い", 1], [" だけど", 2]],
+        "gloss": [["愛", 0, "love"], ["なんて", 0, "(things like)"], ["途方も無い", 1, "boundless"], [" ", 2, ""], ["だけど", 2, "and yet"]],
+        "en":    [["love is", 0], [" endless, impossible", 1], [" — and yet", 2]]
+      }
+    },
+    "167.16": {
+      "en": "no matter what, I can't look away",
+      "align": {
+        "jp":    [["どうやっても", 0], ["そらせない", 1]],
+        "gloss": [["どうやって", 0, "however"], ["も", 0, "even"], ["そらせ", 1, "avert"], ["ない", 1, "(neg)"]],
+        "en":    [["no matter what,", 0], [" I can't look away", 1]]
+      }
+    },
+    "171.48": {
+      "en": "wherever I am, I'm looking for you",
+      "align": {
+        "jp":    [["どこに", 0], ["居たって", 1], ["君を", 2], ["探すの", 3]],
+        "gloss": [["どこ", 0, "where"], ["に", 0, "(at)"], ["居", 1, "be"], ["たって", 1, "even if"], ["君", 2, "you"], ["を", 2, "(obj)"], ["探す", 3, "look for"], ["の", 3, "(emph)"]],
+        "en":    [["wherever", 0], [" I am,", 1], [" I'm looking for", 3], [" you", 2]]
+      }
+    },
+    "173.82": {
+      "en": "hazy, and I can't sort it out",
+      "align": {
+        "jp":    [["曖昧で", 0], ["割り切れない", 1]],
+        "gloss": [["曖昧", 0, "hazy"], ["で", 0, "(and)"], ["割り切れ", 1, "divide out"], ["ない", 1, "(neg)"]],
+        "en":    [["hazy,", 0], [" and I can't sort it out", 1]]
+      }
+    },
+    "177.16": {
+      "en": "your mixed signals keep me on edge",
+      "align": {
+        "jp":    [["君の", 0], ["態度に", 1], ["やきもきしては", 2]],
+        "gloss": [["君", 0, "you"], ["の", 0, "(poss)"], ["態度", 1, "attitude"], ["に", 1, "(at)"], ["やきもきして", 2, "fret"], ["は", 2, "(iter)"]],
+        "en":    [["your", 0], [" mixed signals", 1], [" keep me on edge", 2]]
+      }
+    },
+    "180.58": {
+      "en": "I can't just switch this off",
+      "align": {
+        "jp":    [["簡単に", 0], ["止められない", 1]],
+        "gloss": [["簡単", 0, "easy"], ["に", 0, "(adv)"], ["止められ", 1, "can stop"], ["ない", 1, "(neg)"]],
+        "en":    [["I can't just", 0], [" switch this off", 1]]
+      }
+    },
+    "183.06": {
+      "en": "even between blinks, miss you",
+      "align": {
+        "jp":    [["瞬きの", 0], ["隙間さえ", 1], [" miss you", 2]],
+        "gloss": [["瞬き", 0, "blink"], ["の", 0, "(attr)"], ["隙間", 1, "gap"], ["さえ", 1, "even"], [" miss you", 2, ""]],
+        "en":    [["even", 1], [" between blinks,", 0], [" miss you", 2]]
+      }
+    },
+    "187.48": {
+      "en": "I do want to make you look my way",
+      "align": {
+        "jp":    [["やっぱ", 0], ["振り向かせたい", 1]],
+        "gloss": [["やっぱ", 0, "after all"], ["振り向かせ", 1, "make turn"], ["たい", 1, "(want)"]],
+        "en":    [["I do", 0], [" want to make you look my way", 1]]
+      }
+    },
+    "189.88": {
+      "en": "I swear it again today in the mirror",
+      "align": {
+        "jp":    [["今日も", 0], ["誓う", 1], ["鏡の", 2], ["奥で", 3]],
+        "gloss": [["今日", 0, "today"], ["も", 0, "also"], ["誓う", 1, "swear"], ["鏡", 2, "mirror"], ["の", 2, "(attr)"], ["奥", 3, "deep inside"], ["で", 3, "(at)"]],
+        "en":    [["I swear it", 1], [" again today", 0], [" in the", 3], [" mirror", 2]]
+      }
+    },
+    "194.32": {
+      "en": "just aching enough to hurt",
+      "align": {
+        "jp":    [["ちょっと", 0], ["切ない", 1], ["くらい", 2]],
+        "gloss": [["ちょっと", 0, "a little"], ["切ない", 1, "aching"], ["くらい", 2, "to the extent"]],
+        "en":    [["just", 0], [" aching", 1], [" enough to hurt", 2]]
+      }
+    },
+    "197.80": {
+      "en": "over and over, I dream of you",
+      "align": {
+        "jp":    [["何度だって", 0], ["君を", 1], ["夢見てる", 2]],
+        "gloss": [["何度", 0, "how many times"], ["だって", 0, "no matter"], ["君", 1, "you"], ["を", 1, "(obj)"], ["夢見", 2, "dream"], ["て", 2, "(prog aux)"], ["る", 2, "(cont)"]],
+        "en":    [["over and over,", 0], [" I dream of", 2], [" you", 1]]
+      }
+    },
+    "205.00": "La la la…",
+    "212.00": "La la la…"
+  }
+}
