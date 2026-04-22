@@ -156,8 +156,6 @@
   const style = document.createElement('style');
   style.id = 'ko-style';
   style.textContent = `
-    #claude-agent-glow-border { display: none !important; }
-
     /* ==== LOCKED PLUMBING ===================================================*/
     #karaoke-root {
       position: fixed; inset: 0;
