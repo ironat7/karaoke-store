@@ -1,111 +1,154 @@
 // ============================================================================
-// KARAOKE OVERLAY — FUWAMOCO × "Let Me Be With You" (Chobits OP cover MV)
+// KARAOKE OVERLAY — FUWAMOCO × "Let Me Be With You" (Chobits OP cover)
 // ----------------------------------------------------------------------------
-// Design: pressed-flower scrapbook memory-book.  Victorian polaroid card with
-// ornate corner filigree, pink washi-tape, handwritten cursive title.  Twin
-// ribbon frame around the lyric zone — Mococo pink on the left edge, Fuwawa
-// blue on the right — echoing the MV's pink/blue twin-card motif.  Behind
-// the lyrics, SVG sakura petals drift diagonally on staggered keyframe paths.
-// When the English hook "Let Me Be With You" renders as an active line, it
-// reflows in a Great Vibes cursive script as a nod to the song's title card.
+// Aesthetic: digital merch product-listing card, lifted from the MV's own
+// burned-in shop-UI graphic at ~0:08 — hot-pink capsule labels ("MOCOCO",
+// "LET ME BE WITH YOU") with a row of three icon-buttons (bag / heart / tag)
+// sitting alongside an illustrated portrait. The overlay reads like a
+// product card on an online store that happens to be selling the song.
+// Pink (Mococo) + blue (Fuwawa) is the single defining visual of the duo,
+// so the card is built as a dual-palette split: cream base washes to soft
+// pink on the left and soft blue on the right, edges trimmed in hot-pink
+// and hot-blue piping.
+//
+// Signature: TWIN HEARTS sliding along a track at the card's bottom edge.
+// A pink Mococo-heart starts at the left tip of the track; a blue Fuwawa-
+// heart starts at the right tip. As the song plays, --ko-progress drives
+// both hearts toward center. At 100% they meet — literally "let me be with
+// you." Each heart beats independently (1.1s cycle, slight phase offset)
+// and their drop-shadow and fill deepen as they close in, via color-mix().
+// The track beneath them is a dashed gradient that solidifies over the
+// region the hearts have already crossed, so the progress bar reads from
+// the outside in, not left-to-right like every other progress bar.
+//
+// Corner decorations: top-right carries the shop-UI icon row (bag, heart,
+// tag) straight from the MV frame, as micro 18px pill buttons. A small
+// daisy sticker sits top-left (hand-placed, tilted -7deg). Bottom-left
+// carries the "CHOBITS OP · 2002" credit like a vinyl side-label; bottom-
+// right leaves room for the hearts to meet.
+//
+// Line changes are motionless (text swaps in place). The card is alive
+// through the twin hearts' inward travel, the ripen on the hearts, and
+// the empty-state collapse between lines — nothing else.
 // ============================================================================
 
 (() => {
 
+  // ==========================================================================
+  // THEME
+  // ==========================================================================
   const THEME = {
-    streamTag:       'FUWAMOCO × CHOBITS',
-    crestSymbol:     '❀',
-    streamTitle:     'Let Me<br>Be With You',
-    streamSubtitle:  'Round Table feat. Nino · cover',
-    setlistTabIcon:  '❀',
-    plainTag:        'Full Lyrics',
-    plainSubtitle:   'untimed · scroll',
-    plainTabIcon:    '♫',
+    trackTag:   'LET ME BE WITH YOU',
+    brandTag:   'FUWAMOCO',
+    creditTag:  'CHOBITS OP · 2002',
 
-    fontsHref: 'https://fonts.googleapis.com/css2?family=Great+Vibes&family=Parisienne&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Zen+Maru+Gothic:wght@500;700;900&family=Shippori+Mincho:wght@500;700&family=Manrope:wght@500;600;700;800&family=Italiana&display=swap',
-    fontDisplay: '"Playfair Display", serif',
-    fontBody:    '"Manrope", sans-serif',
-    fontSerif:   '"Parisienne", "Playfair Display", serif',
-    fontJP:      '"Zen Maru Gothic", "Shippori Mincho", serif',
+    fontsHref:
+      'https://fonts.googleapis.com/css2?' +
+      'family=Bagel+Fat+One&' +
+      'family=Quicksand:wght@500;600;700&' +
+      'family=Manrope:wght@600;700;800&' +
+      'family=Zen+Maru+Gothic:wght@500;700&' +
+      'family=Zen+Kaku+Gothic+New:wght@500;700&' +
+      'display=swap',
+    fontJP:       '"Zen Maru Gothic", sans-serif',
+    fontEN:       '"Quicksand", system-ui, sans-serif',
+    fontHook:     '"Bagel Fat One", "Quicksand", sans-serif',
+    fontUi:       '"Manrope", system-ui, sans-serif',
+    fontGloss:    '"Zen Kaku Gothic New", sans-serif',
 
-    cream:      '#fef7ed',
-    accent:     '#f4a0b8',
-    accentDeep: '#d9748f',
-    accentInk:  '#8e3a55',
-    ink:        '#4a2c3a',
-    inkSoft:    '#7f5b6d',
-    gold:       '#caa368',
+    // MV palette — drawn directly from the frames I studied.
+    // Two main hues: Mococo pink, Fuwawa blue. Neutrals: cream, paper, ink.
+    // Pink/blue pairs come at light → mid → bold → deep so every motif can
+    // pick the intensity it needs without defaulting to a single tone.
+    pinkLight:  '#FFE4EC',
+    pinkMid:    '#FFA9C5',
+    pinkBold:   '#FF6FA3',
+    pinkDeep:   '#D94B85',
 
-    panelBackground: `
-      radial-gradient(ellipse 100% 55% at 50% 0%, rgba(255,221,232,0.55), transparent 55%),
-      radial-gradient(ellipse 90% 50% at 0% 100%, rgba(244,160,184,0.35), transparent 60%),
-      radial-gradient(ellipse 90% 50% at 100% 100%, rgba(140,197,232,0.38), transparent 60%),
-      linear-gradient(168deg, #fffaf3 0%, #fef1ef 48%, #f5e9f5 100%)
-    `,
-    panelBorder:      '1px solid rgba(217, 116, 143, 0.35)',
-    panelRadius:      '20px',
-    panelShadow:      '0 34px 70px -30px rgba(142,58,85,0.5), inset 0 2px 0 rgba(255,255,255,0.7), inset 0 -30px 60px -40px rgba(111,191,230,0.55)',
+    blueLight:  '#E5F3FA',
+    blueMid:    '#A9D9F1',
+    blueBold:   '#5EB6E8',
+    blueDeep:   '#2D8EC5',
 
-    tabBackground: 'linear-gradient(180deg, #f8b8ca, #d9748f)',
-    tabTextColor:  '#fff',
-    tabShadow:     '0 6px 22px -8px rgba(217,116,143,0.55)',
+    cream:      '#FFFBF5',
+    paper:      '#FFF7EE',  // slightly more saturated cream, the card body
+    rose:       '#3D2234',  // text ink — deep dusty plum, not black
+    gold:       '#E6AC4B',  // daisy centers + ribbon yellow
+    mint:       '#7DC9A6',  // wildflower stems in meadow
 
-    nowCardBackground: 'linear-gradient(165deg, rgba(255,253,248,0.96), rgba(253,236,240,0.92) 55%, rgba(234,243,252,0.9) 100%)',
-    nowCardBorder:     '1px solid rgba(217, 116, 143, 0.32)',
-    nowCardShadow:     '0 14px 28px -16px rgba(142,58,85,0.45), inset 0 1px 0 rgba(255,255,255,0.82), inset 0 -30px 60px -40px rgba(111,191,230,0.35)',
-    nowFillGradient:   'linear-gradient(90deg, #f8a4c0 0%, #e98ab0 40%, #b89fd6 70%, #8cc5e8 100%)',
+    // Typography
+    lyricFontSizeJP:     '54px',
+    lyricLineHeightJP:   '2.05',
+    lyricLetterSpacingJP:'0.02em',
+    lyricFontSizeEN:     '26px',
+    lyricLineHeightEN:   '1.28',
+    lyricLetterSpacingEN:'0.008em',
+    glossFontSize:       '18px',
+    glossFontWeight:     '600',
 
-    rowHoverBg:   'rgba(244, 160, 184, 0.12)',
-    rowActiveBg:  'linear-gradient(100deg, rgba(244,160,184,0.22), rgba(140,197,232,0.12))',
-    rowActiveBar: '#d9748f',
+    // Card shape
+    cardRadius:  '20px',
+    cardPadding: '34px 48px 40px',
 
-    ctrlBackground: 'rgba(255, 252, 247, 0.72)',
-
-    lyricColorEN:  '#FFF6E7',
-    lyricColorJP:  '#FFF6E7',
-    lyricStrokeEN: '4.5px #1a0a16',
-    lyricStrokeJP: '4.5px #1a0a16',
-    lyricShadowEN: '0 0 18px rgba(255, 226, 236, 0.55), 0 0 38px rgba(26, 10, 22, 0.55)',
-    lyricShadowJP: '0 0 16px rgba(225, 240, 252, 0.55), 0 0 34px rgba(26, 10, 22, 0.55)',
+    // 6 chunk colors, each pulled from a specific MV element — saturated
+    // enough to read on the cream card body without defaulting to the
+    // generic AI rainbow.
+    //  0 — Mococo pink (eyes, highlights)
+    //  1 — Fuwawa blue (eyes, highlights)
+    //  2 — meadow coral (small pink wildflowers)
+    //  3 — leaf green (meadow grass, flower stems)
+    //  4 — daisy gold (daisy centers, rainbow-ribbon yellow)
+    //  5 — rainbow-ribbon plum (the purple band in the MV's ribbon streaks)
+    chunkColors: [
+      '#E55B88',  // 0 — Mococo pink
+      '#3F9CD9',  // 1 — Fuwawa blue
+      '#EF8566',  // 2 — coral / peach wildflower
+      '#4DA17A',  // 3 — leaf green
+      '#D89A3F',  // 4 — daisy gold
+      '#A374B8',  // 5 — ribbon plum
+    ],
   };
 
+  // --- Trusted Types policy (YouTube CSP requires this for innerHTML) ---
   const policy = window.__karaokePolicy || (window.__karaokePolicy =
     window.trustedTypes.createPolicy('karaoke-policy', {
       createHTML: s => s,
       createScript: s => s,
     }));
 
+  // --- State preservation (survives re-injection) ---
   window.__setlist         = window.__setlist         || [];
   window.__parsedLyrics    = window.__parsedLyrics    || {};
   window.__transCache      = window.__transCache      || {};
   window.__plainLyrics     = window.__plainLyrics     || {};
   window.__lyricOffsets    = window.__lyricOffsets    || {};
-  // Chunk palette pulled from the MV: Mococo pink, Fuwawa blue, warm gold,
-  // deep sakura rose, dust lilac, coral peach.  Saturated enough to survive
-  // against both the light pastel frames and the occasional darker cut.
   window.__wordAlign = window.__wordAlign || {
-    colors: ['#FF8CB0','#6FC0E8','#F2BB5C','#E85C8F','#BE94D8','#EE8E65'],
+    colors: THEME.chunkColors.slice(),
     data: {}
   };
-  window.__wordAlign.colors = ['#FF8CB0','#6FC0E8','#F2BB5C','#E85C8F','#BE94D8','#EE8E65'];
-  if (typeof window.__karaokeCollapsed      !== 'boolean') window.__karaokeCollapsed      = false;
-  if (typeof window.__karaokePlainCollapsed !== 'boolean') window.__karaokePlainCollapsed = false;
-  if (typeof window.__karaokeSkipEnabled    !== 'boolean') window.__karaokeSkipEnabled    = false;
-  if (typeof window.__karaokeLyricsHidden   !== 'boolean') window.__karaokeLyricsHidden   = false;
+  window.__wordAlign.colors = THEME.chunkColors.slice();
+  if (typeof window.__karaokeLyricsHidden !== 'boolean') window.__karaokeLyricsHidden = false;
 
+  // Position — a touch above dead-center so the twin-heart progress bar
+  // hanging off the card's bottom edge doesn't collide with YouTube's
+  // own player chrome.
+  window.__koPosition = Object.assign(
+    { anchorX: 0.5, anchorY: 0.70, widthFrac: 0.62 },
+    window.__koPosition || {}
+  );
+
+  // --- Generation counter + runtime knobs ---
   window.__koGen = (window.__koGen || 0) + 1;
   const MY_GEN = window.__koGen;
+  window.__koMaxHold = window.__koMaxHold || 10;
 
-  window.__koMaxHold    = window.__koMaxHold    || 10;
-  window.__koPanelWidth = 328;
-  window.__koPanelPad   = window.__koPanelPad   || 20;
-
+  // --- Clean up any prior injection's leftover DOM ---
   document.querySelectorAll('#ko-style').forEach(e => e.remove());
   document.querySelectorAll('#karaoke-root').forEach(e => e.remove());
   document.querySelectorAll('#ko-lyrics').forEach(e => e.remove());
-  document.querySelectorAll('#ko-petals').forEach(e => e.remove());
 
-  if (!document.querySelector('link[data-karaoke-font]')) {
+  // --- Load Google Fonts via <link> (CSP blocks @import inside <style>) ---
+  if (THEME.fontsHref && !document.querySelector('link[data-karaoke-font]')) {
     const l = document.createElement('link');
     l.rel = 'stylesheet';
     l.href = THEME.fontsHref;
@@ -113,750 +156,581 @@
     document.head.appendChild(l);
   }
 
+  // ==========================================================================
+  // CSS
+  // ==========================================================================
   const style = document.createElement('style');
   style.id = 'ko-style';
   style.textContent = `
-    #claude-agent-glow-border { display: none !important; }
-
+    /* ==== LOCKED PLUMBING ===================================================*/
     #karaoke-root {
-      position: fixed;
-      inset: 0;
+      position: fixed; inset: 0;
       pointer-events: none;
       z-index: 2147483000;
     }
-
-    #karaoke-root, #ko-lyrics, #ko-petals {
-      --ko-cream:       ${THEME.cream};
-      --ko-accent:      ${THEME.accent};
-      --ko-accent-deep: ${THEME.accentDeep};
-      --ko-accent-ink:  ${THEME.accentInk};
-      --ko-ink:         ${THEME.ink};
-      --ko-ink-soft:    ${THEME.inkSoft};
-      --ko-gold:        ${THEME.gold};
-      --ko-mocopink:    #f4a0b8;
-      --ko-mocopink-d:  #d9748f;
-      --ko-fuwablue:    #8cc5e8;
-      --ko-fuwablue-d:  #5a9fc8;
-
-      --ko-font-display: ${THEME.fontDisplay};
-      --ko-font-body:    ${THEME.fontBody};
-      --ko-font-serif:   ${THEME.fontSerif};
-      --ko-font-jp:      ${THEME.fontJP};
-    }
-    #karaoke-root *, #ko-lyrics *, #ko-petals * { box-sizing: border-box; }
-
-    /* ============ PANEL (Victorian polaroid card, single-song layout) ======= */
-    .ko-panel {
-      position: absolute;
-      width: 328px;
-      max-height: 86vh;
-      pointer-events: auto;
-      display: flex;
-      flex-direction: column;
-      background: ${THEME.panelBackground};
-      backdrop-filter: blur(22px) saturate(1.25);
-      -webkit-backdrop-filter: blur(22px) saturate(1.25);
-      border: ${THEME.panelBorder};
-      border-radius: ${THEME.panelRadius};
-      box-shadow: ${THEME.panelShadow};
-      color: var(--ko-ink);
-      overflow: visible;
-      will-change: transform;
-      transform: translateY(-50%);
-      transition: transform 0.5s cubic-bezier(.77,0,.18,1);
-    }
-    .ko-panel::before {
-      content: '';
-      position: absolute;
-      inset: 0;
-      border-radius: inherit;
-      background:
-        repeating-linear-gradient(
-          102deg,
-          rgba(255,255,255,0) 0 12px,
-          rgba(255,225,235,0.08) 12px 13px,
-          rgba(255,255,255,0) 13px 24px
-        );
-      pointer-events: none;
-      mix-blend-mode: screen;
-      opacity: 0.55;
-    }
-    .ko-panel::after {
-      content: '';
-      position: absolute;
-      inset: -1px;
-      border-radius: inherit;
-      padding: 1px;
-      background: linear-gradient(180deg,
-        rgba(140,197,232,0.55) 0%,
-        rgba(244,160,184,0.55) 100%);
-      -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
-      -webkit-mask-composite: xor;
-              mask-composite: exclude;
-      pointer-events: none;
-    }
-
-    /* Pink washi-tape strip at the top of the card */
-    .ko-washi {
-      position: absolute;
-      top: -14px;
-      left: 28px;
-      width: 108px;
-      height: 26px;
-      background:
-        repeating-linear-gradient(
-          -8deg,
-          rgba(255,255,255,0.35) 0 5px,
-          rgba(255,255,255,0.08) 5px 10px
-        ),
-        linear-gradient(100deg, #f8b2c6, #ec97b0 60%, #d9748f);
-      border-radius: 2px;
-      box-shadow: 0 8px 16px -6px rgba(142,58,85,0.35);
-      transform: rotate(-4.5deg);
-      opacity: 0.94;
-      pointer-events: none;
-      z-index: 2;
-    }
-    .ko-washi::before, .ko-washi::after {
-      content: '';
-      position: absolute;
-      top: 0; bottom: 0;
-      width: 4px;
-      background-image: radial-gradient(circle at 50% 50%, rgba(0,0,0,0.12) 0 1.2px, transparent 1.5px);
-      background-size: 4px 5px;
-    }
-    .ko-washi::before { left: 0;  opacity: 0.4; }
-    .ko-washi::after  { right: 0; opacity: 0.4; }
-
-    /* Ornate gold filigree in each corner */
-    .ko-corner {
-      position: absolute;
-      width: 42px;
-      height: 42px;
-      pointer-events: none;
-      color: #caa368;
-      opacity: 0.8;
-      z-index: 1;
-    }
-    .ko-corner.tl { top: 9px;    left: 9px;   }
-    .ko-corner.tr { top: 9px;    right: 9px;  transform: scaleX(-1); }
-    .ko-corner.bl { bottom: 9px; left: 9px;   transform: scaleY(-1); }
-    .ko-corner.br { bottom: 9px; right: 9px;  transform: scale(-1,-1); }
-    .ko-corner svg { width: 100%; height: 100%; display: block; }
-
-    .ko-tab   { display: none !important; }
-    .ko-head  { display: none !important; }
-    .ko-list  { display: none !important; }
-    .ko-plain { display: none !important; }
-
-    /* ============ STREAM STAMP (header band above the polaroid) ============= */
-    .ko-stamp {
-      position: relative;
-      margin: 20px 26px 0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 12px;
-      font-family: 'Italiana', ${THEME.fontBody};
-      font-size: 10.5px;
-      letter-spacing: 0.34em;
-      text-transform: uppercase;
-      color: var(--ko-accent-ink);
-      z-index: 2;
-    }
-    .ko-stamp::before, .ko-stamp::after {
-      content: '';
-      flex: 1;
-      height: 1px;
-      background: linear-gradient(90deg, transparent, var(--ko-accent-deep), transparent);
-      opacity: 0.65;
-    }
-    .ko-stamp-mark {
-      font-family: ${THEME.fontSerif};
-      font-size: 18px;
-      letter-spacing: 0;
-      color: var(--ko-accent-deep);
-      transform: translateY(1px);
-    }
-
-    /* ============ NOW-PLAYING POLAROID ====================================== */
-    .ko-now {
-      position: relative;
-      margin: 14px 22px 16px;
-      padding: 20px 22px 20px;
-      background:
-        radial-gradient(ellipse 80% 40% at 50% 0%, rgba(255,220,230,0.55), transparent 60%),
-        radial-gradient(ellipse 80% 40% at 50% 100%, rgba(200,225,245,0.5), transparent 60%),
-        linear-gradient(178deg, #fffdfb 0%, #fff2f1 55%, #f3e9f5 100%);
-      border: 1px solid rgba(217,116,143,0.3);
-      border-radius: 14px;
-      box-shadow:
-        0 12px 26px -16px rgba(142,58,85,0.4),
-        inset 0 1px 0 rgba(255,255,255,0.85),
-        inset 0 -12px 28px -18px rgba(111,191,230,0.3);
-      overflow: hidden;
-    }
-    .ko-now::before {
-      content: '';
-      position: absolute;
-      top: 14px; right: 16px;
-      width: 24px; height: 24px;
-      background-image: url("data:image/svg+xml;utf8,${encodeURIComponent('<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 24 24\'><g><path d=\'M12 3 C13.2 4.8 14 6 13.6 8 C13.2 9.6 11.6 10.8 10 11 C8.4 10.8 6.8 9.6 6.4 8 C6 6 6.8 4.8 8 3 C9 2 10 1.7 10.7 2 C11.4 1.7 12 2 12 3 Z\' fill=\'%23f4a0b8\' opacity=\'0.85\'/><path d=\'M21 12 C19.2 13.2 18 14 16 13.6 C14.4 13.2 13.2 11.6 13 10 C13.2 8.4 14.4 6.8 16 6.4 C18 6 19.2 6.8 21 8 C22 9 22.3 10 22 10.7 C22.3 11.4 22 12 21 12 Z\' fill=\'%23e98ab0\' opacity=\'0.9\'/><path d=\'M12 21 C10.8 19.2 10 18 10.4 16 C10.8 14.4 12.4 13.2 14 13 C15.6 13.2 17.2 14.4 17.6 16 C18 18 17.2 19.2 16 21 C15 22 14 22.3 13.3 22 C12.6 22.3 12 22 12 21 Z\' fill=\'%23f4a0b8\' opacity=\'0.8\'/><path d=\'M3 12 C4.8 10.8 6 10 8 10.4 C9.6 10.8 10.8 12.4 11 14 C10.8 15.6 9.6 17.2 8 17.6 C6 18 4.8 17.2 3 16 C2 15 1.7 14 2 13.3 C1.7 12.6 2 12 3 12 Z\' fill=\'%23ffb8cc\' opacity=\'0.85\'/><circle cx=\'12\' cy=\'12\' r=\'2\' fill=\'%23f2bb5c\'/></g></svg>')}");
-      background-size: contain;
-      background-repeat: no-repeat;
-      opacity: 0.88;
-      transform: rotate(14deg);
-      pointer-events: none;
-      filter: drop-shadow(0 1px 1px rgba(142,58,85,0.25));
-    }
-
-    .ko-now-title {
-      font-family: ${THEME.fontSerif};
-      font-weight: 400;
-      font-size: 34px;
-      line-height: 1.06;
-      color: var(--ko-accent-ink);
-      margin: 6px 0 6px;
-      letter-spacing: 0.005em;
-      word-break: keep-all;
-      overflow-wrap: normal;
-      text-shadow: 0 1px 0 rgba(255,255,255,0.8);
-      padding-right: 34px;
-    }
-    .ko-now-title::after {
-      content: '';
-      display: block;
-      margin-top: 8px;
-      height: 8px;
-      background-image: url("data:image/svg+xml;utf8,${encodeURIComponent('<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 180 8\' preserveAspectRatio=\'none\'><path d=\'M0 4 H68 C72 4 74 1 76 1 S79 4 82 4 H104 C107 4 108 1 110 1 S114 4 118 4 H180\' fill=\'none\' stroke=\'%23caa368\' stroke-width=\'1\' stroke-linecap=\'round\' opacity=\'0.75\'/><circle cx=\'90\' cy=\'4\' r=\'1.8\' fill=\'%23d9748f\' opacity=\'0.8\'/></svg>')}");
-      background-repeat: no-repeat;
-      background-position: left center;
-      background-size: 100% 100%;
-    }
-    .ko-now-meaning {
-      font-family: var(--ko-font-jp), ${THEME.fontDisplay}, serif;
-      font-size: 12.5px;
-      line-height: 1.4;
-      font-weight: 500;
-      color: var(--ko-ink-soft);
-      margin: 0 0 10px;
-      max-height: 3em;
-      overflow: hidden;
-      transition: opacity 0.3s, max-height 0.3s;
-      letter-spacing: 0.02em;
-    }
-    .ko-now-meaning.empty {
-      max-height: 0;
-      margin: 0;
-      opacity: 0;
-    }
-    .ko-now-artist {
-      font-family: 'Italiana', ${THEME.fontBody};
-      font-size: 12px;
-      font-weight: 400;
-      color: var(--ko-accent-ink);
-      margin: 2px 0 14px;
-      letter-spacing: 0.22em;
-      text-transform: uppercase;
-      opacity: 0.85;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
-    .ko-now-artist::before, .ko-now-artist::after {
-      content: '';
-      flex: 1;
-      height: 1px;
-      background: linear-gradient(90deg, transparent, rgba(202,163,104,0.6), transparent);
-    }
-    .ko-now-progress {
-      position: relative;
-      height: 6px;
-      background:
-        linear-gradient(90deg, rgba(244,160,184,0.22) 0%, rgba(140,197,232,0.22) 100%);
-      border-radius: 999px;
-      overflow: hidden;
-      box-shadow: inset 0 1px 2px rgba(142,58,85,0.12);
-    }
-    .ko-now-fill {
-      position: absolute;
-      top: 0; left: 0; bottom: 0;
-      width: 0%;
-      background: ${THEME.nowFillGradient};
-      border-radius: 999px;
-      box-shadow: 0 0 10px rgba(244,160,184,0.55), 0 0 16px rgba(140,197,232,0.4);
-      transition: width 0.3s linear;
-    }
-    .ko-now-times {
-      display: flex;
-      justify-content: space-between;
-      margin-top: 6px;
-      font-family: var(--ko-font-body);
-      font-size: 9px;
-      font-weight: 700;
-      color: var(--ko-ink-soft);
-      letter-spacing: 0.1em;
-      font-variant-numeric: tabular-nums;
-      opacity: 0.85;
-    }
-
-    /* Dedication line under the polaroid */
-    .ko-dedicate {
-      margin: 2px 22px 14px;
-      font-family: ${THEME.fontSerif};
-      font-size: 17px;
-      line-height: 1.3;
-      color: var(--ko-accent-ink);
-      text-align: center;
-      letter-spacing: 0.01em;
-      opacity: 0.88;
-    }
-
-    /* ============ CTRL BUTTONS (scrapbook tag style) ========================= */
-    .ko-ctrls {
-      display: flex;
-      gap: 8px;
-      margin: 0 22px 24px;
-      padding-top: 4px;
-    }
-    .ko-ctrl {
-      flex: 1;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 6px;
-      padding: 10px 8px;
-      background:
-        linear-gradient(180deg, rgba(255,253,248,0.95), rgba(253,236,240,0.8));
-      border: 1px solid rgba(217,116,143,0.28);
-      border-radius: 10px;
-      min-width: 0;
-      cursor: pointer;
-      user-select: none;
-      box-shadow:
-        0 4px 10px -6px rgba(142,58,85,0.3),
-        inset 0 1px 0 rgba(255,255,255,0.8);
-      transition: transform 0.15s ease, box-shadow 0.2s ease, border-color 0.2s ease;
-      position: relative;
-    }
-    .ko-ctrl:hover {
-      transform: translateY(-1px);
-      box-shadow: 0 8px 14px -6px rgba(142,58,85,0.4), inset 0 1px 0 rgba(255,255,255,0.85);
-    }
-    .ko-ctrl.is-on {
-      border-color: var(--ko-accent-deep);
-      background: linear-gradient(180deg, rgba(255,235,243,0.95), rgba(248,184,202,0.78));
-      box-shadow: 0 0 0 1px rgba(217,116,143,0.25), 0 4px 10px -6px rgba(142,58,85,0.4);
-    }
-    .ko-ctrl-label {
-      font-family: 'Italiana', ${THEME.fontBody};
-      font-size: 9.5px;
-      font-weight: 400;
-      letter-spacing: 0.2em;
-      text-transform: uppercase;
-      color: var(--ko-accent-ink);
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
-    .ko-offset {
-      font-family: var(--ko-font-body);
-      font-size: 10px;
-      font-weight: 800;
-      color: var(--ko-accent-deep);
-      letter-spacing: 0.03em;
-      font-variant-numeric: tabular-nums;
-      flex-shrink: 0;
-    }
-
-    /* ============ LYRIC ZONE ================================================= */
     #ko-lyrics {
       position: fixed;
       pointer-events: none;
-      text-align: center;
       z-index: 2147483100;
+      text-align: center;
       transform: translate(-50%, -50%);
     }
-    /* Twin-ribbon frame — pink on left, blue on right */
-    #ko-lyrics::before, #ko-lyrics::after {
-      content: '';
-      position: absolute;
-      top: -8px;
-      bottom: -8px;
-      width: 4px;
-      border-radius: 4px;
-      pointer-events: none;
-      z-index: 1;
-      filter: blur(0.6px);
-    }
-    #ko-lyrics::before {
-      left: -26px;
-      background: linear-gradient(180deg, transparent 0%, rgba(244,160,184,0) 8%, rgba(244,160,184,0.95) 30%, rgba(217,116,143,1) 55%, rgba(244,160,184,0.95) 80%, transparent 100%);
-      box-shadow: 0 0 24px 2px rgba(244,160,184,0.55);
-    }
-    #ko-lyrics::after {
-      right: -26px;
-      background: linear-gradient(180deg, transparent 0%, rgba(140,197,232,0) 8%, rgba(140,197,232,0.95) 30%, rgba(90,159,200,1) 55%, rgba(140,197,232,0.95) 80%, transparent 100%);
-      box-shadow: 0 0 24px 2px rgba(140,197,232,0.55);
-    }
-    /* Top + bottom ornamental sprigs */
-    .ko-lyric-sprig {
-      position: absolute;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 168px;
-      height: 22px;
-      pointer-events: none;
-      opacity: 0.85;
-      z-index: 2;
-    }
-    .ko-lyric-sprig.top    { top: -40px; }
-    .ko-lyric-sprig.bottom { bottom: -44px; transform: translateX(-50%) rotate(180deg); }
-    .ko-lyric-sprig svg { width: 100%; height: 100%; display: block; }
+    #karaoke-root, #ko-lyrics {
+      --ko-pink-lt:   ${THEME.pinkLight};
+      --ko-pink-md:   ${THEME.pinkMid};
+      --ko-pink-bd:   ${THEME.pinkBold};
+      --ko-pink-dp:   ${THEME.pinkDeep};
+      --ko-blue-lt:   ${THEME.blueLight};
+      --ko-blue-md:   ${THEME.blueMid};
+      --ko-blue-bd:   ${THEME.blueBold};
+      --ko-blue-dp:   ${THEME.blueDeep};
+      --ko-cream:     ${THEME.cream};
+      --ko-paper:     ${THEME.paper};
+      --ko-rose:      ${THEME.rose};
+      --ko-gold:      ${THEME.gold};
+      --ko-mint:      ${THEME.mint};
 
+      --ko-font-jp:    ${THEME.fontJP};
+      --ko-font-en:    ${THEME.fontEN};
+      --ko-font-hook:  ${THEME.fontHook};
+      --ko-font-ui:    ${THEME.fontUi};
+      --ko-font-gloss: ${THEME.fontGloss};
+
+      /* Runtime vars written by the main tick ~7×/sec. */
+      --ko-progress:  0;     /* 0.0 (hearts apart) → 1.0 (hearts meet)   */
+      --ko-ripe:      0;     /* 0.0 → 1.0 — heart fills deepen           */
+      --ko-track-w:   0px;   /* pixel width of progress track            */
+    }
+    #karaoke-root *, #ko-lyrics * { box-sizing: border-box; }
+    #ko-lyrics .ko-line-jp.hidden { display: none; }
+
+    /* ==== CARD — product-listing merch card ==============================
+       Soft dual-palette wash: cream→pink on the left, cream→blue on the
+       right. A hot-pink/blue piping sits inside a thin cream inner border.
+       Subtle daisy texture layer at <4% opacity for meadow feel. */
     #ko-lyrics .ko-slot {
+      position: relative;
       display: flex;
       flex-direction: column;
-      align-items: center;
-      gap: 18px;
-      padding: 0 12px;
-      position: relative;
+      align-items: stretch;
+      gap: 6px;
+      padding: ${THEME.cardPadding};
+      background:
+        /* faint daisy pattern, barely there */
+        radial-gradient(circle at 15% 25%, rgba(230, 172, 75, 0.06) 0 5px, transparent 6px),
+        radial-gradient(circle at 80% 40%, rgba(230, 172, 75, 0.05) 0 4px, transparent 5px),
+        radial-gradient(circle at 45% 78%, rgba(230, 172, 75, 0.06) 0 5px, transparent 6px),
+        radial-gradient(circle at 68% 90%, rgba(230, 172, 75, 0.05) 0 3px, transparent 4px),
+        /* left half: cream → pink */
+        linear-gradient(
+          115deg,
+          ${THEME.pinkLight} 0%,
+          ${THEME.paper} 42%,
+          ${THEME.paper} 58%,
+          ${THEME.blueLight} 100%
+        );
+      border-radius: ${THEME.cardRadius};
+      /* Double border: outer hot piping (pink→blue split), inner cream. */
+      box-shadow:
+        0 0 0 2.5px var(--ko-cream),
+        0 0 0 4.5px transparent,
+        0 22px 52px -16px rgba(217, 75, 133, 0.38),
+        0 12px 30px -10px rgba(45, 142, 197, 0.28),
+        inset 0 0 0 1px rgba(255, 255, 255, 0.65);
+      isolation: isolate;
+      overflow: visible;
     }
+    /* The hot-pink→hot-blue piping is drawn with a ::before that the slot's
+       box-shadow pseudo-frames. border alone can't do a gradient; this gets
+       the split piping without dropping to SVG. */
+    #ko-lyrics .ko-slot::before {
+      content: '';
+      position: absolute;
+      inset: -4.5px;
+      border-radius: calc(${THEME.cardRadius} + 4.5px);
+      background: linear-gradient(
+        110deg,
+        ${THEME.pinkBold} 0%,
+        ${THEME.pinkBold} 42%,
+        ${THEME.blueBold} 58%,
+        ${THEME.blueBold} 100%
+      );
+      z-index: -1;
+      filter: drop-shadow(0 4px 10px rgba(217, 75, 133, 0.25));
+    }
+    /* A second ::after lays the scanlines/perforation texture across
+       the lower edge — reads as a ticket-stub hint, referencing the
+       MV's film-strip sticker frames. */
+    #ko-lyrics .ko-slot::after {
+      content: '';
+      position: absolute;
+      left: 12%;
+      right: 12%;
+      bottom: 14px;
+      height: 1px;
+      background: repeating-linear-gradient(
+        to right,
+        ${THEME.pinkMid} 0 6px,
+        transparent 6px 12px
+      );
+      opacity: 0.55;
+      z-index: 1;
+      pointer-events: none;
+    }
+
+    /* Empty-state collapse during instrumental gaps — gentle settle. */
+    #ko-lyrics .ko-slot:has(.ko-line-jp:empty):has(.ko-line-en:empty) {
+      opacity: 0;
+      transform: scale(0.96);
+      transition: opacity 380ms, transform 380ms cubic-bezier(.2,.7,.3,1);
+    }
+    #ko-lyrics .ko-slot {
+      transition: opacity 380ms, transform 380ms cubic-bezier(.2,.7,.3,1);
+    }
+
+    /* ==== TOP-RIGHT — shop-UI icon row (bag / heart / tag) ==============
+       Three micro-pill buttons in a horizontal cluster, straight from the
+       MV's ~0:08 shop-card graphic. 18px pills with thin hot-pink border
+       and a single-color icon centered. The middle pill holds a filled
+       heart that pulses softly, nodding to the actual product category. */
+    #ko-lyrics .ko-icon-row {
+      position: absolute;
+      top: -14px;
+      right: 28px;
+      display: flex;
+      gap: 6px;
+      z-index: 5;
+    }
+    #ko-lyrics .ko-icon-btn {
+      width: 26px;
+      height: 26px;
+      border-radius: 7px;
+      background: var(--ko-cream);
+      border: 1.5px solid var(--ko-pink-bd);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 2px 0 0 var(--ko-pink-dp), 0 4px 8px -2px rgba(217, 75, 133, 0.3);
+    }
+    #ko-lyrics .ko-icon-btn svg {
+      width: 14px;
+      height: 14px;
+      display: block;
+    }
+    #ko-lyrics .ko-icon-btn.heart svg path {
+      fill: var(--ko-pink-bd);
+    }
+    #ko-lyrics .ko-icon-btn.bag svg,
+    #ko-lyrics .ko-icon-btn.tag svg {
+      stroke: var(--ko-pink-bd);
+      fill: none;
+      stroke-width: 1.6;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+    #ko-lyrics .ko-icon-btn.heart {
+      animation: ko-micro-beat 1.6s cubic-bezier(.5,0,.5,1) infinite;
+    }
+    @keyframes ko-micro-beat {
+      0%, 60%, 100% { transform: scale(1); }
+      30%           { transform: scale(1.14); }
+    }
+
+    /* ==== TOP-LEFT — FUWAMOCO brand capsule ============================== */
+    #ko-lyrics .ko-brand-tag {
+      position: absolute;
+      top: -16px;
+      left: 26px;
+      padding: 6px 16px 7px;
+      background: var(--ko-pink-bd);
+      color: #fff;
+      font-family: var(--ko-font-ui);
+      font-size: 11.5px;
+      font-weight: 800;
+      letter-spacing: 0.22em;
+      border-radius: 999px;
+      border: 2px solid var(--ko-cream);
+      transform: rotate(-3deg);
+      box-shadow:
+        0 3px 0 0 var(--ko-pink-dp),
+        0 5px 10px -3px rgba(217, 75, 133, 0.45);
+      z-index: 5;
+      white-space: nowrap;
+    }
+
+    /* ==== BOTTOM-RIGHT — hook capsule "Let Me Be With You" ===============
+       Uses the ONLY display-face moment in the overlay: Bagel Fat One,
+       echoing the MV thumbnail's chunky dimensional bubble title. The
+       capsule is pink→blue gradient (same split as the card piping) so
+       the hook literally reads across both twins. */
+    #ko-lyrics .ko-hook-tag {
+      position: absolute;
+      bottom: -17px;
+      right: 96px;  /* leaves room for the hearts to meet */
+      padding: 7px 18px 8px;
+      background: linear-gradient(
+        95deg,
+        var(--ko-pink-bd) 0%,
+        var(--ko-pink-md) 48%,
+        var(--ko-blue-md) 52%,
+        var(--ko-blue-bd) 100%
+      );
+      color: #fff;
+      font-family: var(--ko-font-hook);
+      font-size: 16.5px;
+      font-weight: 400;
+      letter-spacing: 0.04em;
+      border-radius: 999px;
+      border: 2px solid var(--ko-cream);
+      transform: rotate(2deg);
+      box-shadow:
+        0 3px 0 0 rgba(45, 60, 100, 0.35),
+        0 6px 14px -3px rgba(45, 142, 197, 0.4);
+      z-index: 5;
+      white-space: nowrap;
+      text-shadow: 0 1.5px 0 rgba(40, 20, 40, 0.25);
+    }
+
+    /* ==== BOTTOM-LEFT — vinyl-label credit ================================
+       Circular cream disc with concentric gold rings and the track
+       credit ("CHOBITS OP · 2002") curving around the top, referencing
+       a 2002-era CD label. */
+    #ko-lyrics .ko-credit-tag {
+      position: absolute;
+      bottom: -15px;
+      left: 30px;
+      padding: 4px 12px 5px;
+      background: var(--ko-cream);
+      color: var(--ko-blue-dp);
+      font-family: var(--ko-font-ui);
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.20em;
+      border-radius: 4px;
+      border: 1.5px solid var(--ko-blue-bd);
+      transform: rotate(-2deg);
+      box-shadow: 0 2px 0 0 var(--ko-blue-dp);
+      z-index: 3;
+      white-space: nowrap;
+    }
+
+    /* ==== TOP-LEFT CORNER — pressed daisy sticker ========================
+       Small daisy decal sits over the card's top-left corner, hand-placed.
+       Circular cream disc with a daisy silhouette + gold center. */
+    #ko-lyrics .ko-daisy {
+      position: absolute;
+      top: -18px;
+      left: 148px;
+      width: 34px;
+      height: 34px;
+      transform: rotate(-12deg);
+      z-index: 4;
+      filter: drop-shadow(0 2px 3px rgba(217, 75, 133, 0.28));
+    }
+    #ko-lyrics .ko-daisy svg { width: 100%; height: 100%; display: block; }
+    #ko-lyrics .ko-daisy .petal { fill: ${THEME.cream}; stroke: ${THEME.pinkBold}; stroke-width: 1.2; }
+    #ko-lyrics .ko-daisy .core  { fill: ${THEME.gold}; stroke: #B98020; stroke-width: 1; }
+
+    /* ==== SIGNATURE — twin-hearts progress bar ==========================
+       A single horizontal track hangs just under the card's bottom edge.
+       A pink heart (Mococo) starts at the track's LEFT tip; a blue heart
+       (Fuwawa) starts at the RIGHT tip. Both travel INWARD as --ko-progress
+       goes 0→1, meeting at the card's horizontal center at 100%.
+
+       Directly encoding "let me be with you" — the song is a plea for
+       two to become one; the progress bar IS those two becoming one.
+
+       The track beneath them is a dashed stroke; an overlaid "meeting
+       line" fades in from the outside edges as the hearts cross their
+       halfway point, so the "filled" portion of the track reads from
+       the outside IN — mirroring the hearts' own motion. */
+    #ko-lyrics .ko-progress {
+      position: absolute;
+      left: 36px;
+      right: 36px;
+      bottom: -24px;
+      height: 30px;
+      z-index: 2;
+      pointer-events: none;
+    }
+    #ko-lyrics .ko-progress-track {
+      position: absolute;
+      left: 28px;
+      right: 28px;
+      top: 13px;
+      height: 4px;
+      pointer-events: none;
+    }
+    /* Dashed base stroke — the "unfilled" part of the track. */
+    #ko-lyrics .ko-progress-track::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: repeating-linear-gradient(
+        to right,
+        ${THEME.pinkMid} 0 6px,
+        transparent 6px 10px
+      );
+      opacity: 0.6;
+      border-radius: 2px;
+    }
+    /* Filled region — solidifies from BOTH edges inward. The fill is
+       width 100% * --ko-progress on each side, pinned to the
+       outer edges via background-position. */
+    #ko-lyrics .ko-progress-track::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(to right, ${THEME.pinkBold}, ${THEME.pinkMid}) left/calc(var(--ko-progress, 0) * 50%) 100% no-repeat,
+        linear-gradient(to left,  ${THEME.blueBold}, ${THEME.blueMid}) right/calc(var(--ko-progress, 0) * 50%) 100% no-repeat;
+      border-radius: 2px;
+      filter: drop-shadow(0 0 3px rgba(255, 120, 160, 0.35));
+    }
+
+    /* The hearts themselves. Each is absolutely positioned; translateX is
+       driven by --ko-progress + --ko-track-w math. GPU-composited — runs
+       smoothly over YouTube's heavy DOM. Transition duration matches the
+       ~140ms write cadence on --ko-progress for seamless chaining. */
+    #ko-lyrics .ko-heart {
+      position: absolute;
+      top: 3px;
+      width: 24px;
+      height: 24px;
+      transition: transform 160ms linear;
+      will-change: transform;
+      pointer-events: none;
+    }
+    #ko-lyrics .ko-heart svg { width: 100%; height: 100%; display: block; overflow: visible; }
+    #ko-lyrics .ko-heart .heart-body { stroke: var(--ko-cream); stroke-width: 2; stroke-linejoin: round; }
+
+    /* Mococo-heart: starts at left tip (x=0), travels to track-center-12. */
+    #ko-lyrics .ko-heart.pink {
+      left: 8px;
+      transform: translateX(calc((var(--ko-track-w, 500px) - 72px) * var(--ko-progress) * 0.5));
+      animation: ko-beat-pink 1.1s cubic-bezier(.5,0,.5,1) infinite;
+    }
+    #ko-lyrics .ko-heart.pink .heart-body {
+      fill: color-mix(in oklab, ${THEME.pinkMid}, ${THEME.pinkDeep} calc(var(--ko-ripe) * 100%));
+      filter:
+        drop-shadow(0 2px 3px rgba(217, 75, 133, 0.45))
+        drop-shadow(0 0 ${`calc(2px + var(--ko-ripe) * 6px)`} ${THEME.pinkBold});
+      transition: fill 2s linear, filter 2s linear;
+    }
+    /* Fuwawa-heart: starts at right tip, travels inward (-X). 0.65s
+       phase-offset on the beat so the two hearts don't pulse in robotic
+       sync. */
+    #ko-lyrics .ko-heart.blue {
+      right: 8px;
+      transform: translateX(calc((var(--ko-track-w, 500px) - 72px) * var(--ko-progress) * -0.5));
+      animation: ko-beat-blue 1.1s cubic-bezier(.5,0,.5,1) infinite;
+      animation-delay: -0.55s;
+    }
+    #ko-lyrics .ko-heart.blue .heart-body {
+      fill: color-mix(in oklab, ${THEME.blueMid}, ${THEME.blueDeep} calc(var(--ko-ripe) * 100%));
+      filter:
+        drop-shadow(0 2px 3px rgba(45, 142, 197, 0.45))
+        drop-shadow(0 0 ${`calc(2px + var(--ko-ripe) * 6px)`} ${THEME.blueBold});
+      transition: fill 2s linear, filter 2s linear;
+    }
+    /* Per-heart beat keyframe. Scales .heart-inner (NOT the wrapper) so
+       the translateX on the wrapper isn't fought. */
+    @keyframes ko-beat-pink {
+      0%, 60%, 100% { --beat: 1; }
+      30%           { --beat: 1.18; }
+    }
+    @keyframes ko-beat-blue {
+      0%, 60%, 100% { --beat: 1; }
+      30%           { --beat: 1.18; }
+    }
+    #ko-lyrics .ko-heart .heart-inner {
+      width: 100%;
+      height: 100%;
+      transform: scale(var(--beat, 1));
+      transform-origin: center 58%;
+      transition: transform 120ms ease-out;
+    }
+
+    /* Tiny sparkle trail behind each heart — reads as "magic wake"
+       without animating. Decorative only. */
+    #ko-lyrics .ko-heart::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      pointer-events: none;
+      opacity: 0.6;
+    }
+    #ko-lyrics .ko-heart.pink::after {
+      right: 100%; margin-right: 2px;
+      background: radial-gradient(circle, ${THEME.pinkLight}, transparent);
+    }
+    #ko-lyrics .ko-heart.blue::after {
+      left: 100%; margin-left: 2px;
+      background: radial-gradient(circle, ${THEME.blueLight}, transparent);
+    }
+
+    /* ==== LYRICS ========================================================= */
     #ko-lyrics .ko-line-jp {
       font-family: var(--ko-font-jp);
-      font-weight: 700;
-      color: ${THEME.lyricColorJP};
-      paint-order: stroke fill;
-      -webkit-text-stroke: ${THEME.lyricStrokeJP};
-      font-size: 44px;
-      line-height: 2.3;
-      padding-top: 0.38em;
-      letter-spacing: 0.05em;
-      text-shadow: ${THEME.lyricShadowJP};
+      font-weight: 500;
+      color: var(--ko-rose);
+      font-size: ${THEME.lyricFontSizeJP};
+      line-height: ${THEME.lyricLineHeightJP};
+      letter-spacing: ${THEME.lyricLetterSpacingJP};
+      padding-top: 0.5em;
       min-height: 1em;
-      order: 1;
       position: relative;
       z-index: 2;
+      order: 1;
+      text-shadow:
+        0 2px 0 rgba(255, 251, 245, 0.65),
+        0 0 16px rgba(255, 251, 245, 0.55);
     }
-    #ko-lyrics .ko-line-jp span {
-      paint-order: stroke fill;
-      -webkit-text-stroke: ${THEME.lyricStrokeJP};
-    }
+    #ko-lyrics .ko-line-jp span { color: inherit; }
+
+    /* Gloss rt — small, lowercase, same hue as the chunk. Slightly
+       lower opacity so it sits behind the kanji perceptually. */
     #ko-lyrics .ko-line-jp rt {
-      font-family: 'Playfair Display', serif;
-      font-size: 21px;
-      font-weight: 500;
-      font-style: italic;
-      letter-spacing: 0.012em;
+      font-family: var(--ko-font-gloss);
+      font-size: ${THEME.glossFontSize};
+      font-weight: ${THEME.glossFontWeight};
+      letter-spacing: 0.02em;
       line-height: 1.1;
-      padding-bottom: 6px;
-      color: ${THEME.lyricColorJP};
-      paint-order: stroke fill;
-      -webkit-text-stroke: 2.5px ${THEME.lyricStrokeJP.split(' ').slice(1).join(' ')};
-      text-shadow: 0 0 8px rgba(255, 226, 236, 0.55), 0 0 16px rgba(26, 10, 22, 0.4);
+      padding-bottom: 4px;
+      text-transform: lowercase;
       user-select: none;
-      opacity: 0.96;
+      opacity: 0.88;
+      text-shadow: 0 1px 0 rgba(255, 251, 245, 0.75);
     }
     #ko-lyrics .ko-line-jp ruby { ruby-align: center; }
 
+    /* EN line — Quicksand rounded, deep rose, thin divider dash above. */
     #ko-lyrics .ko-line-en {
-      font-family: 'Playfair Display', serif;
-      font-weight: 500;
-      font-style: italic;
-      color: ${THEME.lyricColorEN};
-      paint-order: stroke fill;
-      -webkit-text-stroke: ${THEME.lyricStrokeEN};
-      font-size: 40px;
-      line-height: 1.2;
-      letter-spacing: 0.012em;
-      text-shadow: ${THEME.lyricShadowEN};
+      font-family: var(--ko-font-en);
+      font-weight: 600;
+      color: var(--ko-rose);
+      font-size: ${THEME.lyricFontSizeEN};
+      line-height: ${THEME.lyricLineHeightEN};
+      letter-spacing: ${THEME.lyricLetterSpacingEN};
       max-width: 100%;
       min-height: 1em;
-      order: 2;
       position: relative;
       z-index: 2;
-    }
-    #ko-lyrics .ko-line-en span {
-      paint-order: stroke fill;
-      -webkit-text-stroke: ${THEME.lyricStrokeEN};
-    }
-    #ko-lyrics .ko-line-en.en-song { font-size: 32px; font-weight: 500; }
-    #ko-lyrics .ko-line-jp.hidden { display: none; }
-
-    /* Hook-phrase: "Let Me Be With You" renders in Great Vibes cursive */
-    #ko-lyrics .ko-line-jp.ko-hook {
-      font-family: 'Great Vibes', 'Parisienne', cursive;
-      font-weight: 400;
-      font-size: 94px;
-      line-height: 1;
-      letter-spacing: 0.005em;
-      padding-top: 0.18em;
-      color: #fff6e7;
-      -webkit-text-stroke: 3px #1a0a16;
+      order: 2;
+      margin-top: 4px;
+      padding-top: 10px;
       text-shadow:
-        0 0 24px rgba(244,160,184,0.7),
-        0 0 48px rgba(140,197,232,0.55),
-        0 0 8px rgba(26,10,22,0.5);
+        0 1.5px 0 rgba(255, 251, 245, 0.6),
+        0 0 10px rgba(255, 251, 245, 0.5);
     }
-
-    /* ============ SAKURA PETAL AMBIENT LAYER ================================= */
-    #ko-petals {
-      position: fixed;
-      pointer-events: none;
-      z-index: 2147483095;
-      overflow: hidden;
-    }
-    .ko-petal {
+    #ko-lyrics .ko-line-en span { color: inherit; }
+    /* A centered thin dashed divider above the EN line — the product
+       card's "description separator." Pink→blue gradient echoes the
+       card piping; dashed so it reads as tiny stitches not a hard rule. */
+    #ko-lyrics .ko-line-en:not(:empty)::before {
+      content: '';
       position: absolute;
-      will-change: transform, opacity;
-      opacity: 0;
-      filter: blur(0.3px) drop-shadow(0 2px 4px rgba(244,160,184,0.4));
+      left: 25%;
+      right: 25%;
+      top: 0;
+      height: 1.5px;
+      background: repeating-linear-gradient(
+        to right,
+        ${THEME.pinkBold} 0 4px,
+        transparent 4px 8px,
+        ${THEME.blueBold} 8px 12px,
+        transparent 12px 16px
+      );
+      opacity: 0.7;
     }
-    .ko-petal svg { width: 100%; height: 100%; display: block; }
-
-    @keyframes koDrift {
-      0%   { transform: translate3d(0, -60px, 0) rotate(0deg);   opacity: 0; }
-      8%   { opacity: 0.75; }
-      50%  { transform: translate3d(40px, 40vh, 0) rotate(140deg); opacity: 0.7; }
-      92%  { opacity: 0.5; }
-      100% { transform: translate3d(-30px, 92vh, 0) rotate(340deg); opacity: 0; }
-    }
-    @keyframes koDriftR {
-      0%   { transform: translate3d(0, -60px, 0) rotate(0deg);    opacity: 0; }
-      8%   { opacity: 0.7; }
-      50%  { transform: translate3d(-48px, 40vh, 0) rotate(-130deg); opacity: 0.68; }
-      92%  { opacity: 0.5; }
-      100% { transform: translate3d(28px, 92vh, 0) rotate(-320deg); opacity: 0; }
-    }
-    @keyframes koSway {
-      0%, 100% { margin-left: -4px; }
-      50%      { margin-left: 6px;  }
+    /* English-original song mode (lang === "en"): smaller, italic-ish. */
+    #ko-lyrics .ko-line-en.en-song {
+      font-size: calc(${THEME.lyricFontSizeEN} * 0.92);
+      font-weight: 500;
     }
   `;
   document.head.appendChild(style);
 
+  // --- Tiny helpers ---
   const setHTML = (el, str) => { el.innerHTML = policy.createHTML(str); };
   const escHTML = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
+  // --- DOM construction ---
   const root = document.createElement('div');
   root.id = 'karaoke-root';
   document.body.appendChild(root);
 
-  const cornerSVG = `<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M6 6 C 6 18, 18 6, 30 6"/>
-    <path d="M6 6 C 18 6, 6 18, 6 30"/>
-    <path d="M10 10 C 10 16, 16 10, 22 10" opacity="0.6"/>
-    <path d="M10 10 C 16 10, 10 16, 10 22" opacity="0.6"/>
-    <circle cx="10" cy="10" r="1.4" fill="currentColor" stroke="none"/>
-    <path d="M30 6 C 28 8, 30 10, 32 9 C 32 11, 34 12, 35 10" opacity="0.7"/>
-    <path d="M6 30 C 8 28, 10 30, 9 32 C 11 32, 12 34, 10 35" opacity="0.7"/>
-    <path d="M18 6 L 20 5 L 22 6" opacity="0.5"/>
-    <path d="M6 18 L 5 20 L 6 22" opacity="0.5"/>
-  </svg>`;
+  // Shop-UI icons: bag, heart, tag — drawn from the MV's ~0:08 product card.
+  const bagSvg = `
+    <svg viewBox="0 0 16 16">
+      <path d="M4 5 L4 13 L12 13 L12 5 Z M6 5 Q6 2, 8 2 Q10 2, 10 5" />
+    </svg>`;
+  const heartSvg = `
+    <svg viewBox="0 0 16 16">
+      <path d="M8 13.5 Q2 10, 2 6 Q2 3, 5 3 Q7 3, 8 5 Q9 3, 11 3 Q14 3, 14 6 Q14 10, 8 13.5 Z"/>
+    </svg>`;
+  const tagSvg = `
+    <svg viewBox="0 0 16 16">
+      <path d="M9 2 L14 2 L14 7 L7 14 L2 9 Z M11 5 Q11 4.5, 11.5 4.5 Q12 4.5, 12 5 Q12 5.5, 11.5 5.5 Q11 5.5, 11 5 Z"/>
+    </svg>`;
 
-  const sprigSVG = `<svg viewBox="0 0 168 22" preserveAspectRatio="none" fill="none">
-    <path d="M2 12 C 32 12, 48 5, 74 9" stroke="#caa368" stroke-width="0.9" stroke-linecap="round" opacity="0.8"/>
-    <path d="M166 12 C 136 12, 120 5, 94 9" stroke="#caa368" stroke-width="0.9" stroke-linecap="round" opacity="0.8"/>
-    <path d="M26 10 C 27 7, 30 7, 30 10 C 30 7, 33 7, 34 10" stroke="#caa368" stroke-width="0.7" opacity="0.6" fill="none"/>
-    <path d="M142 10 C 141 7, 138 7, 138 10 C 138 7, 135 7, 134 10" stroke="#caa368" stroke-width="0.7" opacity="0.6" fill="none"/>
-    <g transform="translate(84 12)">
-      <circle r="4.6" fill="#f4a0b8" opacity="0.88"/>
-      <circle r="2.6" fill="#ffffff" opacity="0.75"/>
-      <circle r="1.2" fill="#f2bb5c"/>
-      <path d="M0 -5 L 1.2 -3.2 M 0 5 L 1.2 3.2 M -5 0 L -3.2 1.2 M 5 0 L 3.2 1.2" stroke="#caa368" stroke-width="0.6" opacity="0.55"/>
-    </g>
-    <circle cx="58"  cy="11" r="1.6" fill="#8cc5e8" opacity="0.78"/>
-    <circle cx="110" cy="11" r="1.6" fill="#8cc5e8" opacity="0.78"/>
-    <circle cx="48"  cy="12" r="1.1" fill="#f4a0b8" opacity="0.7"/>
-    <circle cx="120" cy="12" r="1.1" fill="#f4a0b8" opacity="0.7"/>
-  </svg>`;
+  // Daisy sticker — 8 rounded petals around a gold center.
+  const daisySvg = `
+    <svg viewBox="0 0 40 40">
+      <g transform="translate(20 20)">
+        <ellipse class="petal" cx="0"   cy="-11" rx="4.5" ry="7"/>
+        <ellipse class="petal" cx="11"  cy="0"   rx="7"   ry="4.5"/>
+        <ellipse class="petal" cx="0"   cy="11"  rx="4.5" ry="7"/>
+        <ellipse class="petal" cx="-11" cy="0"   rx="7"   ry="4.5"/>
+        <ellipse class="petal" cx="7.8"   cy="-7.8"  rx="4"   ry="6"   transform="rotate(45)"/>
+        <ellipse class="petal" cx="7.8"   cy="7.8"   rx="4"   ry="6"   transform="rotate(-45)"/>
+        <ellipse class="petal" cx="-7.8"  cy="-7.8"  rx="4"   ry="6"   transform="rotate(-45)"/>
+        <ellipse class="petal" cx="-7.8"  cy="7.8"   rx="4"   ry="6"   transform="rotate(45)"/>
+        <circle class="core" cx="0" cy="0" r="4"/>
+      </g>
+    </svg>`;
 
-  const setlistPanel = document.createElement('div');
-  setlistPanel.className = 'ko-panel ko-setlist';
-  if (window.__karaokeCollapsed) setlistPanel.classList.add('collapsed');
-  setHTML(setlistPanel, `
-    <div class="ko-tab" id="ko-setlist-tab" title="Collapse">${escHTML(THEME.setlistTabIcon)}</div>
-    <div class="ko-washi"></div>
-    <div class="ko-corner tl">${cornerSVG}</div>
-    <div class="ko-corner tr">${cornerSVG}</div>
-    <div class="ko-corner bl">${cornerSVG}</div>
-    <div class="ko-corner br">${cornerSVG}</div>
-
-    <div class="ko-head"><div class="ko-title">${THEME.streamTitle}</div></div>
-
-    <div class="ko-stamp">
-      <span class="ko-stamp-mark">❀</span>
-      ${escHTML(THEME.streamTag)}
-      <span class="ko-stamp-mark">❀</span>
-    </div>
-
-    <div class="ko-now">
-      <div class="ko-now-title" id="ko-now-title">—</div>
-      <div class="ko-now-meaning empty" id="ko-now-meaning"></div>
-      <div class="ko-now-artist" id="ko-now-artist">—</div>
-      <div class="ko-now-progress"><div class="ko-now-fill" id="ko-now-fill"></div></div>
-      <div class="ko-now-times"><span id="ko-now-cur">0:00</span><span id="ko-now-dur">0:00</span></div>
-    </div>
-
-    <div class="ko-dedicate"><em>please stay with us too</em></div>
-
-    <div class="ko-ctrls">
-      <div class="ko-ctrl" id="ko-skip-btn">
-        <div class="ko-ctrl-label">Skip talking</div>
+  // Heart SVG for the signature. Simple rounded cardioid.
+  const heartPath = `M 12 20 Q 2 14, 2 8 Q 2 3, 6.5 3 Q 10 3, 12 7 Q 14 3, 17.5 3 Q 22 3, 22 8 Q 22 14, 12 20 Z`;
+  const progressHeart = (cls) => `
+    <div class="ko-heart ${cls}">
+      <div class="heart-inner">
+        <svg viewBox="0 0 24 24">
+          <path class="heart-body" d="${heartPath}"/>
+        </svg>
       </div>
-      <div class="ko-ctrl" id="ko-offset-btn">
-        <div class="ko-ctrl-label">Offset</div>
-        <div class="ko-offset" id="ko-offset-display">+0.0s</div>
-      </div>
-      <div class="ko-ctrl" id="ko-lyrics-btn">
-        <div class="ko-ctrl-label">Hide lyrics</div>
-      </div>
-    </div>
-    <div class="ko-list" id="ko-list"></div>
-  `);
-  root.appendChild(setlistPanel);
-
-  const plainPanel = document.createElement('div');
-  plainPanel.className = 'ko-panel ko-plain hidden';
-  if (window.__karaokePlainCollapsed) plainPanel.classList.add('collapsed');
-  setHTML(plainPanel, `
-    <div class="ko-tab" id="ko-plain-tab" title="Collapse">${escHTML(THEME.plainTabIcon)}</div>
-    <div class="ko-head">
-      <div class="ko-title" id="ko-plain-title">—</div>
-    </div>
-    <div class="ko-plain-body" id="ko-plain-body"></div>
-  `);
-  root.appendChild(plainPanel);
+    </div>`;
 
   const lyrics = document.createElement('div');
   lyrics.id = 'ko-lyrics';
   setHTML(lyrics, `
-    <div class="ko-lyric-sprig top">${sprigSVG}</div>
-    <div class="ko-slot">
+    <div class="ko-slot" id="ko-slot">
+      <div class="ko-brand-tag">${escHTML(THEME.brandTag)}</div>
+      <div class="ko-daisy">${daisySvg}</div>
+      <div class="ko-icon-row">
+        <div class="ko-icon-btn bag">${bagSvg}</div>
+        <div class="ko-icon-btn heart">${heartSvg}</div>
+        <div class="ko-icon-btn tag">${tagSvg}</div>
+      </div>
       <div class="ko-line-jp" id="ko-line-jp"></div>
       <div class="ko-line-en" id="ko-line-en"></div>
+      <div class="ko-credit-tag">${escHTML(THEME.creditTag)}</div>
+      <div class="ko-hook-tag">${escHTML(THEME.trackTag)}</div>
+      <div class="ko-progress" id="ko-progress">
+        <div class="ko-progress-track"></div>
+        ${progressHeart('pink')}
+        ${progressHeart('blue')}
+      </div>
     </div>
-    <div class="ko-lyric-sprig bottom">${sprigSVG}</div>
   `);
   document.body.appendChild(lyrics);
 
-  // --- Sakura petal layer --------------------------------------------------
-  const petals = document.createElement('div');
-  petals.id = 'ko-petals';
-  const petalPlump = (col1, col2) => `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-      <radialGradient id="pg_${col1.replace('#','')}" cx="50%" cy="30%">
-        <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
-        <stop offset="55%" stop-color="${col1}" stop-opacity="0.9"/>
-        <stop offset="100%" stop-color="${col2}" stop-opacity="0.85"/>
-      </radialGradient>
-    </defs>
-    <path d="M12 2 C 15 5, 18 7, 17 12 C 17 16, 14 20, 12 22 C 10 20, 7 16, 7 12 C 6 7, 9 5, 12 2 Z" fill="url(#pg_${col1.replace('#','')})"/>
-    <path d="M12 8 C 12 10, 12 14, 11 17" stroke="${col2}" stroke-width="0.5" opacity="0.5" fill="none"/>
-  </svg>`;
-  const petalSlim = (col1, col2) => `<svg viewBox="0 0 20 24" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-      <linearGradient id="ps_${col1.replace('#','')}" x1="50%" y1="0%" x2="50%" y2="100%">
-        <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
-        <stop offset="60%" stop-color="${col1}" stop-opacity="0.8"/>
-        <stop offset="100%" stop-color="${col2}" stop-opacity="0.85"/>
-      </linearGradient>
-    </defs>
-    <path d="M10 1 C 14 6, 15 12, 14 18 C 13 21, 11 23, 10 23 C 9 23, 7 21, 6 18 C 5 12, 6 6, 10 1 Z" fill="url(#ps_${col1.replace('#','')})"/>
-  </svg>`;
+  if (window.__karaokeLyricsHidden) lyrics.style.display = 'none';
 
-  const petalDefs = [
-    { left:  8, size: 22, delay:  0.0, dur: 18, fwd: true,  svg: petalPlump('#f4a0b8','#d9748f') },
-    { left: 22, size: 16, delay:  3.2, dur: 21, fwd: false, svg: petalSlim('#ffd7e2','#f4a0b8') },
-    { left: 38, size: 26, delay:  6.8, dur: 16, fwd: true,  svg: petalPlump('#ffe9ef','#f4a0b8') },
-    { left: 48, size: 14, delay:  9.1, dur: 24, fwd: false, svg: petalPlump('#cbe3f3','#8cc5e8') },
-    { left: 60, size: 20, delay: 11.5, dur: 19, fwd: true,  svg: petalSlim('#f8b8ca','#d9748f') },
-    { left: 72, size: 15, delay: 14.3, dur: 22, fwd: false, svg: petalPlump('#e6f1fb','#8cc5e8') },
-    { left: 84, size: 24, delay:  1.7, dur: 17, fwd: true,  svg: petalPlump('#f4a0b8','#c96f8c') },
-    { left: 92, size: 18, delay:  5.5, dur: 20, fwd: false, svg: petalSlim('#ffe3ee','#f4a0b8') },
-  ];
-  petalDefs.forEach((p) => {
-    const el = document.createElement('div');
-    el.className = 'ko-petal';
-    el.style.left   = p.left + '%';
-    el.style.width  = p.size + 'px';
-    el.style.height = p.size + 'px';
-    el.style.top    = '-40px';
-    el.style.animation = `${p.fwd ? 'koDrift' : 'koDriftR'} ${p.dur}s linear ${-p.delay}s infinite, koSway ${(p.dur * 0.42).toFixed(1)}s ease-in-out ${-p.delay * 0.5}s infinite`;
-    setHTML(el, p.svg);
-    petals.appendChild(el);
-  });
-  document.body.appendChild(petals);
-
-  // --- Setlist row rendering (hidden via CSS; tick still needs `.ko-row.active`) ---
-  const listEl = document.getElementById('ko-list');
-  const rowsHTML = window.__setlist.map((song, i) => {
-    const noSync = !song.lrcId ? ' no-sync' : '';
-    return `<div class="ko-row${noSync}" data-idx="${i}">
-      <div class="ko-row-idx">${String(i + 1).padStart(2, '0')}</div>
-      <div class="ko-row-body">
-        <div class="ko-row-title">${escHTML(song.name)}</div>
-        <div class="ko-row-meta">
-          <span class="ko-row-time">${escHTML(song.t)}</span>
-          <span class="ko-row-artist">${escHTML(song.artist)}</span>
-        </div>
-      </div>
-    </div>`;
-  }).join('');
-  setHTML(listEl, rowsHTML);
-
-  listEl.addEventListener('click', e => {
-    const row = e.target.closest('.ko-row');
-    if (!row) return;
-    const idx = Number(row.dataset.idx);
-    const song = window.__setlist[idx];
-    const v = document.querySelector('video');
-    if (v && song) v.currentTime = song.s;
-  });
-
-  const skipBtn = document.getElementById('ko-skip-btn');
-  skipBtn.classList.toggle('is-on', !!window.__karaokeSkipEnabled);
-  skipBtn.addEventListener('click', () => {
-    window.__karaokeSkipEnabled = !window.__karaokeSkipEnabled;
-    skipBtn.classList.toggle('is-on', window.__karaokeSkipEnabled);
-  });
-
-  const lyricsBtn    = document.getElementById('ko-lyrics-btn');
-  const lyricsBtnLbl = lyricsBtn.querySelector('.ko-ctrl-label');
-  const applyLyricsState = () => {
-    lyricsBtnLbl.textContent = window.__karaokeLyricsHidden ? 'Show lyrics' : 'Hide lyrics';
-    lyrics.style.display     = window.__karaokeLyricsHidden ? 'none' : '';
-    petals.style.display     = window.__karaokeLyricsHidden ? 'none' : '';
-  };
-  applyLyricsState();
-  lyricsBtn.addEventListener('click', () => {
-    window.__karaokeLyricsHidden = !window.__karaokeLyricsHidden;
-    applyLyricsState();
-  });
-
-  const offsetBtn = document.getElementById('ko-offset-btn');
-  offsetBtn.addEventListener('click', () => {
-    const v = document.querySelector('video');
-    if (!v) return;
-    const t = v.currentTime;
-    const sl = window.__setlist || [];
-    for (const s of sl) {
-      if (t >= s.s && t < s.end) {
-        if (s.lrcId) delete window.__lyricOffsets[s.lrcId];
-        break;
-      }
-    }
-  });
-
-  document.getElementById('ko-setlist-tab').addEventListener('click', () => {
-    window.__karaokeCollapsed = !window.__karaokeCollapsed;
-    setlistPanel.classList.toggle('collapsed', window.__karaokeCollapsed);
-  });
-  document.getElementById('ko-plain-tab').addEventListener('click', () => {
-    window.__karaokePlainCollapsed = !window.__karaokePlainCollapsed;
-    plainPanel.classList.toggle('collapsed', window.__karaokePlainCollapsed);
-  });
-
+  // --- LRC parsing + LRCLib fetching (in-browser fallback) ---
   const parseLRC = (txt) => {
     const lines = [];
     for (const line of txt.split('\n')) {
@@ -889,57 +763,51 @@
       .catch(() => {});
   });
 
+  // --- Cached state for DOM-write guards ---
   let curSongIdx = -1;
   let curLineIdx = -1;
-  let lastPanelPos = '';
-  let lastNowTitle = '', lastNowMeaning = '', lastNowArtist = '', lastNowCur = '', lastNowDur = '', lastFill = '';
+  let lastLyricsPos = '';
   let lastEnText = '', lastJpText = '';
-  let lastOffsetStr = '';
+  let lastProgWriteAt = 0;
 
-  const fmt = (s) => {
-    if (!isFinite(s) || s < 0) s = 0;
-    const m = Math.floor(s / 60);
-    const ss = Math.floor(s % 60);
-    return m + ':' + String(ss).padStart(2, '0');
-  };
-
+  // --- Position tick: re-anchor the lyric zone to the video rect ---
+  // Writes --ko-track-w so the hearts' transform math knows how far to
+  // travel. Suppresses transition during the write so resize/fullscreen
+  // doesn't animate the hearts to their new proportional positions.
   const positionTick = () => {
     if (window.__koGen !== MY_GEN) return;
     const v = document.querySelector('video');
     if (!v) { setTimeout(positionTick, 250); return; }
     const r = v.getBoundingClientRect();
     if (r.width < 100) { setTimeout(positionTick, 250); return; }
-    const PW = window.__koPanelWidth;
-    const PAD = window.__koPanelPad;
-    const posKey = `${r.left}|${r.top}|${r.width}|${r.height}|${PW}|${PAD}`;
-    if (posKey !== lastPanelPos) {
-      lastPanelPos = posKey;
-      let sLeft = r.right + PAD;
-      if (sLeft + PW > window.innerWidth - 8) sLeft = window.innerWidth - PW - 8;
-      setlistPanel.style.left = sLeft + 'px';
-      setlistPanel.style.top = (r.top + r.height / 2) + 'px';
-      setlistPanel.style.width = PW + 'px';
-
-      let pLeft = r.left - PW - PAD;
-      if (pLeft < 8) pLeft = 8;
-      plainPanel.style.left = pLeft + 'px';
-      plainPanel.style.top = (r.top + r.height / 2) + 'px';
-      plainPanel.style.width = PW + 'px';
-
-      lyrics.style.left     = (r.left + r.width / 2) + 'px';
-      lyrics.style.top      = (r.top + r.height * 0.66) + 'px';
-      lyrics.style.width    = (r.width * 0.62) + 'px';
-      lyrics.style.maxWidth = (r.width * 0.62) + 'px';
-
-      petals.style.left   = r.left + 'px';
-      petals.style.top    = r.top + 'px';
-      petals.style.width  = r.width + 'px';
-      petals.style.height = r.height + 'px';
+    const p = window.__koPosition;
+    const posKey = `${r.left}|${r.top}|${r.width}|${r.height}|${p.anchorX}|${p.anchorY}|${p.widthFrac}`;
+    if (posKey !== lastLyricsPos) {
+      lastLyricsPos = posKey;
+      const cardW = r.width * p.widthFrac;
+      lyrics.style.left     = (r.left + r.width * p.anchorX) + 'px';
+      lyrics.style.top      = (r.top  + r.height * p.anchorY) + 'px';
+      lyrics.style.width    = cardW + 'px';
+      lyrics.style.maxWidth = cardW + 'px';
+      // Suppress heart transitions during the snap.
+      const hearts = lyrics.querySelectorAll('.ko-heart');
+      hearts.forEach(h => { h.style.transition = 'none'; });
+      // Track width = card width - 2 * .ko-progress left-inset (36px each side)
+      //             - 2 * .ko-progress-track inner-inset (28px each side) = -128.
+      // Cardw - 128 is the pixel distance between track endpoints.
+      const trackW = Math.max(120, cardW - 128);
+      lyrics.style.setProperty('--ko-track-w', trackW + 'px');
+      // Force reflow then restore transitions.
+      hearts.forEach(h => {
+        void h.offsetWidth;
+        h.style.transition = '';
+      });
     }
     setTimeout(positionTick, 250);
   };
   positionTick();
 
+  // --- Main tick: update lyric text + progress ---
   const tick = () => {
     if (window.__koGen !== MY_GEN) return;
     const v = document.querySelector('video');
@@ -957,6 +825,7 @@
     const inSong  = song ? (t - song.s) : 0;
     const songDur = song ? (song.dur || 240) : 0;
 
+    // ---- Song change block ----
     if (idx !== curSongIdx) {
       curSongIdx = idx;
       curLineIdx = -1;
@@ -967,103 +836,26 @@
       if (jpEl) jpEl.textContent = '';
       lastEnText = ''; lastJpText = '';
 
-      const title = song ? song.name : '—';
-      let meaning = '';
-      if (song) {
-        const jpPart = (song.originalTitle && song.originalTitle !== song.name) ? song.originalTitle : '';
-        const enPart = (song.nameEn && song.nameEn !== song.name) ? song.nameEn : '';
-        meaning = jpPart && enPart ? `${jpPart} · ${enPart}` : (jpPart || enPart || '');
-      }
-      const artist = song ? song.artist : '—';
-      const durS   = fmt(songDur);
-      if (title !== lastNowTitle) {
-        document.getElementById('ko-now-title').textContent = title;
-        lastNowTitle = title;
-      }
-      if (meaning !== lastNowMeaning) {
-        const mEl = document.getElementById('ko-now-meaning');
-        if (mEl) {
-          mEl.textContent = meaning;
-          mEl.classList.toggle('empty', meaning === '');
-        }
-        lastNowMeaning = meaning;
-      }
-      if (artist !== lastNowArtist) {
-        document.getElementById('ko-now-artist').textContent = artist;
-        lastNowArtist = artist;
-      }
-      if (durS !== lastNowDur) {
-        document.getElementById('ko-now-dur').textContent = durS;
-        lastNowDur = durS;
-      }
-
-      document.querySelectorAll('.ko-row').forEach((row, i) => {
-        row.classList.toggle('active', i === idx);
-      });
-      if (idx >= 0) {
-        const row = document.querySelectorAll('.ko-row')[idx];
-        if (row) row.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
-      }
-
-      const plainData = song ? window.__plainLyrics[song.idx] : null;
-      if (plainData) {
-        plainPanel.classList.remove('hidden');
-        document.getElementById('ko-plain-title').textContent = song.name;
-        const body = document.getElementById('ko-plain-body');
-        const jpLines = plainData.jp || [];
-        const enLines = plainData.en || [];
-        const mkLines = (lines) => lines.map(l =>
-          l === '' ? '<div class="ko-plain-blank"></div>' : `<div class="ko-plain-line">${escHTML(l)}</div>`
-        ).join('');
-        setHTML(body, `
-          <div class="ko-plain-section">
-            <div class="ko-plain-label">English</div>
-            <div class="ko-plain-en">${mkLines(enLines)}</div>
-          </div>
-          <div class="ko-plain-section">
-            <div class="ko-plain-label">日本語</div>
-            <div class="ko-plain-jp">${mkLines(jpLines)}</div>
-          </div>
-        `);
-        body.scrollTop = 0;
-      } else {
-        plainPanel.classList.add('hidden');
-      }
-
       if (enEl) enEl.classList.toggle('en-song', !!(song && song.lang === 'en'));
       if (jpEl) jpEl.classList.toggle('hidden',  !song || song.lang === 'en');
     }
 
+    // ---- Twin-heart progress update (rate-limited, ~7×/sec) ----
+    // --ko-progress drives the hearts inward (0 = apart at edges, 1 = meeting
+    // at center). --ko-ripe drives heart fill depth + glow — ramps pale→
+    // ripe across the middle 80% of the song.
     if (song && songDur > 0) {
-      const pct = Math.max(0, Math.min(100, inSong / songDur * 100));
-      const fillStr = pct.toFixed(1) + '%';
-      const curS = fmt(Math.min(inSong, songDur));
-      if (fillStr !== lastFill) {
-        document.getElementById('ko-now-fill').style.width = fillStr;
-        lastFill = fillStr;
-      }
-      if (curS !== lastNowCur) {
-        document.getElementById('ko-now-cur').textContent = curS;
-        lastNowCur = curS;
-      }
-    } else {
-      if (lastFill !== '0.0%') {
-        document.getElementById('ko-now-fill').style.width = '0%';
-        lastFill = '0.0%';
-      }
-      if (lastNowCur !== '0:00') {
-        document.getElementById('ko-now-cur').textContent = '0:00';
-        lastNowCur = '0:00';
+      const now = performance.now();
+      if (now - lastProgWriteAt >= 140) {
+        lastProgWriteAt = now;
+        const progFrac = Math.max(0, Math.min(1, inSong / songDur));
+        const ripe = Math.max(0, Math.min(1, (progFrac - 0.10) / 0.82));
+        lyrics.style.setProperty('--ko-progress', progFrac.toFixed(4));
+        lyrics.style.setProperty('--ko-ripe',     ripe.toFixed(4));
       }
     }
 
-    if (window.__karaokeSkipEnabled && song && inSong >= songDur && idx < sl.length - 1) {
-      const next = sl[idx + 1];
-      if (next && v.currentTime < next.s - 0.5) {
-        v.currentTime = next.s;
-      }
-    }
-
+    // ---- LRC line lookup + display ----
     if (song && song.lrcId && window.__parsedLyrics[song.lrcId]) {
       const lrc = window.__parsedLyrics[song.lrcId];
       const offset = window.__lyricOffsets[song.lrcId] || 0;
@@ -1121,17 +913,9 @@
         lastJpText = '';
       }
     }
-
-    const curOffset = song && song.lrcId ? (window.__lyricOffsets[song.lrcId] || 0) : 0;
-    const sign = curOffset >= 0 ? '+' : '';
-    const offsetStr = sign + curOffset.toFixed(1) + 's';
-    if (offsetStr !== lastOffsetStr) {
-      const el = document.getElementById('ko-offset-display');
-      if (el) el.textContent = offsetStr;
-      lastOffsetStr = offsetStr;
-    }
   };
 
+  // --- Dual loop: RAF for smoothness, setInterval for background-tab coverage ---
   const raf = () => {
     if (window.__koGen !== MY_GEN) return;
     tick();
@@ -1143,6 +927,7 @@
     tick();
   }, 30);
 
+  // --- Offset hotkeys: [ ] \ ---
   const keyHandler = (e) => {
     const tag = (e.target && e.target.tagName || '').toLowerCase();
     if (tag === 'input' || tag === 'textarea' || (e.target && e.target.isContentEditable)) return;
@@ -1173,6 +958,7 @@
   window.__karaokeKeyHandler = keyHandler;
   document.addEventListener('keydown', keyHandler, true);
 
+  // --- Rebuild hook ---
   window.__karaokeRebuild = () => {
     curLineIdx = -2;
     lastEnText = '';
@@ -1180,6 +966,7 @@
     curSongIdx = -2;
   };
 
+  // --- Timestamp-keyed translation merge ---
   window.__mergeTranslations = (data) => {
     const parsed = window.__parsedLyrics;
     for (const id in data) {
@@ -1188,7 +975,8 @@
       if (!lines) continue;
       const map = data[id];
       for (const line of lines) {
-        const val = map[line.t.toFixed(2)];
+        const k2 = line.t.toFixed(2);
+        const val = map[k2] || map[String(line.t)] || map[parseFloat(k2).toString()];
         if (!val) continue;
         if (typeof val === 'string') {
           line.en = val;
@@ -1208,6 +996,7 @@
     window.__karaokeRebuild();
   };
 
+  // --- Color + gloss colorizer (polling) ---
   let _lastWCJp = '';
   const COLOR_POLL = setInterval(() => {
     if (window.__koGen !== MY_GEN) { clearInterval(COLOR_POLL); return; }
@@ -1217,12 +1006,6 @@
     const jp = jpEl.textContent;
     if (jp === _lastWCJp) return;
     _lastWCJp = jp;
-
-    // Hook-phrase signature: the song's namesake English chorus renders in
-    // Great Vibes cursive script — a callback to the polaroid's title card.
-    const isHook = /^\s*Let\s+Me\s+Be\s+With\s+You\.?\s*$/i.test(jp);
-    jpEl.classList.toggle('ko-hook', isHook);
-
     if (!jp.trim()) return;
     const alignment = window.__wordAlign.data && window.__wordAlign.data[jp];
     if (!alignment) return;
@@ -1232,7 +1015,8 @@
     ).join('');
     const buildJpGloss = segs => segs.map(([text, ci, g]) => {
       const col = colors[ci];
-      return `<span data-wc="${ci}" style="color:${col}"><ruby>${escHTML(text)}<rt style="color:${col}">${escHTML(g || '')}</rt></ruby></span>`;
+      const glossHTML = g ? escHTML(g) : '\u00a0';
+      return `<span data-wc="${ci}" style="color:${col}"><ruby>${escHTML(text)}<rt style="color:${col}">${glossHTML}</rt></ruby></span>`;
     }).join('');
     const buildEn = segs => segs.map(([text, ci]) =>
       `<span data-wc="${ci}" style="color:${colors[ci]}">${escHTML(text)}</span>`
