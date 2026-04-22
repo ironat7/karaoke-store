@@ -3,265 +3,2223 @@
     "11.46": {
       "en": "Treading firm on the earth, you begin to awaken",
       "align": {
-        "jp":    [["大地を", 0], ["踏みしめて", 1], [" 君は", 2], ["目覚めていく", 3]],
-        "gloss": [["大地", 0, "earth"], ["を", 0, "(obj)"], ["踏みしめ", 1, "tread firm"], ["て", 1, "(te)"], [" 君", 2, "you"], ["は", 2, "(topic)"], ["目覚めて", 3, "awaken(te)"], ["いく", 3, "(begin to)"]],
-        "en":    [["Treading firm on", 1], [" the earth", 0], [", you", 2], [" begin to awaken", 3]]
+        "jp": [
+          [
+            "大地を",
+            0
+          ],
+          [
+            "踏みしめて",
+            1
+          ],
+          [
+            " 君は",
+            2
+          ],
+          [
+            "目覚めていく",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "大地",
+            0,
+            "earth"
+          ],
+          [
+            "を",
+            0,
+            "(obj)"
+          ],
+          [
+            "踏みしめ",
+            1,
+            "tread firm"
+          ],
+          [
+            "て",
+            1,
+            "(te)"
+          ],
+          [
+            " 君",
+            2,
+            "you"
+          ],
+          [
+            "は",
+            2,
+            "(topic)"
+          ],
+          [
+            "目覚めて",
+            3,
+            "awaken(te)"
+          ],
+          [
+            "いく",
+            3,
+            "(begin to)"
+          ]
+        ],
+        "en": [
+          [
+            "Treading firm on",
+            1
+          ],
+          [
+            " the earth",
+            0
+          ],
+          [
+            ", you",
+            2
+          ],
+          [
+            " begin to awaken",
+            3
+          ]
+        ]
       }
     },
     "17.49": {
       "en": "With an angel's smile, lead me away",
       "align": {
-        "jp":    [["天使の", 0], ["微笑みで", 1], [" 連れ出して", 2]],
-        "gloss": [["天使", 0, "angel"], ["の", 0, "'s"], ["微笑み", 1, "smile"], ["で", 1, "(with)"], [" 連れ出し", 2, "lead away"], ["て", 2, "(req)"]],
-        "en":    [["With", 1], [" an angel", 0], ["'s", 0], [" smile", 1], [", lead me away", 2]]
+        "jp": [
+          [
+            "天使の",
+            0
+          ],
+          [
+            "微笑みで",
+            1
+          ],
+          [
+            " 連れ出して",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "天使",
+            0,
+            "angel"
+          ],
+          [
+            "の",
+            0,
+            "'s"
+          ],
+          [
+            "微笑み",
+            1,
+            "smile"
+          ],
+          [
+            "で",
+            1,
+            "(with)"
+          ],
+          [
+            " 連れ出し",
+            2,
+            "lead away"
+          ],
+          [
+            "て",
+            2,
+            "(req)"
+          ]
+        ],
+        "en": [
+          [
+            "With",
+            1
+          ],
+          [
+            " an angel",
+            0
+          ],
+          [
+            "'s",
+            0
+          ],
+          [
+            " smile",
+            1
+          ],
+          [
+            ", lead me away",
+            2
+          ]
+        ]
       }
     },
     "30.22": {
       "en": "Even alone, you're never truly on your own",
       "align": {
-        "jp":    [["孤独でも", 0], [" 一人", 1], ["じゃないさ", 2]],
-        "gloss": [["孤独", 0, "solitude"], ["でも", 0, "even"], [" 一人", 1, "alone"], ["じゃ", 2, "(cop)"], ["ない", 2, "(neg)"], ["さ", 2, "(masc-assert)"]],
-        "en":    [["Even alone", 0], [", you're never", 2], [" truly on your own", 1]]
+        "jp": [
+          [
+            "孤独でも",
+            0
+          ],
+          [
+            " 一人",
+            1
+          ],
+          [
+            "じゃないさ",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "孤独",
+            0,
+            "solitude"
+          ],
+          [
+            "でも",
+            0,
+            "even"
+          ],
+          [
+            " 一人",
+            1,
+            "alone"
+          ],
+          [
+            "じゃ",
+            2,
+            "(cop)"
+          ],
+          [
+            "ない",
+            2,
+            "(neg)"
+          ],
+          [
+            "さ",
+            2,
+            "(masc-assert)"
+          ]
+        ],
+        "en": [
+          [
+            "Even alone",
+            0
+          ],
+          [
+            ", you're never",
+            2
+          ],
+          [
+            " truly on your own",
+            1
+          ]
+        ]
       }
     },
     "35.98": {
       "en": "There's always a reason you were born",
       "align": {
-        "jp":    [["生まれてきた", 0], ["ことに", 1], [" 必ず", 2], ["意味がある", 3]],
-        "gloss": [["生まれて", 0, "be born(te)"], ["きた", 0, "(came to)"], ["こと", 1, "fact"], ["に", 1, "(in)"], [" 必ず", 2, "always"], ["意味", 3, "meaning"], ["が", 3, "(subj)"], ["ある", 3, "exists"]],
-        "en":    [["There's", 3], [" always", 2], [" a reason", 1], [" you were born", 0]]
+        "jp": [
+          [
+            "生まれてきた",
+            0
+          ],
+          [
+            "ことに",
+            1
+          ],
+          [
+            " 必ず",
+            2
+          ],
+          [
+            "意味がある",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "生まれて",
+            0,
+            "be born(te)"
+          ],
+          [
+            "きた",
+            0,
+            "(came to)"
+          ],
+          [
+            "こと",
+            1,
+            "fact"
+          ],
+          [
+            "に",
+            1,
+            "(in)"
+          ],
+          [
+            " 必ず",
+            2,
+            "always"
+          ],
+          [
+            "意味",
+            3,
+            "meaning"
+          ],
+          [
+            "が",
+            3,
+            "(subj)"
+          ],
+          [
+            "ある",
+            3,
+            "exists"
+          ]
+        ],
+        "en": [
+          [
+            "There's",
+            3
+          ],
+          [
+            " always",
+            2
+          ],
+          [
+            " a reason",
+            1
+          ],
+          [
+            " you were born",
+            0
+          ]
+        ]
       }
     },
     "42.28": {
       "en": "This world is overflowing with kindness",
       "align": {
-        "jp":    [["優しさに", 0], [" 満ち溢れてる", 1]],
-        "gloss": [["優しさ", 0, "kindness"], ["に", 0, "(with)"], [" 満ち溢れて", 1, "overflow(te)"], ["る", 1, "(is)"]],
-        "en":    [["This world is overflowing", 1], [" with kindness", 0]]
+        "jp": [
+          [
+            "優しさに",
+            0
+          ],
+          [
+            " 満ち溢れてる",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "優しさ",
+            0,
+            "kindness"
+          ],
+          [
+            "に",
+            0,
+            "(with)"
+          ],
+          [
+            " 満ち溢れて",
+            1,
+            "overflow(te)"
+          ],
+          [
+            "る",
+            1,
+            "(is)"
+          ]
+        ],
+        "en": [
+          [
+            "This world is overflowing",
+            1
+          ],
+          [
+            " with kindness",
+            0
+          ]
+        ]
       }
     },
     "47.46": {
       "en": "Thank you, blue Earth of mine",
       "align": {
-        "jp":    [["青い", 0], ["地球に", 1], ["ありがとう", 2]],
-        "gloss": [["青い", 0, "blue"], ["地球", 1, "Earth"], ["に", 1, "(to)"], ["ありがとう", 2, "thank you"]],
-        "en":    [["Thank you", 2], [", blue", 0], [" Earth of mine", 1]]
+        "jp": [
+          [
+            "青い",
+            0
+          ],
+          [
+            "地球に",
+            1
+          ],
+          [
+            "ありがとう",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "青い",
+            0,
+            "blue"
+          ],
+          [
+            "地球",
+            1,
+            "Earth"
+          ],
+          [
+            "に",
+            1,
+            "(to)"
+          ],
+          [
+            "ありがとう",
+            2,
+            "thank you"
+          ]
+        ],
+        "en": [
+          [
+            "Thank you",
+            2
+          ],
+          [
+            ", blue",
+            0
+          ],
+          [
+            " Earth of mine",
+            1
+          ]
+        ]
       }
     },
     "53.23": {
       "en": "You can smile again, bathed in the sun",
       "align": {
-        "jp":    [["You can smile again", 0], [" 太陽", 1], ["浴びて", 2]],
-        "gloss": [["You can smile again", 0, "(EN)"], [" 太陽", 1, "sun"], ["浴び", 2, "bathe"], ["て", 2, "(te)"]],
-        "en":    [["You can smile again", 0], [", bathed", 2], [" in the sun", 1]]
+        "jp": [
+          [
+            "You can smile again",
+            0
+          ],
+          [
+            " 太陽",
+            1
+          ],
+          [
+            "浴びて",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "You can smile again",
+            0,
+            ""
+          ],
+          [
+            " 太陽",
+            1,
+            "sun"
+          ],
+          [
+            "浴び",
+            2,
+            "bathe"
+          ],
+          [
+            "て",
+            2,
+            "(te)"
+          ]
+        ],
+        "en": [
+          [
+            "You can smile again",
+            0
+          ],
+          [
+            ", bathed",
+            2
+          ],
+          [
+            " in the sun",
+            1
+          ]
+        ]
       }
     },
     "59.53": {
       "en": "You can fly away, the world is waiting for your light to shine",
       "align": {
-        "jp":    [["You can fly away", 0], [" 世界は", 1], ["君の", 2], ["輝きを", 3], ["待ってる", 4]],
-        "gloss": [["You can fly away", 0, "(EN)"], [" 世界", 1, "world"], ["は", 1, "(topic)"], ["君", 2, "you"], ["の", 2, "'s"], ["輝き", 3, "radiance"], ["を", 3, "(obj)"], ["待って", 4, "wait(te)"], ["る", 4, "(is)"]],
-        "en":    [["You can fly away", 0], [", the world", 1], [" is waiting", 4], [" for your", 2], [" light to shine", 3]]
+        "jp": [
+          [
+            "You can fly away",
+            0
+          ],
+          [
+            " 世界は",
+            1
+          ],
+          [
+            "君の",
+            2
+          ],
+          [
+            "輝きを",
+            3
+          ],
+          [
+            "待ってる",
+            4
+          ]
+        ],
+        "gloss": [
+          [
+            "You can fly away",
+            0,
+            ""
+          ],
+          [
+            " 世界",
+            1,
+            "world"
+          ],
+          [
+            "は",
+            1,
+            "(topic)"
+          ],
+          [
+            "君",
+            2,
+            "you"
+          ],
+          [
+            "の",
+            2,
+            "'s"
+          ],
+          [
+            "輝き",
+            3,
+            "radiance"
+          ],
+          [
+            "を",
+            3,
+            "(obj)"
+          ],
+          [
+            "待って",
+            4,
+            "wait(te)"
+          ],
+          [
+            "る",
+            4,
+            "(is)"
+          ]
+        ],
+        "en": [
+          [
+            "You can fly away",
+            0
+          ],
+          [
+            ", the world",
+            1
+          ],
+          [
+            " is waiting",
+            4
+          ],
+          [
+            " for your",
+            2
+          ],
+          [
+            " light to shine",
+            3
+          ]
+        ]
       }
     },
     "68.24": {
       "en": "Treading firm on the earth, you begin to awaken",
       "align": {
-        "jp":    [["大地を", 0], ["踏みしめて", 1], [" 君は", 2], ["目覚めていく", 3]],
-        "gloss": [["大地", 0, "earth"], ["を", 0, "(obj)"], ["踏みしめ", 1, "tread firm"], ["て", 1, "(te)"], [" 君", 2, "you"], ["は", 2, "(topic)"], ["目覚めて", 3, "awaken(te)"], ["いく", 3, "(begin to)"]],
-        "en":    [["Treading firm on", 1], [" the earth", 0], [", you", 2], [" begin to awaken", 3]]
+        "jp": [
+          [
+            "大地を",
+            0
+          ],
+          [
+            "踏みしめて",
+            1
+          ],
+          [
+            " 君は",
+            2
+          ],
+          [
+            "目覚めていく",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "大地",
+            0,
+            "earth"
+          ],
+          [
+            "を",
+            0,
+            "(obj)"
+          ],
+          [
+            "踏みしめ",
+            1,
+            "tread firm"
+          ],
+          [
+            "て",
+            1,
+            "(te)"
+          ],
+          [
+            " 君",
+            2,
+            "you"
+          ],
+          [
+            "は",
+            2,
+            "(topic)"
+          ],
+          [
+            "目覚めて",
+            3,
+            "awaken(te)"
+          ],
+          [
+            "いく",
+            3,
+            "(begin to)"
+          ]
+        ],
+        "en": [
+          [
+            "Treading firm on",
+            1
+          ],
+          [
+            " the earth",
+            0
+          ],
+          [
+            ", you",
+            2
+          ],
+          [
+            " begin to awaken",
+            3
+          ]
+        ]
       }
     },
     "74.28": {
       "en": "With an angel's smile, lead me away (you can smile!)",
       "align": {
-        "jp":    [["天使の", 0], ["微笑みで", 1], [" 連れ出して", 2], [" (you can smile!)", 3]],
-        "gloss": [["天使", 0, "angel"], ["の", 0, "'s"], ["微笑み", 1, "smile"], ["で", 1, "(with)"], [" 連れ出し", 2, "lead away"], ["て", 2, "(req)"], [" (you can smile!)", 3, "(EN refrain)"]],
-        "en":    [["With", 1], [" an angel", 0], ["'s", 0], [" smile", 1], [", lead me away", 2], [" (you can smile!)", 3]]
+        "jp": [
+          [
+            "天使の",
+            0
+          ],
+          [
+            "微笑みで",
+            1
+          ],
+          [
+            " 連れ出して",
+            2
+          ],
+          [
+            " (you can smile!)",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "天使",
+            0,
+            "angel"
+          ],
+          [
+            "の",
+            0,
+            "'s"
+          ],
+          [
+            "微笑み",
+            1,
+            "smile"
+          ],
+          [
+            "で",
+            1,
+            "(with)"
+          ],
+          [
+            " 連れ出し",
+            2,
+            "lead away"
+          ],
+          [
+            "て",
+            2,
+            "(req)"
+          ],
+          [
+            " (you can smile!)",
+            3,
+            ""
+          ]
+        ],
+        "en": [
+          [
+            "With",
+            1
+          ],
+          [
+            " an angel",
+            0
+          ],
+          [
+            "'s",
+            0
+          ],
+          [
+            " smile",
+            1
+          ],
+          [
+            ", lead me away",
+            2
+          ],
+          [
+            " (you can smile!)",
+            3
+          ]
+        ]
       }
     },
     "80.75": {
       "en": "It's never too late for a new beginning",
       "align": {
-        "jp":    [["「始まり」は", 0], ["いつでも", 1], ["遅くないさ", 2]],
-        "gloss": [["「始まり」", 0, "beginning"], ["は", 0, "(topic)"], ["いつでも", 1, "any time"], ["遅く", 2, "late"], ["ない", 2, "(neg)"], ["さ", 2, "(masc-assert)"]],
-        "en":    [["It's never too late", 2], [" for a", 1], [" new beginning", 0]]
+        "jp": [
+          [
+            "「始まり」は",
+            0
+          ],
+          [
+            "いつでも",
+            1
+          ],
+          [
+            "遅くないさ",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "「始まり」",
+            0,
+            "beginning"
+          ],
+          [
+            "は",
+            0,
+            "(topic)"
+          ],
+          [
+            "いつでも",
+            1,
+            "any time"
+          ],
+          [
+            "遅く",
+            2,
+            "late"
+          ],
+          [
+            "ない",
+            2,
+            "(neg)"
+          ],
+          [
+            "さ",
+            2,
+            "(masc-assert)"
+          ]
+        ],
+        "en": [
+          [
+            "It's never too late",
+            2
+          ],
+          [
+            " for a",
+            1
+          ],
+          [
+            " new beginning",
+            0
+          ]
+        ]
       }
     },
     "86.69": {
       "en": "Rise to your feet, again and again",
       "align": {
-        "jp":    [["何度でも", 0], ["立ち上がれ", 1]],
-        "gloss": [["何度でも", 0, "any number of times"], ["立ち上がれ", 1, "rise up!"]],
-        "en":    [["Rise to your feet", 1], [", again and again", 0]]
+        "jp": [
+          [
+            "何度でも",
+            0
+          ],
+          [
+            "立ち上がれ",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "何度でも",
+            0,
+            "any number of times"
+          ],
+          [
+            "立ち上がれ",
+            1,
+            "rise up!"
+          ]
+        ],
+        "en": [
+          [
+            "Rise to your feet",
+            1
+          ],
+          [
+            ", again and again",
+            0
+          ]
+        ]
       }
     },
     "101.88": {
       "en": "I'll never give up, not till the very end",
       "align": {
-        "jp":    [["最後まで", 0], [" あきらめないさ", 1]],
-        "gloss": [["最後", 0, "the end"], ["まで", 0, "until"], [" あきらめ", 1, "give up"], ["ない", 1, "(neg)"], ["さ", 1, "(masc-assert)"]],
-        "en":    [["I'll never give up", 1], [", not till the very end", 0]]
+        "jp": [
+          [
+            "最後まで",
+            0
+          ],
+          [
+            " あきらめないさ",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "最後",
+            0,
+            "the end"
+          ],
+          [
+            "まで",
+            0,
+            "until"
+          ],
+          [
+            " あきらめ",
+            1,
+            "give up"
+          ],
+          [
+            "ない",
+            1,
+            "(neg)"
+          ],
+          [
+            "さ",
+            1,
+            "(masc-assert)"
+          ]
+        ],
+        "en": [
+          [
+            "I'll never give up",
+            1
+          ],
+          [
+            ", not till the very end",
+            0
+          ]
+        ]
       }
     },
     "108.13": {
       "en": "There's always meaning in pressing on",
       "align": {
-        "jp":    [["やり続ける", 0], ["ことに", 1], [" 必ず", 2], ["意味がある", 3]],
-        "gloss": [["やり続ける", 0, "keep doing"], ["こと", 1, "fact"], ["に", 1, "(in)"], [" 必ず", 2, "always"], ["意味", 3, "meaning"], ["が", 3, "(subj)"], ["ある", 3, "exists"]],
-        "en":    [["There's", 3], [" always", 2], [" meaning", 1], [" in pressing on", 0]]
+        "jp": [
+          [
+            "やり続ける",
+            0
+          ],
+          [
+            "ことに",
+            1
+          ],
+          [
+            " 必ず",
+            2
+          ],
+          [
+            "意味がある",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "やり続ける",
+            0,
+            "keep doing"
+          ],
+          [
+            "こと",
+            1,
+            "fact"
+          ],
+          [
+            "に",
+            1,
+            "(in)"
+          ],
+          [
+            " 必ず",
+            2,
+            "always"
+          ],
+          [
+            "意味",
+            3,
+            "meaning"
+          ],
+          [
+            "が",
+            3,
+            "(subj)"
+          ],
+          [
+            "ある",
+            3,
+            "exists"
+          ]
+        ],
+        "en": [
+          [
+            "There's",
+            3
+          ],
+          [
+            " always",
+            2
+          ],
+          [
+            " meaning",
+            1
+          ],
+          [
+            " in pressing on",
+            0
+          ]
+        ]
       }
     },
     "113.26": {
       "en": "You just try again, breaking through the dark",
       "align": {
-        "jp":    [["You just try again", 0], [" 闇を", 1], ["抜けて", 2]],
-        "gloss": [["You just try again", 0, "(EN)"], [" 闇", 1, "darkness"], ["を", 1, "(obj)"], ["抜け", 2, "break through"], ["て", 2, "(te)"]],
-        "en":    [["You just try again", 0], [", breaking through", 2], [" the dark", 1]]
+        "jp": [
+          [
+            "You just try again",
+            0
+          ],
+          [
+            " 闇を",
+            1
+          ],
+          [
+            "抜けて",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "You just try again",
+            0,
+            ""
+          ],
+          [
+            " 闇",
+            1,
+            "darkness"
+          ],
+          [
+            "を",
+            1,
+            "(obj)"
+          ],
+          [
+            "抜け",
+            2,
+            "break through"
+          ],
+          [
+            "て",
+            2,
+            "(te)"
+          ]
+        ],
+        "en": [
+          [
+            "You just try again",
+            0
+          ],
+          [
+            ", breaking through",
+            2
+          ],
+          [
+            " the dark",
+            1
+          ]
+        ]
       }
     },
     "119.00": {
       "en": "You just go away, the future is always waiting for us",
       "align": {
-        "jp":    [["You just go away", 0], [" 未来は", 1], ["いつも", 2], [" 僕たちを", 3], ["待ってる", 4]],
-        "gloss": [["You just go away", 0, "(EN)"], [" 未来", 1, "future"], ["は", 1, "(topic)"], ["いつも", 2, "always"], [" 僕たち", 3, "we/us"], ["を", 3, "(obj)"], ["待って", 4, "wait(te)"], ["る", 4, "(is)"]],
-        "en":    [["You just go away", 0], [", the future", 1], [" is always", 2], [" waiting", 4], [" for us", 3]]
+        "jp": [
+          [
+            "You just go away",
+            0
+          ],
+          [
+            " 未来は",
+            1
+          ],
+          [
+            "いつも",
+            2
+          ],
+          [
+            " 僕たちを",
+            3
+          ],
+          [
+            "待ってる",
+            4
+          ]
+        ],
+        "gloss": [
+          [
+            "You just go away",
+            0,
+            ""
+          ],
+          [
+            " 未来",
+            1,
+            "future"
+          ],
+          [
+            "は",
+            1,
+            "(topic)"
+          ],
+          [
+            "いつも",
+            2,
+            "always"
+          ],
+          [
+            " 僕たち",
+            3,
+            "we/us"
+          ],
+          [
+            "を",
+            3,
+            "(obj)"
+          ],
+          [
+            "待って",
+            4,
+            "wait(te)"
+          ],
+          [
+            "る",
+            4,
+            "(is)"
+          ]
+        ],
+        "en": [
+          [
+            "You just go away",
+            0
+          ],
+          [
+            ", the future",
+            1
+          ],
+          [
+            " is always",
+            2
+          ],
+          [
+            " waiting",
+            4
+          ],
+          [
+            " for us",
+            3
+          ]
+        ]
       }
     },
     "128.37": {
       "en": "Race across the open sky, soar beyond the seas",
       "align": {
-        "jp":    [["大空", 0], ["駆けぬけて", 1], [" 海原", 2], ["越えて行け", 3]],
-        "gloss": [["大空", 0, "wide sky"], ["駆けぬけ", 1, "race through"], ["て", 1, "(te)"], [" 海原", 2, "open sea"], ["越えて", 3, "cross(te)"], ["行け", 3, "go!"]],
-        "en":    [["Race across", 1], [" the open sky", 0], [", soar beyond", 3], [" the seas", 2]]
+        "jp": [
+          [
+            "大空",
+            0
+          ],
+          [
+            "駆けぬけて",
+            1
+          ],
+          [
+            " 海原",
+            2
+          ],
+          [
+            "越えて行け",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "大空",
+            0,
+            "wide sky"
+          ],
+          [
+            "駆けぬけ",
+            1,
+            "race through"
+          ],
+          [
+            "て",
+            1,
+            "(te)"
+          ],
+          [
+            " 海原",
+            2,
+            "open sea"
+          ],
+          [
+            "越えて",
+            3,
+            "cross(te)"
+          ],
+          [
+            "行け",
+            3,
+            "go!"
+          ]
+        ],
+        "en": [
+          [
+            "Race across",
+            1
+          ],
+          [
+            " the open sky",
+            0
+          ],
+          [
+            ", soar beyond",
+            3
+          ],
+          [
+            " the seas",
+            2
+          ]
+        ]
       }
     },
     "134.08": {
       "en": "Catch the kiss the angel blows your way (you can try!)",
       "align": {
-        "jp":    [["天使の", 0], ["投げキッス", 1], [" 捕まえて", 2], [" (you can try!)", 3]],
-        "gloss": [["天使", 0, "angel"], ["の", 0, "'s"], ["投げキッス", 1, "blown kiss"], [" 捕まえ", 2, "catch"], ["て", 2, "(req)"], [" (you can try!)", 3, "(EN refrain)"]],
-        "en":    [["Catch", 2], [" the kiss", 1], [" the angel blows your way", 0], [" (you can try!)", 3]]
+        "jp": [
+          [
+            "天使の",
+            0
+          ],
+          [
+            "投げキッス",
+            1
+          ],
+          [
+            " 捕まえて",
+            2
+          ],
+          [
+            " (you can try!)",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "天使",
+            0,
+            "angel"
+          ],
+          [
+            "の",
+            0,
+            "'s"
+          ],
+          [
+            "投げキッス",
+            1,
+            "blown kiss"
+          ],
+          [
+            " 捕まえ",
+            2,
+            "catch"
+          ],
+          [
+            "て",
+            2,
+            "(req)"
+          ],
+          [
+            " (you can try!)",
+            3,
+            ""
+          ]
+        ],
+        "en": [
+          [
+            "Catch",
+            2
+          ],
+          [
+            " the kiss",
+            1
+          ],
+          [
+            " the angel blows your way",
+            0
+          ],
+          [
+            " (you can try!)",
+            3
+          ]
+        ]
       }
     },
     "141.01": {
       "en": "To a world no one has ever seen before",
       "align": {
-        "jp":    [["まだ", 0], ["誰も見たことない", 1], ["世界へ", 2]],
-        "gloss": [["まだ", 0, "yet"], ["誰も", 1, "anyone"], ["見たことない", 1, "have never seen"], ["世界", 2, "world"], ["へ", 2, "(toward)"]],
-        "en":    [["To a world", 2], [" no one has ever", 1], [" seen before", 0]]
+        "jp": [
+          [
+            "まだ",
+            0
+          ],
+          [
+            "誰も見たことない",
+            1
+          ],
+          [
+            "世界へ",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "まだ",
+            0,
+            "yet"
+          ],
+          [
+            "誰も",
+            1,
+            "anyone"
+          ],
+          [
+            "見たことない",
+            1,
+            "have never seen"
+          ],
+          [
+            "世界",
+            2,
+            "world"
+          ],
+          [
+            "へ",
+            2,
+            "(toward)"
+          ]
+        ],
+        "en": [
+          [
+            "To a world",
+            2
+          ],
+          [
+            " no one has ever",
+            1
+          ],
+          [
+            " seen before",
+            0
+          ]
+        ]
       }
     },
     "146.88": {
       "en": "Let's leap into tomorrow",
       "align": {
-        "jp":    [["飛び出そう", 0], ["明日", 1]],
-        "gloss": [["飛び出そう", 0, "let's leap out"], ["明日", 1, "tomorrow"]],
-        "en":    [["Let's leap into", 0], [" tomorrow", 1]]
+        "jp": [
+          [
+            "飛び出そう",
+            0
+          ],
+          [
+            "明日",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "飛び出そう",
+            0,
+            "let's leap out"
+          ],
+          [
+            "明日",
+            1,
+            "tomorrow"
+          ]
+        ],
+        "en": [
+          [
+            "Let's leap into",
+            0
+          ],
+          [
+            " tomorrow",
+            1
+          ]
+        ]
       }
     },
     "152.21": {
       "en": "Treading firm on the earth, you begin to awaken",
       "align": {
-        "jp":    [["大地を", 0], ["踏みしめて", 1], [" 君は", 2], ["目覚めていく", 3]],
-        "gloss": [["大地", 0, "earth"], ["を", 0, "(obj)"], ["踏みしめ", 1, "tread firm"], ["て", 1, "(te)"], [" 君", 2, "you"], ["は", 2, "(topic)"], ["目覚めて", 3, "awaken(te)"], ["いく", 3, "(begin to)"]],
-        "en":    [["Treading firm on", 1], [" the earth", 0], [", you", 2], [" begin to awaken", 3]]
+        "jp": [
+          [
+            "大地を",
+            0
+          ],
+          [
+            "踏みしめて",
+            1
+          ],
+          [
+            " 君は",
+            2
+          ],
+          [
+            "目覚めていく",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "大地",
+            0,
+            "earth"
+          ],
+          [
+            "を",
+            0,
+            "(obj)"
+          ],
+          [
+            "踏みしめ",
+            1,
+            "tread firm"
+          ],
+          [
+            "て",
+            1,
+            "(te)"
+          ],
+          [
+            " 君",
+            2,
+            "you"
+          ],
+          [
+            "は",
+            2,
+            "(topic)"
+          ],
+          [
+            "目覚めて",
+            3,
+            "awaken(te)"
+          ],
+          [
+            "いく",
+            3,
+            "(begin to)"
+          ]
+        ],
+        "en": [
+          [
+            "Treading firm on",
+            1
+          ],
+          [
+            " the earth",
+            0
+          ],
+          [
+            ", you",
+            2
+          ],
+          [
+            " begin to awaken",
+            3
+          ]
+        ]
       }
     },
     "158.15": {
       "en": "With an angel's smile, lead me away (you can smile!)",
       "align": {
-        "jp":    [["天使の", 0], ["微笑みで", 1], [" 連れ出して", 2], [" (you can smile!)", 3]],
-        "gloss": [["天使", 0, "angel"], ["の", 0, "'s"], ["微笑み", 1, "smile"], ["で", 1, "(with)"], [" 連れ出し", 2, "lead away"], ["て", 2, "(req)"], [" (you can smile!)", 3, "(EN refrain)"]],
-        "en":    [["With", 1], [" an angel", 0], ["'s", 0], [" smile", 1], [", lead me away", 2], [" (you can smile!)", 3]]
+        "jp": [
+          [
+            "天使の",
+            0
+          ],
+          [
+            "微笑みで",
+            1
+          ],
+          [
+            " 連れ出して",
+            2
+          ],
+          [
+            " (you can smile!)",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "天使",
+            0,
+            "angel"
+          ],
+          [
+            "の",
+            0,
+            "'s"
+          ],
+          [
+            "微笑み",
+            1,
+            "smile"
+          ],
+          [
+            "で",
+            1,
+            "(with)"
+          ],
+          [
+            " 連れ出し",
+            2,
+            "lead away"
+          ],
+          [
+            "て",
+            2,
+            "(req)"
+          ],
+          [
+            " (you can smile!)",
+            3,
+            ""
+          ]
+        ],
+        "en": [
+          [
+            "With",
+            1
+          ],
+          [
+            " an angel",
+            0
+          ],
+          [
+            "'s",
+            0
+          ],
+          [
+            " smile",
+            1
+          ],
+          [
+            ", lead me away",
+            2
+          ],
+          [
+            " (you can smile!)",
+            3
+          ]
+        ]
       }
     },
     "164.64": {
       "en": "Let's set out on a never-ending adventure",
       "align": {
-        "jp":    [["終わらない", 0], ["冒険に", 1], ["出掛けよう", 2]],
-        "gloss": [["終わらない", 0, "never-ending"], ["冒険", 1, "adventure"], ["に", 1, "(on)"], ["出掛けよう", 2, "let's set out"]],
-        "en":    [["Let's set out", 2], [" on a", 1], [" never-ending", 0], [" adventure", 1]]
+        "jp": [
+          [
+            "終わらない",
+            0
+          ],
+          [
+            "冒険に",
+            1
+          ],
+          [
+            "出掛けよう",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "終わらない",
+            0,
+            "never-ending"
+          ],
+          [
+            "冒険",
+            1,
+            "adventure"
+          ],
+          [
+            "に",
+            1,
+            "(on)"
+          ],
+          [
+            "出掛けよう",
+            2,
+            "let's set out"
+          ]
+        ],
+        "en": [
+          [
+            "Let's set out",
+            2
+          ],
+          [
+            " on a",
+            1
+          ],
+          [
+            " never-ending",
+            0
+          ],
+          [
+            " adventure",
+            1
+          ]
+        ]
       }
     },
     "171.35": {
       "en": "Forever and ever, wherever it leads",
       "align": {
-        "jp":    [["いつまでも", 0], [" どこまでも", 1]],
-        "gloss": [["いつまで", 0, "until when"], ["も", 0, "(forever)"], [" どこまで", 1, "to where"], ["も", 1, "(anywhere)"]],
-        "en":    [["Forever and ever", 0], [", wherever it leads", 1]]
+        "jp": [
+          [
+            "いつまでも",
+            0
+          ],
+          [
+            " どこまでも",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "いつまで",
+            0,
+            "until when"
+          ],
+          [
+            "も",
+            0,
+            "(forever)"
+          ],
+          [
+            " どこまで",
+            1,
+            "to where"
+          ],
+          [
+            "も",
+            1,
+            "(anywhere)"
+          ]
+        ],
+        "en": [
+          [
+            "Forever and ever",
+            0
+          ],
+          [
+            ", wherever it leads",
+            1
+          ]
+        ]
       }
     },
     "192.57": {
       "en": "Turning every falling tear into courage",
       "align": {
-        "jp":    [["流れ落ちる", 0], ["涙", 1], [" 勇気に", 2], ["変えていく", 3]],
-        "gloss": [["流れ落ちる", 0, "falling/streaming"], ["涙", 1, "tears"], [" 勇気", 2, "courage"], ["に", 2, "(into)"], ["変えて", 3, "change(te)"], ["いく", 3, "(go on)"]],
-        "en":    [["Turning", 3], [" every falling", 0], [" tear", 1], [" into courage", 2]]
+        "jp": [
+          [
+            "流れ落ちる",
+            0
+          ],
+          [
+            "涙",
+            1
+          ],
+          [
+            " 勇気に",
+            2
+          ],
+          [
+            "変えていく",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "流れ落ちる",
+            0,
+            "falling/streaming"
+          ],
+          [
+            "涙",
+            1,
+            "tears"
+          ],
+          [
+            " 勇気",
+            2,
+            "courage"
+          ],
+          [
+            "に",
+            2,
+            "(into)"
+          ],
+          [
+            "変えて",
+            3,
+            "change(te)"
+          ],
+          [
+            "いく",
+            3,
+            "(go on)"
+          ]
+        ],
+        "en": [
+          [
+            "Turning",
+            3
+          ],
+          [
+            " every falling",
+            0
+          ],
+          [
+            " tear",
+            1
+          ],
+          [
+            " into courage",
+            2
+          ]
+        ]
       }
     },
     "198.87": {
       "en": "Spread your angel wings and take to the sky (you can fly!)",
       "align": {
-        "jp":    [["天使の", 0], ["羽", 1], ["広げ", 2], [" 舞い上がれ", 3], [" (you can fly!)", 4]],
-        "gloss": [["天使", 0, "angel"], ["の", 0, "'s"], ["羽", 1, "wings"], ["広げ", 2, "spread"], [" 舞い上がれ", 3, "soar up!"], [" (you can fly!)", 4, "(EN refrain)"]],
-        "en":    [["Spread", 2], [" your angel", 0], [" wings", 1], [" and take to the sky", 3], [" (you can fly!)", 4]]
+        "jp": [
+          [
+            "天使の",
+            0
+          ],
+          [
+            "羽",
+            1
+          ],
+          [
+            "広げ",
+            2
+          ],
+          [
+            " 舞い上がれ",
+            3
+          ],
+          [
+            " (you can fly!)",
+            4
+          ]
+        ],
+        "gloss": [
+          [
+            "天使",
+            0,
+            "angel"
+          ],
+          [
+            "の",
+            0,
+            "'s"
+          ],
+          [
+            "羽",
+            1,
+            "wings"
+          ],
+          [
+            "広げ",
+            2,
+            "spread"
+          ],
+          [
+            " 舞い上がれ",
+            3,
+            "soar up!"
+          ],
+          [
+            " (you can fly!)",
+            4,
+            ""
+          ]
+        ],
+        "en": [
+          [
+            "Spread",
+            2
+          ],
+          [
+            " your angel",
+            0
+          ],
+          [
+            " wings",
+            1
+          ],
+          [
+            " and take to the sky",
+            3
+          ],
+          [
+            " (you can fly!)",
+            4
+          ]
+        ]
       }
     },
     "205.54": {
       "en": "Embracing sorrow and pain, grow stronger, tomorrow",
       "align": {
-        "jp":    [["悲しみも", 0], ["痛みも", 1], ["包みこんで", 2], [" 強くなれ", 3], ["明日", 4]],
-        "gloss": [["悲しみ", 0, "sorrow"], ["も", 0, "(also)"], ["痛み", 1, "pain"], ["も", 1, "(also)"], ["包みこん", 2, "embrace"], ["で", 2, "(te)"], [" 強く", 3, "strong"], ["なれ", 3, "become!"], ["明日", 4, "tomorrow"]],
-        "en":    [["Embracing", 2], [" sorrow", 0], [" and pain", 1], [", grow stronger", 3], [", tomorrow", 4]]
+        "jp": [
+          [
+            "悲しみも",
+            0
+          ],
+          [
+            "痛みも",
+            1
+          ],
+          [
+            "包みこんで",
+            2
+          ],
+          [
+            " 強くなれ",
+            3
+          ],
+          [
+            "明日",
+            4
+          ]
+        ],
+        "gloss": [
+          [
+            "悲しみ",
+            0,
+            "sorrow"
+          ],
+          [
+            "も",
+            0,
+            "(also)"
+          ],
+          [
+            "痛み",
+            1,
+            "pain"
+          ],
+          [
+            "も",
+            1,
+            "(also)"
+          ],
+          [
+            "包みこん",
+            2,
+            "embrace"
+          ],
+          [
+            "で",
+            2,
+            "(te)"
+          ],
+          [
+            " 強く",
+            3,
+            "strong"
+          ],
+          [
+            "なれ",
+            3,
+            "become!"
+          ],
+          [
+            "明日",
+            4,
+            "tomorrow"
+          ]
+        ],
+        "en": [
+          [
+            "Embracing",
+            2
+          ],
+          [
+            " sorrow",
+            0
+          ],
+          [
+            " and pain",
+            1
+          ],
+          [
+            ", grow stronger",
+            3
+          ],
+          [
+            ", tomorrow",
+            4
+          ]
+        ]
       }
     },
     "216.47": {
       "en": "Treading firm on the earth, you begin to awaken",
       "align": {
-        "jp":    [["大地を", 0], ["踏みしめて", 1], [" 君は", 2], ["目覚めていく", 3]],
-        "gloss": [["大地", 0, "earth"], ["を", 0, "(obj)"], ["踏みしめ", 1, "tread firm"], ["て", 1, "(te)"], [" 君", 2, "you"], ["は", 2, "(topic)"], ["目覚めて", 3, "awaken(te)"], ["いく", 3, "(begin to)"]],
-        "en":    [["Treading firm on", 1], [" the earth", 0], [", you", 2], [" begin to awaken", 3]]
+        "jp": [
+          [
+            "大地を",
+            0
+          ],
+          [
+            "踏みしめて",
+            1
+          ],
+          [
+            " 君は",
+            2
+          ],
+          [
+            "目覚めていく",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "大地",
+            0,
+            "earth"
+          ],
+          [
+            "を",
+            0,
+            "(obj)"
+          ],
+          [
+            "踏みしめ",
+            1,
+            "tread firm"
+          ],
+          [
+            "て",
+            1,
+            "(te)"
+          ],
+          [
+            " 君",
+            2,
+            "you"
+          ],
+          [
+            "は",
+            2,
+            "(topic)"
+          ],
+          [
+            "目覚めて",
+            3,
+            "awaken(te)"
+          ],
+          [
+            "いく",
+            3,
+            "(begin to)"
+          ]
+        ],
+        "en": [
+          [
+            "Treading firm on",
+            1
+          ],
+          [
+            " the earth",
+            0
+          ],
+          [
+            ", you",
+            2
+          ],
+          [
+            " begin to awaken",
+            3
+          ]
+        ]
       }
     },
     "222.27": {
       "en": "With an angel's smile, lead me away (you can smile!)",
       "align": {
-        "jp":    [["天使の", 0], ["微笑みで", 1], [" 連れ出して", 2], [" (you can smile!)", 3]],
-        "gloss": [["天使", 0, "angel"], ["の", 0, "'s"], ["微笑み", 1, "smile"], ["で", 1, "(with)"], [" 連れ出し", 2, "lead away"], ["て", 2, "(req)"], [" (you can smile!)", 3, "(EN refrain)"]],
-        "en":    [["With", 1], [" an angel", 0], ["'s", 0], [" smile", 1], [", lead me away", 2], [" (you can smile!)", 3]]
+        "jp": [
+          [
+            "天使の",
+            0
+          ],
+          [
+            "微笑みで",
+            1
+          ],
+          [
+            " 連れ出して",
+            2
+          ],
+          [
+            " (you can smile!)",
+            3
+          ]
+        ],
+        "gloss": [
+          [
+            "天使",
+            0,
+            "angel"
+          ],
+          [
+            "の",
+            0,
+            "'s"
+          ],
+          [
+            "微笑み",
+            1,
+            "smile"
+          ],
+          [
+            "で",
+            1,
+            "(with)"
+          ],
+          [
+            " 連れ出し",
+            2,
+            "lead away"
+          ],
+          [
+            "て",
+            2,
+            "(req)"
+          ],
+          [
+            " (you can smile!)",
+            3,
+            ""
+          ]
+        ],
+        "en": [
+          [
+            "With",
+            1
+          ],
+          [
+            " an angel",
+            0
+          ],
+          [
+            "'s",
+            0
+          ],
+          [
+            " smile",
+            1
+          ],
+          [
+            ", lead me away",
+            2
+          ],
+          [
+            " (you can smile!)",
+            3
+          ]
+        ]
       }
     },
     "229.18": {
       "en": "It's never too late for a new beginning",
       "align": {
-        "jp":    [["「始まり」は", 0], ["いつでも", 1], ["遅くないさ", 2]],
-        "gloss": [["「始まり」", 0, "beginning"], ["は", 0, "(topic)"], ["いつでも", 1, "any time"], ["遅く", 2, "late"], ["ない", 2, "(neg)"], ["さ", 2, "(masc-assert)"]],
-        "en":    [["It's never too late", 2], [" for a", 1], [" new beginning", 0]]
+        "jp": [
+          [
+            "「始まり」は",
+            0
+          ],
+          [
+            "いつでも",
+            1
+          ],
+          [
+            "遅くないさ",
+            2
+          ]
+        ],
+        "gloss": [
+          [
+            "「始まり」",
+            0,
+            "beginning"
+          ],
+          [
+            "は",
+            0,
+            "(topic)"
+          ],
+          [
+            "いつでも",
+            1,
+            "any time"
+          ],
+          [
+            "遅く",
+            2,
+            "late"
+          ],
+          [
+            "ない",
+            2,
+            "(neg)"
+          ],
+          [
+            "さ",
+            2,
+            "(masc-assert)"
+          ]
+        ],
+        "en": [
+          [
+            "It's never too late",
+            2
+          ],
+          [
+            " for a",
+            1
+          ],
+          [
+            " new beginning",
+            0
+          ]
+        ]
       }
     },
     "235.23": {
       "en": "Again and again (you can try!)",
       "align": {
-        "jp":    [["何度でも", 0], [" (you can try!)", 1]],
-        "gloss": [["何度でも", 0, "any number of times"], [" (you can try!)", 1, "(EN refrain)"]],
-        "en":    [["Again and again", 0], [" (you can try!)", 1]]
+        "jp": [
+          [
+            "何度でも",
+            0
+          ],
+          [
+            " (you can try!)",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "何度でも",
+            0,
+            "any number of times"
+          ],
+          [
+            " (you can try!)",
+            1,
+            ""
+          ]
+        ],
+        "en": [
+          [
+            "Again and again",
+            0
+          ],
+          [
+            " (you can try!)",
+            1
+          ]
+        ]
       }
     },
     "238.23": {
       "en": "Again and again (you can try!)",
       "align": {
-        "jp":    [["何度でも", 0], [" (you can try!)", 1]],
-        "gloss": [["何度でも", 0, "any number of times"], [" (you can try!)", 1, "(EN refrain)"]],
-        "en":    [["Again and again", 0], [" (you can try!)", 1]]
+        "jp": [
+          [
+            "何度でも",
+            0
+          ],
+          [
+            " (you can try!)",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "何度でも",
+            0,
+            "any number of times"
+          ],
+          [
+            " (you can try!)",
+            1,
+            ""
+          ]
+        ],
+        "en": [
+          [
+            "Again and again",
+            0
+          ],
+          [
+            " (you can try!)",
+            1
+          ]
+        ]
       }
     },
     "241.28": {
       "en": "Rise to your feet, again and again",
       "align": {
-        "jp":    [["何度でも", 0], ["立ち上がれ", 1]],
-        "gloss": [["何度でも", 0, "any number of times"], ["立ち上がれ", 1, "rise up!"]],
-        "en":    [["Rise to your feet", 1], [", again and again", 0]]
+        "jp": [
+          [
+            "何度でも",
+            0
+          ],
+          [
+            "立ち上がれ",
+            1
+          ]
+        ],
+        "gloss": [
+          [
+            "何度でも",
+            0,
+            "any number of times"
+          ],
+          [
+            "立ち上がれ",
+            1,
+            "rise up!"
+          ]
+        ],
+        "en": [
+          [
+            "Rise to your feet",
+            1
+          ],
+          [
+            ", again and again",
+            0
+          ]
+        ]
       }
     }
   }

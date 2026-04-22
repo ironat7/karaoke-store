@@ -995,7 +995,8 @@
     ).join('');
     const buildJpGloss = segs => segs.map(([text, ci, g]) => {
       const col = colors[ci];
-      return `<span data-wc="${ci}" style="color:${col}"><ruby>${escHTML(text)}<rt style="color:${col}">${escHTML(g || '')}</rt></ruby></span>`;
+      const glossHTML = g ? escHTML(g) : '\u00a0';
+      return `<span data-wc="${ci}" style="color:${col}"><ruby>${escHTML(text)}<rt style="color:${col}">${glossHTML}</rt></ruby></span>`;
     }).join('');
     const buildEn = segs => segs.map(([text, ci]) =>
       `<span data-wc="${ci}" style="color:${colors[ci]}">${escHTML(text)}</span>`
