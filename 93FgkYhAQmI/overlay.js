@@ -71,10 +71,10 @@
     accent:     '#9D4A6C',  // dusty rose — left heart, used sparingly
 
     // Typography — larger whitespace, classical scale.
-    lyricFontSizeJP:     '50px',
-    lyricLineHeightJP:   '2.15',
-    lyricLetterSpacingJP:'0.02em',
-    lyricFontSizeEN:     '25px',
+    lyricFontSizeJP:     '46px',
+    lyricLineHeightJP:   '2.10',
+    lyricLetterSpacingJP:'0.018em',
+    lyricFontSizeEN:     '24px',
     lyricLineHeightEN:   '1.35',
     lyricLetterSpacingEN:'0.01em',
     glossFontSize:       '12px',
@@ -82,7 +82,7 @@
 
     // Card shape — near-square booklet page, generous padding.
     cardRadius:  '2px',
-    cardPadding: '42px 64px 46px',
+    cardPadding: '42px 52px 46px',
 
     // Chunk colors — dusty, medium-saturation. Used ONLY as thin underlines
     // beneath the kanji/words, never as text fill. So they can be richer
@@ -94,12 +94,12 @@
     //  4 — muted amber
     //  5 — dusty lavender
     chunkColors: [
-      '#B4506F',  // 0 — dusty rose
-      '#4A79A0',  // 1 — slate blue
-      '#9B7831',  // 2 — antique gold
-      '#5A8C6A',  // 3 — sage green
-      '#B07844',  // 4 — muted amber
-      '#7F5999',  // 5 — dusty lavender
+      '#C94472',  // 0 — dusty rose (bumped saturation for thin-line visibility)
+      '#2E6FA4',  // 1 — slate blue
+      '#9B7114',  // 2 — antique gold
+      '#3D8A60',  // 3 — sage green
+      '#B46420',  // 4 — muted amber
+      '#744F91',  // 5 — dusty lavender
     ],
   };
 
@@ -127,7 +127,7 @@
   // hanging off the card's bottom edge doesn't collide with YouTube's
   // own player chrome.
   window.__koPosition = Object.assign(
-    { anchorX: 0.5, anchorY: 0.70, widthFrac: 0.62 },
+    { anchorX: 0.5, anchorY: 0.70, widthFrac: 0.72 },
     window.__koPosition || {}
   );
 
@@ -467,12 +467,18 @@
       order: 1;
       text-shadow: none;
     }
+    /* Chunk color is drawn as a background-gradient bar pinned to the
+       span's content-box bottom. More reliable than text-decoration when
+       spans contain <ruby> — text-decoration-color can get clobbered by
+       the ruby rendering path in some browsers. currentColor references
+       the span's inline chunk-color attribute. */
     #ko-lyrics .ko-line-jp span {
       -webkit-text-fill-color: ${THEME.ink};
-      text-decoration-line: underline;
-      text-decoration-thickness: 1.4px;
-      text-underline-offset: 6px;
-      /* text-decoration-color defaults to currentColor (chunk color) */
+      padding-bottom: 4px;
+      background-image: linear-gradient(currentColor, currentColor);
+      background-size: 100% 2.6px;
+      background-position: 0 100%;
+      background-repeat: no-repeat;
     }
 
     /* Gloss rt — tiny serif-neutral caps; dusty plum ink, always. Never
@@ -513,11 +519,15 @@
       padding-top: 14px;
       text-shadow: none;
     }
+    /* Same underline mechanic for EN — background-gradient bar keyed to
+       currentColor (the inline chunk color set by the skeleton). */
     #ko-lyrics .ko-line-en span {
       -webkit-text-fill-color: ${THEME.ink};
-      text-decoration-line: underline;
-      text-decoration-thickness: 1.1px;
-      text-underline-offset: 3px;
+      padding-bottom: 2px;
+      background-image: linear-gradient(currentColor, currentColor);
+      background-size: 100% 1.8px;
+      background-position: 0 100%;
+      background-repeat: no-repeat;
     }
     /* Thin dashed plum divider above the EN line — reads as the ruled
        gutter between a JP stanza and its translator's note. */
