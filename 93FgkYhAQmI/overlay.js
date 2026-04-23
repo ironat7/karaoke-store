@@ -60,12 +60,12 @@
     // Two main hues: Mococo pink, Fuwawa blue. Neutrals: cream, paper, ink.
     // Pink/blue pairs come at light → mid → bold → deep so every motif can
     // pick the intensity it needs without defaulting to a single tone.
-    pinkLight:  '#FFE4EC',
+    pinkLight:  '#FFF0F4',
     pinkMid:    '#FFA9C5',
     pinkBold:   '#FF6FA3',
     pinkDeep:   '#D94B85',
 
-    blueLight:  '#E5F3FA',
+    blueLight:  '#EEF7FC',
     blueMid:    '#A9D9F1',
     blueBold:   '#5EB6E8',
     blueDeep:   '#2D8EC5',
@@ -100,12 +100,12 @@
     //  4 — daisy gold (daisy centers, rainbow-ribbon yellow)
     //  5 — rainbow-ribbon plum (the purple band in the MV's ribbon streaks)
     chunkColors: [
-      '#E55B88',  // 0 — Mococo pink
-      '#3F9CD9',  // 1 — Fuwawa blue
-      '#EF8566',  // 2 — coral / peach wildflower
-      '#4DA17A',  // 3 — leaf green
-      '#D89A3F',  // 4 — daisy gold
-      '#A374B8',  // 5 — ribbon plum
+      '#C93973',  // 0 — Mococo pink (deepened for legibility on pale card)
+      '#1A6FA8',  // 1 — Fuwawa blue (deepened)
+      '#C75A38',  // 2 — coral / peach wildflower (deepened)
+      '#2E7E56',  // 3 — leaf green (deepened)
+      '#A27218',  // 4 — daisy gold (deepened)
+      '#6A4A84',  // 5 — ribbon plum (deepened)
     ],
   };
 
@@ -216,17 +216,15 @@
       gap: 6px;
       padding: ${THEME.cardPadding};
       background:
-        /* faint daisy pattern, barely there */
-        radial-gradient(circle at 15% 25%, rgba(230, 172, 75, 0.06) 0 5px, transparent 6px),
-        radial-gradient(circle at 80% 40%, rgba(230, 172, 75, 0.05) 0 4px, transparent 5px),
-        radial-gradient(circle at 45% 78%, rgba(230, 172, 75, 0.06) 0 5px, transparent 6px),
-        radial-gradient(circle at 68% 90%, rgba(230, 172, 75, 0.05) 0 3px, transparent 4px),
-        /* left half: cream → pink */
+        /* pale pink hint left → wide cream center → pale blue hint right.
+           Cream band holds 30–70% so the text area stays on a calm neutral
+           backdrop, with pink/blue only as soft edge accents. */
         linear-gradient(
           115deg,
           ${THEME.pinkLight} 0%,
-          ${THEME.paper} 42%,
-          ${THEME.paper} 58%,
+          ${THEME.paper} 28%,
+          ${THEME.cream} 50%,
+          ${THEME.paper} 72%,
           ${THEME.blueLight} 100%
         );
       border-radius: ${THEME.cardRadius};
@@ -573,9 +571,11 @@
     }
 
     /* ==== LYRICS ========================================================= */
+    /* Heavier JP weight + tight white under-stroke so chunk-colored kanji
+       pop against the card. Drop shadow under adds depth without haloing. */
     #ko-lyrics .ko-line-jp {
       font-family: var(--ko-font-jp);
-      font-weight: 500;
+      font-weight: 700;
       color: var(--ko-rose);
       font-size: ${THEME.lyricFontSizeJP};
       line-height: ${THEME.lyricLineHeightJP};
@@ -586,31 +586,38 @@
       z-index: 2;
       order: 1;
       text-shadow:
-        0 2px 0 rgba(255, 251, 245, 0.65),
-        0 0 16px rgba(255, 251, 245, 0.55);
+        0 0 2px rgba(255, 255, 255, 0.95),
+        1px 0   0 rgba(255, 255, 255, 0.85),
+       -1px 0   0 rgba(255, 255, 255, 0.85),
+        0 1px   0 rgba(255, 255, 255, 0.85),
+        0 2px 3px rgba(50, 30, 45, 0.22);
     }
     #ko-lyrics .ko-line-jp span { color: inherit; }
 
-    /* Gloss rt — small, lowercase, same hue as the chunk. Slightly
-       lower opacity so it sits behind the kanji perceptually. */
+    /* Gloss rt — force deep ink so it reads as a caption, not a colored
+       ornament. Bigger + bolder + crisp white backing for legibility. */
     #ko-lyrics .ko-line-jp rt {
       font-family: var(--ko-font-gloss);
-      font-size: ${THEME.glossFontSize};
-      font-weight: ${THEME.glossFontWeight};
-      letter-spacing: 0.02em;
+      font-size: 20px;
+      font-weight: 700;
+      color: ${THEME.rose} !important;
+      letter-spacing: 0.01em;
       line-height: 1.1;
       padding-bottom: 4px;
       text-transform: lowercase;
       user-select: none;
-      opacity: 0.88;
-      text-shadow: 0 1px 0 rgba(255, 251, 245, 0.75);
+      opacity: 0.92;
+      text-shadow:
+        0 0 2px rgba(255, 255, 255, 0.95),
+        0 1px 0 rgba(255, 255, 255, 0.9);
     }
     #ko-lyrics .ko-line-jp ruby { ruby-align: center; }
 
-    /* EN line — Quicksand rounded, deep rose, thin divider dash above. */
+    /* EN line — same crisp treatment as JP: bold, tight white stroke, dark
+       drop. No blur glow. */
     #ko-lyrics .ko-line-en {
       font-family: var(--ko-font-en);
-      font-weight: 600;
+      font-weight: 700;
       color: var(--ko-rose);
       font-size: ${THEME.lyricFontSizeEN};
       line-height: ${THEME.lyricLineHeightEN};
@@ -623,8 +630,10 @@
       margin-top: 4px;
       padding-top: 10px;
       text-shadow:
-        0 1.5px 0 rgba(255, 251, 245, 0.6),
-        0 0 10px rgba(255, 251, 245, 0.5);
+        0 0 1.5px rgba(255, 255, 255, 0.95),
+        1px 0   0 rgba(255, 255, 255, 0.8),
+       -1px 0   0 rgba(255, 255, 255, 0.8),
+        0 1px 2px rgba(50, 30, 45, 0.25);
     }
     #ko-lyrics .ko-line-en span { color: inherit; }
     /* A centered thin dashed divider above the EN line — the product
