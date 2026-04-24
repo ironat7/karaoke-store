@@ -891,32 +891,17 @@
     /* ==== LYRIC DISPLAY ====
        #ko-lyrics is positioned via the position tick (see positionTick below).
        Position is structural — do not change. Typography and color are theme. */
-    /* The lyric zone is a borderless stationery haze: a soft cream fog,
-       backdrop-blurred and feathered with a radial mask so the card has
-       NO edge — it fades into the video. Guarantees text contrast without
-       ever drawing a rectangle. Chunk colors get to be saturated on the
-       warm cream tint instead of fighting the raw video. */
+    /* Form-fitting lyric haze: the wrapper is a positioning shell only —
+       no background, no edge. Each line carries its OWN blurred cream
+       halo that shrink-wraps the text via inline-block + a ::before
+       pseudo with a radial feather mask. No rectangle — the glow
+       follows the text width, fading into the video. */
     #ko-lyrics {
       position: fixed;
       pointer-events: none;
       text-align: center;
       z-index: 2147483100;
       transform: translate(-50%, -50%);
-      padding: 28px 56px 30px;
-      background:
-        radial-gradient(ellipse 90% 100% at 50% 50%, rgba(253, 244, 231, 0.34) 0%, rgba(253, 244, 231, 0.18) 55%, rgba(253, 244, 231, 0.04) 90%, transparent 100%);
-      backdrop-filter: blur(22px) saturate(1.25);
-      -webkit-backdrop-filter: blur(22px) saturate(1.25);
-      -webkit-mask-image: radial-gradient(ellipse 90% 100% at 50% 50%, #000 40%, rgba(0,0,0,0.85) 65%, transparent 100%);
-              mask-image: radial-gradient(ellipse 90% 100% at 50% 50%, #000 40%, rgba(0,0,0,0.85) 65%, transparent 100%);
-    }
-    #ko-lyrics.ko-empty {
-      background: transparent;
-      backdrop-filter: none;
-      -webkit-backdrop-filter: none;
-      -webkit-mask-image: none;
-              mask-image: none;
-      padding: 0;
     }
     #ko-lyrics .ko-slot {
       display: flex;
@@ -924,6 +909,31 @@
       align-items: center;
       gap: 14px;
     }
+    #ko-lyrics .ko-line-jp,
+    #ko-lyrics .ko-line-en {
+      display: inline-block;
+      position: relative;
+      isolation: isolate;
+      padding: 0.35em 1em;
+      max-width: 100%;
+    }
+    #ko-lyrics .ko-line-jp::before,
+    #ko-lyrics .ko-line-en::before {
+      content: '';
+      position: absolute;
+      inset: 0 -0.2em;
+      background:
+        radial-gradient(ellipse 90% 100% at 50% 55%, rgba(253, 244, 231, 0.36) 0%, rgba(253, 244, 231, 0.20) 55%, rgba(253, 244, 231, 0.04) 90%, transparent 100%);
+      backdrop-filter: blur(24px) saturate(1.3);
+      -webkit-backdrop-filter: blur(24px) saturate(1.3);
+      -webkit-mask-image: radial-gradient(ellipse 92% 100% at 50% 55%, #000 45%, rgba(0,0,0,0.85) 70%, transparent 100%);
+              mask-image: radial-gradient(ellipse 92% 100% at 50% 55%, #000 45%, rgba(0,0,0,0.85) 70%, transparent 100%);
+      z-index: -1;
+      pointer-events: none;
+    }
+    /* Empty line: no halo (prevents a floating glow under nothing between songs) */
+    #ko-lyrics .ko-line-jp:empty::before,
+    #ko-lyrics .ko-line-en:empty::before { display: none; }
     /* JP line — dark wine ink on the cream fog. No heavy stroke: the fog
        surface handles readability. Soft cream halo keeps edges crisp when
        the fog thins out over bright video. */
