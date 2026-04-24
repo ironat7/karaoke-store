@@ -114,7 +114,7 @@
   // Position: seated high on the video, well above the YouTube player
   // chrome. Card has room for the cursive "again" floating above the JP.
   window.__koPosition = Object.assign(
-    { anchorX: 0.5, anchorY: 0.56, widthFrac: 0.64 },
+    { anchorX: 0.5, anchorY: 0.64, widthFrac: 0.64 },
     window.__koPosition || {}
   );
 
