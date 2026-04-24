@@ -912,6 +912,9 @@
     #ko-lyrics .ko-line-jp,
     #ko-lyrics .ko-line-en {
       display: inline-block;
+      width: -moz-fit-content;
+      width: fit-content;
+      align-self: center;
       position: relative;
       isolation: isolate;
       padding: 0.35em 1em;
