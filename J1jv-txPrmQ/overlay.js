@@ -65,13 +65,13 @@
     ivoryDim:     '#C9C3B2',
 
     // Typography
-    lyricFontSizeJP:     '54px',
+    lyricFontSizeJP:     '58px',
     lyricLineHeightJP:   '2.0',
     lyricLetterSpacingJP:'0.02em',
-    lyricFontSizeEN:     '28px',
+    lyricFontSizeEN:     '38px',
     lyricLineHeightEN:   '1.3',
     lyricLetterSpacingEN:'0.015em',
-    glossFontSize:       '17px',
+    glossFontSize:       '19px',
     glossFontWeight:     '500',
 
     // Card shape
@@ -111,10 +111,10 @@
   window.__wordAlign.colors = THEME.chunkColors.slice();
   if (typeof window.__karaokeLyricsHidden !== 'boolean') window.__karaokeLyricsHidden = false;
 
-  // Position: center-bottom, a touch lower than default. Enough room for
-  // the cursive "again" to float above the JP line without crowding it.
+  // Position: seated high on the video, well above the YouTube player
+  // chrome. Card has room for the cursive "again" floating above the JP.
   window.__koPosition = Object.assign(
-    { anchorX: 0.5, anchorY: 0.74, widthFrac: 0.62 },
+    { anchorX: 0.5, anchorY: 0.56, widthFrac: 0.64 },
     window.__koPosition || {}
   );
 
