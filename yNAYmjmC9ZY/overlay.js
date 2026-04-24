@@ -890,41 +890,52 @@
     .ko-plain-blank { height: 14px; }
 
     /* ==== LYRIC DISPLAY ====
-       #ko-lyrics is positioned via the position tick (see positionTick below).
-       Position is structural — do not change. Typography and color are theme. */
-    /* Lyric haze: strong smooth top-bottom fade + gentler horizontal feather.
-       Composite mask — layer 1 is a long vertical linear gradient with
-       multiple stops for a pillowy top-down dissolve; layer 2 is a wide
-       radial that keeps the left/right edges from being hard rectangles.
-       Intersect so BOTH masks have to be opaque for pixels to show —
-       gives the emphasized top-bottom fade Jerry asked for without losing
-       the four-way feather character. */
+       #ko-lyrics is positioned via the position tick (see positionTick).
+       Position is structural — do not change. Typography and color are theme.
+
+       The lyric haze is a flat cream tint cropped by a composite mask.
+       The same 8-stop feather curve is applied horizontally and vertically
+       and intersected, so pixels only render where BOTH axes are opaque —
+       gives matching fade on every side with no visible rectangle.
+       Stored as a CSS var so the curve is declared once and referenced
+       in four places (mask-image × both axes × both prefixes). */
     #ko-lyrics {
+      --ko-feather:
+        transparent 0%,
+        rgba(0,0,0,0.25) 7%,
+        rgba(0,0,0,0.65) 16%,
+        #000 32%,
+        #000 68%,
+        rgba(0,0,0,0.65) 84%,
+        rgba(0,0,0,0.25) 93%,
+        transparent 100%;
+
       position: fixed;
       pointer-events: none;
       text-align: center;
       z-index: 2147483100;
       transform: translate(-50%, -50%);
-      padding: 160px 160px;
-      background:
-        radial-gradient(ellipse 65% 80% at 50% 50%, rgba(253, 244, 231, 0.26) 0%, rgba(253, 244, 231, 0.14) 45%, rgba(253, 244, 231, 0.04) 80%, transparent 100%);
-      backdrop-filter: blur(14px) saturate(1.2);
-      -webkit-backdrop-filter: blur(14px) saturate(1.2);
-      -webkit-mask-image:
-        linear-gradient(180deg, transparent 0%, rgba(0,0,0,0.25) 7%, rgba(0,0,0,0.65) 16%, #000 32%, #000 68%, rgba(0,0,0,0.65) 84%, rgba(0,0,0,0.25) 93%, transparent 100%),
-        linear-gradient(90deg,  transparent 0%, rgba(0,0,0,0.25) 7%, rgba(0,0,0,0.65) 16%, #000 32%, #000 68%, rgba(0,0,0,0.65) 84%, rgba(0,0,0,0.25) 93%, transparent 100%);
-      -webkit-mask-composite: source-in;
-              mask-image:
-        linear-gradient(180deg, transparent 0%, rgba(0,0,0,0.25) 7%, rgba(0,0,0,0.65) 16%, #000 32%, #000 68%, rgba(0,0,0,0.65) 84%, rgba(0,0,0,0.25) 93%, transparent 100%),
-        linear-gradient(90deg,  transparent 0%, rgba(0,0,0,0.25) 7%, rgba(0,0,0,0.65) 16%, #000 32%, #000 68%, rgba(0,0,0,0.65) 84%, rgba(0,0,0,0.25) 93%, transparent 100%);
+      padding: 160px;
+
+      background: rgba(253, 244, 231, 0.16);
+      backdrop-filter: blur(8px) saturate(1.1);
+      -webkit-backdrop-filter: blur(8px) saturate(1.1);
+
+              mask-image: linear-gradient(180deg, var(--ko-feather)),
+                          linear-gradient(90deg,  var(--ko-feather));
+      -webkit-mask-image: linear-gradient(180deg, var(--ko-feather)),
+                          linear-gradient(90deg,  var(--ko-feather));
               mask-composite: intersect;
+      -webkit-mask-composite: source-in;
     }
+    /* Empty state: kill the haze so the panel doesn't hang in frame
+       between songs or during instrumental breaks. */
     #ko-lyrics.ko-empty {
       background: transparent;
       backdrop-filter: none;
       -webkit-backdrop-filter: none;
-      -webkit-mask-image: none;
               mask-image: none;
+      -webkit-mask-image: none;
       padding: 0;
     }
     #ko-lyrics .ko-slot {
