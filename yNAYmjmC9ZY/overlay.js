@@ -186,12 +186,12 @@
   // Word-level color alignment + per-morpheme gloss (always on).
   // data shape: {<jpText>: {jp: [[chunk, colorIdx], ...], gloss: [[subtoken, colorIdx, label], ...], en: [[chunk, colorIdx], ...]}}
   window.__wordAlign = window.__wordAlign || {
-    // FUWAMOCO duality palette — 6 hues sampled from the stream's actual
-    // character designs and on-screen overlay art. Three warms (Mococo:
-    // ruby eye, carnation hoodie, peach hair-tips) + three cools (Fuwawa:
-    // mint dress, ocean-cyan eyes, navy ribbon accent). Colors paired so
-    // each lyric line gets a balanced warm/cool distribution of chunks.
-    colors: ['#C8325C', '#E86A8B', '#D47A4E', '#3E9583', '#2772AC', '#5B6FA8'],
+    // FUWAMOCO duality — all six hues actually appear on the stream. No
+    // yellow/orange (that color isn't anywhere on screen). Warm side is
+    // Mococo's pink family: heart ruby, carnation hoodie, berry shadow.
+    // Cool side is Fuwawa's blue family: mint dress, ocean-cyan eyes,
+    // navy ribbon. Paired warm/cool so each line gets distributed hues.
+    colors: ['#C8325C', '#E86A8B', '#A84272', '#3E9583', '#2772AC', '#5B6FA8'],
     data: {}
   };
   if (typeof window.__karaokeCollapsed      !== 'boolean') window.__karaokeCollapsed      = false;
@@ -905,18 +905,18 @@
       text-align: center;
       z-index: 2147483100;
       transform: translate(-50%, -50%);
-      padding: 160px 96px;
+      padding: 160px 160px;
       background:
         radial-gradient(ellipse 65% 80% at 50% 50%, rgba(253, 244, 231, 0.26) 0%, rgba(253, 244, 231, 0.14) 45%, rgba(253, 244, 231, 0.04) 80%, transparent 100%);
       backdrop-filter: blur(14px) saturate(1.2);
       -webkit-backdrop-filter: blur(14px) saturate(1.2);
       -webkit-mask-image:
         linear-gradient(180deg, transparent 0%, rgba(0,0,0,0.25) 7%, rgba(0,0,0,0.65) 16%, #000 32%, #000 68%, rgba(0,0,0,0.65) 84%, rgba(0,0,0,0.25) 93%, transparent 100%),
-        radial-gradient(ellipse 80% 100% at 50% 50%, #000 40%, rgba(0,0,0,0.85) 75%, transparent 100%);
+        linear-gradient(90deg,  transparent 0%, rgba(0,0,0,0.25) 7%, rgba(0,0,0,0.65) 16%, #000 32%, #000 68%, rgba(0,0,0,0.65) 84%, rgba(0,0,0,0.25) 93%, transparent 100%);
       -webkit-mask-composite: source-in;
               mask-image:
         linear-gradient(180deg, transparent 0%, rgba(0,0,0,0.25) 7%, rgba(0,0,0,0.65) 16%, #000 32%, #000 68%, rgba(0,0,0,0.65) 84%, rgba(0,0,0,0.25) 93%, transparent 100%),
-        radial-gradient(ellipse 80% 100% at 50% 50%, #000 40%, rgba(0,0,0,0.85) 75%, transparent 100%);
+        linear-gradient(90deg,  transparent 0%, rgba(0,0,0,0.25) 7%, rgba(0,0,0,0.65) 16%, #000 32%, #000 68%, rgba(0,0,0,0.65) 84%, rgba(0,0,0,0.25) 93%, transparent 100%);
               mask-composite: intersect;
     }
     #ko-lyrics.ko-empty {
