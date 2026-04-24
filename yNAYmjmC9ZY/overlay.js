@@ -904,9 +904,9 @@
       transform: translate(-50%, -50%);
       padding: 28px 56px 30px;
       background:
-        radial-gradient(ellipse 90% 100% at 50% 50%, rgba(253, 244, 231, 0.62) 0%, rgba(253, 244, 231, 0.38) 55%, rgba(253, 244, 231, 0.08) 90%, transparent 100%);
-      backdrop-filter: blur(24px) saturate(1.3);
-      -webkit-backdrop-filter: blur(24px) saturate(1.3);
+        radial-gradient(ellipse 90% 100% at 50% 50%, rgba(253, 244, 231, 0.34) 0%, rgba(253, 244, 231, 0.18) 55%, rgba(253, 244, 231, 0.04) 90%, transparent 100%);
+      backdrop-filter: blur(22px) saturate(1.25);
+      -webkit-backdrop-filter: blur(22px) saturate(1.25);
       -webkit-mask-image: radial-gradient(ellipse 90% 100% at 50% 50%, #000 40%, rgba(0,0,0,0.85) 65%, transparent 100%);
               mask-image: radial-gradient(ellipse 90% 100% at 50% 50%, #000 40%, rgba(0,0,0,0.85) 65%, transparent 100%);
     }
