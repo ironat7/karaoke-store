@@ -65,13 +65,13 @@
     ivoryDim:     '#C9C3B2',
 
     // Typography
-    lyricFontSizeJP:     '58px',
+    lyricFontSizeJP:     '68px',
     lyricLineHeightJP:   '2.0',
     lyricLetterSpacingJP:'0.02em',
-    lyricFontSizeEN:     '38px',
+    lyricFontSizeEN:     '42px',
     lyricLineHeightEN:   '1.3',
     lyricLetterSpacingEN:'0.015em',
-    glossFontSize:       '19px',
+    glossFontSize:       '22px',
     glossFontWeight:     '500',
 
     // Card shape
