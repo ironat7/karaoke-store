@@ -186,11 +186,12 @@
   // Word-level color alignment + per-morpheme gloss (always on).
   // data shape: {<jpText>: {jp: [[chunk, colorIdx], ...], gloss: [[subtoken, colorIdx, label], ...], en: [[chunk, colorIdx], ...]}}
   window.__wordAlign = window.__wordAlign || {
-    // Valentine stationery palette — 6 colors derived from the stream's
-    // own language: deep carnation rose, sakura blush, wax-seal gold,
-    // Fuwawa mint teal, musical-note sky cyan, pressed-violet plum.
-    // All jewel-box Valentine hues, legible on video, diverse enough for 6-chunk lines.
-    colors: ['#D43A5C', '#F5A2BC', '#D4A147', '#5FB6A8', '#6CBFD4', '#B77EBF'],
+    // FUWAMOCO duality palette — 6 hues sampled from the stream's actual
+    // character designs and on-screen overlay art. Three warms (Mococo:
+    // ruby eye, carnation hoodie, peach hair-tips) + three cools (Fuwawa:
+    // mint dress, ocean-cyan eyes, navy ribbon accent). Colors paired so
+    // each lyric line gets a balanced warm/cool distribution of chunks.
+    colors: ['#C8325C', '#E86A8B', '#D47A4E', '#3E9583', '#2772AC', '#5B6FA8'],
     data: {}
   };
   if (typeof window.__karaokeCollapsed      !== 'boolean') window.__karaokeCollapsed      = false;
@@ -891,24 +892,32 @@
     /* ==== LYRIC DISPLAY ====
        #ko-lyrics is positioned via the position tick (see positionTick below).
        Position is structural — do not change. Typography and color are theme. */
-    /* Lyric haze: soft radial feather in all four directions. Generous
-       padding on every side gives the mask room to fall off to fully
-       transparent before the content edge, so there is no visible
-       rectangle — the blur dissolves into the video equally on every
-       side. Blur kept light so the video underneath still reads. */
+    /* Lyric haze: strong smooth top-bottom fade + gentler horizontal feather.
+       Composite mask — layer 1 is a long vertical linear gradient with
+       multiple stops for a pillowy top-down dissolve; layer 2 is a wide
+       radial that keeps the left/right edges from being hard rectangles.
+       Intersect so BOTH masks have to be opaque for pixels to show —
+       gives the emphasized top-bottom fade Jerry asked for without losing
+       the four-way feather character. */
     #ko-lyrics {
       position: fixed;
       pointer-events: none;
       text-align: center;
       z-index: 2147483100;
       transform: translate(-50%, -50%);
-      padding: 56px 96px;
+      padding: 160px 96px;
       background:
-        radial-gradient(ellipse 60% 70% at 50% 50%, rgba(253, 244, 231, 0.26) 0%, rgba(253, 244, 231, 0.14) 45%, rgba(253, 244, 231, 0.04) 80%, transparent 100%);
+        radial-gradient(ellipse 65% 80% at 50% 50%, rgba(253, 244, 231, 0.26) 0%, rgba(253, 244, 231, 0.14) 45%, rgba(253, 244, 231, 0.04) 80%, transparent 100%);
       backdrop-filter: blur(14px) saturate(1.2);
       -webkit-backdrop-filter: blur(14px) saturate(1.2);
-      -webkit-mask-image: radial-gradient(ellipse 62% 72% at 50% 50%, #000 0%, rgba(0,0,0,0.95) 35%, rgba(0,0,0,0.55) 70%, transparent 100%);
-              mask-image: radial-gradient(ellipse 62% 72% at 50% 50%, #000 0%, rgba(0,0,0,0.95) 35%, rgba(0,0,0,0.55) 70%, transparent 100%);
+      -webkit-mask-image:
+        linear-gradient(180deg, transparent 0%, rgba(0,0,0,0.25) 7%, rgba(0,0,0,0.65) 16%, #000 32%, #000 68%, rgba(0,0,0,0.65) 84%, rgba(0,0,0,0.25) 93%, transparent 100%),
+        radial-gradient(ellipse 80% 100% at 50% 50%, #000 40%, rgba(0,0,0,0.85) 75%, transparent 100%);
+      -webkit-mask-composite: source-in;
+              mask-image:
+        linear-gradient(180deg, transparent 0%, rgba(0,0,0,0.25) 7%, rgba(0,0,0,0.65) 16%, #000 32%, #000 68%, rgba(0,0,0,0.65) 84%, rgba(0,0,0,0.25) 93%, transparent 100%),
+        radial-gradient(ellipse 80% 100% at 50% 50%, #000 40%, rgba(0,0,0,0.85) 75%, transparent 100%);
+              mask-composite: intersect;
     }
     #ko-lyrics.ko-empty {
       background: transparent;
