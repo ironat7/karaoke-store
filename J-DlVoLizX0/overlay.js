@@ -740,7 +740,17 @@
     const sl = window.__setlist || [];
     for (const s of sl) {
       if (t >= s.s && t < s.end) {
-        if (s.lrcId) delete window.__lyricOffsets[s.lrcId];
+        if (s.lrcId) {
+          delete window.__lyricOffsets[s.lrcId];
+          try {
+            const vid = new URL(location.href).searchParams.get('v');
+            window.postMessage({
+              __ko: true, type: 'offset',
+              videoId: vid, lrcId: s.lrcId,
+              offset: null
+            }, location.origin);
+          } catch {}
+        }
         break;
       }
     }
